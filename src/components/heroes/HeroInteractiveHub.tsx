@@ -133,45 +133,13 @@ export function HeroInteractiveHub({ hero }: HeroInteractiveHubProps) {
             )}
           </div>
 
-          {/* Thẻ nhân vật dạng dọc (Vertical Hero Card) - w, h cứng, bo góc, viền line cam */}
-          <div className="shrink-0 w-[280px] h-[390px] rounded-3xl border-2 border-orange-500 bg-gradient-to-b from-slate-900 via-slate-950 to-orange-950/30 p-3.5 flex flex-col justify-between relative overflow-hidden shadow-2xl shadow-orange-500/10 group hover:shadow-orange-500/20 transition-all duration-300">
-            {/* Hào quang nền mờ viền cam */}
-            <div className="absolute inset-0 bg-radial from-orange-500/10 via-transparent to-transparent pointer-events-none" />
-
-            {/* Top Bar của thẻ bài: Rarity & Element */}
-            <div className="relative z-10 flex items-center justify-between">
-              <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-gradient-to-r from-orange-500 to-amber-500 text-slate-950 shadow-md tracking-wider">
-                {hero.rarity || 'SSR'}
-              </span>
-              <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-slate-900/90 border border-orange-500/40 text-orange-300 shadow">
-                {hero.element}
-              </span>
-            </div>
-
-            {/* Khung giữa fit cứng ảnh nhân vật full body */}
-            <div className="relative z-10 flex-1 flex items-center justify-center overflow-hidden my-2">
-              <img
-                src={hero.fullArt || hero.avatar}
-                alt={`${hero.name} toàn thân`}
-                className="w-full h-full object-contain filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.95)] group-hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Bottom Bar của thẻ bài: Tên, Vai trò và Sao */}
-            <div className="relative z-10 p-2.5 rounded-2xl bg-slate-900/90 border border-orange-500/30 backdrop-blur-sm flex flex-col items-center text-center shadow-lg">
-              <div className="flex items-center justify-between w-full mb-1">
-                <span className="font-black text-sm text-white truncate group-hover:text-orange-400 transition-colors">
-                  {hero.name}
-                </span>
-                <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-orange-500/20 text-orange-300 border border-orange-500/30">
-                  {hero.role}
-                </span>
-              </div>
-              {/* Hàng 5 sao vàng đặc trưng của thẻ bài Siêu Anh Hùng */}
-              <div className="flex items-center justify-center gap-1 text-amber-400 text-xs">
-                {'★'.repeat(5)}
-              </div>
-            </div>
+          {/* Thẻ nhân vật dạng dọc - w, h cứng, bo góc, viền line cam */}
+          <div className="shrink-0 w-[280px] h-[390px] rounded-3xl border-2 border-orange-500 bg-slate-950/60 p-3 flex items-center justify-center overflow-hidden shadow-2xl shadow-orange-500/10">
+            <img
+              src={hero.fullArt || hero.avatar}
+              alt={`${hero.name} toàn thân`}
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
       </div>
