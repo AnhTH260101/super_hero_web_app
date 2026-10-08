@@ -1,0 +1,608 @@
+{
+  "id": "41400",
+  "slug": "kenpachi-zaraki",
+  "name": "Kenpachi Zaraki",
+  "title": "Vũ trụ linh tính • SSR Kenpachi Zaraki",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kenpachi-zaraki.png",
+  "fullArt": "/images/heroes/full/image_gengmujianba.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chiến đấu chính là niềm vui của cậu ấy, hơn nữa vì nhường đối thủ, anh còn đeo bịt mắt biết hút linh lực, và đeo chuông trên tóc.",
+  "skills": [
+    {
+      "name": "Kiếm Áp",
+      "icon": "/images/heroes/s_gengmujianba_s1.png",
+      "description": "Tạo lên 3-5 kẻ địch ngẫu nhiên 350% ST Vật Lý và 500% ST thuộc tính Gió, tạo x2-10 ST và ST thuộc tính ( số người ngẫu nhiên càng thấp, ST càng cao).",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kenpachi Zaraki",
+        "description": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Kiếm Đạo",
+      "icon": "/images/heroes/s_gengmujianba_s2.png",
+      "description": "Skill trước khi bị đánh: Tạo lên toàn thể phe địch 350% ST Vật Lý và 300% ST thuộc tính Gió, hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương), tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kenpachi Zaraki",
+        "description": "Tăng 200% Trúng, Bạo Kích cho bản thân (Hiệp này không sinh hiệu quả), số lần mỗi hiệp kích hoạt đổi thành 3 lần."
+      }
+    },
+    {
+      "name": "Linh Áp Phòng Ngự",
+      "icon": "/images/heroes/s_gengmujianba_s3.png",
+      "description": "Skill phản đòn: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo lên 3-5 kẻ địch ngẫu nhiên 350% ST Vật Lý và 200% ST thuộc tính Gió, hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương), tạo x4-6 St và ST thuộc tính, tạo lên tất cả mục tiêu hiệu quả tụt máu (30% HP bản thân).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kenpachi Zaraki",
+        "description": "Và tạo thêm lên mục tiêu sát thương thuộc tính và sát thương bổ sung bằng 800% Tốc Độ c ủa bản thân"
+      }
+    },
+    {
+      "name": "Huyết Chiến",
+      "icon": "/images/heroes/s_gengmujianba_s6.png",
+      "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo lên toàn thể phe địch ST thực bằng 45% HP tối đa của bản thân, chọn ngẫu nhiên một mục tiêu để kết liễu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kenpachi Zaraki",
+        "description": "Được hồi sinh tối đa 3 lần,sau khi tử trận có 50% tỉ lệ khiến mục tiêu trói buộc và khiến mục tiêu không thể phát động skill trước khi bị tấn công trong hiệp hiện tại."
+      }
+    },
+    {
+      "name": "Một Đao Hỏa Táng",
+      "icon": "/images/heroes/s_gengmujianba_s7.png",
+      "description": "Skill trước trận: Tạo lên toàn thể phe địch 350% ST Vật Lý và ST bằng 800% ST thực thuộc tính Gió, tăng 79% giảm thương tổng thể của bản thân, tăng 350% tấn công thuộc tính Gió cho bản thân, tăng vĩnh viễn 200% Né và SPEED cho bản thân, tạo thêm x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kenpachi Zaraki",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó"
+      }
+    },
+    {
+      "name": "Lưỡng Đoạn",
+      "icon": "/images/heroes/s_gengmujianba_s4.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Vật Lý và 800% ST thuộc tính Gió, tạo x4-6 ST và ST thuộc tính, và tạo thêm một lần ST.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Kenpachi Zaraki",
+        "description": "Khiến mục tiêu trói buộc, kết liễu mục tiêu tấn công có HP dưới 30%."
+      }
+    },
+    {
+      "name": "Cự Trảm",
+      "icon": "/images/heroes/s_gengmujianba_s5.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo lên 3-5 kẻ địch ngẫu nhiên 350% ST Vật Lý và 900% ST thuộc tính Gió, giảm 90% Trúng, Bạo Kích của mục tiêu, và khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm đến 0 điểm (Sát thương tấn công lần này có hiệu lực).",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kenpachi Zaraki",
+        "description": "Tạo hiệu quả khác nhau tùy theo số lượng của đối phương:\n1.Đối phương từ 4~5 người, thì sẽ tạo thêm x5 sát thương và sát thương thuộc tính lên mục tiêu.\n2.Đối phương từ 1~3 người, thì sẽ tạo thêm x7 sát thương và sát thương thuộc tính lên mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hung Ác: Khi xuất hiện cùng lúc với Tsunade và Aizen Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Vết Thẹo: Khi xuất hiện cùng lúc với Tornado Vật Công, HP và Tốc Độ+15%",
+    "Nhiệt Huyết: Khi xuất hiện cùng lúc với Mai Shiranui Vật Công, HP và Tốc Độ+15%",
+    "Mù Đường: Khi xuất hiện cùng lúc với Namikaze Minato Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kenpachi-zaraki",
+      "name": "CT-Kenpachi Zaraki",
+      "avatar": "/images/heroes/ct-kenpachi-zaraki.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Chiến đấu chính là niềm vui của cậu ấy, hơn nữa vì nhường đối thủ, anh còn đeo bịt mắt biết hút linh lực, và đeo chuông trên tóc."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kenpachi Zaraki",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Kiếm Áp",
+      "skillIcon": "/images/heroes/s_gengmujianba_s1.png",
+      "skillDesc": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kenpachi Zaraki",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Kiếm Đạo",
+      "skillIcon": "/images/heroes/s_gengmujianba_s2.png",
+      "skillDesc": "Tăng 200% Trúng, Bạo Kích cho bản thân (Hiệp này không sinh hiệu quả), số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kenpachi Zaraki",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Linh Áp Phòng Ngự",
+      "skillIcon": "/images/heroes/s_gengmujianba_s3.png",
+      "skillDesc": "Và tạo thêm lên mục tiêu sát thương thuộc tính và sát thương bổ sung bằng 800% Tốc Độ c ủa bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Kenpachi Zaraki",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Lưỡng Đoạn",
+      "skillIcon": "/images/heroes/s_gengmujianba_s4.png",
+      "skillDesc": "Khiến mục tiêu trói buộc, kết liễu mục tiêu tấn công có HP dưới 30%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kenpachi Zaraki",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Cự Trảm",
+      "skillIcon": "/images/heroes/s_gengmujianba_s5.png",
+      "skillDesc": "Tạo hiệu quả khác nhau tùy theo số lượng của đối phương:\n1.Đối phương từ 4~5 người, thì sẽ tạo thêm x5 sát thương và sát thương thuộc tính lên mục tiêu.\n2.Đối phương từ 1~3 người, thì sẽ tạo thêm x7 sát thương và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kenpachi Zaraki",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Huyết Chiến",
+      "skillIcon": "/images/heroes/s_gengmujianba_s6.png",
+      "skillDesc": "Được hồi sinh tối đa 3 lần,sau khi tử trận có 50% tỉ lệ khiến mục tiêu trói buộc và khiến mục tiêu không thể phát động skill trước khi bị tấn công trong hiệp hiện tại.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kenpachi Zaraki",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Một Đao Hỏa Táng",
+      "skillIcon": "/images/heroes/s_gengmujianba_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lưỡng Đoạn",
+      "unlockedSkillIcon": "/images/heroes/s_gengmujianba_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Cự Trảm",
+      "unlockedSkillIcon": "/images/heroes/s_gengmujianba_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/kenpachi-zaraki.png",
+          "slug": "kenpachi-zaraki"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

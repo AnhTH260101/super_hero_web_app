@@ -1,0 +1,598 @@
+{
+  "id": "44000",
+  "slug": "meliodas",
+  "name": "Meliodas",
+  "title": "Vũ trụ linh tính • SSR Meliodas",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_mlads.png",
+  "fullArt": "/images/heroes/icon_mlads.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Đoàn trưởng đoàn kị sĩ Thất Hình Đại Tội, được mệnh danh \"Đại Tội Phẫn Nộ\". Do chịu lời nguyền tối cao nên cơ thể bị vĩnh viễn dừng lại ở hình hài một đứa trẻ và bất tử.",
+  "skills": [
+    {
+      "name": "Phản Đòn",
+      "icon": "/images/heroes/s_mlads_s1.png",
+      "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Địa cho toàn phe địch. Ngưng tụ 1 tầng \"Sức Mạnh Ma Thần\".",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Meliodas",
+        "description": "Gây ra thêm gấp 5 lần ST; Dùng tối đa 1 tầng \"Sức Mạnh Ma Thần\" của bản thân thì ST của kĩ năng này sẽ tăng gấp đôi."
+      }
+    },
+    {
+      "name": "Tiêu Biến",
+      "icon": "/images/heroes/s_mlads_s2.png",
+      "description": "Kĩ năng cảm tri: Trước khi bị kẻ địch tấn công, nhận 1 lần \"Vô Địch\"; hồi 30% HP max.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Meliodas",
+        "description": "Mỗi lượt tối đa sử dụng 3 lần; Buff \"Vô Địch\" duy trì 1 lượt; Ngưng tụ 1 tầng \"Sức Mạnh Ma Thần\"."
+      }
+    },
+    {
+      "name": "Phản Đòn Báo Thù",
+      "icon": "/images/heroes/s_mlads_s3.png",
+      "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Địa cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Meliodas",
+        "description": "Gây Choáng mục tiêu 1 lượt."
+      }
+    },
+    {
+      "name": "Sức Mạnh Ma Thần",
+      "icon": "/images/heroes/s_mlads_s6.png",
+      "description": "Kĩ năng tử vong: Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thực bằng 350% tấn công ma pháp và 1500% ST thuộc tính Địa cho toàn phe địch, tối đa Hồi Sinh 3 lần. Diệt Ngay 1 mục tiêu ngẫu nhiên phe địch. Dùng 3 tầng \"Sức Mạnh Ma Thần\" để Diệt Ngay thêm 1 mục tiêu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Meliodas",
+        "description": "Số lần Hồi Sinh tối đa tăng thành 4. Ngưng tụ 1 tầng \"Sức Mạnh Ma Thần\"."
+      }
+    },
+    {
+      "name": "Kami Chigiri",
+      "icon": "/images/heroes/s_mlads_s7.png",
+      "description": "Kĩ năng tiền chiến: Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Địa cho toàn phe địch. Ngưng tụ 2 tầng \"Sức Mạnh Ma Thần\".",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Meliodas",
+        "description": "Khiến bản thân tăng vĩnh viễn 230% HP max, miễn dịch các hiệu ứng Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi"
+      }
+    },
+    {
+      "name": "Hắc Viêm",
+      "icon": "/images/heroes/s_mlads_s4.png",
+      "description": "Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Địa cho toàn phe địch",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Meliodas",
+        "description": "Giảm 100% tấn công vật lý và ma pháp của mục tiêu, duy trì 2 lượt. Dùng 1 tầng \"Sức Mạnh Ma Thần\" của bản thân để Diệt Ngay 1 mục tiêu ngẫu nhiên, mỗi lần phóng kĩ năng tối đa dùng 2 tầng."
+      }
+    },
+    {
+      "name": "Cắt Kim Loại",
+      "icon": "/images/heroes/s_mlads_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng 350% tấn công ma pháp và 1500% ST thuộc tính Địa cho toàn phe địch. Hồi 100% HP bản thân. Ngưng tự 1 tầng \"Sức Mạnh Ma Thần\". Dùng 1 tầng \"Sức Mạnh Ma Thần\" của bản thân gây ra ST truy kích bằng 50% HP max của bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Meliodas",
+        "description": "Diệt Ngay 1 mục tiêu ngẫu nhiên. Mỗi lần phóng kĩ năng tối đa dùng 3 tầng khiến ST truy kích tăng lên đến 150%"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tàng Phong: Khi xuất hiện cùng lúc với Frieren và Inori Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Kiếm Quang: Khi xuất hiện cùng lúc với Thợ Săn - Zoro Ma Công, HP và Tốc Độ+15%",
+    "Ma Lực Áp Súc: Khi xuất hiện cùng lúc với Cid Kageno Ma Công, HP và Tốc Độ+15%",
+    "Thủ Lĩnh: Khi xuất hiện cùng lúc với Râu Trắng Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Meliodas",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Phản Đòn",
+      "skillIcon": "/images/heroes/s_mlads_s1.png",
+      "skillDesc": "Gây ra thêm gấp 5 lần ST; Dùng tối đa 1 tầng \"Sức Mạnh Ma Thần\" của bản thân thì ST của kĩ năng này sẽ tăng gấp đôi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Meliodas",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tiêu Biến",
+      "skillIcon": "/images/heroes/s_mlads_s2.png",
+      "skillDesc": "Mỗi lượt tối đa sử dụng 3 lần; Buff \"Vô Địch\" duy trì 1 lượt; Ngưng tụ 1 tầng \"Sức Mạnh Ma Thần\".",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Meliodas",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Phản Đòn Báo Thù",
+      "skillIcon": "/images/heroes/s_mlads_s3.png",
+      "skillDesc": "Gây Choáng mục tiêu 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Meliodas",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Hắc Viêm",
+      "skillIcon": "/images/heroes/s_mlads_s4.png",
+      "skillDesc": "Giảm 100% tấn công vật lý và ma pháp của mục tiêu, duy trì 2 lượt. Dùng 1 tầng \"Sức Mạnh Ma Thần\" của bản thân để Diệt Ngay 1 mục tiêu ngẫu nhiên, mỗi lần phóng kĩ năng tối đa dùng 2 tầng.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Meliodas",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Cắt Kim Loại",
+      "skillIcon": "/images/heroes/s_mlads_s5.png",
+      "skillDesc": "Diệt Ngay 1 mục tiêu ngẫu nhiên. Mỗi lần phóng kĩ năng tối đa dùng 3 tầng khiến ST truy kích tăng lên đến 150%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Meliodas",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Sức Mạnh Ma Thần",
+      "skillIcon": "/images/heroes/s_mlads_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Ngưng tụ 1 tầng \"Sức Mạnh Ma Thần\".",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Meliodas",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kami Chigiri",
+      "skillIcon": "/images/heroes/s_mlads_s7.png",
+      "skillDesc": "Khiến bản thân tăng vĩnh viễn 230% HP max, miễn dịch các hiệu ứng Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hắc Viêm",
+      "unlockedSkillIcon": "/images/heroes/s_mlads_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Cắt Kim Loại",
+      "unlockedSkillIcon": "/images/heroes/s_mlads_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Meliodas",
+          "icon": "/images/heroes/icon_mlads.png",
+          "slug": "meliodas"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

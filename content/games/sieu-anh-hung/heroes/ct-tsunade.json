@@ -1,0 +1,679 @@
+{
+  "id": "79300",
+  "slug": "ct-tsunade",
+  "name": "CT-Tsunade",
+  "title": "Vũ trụ linh tính • UR CT-Tsunade",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-tsunade.png",
+  "fullArt": "/images/heroes/full/image_gangshou.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Hokage Đệ Ngũ, cũng là Tam nhẫn huyền thoại của Làng Lá, người quan trọng của bà là người yêu Kato Dan và em trai Nawaki. Sở trường thể thuật và nhẫn thuật chữa trị.",
+  "skills": [
+    {
+      "name": "Quái Lực",
+      "icon": "/images/heroes/s_gangshou_s1.png",
+      "description": "Tạo lên 3~5 kẻ địch bất kì 350% ST Vật Công và 500% ST thuộc tính Nước, tạo x3 ST và ST thuộc tính, khiển mục tiêu bị mù (ST sinh hiệu quả trong lần tấn công này).",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Tsunade",
+        "description": "Giảm tất cả công và phòng ngự thuộc tính của mục tiêu xuống 0 điểm, hiệu lực kéo dài trong 1 lượt."
+      }
+    },
+    {
+      "name": "Thống Thiên Cước",
+      "icon": "/images/heroes/s_gangshou_s2.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Vật Công và 300% ST thuộc tính Nước, hồi toàn bộ HP bản thân (Bỏ qua trọng thương), khiến mục tiêu bị mù hoặc trói buộc.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Tsunade",
+        "description": "Gây thêm 3 lần sát thương và sát thương thuộc tính, tăng 200% độ chính xác và bạo kích của bản thân (có hiệu lực trong lượt này)."
+      }
+    },
+    {
+      "name": "Âm Phong Ấn",
+      "icon": "/images/heroes/s_gangshou_s3.png",
+      "description": "Skill trước khi bị đánh: Tạo lên toàn thể phe địch 350% ST Vật Công và 200% ST thực thuộc tính Nước, hồi toàn bộ HP bản thân (Bỏ qua trọng thương), khiến mục tiêu bị mù hoặc trói buộc, tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Tsunade",
+        "description": "Tăng 200% né tránh của toàn bộ, gây sát thương thêm tương đương 800% tốc độ của bản thân và sát thương thuộc tính lên mục tiêu."
+      }
+    },
+    {
+      "name": "Đao Thủ Thuật Chakra",
+      "icon": "/images/heroes/s_gangshou_s6.png",
+      "description": "Skill trước trận: Tạo lên toàn thể phe địch 350% ST Vật Lý và 800% ST thực thuộc tính Nước, tăng 79% tỉ lệ giảm thương tổng thể của bản thân, vĩnh viễn tăng 350% tấn công thuộc tính Nước, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, tạo x4-6 ST và ST thuộc tính, tăng 100% giới hạn HP của bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Tsunade",
+        "description": "Làm mù hoặc trói buộc mục tiêu, miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ."
+      }
+    },
+    {
+      "name": "Âm Phong Ấn·Giải",
+      "icon": "/images/heroes/s_gangshou_s7.png",
+      "description": "Skill tử trận: Hồi toàn bộ HP.Tạo lên toàn thể phe địch 350% ST Vật Công và 900% ST thực thuộc tính Nước, xóa hiệu quả trọng thương toàn thể phe ta.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Tsunade",
+        "description": "Có thể hồi sinh tối đa 2 lần, hồi phục lượng máu bằng 800% tấn công vật lý của bản thân cho toàn đội, sau khi hồi sinh, sát thương và sát thương thuộc tính của tất cả các kỹ năng mỗi khi tấn công sẽ tăng lên 2-4 lần."
+      }
+    },
+    {
+      "name": "Chưởng Tiên Thuật",
+      "icon": "/images/heroes/s_gangshou_s4.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Vật Công và 900% ST thuộc tính Nước, hồi cho toàn đội HP bằng 800% Vật Công của bản thân, tạo x3 ST và ST thuộc tính.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Tsunade",
+        "description": "Tùy vào số lượng đối thủ, gây ra hiệu ứng khác nhau:1.Nếu số lượng đối thủ từ 4 đến 5, gây thêm 5 lần sát thương và sát thương thuộc tính.2.Nếu số lượng đối thủ từ 1 đến 3, gây thêm 7 lần sát thương."
+      }
+    },
+    {
+      "name": "Bách Hào Thuật",
+      "icon": "/images/heroes/s_gangshou_s5.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Công,Tạo lên toàn thể phe địch 350% ST Vật Công và 800% ST thực thuộc tính Nước, hồi toàn bộ HP bản thân (Bỏ qua trọng thương), trong hiệp này giảm 100% tấn công thuộc tính Nước, Phòng Ngự và Né của phe địch (ST sinh hiệu quả trong lần tấn công này).",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Tsunade",
+        "description": "\"Tùy theo số lượng kẻ địch mà gây hiệu ứng khác nhau:"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Cờ Bạc: Khi xuất hiện cùng lúc với Tornado và Uchiha Obito Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Nghiện Rượu: Khi xuất hiện cùng lúc với Shana Vật Công, HP và Tốc Độ+15%",
+    "Kiên Cường: Khi xuất hiện cùng lúc với Mai Shiranui Vật Công, HP và Tốc Độ+15%",
+    "Thể Thuật: Khi xuất hiện cùng lúc với Namikaze Minato Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Tsunade: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Kefla",
+      "icon": "/images/heroes/kefla.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Tsunade",
+      "icon": "/images/heroes/tsunade.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Tsunade",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Quái Lực",
+      "skillIcon": "/images/heroes/s_gangshou_s1.png",
+      "skillDesc": "Giảm tất cả công và phòng ngự thuộc tính của mục tiêu xuống 0 điểm, hiệu lực kéo dài trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Tsunade",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Thống Thiên Cước",
+      "skillIcon": "/images/heroes/s_gangshou_s2.png",
+      "skillDesc": "Gây thêm 3 lần sát thương và sát thương thuộc tính, tăng 200% độ chính xác và bạo kích của bản thân (có hiệu lực trong lượt này).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Tsunade",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Âm Phong Ấn",
+      "skillIcon": "/images/heroes/s_gangshou_s3.png",
+      "skillDesc": "Tăng 200% né tránh của toàn bộ, gây sát thương thêm tương đương 800% tốc độ của bản thân và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Tsunade",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Chưởng Tiên Thuật",
+      "skillIcon": "/images/heroes/s_gangshou_s4.png",
+      "skillDesc": "Tùy vào số lượng đối thủ, gây ra hiệu ứng khác nhau:1.Nếu số lượng đối thủ từ 4 đến 5, gây thêm 5 lần sát thương và sát thương thuộc tính.2.Nếu số lượng đối thủ từ 1 đến 3, gây thêm 7 lần sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Tsunade",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bách Hào Thuật",
+      "skillIcon": "/images/heroes/s_gangshou_s5.png",
+      "skillDesc": "\"Tùy theo số lượng kẻ địch mà gây hiệu ứng khác nhau:",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Tsunade",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Đao Thủ Thuật Chakra",
+      "skillIcon": "/images/heroes/s_gangshou_s6.png",
+      "skillDesc": "Làm mù hoặc trói buộc mục tiêu, miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Tsunade",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Âm Phong Ấn·Giải",
+      "skillIcon": "/images/heroes/s_gangshou_s7.png",
+      "skillDesc": "Có thể hồi sinh tối đa 2 lần, hồi phục lượng máu bằng 800% tấn công vật lý của bản thân cho toàn đội, sau khi hồi sinh, sát thương và sát thương thuộc tính của tất cả các kỹ năng mỗi khi tấn công sẽ tăng lên 2-4 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Chưởng Tiên Thuật",
+      "unlockedSkillIcon": "/images/heroes/s_gangshou_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Bách Hào Thuật",
+      "unlockedSkillIcon": "/images/heroes/s_gangshou_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "slug": "tsunade"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "id": "60400",
+  "slug": "ct-nidhogg",
+  "name": "CT-Nidhogg",
+  "title": "Vũ trụ nguyên tố • SSR CT-Nidhogg",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-nidhogg.png",
+  "fullArt": "/images/heroes/full/image_nidehuoge.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Hắc Long không ngừng gặm nhấm gốc cây thế giới, ngày ra đời đã mang theo hơi thở ngày tận thế, thời khắc nó cắn đứt cây, hoàng hôn chư thần sẽ giáng xuống đại lục, hủy diệt thế giới.",
+  "skills": [
+    {
+      "name": "Sí Hồn Diệm-Thánh",
+      "icon": "/images/heroes/s_guangjian.png",
+      "description": "Tấn công mục tiêu xếp sau tạo 350% sát thương ma pháp, tạo thêm 130% sát thương thuộc tính đất. Bỏ qua phòng ngự, xóa hết hiệu quả buff của mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng Sĩ·Nidhogg",
+        "description": "Phục hồi 20% HP, tăng 20% tốc độ cho bản thân, làm choáng mục tiếu hiệp"
+      }
+    },
+    {
+      "name": "Ma Long Giáng Lâm-Thánh",
+      "icon": "/images/heroes/s_yongqi.png",
+      "description": "x2 phòng ngự, xóa debuff và tăng 20% giảm thương bản thân, khi HP ít hơn 50%, Hắc Long phục hồi 350% HP và tăng 20% toàn bộ thuộc tính (hiệu quả không cộng dồn)",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu Sĩ·Nidhogg",
+        "description": "Tăng 10% giảm thương, giảm 20% ma công toàn bộ địch"
+      }
+    },
+    {
+      "name": "Ma Long Ám Ảnh Vũ-Thánh",
+      "icon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "description": "Khi tấn công tạo 350% sát thương ma pháp và giảm 10% chính xác toàn bộ địch, tạo thêm 100% sát thương thuộc tính đất.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Nidhogg",
+        "description": "Tăng sát thương, số người có mặt càng ít, sát thương càng cao (tối đa tăng 2 lần), kéo dài suốt trận chiến"
+      }
+    },
+    {
+      "name": "Thần Long Vẫy Đuôi-Thánh",
+      "icon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "description": "Kĩ năng trước trận, tăng effect tấn công thuộc tính đất điểm tuyệt đối",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền Thuyết·Nidhogg",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Phi Long Tại Thiên-Thánh",
+      "icon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "description": "Khi tử vong phục hồi toàn bộ đồng đội 350% tốc độ và phòng ngự, giảm hiệu quả BUFF của các tướng xếp sau phe địch",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Nidhogg",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ma Long Kỵ Sĩ: Khi cùng lúc ra trận với Gaten và Na Tra thì vật công、ma công、HP+20%，phòng ngự và tốc độ+10%",
+    "Tướng Lĩnh Tận Thế: Khi cùng lúc ra trận với Hades thì vật công、HP và tốc độ+15%",
+    "Huyết Thống Cao Quý: Khi cùng lúc ra trận với Tề Thiên Đại Thánh、Zeus và card4 thì ma công、HP và tốc độ+15%",
+    "Hơi Thơ Lửa: Khi trang bị Mặc Hàn Độc Nhẫn thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng Sĩ·Nidhogg",
+      "tierName": "CT-Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sí Hồn Diệm-Thánh",
+      "skillIcon": "/images/heroes/s_guangjian.png",
+      "skillDesc": "Phục hồi 20% HP, tăng 20% tốc độ cho bản thân, làm choáng mục tiếu hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu Sĩ·Nidhogg",
+      "tierName": "CT-Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ma Long Giáng Lâm-Thánh",
+      "skillIcon": "/images/heroes/s_yongqi.png",
+      "skillDesc": "Tăng 10% giảm thương, giảm 20% ma công toàn bộ địch",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Nidhogg",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Ma Long Ám Ảnh Vũ-Thánh",
+      "skillIcon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "skillDesc": "Tăng sát thương, số người có mặt càng ít, sát thương càng cao (tối đa tăng 2 lần), kéo dài suốt trận chiến",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền Thuyết·Nidhogg",
+      "tierName": "CT-Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Thần Long Vẫy Đuôi-Thánh",
+      "skillIcon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Nidhogg",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Phi Long Tại Thiên-Thánh",
+      "skillIcon": "/images/heroes/s_xiewangyanshaheilongbo.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Nidhogg",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Nidhogg",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

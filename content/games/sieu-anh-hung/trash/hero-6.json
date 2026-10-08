@@ -1,0 +1,90 @@
+{
+  "id": "hero-6",
+  "slug": "hero-6",
+  "name": "宇智波斑",
+  "title": "Vũ trụ linh tính • SSR 宇智波斑",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "宇智波一族的前任首领，前任六道仙人长子因陀罗的查克拉转世者，还是曾经宇智波一族的最强者。",
+  "skills": [
+    {
+      "name": "豪火灭却",
+      "type": "active",
+      "description": "对敌方全体造成350%的魔法伤害和100%的火属性伤害。对目标造成“灼烧”：每回合对目标造成自身基础魔法攻击力300%的真实伤害，持续3回合。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "神罗天征",
+      "type": "ultimate",
+      "description": "感知技：在受到敌人攻击前，获得“招架”一层；回复30%最大生命值；",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "宇智波反弹",
+      "type": "talent",
+      "description": "反击技:对敌方全体造成350%的魔法伤害和200%的火属性伤害。对目标造成“灼烧”：每回合对目标造成自身基础魔法攻击力300%的真实伤害，持续3回合。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "伊邪那岐",
+      "type": "passive",
+      "description": "死亡技：回复自身全部生命值（无视重伤）。对敌方全体造成350%的魔法攻击真伤与1500%火属性真实伤害，最多可复活3次。对目标造成“灼烧”：每回合对目标造成自身基础魔法攻击力300%的真实伤害，持续3回合。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "天碍震星",
+      "type": "talent",
+      "description": "战前技：对敌方全体造成350%的魔法攻击真伤，并造成原伤害2倍的追击伤害；回复自身100%最大生命值。随机秒杀1名敌人。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "豪火灭矢",
+      "type": "passive",
+      "description": "对敌方造成350%的魔法攻击真伤与1800%火属性伤害真实伤害。对目标造成“灼烧”：每回合对目标造成自身基础魔法攻击力300%的真实伤害，持续3回合。",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "须佐能乎",
+      "type": "passive",
+      "description": "回合前技：对敌方造成350%的魔法攻击真伤与1500%火属性伤害真实伤害。回复自身100%最大生命值。获得1层“招架”。",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "巅峰: 与card2和card3同时出场时物攻、魔攻、生命+20%，防御、速度+15%",
+    "强横肉身: 与card2同时出场时魔攻、生命和速度+15%",
+    "宇智波: 与card2同时出场时魔攻、生命和速度+15%",
+    "首领: 与card2同时出场时魔攻、生命和速度+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

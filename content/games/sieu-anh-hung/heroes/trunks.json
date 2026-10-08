@@ -1,0 +1,616 @@
+{
+  "id": "43200",
+  "slug": "trunks",
+  "name": "Trunks",
+  "title": "Vũ trụ linh tính • SSR Trunks",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_telankesi.png",
+  "fullArt": "/images/heroes/full/image_telankesi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Con trai của [vương tử Saiya - Vegeta] và [nhà khoa học Địa Cầu - Bulma], một trong các chiến sĩ bảo vệ địa cầu",
+  "skills": [
+    {
+      "name": "Gánh Lên",
+      "icon": "/images/heroes/s_telankesi_s1.png",
+      "description": "Kĩ năng trước khi bị đánh: Gây ra 350% ST ma pháp và 100% ST thuộc tính Hỏa. Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. \nHộ Giá: Tiêu trừ 1 lần ST trực tiếp (ST truy kích, ST 4 thuộc tính, Diệt Ngay không thể dùng Hộ Giá để chặn);\nHiệu quả bị động:\n1: Càng chiến càng mạnh: Khi bản thân còn sống trên chiến trường, trước lượt đấu Broli sẽ nhận được hiệu quả Trói Buộc, cấm mục tiêu sử dụng Kĩ năng trước khi bị đánh 1 lượt.\n2: Ngộ phú đấu năng: Khi bản thân còn trên chiến trường, trước khi chiến đấu Goku mới sẽ nhận được hiệu quả Trói Buộc, cấm mục tiêu sử dụng Kĩ năng trước khi bị đánh 1 lượt.\n3. Thầy bạn như tri kỉ: Khi bản thân còn trên chiến trường, Kĩ năng trước khi bị đánh của Songohan sẽ gây ra thêm gấp 8 lần ST và hiệu quả \"Ổn Định\"\n4: Thanh kiếm Hi Vọng: Khi Broli/ Songoku/ Songohan còn trên chiến trường, kĩ năng trước khi chiến đấu của Trunks sẽ khiến mục tiêu mất 1 lần sổ lần max có thể kích hoạt kĩ năng trước khi bị đánh.\n5: Trái tim Saiya: Khi 4 người cùng tồn tại trên chiến trường, lần Hồi Sinh đầu tiên không bị trừ vào số lần hồi sinh.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Trunks",
+        "description": "Số lần kích hoạt biến thành 3. Truy kích thêm với ST thực bằng 50% HP. "
+      }
+    },
+    {
+      "name": "Di Chuyển Nhanh",
+      "icon": "/images/heroes/s_telankesi_s2.png",
+      "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Hỏa cho toàn phe địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Trunks",
+        "description": "Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Thái Dương Kiếm",
+      "icon": "/images/heroes/s_telankesi_s3.png",
+      "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Hỏa cho toàn phe địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Trunks",
+        "description": "Trầm Mặc mục tiêu 2 lượt"
+      }
+    },
+    {
+      "name": "Pulsar Sụp Đổ",
+      "icon": "/images/heroes/s_telankesi_s6.png",
+      "description": "Kĩ năng Tử vong: Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra 350% ST thực ma pháp và 1500% ST thực thuộc tính Hỏa cho toàn phe địch, tối đa được Hồi Sinh 3 lần",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Trunks",
+        "description": "Số lần Hồi Sinh tối đa biến thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị"
+      }
+    },
+    {
+      "name": "Galick Canon",
+      "icon": "/images/heroes/s_telankesi_s7.png",
+      "description": "Kĩ năng trước chiến đấu: Vĩnh viễn tăng 220% HP max, 79% Giảm Thương chỉnh thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân Gây ra 350% ST thực ma pháp và 1800% ST nguyên tố Hỏa, Truy Kích với ST thực bằng 50% HP max của bản thân",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Trunks",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Trầm Mặc, Hóa Đá, Hỗn Loạn, Chế Giễu, Tsukuyomi. Cho bản thân 1 lượt Vô Địch, tăng 1 tầng \"Thần Ngự\""
+      }
+    },
+    {
+      "name": "Liệt Diệm Xung Kích",
+      "icon": "/images/heroes/s_telankesi_s4.png",
+      "description": "Gây ra 350% ST thực ma pháp và 1200% ST thực thuộc tính Hỏa cho toàn phe địch. Diệt Ngay ngẫu nhiên 1 người",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Trunks",
+        "description": "Giảm phòng ngự tất cả thuộc tính của mục tiêu về 0, duy trì 2 lượt"
+      }
+    },
+    {
+      "name": "Kiếm Thiết Kích",
+      "icon": "/images/heroes/s_telankesi_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Gây ra 350% ST thực ma pháp và 1800% ST thực thuộc tính Hỏa cho toàn phe địch, hồi phục 50% HP bản thân (bỏ qua Trọng Thương)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Trunks",
+        "description": "Gây ra thêm gấp 8 lần ST và hiệu quả \"Ổn Định\""
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Người Thủ Hộ: Khi xuất hiện cùng lúc với Râu Trắng và Maple Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Nagato: Khi xuất hiện cùng lúc với Râu Trắng Ma Công, HP và Tốc Độ+15%",
+    "Bạn Thân: Khi xuất hiện cùng lúc với Songohan Ma Công, HP và Tốc Độ+15%",
+    "Saiyan: Khi xuất hiện cùng lúc với Songoku Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-trunks",
+      "name": "CT - Trunks",
+      "avatar": "/images/heroes/icon_telankesi.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Con trai của [vương tử Saiya - Vegeta] và [nhà khoa học Địa Cầu - Bulma], một trong các chiến sĩ bảo vệ địa cầu"
+    },
+    {
+      "slug": "kiem-hy-vong",
+      "name": "Kiếm Hy Vọng",
+      "avatar": "/images/heroes/icon_telankesi2.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Với cơ sở là niềm tin mạnh mẽ của Trunks, khơi dậy sự cộng hưởng của Trái Đất, và nhận được quả cầu ánh sáng hóa thành từ \" Khí Quang \" của Địa Cầu, thân kiếm tản ra ánh sáng màu xanh, thanh kiếm gãy ban đầu được đúc lại thành quang kiếm bản to màu xanh"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Trunks",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Gánh Lên",
+      "skillIcon": "/images/heroes/s_telankesi_s1.png",
+      "skillDesc": "Số lần kích hoạt biến thành 3. Truy kích thêm với ST thực bằng 50% HP. ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Trunks",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Di Chuyển Nhanh",
+      "skillIcon": "/images/heroes/s_telankesi_s2.png",
+      "skillDesc": "Gây ra thêm gấp 10 lần ST",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Shirakami Goku",
+          "icon": "/images/heroes/shirakami-goku.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Trunks",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thái Dương Kiếm",
+      "skillIcon": "/images/heroes/s_telankesi_s3.png",
+      "skillDesc": "Trầm Mặc mục tiêu 2 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Trunks",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Liệt Diệm Xung Kích",
+      "skillIcon": "/images/heroes/s_telankesi_s4.png",
+      "skillDesc": "Giảm phòng ngự tất cả thuộc tính của mục tiêu về 0, duy trì 2 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shirakami Goku",
+          "icon": "/images/heroes/shirakami-goku.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Trunks",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kiếm Thiết Kích",
+      "skillIcon": "/images/heroes/s_telankesi_s5.png",
+      "skillDesc": "Gây ra thêm gấp 8 lần ST và hiệu quả \"Ổn Định\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Trunks",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Pulsar Sụp Đổ",
+      "skillIcon": "/images/heroes/s_telankesi_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tối đa biến thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Trunks",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Galick Canon",
+      "skillIcon": "/images/heroes/s_telankesi_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Trầm Mặc, Hóa Đá, Hỗn Loạn, Chế Giễu, Tsukuyomi. Cho bản thân 1 lượt Vô Địch, tăng 1 tầng \"Thần Ngự\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Liệt Diệm Xung Kích",
+      "unlockedSkillIcon": "/images/heroes/s_telankesi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Kiếm Thiết Kích",
+      "unlockedSkillIcon": "/images/heroes/s_telankesi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Trunks",
+          "icon": "/images/heroes/icon_telankesi.png",
+          "slug": "trunks"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

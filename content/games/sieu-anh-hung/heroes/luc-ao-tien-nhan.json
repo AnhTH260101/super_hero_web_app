@@ -1,0 +1,576 @@
+{
+  "id": "6200",
+  "slug": "luc-ao-tien-nhan",
+  "name": "Lục Đạo Tiên Nhân",
+  "title": "Vũ trụ nguyên tố • SSR Lục Đạo Tiên Nhân",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/luc-ao-tien-nhan.png",
+  "fullArt": "/images/heroes/full/image_liudao.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Mọi người đều gọi hắn là tiên nhân, bởi đây là người có thể dùng sức của bản thân để thay đổi thế giới",
+  "skills": [
+    {
+      "name": "Tiên pháp· Cửa Minh Thần",
+      "icon": "/images/heroes/s_mingshenmen.png",
+      "description": "Triệu hồi cửa minh thần, tạo 350% sát thương vật lí cho địch và mục tiêu sau lưng hắn, đồng thời tạo thêm giảm thêm 20% HP hiện tại cho mục tiêu xếp sau (Vô hiệu với BOSS).Tạo thêm 140% sát thương thuộc tính lừa.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Lục Đạo Tiên Nhân",
+        "description": "Kĩ năng\nTăng cường Tiên pháp· Cửa Minh Thần: \n Mục tiêu bị Tiên pháp· Cửa Minh Thần đánh trúng đều phải chịu sát thương bằng 20% giới hạn HP hiện tại."
+      }
+    },
+    {
+      "name": "Địa Bạo Thiên Tinh",
+      "icon": "/images/heroes/s_dibaotianxing.png",
+      "description": "Dùng sức hút mạnh mẽ gây ra vụ nổ, tạo 350% sát thương vật lí cho toàn bộ địch, đồng thời ngẫu nhiên làm choáng 1 mục tiêu.Tạo thêm 130% sát thương thuộc tính lừa.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Lục Đạo Tiên Nhân",
+        "description": "Kĩ năng\nTăng cường Địa Bạo Thiên Tinh: \n Địa Bạo Thiên Tinh sẽ ngẫu nhiên làm choáng 1-3 mục tiêu."
+      }
+    },
+    {
+      "name": "Cơ thể tiên nhân",
+      "icon": "/images/heroes/s_xianrenzhiti.png",
+      "description": "Khi bắt đầu giảm 10% ma công của toàn bộ địch, đồng thời tăng 350% phòng ngự của bản thân và 20% giới hạn HP, kéo dài 3 hiệp. Trong 5 hiệp HP dưới 20% sẽ hồi phục HP đến 20%, tử vong vô hiệu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Lục Đạo Tiên Nhân",
+        "description": "Kĩ năng\nTăng cường Cơ Thể Tiên Nhân: \n Hiệu quả tăng phòng ngự kéo dài 99 hiệp."
+      }
+    },
+    {
+      "name": "Hỏa·Phệ Thiên",
+      "icon": "/images/heroes/s_DEATH.png",
+      "description": "Tăng effect tấn công thuộc tính lửa điểm tuyệt đối",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Huyền thoại·Lục Đạo Tiên Nhân",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Ngục Hỏa Luyện Hồn",
+      "icon": "/images/heroes/s_chongci.png",
+      "description": "Tử vong xong giảm 350% ma công của địch trong 1 hiệp, phục hồi 30% HP cho nhân vật có tỉ lệ HP thấp nhất phe ta",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Lục Đạo Tiên Nhân",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần ngạo thế: Vật công, ma công, HP +20%, phòng ngự, tốc độ +10% khi ra trận cùng lúc với Roger và Vehito",
+    "Lục đạo luân hồi: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với Mabara, Nanato và Linh kiện Đăng Vân Lữ",
+    "Sâu sắc: Ma công, HP và tốc độ +15% khi ra trận cùng lúc với Ichigo và Seya",
+    "Thiên đạo: Vật công +20% khi trang bị Tiên Nhân Tích Trượng"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Lục Đạo Tiên Nhân",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tiên pháp· Cửa Minh Thần",
+      "skillIcon": "/images/heroes/s_mingshenmen.png",
+      "skillDesc": "Kĩ năng\nTăng cường Tiên pháp· Cửa Minh Thần: \n Mục tiêu bị Tiên pháp· Cửa Minh Thần đánh trúng đều phải chịu sát thương bằng 20% giới hạn HP hiện tại.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Lục Đạo Tiên Nhân",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Địa Bạo Thiên Tinh",
+      "skillIcon": "/images/heroes/s_dibaotianxing.png",
+      "skillDesc": "Kĩ năng\nTăng cường Địa Bạo Thiên Tinh: \n Địa Bạo Thiên Tinh sẽ ngẫu nhiên làm choáng 1-3 mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Lục Đạo Tiên Nhân",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Cơ thể tiên nhân",
+      "skillIcon": "/images/heroes/s_xianrenzhiti.png",
+      "skillDesc": "Kĩ năng\nTăng cường Cơ Thể Tiên Nhân: \n Hiệu quả tăng phòng ngự kéo dài 99 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Lục Đạo Tiên Nhân",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Hỏa·Phệ Thiên",
+      "skillIcon": "/images/heroes/s_DEATH.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Lục Đạo Tiên Nhân",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Ngục Hỏa Luyện Hồn",
+      "skillIcon": "/images/heroes/s_chongci.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Lục Đạo Tiên Nhân",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Lục Đạo Tiên Nhân",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "icon": "/images/heroes/luc-ao-tien-nhan.png",
+          "slug": "luc-ao-tien-nhan"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

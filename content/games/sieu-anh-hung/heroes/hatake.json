@@ -1,0 +1,570 @@
+{
+  "id": "32800",
+  "slug": "hatake",
+  "name": "Hatake",
+  "title": "Vũ trụ nguyên tố • SSR Hatake",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/hatake.png",
+  "fullArt": "/images/heroes/full/image_kakaxi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Có bộ tóc màu bạc, bề ngoài có vẻ lười biếng, nhưng nội tấm rất quả quyết",
+  "skills": [
+    {
+      "name": "Thuật Lôi Lao",
+      "icon": "/images/heroes/s_kkx_hurt.png",
+      "description": "Tấn công hàng sau mục tiêu mặc định, tạo 350% sát thương ma pháp và 150% sát thương thuộc tính lửa",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Hatake",
+        "description": "Thuật Lôi Lao làm mục tiêu chấn động, hiệu ứng không thể loại bỏ"
+      }
+    },
+    {
+      "name": "Độn Thổ",
+      "icon": "/images/heroes/s_kkx_cure.png",
+      "description": "Thả trước hiệp, dùng nhẫn thuật cho ra tường chắn đá, hồi phục 15% HP, tăng 350% né và phòng ngự, hiệu quả không cộng dồn, 1 hiệp",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Hatake",
+        "description": "Độn Thổ tăng thêm 10% né tránh, tăng 50% tốc độ bản thân"
+      }
+    },
+    {
+      "name": "Lôi Thiết",
+      "icon": "/images/heroes/s_kkx_injure.png",
+      "description": "Phóng điện, dẫn sét tấn công liên tục phạm vi rộng, tạo 350% sát thương ma pháp và 140% tấn công thuộc tính lửa, giảm 20% tốc độ toàn thể địch, 1 hiệp",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Hatake",
+        "description": "Giảm 30% phòng ngự toàn thể địch, X2 tấn công thuộc tính lửa, 2 hiệp"
+      }
+    },
+    {
+      "name": "Thần Uy",
+      "icon": "/images/heroes/s_kkx_cure.png",
+      "description": "Sau khi chịu tấn công, tăng effect điểm tuyệt đối của tấn công thuộc tính lửa, X2 thuộc tính phòng ngự bản thân",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Hatake",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Phong Ấn Pháp Thuật",
+      "icon": "/images/heroes/s_kkx_injure.png",
+      "description": "Giảm 350% sức tấn công ma pháp toàn thể địch trước trận, gây mù mục tiêu mặc định, 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Hatake",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đen Tối: Khi ra trận cùng lúc với Người Hùng Tia Chớp và Master Yi thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Thiên Tài Nhẫn Giả: Khi ra trận cùng lúc với Loki và Lục Đạo Tiên Nhân thì ma công, HP và tốc độ+15%",
+    "Thiên Niên Sát: Khi ra trận cùng lúc với Gaten thì ma công, HP, tốc độ+15%",
+    "Lục Đại: Khi trang bị Kiếm Ngắn thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Hatake",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thuật Lôi Lao",
+      "skillIcon": "/images/heroes/s_kkx_hurt.png",
+      "skillDesc": "Thuật Lôi Lao làm mục tiêu chấn động, hiệu ứng không thể loại bỏ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Hatake",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Độn Thổ",
+      "skillIcon": "/images/heroes/s_kkx_cure.png",
+      "skillDesc": "Độn Thổ tăng thêm 10% né tránh, tăng 50% tốc độ bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Hatake",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Lôi Thiết",
+      "skillIcon": "/images/heroes/s_kkx_injure.png",
+      "skillDesc": "Giảm 30% phòng ngự toàn thể địch, X2 tấn công thuộc tính lửa, 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Hatake",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Thần Uy",
+      "skillIcon": "/images/heroes/s_kkx_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kaneki",
+          "icon": "/images/heroes/kaneki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Hatake",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Phong Ấn Pháp Thuật",
+      "skillIcon": "/images/heroes/s_kkx_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Hatake",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Hatake",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "slug": "hatake"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

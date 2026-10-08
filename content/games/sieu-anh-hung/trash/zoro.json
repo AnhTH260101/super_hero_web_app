@@ -1,0 +1,78 @@
+{
+  "id": "zoro",
+  "slug": "zoro",
+  "name": "Zoro",
+  "title": "Zombie Bentu • SSR Zoro",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/zoro.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Ta có dã tâm, trở thành kiếm sĩ số 1!",
+  "skills": [
+    {
+      "name": "Quỷ Trảm Ngục",
+      "type": "active",
+      "description": "Tân công mục tiêu mặc định hàng sau, tạo 350% sát thương vật lý, thêm 150% sát thương thuộc tính nước, làm yếu 3 kẻ địch ngẫu nhiên (hiệu quả không thể xóa)",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Lốc Xoáy",
+      "type": "ultimate",
+      "description": "Khi bị tấn công, tăng 350% tốc độ và sát thương miễn dịch, X2 thuộc tính tấn công của bản thân. Mỗi lần thả tăng 50% thuộc tính phòng ngự, điểm phòng ngự và tấn công vật lý, cộng dồn 5 lần",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Đại Thế Giới",
+      "type": "talent",
+      "description": "Tấn công toàn thể địch, tạo 350% sát thương vật lý và 140% sát thương thuộc tính nước, hồi phục 25% điểm HP bản thân",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Bài Ca Sư Tử.Phong",
+      "type": "passive",
+      "description": "Kỹ năng trước hiệp, tăng effect điểm tuyệt đối tấn công thuộc tính nước, xóa buff xấu cho bản thân",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Gió Phiền Muộn",
+      "type": "talent",
+      "description": "Kỹ năng trước trận, tăng 50% tốc độ bản thân (có thể cộng dồn thuộc tính Lốc Xoáy), 3 hiệp",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Tà Mị Kiếm Ảnh: Khi ra trận cùng lúc với card2 và card3 thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Hải Tặc Trứ Danh: Khi ra trận cùng lúc với card2 và card3 thì vật công, HP và tốc độ+15%",
+    "Bảo Vệ Môi Trường: Khi ra trận cùng lúc với card2 thì vật công, HP, tốc độ+15%",
+    "Quỷ Trảm: Khi trang bị equip1 thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

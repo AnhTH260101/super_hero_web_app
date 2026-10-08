@@ -1,0 +1,608 @@
+{
+  "id": "38000",
+  "slug": "kefla",
+  "name": "Kefla",
+  "title": "Zombie Bentu • SSR Kefla",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kefla.png",
+  "fullArt": "/images/heroes/full/image_Kevlar.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Một siêu chiến binh sinh ra từ sự kết hợp giữa Karifura và thánh vật vũ trụ 6 \"Potara\". Sức mạnh của cô không phải là sức mạnh của hai người cộng lại, mà là mạnh đến gấp 10 lần. Thậm chí còn mạnh hơn Songoku",
+  "skills": [
+    {
+      "name": "Đạn Khí",
+      "icon": "/images/heroes/s_Kevlar_s1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST ma pháp và 500% ST t.tính Đất; Giảm 80% Tốc Độ của mục tiêu, kéo dài 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kefla",
+        "description": "Trọng thương mục tiêu, khiến mục tiêu không thể hồi máu 1 hiệp; Và có 50% tỉ lệ tạo thêm sát thương lên mục tiêu bằng 800% Tốc Độ của bản thân."
+      }
+    },
+    {
+      "name": "Bạo Phát Năng Lượng",
+      "icon": "/images/heroes/s_Kevlar_s2.png",
+      "description": "Skill trước trận: Giảm 350% Vật & Ma Công của phe địch, tăng 30% Vật & Ma Công và 300% Phòng Ngự thuộc tính, tăng 600% Phòng Ngự của bản thân, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kefla",
+        "description": "Cộng 1 tầng bảo vệ cho bản than, 50% tỉ lệ miễn dịch tấn công của phe địch, có 50% tỉ lệ chuyển 80% sát thương bản thân chịu, Vật & Ma Công, Tấn Công tất cả thuộc tính thành sát thương phản đòn, phản đòn cho mục tiêu tấn công mình."
+      }
+    },
+    {
+      "name": "Đạn Khí Liên Tục",
+      "icon": "/images/heroes/s_Kevlar_s3.png",
+      "description": "Liên tục thả nhiều đạn khí, tạo 350% ST ma pháp và 200% ST t.tính Đất lên 2-3 mục tiêu; khiến mục tiêu bị tấn công hóa đá 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kefla",
+        "description": "80% tỉ lệ tạo thêm X3 sát thương ma pháp và sát thương thuộc tính lên mục tiêu, có 50% tỉ lệ làm mục tiêu mù 1 hiệp"
+      }
+    },
+    {
+      "name": "Di Chuyển Cấp Tốc",
+      "icon": "/images/heroes/s_Kevlar_s6.png",
+      "description": "Skill trước hiệp: Di chuyển nhanh, tăng 350% Né, 69% giảm thương tổng thể cho bản thân, hồi tất cả HP bản thân đã mất, giảm 15%-55% Né của toàn thể địch, hiệu lực 1 hiệp, và có 80% tỉ lệ chế giễu 1 mục tiêu.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kefla",
+        "description": "Bỏ qua hiệu quả Đứng Im, Choáng, Chấn Động, Đóng Băng, Hóa Đá, Mê Hoặc, Hôn Mê; Tăng 50% năng lực hồi HP cho bản thân, có 50% tỉ lệ có hiệu lực khi thả \"Di Chuyển Cấp Tốc\"."
+      }
+    },
+    {
+      "name": "Biến Hình",
+      "icon": "/images/heroes/s_Kevlar_s7.png",
+      "description": "Skill tử trận: Biến hình hồi sinh, vĩnh viễn nhận được 500k-1000k Vật & Ma Công, Phòng Ngự, Tấn Công t.tính Đất và Phòng Ngự toàn thuộc tính, tăng 350% Né cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kefla",
+        "description": "Tăng 100% bạo kích, 200% Chính Xác cho bản thân; Và có 50% tỉ lệ nhận được 800k-2000k tấn công t.tính Đất, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Đạn Khí Năng Lượng",
+      "icon": "/images/heroes/s_Kevlar_s4.png",
+      "description": "Skill bị đánh: Tấn công toàn thể mục tiêu địch, tạo 350% ST ma pháp và 800% ST t.tính Đất; Tăng 150% Né cho toàn thể đồng đội trừ bản thân, kéo dài 1 hiệp. (Mỗi hiệp tối đa phát động 1 lần)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Kefla",
+        "description": "50% tỉ lệ khiến mục tiêu bị hỗn loạn hoặc chấn động, hiệu lực 1 hiệp."
+      }
+    },
+    {
+      "name": "Pháo Đạn Khí",
+      "icon": "/images/heroes/s_Kevlar_s5.png",
+      "description": "Tấn công toàn thể mục tiêu, tạo 350% ST ma pháp và 900% ST t.tính Đất lên mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kefla",
+        "description": "Khiến mục tiêu chịu thêm X1-4 sát thương và sát thương thuộc tính, mục tiêu chịu sát thương bội số lẻ và sát thương thuộc tính sẽ bị hôn mê 1 hiệp"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Valkyrie: Cùng Shermie và Kula ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Lực hợp thể: Cùng Vehito ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Năng lượng vô hạn: Cùng Ma Nhân ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Sức mạnh nữ vương: Cùng Boa Hancock ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kefla",
+      "name": "CT-Kefla",
+      "avatar": "/images/heroes/ct-kefla.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Một siêu chiến binh sinh ra từ sự kết hợp giữa Karifura và thánh vật vũ trụ 6 \"Potara\". Sức mạnh của cô không phải là sức mạnh của hai người cộng lại, mà là mạnh đến gấp 10 lần. Thậm chí còn mạnh hơn Songoku"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kefla",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đạn Khí",
+      "skillIcon": "/images/heroes/s_Kevlar_s1.png",
+      "skillDesc": "Trọng thương mục tiêu, khiến mục tiêu không thể hồi máu 1 hiệp; Và có 50% tỉ lệ tạo thêm sát thương lên mục tiêu bằng 800% Tốc Độ của bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kefla",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bạo Phát Năng Lượng",
+      "skillIcon": "/images/heroes/s_Kevlar_s2.png",
+      "skillDesc": "Cộng 1 tầng bảo vệ cho bản than, 50% tỉ lệ miễn dịch tấn công của phe địch, có 50% tỉ lệ chuyển 80% sát thương bản thân chịu, Vật & Ma Công, Tấn Công tất cả thuộc tính thành sát thương phản đòn, phản đòn cho mục tiêu tấn công mình.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Black",
+          "icon": "/images/heroes/black.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kefla",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đạn Khí Liên Tục",
+      "skillIcon": "/images/heroes/s_Kevlar_s3.png",
+      "skillDesc": "80% tỉ lệ tạo thêm X3 sát thương ma pháp và sát thương thuộc tính lên mục tiêu, có 50% tỉ lệ làm mục tiêu mù 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Kefla",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Đạn Khí Năng Lượng",
+      "skillIcon": "/images/heroes/s_Kevlar_s4.png",
+      "skillDesc": "50% tỉ lệ khiến mục tiêu bị hỗn loạn hoặc chấn động, hiệu lực 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Black",
+          "icon": "/images/heroes/black.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kefla",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Pháo Đạn Khí",
+      "skillIcon": "/images/heroes/s_Kevlar_s5.png",
+      "skillDesc": "Khiến mục tiêu chịu thêm X1-4 sát thương và sát thương thuộc tính, mục tiêu chịu sát thương bội số lẻ và sát thương thuộc tính sẽ bị hôn mê 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kefla",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Di Chuyển Cấp Tốc",
+      "skillIcon": "/images/heroes/s_Kevlar_s6.png",
+      "skillDesc": "Bỏ qua hiệu quả Đứng Im, Choáng, Chấn Động, Đóng Băng, Hóa Đá, Mê Hoặc, Hôn Mê; Tăng 50% năng lực hồi HP cho bản thân, có 50% tỉ lệ có hiệu lực khi thả \"Di Chuyển Cấp Tốc\".",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kefla",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Biến Hình",
+      "skillIcon": "/images/heroes/s_Kevlar_s7.png",
+      "skillDesc": "Tăng 100% bạo kích, 200% Chính Xác cho bản thân; Và có 50% tỉ lệ nhận được 800k-2000k tấn công t.tính Đất, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Đạn Khí Năng Lượng",
+      "unlockedSkillIcon": "/images/heroes/s_Kevlar_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Pháo Đạn Khí",
+      "unlockedSkillIcon": "/images/heroes/s_Kevlar_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "slug": "kefla"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

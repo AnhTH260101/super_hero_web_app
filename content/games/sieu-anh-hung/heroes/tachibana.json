@@ -1,0 +1,608 @@
+{
+  "id": "40600",
+  "slug": "tachibana",
+  "name": "Tachibana",
+  "title": "Vũ trụ linh tính • SSR Tachibana",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/tachibana.png",
+  "fullArt": "/images/heroes/full/image_juyoujing.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh sinh ra ở thôn nhỏ gần sông. Là hậu duệ của samurai đã suy tàn, lúc ấu thơ gặp nhiều bệnh tật. Và người mẹ chăm sóc anh không lâu sau đã qua đời. Nghe theo di ngôn của mẹ, trở thành võ sĩ ưu tú, cho nên dù là kiếm thuật hay học vấn anh đều rất cố gắng, Tachibana cũng trở nên mạnh mẽ.",
+  "skills": [
+    {
+      "name": "Tuyết Mịn",
+      "icon": "/images/heroes/s_juyoujing_s1.png",
+      "description": "Tạo 350% ST Vật Lý và 500% ST thuộc tính Nước lên 3~5 kẻ địch ngẫu nhiên, khiến mục tiêu hỗn loạn, tạo x3 ST và ST thuộc tính.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Tachibana",
+        "description": "50% tỉ lệ tạo thêm sát thương bằng 800% Tốc Độ bản thân."
+      }
+    },
+    {
+      "name": "Thiên Phong",
+      "icon": "/images/heroes/s_juyoujing_s2.png",
+      "description": "Tạo 350% ST Vật Lý và 300% ST thuộc tính Nước lên toàn thể phe địch, khiến mục tiêu trối buộc và hỗn loạn, và giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Tachibana",
+        "description": "Tạo x3 sát thương và sát thương thuộc tính, nếu mục tiêu đã bị Trói Buộc thì tạo thêm x3 ST."
+      }
+    },
+    {
+      "name": "Sương Gió",
+      "icon": "/images/heroes/s_juyoujing_s3.png",
+      "description": "Skill trước khi bị đánh: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo 350% ST Vật Lý và ST thực bằng 200% ST thuộc tính Nước lên toàn thể phe địch, tăng 350% Phòng Ngự và Phòng Ngự toàn thuộc tính của bản thân, tối đa cộng dồn 10 tầng, và tăng 200% Trúng, Bạo Kích của bản thân (Có hiệu lực hiệp này).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Tachibana",
+        "description": "Kèm ST thực bằng 50% giới hạn HP bản thân, tạo x3 sát thương và sát thương thuộc tính, số lần mỗi hiệp kích hoạt đổi thành 3 lần."
+      }
+    },
+    {
+      "name": "Tàn Tượng Trảm",
+      "icon": "/images/heroes/s_juyoujing_s6.png",
+      "description": "Skill trước hiệp:  Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo 350% ST Vật Lý và 800% ST thực thuộc tính Nước lên toàn thể phe địch, tạo lên kẻ địch ST thực bằng 30%-60% HP tối đa của bản thân, và tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Tachibana",
+        "description": "Khiến mục tiêu Trói Buộc hoặc Hỗn Loạn, và có 50% tỉ lệ tạo thêm 1 lần ST."
+      }
+    },
+    {
+      "name": "Phi Yến Lục Liên Trảm",
+      "icon": "/images/heroes/s_juyoujing_s7.png",
+      "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo 350% ST Vật Lý và 800% ST thực thuộc tính Nước lên toàn thể phe địch, tối đa được hồi sinh 2 lần, tăng 50W－100W Vật & Ma Công và  tấn công toàn thuộc tính cho đồng đội (Tăng 80W－150W sau khi chuyển sinh), kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Tachibana",
+        "description": "Tối đa được hồi sinh 3 lần. Khiến Phòng Ngự và Phòng Ngự toàn thuộc tính của mục tiêu giảm đến 0đ, và giảm 99% Tốc Độ và Né của mục tiêu (ST tấn công lần này có hiệu lực), kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Yến Phản",
+      "icon": "/images/heroes/s_juyoujing_s4.png",
+      "description": "Skill trước trận: Tạo 350% ST Vật Lý và ST thực bằng 800% ST thuộc tính Nước lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể và 800% Phòng Ngự toàn thuộc tính cho bản thân, vĩnh viễn tăng 350% tấn công thuộc tính Nước cho bản thân, vĩnh viễn tăng 200% Né và Tốc Độ cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Tachibana",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi và mỗi lần hàng động sẽ khiến tất cả skill, xóa hiệu quả trọng thương của bản thân, và có 50% tỉ lệ xóa tất cả hiệu quả trọng thương cho một đồng đội ngẫu nhiên, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "La Sát",
+      "icon": "/images/heroes/s_juyoujing_s5.png",
+      "description": "Tạo 350% ST Vật Lý và 900% ST thuộc tính Nước lên toàn thể phe địch, nếu HP bản thân dưới 50%, chọn và kết liễu ngẫu nhiên 1 mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Tachibana",
+        "description": "Tạo hiệu quả khác nhau dựa trên số người phe địch:\n1.Phe địch có 4~5 người, tạo thêm sát thương x5 lên mục tiêu.\n2.Phe địch có 1~3 người, tạo thêm sát thương x7 lên mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thích Khách: Khi đồng thời xuất hiện cùng Akame và Beerus Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Thu Hoạch: Khi đồng thời xuất hiện cùng Vlad III Vật Công, HP và Tốc Độ+15%",
+    "Phù Tang: Khi đồng thời xuất hiện cùng InuYasha Vật Công, HP và Tốc Độ+15%",
+    "Kiếm Gỗ: Khi đồng thời xuất hiện cùng Asamiya Athena Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-tachibana",
+      "name": "CT-Tachibana",
+      "avatar": "/images/heroes/ct-tachibana.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Anh sinh ra ở thôn nhỏ gần sông. Là hậu duệ của samurai đã suy tàn, lúc ấu thơ gặp nhiều bệnh tật. Và người mẹ chăm sóc anh không lâu sau đã qua đời. Nghe theo di ngôn của mẹ, trở thành võ sĩ ưu tú, cho nên dù là kiếm thuật hay học vấn anh đều rất cố gắng, Tachibana cũng trở nên mạnh mẽ."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Tachibana",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tuyết Mịn",
+      "skillIcon": "/images/heroes/s_juyoujing_s1.png",
+      "skillDesc": "50% tỉ lệ tạo thêm sát thương bằng 800% Tốc Độ bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Tachibana",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Thiên Phong",
+      "skillIcon": "/images/heroes/s_juyoujing_s2.png",
+      "skillDesc": "Tạo x3 sát thương và sát thương thuộc tính, nếu mục tiêu đã bị Trói Buộc thì tạo thêm x3 ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Tachibana",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Sương Gió",
+      "skillIcon": "/images/heroes/s_juyoujing_s3.png",
+      "skillDesc": "Kèm ST thực bằng 50% giới hạn HP bản thân, tạo x3 sát thương và sát thương thuộc tính, số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Tachibana",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Yến Phản",
+      "skillIcon": "/images/heroes/s_juyoujing_s4.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi và mỗi lần hàng động sẽ khiến tất cả skill, xóa hiệu quả trọng thương của bản thân, và có 50% tỉ lệ xóa tất cả hiệu quả trọng thương cho một đồng đội ngẫu nhiên, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Tachibana",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "La Sát",
+      "skillIcon": "/images/heroes/s_juyoujing_s5.png",
+      "skillDesc": "Tạo hiệu quả khác nhau dựa trên số người phe địch:\n1.Phe địch có 4~5 người, tạo thêm sát thương x5 lên mục tiêu.\n2.Phe địch có 1~3 người, tạo thêm sát thương x7 lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Tachibana",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Tàn Tượng Trảm",
+      "skillIcon": "/images/heroes/s_juyoujing_s6.png",
+      "skillDesc": "Khiến mục tiêu Trói Buộc hoặc Hỗn Loạn, và có 50% tỉ lệ tạo thêm 1 lần ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Tachibana",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Phi Yến Lục Liên Trảm",
+      "skillIcon": "/images/heroes/s_juyoujing_s7.png",
+      "skillDesc": "Tối đa được hồi sinh 3 lần. Khiến Phòng Ngự và Phòng Ngự toàn thuộc tính của mục tiêu giảm đến 0đ, và giảm 99% Tốc Độ và Né của mục tiêu (ST tấn công lần này có hiệu lực), kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Yến Phản",
+      "unlockedSkillIcon": "/images/heroes/s_juyoujing_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "La Sát",
+      "unlockedSkillIcon": "/images/heroes/s_juyoujing_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tachibana",
+          "icon": "/images/heroes/tachibana.png",
+          "slug": "tachibana"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

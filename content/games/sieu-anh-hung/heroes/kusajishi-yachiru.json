@@ -1,0 +1,608 @@
+{
+  "id": "41500",
+  "slug": "kusajishi-yachiru",
+  "name": "Kusajishi Yachiru",
+  "title": "Vũ trụ linh tính • SSR Kusajishi Yachiru",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kusajishi-yachiru.png",
+  "fullArt": "/images/heroes/full/image_caolubaqianliu.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thân hình nhỏ nhẹ nhất trong số mọi người ở đội 13. Cũng là người duy nhất trong số tất cả phó đội trưởng được tuyển thẳng vào đội không cần thi kiểm tra.",
+  "skills": [
+    {
+      "name": "Trảm Hồn",
+      "icon": "/images/heroes/s_caolubaqianliu_s1.png",
+      "description": "Tạo lên 1-5 kẻ địch ngẫu nhiên 350% ST Vật Lý và 500% ST thuộc tính Gió, tạo lên mục tiêu ST bổ sung và ST thuộc tính bằng 800% SPEED của bản thân.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kusajishi Yachiru",
+        "description": "Tạo thêm x3 ST và ST thuộc tính."
+      }
+    },
+    {
+      "name": "Đoản Đao",
+      "icon": "/images/heroes/s_caolubaqianliu_s2.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Vật Lý và 300% ST thuộc tính Gió, giảm 100% Phòng Ngự thuộc tính Gió và Phòng Ngự thuộc tính Lửa của mục tiêu, kéo dài 2 hiệp, tạo x3 ST và ST thuộc tính.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kusajishi Yachiru",
+        "description": "Khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0 (Sinh hiệu quả ST trong lần tấn công này)."
+      }
+    },
+    {
+      "name": "Tế Điển",
+      "icon": "/images/heroes/s_caolubaqianliu_s3.png",
+      "description": "Skill trước khi bị đánh: Tăng 350% Né của bản thân (Được cộng liên tiếp 10 lần), tạo lên toàn thể phe địch ST thực bằng 30%-60% HP tối đa của bản thân, có 50% tỉ lệ tăng hiệu quả vô địch của bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kusajishi Yachiru",
+        "description": "Khiến tấn công toàn thuộc tính hoặc Ma & Vật công của mục tiêu giảm còn 9 điểm, hiệu quả kéo dài 1 hiệp, số lần mỗi hiệp kích hoạt đổi thành 3 lần."
+      }
+    },
+    {
+      "name": "Kiếm Thú",
+      "icon": "/images/heroes/s_caolubaqianliu_s6.png",
+      "description": "Skill trước trận:  tăng 79% giảm thương tổng thể của bản thân, tăng 200% giới hạn HP của bản thân, tăng 350% Vật Công bản thân, tăng vĩnh viễn 200% Trúng, Né và Bạo Kích, tạo lên toàn thể phe địch ST thực bằng 45% HP tối đa của bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kusajishi Yachiru",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó"
+      }
+    },
+    {
+      "name": "Nộ Kiếm Thú",
+      "icon": "/images/heroes/s_caolubaqianliu_s7.png",
+      "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo lên toàn thể phe địch 350% ST Vật Lý và 900% ST thực thuộc tính Gió, tối đa có thể hồi sinh 2 lần, khiến kẻ địch bị trói buộc hoặc hỗn loạn.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kusajishi Yachiru",
+        "description": "Được hồi sinh tối đa 3 lần, sau khi hồi sinh, mỗi lần tấn công, tăng x2-4 sát thương và sát thương thuộc tính cho tất cả skill "
+      }
+    },
+    {
+      "name": "Hoa Mơ Năm Cánh",
+      "icon": "/images/heroes/s_caolubaqianliu_s4.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Vật Lý và 900% ST thuộc tính Gió, giảm 90% Trúng, Bạo Kích của mục tiêu, tạo lên phe địch ST thực bằng 30%-60% HP tối đa của bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Kusajishi Yachiru",
+        "description": "Khiến mục tiêu trói buộc hoặc hỗn loạn, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó"
+      }
+    },
+    {
+      "name": "Hoa Mơ",
+      "icon": "/images/heroes/s_caolubaqianliu_s5.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Lý, tạo lên toàn thể phe địch 350% ST Vật Lý và 800% ST thực thuộc tính Gió, khiến kẻ địch bị trói buộc hoặc hỗn loạn, tạo lên phe địch ST thực bằng 30%-60% HP tối đa của bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Kusajishi Yachiru",
+        "description": "Khiến mục tiêu trói buộc hoặc hỗn loạn, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kẹo: Khi xuất hiện cùng lúc với Kenpachi Zaraki và Tsunade Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Hoa Mơ: Khi xuất hiện cùng lúc với Aizen Vật Công, HP và Tốc Độ+15%",
+    "Hộp Đồ Ăn Vặt: Khi xuất hiện cùng lúc với Hisoka Vật Công, HP và Tốc Độ+15%",
+    "Màu Hồng: Khi xuất hiện cùng lúc với Namikaze Minato Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kusajishi-yachiru",
+      "name": "CT-Kusajishi Yachiru",
+      "avatar": "/images/heroes/ct-kusajishi-yachiru.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thân hình nhỏ nhẹ nhất trong số mọi người ở đội 13. Cũng là người duy nhất trong số tất cả phó đội trưởng được tuyển thẳng vào đội không cần thi kiểm tra."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kusajishi Yachiru",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Trảm Hồn",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s1.png",
+      "skillDesc": "Tạo thêm x3 ST và ST thuộc tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kusajishi Yachiru",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Đoản Đao",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s2.png",
+      "skillDesc": "Khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0 (Sinh hiệu quả ST trong lần tấn công này).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kusajishi Yachiru",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Tế Điển",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s3.png",
+      "skillDesc": "Khiến tấn công toàn thuộc tính hoặc Ma & Vật công của mục tiêu giảm còn 9 điểm, hiệu quả kéo dài 1 hiệp, số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Kusajishi Yachiru",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Hoa Mơ Năm Cánh",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s4.png",
+      "skillDesc": "Khiến mục tiêu trói buộc hoặc hỗn loạn, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kusajishi Yachiru",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Nộ Kiếm Thú",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s7.png",
+      "skillDesc": "Tạo hiệu quả khác nhau tùy theo số lượng của đối phương:\n1.Đối phương từ 4~5 người, thì sẽ tạo thêm x5 sát thương và sát thương thuộc tính lên mục tiêu.\n2.Đối phương từ 1~3 người, thì sẽ tạo thêm x7 sát thương và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kusajishi Yachiru",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kiếm Thú",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s6.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến 1 mục tiêu ngẫu nhiên không thể thả skill tử trận, và kết liễu nó",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kusajishi Yachiru",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Nộ Kiếm Thú",
+      "skillIcon": "/images/heroes/s_caolubaqianliu_s7.png",
+      "skillDesc": "Được hồi sinh tối đa 3 lần, sau khi hồi sinh, mỗi lần tấn công, tăng x2-4 sát thương và sát thương thuộc tính cho tất cả skill ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hoa Mơ Năm Cánh",
+      "unlockedSkillIcon": "/images/heroes/s_caolubaqianliu_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Hoa Mơ",
+      "unlockedSkillIcon": "/images/heroes/s_caolubaqianliu_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/kusajishi-yachiru.png",
+          "slug": "kusajishi-yachiru"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

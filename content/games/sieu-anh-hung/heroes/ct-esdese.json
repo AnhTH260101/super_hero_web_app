@@ -1,0 +1,679 @@
+{
+  "id": "78200",
+  "slug": "ct-esdese",
+  "name": "CT-Esdese",
+  "title": "Vũ trụ linh tính • UR CT-Esdese",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-esdese.png",
+  "fullArt": "/images/heroes/full/image_aisidesi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Người sánh ngang với đại tướng quân Budo, là tướng quân trẻ tuổi và mạnh nhất đế quốc, là người lãnh đạo của tổ chức cảnh sát đặc biệt.",
+  "skills": [
+    {
+      "name": "Độc Hoa",
+      "icon": "/images/heroes/s_aisidesi_s1.png",
+      "description": "Gây 350% sát thương vật lí và 500% sát thương thuộc tính Nước lên ngẫu nhiên 3~5 kẻ địch, khiến hắn băng phong, nếu mục tiêu đã bị băng phong sẽ gây thêm gấp 2 lần sát thương và sát thương thuộc tính.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Esdese",
+        "description": "Gây thêm sát thương gấp 3 lần và sát thương thuộc tính lên mục tiêu."
+      }
+    },
+    {
+      "name": "Ma Thần Hiển Hiện",
+      "icon": "/images/heroes/s_aisidesi_s2.png",
+      "description": "Skill trước khi bị đánh: tăng phòng ngự và phòng ngự thuộc tính của bản thân (có thể dồn 10 lần), trước mỗi lần bị tấn công, tăng 1 tầng hiệu quả cho bản thân, mỗi tầng hiệu quả khiến sát thương do kĩ năng bản thân gây ra tăng 30%, hiệu quả kéo dài 3 hiệp xong mất, tối đa dồn 10 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Esdese",
+        "description": "Khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác, số lần kích hoạt mỗi lượt là 3 lần."
+      }
+    },
+    {
+      "name": "Thang Hoạch Hình",
+      "icon": "/images/heroes/s_aisidesi_s3.png",
+      "description": "Skill phản đòn: gây 350% sát thương vật lí và 200% sát thương thuộc tính Nước lên toàn bộ địch, giảm 50% vật công, ma công và tỉ lệ miễn thương tổng thể của mục tiêu, hiệu quả 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Esdese",
+        "description": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác."
+      }
+    },
+    {
+      "name": "Băng Lam Đại Tướng Quân",
+      "icon": "/images/heroes/s_aisidesi_s6.png",
+      "description": "Skill trước hiệp: tấn cả tấn công thuộc tính chuyển thành vật công, gây 350% sát thương vật lí và 900% sát thương thật sự thuộc tính Nước lên toàn bộ địch, hồi phục toàn bộ HP của bản thân, khiến mục tiêu băng phong hoặc trọng thương 2 hiệp, gây gấp 3 lần sát thương lên mục tiêu.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Esdese",
+        "description": "Gây thêm 4-6 lần sát thương và sát thương thuộc tính, khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác."
+      }
+    },
+    {
+      "name": "Ma Kha Bát Đặc Ma",
+      "icon": "/images/heroes/s_aisidesi_s7.png",
+      "description": "Skill trước trận: gây 350% sát thương vật lí và 800% sát thương thật sự thuộc tính Nước lên toàn bộ địch, tăng 79% tỉ lệ giảm thương tổng thể và 800% phòng ngự toàn thuộc tính của bản thân, tăng vĩnh viễn 200% chính xác, né tránh và bạo kích, gây thêm gấp 4-6 lần sát thương và sát thương thuộc tính, khiến mục tiêu băng phong, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Esdese",
+        "description": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, chọn ngẫu nhiên một mục tiêu và tiêu diệt ngay lập tức, tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu."
+      }
+    },
+    {
+      "name": "Xuyên Thích Hình",
+      "icon": "/images/heroes/s_aisidesi_s4.png",
+      "description": "Gây 350% sát thương vật lí và 800% sát thương thuộc tính Nước lên toàn bộ địch, gây gấp 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng HP ít nhất và kẻ địch có lượng HP nhiều nhất trong mục tiêu.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Esdese",
+        "description": "Gây thêm 3 lần sát thương và sát thương thuộc tính, đồng thời có 50% khả năng làm mù mục tiêu trong 1 lượt."
+      }
+    },
+    {
+      "name": "Ác Ma Túy",
+      "icon": "/images/heroes/s_aisidesi_s5.png",
+      "description": "Gây 350% sát thương vật lí và 900% sát thương thuộc tính Nước lên toàn bộ địch, 50% tỉ lệ khiến mục tiêu băng phong 2 hiệp, gây gấp 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng HP thấp hơn 30% trong số mục tiêu",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Esdese",
+        "description": "Gây thêm 3 lần sát thương và sát thương thuộc tính lên mục tiêu, và có 50% cơ hội làm mục tiêu bị mù trong 1 lượt."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hàn Băng: Khi ra trận cùng lúc với Uchiha Obito và Kula, vật công, ma công, chính xác +20%, phòng ngự, tốc độ +15%",
+    "Huyết Dịch: Khi ra trận cùng lúc với Quạ Đen vật công, HP và tốc độ +15%",
+    "Vinh Diệu: Khi ra trận cùng lúc với Gray vật công, HP và tốc độ +15%",
+    "Thủ Hộ: Khi ra trận cùng lúc với Erza vật công, HP và tốc độ +15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Esdese: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Kula",
+      "icon": "/images/heroes/kula.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Esdese",
+      "icon": "/images/heroes/esdese.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Esdese",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Độc Hoa",
+      "skillIcon": "/images/heroes/s_aisidesi_s1.png",
+      "skillDesc": "Gây thêm sát thương gấp 3 lần và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Esdese",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ma Thần Hiển Hiện",
+      "skillIcon": "/images/heroes/s_aisidesi_s2.png",
+      "skillDesc": "Khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác, số lần kích hoạt mỗi lượt là 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kula",
+          "icon": "/images/heroes/kula.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Esdese",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thang Hoạch Hình",
+      "skillIcon": "/images/heroes/s_aisidesi_s3.png",
+      "skillDesc": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Esdese",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Xuyên Thích Hình",
+      "skillIcon": "/images/heroes/s_aisidesi_s4.png",
+      "skillDesc": "Gây thêm 3 lần sát thương và sát thương thuộc tính, đồng thời có 50% khả năng làm mù mục tiêu trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kula",
+          "icon": "/images/heroes/kula.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Esdese",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Ác Ma Túy",
+      "skillIcon": "/images/heroes/s_aisidesi_s5.png",
+      "skillDesc": "Gây thêm 3 lần sát thương và sát thương thuộc tính lên mục tiêu, và có 50% cơ hội làm mục tiêu bị mù trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Esdese",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Băng Lam Đại Tướng Quân",
+      "skillIcon": "/images/heroes/s_aisidesi_s6.png",
+      "skillDesc": "Gây thêm 4-6 lần sát thương và sát thương thuộc tính, khi bắt đầu lượt, hiệu ứng đóng băng sẽ được truyền ngẫu nhiên cho một kẻ địch khác.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Esdese",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ma Kha Bát Đặc Ma",
+      "skillIcon": "/images/heroes/s_aisidesi_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, chọn ngẫu nhiên một mục tiêu và tiêu diệt ngay lập tức, tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Xuyên Thích Hình",
+      "unlockedSkillIcon": "/images/heroes/s_aisidesi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Ác Ma Túy",
+      "unlockedSkillIcon": "/images/heroes/s_aisidesi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "slug": "esdese"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

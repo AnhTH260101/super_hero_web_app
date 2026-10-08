@@ -1,0 +1,608 @@
+{
+  "id": "36500",
+  "slug": "mihawk",
+  "name": "Mihawk",
+  "title": "Vũ trụ sức mạnh • SSR Mihawk",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/mihawk.png",
+  "fullArt": "/images/heroes/mihawk.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Kiếm sĩ mạnh nhất thế giới, nắm giữ thanh kiếm đen cực mạnh, ",
+  "skills": [
+    {
+      "name": "Yoru \"X Kiếm Khí\"",
+      "icon": "/images/heroes/s_yingyan_xjq.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% ST vật lý & 200% ST thuộc tính Gió lên mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Mihawk",
+        "description": "Làm mù 1 mục tiêu khiến tấn công kế tiếp của hắn chắc chắn hụt, có 50% tỉ lệ làm 1 mục tiêu khác hỗn loạn."
+      }
+    },
+    {
+      "name": "Yoru \"Loạn Trảm\"",
+      "icon": "/images/heroes/s_yingyan_lz.png",
+      "description": "Tấn công dãy trước liên tục, tạo 350% ST vật lý & 250% ST thuộc tính Gió lên 1 mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Mihawk",
+        "description": "Giảm 10%-80% Tốc Độ của mục tiêu, giảm 100k-1000k chỉ số Phòng Ngự của hắn, 2 hiệp."
+      }
+    },
+    {
+      "name": "Yoru \"Vô\"",
+      "icon": "/images/heroes/s_yingyan_wu.png",
+      "description": "Skill trước trận: Tạo 350% ST vật lý & 200% ST thuộc tính Gió lên 1-3 mục tiêu ngẫu nhiên.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Mihawk",
+        "description": "Giảm vĩnh viễn 10% giới hạn HP của mục tiêu, -50% Chính Xác của mục tiêu có Tốc Độ cao nhất, -50% P.Ngự của mục tiêu có P.Ngự cao nhất, và chuyển 45% giới hạn HP của bản thân thành ST thuộc tính Gió gây cho mỗi mục tiêu tấn công."
+      }
+    },
+    {
+      "name": "Yoru \"Lốc Xoáy\"",
+      "icon": "/images/heroes/s_yingyan_klj.png",
+      "description": "Skill trước hiệp: Tấn công toàn thể địch, tạo 350% ST ma pháp & 600% ST thuộc tính Gió, có 50% tỉ lệ khiến kẻ địch rơi vào trạng thái Tụt Máu, mỗi hiệp tạo ST thực bằng 350% Ma Công & tấn công thuộc tính Gió.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Mihawk",
+        "description": "Hồi tất cả HP đã mất của bản thân, tăng 500k-1500k Vật Công & 1000k-2000k TC thuộc tính Gió, bản thân bỏ qua Đứng Im, Băng Phong, Choáng, Chấn Động & Tsukuyomi; Chế Giễu 1 mục tiêu, mục tiêu bị chế giễu sẽ ko thể tạo ST khi tấn công mình; Trong hiệp này, thả TC thường hoặc KN chủ động sẽ cộng 1 tầng hiệu quả Vô Địch, hiệu lực 1 lần."
+      }
+    },
+    {
+      "name": "Yoru \"Đột Kích\"",
+      "icon": "/images/heroes/s_yingyan_lt.png",
+      "description": "Skill trước khi bị đòn: Tấn công mục tiêu có HP cao nhất (trừ mục tiêu sắp tấn công mình), tạo 350% ST vật lý & 800% ST thuộc tính Gió lên mục tiêu; Bản thân +200% tỉ lệ bạo kích, kéo dài 1 hiệp, +100% chỉ số Né cho đồng đội, hiệp này có hiệu lực.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Mihawk",
+        "description": "Bản thân +69% giảm thương tổng thể, từ hiệp 2 trở đi, có 50% tỉ lệ khiến mục tiêu rơi vào hôn mê (Không thể thả tất cả KN & TC thường); chuyển 200% tấn công tiếp theo của bản thân thành hồi HP cho bản thân (KN phản đòn ko hút HP).\n\n"
+      }
+    },
+    {
+      "name": "Yoru \"Núi Lở\"",
+      "icon": "/images/heroes/s_yingyan_bs.png",
+      "description": "Skill phản đòn: Tạo 350% ST vật lý & 800% ST thuộc tính Gió lên 1-5 mục tiêu, tấn công 1 mục tiêu tạo gấp 5 ST, tấn công 2 mục tiêu tạo gấp 4 ST, tấn công 3 mục tiêu tạo gấp 3 ST, tấn công 4 mục tiêu tạo X2 ST. (Mỗi hiệp kích hoạt tối đa 2 lần)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Mihawk",
+        "description": "Làm mục tiêu trọng thương, -69% tỉ lệ hồi HP của mục tiêu, và giảm 20%-50% Ma Công và tỉ lệ bạo kích (Tối đa trọng thương 3 mục tiêu); 80% tỉ lệ tăng 300%-800% P.Ngự & P.Ngự Thuộc Tính cho mình"
+      }
+    },
+    {
+      "name": "Yoru \"Cuồng Trảm\"",
+      "icon": "/images/heroes/s_yingyan_klz.png",
+      "description": "Tấn công phía trước liên tục, tạo 350% ST vật lý 700% ST thuộc tính Gió lên toàn thể mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Mihawk",
+        "description": "Khiến 1 mục tiêu rơi vào hôn mê (Ko thể thả tất cả KN & TC thường); Tăng 10%-20% hiệu quả Né cho cả đội; Tạo thêm X4 ST & ST thuộc tính lên 1 mục tiêu, và bỏ qua giảm thương & chỉ số phòng ngự của hắn."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tín Ngưỡng Tự Do: Cùng Monkey D. Luffy và Natsu ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Tinh Thần Kỵ Sĩ: Cùng Gray và Sanji ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Sư Đồ Đối Thủ: Cùng Zoro ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Chủ Yoru: Cùng Kurosaki ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-mihawk",
+      "name": "CT-Mihawk",
+      "avatar": "/images/heroes/ct-mihawk.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Kiếm sĩ mạnh nhất thế giới, nắm giữ thanh kiếm đen cực mạnh, "
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Mihawk",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Yoru \"X Kiếm Khí\"",
+      "skillIcon": "/images/heroes/s_yingyan_xjq.png",
+      "skillDesc": "Làm mù 1 mục tiêu khiến tấn công kế tiếp của hắn chắc chắn hụt, có 50% tỉ lệ làm 1 mục tiêu khác hỗn loạn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Mihawk",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Yoru \"Loạn Trảm\"",
+      "skillIcon": "/images/heroes/s_yingyan_lz.png",
+      "skillDesc": "Giảm 10%-80% Tốc Độ của mục tiêu, giảm 100k-1000k chỉ số Phòng Ngự của hắn, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ảo Ảnh",
+          "icon": "/images/heroes/ao-anh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Mihawk",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Yoru \"Vô\"",
+      "skillIcon": "/images/heroes/s_yingyan_wu.png",
+      "skillDesc": "Giảm vĩnh viễn 10% giới hạn HP của mục tiêu, -50% Chính Xác của mục tiêu có Tốc Độ cao nhất, -50% P.Ngự của mục tiêu có P.Ngự cao nhất, và chuyển 45% giới hạn HP của bản thân thành ST thuộc tính Gió gây cho mỗi mục tiêu tấn công.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Mihawk",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Yoru \"Núi Lở\"",
+      "skillIcon": "/images/heroes/s_yingyan_bs.png",
+      "skillDesc": "Làm mục tiêu trọng thương, -69% tỉ lệ hồi HP của mục tiêu, và giảm 20%-50% Ma Công và tỉ lệ bạo kích (Tối đa trọng thương 3 mục tiêu); 80% tỉ lệ tăng 300%-800% P.Ngự & P.Ngự Thuộc Tính cho mình",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Mihawk",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Yoru \"Cuồng Trảm\"",
+      "skillIcon": "/images/heroes/s_yingyan_klz.png",
+      "skillDesc": "Khiến 1 mục tiêu rơi vào hôn mê (Ko thể thả tất cả KN & TC thường); Tăng 10%-20% hiệu quả Né cho cả đội; Tạo thêm X4 ST & ST thuộc tính lên 1 mục tiêu, và bỏ qua giảm thương & chỉ số phòng ngự của hắn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Mihawk",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Yoru \"Lốc Xoáy\"",
+      "skillIcon": "/images/heroes/s_yingyan_klj.png",
+      "skillDesc": "Hồi tất cả HP đã mất của bản thân, tăng 500k-1500k Vật Công & 1000k-2000k TC thuộc tính Gió, bản thân bỏ qua Đứng Im, Băng Phong, Choáng, Chấn Động & Tsukuyomi; Chế Giễu 1 mục tiêu, mục tiêu bị chế giễu sẽ ko thể tạo ST khi tấn công mình; Trong hiệp này, thả TC thường hoặc KN chủ động sẽ cộng 1 tầng hiệu quả Vô Địch, hiệu lực 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Mihawk",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Yoru \"Đột Kích\"",
+      "skillIcon": "/images/heroes/s_yingyan_lt.png",
+      "skillDesc": "Bản thân +69% giảm thương tổng thể, từ hiệp 2 trở đi, có 50% tỉ lệ khiến mục tiêu rơi vào hôn mê (Không thể thả tất cả KN & TC thường); chuyển 200% tấn công tiếp theo của bản thân thành hồi HP cho bản thân (KN phản đòn ko hút HP).\n\n",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Yoru \"Núi Lở\"",
+      "unlockedSkillIcon": "/images/heroes/s_yingyan_bs.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Yoru \"Cuồng Trảm\"",
+      "unlockedSkillIcon": "/images/heroes/s_yingyan_klz.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mihawk",
+          "icon": "/images/heroes/mihawk.png",
+          "slug": "mihawk"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

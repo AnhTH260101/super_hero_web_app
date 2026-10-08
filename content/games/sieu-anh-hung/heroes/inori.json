@@ -1,0 +1,616 @@
+{
+  "id": "42800",
+  "slug": "inori",
+  "name": "Inori",
+  "title": "Vũ trụ linh tính • SSR Inori",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_dieqi.png",
+  "fullArt": "/images/heroes/full/image_dieqi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Giọng hát của Kỳ là dịu dàng, cũng là giọng hát của hy vọng, có thể cứu những người nhiễm virus Khải Huyền, cũng có thể thanh lọc tâm hồn con người. Mặc dù cô được sinh ra như là một vật chứa để hồi sinh tên thật, nhưng nhờ có Shidou, cô cũng trở thành người có cảm xúc, cũng như đã từng yêu như một người bình thường, và cũng có vẻ đẹp, dịu dàng và mạnh mẽ như một thiếu nữ, cũng như có ý chí độc lập và giá trị tồn tại riêng của mình.",
+  "skills": [
+    {
+      "name": "Bài Ca Trị Liệu",
+      "icon": "/images/heroes/s_dieqi_s1.png",
+      "description": "Trị Liệu ngẫu nhiên 1 đơn vị phe ta, lượng trị liệu bằng 30% HP tối đa của mục tiêu.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Inori",
+        "description": "Tăng \"Trị Liệu\" cho mục tiêu: khi mục tiêu sắp tử vong thì hồi phục 100% HP của mục tiêu,"
+      }
+    },
+    {
+      "name": "Cảm Nhận Tần Số",
+      "icon": "/images/heroes/s_dieqi_s2.png",
+      "description": "Kĩ năng trước khi bị đánh: Inori thông qua quan sát tần số của phe địch, tăng 100% Né Tránh của bản thân, có thể chồng Né Tránh. Hồi phục 30% HP tối đa cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Inori",
+        "description": "Số lần kích hoạt tối đa thay đổi thành 3, cho bản thân 1 lần Vô Địch."
+      }
+    },
+    {
+      "name": "Nốt Nhạc Phản Kích",
+      "icon": "/images/heroes/s_dieqi_s3.png",
+      "description": "Kĩ năng phản kích: Inori dùng tiếng hát để phản kích, gây ra effect % ST ma pháp và 200% ST thuộc tính Phong cho toàn phe địch.Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", mỗi tầng \"Hòa vào màn đêm\" sẽ khiến kĩ năng này tăng thêm 1 lần ST, giới hạn max gấp 20 lần.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Inori",
+        "description": "Giảm Né Tránh của toàn thể phe địch về 0."
+      }
+    },
+    {
+      "name": "Hư Không",
+      "icon": "/images/heroes/s_dieqi_s6.png",
+      "description": "Kĩ năng tử vong: Thể lực của Inori không đủ nên hóa thành hình thái Hư Không, nhổ ra Thanh Kiếm Hư Không, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong cho toàn phe địch. Hồi phục 100% HP tối đa bản thân. Tối đa có thể phóng ra 2 lần.Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", gây ra thêm ST bằng 30% HP tối đa của bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Inori",
+        "description": "Tối đa có thể Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 đơn vị, Trói Buộc toàn thể mục tiêu."
+      }
+    },
+    {
+      "name": "Bài Ca Vận Mệnh",
+      "icon": "/images/heroes/s_dieqi_s7.png",
+      "description": "Kĩ năng trước chiến đấu: Inori dùng tiếng hát cổ vũ bản thân, tăng 79% Giảm Thương/ 500% tấn công ma pháp cho bản thân, vĩnh viễn nâng lên 200% Né Tránh và Tốc Độ, và nâng 230% HP tối đa bản thân.Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\"",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Inori",
+        "description": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi, hiệu quả tăng HP tối đa được truyền cho toàn thể phe ta."
+      }
+    },
+    {
+      "name": "Tinh Hóa Tâm Linh",
+      "icon": "/images/heroes/s_dieqi_s4.png",
+      "description": "Inori cộng hưởng Linh Lực ở xung quanh, hồi phục HP cho toàn phe ta bằng 100% HP tối đa của Inori",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Inori",
+        "description": "Cho toàn thể phe mình thêm 20% hiệu ứng 神倦."
+      }
+    },
+    {
+      "name": "Mặc Thị Lục",
+      "icon": "/images/heroes/s_dieqi_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Ý thức tạm thời bị Chân Danh tiếp quản, bạo phát ra năng lượng cực mạnh, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong.Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\"Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Inori",
+        "description": "Linh lực tràn ra sẽ cho ngẫu nhiên 2 quân phe ta hiệu ứng Vô Địch trong 2 lượt."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thiếu Nữ Ngây Thơ: Khi xuất hiện cùng lúc với Maple và Yatogami Tohka Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Phụng Hiến: Khi xuất hiện cùng lúc với Kikyo Ma Công, HP và Tốc Độ+15%",
+    "Hắc Hóa: Khi xuất hiện cùng lúc với Yatogami Tohka Ma Công, HP và Tốc Độ+15%",
+    "Không Thích Tranh Đấu: Khi xuất hiện cùng lúc với Kamado Tanjiro Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-inori",
+      "name": "CT - Inori",
+      "avatar": "/images/heroes/icon_dieqi.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Tiếng hát của Inori rất ôn hòa, là tiếng ca của hy vọng, có thể cứu vớt những người nhiễm phải Apocalypse Virus, cũng có thể tịnh hóa tâm linh. Dù sinh là để làm vật chứa cho Mana hồi sinh, nhưng nhờ Shu, cô đã biến thành người có cảm xúc, ôn nhu mà kiên cường, và có ý chí riêng, có giá trị tồn tại riêng."
+    }
+  ],
+  "skins": [
+    {
+      "slug": "hac-vu-chi-da-inori",
+      "name": "Hắc Vũ Chi Dạ - Inori",
+      "avatar": "/images/heroes/icon_dieqipifu.png",
+      "overview": "Trang phục xuất hiện trong MV, chủ yếu là lông vũ đen bóng, tràn đầy khí chất thần bí."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Inori",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Bài Ca Trị Liệu",
+      "skillIcon": "/images/heroes/s_dieqi_s1.png",
+      "skillDesc": "Tăng \"Trị Liệu\" cho mục tiêu: khi mục tiêu sắp tử vong thì hồi phục 100% HP của mục tiêu,",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Inori",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cảm Nhận Tần Số",
+      "skillIcon": "/images/heroes/s_dieqi_s2.png",
+      "skillDesc": "Số lần kích hoạt tối đa thay đổi thành 3, cho bản thân 1 lần Vô Địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Shana",
+          "icon": "/images/heroes/shana.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Inori",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Nốt Nhạc Phản Kích",
+      "skillIcon": "/images/heroes/s_dieqi_s3.png",
+      "skillDesc": "Giảm Né Tránh của toàn thể phe địch về 0.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Inori",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Tinh Hóa Tâm Linh",
+      "skillIcon": "/images/heroes/s_dieqi_s4.png",
+      "skillDesc": "Cho toàn thể phe mình thêm 20% hiệu ứng 神倦.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shana",
+          "icon": "/images/heroes/shana.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Inori",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Mặc Thị Lục",
+      "skillIcon": "/images/heroes/s_dieqi_s5.png",
+      "skillDesc": "Linh lực tràn ra sẽ cho ngẫu nhiên 2 quân phe ta hiệu ứng Vô Địch trong 2 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Inori",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Hư Không",
+      "skillIcon": "/images/heroes/s_dieqi_s6.png",
+      "skillDesc": "Tối đa có thể Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 đơn vị, Trói Buộc toàn thể mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Inori",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Bài Ca Vận Mệnh",
+      "skillIcon": "/images/heroes/s_dieqi_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi, hiệu quả tăng HP tối đa được truyền cho toàn thể phe ta.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Tinh Hóa Tâm Linh",
+      "unlockedSkillIcon": "/images/heroes/s_dieqi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Mặc Thị Lục",
+      "unlockedSkillIcon": "/images/heroes/s_dieqi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Inori",
+          "icon": "/images/heroes/icon_dieqi.png",
+          "slug": "inori"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

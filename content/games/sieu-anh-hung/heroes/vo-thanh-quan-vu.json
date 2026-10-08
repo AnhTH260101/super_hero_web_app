@@ -1,0 +1,576 @@
+{
+  "id": "7900",
+  "slug": "vo-thanh-quan-vu",
+  "name": "Võ Thánh Quan Vũ",
+  "title": "Vũ trụ nguyên tố • SSR Võ Thánh Quan Vũ",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/vo-thanh-quan-vu.png",
+  "fullArt": "/images/heroes/full/image_guanyu.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Võ Thánh Quan Vũ, lòng trung thành của ngài sẽ khiến bóng tối phải lùi xa và đánh tan mọi hắc ám\n",
+  "skills": [
+    {
+      "name": "Tẩu Đạn Kỵ",
+      "icon": "/images/heroes/s_guangjian.png",
+      "description": "Xuất chiêu như chẻ tre xung phong trận địch, tạo 1 lần 350% sát thương vật lí lên mục tiêu xếp trước của phe địch, chấn động mặc định 1 mục tiêu, tạo thêm 100% sát thương thuộc tính đất",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Quan Vũ",
+        "description": "Có 50% tỉ lệ tạo quả hù dọa lên mục tiêu khác xếp trước của địch, lần đầu tiên nhất định hù dọa mục tiêu xếp trước"
+      }
+    },
+    {
+      "name": "Võ Thánh Giáng Thế",
+      "icon": "/images/heroes/s_bawangse.png",
+      "description": "Tạo 350% sát thương vật lí lên toàn bộ địch, tạo thêm 50% sát thương lên kẻ địch ở trạng thái choáng, tạo thêm 100% sát thương thuộc tính đất",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Quan Vũ",
+        "description": "Khi dùng Võ Thánh Giáng Lâm sẽ phục hồi 20% HP bản thân. Mỗi địch bị giết, Quan Vũ tăng 10% sát thương vật lý (tối đa được 40%)"
+      }
+    },
+    {
+      "name": "Võ Hồn",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Kĩ năng trước trận. Tăng 350% tấn công vật lí cho toàn bộ phe ta, kéo dài 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Quan Vũ",
+        "description": "Tăng tốc độ cho toàn đội (tỉ lệ tăng và thêm sức tấn công giống nhau), tăng 30% giảm sát thương bản thân"
+      }
+    },
+    {
+      "name": "Đất·Chiến Ca",
+      "icon": null,
+      "description": "Tăng effect tấn công thuộc tính đất điểm tuyệt đối",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền thuyết·Quan Vũ",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Trung Can Nghĩa Đảm",
+      "icon": "/images/heroes/s_quntijijiu.png",
+      "description": "Tử vong xong phục hồi 350% HP cho toàn bộ đồng đội, tăng 20% phòng ngự và né tránh cho toàn bộ đồng đội",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Quan Vũ",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đấu Hồn: Khi ra trận cùng lúc với Vehito và Roger thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
+    "Qua Ải Chém Tướng: Khi ra trận cùng lúc với Hades và Lục Đạo Tiên Nhân thì vật công, HP và tốc độ +15%",
+    "Xích Liễm Bạch Mã: Khi ra trận cùng lúc với Seya thì ma công, HP và tốc độ +15%",
+    "Trảm Nguyệt: Khi trang bị Thanh Long Yển Nguyệt Đao thì vật công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Quan Vũ",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tẩu Đạn Kỵ",
+      "skillIcon": "/images/heroes/s_guangjian.png",
+      "skillDesc": "Có 50% tỉ lệ tạo quả hù dọa lên mục tiêu khác xếp trước của địch, lần đầu tiên nhất định hù dọa mục tiêu xếp trước",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Quan Vũ",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Võ Thánh Giáng Thế",
+      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillDesc": "Khi dùng Võ Thánh Giáng Lâm sẽ phục hồi 20% HP bản thân. Mỗi địch bị giết, Quan Vũ tăng 10% sát thương vật lý (tối đa được 40%)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Quan Vũ",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Võ Hồn",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Tăng tốc độ cho toàn đội (tỉ lệ tăng và thêm sức tấn công giống nhau), tăng 30% giảm sát thương bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền thuyết·Quan Vũ",
+      "tierName": "Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Đất·Chiến Ca",
+      "skillIcon": null,
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Quan Vũ",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Trung Can Nghĩa Đảm",
+      "skillIcon": "/images/heroes/s_quntijijiu.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Võ Thánh Quan Vũ",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Võ Thánh Quan Vũ",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "icon": "/images/heroes/vo-thanh-quan-vu.png",
+          "slug": "vo-thanh-quan-vu"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

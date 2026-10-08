@@ -1,0 +1,62 @@
+{
+  "id": "thang-he",
+  "slug": "thang-he",
+  "name": "Thằng Hề",
+  "title": "Vũ trụ linh tính • SSR Thằng Hề",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/thang-he.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "DPS Đơn",
+  "tier": "S",
+  "overview": "Là vai phụ \"tà\" nhất, không chỉ dũng cảm mà còn mưu trí, dưới khuôn mặt như hoa là trái tim đen tối.",
+  "skills": [
+    {
+      "name": "Chủy thủ độc",
+      "type": "active",
+      "description": "Sát thương đơn thể thấp, sát thương độc cao.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Xuất quỷ nhập thần",
+      "type": "ultimate",
+      "description": "Ám sát xếp sau",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Kẻ ám sát",
+      "type": "talent",
+      "description": "Tăng bạo kích",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Tài Năng Tất Hiện: Khi ra trận cùng lúc với card2 thì vật công+20%",
+    "Thiên Vị: Khi ra trận cùng lúc với card2 và card3 thì vật công và HP+15%",
+    "Phản Diện: Khi ra trận cùng lúc với card2 và card3 thì phòng ngự và tốc độ+20%",
+    "Hoảng Sợ: Khi ra trận cùng lúc với card2 thì phòng ngự+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

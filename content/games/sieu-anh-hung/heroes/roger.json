@@ -1,0 +1,576 @@
+{
+  "id": "6300",
+  "slug": "roger",
+  "name": "Roger",
+  "title": "Vũ trụ sức mạnh • SSR Roger",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/roger.png",
+  "fullArt": "/images/heroes/full/image_rojer.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "\"Muốn của cải của ta sao? Muốn thì ta cho, đi tìm đi! Ta đã để mọi thứ trên thế giới ở đó…\" Để thế giới chào đón thời đại Đại Hải Tặc!",
+  "skills": [
+    {
+      "name": "Võ Trang Sắc",
+      "icon": "/images/heroes/s_wuzhuangse.png",
+      "description": "Mang bá khí của Võ Trang Sắc đưa lên vũ khí, tạo 350% sát thương vật lí cho địch, nếu kẻ địch không thuộc vũ trụ lí tính thì sát thương tăng 100%. Tạo thêm 160% sát thương thuộc tính nước.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Roger",
+        "description": "Kĩ năng\nTăng cường Vũ Trang Sắc: \n Khiến địch rơi vào trạng thái suy nhược, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Tâm Võng",
+      "icon": "/images/heroes/s_jianwense.png",
+      "description": "Kĩ năng trước trận: dùng bá khí nghe nhìn thấy để phán đoán tấn công của đối thủ, toàn đội tăng 20% né tránh, kéo dài 3 hiệp, bản thân tăng vĩnh viễn 350% né tránh.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Roger",
+        "description": "Kĩ năng\nTăng cường Mạng Nhện: \n Tăng thêm 15% né tránh."
+      }
+    },
+    {
+      "name": "Bá Vương Sắc",
+      "icon": "/images/heroes/s_bawangse.png",
+      "description": "Dùng bá khí Bá Vương Sắc chỉ vương giả mới có để tạo thành 350% sát thương vật lí lên toàn bộ địch, có tỉ lệ nhất định khiến mục tiêu choáng, kéo dài 1 hiệp.Tạo thêm 130% sát thương thuộc tính nước.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Roger",
+        "description": "Kĩ năng\nTăng cường Bá Vương Sắc: \n Tạo thêm 100% sát thương cho kẻ địch đang trong trạng thái suy nhược."
+      }
+    },
+    {
+      "name": "Sức Mạnh Vương Giả",
+      "icon": "/images/heroes/s_jianwense.png",
+      "description": "Tăng effect tấn công thuộc tính nước điểm tuyệt đối",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Huyền thoại·Roger",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Túc Mệnh",
+      "icon": "/images/heroes/s_bawangse.png",
+      "description": "Tử vong xong mỗi hiệp phục hồi cho toàn bộ đồng đội 350% HP, kéo dài 2 hiệp, xóa hiệu quả BUFF của xếp trước bên địch",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Roger",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần ngạo thế: Vật công, ma công, HP +20%, phòng ngự, tốc độ +10% khi ra trận cùng lúc với Vehito và Lục Đạo Tiên Nhân",
+    "Anh linh: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với Mabara và Phượng Hoàng",
+    "Cha và con: Ma công, HP và tốc độ +15% khi ra trận cùng lúc với Ấn Kí Saiyan",
+    "Lôi động: Vật công +20% khi trang bị Súng Sấm Chớp"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Roger",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Võ Trang Sắc",
+      "skillIcon": "/images/heroes/s_wuzhuangse.png",
+      "skillDesc": "Kĩ năng\nTăng cường Vũ Trang Sắc: \n Khiến địch rơi vào trạng thái suy nhược, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Roger",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tâm Võng",
+      "skillIcon": "/images/heroes/s_jianwense.png",
+      "skillDesc": "Kĩ năng\nTăng cường Mạng Nhện: \n Tăng thêm 15% né tránh.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Roger",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Bá Vương Sắc",
+      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillDesc": "Kĩ năng\nTăng cường Bá Vương Sắc: \n Tạo thêm 100% sát thương cho kẻ địch đang trong trạng thái suy nhược.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Roger",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Sức Mạnh Vương Giả",
+      "skillIcon": "/images/heroes/s_jianwense.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Roger",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Túc Mệnh",
+      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Roger",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Roger",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +198 HP, +270 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +198 HP, +270 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +198 HP, +270 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +297 HP, +405 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +297 HP, +405 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +297 HP, +405 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +396 HP, +540 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Roger",
+          "icon": "/images/heroes/roger.png",
+          "slug": "roger"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +396 HP, +540 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

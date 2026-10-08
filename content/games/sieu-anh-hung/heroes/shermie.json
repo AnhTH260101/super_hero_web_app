@@ -1,0 +1,608 @@
+{
+  "id": "36600",
+  "slug": "shermie",
+  "name": "Shermie",
+  "title": "Zombie Bentu • SSR Shermie",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/shermie.png",
+  "fullArt": "/images/heroes/full/image_Shermie.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là nhà thiết kế trang phục xuất sắc, có năng lượng sấm sét, được gọi là Sấm Sét Cuồng Nộ",
+  "skills": [
+    {
+      "name": "Lôi Vân",
+      "icon": "/images/heroes/s_Shermie_wy.png",
+      "description": "Tấn công 1 mục tiêu, chuyển tấn công t.tính Nước thành Ma Công, tạo 350% ST ma pháp.\nBất kỳ skill tấn công của Shermie, đều cộng dồn 1-3 tầng buff Cảm Điện cho mục tiêu bị tấn công, mỗi tầng giúp tấn công tiếp theo tăng 30% ST; Cảm Điện kéo dài 3 hiệp, tối đa cộng dồn 10 tầng.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Shermie",
+        "description": "Làm mục tiêu choáng, -80% Tốc Độ của mục tiêu đó"
+      }
+    },
+    {
+      "name": "Roi 8 Tấc",
+      "icon": "/images/heroes/s_Shermie_bctzb.png",
+      "description": "Tấn công 1 mục tiêu, chuyển tấn công t.tính Nước thành Ma Công, tạo 350% ST ma pháp.\nBất kỳ skill tấn công của Shermie, đều cộng dồn 1-3 tầng buff Cảm Điện cho mục tiêu bị tấn công, mỗi tầng giúp tấn công tiếp theo tăng 30% ST; Cảm Điện kéo dài 3 hiệp, tối đa cộng dồn 10 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Shermie",
+        "description": "Giảm 80% TC thuộc tính Lửa, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Lôi Quyền",
+      "icon": "/images/heroes/s_Shermie_lgq.png",
+      "description": "Tấn công 1 mục tiêu, chuyển tấn công t.tính Nước thành Ma Công, tạo ST thực = 350% Ma Công; Nếu tấn công lần này là ST bạo kích, sẽ thả Ám Lôi Quyền, khi HP của kẻ địch bị tấn công ko tới 30%, sẽ kết liễu hắn ngay (Boss vô hiệu).\n\nBất kỳ skill tấn công của Shermie, đều cộng dồn 1-3 tầng buff Cảm Điện cho mục tiêu bị tấn công, mỗi tầng giúp tấn công tiếp theo tăng 30% ST; Cảm Điện kéo dài 3 hiệp, tối đa cộng dồn 10 tầng.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Shermie",
+        "description": "Nếu mục tiêu đó chết, sẽ làm Chấn Động 1 mục tiêu khác, nếu mục tiêu đó chưa chết, sẽ làm hôn mê hắn 1 hiệp."
+      }
+    },
+    {
+      "name": "Sấm Cuồng Nộ",
+      "icon": "/images/heroes/s_Shermie_khld.png",
+      "description": "Skill bị động: Bản thân tăng 100% Tốc Độ, tỉ lệ Bạo Kích, 600% Phòng Ngự & Phòng Ngự Thuộc Tính; và bản thân +79% giảm thương tổng thể",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Shermie",
+        "description": "Tỉ lệ P.Ngự tăng đến 80%, tỉ lệ P.Ngự thuộc tính ko đổi; Tăng X1 tỉ lệ Né của bản thân, +30% tỉ lệ Chính Xác cho tất cả đồng đội trừ bản thân."
+      }
+    },
+    {
+      "name": "Ám Lôi",
+      "icon": "/images/heroes/s_Shermie_al.png",
+      "description": "Skill trước hiệp: Bản thân bỏ qua Đứng Im, Hóa Đá, Băng Phong, Tsukuyomi 1 hiệp, và nhận được 1 lần buff Vô Địch, hồi 50% HP bản thân đã mất; Hiệp này bản thân thả skill TC chủ động & TC thường, có 50% tỉ lệ làm 1 mục tiêu trọng thương, -70% năng lực hồi HP của mục tiêu; Hiệp này đồng đội thả TC chủ động hoặc TC thường, đều giảm Phòng Ngự của mục tiêu, lượng giảm = 50% Phòng Ngự của Shermie, hiệu lực 2 hiệp, tối đa cộng dồn 5 tầng (Tấn công của Shermie ko gồm buff này).",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Shermie",
+        "description": "Hồi HP tăng đến 100%, tỉ lệ trọng thương tăng đến 80%, trừ buff trọng thương; có thêm 50% tỉ lệ làm mục tiêu Mê Hoặc & Hôn Mê 1 hiệp, bản thân bỏ qua Mê Hoặc 1 hiệp; Mỗi đồng đội đều có 50% tỉ lệ có 1 lần buff Vô Địch."
+      }
+    },
+    {
+      "name": "Lắc Ảo Ảnh",
+      "icon": "/images/heroes/s_Shermie_hyzz.png",
+      "description": "Skill phản đòn: Phản đòn mục tiêu tấn công mình, bản thân chuyển tấn công t.tính Nước thành Ma Công, tạo 350% ST ma pháp.\n\nBất kỳ skill tấn công của Shermie, đều cộng dồn 1-3 tầng buff Cảm Điện cho mục tiêu bị tấn công, mỗi tầng giúp tấn công tiếp theo tăng 30% ST; Cảm Điện kéo dài 3 hiệp, tối đa cộng dồn 10 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Shermie",
+        "description": "Chuyển 200% tổng ST của tấn công thành hồi HP cho mình; Mỗi hiệp phản đòn lần 2 sẽ hồi HP cho đồng đội bằng 600% P.Ngự của mình."
+      }
+    },
+    {
+      "name": "Tên Vận Mệnh",
+      "icon": "/images/heroes/s_Shermie_myzs.png",
+      "description": "Tấn công toàn thể địch, chuyển tấn công t.tính Nước thành Ma Công, bỏ qua Giảm Thương của mục tiêu, tạo 350% ST ma pháp; Nếu HP hiện tại của mục tiêu tấn công còn hơn 80%, tạo thêm X1 ST (Boss vô hiệu).\n\nBất kỳ skill tấn công của Shermie, đều cộng dồn 1-3 tầng buff Cảm Điện cho mục tiêu bị tấn công, mỗi tầng giúp tấn công tiếp theo tăng 30% ST; Cảm Điện kéo dài 3 hiệp, tối đa cộng dồn 10 tầng.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Shermie",
+        "description": "Bỏ qua 50% chỉ số P.Ngự của mục tiêu, nếu tỉ lệ HP của mục tiêu tấn công dưới 30%, tạo thêm X2 ST (ST bonus vô hiệu với BOSS); 50% ti lệ làm mục tiêu (Tối đa 3 mục tiêu) Đứng Im 1 hiệp; -30% Vật & Ma Công của mục tiêu 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kiều Nữ: Cùng Boa Hancock và Shaka ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Lôi Hỏa Khống: Cùng Natsu và Kil'jaeden ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Bát Kiệt: Cùng Chris ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Nữ Thích Khách: Cùng Erza ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-shermie",
+      "name": "CT-Shermie",
+      "avatar": "/images/heroes/ct-shermie.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là nhà thiết kế trang phục xuất sắc, có năng lượng sấm sét, được gọi là Sấm Sét Cuồng Nộ"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Shermie",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Lôi Vân",
+      "skillIcon": "/images/heroes/s_Shermie_wy.png",
+      "skillDesc": "Làm mục tiêu choáng, -80% Tốc Độ của mục tiêu đó",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Shermie",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Roi 8 Tấc",
+      "skillIcon": "/images/heroes/s_Shermie_bctzb.png",
+      "skillDesc": "Giảm 80% TC thuộc tính Lửa, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ảo Ảnh",
+          "icon": "/images/heroes/ao-anh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Shermie",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Lôi Quyền",
+      "skillIcon": "/images/heroes/s_Shermie_lgq.png",
+      "skillDesc": "Nếu mục tiêu đó chết, sẽ làm Chấn Động 1 mục tiêu khác, nếu mục tiêu đó chưa chết, sẽ làm hôn mê hắn 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Shermie",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Lắc Ảo Ảnh",
+      "skillIcon": "/images/heroes/s_Shermie_hyzz.png",
+      "skillDesc": "Chuyển 200% tổng ST của tấn công thành hồi HP cho mình; Mỗi hiệp phản đòn lần 2 sẽ hồi HP cho đồng đội bằng 600% P.Ngự của mình.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Shermie",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Tên Vận Mệnh",
+      "skillIcon": "/images/heroes/s_Shermie_myzs.png",
+      "skillDesc": "Bỏ qua 50% chỉ số P.Ngự của mục tiêu, nếu tỉ lệ HP của mục tiêu tấn công dưới 30%, tạo thêm X2 ST (ST bonus vô hiệu với BOSS); 50% ti lệ làm mục tiêu (Tối đa 3 mục tiêu) Đứng Im 1 hiệp; -30% Vật & Ma Công của mục tiêu 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Shermie",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Sấm Cuồng Nộ",
+      "skillIcon": "/images/heroes/s_Shermie_khld.png",
+      "skillDesc": "Tỉ lệ P.Ngự tăng đến 80%, tỉ lệ P.Ngự thuộc tính ko đổi; Tăng X1 tỉ lệ Né của bản thân, +30% tỉ lệ Chính Xác cho tất cả đồng đội trừ bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Shermie",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ám Lôi",
+      "skillIcon": "/images/heroes/s_Shermie_al.png",
+      "skillDesc": "Hồi HP tăng đến 100%, tỉ lệ trọng thương tăng đến 80%, trừ buff trọng thương; có thêm 50% tỉ lệ làm mục tiêu Mê Hoặc & Hôn Mê 1 hiệp, bản thân bỏ qua Mê Hoặc 1 hiệp; Mỗi đồng đội đều có 50% tỉ lệ có 1 lần buff Vô Địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lắc Ảo Ảnh",
+      "unlockedSkillIcon": "/images/heroes/s_Shermie_hyzz.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Tên Vận Mệnh",
+      "unlockedSkillIcon": "/images/heroes/s_Shermie_myzs.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Shermie",
+          "icon": "/images/heroes/shermie.png",
+          "slug": "shermie"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

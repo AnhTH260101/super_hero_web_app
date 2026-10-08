@@ -1,0 +1,602 @@
+{
+  "id": "35500",
+  "slug": "monkey-d-luffy",
+  "name": "Monkey D. Luffy",
+  "title": "Vũ trụ sức mạnh • SSR Monkey D. Luffy",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/monkey-d-luffy.png",
+  "fullArt": "/images/heroes/full/image_lufei.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Có biệt danh là Luffy Mũ Rơm, ước mơ trở thành vua hải tặc, do ăn phải trái ác quỷ nên cơ thể dẻo dai như cao su.",
+  "skills": [
+    {
+      "name": "Súng Cao Su",
+      "icon": "/images/heroes/s_lufei_sq.png",
+      "description": "Tấn công ngẫu nhiên mục tiêu đơn thể, tạo 350% dame vật lý & 200% dame tt.Đất\nBậc 2: Tăng 50% ảnh hưởng dame & dame thuộc tính\nBậc 3: Tăng 100% ảnh hưởng dame & dame thuộc tính\nBậc 4: Tăng 150% ảnh hưởng dame & dame thuộc tính",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Monkey D. Luffy",
+        "description": "Làm choáng mục tiêu 1 hiệp, có tỉ lệ 50% ra tay liên tục 2 lần"
+      }
+    },
+    {
+      "name": "Bá Đạo",
+      "icon": "/images/heroes/s_lufei_bws.png",
+      "description": "KN trước trận: Tấn công tất cả mục tiêu, tạo 350% dame ma pháp (bỏ qua điểm Phòng Ngự của mục tiêu) & % dame tt.Đất. Làm 2 mục tiêu Sợ, 1 hiệp (hiệp sau có hiệu lực).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Monkey D. Luffy",
+        "description": "Tăng 50% tỉ lệ dame, làm 3 mục tiêu Sợ"
+      }
+    },
+    {
+      "name": "Súng Máy Cao Su",
+      "icon": "/images/heroes/s_lufei_jgq.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% dame vật lý & 180% dame tt.Đất;\nBậc 2: Tăng 50% ảnh hưởng dame & dame thuộc tính\nBậc 3: Tăng 100% ảnh hưởng dame & dame thuộc tính\nBậc 4: Tăng 150% ảnh hưởng dame & dame thuộc tính",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Monkey D. Luffy",
+        "description": "Tăng 25%-100% Tốc Độ đồng đội, 2 hiệp; Ngẫu nhiên khiến 1 mục tiêu tụt máu, mỗi hiệp tạo dame tụt máu tương đương 100%-550% Tấn Công Vật Lí của Luffy, 2 hiệp."
+      }
+    },
+    {
+      "name": "Dấu Cao Su",
+      "icon": "/images/heroes/s_lufei_yz.png",
+      "description": "KN phản đòn: Sau khi bị đánh có 99% tỉ lệ phản đòn tất cả mục tiêu địch, tạo 350% dame vật lý & 500% dame tt.Đất lên mục tiêu (Mỗi hiệp tối đa thả 1 lần);\nBậc 2: Tăng 50% ảnh hưởng dame & dame thuộc tính\nBậc 3: Tăng 100% ảnh hưởng dame & dame thuộc tính\nBậc 4: Tăng 150% ảnh hưởng dame & dame thuộc tính",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Monkey D. Luffy",
+        "description": "Làm 3 mục tiêu trọng thương, giảm 60% Hồi HP của mục tiêu, 1 hiệp, và giảm 50% tốc độ của mục tiêu, 1 hiệp"
+      }
+    },
+    {
+      "name": "Thăng Bậc",
+      "icon": "/images/heroes/s_lufei_sd.png",
+      "description": "KN trước hiệp: Trước hiệp, tăng tất cả các hạng mục năng lực của bản thân, trạng thái kéo dài 2 hiệp (Biến Dạng từ bậc 2 trở lên, trong khi Biến Dạng sẽ không thả skill), dù thăng bậc thành công hay thất bại (tăng đến Bậc 1), Luffy đều hồi HP đã mất của bản thân; Bỏ qua Choáng, Sợ, Đứng Im, Hóa Đá trong 4 hiệp;\nBậc 2: Tăng 350% Tốc Độ, Tấn Công Vật Lí & Tấn Công tt.Đất cho mình;\nBậc 3: Tăng 350% Tấn Công Vật Lí, điểm Phòng Ngự, Tấn Công tt.Đất & Phòng Ngự toàn thuộc tính cho mình.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Monkey D. Luffy",
+        "description": "Có thêm trạng thái Bậc 4: Bản thân tăng 150% Tốc Độ, Vật Công, Phòng Ngự, Tấn Công tt.Đất & Phòng Ngự Toàn Thuộc Tính\nBậc 2: Thêm 30% Giới Hạn HP, 2 hiệp;\nBậc 3: Thêm 50% Giới Hạn HP, 2 hiệp;\nBậc 4: Thêm 80% Giới Hạn HP, 2 hiệp;\nLưu ý: Từ Bậc 4 trở về trạng thái thường, cần nghỉ 1 hiệp mới tăng bậc lại."
+      }
+    },
+    {
+      "name": "Haki Quan Sát",
+      "icon": "/images/heroes/s_lufei_jws.png",
+      "description": "KN trước đòn: Tăng 350% Né và Chính Xác cho mình\nBậc 2: Tăng 50% ảnh hưởng kỹ năng\nBậc 3: Tăng 100% ảnh hưởng kỹ năng\nBậc 4: Tăng 150% ảnh hưởng kỹ năng",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Monkey D. Luffy",
+        "description": "Làm 3 mục tiêu trọng thương, giảm 60% Hồi HP của mục tiêu, 1 hiệp, và giảm 50% tốc độ của mục tiêu, 1 hiệp"
+      }
+    },
+    {
+      "name": "Pháo Cao Su",
+      "icon": "/images/heroes/s_lufei_ldp.png",
+      "description": "Tấn công tất cả địch, bỏ đi tất cả Tấn Công Thuộc Tính và chuyển nó thành Vật Công, tạo 350% dame vật lý lên mục tiêu và bỏ qua phòng ngự;\nBậc 2: Tăng 50% ảnh hưởng dame\nBậc 3: Tăng 100% ảnh hưởng dame\nBậc 4: Tăng 150% ảnh hưởng dame",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Monkey D. Luffy",
+        "description": "Cú hít mạnh của \"Đạn Cao Su\", khiến 2 mục tiêu Vật Công & Ma Công cao nhất kiệt sức, giảm 40%-50% Chính Xác & Né, 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thuyền Trưởng: Cùng Roger ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Đồng Hành: Cùng Zoro và Sách Chuyển Thế ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Ngây Ngô: Cùng Black và Gintoki ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Biến Dạng: Cùng Kaio ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-luffy",
+      "name": "CT-Luffy",
+      "avatar": "/images/heroes/ct-luffy.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Ước mơ trở thành vua hải tặc, tự tin với cơ thể dẻo dai có khả năng biến hình đa dạng của mình; Lúc nào cũng đội chiếc mũ rơm, nên được gọi là Luffy mũ rơm!"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Monkey D. Luffy",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Súng Cao Su",
+      "skillIcon": "/images/heroes/s_lufei_sq.png",
+      "skillDesc": "Làm choáng mục tiêu 1 hiệp, có tỉ lệ 50% ra tay liên tục 2 lần",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Monkey D. Luffy",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bá Đạo",
+      "skillIcon": "/images/heroes/s_lufei_bws.png",
+      "skillDesc": "Tăng 50% tỉ lệ dame, làm 3 mục tiêu Sợ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Monkey D. Luffy",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Súng Máy Cao Su",
+      "skillIcon": "/images/heroes/s_lufei_jgq.png",
+      "skillDesc": "Tăng 25%-100% Tốc Độ đồng đội, 2 hiệp; Ngẫu nhiên khiến 1 mục tiêu tụt máu, mỗi hiệp tạo dame tụt máu tương đương 100%-550% Tấn Công Vật Lí của Luffy, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Monkey D. Luffy",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Dấu Cao Su",
+      "skillIcon": "/images/heroes/s_lufei_yz.png",
+      "skillDesc": "Nhận thêm 50% giảm sát tổng thể;\nBậc 2: Tăng 10% tỉ lệ giảm sát tổng thể\nBậc 3: Tăng 15% tỉ lệ giảm sát tổng thể\nBậc 4: Tăng 20% tỉ lệ giảm sát tổng thể",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Zoro",
+          "icon": "/images/heroes/zoro.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Monkey D. Luffy",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Pháo Cao Su",
+      "skillIcon": "/images/heroes/s_lufei_ldp.png",
+      "skillDesc": "Cú hít mạnh của \"Đạn Cao Su\", khiến 2 mục tiêu Vật Công & Ma Công cao nhất kiệt sức, giảm 40%-50% Chính Xác & Né, 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Monkey D. Luffy",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Dấu Cao Su",
+      "skillIcon": "/images/heroes/s_lufei_yz.png",
+      "skillDesc": "Làm 3 mục tiêu trọng thương, giảm 60% Hồi HP của mục tiêu, 1 hiệp, và giảm 50% tốc độ của mục tiêu, 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Monkey D. Luffy",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thăng Bậc",
+      "skillIcon": "/images/heroes/s_lufei_sd.png",
+      "skillDesc": "Có thêm trạng thái Bậc 4: Bản thân tăng 150% Tốc Độ, Vật Công, Phòng Ngự, Tấn Công tt.Đất & Phòng Ngự Toàn Thuộc Tính\nBậc 2: Thêm 30% Giới Hạn HP, 2 hiệp;\nBậc 3: Thêm 50% Giới Hạn HP, 2 hiệp;\nBậc 4: Thêm 80% Giới Hạn HP, 2 hiệp;\nLưu ý: Từ Bậc 4 trở về trạng thái thường, cần nghỉ 1 hiệp mới tăng bậc lại.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Haki Quan Sát",
+      "unlockedSkillIcon": "/images/heroes/s_lufei_jws.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Pháo Cao Su",
+      "unlockedSkillIcon": "/images/heroes/s_lufei_ldp.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

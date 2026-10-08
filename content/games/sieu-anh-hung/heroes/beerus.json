@@ -1,0 +1,608 @@
+{
+  "id": "40400",
+  "slug": "beerus",
+  "name": "Beerus",
+  "title": "Vũ trụ linh tính • SSR Beerus",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/beerus.png",
+  "fullArt": "/images/heroes/full/image_bilusi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thần hủy diệt của Vũ Trụ thứ 7, ngủ say trong suốt 10 năm, khi muốn phá hoại hành tinh thì sẽ thức giấc. Trong thời gian thức giấc sẽ có một vài hành tinh gặp tai ương, thỉnh thoảng cũng sẽ tìm người đại diện, khả năng chiến đấu cao thâm khó lường.",
+  "skills": [
+    {
+      "name": "Định Thân",
+      "icon": "/images/heroes/s_bilusi_s1.png",
+      "description": "Tạo 350% ST Ma Công và 500% ST thuộc tính Gió lên 1~5 kẻ địch ngẫu nhiên, tạo x2-10 ST và ST thuộc tính (Số người càng ít, ST càng cao).",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Beerus",
+        "description": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Xóa Năng Lượng",
+      "icon": "/images/heroes/s_bilusi_s2.png",
+      "description": "Skill trước khi bị đánh: Tạo 350% ST Ma Công và 300% và ST thuộc tính Gió lên toàn thể phe địch, giảm 90% Trúng, Bạo Kích của mục tiêu. Cộng cho bản thân 1 lần vô địch, hồi toàn bộ HP của bản thân (Bỏ qua trọng thương).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Beerus",
+        "description": "Tạo hiệu quả tụt máu lên tất cả mục tiêu (30% HP của bản thân), và có 50% tỉ lệ khiến tấn công toàn thuộc tính của mục tiêu giảm đến 0đ (Sinh hiệu lực ở hiệp này), số lần mỗi hiệp kích hoạt đổi thành 3 lần."
+      }
+    },
+    {
+      "name": "Phá Hoại",
+      "icon": "/images/heroes/s_bilusi_s3.png",
+      "description": "Skill phản đòn: Tạo 350% ST Ma Công và 300% ST thuộc tính Gió lên toàn thể phe địch, tạo hiệu quả trọng thương hoặc trói buộc lên mục tiêu (Sát thương tấn công lần này có hiệu lực),tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Beerus",
+        "description": "Nếu mục tiêu bị trọng thương, tạo thêm x6 ST và ST thuộc tính, nếu mục tiêu bị trói buộc, tạo thêm x3 ST và ST thuộc tính."
+      }
+    },
+    {
+      "name": "Quả Cầu Tím",
+      "icon": "/images/heroes/s_bilusi_s6.png",
+      "description": "Skill trước hiệp: Tấn công của tất cả thuộc tính chuyển thành Ma Công, tạo 350% ST Ma Công và 900% ST thực thuộc tính Gió lên toàn thể phe địch,tạo lên kẻ địch ST thực bằng 30%-60% HP tối đa của bản thân lên phe địch, và khiến mục tiêu đứng im hoặc trói buộc.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Beerus",
+        "description": "Tăng lâu dài 100% Vật & Ma Công, kéo dài 2 hiệp, tạo thêm x4-6 ST và ST thuộc tính lên mục tiêu."
+      }
+    },
+    {
+      "name": "Thần Hủy Diệt",
+      "icon": "/images/heroes/s_bilusi_s7.png",
+      "description": "Skill trước trận: Tạo 350% ST Ma Công và ST bằng 800% ST thực thuộc tính Gió lên toàn thể phe địch, tăng 79% giảm thương tổng thể của bản thân, tăng 100% giới hạn HP của bản thân, tăng 350% tấn công thuộc tính Gió của bản thân, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, tạo thêm x4-6 ST và ST thuộc tính, ngẫu nhiên trói buộc 3 kẻ địch, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Beerus",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến mục tiêu trọng thương, cộng thêm 1 tầng buff hồi sinh cho bản thân, khi bản thân chết sẽ được hồi sinh, hồi 100% HP, tăng x2 tất cả ST skill và ST thuộc tính của bản thân."
+      }
+    },
+    {
+      "name": "Đạn Ánh Sáng",
+      "icon": "/images/heroes/s_bilusi_s4.png",
+      "description": "Tạo 350% ST Ma Công và 800% ST thuộc tính Gió lên 3~5 kẻ địch ngẫu nhiên, trong hiệp này giảm 100% tấn công thuộc tính Gió, Phòng Ngự, Né của kẻ địch (Sát thương tấn công lần này có hiệu lực), hồi toàn bộ HP cho bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Beerus",
+        "description": "Tăng 200% Tốc Độ của bản thân, trói buộc mục tiêu, kéo dài 2 hiệp。"
+      }
+    },
+    {
+      "name": "Đạn Nóng",
+      "icon": "/images/heroes/s_bilusi_s5.png",
+      "description": "Tạo 350% ST Ma Công và 900% ST thuộc tính Gió lên toàn thể phe địch, tạo x4-6 ST và ST thuộc tính, và có 50% tỉ lệ kết liễu 1 mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Beerus",
+        "description": "Tạo hiệu quả Đứng Im hoặc Trói Buộc lên mục tiêu, kéo dài 2 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Quí Tộc: Khi đồng thời xuất hiện cùng Kurumi và Shirakami Goku Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Thần Hủy Diệt: Khi đồng thời xuất hiện cùng Kefla Ma Công, HP và Tốc Độ+15%",
+    "Thức Tỉnh: Khi đồng thời xuất hiện cùng Cell Ma Công, HP và Tốc Độ+15%",
+    "Con Thoi: Khi đồng thời xuất hiện cùng Black Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-beerus",
+      "name": "CT-Beerus",
+      "avatar": "/images/heroes/ct-beerus.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thần hủy diệt của Vũ Trụ thứ 7, ngủ say trong suốt 10 năm, khi muốn phá hoại hành tinh thì sẽ thức giấc. Trong thời gian thức giấc sẽ có một vài hành tinh gặp tai ương, thỉnh thoảng cũng sẽ tìm người đại diện, khả năng chiến đấu cao thâm khó lường."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Beerus",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Định Thân",
+      "skillIcon": "/images/heroes/s_bilusi_s1.png",
+      "skillDesc": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Beerus",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Xóa Năng Lượng",
+      "skillIcon": "/images/heroes/s_bilusi_s2.png",
+      "skillDesc": "Tạo hiệu quả tụt máu lên tất cả mục tiêu (30% HP của bản thân), và có 50% tỉ lệ khiến tấn công toàn thuộc tính của mục tiêu giảm đến 0đ (Sinh hiệu lực ở hiệp này), số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Beerus",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Phá Hoại",
+      "skillIcon": "/images/heroes/s_bilusi_s3.png",
+      "skillDesc": "Nếu mục tiêu bị trọng thương, tạo thêm x6 ST và ST thuộc tính, nếu mục tiêu bị trói buộc, tạo thêm x3 ST và ST thuộc tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Beerus",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Đạn Ánh Sáng",
+      "skillIcon": "/images/heroes/s_bilusi_s4.png",
+      "skillDesc": "Tăng 200% Tốc Độ của bản thân, trói buộc mục tiêu, kéo dài 2 hiệp。",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Beerus",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Đạn Nóng",
+      "skillIcon": "/images/heroes/s_bilusi_s5.png",
+      "skillDesc": "Tạo hiệu quả Đứng Im hoặc Trói Buộc lên mục tiêu, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Beerus",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Quả Cầu Tím",
+      "skillIcon": "/images/heroes/s_bilusi_s6.png",
+      "skillDesc": "Tăng lâu dài 100% Vật & Ma Công, kéo dài 2 hiệp, tạo thêm x4-6 ST và ST thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Beerus",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thần Hủy Diệt",
+      "skillIcon": "/images/heroes/s_bilusi_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến mục tiêu trọng thương, cộng thêm 1 tầng buff hồi sinh cho bản thân, khi bản thân chết sẽ được hồi sinh, hồi 100% HP, tăng x2 tất cả ST skill và ST thuộc tính của bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Đạn Ánh Sáng",
+      "unlockedSkillIcon": "/images/heroes/s_bilusi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Đạn Nóng",
+      "unlockedSkillIcon": "/images/heroes/s_bilusi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "slug": "beerus"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

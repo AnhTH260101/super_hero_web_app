@@ -1,0 +1,639 @@
+{
+  "id": "64000",
+  "slug": "ct-gintoki",
+  "name": "CT-Gintoki",
+  "title": "Vũ trụ nguyên tố • UR CT-Gintoki",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-gintoki.png",
+  "fullArt": "/images/heroes/full/image_yinshi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Nam tử hán võ sĩ đạo",
+  "skills": [
+    {
+      "name": "Nha Đột-Thánh",
+      "icon": "/images/heroes/s_yinshi_hurt.png",
+      "description": "Skill tử trận: Tấn công mục tiêu có HP thấp nhất hiện tại, tạo 350% ST vật lý và 160% ST t.tính Gió (Nếu bị Choáng, Sợ hoặc Đứng Im, sẽ ko thể thả kỹ năng này).",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Gintok",
+        "description": "Bản thân chuyển tấn công ma pháp thành tấn công t.tính Đất, làm mục tiêu hoảng sợ"
+      }
+    },
+    {
+      "name": "Chém Gió-Thánh",
+      "icon": "/images/heroes/s_yinshi_cure.png",
+      "description": "Tăng 350% miễn thương tổng thể cho bản thân, bản thân hồi 20% HP, tăng 350% toàn thuộc tính, kéo dài 2 hiệp, xóa buff bất lợi: giảm thuộc tính bản thân, tụt máu và choáng,… bản thân miễn dịch 1 lần choáng đến từ phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Gintok",
+        "description": "Gintoki tăng thêm 10% toàn thuộc tính của bản thân"
+      }
+    },
+    {
+      "name": "Bạch Dạ Trảm-Thánh",
+      "icon": "/images/heroes/s_yinshi_injure.png",
+      "description": "Gintoki tạo 350% ST vật lý lên toàn thể địch, tạo thêm 130% ST t.tính Đất",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Gintok",
+        "description": "Tạo X2 sát thương lên mục tiêu"
+      }
+    },
+    {
+      "name": "Phi Đao Gỉ Mũi.Thánh",
+      "icon": "/images/heroes/s_yinshi_hurt1.png",
+      "description": "Skill trước trận, tạo 350% ST vật lý và 500% ST t.tính Đất lên mục tiêu hàng thẳng, tăng miễn dịch hộ thuẫn trước trận, và tạo buff Chế Giễu, kẻ địch bị tấn công chỉ được chọn Gintoki làm mục tiêu tấn công, trước trận có hiệu lực liên tục.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Gintok",
+        "description": "Trống"
+      }
+    },
+    {
+      "name": "Pháo Armstrong.Thánh",
+      "icon": "/images/heroes/s_yinshi_hurt2.png",
+      "description": "Skill tử trận, dùng hết sức gọi Pháo Armstrong, tạo 1 lần 350% ST vật lý và ST t.tính đất của trị số t.tính Đất của bản thân cộng với 30% HP bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Gintok",
+        "description": "Trống"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kiếm Pháp: Khi cùng Hoàng Phủ Kiếm và Âu Cơ ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Cực Hạn: Khi cùng Samurai và Zoro ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Hảo Ngọt: Khi cùng Levi Ackerman ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Mảnh Yêu Đao: Khi trang bị Kiếm Võ Sĩ thì Vật Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Gintoki: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Gintoki",
+      "icon": "/images/heroes/gintoki.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Hoàng Phủ Kiếm",
+      "icon": "/images/heroes/hoang-phu-kiem.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Gintok",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Nha Đột-Thánh",
+      "skillIcon": "/images/heroes/s_yinshi_hurt.png",
+      "skillDesc": "Bản thân chuyển tấn công ma pháp thành tấn công t.tính Đất, làm mục tiêu hoảng sợ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Gintok",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Chém Gió-Thánh",
+      "skillIcon": "/images/heroes/s_yinshi_cure.png",
+      "skillDesc": "Gintoki tăng thêm 10% toàn thuộc tính của bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Gintok",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Bạch Dạ Trảm-Thánh",
+      "skillIcon": "/images/heroes/s_yinshi_injure.png",
+      "skillDesc": "Tạo X2 sát thương lên mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Gintok",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Phi Đao Gỉ Mũi.Thánh",
+      "skillIcon": "/images/heroes/s_yinshi_hurt1.png",
+      "skillDesc": "Trống",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Gintok",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Pháo Armstrong.Thánh",
+      "skillIcon": "/images/heroes/s_yinshi_hurt2.png",
+      "skillDesc": "Trống",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Gintok",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Gintok",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gintoki",
+          "icon": "/images/heroes/gintoki.png",
+          "slug": "gintoki"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

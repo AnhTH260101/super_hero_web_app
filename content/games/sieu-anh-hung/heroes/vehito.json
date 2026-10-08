@@ -1,0 +1,580 @@
+{
+  "id": "6400",
+  "slug": "vehito",
+  "name": "Vehito",
+  "title": "Vũ trụ linh tính • SSR Vehito",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/vehito.png",
+  "fullArt": "/images/heroes/full/image_vegete.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chiến sĩ siêu cấp sinh ra từ \"Đôi bông ai Potara\" thánh vật của Giới Vương Thần! Có thể nhẹ nhàng đánh bại bất kì kẻ địch nào, tuyệt đối mạnh nhất vũ trụ!",
+  "skills": [
+    {
+      "name": "Nguyên Khí Kiếm",
+      "icon": "/images/heroes/s_guangjian.png",
+      "description": "Dùng khí lực tạo thành một thanh kiếm ánh sáng chém ngang, tạo 1 lần 350% sát thương vật lí cho mục tiêu xếp trước. Sau đó lại vung kiếm ánh sáng lên, tạo 1 lần 350% sát thương vật lí cho mục tiêu trực tuyến.Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ· Vegito",
+        "description": "Kĩ năng\nTăng cường Quang Kiếm: \n Sát thương tăng thêm 50%."
+      }
+    },
+    {
+      "name": "Siêu Cấp Thiểm Quang Pháo",
+      "icon": "/images/heroes/s_chaojishanguangpao.png",
+      "description": "Tích tụ khí lực xong bắn ra sóng xung kích cực mạnh, tạo 350% sát thương ma pháp lên toàn bộ địch, tạo thêm 150% sát thương ma pháp cho kẻ địch xếp trước, mỗi tầng trạng thái dồn lực tăng 20% sát thương ma pháp.Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ· Vegito",
+        "description": "Kĩ năng\nTăng cường Pháo Tia Chớp Siêu Cấp: \n Trạng thái dồn lực mỗi tầng tăng thêm 10% sát thương ma pháp, dồn lực đến tầng 3 sẽ hồi phục 10% HP, dồn lực đến tầng 5 sẽ hồi phục 15% HP."
+      }
+    },
+    {
+      "name": "Tường Chắn Bảo Vệ",
+      "icon": "/images/heroes/s_fanghupingzhang.png",
+      "description": "Dùng năng lượng cực mạnh tạo thành một lớp bảo vệ, giảm 350% sát thương phải chịu, tẩy trừ trạng thái phụ của bản thân. Khi khởi động sẽ tăng 1 lớp trạng thái dồn lực cho bản thân, tối đa dồn 5 lớp, trong trạng thái dồn lực thuộc tính tăng 30%~50%. Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng· Vegito",
+        "description": "Kĩ năng\nTăng cường Tường Phòng Hộ: \n Giảm thêm 10% sát thương."
+      }
+    },
+    {
+      "name": "Sức Mạnh Hợp Thể",
+      "icon": "/images/heroes/s_chaojishanguangpao.png",
+      "description": "Tăng effect tấn công thuộc tính lửa điểm tuyệt đối",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Huyền thoại· Vegito",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Siêu Chiến Sĩ",
+      "icon": "/images/heroes/s_fanghupingzhang.png",
+      "description": "Tử vong xong mỗi hiệp phục hồi cho toàn bộ đồng đội 350% HP, kéo dài 2 hiệp, miễn dịch 1 lần tấn công cho nhân vật có tỉ lệ HP thấp nhất phe ta",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần· Vegito",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần· Ngạo thế: Vật công, ma công, HP +20%, phòng ngự, tốc độ +10% khi ra trận cùng lúc với Lục Đạo Tiên Nhân và Roger",
+    "Mạnh nhất vũ trụ: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với Yasuke và Ichigo",
+    "Namek: Ma công, HP và tốc độ +15% khi ra trận cùng lúc với Sonkoku và Veheta",
+    "Phong sát: Ma công +20% khi trang bị Áo Võ Đấu"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-vehito",
+      "name": "CT-Vehito",
+      "avatar": "/images/heroes/ct-vehito.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Chiến sĩ siêu cấp sinh ra từ \"Đôi bông ai Potara\" thánh vật của Giới Vương Thần! Có thể nhẹ nhàng đánh bại bất kì kẻ địch nào, tuyệt đối mạnh nhất vũ trụ!"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ· Vegito",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Nguyên Khí Kiếm",
+      "skillIcon": "/images/heroes/s_guangjian.png",
+      "skillDesc": "Kĩ năng\nTăng cường Quang Kiếm: \n Sát thương tăng thêm 50%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ· Vegito",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Siêu Cấp Thiểm Quang Pháo",
+      "skillIcon": "/images/heroes/s_chaojishanguangpao.png",
+      "skillDesc": "Kĩ năng\nTăng cường Pháo Tia Chớp Siêu Cấp: \n Trạng thái dồn lực mỗi tầng tăng thêm 10% sát thương ma pháp, dồn lực đến tầng 3 sẽ hồi phục 10% HP, dồn lực đến tầng 5 sẽ hồi phục 15% HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng· Vegito",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Tường Chắn Bảo Vệ",
+      "skillIcon": "/images/heroes/s_fanghupingzhang.png",
+      "skillDesc": "Kĩ năng\nTăng cường Tường Phòng Hộ: \n Giảm thêm 10% sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại· Vegito",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Sức Mạnh Hợp Thể",
+      "skillIcon": "/images/heroes/s_chaojishanguangpao.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần· Vegito",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Siêu Chiến Sĩ",
+      "skillIcon": "/images/heroes/s_fanghupingzhang.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh· Vegito",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn· Vegito",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 50,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 50,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "slug": "vehito"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

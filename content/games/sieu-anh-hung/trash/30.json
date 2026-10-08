@@ -1,0 +1,90 @@
+{
+  "id": "30",
+  "slug": "30",
+  "name": "3.0",
+  "title": "Vũ trụ linh tính • SSR 3.0",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_yileina.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Elaina có một mái tóc dài xám bạc, đôi mắt xanh biếc màu trời, khoác chiếc áo choàng đen, đội một chiếc mũ chóp, trên ngực đeo \"Cài Ngực Hình Sao\" tượng trưng cho Phù Thủy.",
+  "skills": [
+    {
+      "name": "Băng Trùy Ma Pháp",
+      "type": "active",
+      "description": "Lực công của tất cả thuộc tính đều chuyển thành Lực công thuộc tính Thủy, gây ra 350% ST ma pháp và 100% ST thuộc tính Thủy cho toàn thể phe địch",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Gió Lốc",
+      "type": "ultimate",
+      "description": "Kĩ năng trước khi bị tấn công: Lực công của tất cả thuộc tính đều chuyển thành Lực công thuộc tính Phong, gây ra 350% ST ma pháp và 100% ST thuộc tính Phong cho toàn thể phe địch. Gây thêm 1 tầng \"Phù Không\": Khi bị dẫn nổ sẽ khiến mục tiêu không thể phóng kĩ năng trước khi bị tấn công.",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Đá Vụn",
+      "type": "talent",
+      "description": "Kĩ năng phản kích: Lực công của tất cả thuộc tính đều chuyển thành Lực công thuộc tính Thổ, gây ra 350% ST ma pháp và 200% ST thuộc tính Thổ cho toàn thể phe địch",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Bạo Phát Ma Pháp",
+      "type": "passive",
+      "description": "Kĩ năng Tử Vong: Hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương). Gây ra 350% ST thực ma pháp cho toàn phe địch, tối đa Hồi Sinh 3 lần.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "Chém Đứt Không Khí",
+      "type": "talent",
+      "description": "Kĩ năng trước chiến đấu: Áp súc ma pháp và tăng cường hiệu quả Chém Đứt, Lực công của tất cả thuộc tính đều chuyển thành Lực công thuộc tính Phong; Gây ra ST thực gồm 350% ST ma pháp và 1800% ST thuộc tính Phong cho toàn thể phe địch",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "Ma Pháp Ngự Lôi",
+      "type": "passive",
+      "description": "Tất cả Lực công nguyên tố đều chuyển thành Lực công ma pháp, gây ra 350% ST thực lực công ma pháp cho toàn thể phe địch. Gây thêm 1 tầng \"Lôi Kích\": Khi bị dẫn nổ sẽ thêm \"Diệt Sạch\" cho mục tiêu",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Tuyệt Đối Âm Độ",
+      "type": "passive",
+      "description": "Kĩ năng trước lượt đấu: Phóng Ma Pháp Đóng Băng, Lực công của tất cả thuộc tính đều chuyển thành Lực công thuộc tính Thủy, gây ra ST thực gồm 350% ST ma pháp và 1800% ST thuộc tính Thủy cho toàn thể phe địch. Gây thêm 1 tầng \"Phong Ấn Băng\": Khi bị dẫn nổ sẽ giảm bớt 1 lần Hồi Sinh của mục tiêu.",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Ma Pháp Sư: Khi xuất hiện cùng lúc với card2 và card3 Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Tâm Thiếu Nữ: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+    "Nhà Lữ Hành: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+    "Thành Tựu Học Tập: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "id": "39700",
+  "slug": "jiraiya",
+  "name": "Jiraiya",
+  "title": "Vũ trụ linh tính • SSR Jiraiya",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/jiraiya.png",
+  "fullArt": "/images/heroes/full/image_zilaiye.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Một trong ba \"Sannin\" của làng Lá, đệ tử của Hokage đệ tam.",
+  "skills": [
+    {
+      "name": "Thể Thuật",
+      "icon": "/images/heroes/s_zilaiye_s1.png",
+      "description": "Skill phản đòn: bị tấn công có 99% tỉ lệ gây sát thương thật sự bằng 350% sát thương ma pháp và 500% sát thương thuộc tính Đất lên kẻ địch đơn thể. Trói buộc kẻ tấn công 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Jiraiya",
+        "description": "Khiến tấn công toàn bộ thuộc tính của mục tiêu giảm đến 0, hiệu quả kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Hỏa Độn",
+      "icon": "/images/heroes/s_zilaiye_s2.png",
+      "description": "Gây 350% sát thương ma pháp và 300% sát thương thuộc tính Đất lên 3~5 kẻ địch ngẫu nhiên, tăng 350% ma công thuộc tính Đất của đồng đội, giảm 50% chính xác, né tránh, bạo kích của mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Jiraiya",
+        "description": "Gây thêm gấp 3 lần sát thương thuộc tính Đất và ma pháp lên kẻ địch có HP dưới 20% trong số mục tiêu."
+      }
+    },
+    {
+      "name": "Thuật Phân Thân Ảnh",
+      "icon": "/images/heroes/s_zilaiye_s3.png",
+      "description": "Gây 350% sát thương ma pháp và 200% sát thương thuộc tính Đất lên toàn bộ địch, hồi phục HP, lượng hồi phục bằng tổng sát thương gây ra.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Jiraiya",
+        "description": "Tăng 100% tốc độ bản thân, 50% tỉ lệ trói buộc mục tiêu 1 hiệp."
+      }
+    },
+    {
+      "name": "Loạn Sư Phát Thuật",
+      "icon": "/images/heroes/s_zilaiye_s6.png",
+      "description": "Skill trước hiệp: tất cả tấn công thuộc tính chuyển thành ma công, gây 350% sát thương ma pháp và 800% sát thương thật sự thuộc tính Đất lên toàn bộ địch, hồi phục 30% ~ 40% HP cho toàn đội, 50% tỉ lệ giảm 30% ~ 60% tốc độ của mục tiêu. Kéo dài 2 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Jiraiya",
+        "description": "Chọn ngẫu nhiên một đồng đội, cộng 1 lần vô địch cho mình và người đó, hiệu quả 2 lần. Gây hiệu quả trói buộc lên 3~5 kẻ địch ngẫu nhiên."
+      }
+    },
+    {
+      "name": "La Toàn Hoàn",
+      "icon": "/images/heroes/s_zilaiye_s7.png",
+      "description": "Skill tử trận: tử vong xong hồi sinh, hồi phục toàn bộ HP. Gây 350% sát thương ma pháp và 800% sát thương thật sự thuộc tính Đất lên toàn bộ địch. Tối đa hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Jiraiya",
+        "description": "Tối đa hồi sinh 3 lần. Giết nhanh mục tiêu tấn công có HP dưới 10%."
+      }
+    },
+    {
+      "name": "Kết Giới",
+      "icon": "/images/heroes/s_zilaiye_s4.png",
+      "description": "Skill trước trận: tăng 79% tỉ lệ giảm thương tổng thể của bản thân, tăng vĩnh viễn 350% sát thương ma pháp của bản thân, tăng vĩnh viễn 200% tốc độ và né tránh của bản thân. Ngẫu nhiên trói buộc 1~3 kẻ địch, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Jiraiya",
+        "description": "Gây sát thương thật sự bằng 30% HP tối đa của bản thân lên toàn bộ địch, vĩnh viễn miễn dịch hiệu quả đứng im, hóa đá, choáng, hôn mê, hỗn loạn, chế giễu, tsukuyomi."
+      }
+    },
+    {
+      "name": "Thổ Lưu Hoãn",
+      "icon": "/images/heroes/s_zilaiye_s5.png",
+      "description": "Gây 350% sát thương ma pháp và sát thương thật sự thuộc tính Đất bằng 900% tổng toàn bộ thuộc tính lên toàn bộ địch, ngẫu nhiên khiến mục tiêu mù hoặc hỗn loạn, kéo dài 2 hiệp, hồi phục lượng HP bằng 20% giới hạn HP",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Jiraiya",
+        "description": "Gây thêm gấp 6 lần sát thương lên tất cả địch có tốc độ thấp hơn bản thân, khiến chúng hỗn loạn 1 hiệp. Gây thêm gấp 3 lần sát thương lên kẻ địch có tốc độ cao hơn bản thân, hấp thụ 20% tốc độ của chúng."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Nhẫn Thuật: Khi ra trận cùng lúc với Shirakami Goku và Namikaze Minato, vật công, ma công, chính xác +20%, phòng ngự, tốc độ +15%",
+    "Ẩn Thân: Khi ra trận cùng lúc với Hashirama, ma công, HP và tốc độ +15%",
+    "Thông Linh: Khi ra trận cùng lúc với Tobirama, ma công, HP và tốc độ +15%",
+    "Tu Luyện: Khi ra trận cùng lúc với Naruto (Tiên nhân), ma công, HP và tốc độ +15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-jiraiya",
+      "name": "CT-Jiraiya",
+      "avatar": "/images/heroes/ct-jiraiya.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Một trong \"Tam nhẫn\" của Mộc Diệp Thôn ở Hỏa Quốc, đệ tử của Hokage Đệ Tam."
+    },
+    {
+      "slug": "jiraiyathong-linh",
+      "name": "Jiraiya.Thông linh",
+      "avatar": "/images/heroes/jiraiyathong-linh.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Một trong \"Tam nhẫn\" của Mộc Diệp Thôn ở Hỏa Quốc, đệ tử của Hokage Đệ Tam."
+    },
+    {
+      "slug": "jiraiyatien",
+      "name": "Jiraiya.Tiên",
+      "avatar": "/images/heroes/jiraiyatien.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Một trong \"Tam nhẫn\" của Mộc Diệp Thôn ở Hỏa Quốc, đệ tử của Hokage Đệ Tam."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Jiraiya",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thể Thuật",
+      "skillIcon": "/images/heroes/s_zilaiye_s1.png",
+      "skillDesc": "Khiến tấn công toàn bộ thuộc tính của mục tiêu giảm đến 0, hiệu quả kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Jiraiya",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hỏa Độn",
+      "skillIcon": "/images/heroes/s_zilaiye_s2.png",
+      "skillDesc": "Gây thêm gấp 3 lần sát thương thuộc tính Đất và ma pháp lên kẻ địch có HP dưới 20% trong số mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Namikaze Minato",
+          "icon": "/images/heroes/namikaze-minato.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Jiraiya",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thuật Phân Thân Ảnh",
+      "skillIcon": "/images/heroes/s_zilaiye_s3.png",
+      "skillDesc": "Tăng 100% tốc độ bản thân, 50% tỉ lệ trói buộc mục tiêu 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Jiraiya",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Kết Giới",
+      "skillIcon": "/images/heroes/s_zilaiye_s4.png",
+      "skillDesc": "Gây sát thương thật sự bằng 30% HP tối đa của bản thân lên toàn bộ địch, vĩnh viễn miễn dịch hiệu quả đứng im, hóa đá, choáng, hôn mê, hỗn loạn, chế giễu, tsukuyomi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tobirama",
+          "icon": "/images/heroes/tobirama.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Jiraiya",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Thổ Lưu Hoãn",
+      "skillIcon": "/images/heroes/s_zilaiye_s5.png",
+      "skillDesc": "Gây thêm gấp 6 lần sát thương lên tất cả địch có tốc độ thấp hơn bản thân, khiến chúng hỗn loạn 1 hiệp. Gây thêm gấp 3 lần sát thương lên kẻ địch có tốc độ cao hơn bản thân, hấp thụ 20% tốc độ của chúng.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Jiraiya",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Loạn Sư Phát Thuật",
+      "skillIcon": "/images/heroes/s_zilaiye_s6.png",
+      "skillDesc": "Chọn ngẫu nhiên một đồng đội, cộng 1 lần vô địch cho mình và người đó, hiệu quả 2 lần. Gây hiệu quả trói buộc lên 3~5 kẻ địch ngẫu nhiên.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Jiraiya",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "La Toàn Hoàn",
+      "skillIcon": "/images/heroes/s_zilaiye_s7.png",
+      "skillDesc": "Tối đa hồi sinh 3 lần. Giết nhanh mục tiêu tấn công có HP dưới 10%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Kết Giới",
+      "unlockedSkillIcon": "/images/heroes/s_zilaiye_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Thổ Lưu Hoãn",
+      "unlockedSkillIcon": "/images/heroes/s_zilaiye_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "slug": "jiraiya"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

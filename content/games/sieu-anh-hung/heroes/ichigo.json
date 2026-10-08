@@ -1,0 +1,304 @@
+{
+  "id": "2200",
+  "slug": "ichigo",
+  "name": "Ichigo",
+  "title": "Vũ trụ nguyên tố • SSR Ichigo",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ichigo.png",
+  "fullArt": "/images/heroes/full/image_ichigo.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Ichigo đưa giấy phép Ichigo cho Ichigo, đồng thời cùng hắn trải qua khoảng thời gian tươi đẹp. Hiện tại, Ichigo đã là một Ichigo hợp pháp, trong ngày tận thế cô độc chỉ xin mang theo.",
+  "skills": [
+    {
+      "name": "Hồn· Hộ",
+      "icon": "/images/heroes/s_sishendaili.png",
+      "description": "Kĩ năng trước trận. Triệu hồi sức mạnh của Tử Thần, trong vòng 2 hiệp giảm 6% sát thương phải chịu của toàn bộ nhân vật phe ta, kĩ năng tăng 1 cấp thì giảm 0.8%.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Ichigo",
+        "description": "Kĩ năng\nTăng hiệu quả Hồn· Hộ: \n Đồng đội trong Hồn· Hộ mỗi hiệp hồi phục 10% HP."
+      }
+    },
+    {
+      "name": "Hồn· Sát",
+      "icon": "/images/heroes/s_yueyatianchong.png",
+      "description": "Chém ra một đạo kiếm khí nguyệt nha, tạo 350% sát thương vật lí cho kẻ địch trực tuyến, có 50% tỉ lệ bạo kích, đồng thời khiến địch rơi vào trạng thái chảy máu, mỗi hiệp giảm 3% HP, nếu ở trạng thái Shikai thì nhất định phát tác.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Ichigo",
+        "description": "Kĩ năng\nTăng hiệu quả Hồn· Sát: \n Dưới trạng thái Hồn· Giải, Hồn· Sát tăng 50%."
+      }
+    },
+    {
+      "name": "Hồn· Giải",
+      "icon": "/images/heroes/s_wanjie.png",
+      "description": "Giải phóng sức mạnh chung cực của Trảm Hồn Đao, nhận được Shikai. Tạo 350% sát thương vật lí cho mục tiêu, tăng tấn công và tốc độ bản thân 15%, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Ichigo",
+        "description": "Kĩ năng\nTăng hiệu quả Hồn· Giải: \nHồn· Giải tăng gấp đôi hiệu quả tấn công và tốc độ."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Người cầm đao: Vật công và tốc độ +15% khi ra trận cùng lúc với Michonne và Kensin",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Seya và Mabara",
+    "Thay lời cái chết: Tốc độ +20% khi ra trận cùng lúc với Ghost Rider",
+    "Manga hay: Ma công và HP +15% khi ra trận cùng lúc với Nanato và Luffy"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Ichigo",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Hồn· Hộ",
+      "skillIcon": "/images/heroes/s_sishendaili.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Hồn· Hộ: \n Đồng đội trong Hồn· Hộ mỗi hiệp hồi phục 10% HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Ichigo",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hồn· Sát",
+      "skillIcon": "/images/heroes/s_yueyatianchong.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Hồn· Sát: \n Dưới trạng thái Hồn· Giải, Hồn· Sát tăng 50%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Ichigo",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Hồn· Giải",
+      "skillIcon": "/images/heroes/s_wanjie.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Hồn· Giải: \nHồn· Giải tăng gấp đôi hiệu quả tấn công và tốc độ.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Ichigo",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Ichigo",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Ichigo",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Ichigo",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

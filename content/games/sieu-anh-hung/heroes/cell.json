@@ -1,0 +1,608 @@
+{
+  "id": "38900",
+  "slug": "cell",
+  "name": "Cell",
+  "title": "Vũ trụ linh tính • SSR Cell",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/cell.png",
+  "fullArt": "/images/heroes/full/image_shalu.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là sinh vật lai tạo gen được tạo ra bởi Dr.Gero. Có năng lực lớn mạnh, có thể hấp thụ sức mạnh của kẻ địch.",
+  "skills": [
+    {
+      "name": "Song Kienzan",
+      "icon": "/images/heroes/s_shalu_s1.png",
+      "description": "Tạo 350% ST ma công và % ST t.tính Gió lên 1-5 kẻ địch, hấp thụ 30% hiệu suất hồi HP của kẻ địch để cộng cho bản thân.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ.Cell",
+        "description": "Hấp thụ 50% hiệu suất hồi HP của kẻ địch để cộng cho bản thân. Nếu số lượng mục tiêu vừa đúng số chẵn, sẽ tạo hiệu quả tụt máu cho mục tiêu, mỗi hiệp tạo ST thực của Vật & Ma Công, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Vũ Không Thuật",
+      "icon": "/images/heroes/s_shalu_s2.png",
+      "description": "Skill trước khi bị đánh: Trong hiệp hiện tại, bản thân tăng 350% phòng ngự tổng thể, tăng 200% Né và Tốc Độ, tạo hiệu quả Kiệt Sức lên kẻ địch chưa đầy máu trong hiệp hiện tại, khiến kẻ địch -20% Tốc Độ và Bạo Kích. Mỗi hiệp tối đa kích hoạt 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ.Cell",
+        "description": "Hấp thụ 10%-30% Vật & Ma Công hiện tại của kẻ tấn công để cộng cho bản thân, số lần kích hoạt mỗi hiệp biến thành 2 lần."
+      }
+    },
+    {
+      "name": "Đạn Nguyên Khí",
+      "icon": "/images/heroes/s_shalu_s3.png",
+      "description": "Skill phản đòn: Tạo 350% ST ma công và ST thực của % ST t.tính Gió lên toàn thể địch, ngẫu nhiên tạo thêm gấp 2 sát thương lên dãy trước hoặc dãy sau, tăng 200% Trúng và Bạo Kích cho bản thân. Mỗi hiệp tối đa kích hoạt 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng.Cell",
+        "description": "Hấp thụ 20%-50% Chính Xác, Né và Bạo Kích của mục tiêu, sau đó cộng cho bản thân. Tạo thêm gấp 2 sát thương lên kẻ tấn công."
+      }
+    },
+    {
+      "name": "Sinh Sôi Vô Hạn",
+      "icon": "/images/heroes/s_shalu_s6.png",
+      "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành ma công, tạo 350% ST ma công lên tất cả kẻ địch, và hồi tất cả HP đã mất. Tạo thêm gấp 3 sát thương lên kẻ địch có HP thấp nhất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh.Cell",
+        "description": "Hấp thụ 20%-40% phòng ngự tổng thể hiện tại của mục tiêu, sau đó cộng cho bản thân. Tạo gấp 3 sát thương lên kẻ địch có HP nhiều nhất."
+      }
+    },
+    {
+      "name": "Tia Tử Vong Toàn Công",
+      "icon": "/images/heroes/s_shalu_s7.png",
+      "description": "Skill trước trận: Kết liễu kẻ dãy trước hàng bất kỳ, và có 20% tỉ lệ kết liễu kẻ địch dãy sau (Bỏ qua hiệu quả Vô Địch của phe địch, nhưng sẽ không kết liễu kẻ địch dãy sau nữa). Hấp thụ 30% Tốc Độ hiện tại của kẻ địch còn lại dẫn vào bản thân. Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn.Cell",
+        "description": "Hấp thụ tất cả thuộc tính của kẻ địch bị kết liễu (HP, Vật & Ma Công, Phòng Ngự, Tốc Độ, Chính Xác, Né, Bạo Kích), sau đó cộng cho bản thân. Tăng 79% tỉ lệ giảm thương tổng thể, tăng 800% phòng ngự tổng thể. Tất cả hiệu quả hấp thụ biến thành gấp 1.2"
+      }
+    },
+    {
+      "name": "Xạ Kích Đạn Sáng",
+      "icon": "/images/heroes/s_shalu_s4.png",
+      "description": "Thả đạn nổ liên tiếp, chuyển tấn công t.tính Gió thành tấn công t.tính Lửa, tạo 350% ST ma công và % ST t.tính Lửa lên toàn thể địch, mỗi lần nổ đều tạo dư âm, mỗi đạn nổ đều kèm thêm ST bằng một nửa Ma Công.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần thoại.Cell",
+        "description": "Hấp thụ 20% tấn công thuộc tính tổng thể của tất cả mục tiêu, sau đó cộng cho bản thân. ST kèm theo của đạn nổ biến thành 100% Ma Công."
+      }
+    },
+    {
+      "name": "Kamehameha",
+      "icon": "/images/heroes/s_shalu_s5.png",
+      "description": "Tạo 350% ST ma công và % ST t.tính Gió lên toàn thể địch, tạo thêm gấp 5 lần ST lên mục tiêu dãy mặc định (Bỏ qua phòng ngự), nếu trên người kẻ địch có hiệu quả Hấp Thụ, sẽ khiến kẻ đó hôn mê 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần.Cell",
+        "description": "Tạo thêm gấp 3 sát thương lên kẻ địch bị hấp thụ, hấp thụ 10% giới hạn HP của 1-3 mục tiêu, sau đó cộng cho bản thân."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Chiến Sĩ Siêu Năng: Ra trận cùng lúc với Kefla và Laxus Dreyar, Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Đội Cảm Đấu: Ra trận cùng lúc với Namikaze Minato, Ma Công, HP và Tốc Độ+15%",
+    "Cơ Thể Bất Diệt: Ra trận cùng lúc với Thanos, Ma Công, HP và Tốc Độ+15%",
+    "Phi Nhân Vật: Ra trận cùng lúc với Ma Nhân, Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-cell",
+      "name": "CT-Cell",
+      "avatar": "/images/heroes/ct-cell.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là sinh vật lai tạo gen được tạo ra bởi Dr.Gero. Có năng lực lớn mạnh, có thể hấp thụ sức mạnh của kẻ địch."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ.Cell",
+      "tierName": "Dũng Sĩ.Cell",
+      "auraColor": "emerald",
+      "skillName": "Song Kienzan",
+      "skillIcon": "/images/heroes/s_shalu_s1.png",
+      "skillDesc": "Hấp thụ 50% hiệu suất hồi HP của kẻ địch để cộng cho bản thân. Nếu số lượng mục tiêu vừa đúng số chẵn, sẽ tạo hiệu quả tụt máu cho mục tiêu, mỗi hiệp tạo ST thực của Vật & Ma Công, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ.Cell",
+      "tierName": "Đấu Sĩ.Cell",
+      "auraColor": "cyan",
+      "skillName": "Vũ Không Thuật",
+      "skillIcon": "/images/heroes/s_shalu_s2.png",
+      "skillDesc": "Hấp thụ 10%-30% Vật & Ma Công hiện tại của kẻ tấn công để cộng cho bản thân, số lần kích hoạt mỗi hiệp biến thành 2 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng.Cell",
+      "tierName": "Anh Hùng.Cell",
+      "auraColor": "purple",
+      "skillName": "Đạn Nguyên Khí",
+      "skillIcon": "/images/heroes/s_shalu_s3.png",
+      "skillDesc": "Hấp thụ 20%-50% Chính Xác, Né và Bạo Kích của mục tiêu, sau đó cộng cho bản thân. Tạo thêm gấp 2 sát thương lên kẻ tấn công.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần thoại.Cell",
+      "tierName": "Thần thoại.Cell",
+      "auraColor": "amber",
+      "skillName": "Xạ Kích Đạn Sáng",
+      "skillIcon": "/images/heroes/s_shalu_s4.png",
+      "skillDesc": "Hấp thụ 20% tấn công thuộc tính tổng thể của tất cả mục tiêu, sau đó cộng cho bản thân. ST kèm theo của đạn nổ biến thành 100% Ma Công.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Black",
+          "icon": "/images/heroes/black.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần.Cell",
+      "tierName": "Thần.Cell",
+      "auraColor": "red",
+      "skillName": "Kamehameha",
+      "skillIcon": "/images/heroes/s_shalu_s5.png",
+      "skillDesc": "Tạo thêm gấp 3 sát thương lên kẻ địch bị hấp thụ, hấp thụ 10% giới hạn HP của 1-3 mục tiêu, sau đó cộng cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh.Cell",
+      "tierName": "Linh.Cell",
+      "auraColor": "rose",
+      "skillName": "Sinh Sôi Vô Hạn",
+      "skillIcon": "/images/heroes/s_shalu_s6.png",
+      "skillDesc": "Hấp thụ 20%-40% phòng ngự tổng thể hiện tại của mục tiêu, sau đó cộng cho bản thân. Tạo gấp 3 sát thương lên kẻ địch có HP nhiều nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn.Cell",
+      "tierName": "Hồn.Cell",
+      "auraColor": "violet",
+      "skillName": "Tia Tử Vong Toàn Công",
+      "skillIcon": "/images/heroes/s_shalu_s7.png",
+      "skillDesc": "Hấp thụ tất cả thuộc tính của kẻ địch bị kết liễu (HP, Vật & Ma Công, Phòng Ngự, Tốc Độ, Chính Xác, Né, Bạo Kích), sau đó cộng cho bản thân. Tăng 79% tỉ lệ giảm thương tổng thể, tăng 800% phòng ngự tổng thể. Tất cả hiệu quả hấp thụ biến thành gấp 1.2",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Xạ Kích Đạn Sáng",
+      "unlockedSkillIcon": "/images/heroes/s_shalu_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Kamehameha",
+      "unlockedSkillIcon": "/images/heroes/s_shalu_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "slug": "cell"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

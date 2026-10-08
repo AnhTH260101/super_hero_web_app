@@ -1,0 +1,570 @@
+{
+  "id": "33200",
+  "slug": "lich-king",
+  "name": "Lich King",
+  "title": "Zombie Bentu • SSR Lich King",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/lich-king.png",
+  "fullArt": "/images/heroes/full/image_wuyaowang.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là pháp sư trẻ nhất thế giới WarCraft, từng ký khế ước máu với ác quỷ để đổi lấy quyền năng.",
+  "skills": [
+    {
+      "name": "Phẫn Nộ Sương",
+      "icon": "/images/heroes/s_wyw_hurt.png",
+      "description": "Tạo 1 lần 350% sát thương ma pháp lên mục tiêu hàng trước, xóa buff: giảm thuộc tính, tụt máu, choáng… Miễn dịch kẻ địch làm choáng 1 lần, và kèm 160% sát thương thuộc tính Nước",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Lich King",
+        "description": "Tạo gấp 2 sát thương lên địch hàng trước"
+      }
+    },
+    {
+      "name": "Cuồng Nộ Hồi Âm",
+      "icon": "/images/heroes/s_wyw_cure.png",
+      "description": "Tăng 350% tấn công ma pháp và miễn sát cho bản thân, X2 thuộc tính phòng ngự, và hồi 25% HP trước hiệp",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Lich King",
+        "description": "Miễn dịch sát thương thuộc tính Lửa lần này"
+      }
+    },
+    {
+      "name": "Sương Cự Long",
+      "icon": "/images/heroes/s_wyw_injure.png",
+      "description": "Tạo 350% sát thương ma pháp lên toàn thể địch, giảm 30% tốc độ mục tiêu, kéo dài 2 hiệp, và tạo 130% sát thương thuộc tính Nước",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Lich King",
+        "description": "Chuyển hóa vật công thành sát thương thuộc tính Nước"
+      }
+    },
+    {
+      "name": "Ngai Vàng Băng Giá",
+      "icon": "/images/heroes/s_wyw_cure.png",
+      "description": "Kỹ năng trước trận, tăng effect điểm tuyệt đối tấn công thuộc tính Nước",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Lich King",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Tia Vong Linh",
+      "icon": "/images/heroes/s_wyw_injure.png",
+      "description": "Tử trận xong hồi phục 350% HP cho toàn thể phe ta",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Lich King",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ngai Vàng Băng Giá: Khi ra trận cùng lúc với Constantine và Odin thì vật công, ma công, HP+20%, phòng ngự, tốc độ+10%",
+    "Đoàn Thiên Tai: Khi ra trận cùng lúc với Hatake và Superman thì ma công, HP và tốc độ+15%",
+    "Viễn Chinh Bừng Cháy: Khi ra trận cùng lúc với Gaten thì ma công, HP và tốc độ+15%",
+    "Sương Bi Ai: Khi trang bị Kiếm Quỷ thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Lich King",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Phẫn Nộ Sương",
+      "skillIcon": "/images/heroes/s_wyw_hurt.png",
+      "skillDesc": "Tạo gấp 2 sát thương lên địch hàng trước",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Lich King",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cuồng Nộ Hồi Âm",
+      "skillIcon": "/images/heroes/s_wyw_cure.png",
+      "skillDesc": "Miễn dịch sát thương thuộc tính Lửa lần này",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Lich King",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Sương Cự Long",
+      "skillIcon": "/images/heroes/s_wyw_injure.png",
+      "skillDesc": "Chuyển hóa vật công thành sát thương thuộc tính Nước",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Người Hùng Tia Chớp",
+          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Lich King",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Ngai Vàng Băng Giá",
+      "skillIcon": "/images/heroes/s_wyw_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Lich King",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Tia Vong Linh",
+      "skillIcon": "/images/heroes/s_wyw_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Ma Hành Giả",
+          "icon": "/images/heroes/ma-hanh-gia.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Lich King",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Lich King",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Nidhogg",
+          "icon": "/images/heroes/nidhogg.png",
+          "slug": "nidhogg"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

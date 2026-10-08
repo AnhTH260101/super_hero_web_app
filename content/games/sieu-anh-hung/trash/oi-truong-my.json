@@ -1,0 +1,59 @@
+{
+  "id": "oi-truong-my",
+  "slug": "oi-truong-my",
+  "name": "Đội Trưởng Mỹ",
+  "title": "Vũ trụ sức mạnh • SSR Đội Trưởng Mỹ",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ sức mạnh",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thích mặc quần áo bó sát da ôm lấy cơ thể hoàn mĩ, ngày tháng ăn hè ngủ chợ khiến hắn luyện được tuyệt kĩ ném dĩa.",
+  "skills": [
+    {
+      "name": "0.0",
+      "type": "active",
+      "description": "蓄力后将盾牌抛出，使盾牌在敌人间弹射，随机对1-5个人造成物理伤害，并有30%几率使目标眩晕。额外造成130%的地属性伤害。",
+      "cooldown": "4 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "0.0",
+      "type": "ultimate",
+      "description": "借用坚硬的盾牌，对直线上的敌人造成350%的物理伤害，同时自身受到伤害减少30%，持续1回合。额外造成130%的地属性伤害。",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "0.0",
+      "type": "talent",
+      "description": "战前技，用特有的领袖气质为全队提升战斗意志，我方所有角色全属性上升350%",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Phối hợp tốt với các đồng đội hệ Vũ trụ sức mạnh để kích hoạt hào quang chủng tộc."
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

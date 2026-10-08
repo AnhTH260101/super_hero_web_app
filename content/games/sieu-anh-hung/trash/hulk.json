@@ -1,0 +1,62 @@
+{
+  "id": "hulk",
+  "slug": "hulk",
+  "name": "Hulk",
+  "title": "Vũ trụ sức mạnh • SSR Hulk",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/hulk.png",
+  "element": "Vũ trụ sức mạnh",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Gã đàn ông có tính cách xung động, hễ tức lên là càng trở nên to lớn, sức mạnh vô song, sở hữu chiếc quần đùi như thần khí, xài cỡ nào cũng không rách. Sau này gặp dịp nên vào \"Hội phụ nữ\" là tổ chức giải phóng phụ nữ, cuối cùng tìm được nơi trở về của đời mình.",
+  "skills": [
+    {
+      "name": "Phòng ngự siêu cường",
+      "type": "active",
+      "description": "Da thịt bền chắc dị thường, có thể giảm 10% sát thương, kĩ năng tăng 1 cấp thì giảm 1%, mỗi hiệp tối đa phát ra 1 lần.",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Hồi phục tự nhiên",
+      "type": "ultimate",
+      "description": "Sở hữu năng lực tái sinh mạnh mẽ, mỗi hiệp có thể hồi phục 350% HP vật công, hiệu quả hồi phục mỗi hiệp giảm 20%. Kỹ năng này trước 7 hiệp có hiệu lực.",
+      "cooldown": "1 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Cực phẫn",
+      "type": "talent",
+      "description": "Lật tung đất lên, tạo sát thương vật lí 350% cho mục tiêu trực tuyến phía trước, đồng thời làm choáng đối phương.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Mình trần ra trận: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Ba chàng mập: Vật công và phòng ngự +15% khi ra trận cùng lúc với card2 và card3",
+    "Hội phụ nữ: Phòng ngự và HP +15% khi ra trận cùng lúc với card2, card3 và card4",
+    "Green: Tốc độ +20% khi ra trận cùng lúc với card2"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

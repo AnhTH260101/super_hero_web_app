@@ -1,0 +1,602 @@
+{
+  "id": "35900",
+  "slug": "saitama",
+  "name": "Saitama",
+  "title": "Vũ trụ sức mạnh • SSR Saitama",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/saitama.png",
+  "fullArt": "/images/heroes/full/image_yiquanchaoren.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Hạ gục ngươi trong vòng 7 nốt nhạc",
+  "skills": [
+    {
+      "name": "Đấm Thường",
+      "icon": "/images/heroes/s_yiquanchaoren_ptq.png",
+      "description": "Ngẫu nhiên tấn công tạo 350% dmg vật lý lên 1 mục tiêu, thêm 250% dmg t.tính Đất, nếu mục tiêu chưa chết, sẽ làm mục tiêu Choáng 1 hiệp.\nNộ sau khi bạo phát: Ảnh hưởng dmg & dmg t.tính tăng 50%",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Saitama",
+        "description": "Tạo thêm dmg thật bằng 10%-30% giới hạn HP  lên mục tiêu; HQ Choáng đổi thành Sợ, kéo dài 2 hiệp, làm mục tiêu Đứng Im 1 hiệp."
+      }
+    },
+    {
+      "name": "Lật Bàn",
+      "icon": "/images/heroes/s_yiquanchaoren_xz.png",
+      "description": "KN trước trận: Ngẫu nhiên tấn công 1-3 người, tạo 350% dmg vật lý, thêm 180% dmg t.tính Đất\nNộ sau khi bạo phát: Ảnh hưởng dmg & dmg t.tính tăng 50%",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Saitama",
+        "description": "Tấn công toàn thể, tỉ lệ phát động gấp 2-3 sát thương thuộc tính."
+      }
+    },
+    {
+      "name": "Ẩu Đả",
+      "icon": "/images/heroes/s_yiquanchaoren_od.png",
+      "description": "KN phản đòn: Sau khi chịu đòn, có 99% tỉ lệ phản đòn lên kẻ tấn công mình, tạo 350% dmg vật lý, thêm 250% dmg t.tính Đất, mỗi hiệp tối đa kích hoạt 2 lần; có 50% tỉ lệ tạo HQ Hỗn Loạn lên mục tiêu.\nNộ sau khi bạo phát: Ảnh hưởng dmg & dmg t.tính tăng 50%",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Saitama",
+        "description": "Tỉ lệ phát động buff Hỗn Loạn tăng đến 70%, tạo 1000k-1500k sát thương thực lên mục tiêu"
+      }
+    },
+    {
+      "name": "Khởi Động",
+      "icon": "/images/heroes/s_yiquanchaoren_rsyd.png",
+      "description": "KN trước hiệp: Bản thân tăng 350% Chính Xác, Tốc Độ & Vật Công, kéo dài 1 hiệp, Phòng Ngự của bản thân tăng gấp 10, hiệu quả 3 lần; Thả skill xong, tất cả skill tấn công đều hồi HP bằng 50%-100% dmg tấn công cao nhất (tỉ lệ hút ngẫu nhiên)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Saitama",
+        "description": "Bỏ qua Đứng Im, Sợ, Choáng, Đóng Băng, HQ  Tsukuyomi, bản thân hồi HP bằng 300%-600% Ma Công hiện tại."
+      }
+    },
+    {
+      "name": "Nghiêm Túc",
+      "icon": "/images/heroes/s_yiquanchaoren_rzxl.png",
+      "description": "KN trước khi bị đòn: Tích tụ Nộ, khi đạt giới hạn kích hoạt skill Nghiêm Túc, tăng dmg của tất cả skill (buff)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Saitama",
+        "description": "Nộ tăng thêm Tốc Độ tăng gấp đôi, bản thân có 50% tỉ lệ tăng gấp 6 Phòng Ngự T.Tính; Có thêm 75% HQ giảm sát tổng thể."
+      }
+    },
+    {
+      "name": "Liên Hoàn Đấm",
+      "icon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "description": "Tấn công dãy trước địch, tạo 350% dmg vật lý, thêm 500% dmg t.tính Đất\nNộ sau khi bạo phát: Ảnh hưởng dmg & dmg t.tính tăng 50%",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Saitama",
+        "description": "Giảm 60% tỉ lệ Hồi HP của mục tiêu, và giảm 20% Tấn Công T.Tính & Vật Công, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Đấm Thẳng",
+      "icon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "description": "Ngẫu nhiên tấn công 1 mục tiêu, 50% tỉ lệ đánh trúng khiến địch chết ngay; Nếu không trúng, sẽ tạo 350% dmg vật lý lên tất cả địch, thêm 600% dmg t.tính Đất, tạo HQ tụt máu lên tất cả địch, mỗi hiệp tạo dmg tụt máu bằng dmg Vật Công cao nhất, kéo dài 2 hiệp.\nNộ sau khi bạo phát: Ảnh hưởng dmg & dmg t.tính tăng 50%",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Saitama",
+        "description": "Tỉ lệ Chính Xác tăng đến 70%, nếu chưa trúng sẽ tạo thêm dmg thực bằng 10%-30% giới hạn HP, dmg tụt máu tăng thêm bằng 500k-1500k dmg thực."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hiệp Sĩ Áo Choàng: Khi cùng Ma Nhân ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Một Cú Che Trời: Khi cùng Uchiha và Gintoki ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Tay Đôi: Khi cùng Gray và Lý Tiểu Long ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Cú Tất Sát: Khi cùng Natsu ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-saitama",
+      "name": "CT-Saitama",
+      "avatar": "/images/heroes/ct-saitama.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Hạ gục ngươi trong vòng 7 nốt nhạc"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Saitama",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đấm Thường",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_ptq.png",
+      "skillDesc": "Tạo thêm dmg thật bằng 10%-30% giới hạn HP  lên mục tiêu; HQ Choáng đổi thành Sợ, kéo dài 2 hiệp, làm mục tiêu Đứng Im 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Saitama",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Lật Bàn",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_xz.png",
+      "skillDesc": "Tấn công toàn thể, tỉ lệ phát động gấp 2-3 sát thương thuộc tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Saitama",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Ẩu Đả",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_od.png",
+      "skillDesc": "Tỉ lệ phát động buff Hỗn Loạn tăng đến 70%, tạo 1000k-1500k sát thương thực lên mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Saitama",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Liên Hoàn Đấm",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "skillDesc": "Giảm 60% tỉ lệ Hồi HP của mục tiêu, và giảm 20% Tấn Công T.Tính & Vật Công, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Saitama",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Đấm Thẳng",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "skillDesc": "Tỉ lệ Chính Xác tăng đến 70%, nếu chưa trúng sẽ tạo thêm dmg thực bằng 10%-30% giới hạn HP, dmg tụt máu tăng thêm bằng 500k-1500k dmg thực.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Saitama",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Khởi Động",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_rsyd.png",
+      "skillDesc": "Bỏ qua Đứng Im, Sợ, Choáng, Đóng Băng, HQ  Tsukuyomi, bản thân hồi HP bằng 300%-600% Ma Công hiện tại.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Saitama",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Nghiêm Túc",
+      "skillIcon": "/images/heroes/s_yiquanchaoren_rzxl.png",
+      "skillDesc": "Nộ tăng thêm Tốc Độ tăng gấp đôi, bản thân có 50% tỉ lệ tăng gấp 6 Phòng Ngự T.Tính; Có thêm 75% HQ giảm sát tổng thể.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Liên Hoàn Đấm",
+      "unlockedSkillIcon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Đấm Thẳng",
+      "unlockedSkillIcon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Saitama",
+          "icon": "/images/heroes/saitama.png",
+          "slug": "saitama"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

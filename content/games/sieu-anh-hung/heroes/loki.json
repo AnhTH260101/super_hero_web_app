@@ -1,0 +1,576 @@
+{
+  "id": "9000",
+  "slug": "loki",
+  "name": "Loki",
+  "title": "Vũ trụ nguyên tố • SSR Loki",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/loki.png",
+  "fullArt": "/images/heroes/full/image_luoji.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Tinh ranh ma mãnh, giỏi ma pháp, khéo điều khiển con rối, sự quyến rũ của cô ta còn nguy hiểm hơn cả khả năng của mình",
+  "skills": [
+    {
+      "name": "Gậy Thánh Quang",
+      "icon": "/images/heroes/s_lj_lance.png",
+      "description": "Tạo 350% sát thương ma pháp lên đơn vị địch trực tuyến, tạo thêm 50% sát thương ma pháp lên mục tiêu cấp thấp hơn bản thân, phục hồi cho bản thân 20% HP, tạo 130% sát thương thuộc tính gió.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Loki",
+        "description": "Làm choáng mục tiêu trực tuyến, giảm 50% phòng ngự địch"
+      }
+    },
+    {
+      "name": "Vị Thần Đùa Dai",
+      "icon": "/images/heroes/s_lj_devil.png",
+      "description": "Tạo 350% sát thương ma pháp lên toàn bộ địch, tạo thêm 160% sát thương thuộc tính gió, tạo thêm 50% sát thương ma pháp lên người có vật công cao nhất bên địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Loki",
+        "description": "Tăng 40% giảm thương cho toàn đội, kéo dài 2 hiệp, hiệu quả không cộng dồn"
+      }
+    },
+    {
+      "name": "Luật Tử Vong",
+      "icon": "/images/heroes/s_lj_rebirth.png",
+      "description": "Loki tử vong xong tái sinh, phục hồi cho bản thân 350% HP, hồi sinh xong tăng 20% ma công, tăng phòng ngự thuộc tính 50%, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Loki",
+        "description": "Tăng 15% tỉ lệ bạo kích, xóa buff của địch"
+      }
+    },
+    {
+      "name": "Siêu Trọng",
+      "icon": "/images/heroes/s_lj_devil.png",
+      "description": "Tăng effect tấn công thuộc tính gió điểm tuyệt đối",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Loki",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Khế Ước Tà Ác",
+      "icon": "/images/heroes/s_lj_rebirth.png",
+      "description": "Trước khi chiến đấu tăng 350% ma công cho toàn đội, kéo dài 2 hiệp. Nếu Odin có mặt sẽ tăng thêm 20% tốc độ cho Odin.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Loki",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Nghiêng Thành Nghiêng Nước: Khi ra trận cùng lúc với Athena và Hằng Nga thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Minh Giới Vãng Sinh: Khi ra trận cùng lúc với Mabara và Hades thì vật công, HP và tốc độ+15%",
+    "Lửa Địa Ngục: Khi ra trận cùng lúc với Nidhogg thì ma công, HP và tốc độ+15%",
+    "Quyền Trượng Gan Dạ: Khi trang bị Ma Trượng Cổ thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Loki",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Gậy Thánh Quang",
+      "skillIcon": "/images/heroes/s_lj_lance.png",
+      "skillDesc": "Làm choáng mục tiêu trực tuyến, giảm 50% phòng ngự địch",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Loki",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Vị Thần Đùa Dai",
+      "skillIcon": "/images/heroes/s_lj_devil.png",
+      "skillDesc": "Tăng 40% giảm thương cho toàn đội, kéo dài 2 hiệp, hiệu quả không cộng dồn",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Loki",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Luật Tử Vong",
+      "skillIcon": "/images/heroes/s_lj_rebirth.png",
+      "skillDesc": "Tăng 15% tỉ lệ bạo kích, xóa buff của địch",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Loki",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Siêu Trọng",
+      "skillIcon": "/images/heroes/s_lj_devil.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Loki",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Khế Ước Tà Ác",
+      "skillIcon": "/images/heroes/s_lj_rebirth.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Loki",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Loki",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "slug": "loki"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

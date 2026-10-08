@@ -1,0 +1,608 @@
+{
+  "id": "38300",
+  "slug": "trieu-van",
+  "name": "Triệu Vân",
+  "title": "Zombie Bentu • SSR Triệu Vân",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/trieu-van.png",
+  "fullArt": "/images/heroes/full/image_zhaoyun.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Triệu Vân, tự Tử Long. Người cao tám trượng, vóc dáng cường tráng, tướng quân dũng mãnh của Thục Hán thời kỳ Tam Quốc.",
+  "skills": [
+    {
+      "name": "Càn Quét Thiên Quân",
+      "icon": "/images/heroes/s_zhaoyun_s1.png",
+      "description": "Vung mạnh vũ khí, tạo 350% sát thương vật lý và 500% sát thương t.tính Nước lên toàn thể địch. Tạo hiệu quả Tê cho 1-3 kẻ địch (Giảm 20%-35% kháng tính tổng thể), kéo dài 2 hiệp. Tăng 100% bạo kích, Trúng, Né cho bản thân, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Triệu Vân",
+        "description": "Xóa hiệu quả trọng thương trên người 1-3 mục tiêu, tăng 100% Né cho đồng đội. Hồi 30% HP cho tất cả đồng đội."
+      }
+    },
+    {
+      "name": "Kiến Long Tại Điền",
+      "icon": "/images/heroes/s_zhaoyun_s2.png",
+      "description": "Chuyển hóa t.tính Nước thành t.tính Lửa, tạo 350% sát thương vật lý và 300% sát thương t.tính Lửa lên toàn thể kẻ địch, tạo hiệu quả Cháy lên 1-3 kẻ địch (Sát thương của tấn công t.tính Nước), kéo dài 2 hiệp. Tăng 200% Vật & Ma Công cho bản thân, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Triệu Vân",
+        "description": "Khiến mục tiêu đứng im hoặc hóa đá 1 hiệp, giảm 10%-30% Vật & Ma Công của mục tiêu"
+      }
+    },
+    {
+      "name": "Phi Long Tại Thiên",
+      "icon": "/images/heroes/s_zhaoyun_s3.png",
+      "description": "Skill phản đòn: Sau khi bị tấn công có 99% tỉ lệ hóa thành phi long, chuyển t.tính Nước thành t.tính Gió, tạo 350% sát thương vật lý và 200% sát thương t.tính Gió lên 1-5 kẻ địch, tạo hiệu quả hút máu (Sát thương của lực tấn công t.tính Nước), kéo dài 2 hiệp. Tăng 500% Tốc Độ cho bản thân, kéo dài 2 hiệp. Mỗi hiệp tối đa phát động 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Triệu Vân",
+        "description": "Giảm 50% Tốc Độ của phe địch, giảm 10%-30% phòng ngự toàn thuộc tính, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Long Diệu Tại Uyên",
+      "icon": "/images/heroes/s_zhaoyun_s6.png",
+      "description": "Skill trước hiệp: Triệu hồi thần long bay lên trời, gây sát thương vật lý bằng 350% và sát thương thật bằng 900% thuộc tính nước lên toàn bộ kẻ địch, hồi phục toàn bộ sinh mệnh đã mất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Triệu Vân",
+        "description": "Cộng 1 tầng hiệu quả Vô Địch cho bản thân và 1-4 đồng đội, miễn dịch 1 lần sát thương. Tăng 700% phòng ngự và phòng ngự thuộc tính cho bản thân"
+      }
+    },
+    {
+      "name": "Đơn Thương Độc Mã",
+      "icon": "/images/heroes/s_zhaoyun_s7.png",
+      "description": "Skill trước trận: Tăng vĩnh viễn 100% bạo kích, 200% Trúng và Né cho bản thân, tăng 79% giảm thương tổng thể, tăng 30% HP. Tăng 99999% lực phòng ngự, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Triệu Vân",
+        "description": "Miễn dịch lâu dài hiệu quả mê hoặc, choáng, đứng im, hóa đá, hỗn loạn, chế giễu. Lực tấn công của 4 loại thuộc tính lần lượt tăng 10W-25W, tăng 500% phòng ngự của dãy trước phe ta, kéo dài 2 hiệp. Mê hoặc 1-5 kẻ địch, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Thần Long Vẫy Đuôi",
+      "icon": "/images/heroes/s_zhaoyun_s4.png",
+      "description": "Chuyển t.tính Nước thành t.tính Đất, tạo 350% sát thương vật lý và 800% sát thương t.tính Đất lên 1-5 kẻ địch, tạo hiệu quả hôn mê lên mục tiêu, kéo dài 2 hiệp. Tăng 600% phòng ngự và phòng ngự t.tính, kéo dài 2 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần thoại·Triệu Vân",
+        "description": "Trọng thương mục tiêu, giảm 33% hiệu quả hồi phục, kéo dài 1 hiệp. Và có 80% tỉ lệ tạo thêm X2-X5 sát thương"
+      }
+    },
+    {
+      "name": "Long Chiến Vu Dã",
+      "icon": "/images/heroes/s_zhaoyun_s5.png",
+      "description": "Tất cả thuộc tính chuyển thành thuộc tính nước, gây sát thương vật lý bằng 350% và sát thương thật bằng 800% thuộc tính nước lên toàn bộ kẻ địch.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Triệu Vân",
+        "description": "Mục tiêu cứ tồn tại 1 loại hiệu quả Tê, Tụt Máu, Cháy, sẽ tăng thêm X1 sát thương. Tạo mới hiệu quả Tê, Tụt Máu, Cháy trên người mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tướng Quân Bất Bại: Cùng Lý Nguyên Bá và saber ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Quần Hùng Tam Quốc: Cùng Lữ Bố ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Kỵ Binh Tiên Phong: Cùng Erza ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Bá Vương Chiến Trường: Cùng Namikaze Minato ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-trieu-van",
+      "name": "CT-Triệu Vân",
+      "avatar": "/images/heroes/ct-trieu-van.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Triệu Vân, tự Tử Long. Người cao tám trượng, vóc dáng cường tráng, tướng quân dũng mãnh của Thục Hán thời kỳ Tam Quốc."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Triệu Vân",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Càn Quét Thiên Quân",
+      "skillIcon": "/images/heroes/s_zhaoyun_s1.png",
+      "skillDesc": "Xóa hiệu quả trọng thương trên người 1-3 mục tiêu, tăng 100% Né cho đồng đội. Hồi 30% HP cho tất cả đồng đội.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Triệu Vân",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Kiến Long Tại Điền",
+      "skillIcon": "/images/heroes/s_zhaoyun_s2.png",
+      "skillDesc": "Khiến mục tiêu đứng im hoặc hóa đá 1 hiệp, giảm 10%-30% Vật & Ma Công của mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Lữ Bố",
+          "icon": "/images/heroes/lu-bo.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Triệu Vân",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Phi Long Tại Thiên",
+      "skillIcon": "/images/heroes/s_zhaoyun_s3.png",
+      "skillDesc": "Giảm 50% Tốc Độ của phe địch, giảm 10%-30% phòng ngự toàn thuộc tính, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần thoại·Triệu Vân",
+      "tierName": "Thần thoại",
+      "auraColor": "amber",
+      "skillName": "Thần Long Vẫy Đuôi",
+      "skillIcon": "/images/heroes/s_zhaoyun_s4.png",
+      "skillDesc": "Trọng thương mục tiêu, giảm 33% hiệu quả hồi phục, kéo dài 1 hiệp. Và có 80% tỉ lệ tạo thêm X2-X5 sát thương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Lữ Bố",
+          "icon": "/images/heroes/lu-bo.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Triệu Vân",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Long Chiến Vu Dã",
+      "skillIcon": "/images/heroes/s_zhaoyun_s5.png",
+      "skillDesc": "Mục tiêu cứ tồn tại 1 loại hiệu quả Tê, Tụt Máu, Cháy, sẽ tăng thêm X1 sát thương. Tạo mới hiệu quả Tê, Tụt Máu, Cháy trên người mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Triệu Vân",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Long Diệu Tại Uyên",
+      "skillIcon": "/images/heroes/s_zhaoyun_s6.png",
+      "skillDesc": "Cộng 1 tầng hiệu quả Vô Địch cho bản thân và 1-4 đồng đội, miễn dịch 1 lần sát thương. Tăng 700% phòng ngự và phòng ngự thuộc tính cho bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Triệu Vân",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Đơn Thương Độc Mã",
+      "skillIcon": "/images/heroes/s_zhaoyun_s7.png",
+      "skillDesc": "Miễn dịch lâu dài hiệu quả mê hoặc, choáng, đứng im, hóa đá, hỗn loạn, chế giễu. Lực tấn công của 4 loại thuộc tính lần lượt tăng 10W-25W, tăng 500% phòng ngự của dãy trước phe ta, kéo dài 2 hiệp. Mê hoặc 1-5 kẻ địch, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Thần Long Vẫy Đuôi",
+      "unlockedSkillIcon": "/images/heroes/s_zhaoyun_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Long Chiến Vu Dã",
+      "unlockedSkillIcon": "/images/heroes/s_zhaoyun_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Triệu Vân",
+          "icon": "/images/heroes/trieu-van.png",
+          "slug": "trieu-van"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "id": "8400",
+  "slug": "blademaster",
+  "name": "Blademaster",
+  "title": "Vũ trụ nguyên tố • SSR Blademaster",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/blademaster.png",
+  "fullArt": "/images/heroes/full/image_jiansheng.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chiến sĩ tinh anh nhất trong bộ lạc người thú, kiếm thuật đạt đến cảnh giới xuất quỷ nhập quỷ, theo đuổi nhân kiếm hợp nhất, trở thành kiếm thánh vô địch là lí tưởng của hắn.",
+  "skills": [
+    {
+      "name": "Đao Kiếm Cuồng Vũ",
+      "icon": "/images/heroes/s_jianren.png",
+      "description": "Xông vào trận hình địch, xoay tròn tấn công toàn bộ địch tạo 350% sát thương vật lí và 80% sát thương thuộc tính gió.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Master",
+        "description": "Bão Kiếm tăng thêm 20% toàn bộ thuộc tính bản thân. Kéo dài 1 hiệp"
+      }
+    },
+    {
+      "name": "Trị Liệu Bảo Vệ",
+      "icon": "/images/heroes/s_zhiliao.png",
+      "description": "Hiệp này tiến vào giai đoạn Minh Tưởng, miễn dịch sát thương, hồi phục cho bản thân 350% HP, tăng 20% giảm thương, kéo dài 3 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Master",
+        "description": "Trị Liệu phục hồi thêm 10% HP bản thân. Xóa hiệu quả debuff lên bản thân"
+      }
+    },
+    {
+      "name": "Vô Địch Trảm",
+      "icon": "/images/heroes/s_wudi.png",
+      "description": "Lao thẳng vào phe địch, tạo 350% sát thương vật lí lên toàn bộ địch, làm choáng mục tiêu mặc định 1 hiệp, tạo thêm 160% sát thương thuộc tính gió",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Master",
+        "description": "Làm choáng ngẫu nhiên 1-5 tên địch. Vô Địch Trảm tạo thêm sát thương lên kẻ địch đang bị choáng"
+      }
+    },
+    {
+      "name": "Phong·Quang Kiếm",
+      "icon": "/images/heroes/s_zhiliao.png",
+      "description": "Tăng effect điểm tuyệt đối tấn công thuộc tính gió",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền thuyết·Master",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Địa Ngục Gào Thét",
+      "icon": "/images/heroes/s_wudi.png",
+      "description": "Kĩ năng trước trận, tăng 350% vật công của bản thân, miễn dịch tấn công thuộc tính lửa (kéo dài 2 hiệp)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Master",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Bậc Thầy Bạo Lực: Khi ra trận cùng với Mabara và Ichigo thì vật công, ma công, HP+20%，phòng ngự và tốc độ+10%",
+    "Dũng Sĩ Tận Thế: Khi ra trận cùng với Hades và Thor thì vật công, HP và tốc độ+15%",
+    "Cuồng Chiến Sĩ: Khi ra trận cùng với Tề Thiên Đại Thánh thì ma công, HP và tốc độ+15%",
+    "Ẩn Đao: Khi trang bị Yêu Đao Thôn Chính thì vật công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Master",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đao Kiếm Cuồng Vũ",
+      "skillIcon": "/images/heroes/s_jianren.png",
+      "skillDesc": "Bão Kiếm tăng thêm 20% toàn bộ thuộc tính bản thân. Kéo dài 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Master",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Trị Liệu Bảo Vệ",
+      "skillIcon": "/images/heroes/s_zhiliao.png",
+      "skillDesc": "Trị Liệu phục hồi thêm 10% HP bản thân. Xóa hiệu quả debuff lên bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Master",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Vô Địch Trảm",
+      "skillIcon": "/images/heroes/s_wudi.png",
+      "skillDesc": "Làm choáng ngẫu nhiên 1-5 tên địch. Vô Địch Trảm tạo thêm sát thương lên kẻ địch đang bị choáng",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền thuyết·Master",
+      "tierName": "Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Phong·Quang Kiếm",
+      "skillIcon": "/images/heroes/s_zhiliao.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Master",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Địa Ngục Gào Thét",
+      "skillIcon": "/images/heroes/s_wudi.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Master",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Master",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "slug": "blademaster"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

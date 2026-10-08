@@ -1,0 +1,64 @@
+{
+  "id": "sonkoku",
+  "slug": "sonkoku",
+  "name": "Sonkoku",
+  "title": "Vũ trụ linh tính • SSR Sonkoku",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/sonkoku.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Họ vốn không phải cư dân bản địa của hành tinh này, họ sở hữu năng lực mạnh mẽ siêu cấp. Họ tin rằng chỉ cần thu thập đủ bảy viên ngọc thì có thể thực hiện một nguyện vọng, khiến thế giới này trở lại quỹ đạo bình thường.",
+  "skills": [
+    {
+      "name": "Sóng xung kích siêu cấp",
+      "type": "active",
+      "description": "KA_ME_HA_ME_HA! Tạo 1 lần 350% sát thương ma pháp cho kẻ địch và mục tiêu sau hắn. Nếu đang ở trạng thái siêu cấp thì tạo thêm 50% sát thương.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Đạn nguyên khí",
+      "type": "ultimate",
+      "description": "Hấp thụ linh khí vạn vật và khí lực của toàn bộ người có mặt. Tạo 1 lần 350% sát thương ma pháp cho toàn bộ địch, mỗi nhân vật còn sống trên hiện trường tăng 3% tấn công cho đạn nguyên khí.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Siêu Saiya",
+      "type": "talent",
+      "description": "Kĩ năng trước trận. Biến thân ở trạng thái siêu cấp, kéo dài 2 hiệp. Tăng 350% sát thương ma pháp, phòng ngự, tốc độ và giới hạn HP, ngoài ra mỗi hiệp có thể hồi phục 10% HP.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Biến thân: HP và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Sóng xung kích: Ma công +20% khi ra trận cùng lúc với card2",
+    "Người Saiya: Tốc độ +20% khi ra trận cùng lúc với card2",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với card2, card3, card4 và card5"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

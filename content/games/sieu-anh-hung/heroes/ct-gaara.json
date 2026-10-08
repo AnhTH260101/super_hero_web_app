@@ -1,0 +1,661 @@
+{
+  "id": "66200",
+  "slug": "ct-gaara",
+  "name": "CT-Gaara",
+  "title": "Vũ trụ linh tính • UR CT-Gaara",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-gaara.png",
+  "fullArt": "/images/heroes/full/image_woailuo.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Từng bị phong ấn Shukaku vào người, cậu nắm chức Kazekage Đệ Ngũ của làng Cát",
+  "skills": [
+    {
+      "name": "Sa Thời Vũ-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST vật lý và 500% ST t.tính Đất; Làm 1 mục tiêu bị mù, kéo dài 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Gaara",
+        "description": "Giảm TC toàn thuộc tính của mục tiêu bị mù còn 0đ, 1 hiệp."
+      }
+    },
+    {
+      "name": "Pháo Cát-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill2.png",
+      "description": "Skill phản đòn: 99% tỉ lệ sau khi bị tấn công, tấn công mục tiêu dãy trước hoặc dãy sau, tạo 350% ST vật lý và 300% ST t.tính Đất, có 50% tỉ lệ trọng thương mục tiêu, giảm 80% năng lực hồi HP của mục tiêu. (Mỗi hiệp tối đa phát động 1 lần)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Gaara",
+        "description": "Giảm 80% Tốc Độ của tất cả mục tiêu, Nếu HP hiện tại của mục tiêu bị tấn công cao hơn HP thấp nhất của đồng đội phe ta, ST tấn công & ST thuộc tính tăng X4."
+      }
+    },
+    {
+      "name": "Khiên Cát-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill3.png",
+      "description": "Skill trước khi bị đánh: 99% tỉ lệ trước khi bị đánh, tăng 350% Phòng Ngự và Phòng Ngự t.tính cho bản thân. (Mỗi hiệp tối đa phát động 1 lần)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Gaara",
+        "description": "Mỗi lần thả KN tăng thêm 50% P.Ngự thuộc tính cho mình, tối đa cộng dồn 5 tầng, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Suối Cát-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill6.png",
+      "description": "Skill trước hiệp: Tấn công toàn thể mục tiêu, tạo 350% ST vật lý và 800% ST t.tính Đất, tạo thêm X3 ST t.tính lên mục tiêu dãy sau; 200% ST và ST thuộc tính chuyển thành hồi HP, cộng cho bản thân và đồng đội dãy sau.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Gaara",
+        "description": "Giảm 50% Tốc Độ của mục tiêu có Tốc Độ cao hơn mình, 2 hiệp; Tạo thêm ST thực bằng X2 ST vật lý của mục tiêu dãy trước."
+      }
+    },
+    {
+      "name": "Áo Giáp Cát-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill7.png",
+      "description": "Skill trước trận: Tăng 350% Vật & Ma Công và Tấn Công toàn thuộc tính cho bản thân; Tăng 69% Giảm Thương Tổng Thể cho bản thân, hiệu lực liên tục.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Gaara",
+        "description": "Khiến mục tiêu bị trọng thương, chịu thêm X3 ST và ST thuộc tính (TC lần này, KN khác & trọng thương của người chơi khác tạo ra đều có hiệu quả)."
+      }
+    },
+    {
+      "name": "Bão Cát Chôn Thây-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill4.png",
+      "description": "Tấn công toàn thể mục tiêu phe địch, tạo 350% ST vật lý và 800% ST t.tính Đất, khiến 1-3 người hôn mê 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Gaara",
+        "description": "Thả KN \"Suối Cát\", nếu mục tiêu bị tấn công, có TC t.tính Gió cao nhất trong các dạng TC t.tính khác, sẽ có 80% tỉ lệ -80% Vật & Ma Công và TC toàn thuộc tính của mục tiêu đó, 1 hiệp; Bản thân bỏ qua Đứng Im, Choáng, Chấn Động, Hóa Đá, Hôn Mê; Hồi tất cả HP bản thân đã mất."
+      }
+    },
+    {
+      "name": "Linh Mai Thuật.Thủ Hạc-Thánh",
+      "icon": "/images/heroes/s_woailuo_skill5.png",
+      "description": "Tấn công toàn thể mục tiêu phe địch, tạo 350% ST vật lý và 900% ST t.tính Đất, trọng thương 1 mục tiêu, khiến mục tiêu trong 1 hiệp không thể hồi HP.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Gaara",
+        "description": "Hiệu quả giảm thương tổng thể tăng đến 69%-80%, và bản thân tăng 2 hiệu quả trong Chính Xác, Tốc Độ & Né, tỉ lệ tăng là 150%, hiệu lực 5 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thiếu Nữ Hiếu Chiến: Cùng Asamiya Athena và Shaka ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Ninja Xuất Chúng: Cùng Uchiha và Sakura ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Chiến Thần Tay Không: Cùng Saitama ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Khí Chất Ngự Tỉ: Cùng Shermie ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Gaara: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Ảo Ảnh",
+      "icon": "/images/heroes/ao-anh.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Gaara",
+      "icon": "/images/heroes/gaara.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Sói Trắng",
+      "icon": "/images/heroes/soi-trang.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Gaara",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sa Thời Vũ-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill1.png",
+      "skillDesc": "Giảm TC toàn thuộc tính của mục tiêu bị mù còn 0đ, 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Gaara",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Pháo Cát-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill2.png",
+      "skillDesc": "Giảm 80% Tốc Độ của tất cả mục tiêu, Nếu HP hiện tại của mục tiêu bị tấn công cao hơn HP thấp nhất của đồng đội phe ta, ST tấn công & ST thuộc tính tăng X4.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Gaara",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Khiên Cát-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill3.png",
+      "skillDesc": "Mỗi lần thả KN tăng thêm 50% P.Ngự thuộc tính cho mình, tối đa cộng dồn 5 tầng, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Gaara",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Suối Cát-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill6.png",
+      "skillDesc": "Giảm 50% Tốc Độ của mục tiêu có Tốc Độ cao hơn mình, 2 hiệp; Tạo thêm ST thực bằng X2 ST vật lý của mục tiêu dãy trước.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Gaara",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Áo Giáp Cát-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill7.png",
+      "skillDesc": "Khiến mục tiêu bị trọng thương, chịu thêm X3 ST và ST thuộc tính (TC lần này, KN khác & trọng thương của người chơi khác tạo ra đều có hiệu quả).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Gaara",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Bão Cát Chôn Thây-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill4.png",
+      "skillDesc": "Thả KN \"Suối Cát\", nếu mục tiêu bị tấn công, có TC t.tính Gió cao nhất trong các dạng TC t.tính khác, sẽ có 80% tỉ lệ -80% Vật & Ma Công và TC toàn thuộc tính của mục tiêu đó, 1 hiệp; Bản thân bỏ qua Đứng Im, Choáng, Chấn Động, Hóa Đá, Hôn Mê; Hồi tất cả HP bản thân đã mất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Gaara",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Linh Mai Thuật.Thủ Hạc-Thánh",
+      "skillIcon": "/images/heroes/s_woailuo_skill5.png",
+      "skillDesc": "Hiệu quả giảm thương tổng thể tăng đến 69%-80%, và bản thân tăng 2 hiệu quả trong Chính Xác, Tốc Độ & Né, tỉ lệ tăng là 150%, hiệu lực 5 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Bão Cát Chôn Thây-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_woailuo_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Linh Mai Thuật.Thủ Hạc-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_woailuo_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gaara",
+          "icon": "/images/heroes/gaara.png",
+          "slug": "gaara"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

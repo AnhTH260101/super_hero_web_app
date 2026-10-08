@@ -1,0 +1,679 @@
+{
+  "id": "78600",
+  "slug": "ct-akame",
+  "name": "CT-Akame",
+  "title": "Vũ trụ linh tính • UR CT-Akame",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-akame.png",
+  "fullArt": "/images/heroes/full/image_chitong.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là 1 trong 7 sát thủ cừ khôi của đế quốc ngày trước, là nhân vật cốt cán trong đội ám sát「Night Raid」hiện tại, có biệt danh “Sát Thủ Vương Bài”. Tính tình thận trọng, có lòng chính nghĩa, xem trọng bạn bè, rất hiếm khi thổ lộ tấm lòng, bình thường sẽ thể hiện mặt cảm tính.",
+  "skills": [
+    {
+      "name": "Yêu Đao",
+      "icon": "/images/heroes/s_chitong_s1.png",
+      "description": "Skill phản đòn: Tạo 350% ST Vật Lý và 500% ST thuộc tính Đất lên toàn thể phe địch. Có 50% tỉ lệ khiến mục tiêu trọng thương, giảm 100% hồi HP, khiến Phòng Ngự và Phòng Ngự toàn thuộc tính của mục tiêu giảm đến 0 điểm (Sát thương tấn công lần ày có hiệu lực).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Akame",
+        "description": "Gây sát thương gấp 3 lần và sát thương thuộc tính, 50% cơ hội trói buộc mục tiêu trong 1 lượt."
+      }
+    },
+    {
+      "name": "Phá Giáp",
+      "icon": "/images/heroes/s_chitong_s2.png",
+      "description": "Tạo 350% ST Vật Lý và 300% ST thuộc tính Đất lên toàn thể phe địch, giảm 100% Phòng Ngự thuộc tính Nước và Phòng Ngự thuộc tính Đất của mục tiêu, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Akame",
+        "description": "Gây 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu ít nhất và nhiều nhất."
+      }
+    },
+    {
+      "name": "Tập Kích Đêm",
+      "icon": "/images/heroes/s_chitong_s3.png",
+      "description": "Skill trước khi bị đánh: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo 350% ST Vật Lý và 300% ST thuộc tính Đất lên toàn thể phe địch, giảm 70%-100% Ma & Vật Công và tấn công toàn thuộc tính của mục tiêu, kéo dài 2 hiệp, và tạo x4-6 ST và ST thuộc tính lên mục tiêu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Akame",
+        "description": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, số lần kích hoạt mỗi lượt là 3 lần."
+      }
+    },
+    {
+      "name": "Lưỡi Đao Địa Ngục",
+      "icon": "/images/heroes/s_chitong_s6.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo 350% ST Vật Lý và 900% ST thực thuộc tính Đất lên toàn thể phe địch, tăng 500% tấn công thuộc tính Đất và Phòng Ngự toàn thuộc tính cho bản thân của toàn thể phe ta, và có 50% tỉ lệ tăng 50% khả năng hồi phục cho phe ta, và hồi 50%~80% HP cho toàn thể đồng đội.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Akame",
+        "description": "Gây thêm sát thương tương đương 800% tốc độ của bản thân và sát thương thuộc tính lên mục tiêu, và gây thêm 4-6 lần sát thương và sát thương thuộc tính lên mục tiêu."
+      }
+    },
+    {
+      "name": "Đòn Tất Sát",
+      "icon": "/images/heroes/s_chitong_s7.png",
+      "description": "Skill trước trận: Tạo 350% ST Vật Lý và ST bằng 800% ST thực thuộc tính Đất lên toàn thể phe địch, tăng 79% giảm thương tổng thể cho bản thân, tăng 350% tấn công thuộc tính Đất cho bản thân, tăng Phòng Ngự toàn thuộc tính bằng 800% Tốc Độ của bản thân, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, tạo thêm x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Akame",
+        "description": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, làm trói buộc hoặc trọng thương mục tiêu. Tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu, sát thương và sát thương thuộc tính của tất cả các kỹ năng mỗi khi tấn công sẽ tăng lên 2-4 lần."
+      }
+    },
+    {
+      "name": "Lượn Vòng Trảm",
+      "icon": "/images/heroes/s_chitong_s4.png",
+      "description": "Tạo 350% ST Vật Lý và 800% ST thuộc tính Đất lên toàn thể phe địch, trong hiệp này giảm 100% tấn công thuộc tính Đất, Phòng Ngự và Né của kẻ địch (Sát thương tấn công lần này có hiệu lực).",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Akame",
+        "description": "Gây hiệu ứng chảy máu cho tất cả mục tiêu, mỗi lượt gây 500% sát thương thuộc tính đất thật và 30% máu của bản thân, kéo dài 2 lượt."
+      }
+    },
+    {
+      "name": "Chôn Vùi",
+      "icon": "/images/heroes/s_chitong_s5.png",
+      "description": "Tạo 350% ST Vật Lý và 900% ST thuộc tính Đất lên toàn thể phe địch, tăng 50% Ma & Vật Công và tấn công toàn thuộc tính của bản thân, kéo dài 2 hiệp, tăng cường 300% Trúng và Tốc Độ cho toàn thể phe ta.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Akame",
+        "description": "Gây hiệu ứng chảy máu lên tất cả mục tiêu, mỗi lượt gây sát thương thực tế thuộc tính đất bằng 500% tấn công của thuộc tính và 30% lượng máu của bản thân, hiệu lực kéo dài trong 2 lượt."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ám Bộ: Khi đồng thời xuất hiện cùng Beerus và Asamiya Athena Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Ám Sát: Khi đồng thời xuất hiện cùng Esdese Vật Công, HP và Tốc Độ+15%",
+    "Sát Thủ Vương Bài: Khi đồng thời xuất hiện cùng Gray Vật Công, HP và Tốc Độ+15%",
+    "Kẻ Tàng Hình: Khi đồng thời xuất hiện cùng Erza Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Akame: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Mai Shiranui",
+      "icon": "/images/heroes/mai-shiranui.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Akame",
+      "icon": "/images/heroes/akame.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Akame",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Yêu Đao",
+      "skillIcon": "/images/heroes/s_chitong_s1.png",
+      "skillDesc": "Gây sát thương gấp 3 lần và sát thương thuộc tính, 50% cơ hội trói buộc mục tiêu trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Akame",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Phá Giáp",
+      "skillIcon": "/images/heroes/s_chitong_s2.png",
+      "skillDesc": "Gây 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu ít nhất và nhiều nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Akame",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Tập Kích Đêm",
+      "skillIcon": "/images/heroes/s_chitong_s3.png",
+      "skillDesc": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, số lần kích hoạt mỗi lượt là 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Akame",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Lượn Vòng Trảm",
+      "skillIcon": "/images/heroes/s_chitong_s4.png",
+      "skillDesc": "Gây hiệu ứng chảy máu cho tất cả mục tiêu, mỗi lượt gây 500% sát thương thuộc tính đất thật và 30% máu của bản thân, kéo dài 2 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Akame",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Chôn Vùi",
+      "skillIcon": "/images/heroes/s_chitong_s5.png",
+      "skillDesc": "Gây hiệu ứng chảy máu lên tất cả mục tiêu, mỗi lượt gây sát thương thực tế thuộc tính đất bằng 500% tấn công của thuộc tính và 30% lượng máu của bản thân, hiệu lực kéo dài trong 2 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Akame",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Lưỡi Đao Địa Ngục",
+      "skillIcon": "/images/heroes/s_chitong_s6.png",
+      "skillDesc": "Gây thêm sát thương tương đương 800% tốc độ của bản thân và sát thương thuộc tính lên mục tiêu, và gây thêm 4-6 lần sát thương và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Akame",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Đòn Tất Sát",
+      "skillIcon": "/images/heroes/s_chitong_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, làm trói buộc hoặc trọng thương mục tiêu. Tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu, sát thương và sát thương thuộc tính của tất cả các kỹ năng mỗi khi tấn công sẽ tăng lên 2-4 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lượn Vòng Trảm",
+      "unlockedSkillIcon": "/images/heroes/s_chitong_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Chôn Vùi",
+      "unlockedSkillIcon": "/images/heroes/s_chitong_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Akame",
+          "icon": "/images/heroes/akame.png",
+          "slug": "akame"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

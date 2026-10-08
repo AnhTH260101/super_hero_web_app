@@ -1,0 +1,586 @@
+{
+  "id": "33400",
+  "slug": "sakura",
+  "name": "Sakura",
+  "title": "Vũ trụ nguyên tố • SSR Sakura",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/sakura.png",
+  "fullArt": "/images/heroes/full/image_chunyeying.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Sakura là kunoichi của làng Lá, được phân công làm thành viên của đội 7 – đội Kakashi.",
+  "skills": [
+    {
+      "name": "Tuyết Sakura",
+      "icon": "/images/heroes/s_cyy_hurt.png",
+      "description": "Tạo 350% sát thương vật lý lên mục tiêu, thêm 210% sát thương t.tính Đất, hồi 30% HP bản thân, ngẫu nhiên tạo gấp 1-4 sát thương vật lý & thuộc tính.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Sakura",
+        "description": "Nếu mục tiêu chưa chết sẽ bị Cháy, mỗi hiệp ngẫu nhiên tạo dmg Cháy gấp 1-4 t.tính ma pháp nhân cho tỉ lệ Vật Công, 2 hiệp, HQ không thể dồn"
+      }
+    },
+    {
+      "name": "Bách Hào Thuật",
+      "icon": "/images/heroes/s_cyy_cure.png",
+      "description": "KN bị đánh, sau khi Sakura bị đánh, hồi HP cho tất cả đồng đội bằng 350% Ma Công, bản thân tăng 350% Giảm Thương Tổng Thể",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Sakura",
+        "description": "Ngẫu nhiên xóa 2 trong 3 HQ \"Cháy\", \"Tụt Máu\", \"Trọng Thương\" của đồng đội, tăng Phòng Ngự & Phòng Ngự T.Tính, tăng tỉ lệ bằng tỉ lệ hồi HP & Ma Công"
+      }
+    },
+    {
+      "name": "Động Đất",
+      "icon": "/images/heroes/s_cyy_injure.png",
+      "description": "Tấn công tất cả địch, tạo 350% sát thương vật lý & 180% sát thương t.tính Đất; ngẫu nhiên làm 2 mục tiêu \"Trọng Thương\", tỉ lệ hồi HP của mục tiêu giảm 60%, 2 hiệp, HQ ko cộng dồn",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Sakura",
+        "description": "Dmg vật lý tăng gấp đôi, Trọng Thương tăng đến 80% giảm tỉ lệ hồi HP."
+      }
+    },
+    {
+      "name": "Ốc Sên",
+      "icon": "/images/heroes/s_cyy_cure.png",
+      "description": "Thả trước hiệp, tấn công phe địch hoặc trị liệu cho đồng đội phe ta; Có 50% tỉ lệ bỏ qua buff Đứng Im\nTấn Công: Ngẫu nhiên tấn công 3 mục tiêu, tạo 350% sát thương vật lý & 600% tấn công t.tính Đất lên mục tiêu;\nTrị liệu: Tăng năng lực trị liệu của bản thân, trị liệu tất cả đồng đội, hồi HP bằng 350% Ma Công & 600% Tấn Công t.tính Đất bản thân",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Sakura",
+        "description": "Năng lực trị liệu +20%, dmg tấn công +50%, nếu thả \"thuật trị liệu\", cả đội sẽ +50% Tốc Độ; Nếu thả \"thuật tấn công\", -50% Tốc Độ phe địch; Nếu \"Uchiha\" hoặc \"Sasuke\" có mặt, bỏ qua buff Đứng Im."
+      }
+    },
+    {
+      "name": "Âm Phong Ấn",
+      "icon": "/images/heroes/s_cyy_injure.png",
+      "description": "Tăng 50% giới hạn HP bản thân mãi mãi, trong 3 hiệp, mỗi hiệp hồi tất cả HP bản thân",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Sakura",
+        "description": "Liên tục phục hồi đến 5 hiệp, bản thân tăng 50% Vật Công, 5 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ninja Trị Liệu: Khi cùng Uchiha và Sasuke (Susano) ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Bão Sakura: Khi cùng Gintoki và Thunderbird ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Gương Mẫu: Khi cùng Mei ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Lở Đất: Khi trang bị Kunai thì Vật Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-sakura",
+      "name": "CT-Sakura",
+      "avatar": "/images/heroes/ct-sakura.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Sakura là kunoichi của làng Lá, được phân công làm thành viên của đội 7 – đội Kakashi."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Sakura",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tuyết Sakura",
+      "skillIcon": "/images/heroes/s_cyy_hurt.png",
+      "skillDesc": "Nếu mục tiêu chưa chết sẽ bị Cháy, mỗi hiệp ngẫu nhiên tạo dmg Cháy gấp 1-4 t.tính ma pháp nhân cho tỉ lệ Vật Công, 2 hiệp, HQ không thể dồn",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Sakura",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bách Hào Thuật",
+      "skillIcon": "/images/heroes/s_cyy_cure.png",
+      "skillDesc": "Ngẫu nhiên xóa 2 trong 3 HQ \"Cháy\", \"Tụt Máu\", \"Trọng Thương\" của đồng đội, tăng Phòng Ngự & Phòng Ngự T.Tính, tăng tỉ lệ bằng tỉ lệ hồi HP & Ma Công",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Nữ thần Sấm",
+          "icon": "/images/heroes/nu-than-sam.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Sakura",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Động Đất",
+      "skillIcon": "/images/heroes/s_cyy_injure.png",
+      "skillDesc": "Dmg vật lý tăng gấp đôi, Trọng Thương tăng đến 80% giảm tỉ lệ hồi HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Sakura",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Ốc Sên",
+      "skillIcon": "/images/heroes/s_cyy_cure.png",
+      "skillDesc": "Năng lực trị liệu +20%, dmg tấn công +50%, nếu thả \"thuật trị liệu\", cả đội sẽ +50% Tốc Độ; Nếu thả \"thuật tấn công\", -50% Tốc Độ phe địch; Nếu \"Uchiha\" hoặc \"Sasuke\" có mặt, bỏ qua buff Đứng Im.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Sakura",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Âm Phong Ấn",
+      "skillIcon": "/images/heroes/s_cyy_injure.png",
+      "skillDesc": "Liên tục phục hồi đến 5 hiệp, bản thân tăng 50% Vật Công, 5 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Sakura",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Sakura",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "slug": "sakura"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "slug": "sakura"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "slug": "sakura"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "slug": "sakura"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sakura",
+          "icon": "/images/heroes/sakura.png",
+          "slug": "sakura"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

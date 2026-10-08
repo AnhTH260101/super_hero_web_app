@@ -1,0 +1,639 @@
+{
+  "id": "64300",
+  "slug": "ct-gray",
+  "name": "CT-Gray",
+  "title": "Vũ trụ nguyên tố • UR CT-Gray",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-gray.png",
+  "fullArt": "/images/heroes/full/image_Gray.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là bậc thầy băng thuật mạnh nhất Fairy Tail, có mối thù với E.N.D, được cha truyền lại Băng Quỷ Sát Thuật, bất chấp tất cả để bảo vệ đồng đội!",
+  "skills": [
+    {
+      "name": "Băng Tiễn-Thánh",
+      "icon": "/images/heroes/s_Gray_qbq.png",
+      "description": "Ngẫu nhiên tấn công mục tiêu, tạo 350% ST ma pháp và 180% ST t.tính Nước.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Gray",
+        "description": "Khiến mục tiêu đứng im 1 hiệp; Nếu mục tiêu đang bị \"Cháy\" hoặc \"Băng Phong\", sẽ tạo X2 ST và ST t.tính cho mục tiêu"
+      }
+    },
+    {
+      "name": "Băng Đao Vũ-Thánh",
+      "icon": "/images/heroes/s_Gray_qlw.png",
+      "description": "Skill phản đòn: Khi Gray chịu sát thương từ địch, có 99% tỉ lệ phản đòn mục tiêu tấn công bản thân (Mỗi hiệp tối đa thả 1 lần), tạo 350% ST vật lý và 180% ST t.tính Nước lên mục tiêu địch.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Gray",
+        "description": "Dùng lực băng hàn khóa mục tiêu, giảm 50% Tốc Độ hiện tại của mục tiêu, kéo dài 2 hiệp; Nếu HP bản thân không đủ 5%, sẽ thả Băng Đao Vũ, tăng X1 ST, và hồi tất cả HP đã mất cho bản thân."
+      }
+    },
+    {
+      "name": "Băng Bạo-Thánh",
+      "icon": "/images/heroes/s_Gray_bqq.png",
+      "description": "Tấn công toàn thể mục tiêu, tạo 350% ST ma pháp, và 250% ST t.tính Nước; Ngẫu nhiên \"đóng băng\" 1 đơn vị, khiến mục tiêu ko thể ra tay trong 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Gray",
+        "description": "Tăng 2 mục tiêu bị băng phong, xóa buff \"Cháy\" trên người toàn thể đồng đội; Nếu Natsu có mặt hoặc thế chỗ, Natsu sẽ thả \"Hỏa Long Gầm\" tấn công mục tiêu dãy trước."
+      }
+    },
+    {
+      "name": "Băng Quỷ Nộ.Thánh",
+      "icon": "/images/heroes/s_Gray_jiang.png",
+      "description": "Skill trước hiệp: Tấn công mục tiêu dãy trước, tạo 350% ST ma pháp & 550% ST t.tính Nước, và giảm 50% phòng ngự t.tính Nước của mục tiêu",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Gray",
+        "description": "Thả Băng Quỷ Nộ xong, bỏ qua Tấn Công t.tính Nước của địch, tăng X1 tỉ lệ Chính Xác, Né cho bản thân; Nếu \"Natsu\" có mặt hoặc thế chỗ, Gray sẽ bỏ qua HQ \"Băng Phong\", \"Đứng Im\", \"Choáng\" và \"Hoảng Sợ\" 1 hiệp. "
+      }
+    },
+    {
+      "name": "Nổ Băng.Thánh",
+      "icon": "/images/heroes/s_Gray_bbz.png",
+      "description": "Skill trước khi bị đánh: Trước khi Gray chịu sát thương, sẽ tấn công mục tiêu có tấn công t.tính Lửa cao nhất tạo sát thương bằng 10% HP (Nếu mục tiêu là boss, sẽ bỏ qua phòng ngự của boss, tạo 350% ST ma pháp), giảm 30% tấn công t.tính Lửa, mỗi hiệp tối đa thả 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Gray",
+        "description": "Hồi 30% HP cho bản thân, và có 50% tỉ lệ \"đóng băng\" mục tiêu đó, khiến mục tiêu 1 hiệp ko thể ra tay; Tăng 60% giảm thương tổng thể cho bản thân"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Lạnh Cóng: Cùng Mei ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Soái Ca: Cùng Hatake và Sesshoumaru ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Ngoài Lạnh Trong Nóng: Cùng Uchiha và Levi Ackerman ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Sát Quỷ Rồng: Cùng Natsu ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Gray: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Đá Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Gray",
+      "icon": "/images/heroes/gray.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Loki",
+      "icon": "/images/heroes/loki.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Gray",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Băng Tiễn-Thánh",
+      "skillIcon": "/images/heroes/s_Gray_qbq.png",
+      "skillDesc": "Khiến mục tiêu đứng im 1 hiệp; Nếu mục tiêu đang bị \"Cháy\" hoặc \"Băng Phong\", sẽ tạo X2 ST và ST t.tính cho mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Gray",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Băng Đao Vũ-Thánh",
+      "skillIcon": "/images/heroes/s_Gray_qlw.png",
+      "skillDesc": "Dùng lực băng hàn khóa mục tiêu, giảm 50% Tốc Độ hiện tại của mục tiêu, kéo dài 2 hiệp; Nếu HP bản thân không đủ 5%, sẽ thả Băng Đao Vũ, tăng X1 ST, và hồi tất cả HP đã mất cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Gray",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Băng Bạo-Thánh",
+      "skillIcon": "/images/heroes/s_Gray_bqq.png",
+      "skillDesc": "Tăng 2 mục tiêu bị băng phong, xóa buff \"Cháy\" trên người toàn thể đồng đội; Nếu Natsu có mặt hoặc thế chỗ, Natsu sẽ thả \"Hỏa Long Gầm\" tấn công mục tiêu dãy trước.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Gray",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Băng Quỷ Nộ.Thánh",
+      "skillIcon": "/images/heroes/s_Gray_jiang.png",
+      "skillDesc": "Thả Băng Quỷ Nộ xong, bỏ qua Tấn Công t.tính Nước của địch, tăng X1 tỉ lệ Chính Xác, Né cho bản thân; Nếu \"Natsu\" có mặt hoặc thế chỗ, Gray sẽ bỏ qua HQ \"Băng Phong\", \"Đứng Im\", \"Choáng\" và \"Hoảng Sợ\" 1 hiệp. ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kaneki",
+          "icon": "/images/heroes/kaneki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Gray",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Nổ Băng.Thánh",
+      "skillIcon": "/images/heroes/s_Gray_bbz.png",
+      "skillDesc": "Hồi 30% HP cho bản thân, và có 50% tỉ lệ \"đóng băng\" mục tiêu đó, khiến mục tiêu 1 hiệp ko thể ra tay; Tăng 60% giảm thương tổng thể cho bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Gray",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Gray",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "slug": "gray"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+{
+  "id": "64700",
+  "slug": "ct-sanji",
+  "name": "CT-Sanji",
+  "title": "Vũ trụ sức mạnh • UR CT-Sanji",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-sanji.png",
+  "fullArt": "/images/heroes/full/image_Sanji.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Sanji là con trai thứ 3 của tộc Vinsmoke, với vai trò là đầu bếp của băng Hải tặc mũ rơm, có biệt danh là \"Chân Đen\", không thích động tay với phụ nữ.",
+  "skills": [
+    {
+      "name": "Thịt Cừu Thánh-SHOOT",
+      "icon": "/images/heroes/s_Sanji_yr.png",
+      "description": "Tấn công 1 mục tiêu nam, tạo 350% ST vật lý và 250% ST t.tính Lửa, tăng 50% buff hồi HP cho cả đội.\nĐạt Chuyển 1, tạo X1-2 sát thương;\nĐạt Chuyển 3, tạo X1-3 sát thương;\nĐạt Chuyển 4, tạo X2-4 sát thương;\nĐạt Chuyển 5, tạo X3-5 sát thương;\nĐạt Chuyển 6, tạo X4-6 sát thương;\n(Khi bội số sát thương là số chẵn, phát động buff liên kích)",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Sanji",
+        "description": "Khi thả KN \"SHOOT\", có 50% tỉ lệ kích hoạt HQ Liên Kích, thả \"Xay Thịt\" tấn công liên tiếp, có hiệu quả dmg gấp 2 (Nếu \"Xay Thịt\" có HQ liên kích, khi kích hoạt HQ, dmg tăng gấp 2-6), dmg kỹ năng \"Xay Thịt\" bằng \"SHOOT\", không phát động HQ đặc biệt \"Xay Thịt\""
+      }
+    },
+    {
+      "name": "Tinh Thần Đầu Bếp-Thánh",
+      "icon": "/images/heroes/s_Sanji_csjs.png",
+      "description": "Skill trước trận: Tăng 350% giới hạn HP cho tướng nam của cả đội, tăng X2 giới hạn HP cho tướng nữ, kéo dài cả trận; Và tăng 350% Vật & Ma Công cho đồng đội, hiệu lực 3 lần, tối đa kéo dài 3 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Sanji",
+        "description": "Hiệp trước trận, bản thân tăng giảm sát tổng thể đến 60%, tăng 1000% Phòng Ngự T.Tính cho đồng đội nữ, 2 hiệp, nếu phe ta 1 trong các hero \"Luffy\", \"Boa Hancock\", \"Zoro\" có mặt, bản thân & đồng đội đó tăng 50% Vật & Ma Công (Nếu cả ba đều có mặt, cả ba đều được tăng), 3 hiệp."
+      }
+    },
+    {
+      "name": "Xay Thịt-Thánh",
+      "icon": "/images/heroes/s_Sanji_tjjr.png",
+      "description": "Tấn công 1 mục tiêu nam, tạo 350% ST vật lý và 250% ST t.tính Lửa; Khiến mục tiêu trọng thương, giảm 50% Hồi HP.\nĐạt Chuyển 3, tạo X1-4 sát thương;\nĐạt Chuyển 5, tạo X3-5 sát thương;\nĐạt Chuyển 7, tạo X4-6 sát thương;\n(Khi bội số sát thương là số chẵn, phát động buff liên kích)",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Sanji",
+        "description": "Khi thả skill \"Xay Thịt\", có 50% tỉ lệ phát động buff Liên Kích, thả \"SHOOT\" tấn công mục tiêu liên tục, tạo gấp 2-6 lần dmg và dmg t.tính, dmg kỹ năng \"SHOOT\" bằng \"Xay Thịt\", không phát động buff đặc biệt \"SHOOT\"."
+      }
+    },
+    {
+      "name": "Sứ Giả Hộ Hoa-Thánh",
+      "icon": "/images/heroes/s_Sanji_hhsz.png",
+      "description": "Skill trước hiệp: Quan sát kỹ tướng nữ trên trận, cứ có 1 tướng nữ, đều khiến Sanji tăng 50% Vật Công và 200% Tốc Độ, nếu đồng đội ra trận có Luffy, sẽ tăng 80% Vật Công của Luffy.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Sanji",
+        "description": "Tỉ lệ Hồi HP của dmg phải chịu tăng đến 80%; Hồi xong HP tăng đến 100%; Nếu phe ta Boa có mặt, bản thân & Boa sẽ +500% Phòng Ngự Thường"
+      }
+    },
+    {
+      "name": "Hồi Ức Địa Ngục-Thánh",
+      "icon": "/images/heroes/s_Sanji_dyhy.png",
+      "description": "Skill bị đánh: Sau khi Sanji bị tấn công sẽ có 99% tỉ lệ phản đòn 1 lần, nếu mục tiêu tấn công mình là phái nam, sẽ tấn công mục tiêu đó; Nếu kẻ tấn công là phái nữ, sẽ tấn công 1 kẻ địch nam, tạo 350% ST vật lý và 600% ST t.tính Lửa (Mỗi hiệp tối đa phát động 2 lần).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Sanji",
+        "description": "Làm choáng 1 hero nữ bên địch, 1 hiệp, và giảm 80% Tốc Độ của tất cả nhân vật nam, 1 hiệp"
+      }
+    },
+    {
+      "name": "Kỵ Sĩ Đạo-Thánh",
+      "icon": "/images/heroes/s_Sanji_qsdjs.png",
+      "description": "Skill trước trận: Sanji tôn sùng tinh thần Kỵ Sĩ Đạo, không chỉ từ chối tấn công phái nữ, còn có 99% tỉ lệ hồi HP bản thân bằng 50% ST tấn công của tất cả tướng nữ; Khi thả skill này ở hiệp lẻ, sẽ nhận được 1 lần cơ hội hồi sinh (Hiệp chẵn không hồi sinh, hiệp trước trận là hiệp lẻ, buff hồi sinh mỗi hiệp chỉ phát động 1 lần), hồi sinh xong hồi 50% HP cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Sanji",
+        "description": "Hồi tất cả HP bản thân, ở 1 hiệp sau bỏ qua Giảm Tốc, Đứng Im, Đóng Băng, nếu hero nữ có mặt, bỏ qua thêm Tsukuyomi, Hỗn Loạn, Choáng, Sợ, bản thân tăng 50% giảm sát tổng thể, cứ 1 hero nữ có mặt, có thêm 10% giảm sát tổng thể."
+      }
+    },
+    {
+      "name": "Quang Phổ Thích-Thánh",
+      "icon": "/images/heroes/s_Sanji_gpt.png",
+      "description": "Tấn công tất cả tướng nam phe địch, tạo 350% ST vật lý và 800% ST t.tính Lửa; khiến 1 mục tiêu bị chấn động 2 hiệp và rơi vào trạng thái Cháy, ST cháy X2 ST t.tính Lửa, kéo dài 2 hiệp; Nếu phe địch có Zoro, sẽ tạo thêm 50% sát thương lên Zoro.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Sanji",
+        "description": "Nếu có đồng đội nữ, sẽ phát động HQ \"Trái Tim\", giúp đồng đội nữ đã mất 50% HP (hồi ít nhất 1000k HP), và bỏ qua buff Trọng Thương"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đầu Bếp Riêng: Khi cùng Monkey D. Luffy ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Phong Độ: Khi cùng Boa Hancock và Sakura ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Đấu Tay Không: Khi cùng Kaio và Black ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Tương Sát: Khi cùng Zoro ra trận Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Sanji: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Sanji",
+      "icon": "/images/heroes/sanji.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Zoro",
+      "icon": "/images/heroes/zoro.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Sanji",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thịt Cừu Thánh-SHOOT",
+      "skillIcon": "/images/heroes/s_Sanji_yr.png",
+      "skillDesc": "Khi thả KN \"SHOOT\", có 50% tỉ lệ kích hoạt HQ Liên Kích, thả \"Xay Thịt\" tấn công liên tiếp, có hiệu quả dmg gấp 2 (Nếu \"Xay Thịt\" có HQ liên kích, khi kích hoạt HQ, dmg tăng gấp 2-6), dmg kỹ năng \"Xay Thịt\" bằng \"SHOOT\", không phát động HQ đặc biệt \"Xay Thịt\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Sanji",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tinh Thần Đầu Bếp-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_csjs.png",
+      "skillDesc": "Hiệp trước trận, bản thân tăng giảm sát tổng thể đến 60%, tăng 1000% Phòng Ngự T.Tính cho đồng đội nữ, 2 hiệp, nếu phe ta 1 trong các hero \"Luffy\", \"Boa Hancock\", \"Zoro\" có mặt, bản thân & đồng đội đó tăng 50% Vật & Ma Công (Nếu cả ba đều có mặt, cả ba đều được tăng), 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Sanji",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Xay Thịt-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_tjjr.png",
+      "skillDesc": "Khi thả skill \"Xay Thịt\", có 50% tỉ lệ phát động buff Liên Kích, thả \"SHOOT\" tấn công mục tiêu liên tục, tạo gấp 2-6 lần dmg và dmg t.tính, dmg kỹ năng \"SHOOT\" bằng \"Xay Thịt\", không phát động buff đặc biệt \"SHOOT\".",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Sanji",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Sứ Giả Hộ Hoa-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_hhsz.png",
+      "skillDesc": "Tỉ lệ Hồi HP của dmg phải chịu tăng đến 80%; Hồi xong HP tăng đến 100%; Nếu phe ta Boa có mặt, bản thân & Boa sẽ +500% Phòng Ngự Thường",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Sanji",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hồi Ức Địa Ngục-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_dyhy.png",
+      "skillDesc": "Làm choáng 1 hero nữ bên địch, 1 hiệp, và giảm 80% Tốc Độ của tất cả nhân vật nam, 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Sanji",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỵ Sĩ Đạo-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_qsdjs.png",
+      "skillDesc": "Hồi tất cả HP bản thân, ở 1 hiệp sau bỏ qua Giảm Tốc, Đứng Im, Đóng Băng, nếu hero nữ có mặt, bỏ qua thêm Tsukuyomi, Hỗn Loạn, Choáng, Sợ, bản thân tăng 50% giảm sát tổng thể, cứ 1 hero nữ có mặt, có thêm 10% giảm sát tổng thể.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Sanji",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Quang Phổ Thích-Thánh",
+      "skillIcon": "/images/heroes/s_Sanji_gpt.png",
+      "skillDesc": "Nếu có đồng đội nữ, sẽ phát động HQ \"Trái Tim\", giúp đồng đội nữ đã mất 50% HP (hồi ít nhất 1000k HP), và bỏ qua buff Trọng Thương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Kỵ Sĩ Đạo-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Sanji_qsdjs.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Quang Phổ Thích-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Sanji_gpt.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sanji",
+          "icon": "/images/heroes/sanji.png",
+          "slug": "sanji"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

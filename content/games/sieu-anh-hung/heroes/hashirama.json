@@ -1,0 +1,608 @@
+{
+  "id": "36700",
+  "slug": "hashirama",
+  "name": "Hashirama",
+  "title": "Zombie Bentu • SSR Hashirama",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/hashirama.png",
+  "fullArt": "/images/heroes/full/image_qianshouzhujian.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là người ninja huyền thoại, sau này trở thành Hokage đầu tiên của làng Lá, tính tình ôn hòa, nhưng ý chí kiên định.",
+  "skills": [
+    {
+      "name": "Gai Sát Thuật",
+      "icon": "/images/heroes/s_zhujian_skill1.png",
+      "description": "Tấn công 1 mục tiêu, tạo 350% ST vật lý & 250% ST thuộc tính Đất, khiến mục tiêu Tụt Máu, mỗi hiệp tạo gấp đôi ST của tổng ST Tụt Máu, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Hashirama",
+        "description": "Làm mục tiêu trọng thương, giảm 80% Hồi HP của mục tiêu, 1 hiệp; Và -80% Tốc Độ của hắn, 2 hiệp."
+      }
+    },
+    {
+      "name": "Vạn Vật",
+      "icon": "/images/heroes/s_zhujian_skill2.png",
+      "description": "Skill bị đòn: Trói Buộc mục tiêu 1 hiệp, khiến mục tiêu không thể thả skill chủ động, tạo 350% ST vật lý & 300% ST thuộc tính Đất (Mỗi hiệp thả tối đa 3 lần).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Hashirama",
+        "description": "Giảm 100k-1000k chỉ số P.Ngự của mục tiêu, 2 hiệp; Giảm 20%-40% điểm tuyệt đối của giảm thương thuộc tính, 1 hiệp; Hút 50% Ma & Vật Công của hắn chuyển cho mình, hiệu lực 2 hiệp, cộng dồn 5 tầng."
+      }
+    },
+    {
+      "name": "Mộc Độn.Hoa Thụ Giới",
+      "icon": "/images/heroes/s_zhujian_skill3.png",
+      "description": "Dùng Mộc Độn tạo cây gây 350% ST vật lý & 200% ST thuộc tính Đất lên 1-5 mục tiêu; Hoa trên cây nở ra sẽ sản sinh phấn hoa, khiến 1-2 kẻ địch hít phấn hoa vào và bị choáng, kéo dài 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Hashirama",
+        "description": "Phấn hoa làm 1 mục tiêu hỗn loạn 1 hiệp, tăng 1000k-3000k P.Ngự thuộc tính Gió & P.Ngự thuộc tính Nước cho tất cả đồng đội."
+      }
+    },
+    {
+      "name": "Tái Tạo",
+      "icon": "/images/heroes/s_zhujian_skill6.png",
+      "description": "Skill trước hiệp: Hồi 50% HP bản thân, bản thân tăng 350% Phòng Ngự & Phòng Ngự Thuộc Tính; Bỏ qua Chấn Động, Choáng, Đứng Im, Tsukuyomi & Hóa Đá 1 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Hashirama",
+        "description": "Tỉ lệ hồi HP tăng đến 100%; Cộng 1 buff Vô Địch cho bản thân & đồng đội có HP thấp nhất, hiệu lực 1 lần."
+      }
+    },
+    {
+      "name": "Thông Linh.Lã Sinh Môn",
+      "icon": "/images/heroes/s_zhujian_skill7.png",
+      "description": "Skill trước khi bị đòn: Tăng 69% giảm thương tổng thể cho bản thân, tăng 350% Phòng Ngự & Phòng Ngự Thuộc Tính cho cả đội.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Hashirama",
+        "description": "Tỉ lệ giảm thương tổng thể của bản thân tăng đến 79%; Tăng thêm 300% P.Ngự của mục tiêu dãy trước phe ta, hiệu lực 1 hiệp (Khi bị hỗn loạn ko thể cộng); Bản thân ở hiệp 1 và hiệp chẵn sau đó, có 1 cơ hội hồi sinh."
+      }
+    },
+    {
+      "name": "Mộc Độn.Phi Nại Mộc",
+      "icon": "/images/heroes/s_zhujian_skill4.png",
+      "description": "Skill trước trận: Tạo vách gỗ cản kẻ địch, sau đó nhảy lên thả khúc gỗ từ trên xuống dập kẻ địch tan nát, tấn công 1 mục tiêu, tạo 350% ST vật lý & 800% ST thuộc tính Đất.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Hashirama",
+        "description": "Giảm 50% Vật Công của mục tiêu, 1 hiệp, Khiến hắn khi ra tay thả KN chủ động hoặc TC thường, trọng thương hôn mê 1 hiệp; Mục tiêu ko bị \"Mộc Độn.Phi Nại Mộc\" tấn công, sẽ bị -50% Ma Công, hiệu lực 1 hiệp."
+      }
+    },
+    {
+      "name": "Mộc Độn Tiên.Đỉnh Hóa Phật",
+      "icon": "/images/heroes/s_zhujian_skill5.png",
+      "description": "Tấn công toàn thể mục tiêu, tạo 350% ST vật lý & 700% ST thuộc tính Đất, ngẫu nhiên khiến 1 kẻ địch hôn mê.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Hashirama",
+        "description": "Tăng đến 2 mục tiêu hôn mê; Làm toàn thể mục tiêu trọng thương, -40% hiệu quả Hồi HP; Tăng 20%-40% bạo kích cho tất cả đồng đội, hiệu lực 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tư Duy Hỏa Ảnh: Cùng Uchiha và Hatake ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Người Chuyển Thế: Cùng Chris và Black ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Thân Khổng Lồ: Cùng Ma Nhân ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Sáng Pháp Bách Hào: Cùng Sakura ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-hashirama",
+      "name": "CT-Hashirama",
+      "avatar": "/images/heroes/ct-hashirama.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là người ninja huyền thoại, sau này trở thành Hokage đầu tiên của làng Lá, tính tình ôn hòa, nhưng ý chí kiên định."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Hashirama",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Gai Sát Thuật",
+      "skillIcon": "/images/heroes/s_zhujian_skill1.png",
+      "skillDesc": "Làm mục tiêu trọng thương, giảm 80% Hồi HP của mục tiêu, 1 hiệp; Và -80% Tốc Độ của hắn, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Hashirama",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Vạn Vật",
+      "skillIcon": "/images/heroes/s_zhujian_skill2.png",
+      "skillDesc": "Giảm 100k-1000k chỉ số P.Ngự của mục tiêu, 2 hiệp; Giảm 20%-40% điểm tuyệt đối của giảm thương thuộc tính, 1 hiệp; Hút 50% Ma & Vật Công của hắn chuyển cho mình, hiệu lực 2 hiệp, cộng dồn 5 tầng.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ảo Ảnh",
+          "icon": "/images/heroes/ao-anh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Hashirama",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Mộc Độn.Hoa Thụ Giới",
+      "skillIcon": "/images/heroes/s_zhujian_skill3.png",
+      "skillDesc": "Phấn hoa làm 1 mục tiêu hỗn loạn 1 hiệp, tăng 1000k-3000k P.Ngự thuộc tính Gió & P.Ngự thuộc tính Nước cho tất cả đồng đội.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Hashirama",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Mộc Độn.Phi Nại Mộc",
+      "skillIcon": "/images/heroes/s_zhujian_skill4.png",
+      "skillDesc": "Giảm 50% Vật Công của mục tiêu, 1 hiệp, Khiến hắn khi ra tay thả KN chủ động hoặc TC thường, trọng thương hôn mê 1 hiệp; Mục tiêu ko bị \"Mộc Độn.Phi Nại Mộc\" tấn công, sẽ bị -50% Ma Công, hiệu lực 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Hashirama",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Mộc Độn Tiên.Đỉnh Hóa Phật",
+      "skillIcon": "/images/heroes/s_zhujian_skill5.png",
+      "skillDesc": "Tăng đến 2 mục tiêu hôn mê; Làm toàn thể mục tiêu trọng thương, -40% hiệu quả Hồi HP; Tăng 20%-40% bạo kích cho tất cả đồng đội, hiệu lực 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Hashirama",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Tái Tạo",
+      "skillIcon": "/images/heroes/s_zhujian_skill6.png",
+      "skillDesc": "Tỉ lệ hồi HP tăng đến 100%; Cộng 1 buff Vô Địch cho bản thân & đồng đội có HP thấp nhất, hiệu lực 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Hashirama",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thông Linh.Lã Sinh Môn",
+      "skillIcon": "/images/heroes/s_zhujian_skill7.png",
+      "skillDesc": "Tỉ lệ giảm thương tổng thể của bản thân tăng đến 79%; Tăng thêm 300% P.Ngự của mục tiêu dãy trước phe ta, hiệu lực 1 hiệp (Khi bị hỗn loạn ko thể cộng); Bản thân ở hiệp 1 và hiệp chẵn sau đó, có 1 cơ hội hồi sinh.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Mộc Độn.Phi Nại Mộc",
+      "unlockedSkillIcon": "/images/heroes/s_zhujian_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Mộc Độn Tiên.Đỉnh Hóa Phật",
+      "unlockedSkillIcon": "/images/heroes/s_zhujian_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hashirama",
+          "icon": "/images/heroes/hashirama.png",
+          "slug": "hashirama"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

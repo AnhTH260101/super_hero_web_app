@@ -1,0 +1,598 @@
+{
+  "id": "353000",
+  "slug": "darkuchiha",
+  "name": "Dark·Uchiha",
+  "title": "Vũ trụ nguyên tố • SSR Dark·Uchiha",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/darkuchiha.png",
+  "fullArt": "/images/heroes/full/image_Itachi_pifu.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": true,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Uchiha phiên bản hắc ám, sống đơn độc trong bóng tối và gánh tất cả trách nhiệm, là người kế thừa ý chí của lửa trong bóng tối; Có năng lực khống chế cực mạnh, là ninja mạnh nhất!",
+  "skills": [
+    {
+      "name": "Hỏa Độn",
+      "icon": "/images/heroes/s_Itachi_hzh.png",
+      "description": "Tạo 350% dame ma pháp và 200% dame thuộc tính Lửa lên mục tiêu, gây buff \"Cháy\" hoặc \"Tụt HP\", 2 hiệp.\n\"Cháy\": Bỏ qua Phòng Ngự, mỗi hiệp tạo 350% dame ma pháp\n\"Tụt HP\": Bỏ qua Phòng Ngự, mỗi hiệp tạo 350% dame vật lý",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Dark·Uchiha",
+        "description": "Tăng thêm 100% dame kỹ năng Hỏa Độn, dame thuộc tính, Cháy, Tụt Máu. Chấn Động mục tiêu có HP thấp nhất."
+      }
+    },
+    {
+      "name": "Amaterasu",
+      "icon": "/images/heroes/s_Itachi_tz.png",
+      "description": "KN trước trận: Tạo 350% dame ma pháp và 180% dame thuộc tính Lửa lên 1 kẻ địch; mỗi hiệp đều sẽ gây 350% dame ma pháp, đến khi mục tiêu tử trận.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Dark·Uchiha",
+        "description": "Tăng thêm 50% dame Amaterasu và dame kế tiếp, tăng 250%-600% Hỏa Phòng cho cả đội, 5 hiệp"
+      }
+    },
+    {
+      "name": "Phân Thân",
+      "icon": "/images/heroes/s_Itachi_bp.png",
+      "description": "Tạo 350% dame ma pháp và 180% dame thuộc tính Lửa lên 2 mục tiêu, giảm tốc mục tiêu 2 hiệp (tốc độ giảm bằng 10% dame ma pháp).",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Dark·Uchiha",
+        "description": "Tấn công 3 mục tiêu, giảm 50% Vật Công, Ma Công và Phòng Ngự lúc đó của mục tiêu, 2 hiệp"
+      }
+    },
+    {
+      "name": "Tsukuyomi",
+      "icon": "/images/heroes/s_Itachi_yd.png",
+      "description": "KN bị đánh: Làm phép khiến mục tiêu có Vật Công cao nhất ko thể ra tay trong 1 hiệp; Tăng 350% Né và Phòng Ngự Thuộc Tính bản thân, 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Dark·Uchiha",
+        "description": "Tấn công thêm mục tiêu có Ma Công max (Nếu cùng 1 mục tiêu có Vật&Ma Công max, sẽ mặc định đó là mục tiêu Vật Công max, Ma Công max là mục tiêu khác), tăng thêm 200% Né & 100% Phòng Ngự Thuộc Tính, thả Tsukuyomi xong, bỏ qua Choáng, Sợ và buff khống chế của Tsukuyomi"
+      }
+    },
+    {
+      "name": "Ten Katar",
+      "icon": "/images/heroes/s_Itachi_sqj.png",
+      "description": "KN phản đòn: Khi bị thương, có 99% tỉ lệ phản đòn gây 350% dame Vật Lý và 500% dame thuộc tính Lửa lên mục tiêu tấn công mình. Tấn công xong nếu HP mục tiêu dưới 10% sẽ tử trận ngay.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Dark·Uchiha",
+        "description": "Giới hạn HP một phát giết địch tăng lên 15%; Nếu tấn công làm mục tiêu tử trận, hồi tất cả HP đã mất của mình; Thả Ten Katar xong, có 60% tỉ lệ bỏ qua 1 lần Đứng Im trong 1 hiệp."
+      }
+    },
+    {
+      "name": "Izanami",
+      "icon": "/images/heroes/s_Itachi_yxnm.png",
+      "description": "KN trước hiệp: Nếu tử trận trong 2 hiệp sẽ hồi sinh đầy HP; Hồi tất cả HP cho mình 3 lần, tăng 350% Tốc Độ, Vật Công, Ma Công và Tấn Công thuộc tính Lửa, 2 hiệp; Có điều phải cách 4 hiệp mới được thả skill.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Dark·Uchiha",
+        "description": "Giảm còn cách 3 hiệp có thể thả skill; Tăng thêm 100% Tốc Độ, Vật Công, Ma Công và Tấn Công thuộc tính Lửa cho mình"
+      }
+    },
+    {
+      "name": "Susanoo",
+      "icon": "/images/heroes/s_Itachi_mbcqgy.png",
+      "description": "Bỏ qua Phòng Ngự thường, tạo 350% dame Vật Công & Ma Công và 500% dame thuộc tính Lửa lên toàn thể địch",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Dark·Uchiha",
+        "description": "Khi thả Susanoo, nhận thêm 180k-225k Tấn Công thuộc tính Lửa; Thả Susanoo xong, thả tiếp \"Kotoamatsukami\", tạo 100đ dame thật lên 1 mục tiêu, và làm mục tiêu đó Hỗn Loạn (Khi mục tiêu bị hỗn loạn xuất chiêu sẽ tấn công đồng đội hắn)."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Góc Tối: Cùng Black ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Kính Vạn Hoa: Cùng Hatake và Sasuke (Susano) ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Phong Thần: Cùng Thủy Tinh và Âu Cơ ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Công Bằng: Cùng Kaio ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Dark·Uchiha",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Hỏa Độn",
+      "skillIcon": "/images/heroes/s_Itachi_hzh.png",
+      "skillDesc": "Tăng thêm 100% dame kỹ năng Hỏa Độn, dame thuộc tính, Cháy, Tụt Máu. Chấn Động mục tiêu có HP thấp nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Dark·Uchiha",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Amaterasu",
+      "skillIcon": "/images/heroes/s_Itachi_tz.png",
+      "skillDesc": "Tăng thêm 50% dame Amaterasu và dame kế tiếp, tăng 250%-600% Hỏa Phòng cho cả đội, 5 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Dark·Uchiha",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Phân Thân",
+      "skillIcon": "/images/heroes/s_Itachi_bp.png",
+      "skillDesc": "Tấn công 3 mục tiêu, giảm 50% Vật Công, Ma Công và Phòng Ngự lúc đó của mục tiêu, 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha",
+          "icon": "/images/heroes/uchiha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Dark·Uchiha",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Izanami",
+      "skillIcon": "/images/heroes/s_Itachi_yxnm.png",
+      "skillDesc": "Giảm còn cách 3 hiệp có thể thả skill; Tăng thêm 100% Tốc Độ, Vật Công, Ma Công và Tấn Công thuộc tính Lửa cho mình",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Dark·Uchiha",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Susanoo",
+      "skillIcon": "/images/heroes/s_Itachi_mbcqgy.png",
+      "skillDesc": "Khi thả Susanoo, nhận thêm 180k-225k Tấn Công thuộc tính Lửa; Thả Susanoo xong, thả tiếp \"Kotoamatsukami\", tạo 100đ dame thật lên 1 mục tiêu, và làm mục tiêu đó Hỗn Loạn (Khi mục tiêu bị hỗn loạn xuất chiêu sẽ tấn công đồng đội hắn).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha",
+          "icon": "/images/heroes/uchiha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Dark·Uchiha",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Tsukuyomi",
+      "skillIcon": "/images/heroes/s_Itachi_yd.png",
+      "skillDesc": "Tấn công thêm mục tiêu có Ma Công max (Nếu cùng 1 mục tiêu có Vật&Ma Công max, sẽ mặc định đó là mục tiêu Vật Công max, Ma Công max là mục tiêu khác), tăng thêm 200% Né & 100% Phòng Ngự Thuộc Tính, thả Tsukuyomi xong, bỏ qua Choáng, Sợ và buff khống chế của Tsukuyomi",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha",
+          "icon": "/images/heroes/uchiha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Dark·Uchiha",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ten Katar",
+      "skillIcon": "/images/heroes/s_Itachi_sqj.png",
+      "skillDesc": "Giới hạn HP một phát giết địch tăng lên 15%; Nếu tấn công làm mục tiêu tử trận, hồi tất cả HP đã mất của mình; Thả Ten Katar xong, có 60% tỉ lệ bỏ qua 1 lần Đứng Im trong 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha",
+          "icon": "/images/heroes/uchiha.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": "Izanami",
+      "unlockedSkillIcon": "/images/heroes/s_Itachi_yxnm.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": "Susanoo",
+      "unlockedSkillIcon": "/images/heroes/s_Itachi_mbcqgy.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Dark·Uchiha",
+          "icon": "/images/heroes/darkuchiha.png",
+          "slug": "darkuchiha"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

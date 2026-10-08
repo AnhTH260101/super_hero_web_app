@@ -1,0 +1,64 @@
+{
+  "id": "kensiro",
+  "slug": "kensiro",
+  "name": "Kensiro",
+  "title": "Vũ trụ sức mạnh • SSR Kensiro",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kensiro.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Cha Cha Cha của Kensiro, mỗi lần tấn công hắn đều thét lên giận dữ như tên điên. Tuy đầu óc không bình thường nhưng thực lực không thể nghi ngờ.",
+  "skills": [
+    {
+      "name": "Cực Đạo Bách Liệt Quyền",
+      "type": "active",
+      "description": "Thân thủ mạnh mẽ, tạo 350% sát thương vật lí cho mục tiêu có tấn công cao nhất của phe địch, tuyệt đối chính xác! Nếu mục tiêu có tăng né tránh thì tăng thêm 30% sát thương.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Sát Đạo Đoạn Táng Quyền",
+      "type": "ultimate",
+      "description": "Tạo 350% sát thương vật lí cho mục tiêu có điểm HP còn lại thấp nhất của phe địch, đồng thời giảm 30% phòng ngự của hắn, kéo dài 3 hiệp. Nếu mục tiêu HP ít hơn 20% thì có 10% tỉ lệ giết hắn ngay; nếu trong chuyển sinh vô tướng thì tỉ lệ gấp đôi.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Vô tướng chuyển sinh",
+      "type": "talent",
+      "description": "Mỗi lần tấn công thường đều có khả năng tạo thêm 350% sát thương vật lí, đồng thời tiến vào trạng thái vô tướng chuyển sinh, tăng 12% tỉ lệ né tránh của bản thân, tối đa dồn 3 lần, kéo dài 3 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Cha Cha Cha: Vật công +20% khi ra trận cùng lúc với card2",
+    "Nhân loại đột biến: HP +20% khi ra trận cùng lúc với card2",
+    "Vầng sáng nhân vật chính: Vật công và ma công + 20% khi ra trận cùng lúc với card2, card3, card4 và card5",
+    "Chính nghĩa chung cực: HP và tốc độ +20% khi ra trận cùng lúc với card2 và card3"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

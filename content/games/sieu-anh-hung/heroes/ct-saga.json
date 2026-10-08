@@ -1,0 +1,661 @@
+{
+  "id": "66600",
+  "slug": "ct-saga",
+  "name": "CT-Saga",
+  "title": "Vũ trụ sức mạnh • UR CT-Saga",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-saga.png",
+  "fullArt": "/images/heroes/full/image_saga.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Đấu sĩ hoàng kim, giáo hoàng thuộc chòm sao Song Tử, có năng lượng điều khiển thứ nguyên, chi phối tinh thần,… ",
+  "skills": [
+    {
+      "name": "Cú Đấm Đoạt Sáng-Thánh",
+      "icon": "/images/heroes/s_saga_skill1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST ma pháp và 500% ST t.tính Lửa lên mục tiêu; Giảm 50% tỉ lệ Vật Công, Ma Công và Giảm Thương Tổng Thể của mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Saga",
+        "description": "Trọng thương mục tiêu, khiến mục tiêu trong lúc trọng thương ko thể hồi HP, kéo dài 2 hiệp; Và có 80% tỉ lệ tạo thêm X3-5 ST và ST t.tính."
+      }
+    },
+    {
+      "name": "Ma Hoàng Mờ Ảo-Thánh",
+      "icon": "/images/heroes/s_saga_skill2.png",
+      "description": "Tấn công 1 dãy mục tiêu, tạo 350% ST ma pháp và 300% ST t.tính Lửa lên mục tiêu; Khiến mục tiêu Đứng Im hoặc Hóa Đá 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Saga",
+        "description": "Tạo X2 sát thương và sát thương t.tính lên mục tiêu dãy sau; và có 50% tỉ lệ thả 1 buff Vô Địch lên 1 đồng đội dãy trước và bản thân, hiệu lực 1 lần."
+      }
+    },
+    {
+      "name": "Thất Cảm Bạo Phát-Thánh",
+      "icon": "/images/heroes/s_saga_skill3.png",
+      "description": "Skill trước trận: Tăng 350% giới hạn HP của bản thân; Tăng 40% Ma Công & Phòng Ngự t.tính cho bản thân, hiệu lực 3 hiệp; Và có 50% tỉ lệ có 1 tầng buff Vô Địch, hiệu lực 1-3 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Saga",
+        "description": "Tăng 150% Né, Chính Xác và Bạo Kích cho bản thân, 2 hiệp; Tăng 600% Phòng Ngự & Phòng Ngự T.Tính cho đồng đội dãy trước, 3 hiệp."
+      }
+    },
+    {
+      "name": "Nổ Ngân Hà-Thánh",
+      "icon": "/images/heroes/s_saga_skill6.png",
+      "description": "Skill trước hiệp: Tấn công toàn thể mục tiêu, tạo 350% ST ma pháp và 800% ST t.tính Lửa, tạo thêm X3 ST ma pháp lên mục tiêu dãy trước hoặc dãy sau; Hồi tất cả HP bản thân đã mất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Saga",
+        "description": "80% tỉ lệ làm hỗn loạn 1-2 mục tiêu, hiệu lực 1 lần; Có 50% tỉ lệ cộng 1 tầng HQ Vô Địch cho bản thân, hiệu lực 1 lần, ko thể cộng dồn."
+      }
+    },
+    {
+      "name": "Áo Thánh Genimi-Thánh",
+      "icon": "/images/heroes/s_saga_skill7.png",
+      "description": "Skill trước khi bị đánh: Tăng 79% Giảm Thương Tổng Thể cho bản thân, tăng 500% bạo kích, phòng ngự t.tính Đất & phòng ngự t.tính Gió cho bản thân, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Saga",
+        "description": "ST và ST t.tính tăng lên ST thực, và có 50% tỉ lệ tăng X3 ST và ST t.tính"
+      }
+    },
+    {
+      "name": "ACG Hỗn Loạn-Thánh",
+      "icon": "/images/heroes/s_saga_skill4.png",
+      "description": "Skill phản đòn: 99% tỉ lệ sau khi bị tấn công sẽ tấn công mục tiêu toàn thể địch, tạo 350% ST ma pháp  800% ST t.tính Lửa, tạo thêm X3 ST và ST t.tính lên mục tiêu tấn công mình, mỗi hiệp tối đa phát động 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Saga",
+        "description": "Bỏ qua buff Chế Giễu, Đứng Im, Hóa Đá, Hôn Mê và Hôn Mê; Cộng 1 buff Vô Địch cho đồng đội có Vật & Ma Công cao nhất."
+      }
+    },
+    {
+      "name": "Thứ Nguyên Lạ-Thánh",
+      "icon": "/images/heroes/s_saga_skill5.png",
+      "description": "Tấn công toàn thể địch, tạo 350% ST ma pháp và 800% ST t.tính Lửa, khiến 1-2 mục tiêu hôn mê 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Saga",
+        "description": "Tăng 100% Vật & Ma Công và Né cho dãy sau phe ta; Tăng 1000k-2000k tấn công t.tính Lửa cho bản thân, kéo dài 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kết Hợp Hoàn Hảo: Cùng Sasuke (Susano) và Gray ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Lực Nữ Thần: Cùng Athena ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Đấu Sĩ Thánh: Cùng Shaka ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Kẻ Mạnh Nhất: Cùng Saitama ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Saga: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Ảo Ảnh",
+      "icon": "/images/heroes/ao-anh.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Saga",
+      "icon": "/images/heroes/saga.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Sói Trắng",
+      "icon": "/images/heroes/soi-trang.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Saga",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Cú Đấm Đoạt Sáng-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill1.png",
+      "skillDesc": "Trọng thương mục tiêu, khiến mục tiêu trong lúc trọng thương ko thể hồi HP, kéo dài 2 hiệp; Và có 80% tỉ lệ tạo thêm X3-5 ST và ST t.tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Saga",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ma Hoàng Mờ Ảo-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill2.png",
+      "skillDesc": "Tạo X2 sát thương và sát thương t.tính lên mục tiêu dãy sau; và có 50% tỉ lệ thả 1 buff Vô Địch lên 1 đồng đội dãy trước và bản thân, hiệu lực 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Saga",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thất Cảm Bạo Phát-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill3.png",
+      "skillDesc": "Tăng 150% Né, Chính Xác và Bạo Kích cho bản thân, 2 hiệp; Tăng 600% Phòng Ngự & Phòng Ngự T.Tính cho đồng đội dãy trước, 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Saga",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Nổ Ngân Hà-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill6.png",
+      "skillDesc": "80% tỉ lệ làm hỗn loạn 1-2 mục tiêu, hiệu lực 1 lần; Có 50% tỉ lệ cộng 1 tầng HQ Vô Địch cho bản thân, hiệu lực 1 lần, ko thể cộng dồn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Saga",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Áo Thánh Genimi-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill7.png",
+      "skillDesc": "ST và ST t.tính tăng lên ST thực, và có 50% tỉ lệ tăng X3 ST và ST t.tính",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Saga",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "ACG Hỗn Loạn-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill4.png",
+      "skillDesc": "Bỏ qua buff Chế Giễu, Đứng Im, Hóa Đá, Hôn Mê và Hôn Mê; Cộng 1 buff Vô Địch cho đồng đội có Vật & Ma Công cao nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Saga",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thứ Nguyên Lạ-Thánh",
+      "skillIcon": "/images/heroes/s_saga_skill5.png",
+      "skillDesc": "Tăng 100% Vật & Ma Công và Né cho dãy sau phe ta; Tăng 1000k-2000k tấn công t.tính Lửa cho bản thân, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "ACG Hỗn Loạn-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_saga_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Thứ Nguyên Lạ-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_saga_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "slug": "saga"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "id": "80900",
+  "slug": "ct-luffy-gear-4",
+  "name": "CT - Luffy Gear 4",
+  "title": "Vũ trụ linh tính • UR CT - Luffy Gear 4",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-luffy-gear-4.png",
+  "fullArt": "/images/heroes/full/image_lufei.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "\"Gear 4\" là chiêu thức được Luffy sáng tạo ra trong 2 năm timeskip để chế ngựcác mãnh thú to như quái vật trên đảo. Luffy ở trạng thái này có được thân hình to lớn và sức đàn hồi vô cùng mạnh mẽ như King Kong,thậm chí có thể sức đàn hồi để bay trên không.",
+  "skills": [
+    {
+      "name": "Cú Đấm Nộ Hỏa",
+      "icon": "/images/heroes/s_Xlufei_s1.png",
+      "description": "Gây ra 350% ST vật lý và 300% ST thuộc tính Thủy cho toàn phe địch, kéo dài 1 lượt.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT - Luffy Gear 4",
+        "description": "Khiến Né Tránh của tất cả kẻ địch biến về 0, giảm 100% tốc độ của tất cả kẻ địch."
+      }
+    },
+    {
+      "name": "Haki Quan Sát",
+      "icon": "/images/heroes/s_Xlufei_s2.png",
+      "description": "Kỹ năng trước khi bị tấn công: Gây ra 350% ST vật lý cho toàn phe địch, hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% Trúng Đích của mục tiêu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT - Luffy Gear 4",
+        "description": "Có thể kích hoạt 3 lần"
+      }
+    },
+    {
+      "name": "Leo Rex Bazoka",
+      "icon": "/images/heroes/s_Xlufei_s3.png",
+      "description": "Kỹ năng phản kích: Gây ra 350% ST vật lý và 500% ST thuộc tính Thủy cho toàn phe địch, và Trói Buộc mục tiêu.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT - Luffy Gear 4",
+        "description": "Nếu mục tiêu bị Trói Buộc thì tạo thêm gấp 10 lần ST."
+      }
+    },
+    {
+      "name": "Haki Vũ Trang",
+      "icon": "/images/heroes/s_Xlufei_s6.png",
+      "description": "Kỹ năng Tử Vong: Hồi phục toàn bộ HP. Tối đa có thể Hồi Sinh 2 lần.Khi Hồi Sinh bằng kỹ năng này có thể nhận 1 tầng Thần Ngự, mỗi khi phát động số tầng Thần Ngự sẽ +1.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT - Luffy Gear 4",
+        "description": "Số lần Hồi Sinh tăng lên đến 3."
+      }
+    },
+    {
+      "name": "Gomu Gomu no Culverin",
+      "icon": "/images/heroes/s_Xlufei_s7.png",
+      "description": "Kỹ năng trước khi chiến đấu: Tăng 200% HP bản thân/ 79% giảm thương, 500% Trúng Đích và Né Tránh, gây ra thêm ST thực bằng 50% HP.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT - Luffy Gear 4",
+        "description": "Vĩnh viễn miễn dịch Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phóng kỹ năng Tử Vong và Diệt Ngay; cho bản thân 1 tầng Thần Ngự."
+      }
+    },
+    {
+      "name": "Kong Rifle",
+      "icon": "/images/heroes/s_Xlufei_s4.png",
+      "description": "Thêm Trúng Đích của bản thân lên đến 100, gây ra 350% ST vật lý và thêm ST thực bằng 50% HP tối đa của bản thân cho toàn phe địch.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT - Luffy Gear 4",
+        "description": "Hồi phục 60% của max HP; khiến Né Tránh phe địch toàn thể về 0 (có công hiệu trong lần tấn công này): Trói Buộc mục tiêu 1 lượt."
+      }
+    },
+    {
+      "name": "Kong Gatling",
+      "icon": "/images/heroes/s_Xlufei_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Gây ra 350% ST vật lý và 850% ST thuộc tính Thủy cho toàn phe địch.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT - Luffy Gear 4",
+        "description": "Căn cứ số tầng Thần Ngự của bản thân mà Diệt Ngay ngẫu nhiên số lượng kẻ địch tương ứng, tối đa 5 người."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Từng Quyền Đấm Thịt: Khi xuất hiện cùng lúc với Broli và Shalltear Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Thân Thịt: Khi xuất hiện cùng lúc với Broli Vật Công, HP và Tốc Độ+15%",
+    "Phòng Ngự: Khi xuất hiện cùng lúc với Kamado Tanjiro Vật Công, HP và Tốc Độ+15%",
+    "Sức Mạnh Ẩn Tàng: Khi xuất hiện cùng lúc với Maple Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Luffy Gear 4: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 5 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Monkey D. Luffy",
+      "icon": "/images/heroes/monkey-d-luffy.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Luffy Gear 4",
+      "icon": "/images/heroes/luffy-gear-4.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT - Luffy Gear 4",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Cú Đấm Nộ Hỏa",
+      "skillIcon": "/images/heroes/s_Xlufei_s1.png",
+      "skillDesc": "Khiến Né Tránh của tất cả kẻ địch biến về 0, giảm 100% tốc độ của tất cả kẻ địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT - Luffy Gear 4",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Haki Quan Sát",
+      "skillIcon": "/images/heroes/s_Xlufei_s2.png",
+      "skillDesc": "Có thể kích hoạt 3 lần",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT - Luffy Gear 4",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Leo Rex Bazoka",
+      "skillIcon": "/images/heroes/s_Xlufei_s3.png",
+      "skillDesc": "Nếu mục tiêu bị Trói Buộc thì tạo thêm gấp 10 lần ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT - Luffy Gear 4",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Kong Rifle",
+      "skillIcon": "/images/heroes/s_Xlufei_s4.png",
+      "skillDesc": "Hồi phục 60% của max HP; khiến Né Tránh phe địch toàn thể về 0 (có công hiệu trong lần tấn công này): Trói Buộc mục tiêu 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 5,
+          "type": "hero"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT - Luffy Gear 4",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kong Gatling",
+      "skillIcon": "/images/heroes/s_Xlufei_s5.png",
+      "skillDesc": "Căn cứ số tầng Thần Ngự của bản thân mà Diệt Ngay ngẫu nhiên số lượng kẻ địch tương ứng, tối đa 5 người.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT - Luffy Gear 4",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Haki Vũ Trang",
+      "skillIcon": "/images/heroes/s_Xlufei_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tăng lên đến 3.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT - Luffy Gear 4",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Gomu Gomu no Culverin",
+      "skillIcon": "/images/heroes/s_Xlufei_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phóng kỹ năng Tử Vong và Diệt Ngay; cho bản thân 1 tầng Thần Ngự.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Kong Rifle",
+      "unlockedSkillIcon": "/images/heroes/s_Xlufei_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Kong Gatling",
+      "unlockedSkillIcon": "/images/heroes/s_Xlufei_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Luffy Gear 4",
+          "icon": "/images/heroes/luffy-gear-4.png",
+          "slug": "luffy-gear-4"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,602 @@
+{
+  "id": "36200",
+  "slug": "chris",
+  "name": "Chris",
+  "title": "Zombie Bentu • SSR Chris",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/chris.png",
+  "fullArt": "/images/heroes/full/image_Chris.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Ẩn sau nụ cười tỏa nắng là một trái tim lạnh giá…",
+  "skills": [
+    {
+      "name": "Trích Nguyệt",
+      "icon": "/images/heroes/s_Chris_zyzy.png",
+      "description": "Tấn công 1 mục tiêu dãy trước, tạo 350% dmg Ma Pháp và 200% dmg t.tính Lửa",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Chris",
+        "description": "Đốt cháy mục tiêu, mỗi hiệp tạo dmg thực bằng với dmg Ma Pháp, làm trọng thương mục tiêu, giảm 65% tỉ lệ hồi HP của mục tiêu."
+      }
+    },
+    {
+      "name": "Đại Xà",
+      "icon": "/images/heroes/s_Chris_dst.png",
+      "description": "Tấn công mục tiêu hàng bất kỳ, tạo 350% dmg Ma Pháp và & 180% dmg t.tính Lửa",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Chris",
+        "description": "Giảm 50% Giảm Sát Tổng Thể, Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Đồ Kính",
+      "icon": "/images/heroes/s_Chris_tjzy.png",
+      "description": "KN phản đòn: 99% tỉ lệ phản đòn mục tiêu tấn công mình, tạo 350% dmg Ma Pháp và 200% dmg t.tính Lửa cho mục tiêu (Mỗi hiệp tối đa phát động 3 lần)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Chris",
+        "description": "Mỗi lần phản đòn đều tăng 50% Chính Xác & 10% tỉ lệ Bạo Kích cho mình, tối đa dồn 5 tầng"
+      }
+    },
+    {
+      "name": "Máu Rắn",
+      "icon": "/images/heroes/s_Chris_dszx.png",
+      "description": "KN trước khi bị đánh: Tăng 50% Tốc Độ, mỗi hiệp miễn dịch 1 lần dmg, bản thân tăng 350% giảm thương toàn thể (Nếu đã thức tỉnh thành Đại Xà, Giảm Thương & Giảm Thương Thuộc Tính đều cao hơn 350%, bản thân không tăng HQ Giảm Thương nữa)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Chris",
+        "description": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Tsukuyomi, KN tấn công kèm thêm dmg t.tính Lửa bằng 30%-40% HP bản thân, nếu Chris thức tỉnh thành \"Đại Xà\", đạt Chuyển Sinh 7 sẽ tăng thêm dmg t.tính Lửa bằng 10% giới hạn HP; Trước mỗi hiệp, hồi tất cả HP bản thân đã mất."
+      }
+    },
+    {
+      "name": "Thức Tỉnh.Đại Xà",
+      "icon": "/images/heroes/s_Chris_jxds.png",
+      "description": "KN tử trận: Tăng 50% giới hạn HP, và thức tỉnh hóa thành Đại Xà; Tăng thêm 350% Vật & Ma Công",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Chris",
+        "description": "Trong 2 hiệp, hồi tất cả HP cho tất cả đồng đội trừ bản thân, và tăng đến 80% Giảm Thương & Giảm Thương T.Tính cho mình, tăng 10000k Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp"
+      }
+    },
+    {
+      "name": "Dạ Ma Thiêu",
+      "icon": "/images/heroes/s_Chris_yms.png",
+      "description": "KN trước hiệp: Tăng 350% Phòng Ngự & Phòng Ngụ Thuộc Tính, có hiệu lực 3 lần.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Chris",
+        "description": "Tăng đến 5 lần kích hoạt tăng Phòng Ngự, có 50% tỉ lệ khiến 1 đồng đội miễn dịch 1 lần tấn công từ địch (Không gồm bản thân)"
+      }
+    },
+    {
+      "name": "Power Station",
+      "icon": "/images/heroes/s_Chris_dlhc.png",
+      "description": "Tạo 350% dmg Ma Pháp & 800% dmg t.tính Lửa lên toàn thể địch; Làm 1-3 mục tiêu địch bị cháy, mỗi hiệp tạo dmg Cháy bằng X2 dmg Ma Pháp (Dmg Cháy là dmg thực), kéo dài 3 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Chris",
+        "description": "Giảm 50%-99% Tốc Độ của 1-3 mục tiêu tấn công, kéo dài 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Lực Huyết Mạch: Cùng Black ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Bậc Thầy Chơi Lửa: Cùng Natsu và Sanji ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Sát Nhân: Cùng Ma Nhân ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Lực Rắn: Cùng Boa Hancock ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-chris",
+      "name": "CT-Chris",
+      "avatar": "/images/heroes/ct-chris.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Ẩn sau nụ cười tỏa nắng là một trái tim lạnh giá…"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Chris",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Trích Nguyệt",
+      "skillIcon": "/images/heroes/s_Chris_zyzy.png",
+      "skillDesc": "Đốt cháy mục tiêu, mỗi hiệp tạo dmg thực bằng với dmg Ma Pháp, làm trọng thương mục tiêu, giảm 65% tỉ lệ hồi HP của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Chris",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Đại Xà",
+      "skillIcon": "/images/heroes/s_Chris_dst.png",
+      "skillDesc": "Giảm 50% Giảm Sát Tổng Thể, Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Chris",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đồ Kính",
+      "skillIcon": "/images/heroes/s_Chris_tjzy.png",
+      "skillDesc": "Mỗi lần phản đòn đều tăng 50% Chính Xác & 10% tỉ lệ Bạo Kích cho mình, tối đa dồn 5 tầng",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Chris",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Dạ Ma Thiêu",
+      "skillIcon": "/images/heroes/s_Chris_yms.png",
+      "skillDesc": "Tăng đến 5 lần kích hoạt tăng Phòng Ngự, có 50% tỉ lệ khiến 1 đồng đội miễn dịch 1 lần tấn công từ địch (Không gồm bản thân)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Chris",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Power Station",
+      "skillIcon": "/images/heroes/s_Chris_dlhc.png",
+      "skillDesc": "Giảm 50%-99% Tốc Độ của 1-3 mục tiêu tấn công, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Chris",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Máu Rắn",
+      "skillIcon": "/images/heroes/s_Chris_dszx.png",
+      "skillDesc": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Tsukuyomi, KN tấn công kèm thêm dmg t.tính Lửa bằng 30%-40% HP bản thân, nếu Chris thức tỉnh thành \"Đại Xà\", đạt Chuyển Sinh 7 sẽ tăng thêm dmg t.tính Lửa bằng 10% giới hạn HP; Trước mỗi hiệp, hồi tất cả HP bản thân đã mất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Chris",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thức Tỉnh.Đại Xà",
+      "skillIcon": "/images/heroes/s_Chris_jxds.png",
+      "skillDesc": "Trong 2 hiệp, hồi tất cả HP cho tất cả đồng đội trừ bản thân, và tăng đến 80% Giảm Thương & Giảm Thương T.Tính cho mình, tăng 10000k Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": "Dạ Ma Thiêu",
+      "unlockedSkillIcon": "/images/heroes/s_Chris_yms.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": "Power Station",
+      "unlockedSkillIcon": "/images/heroes/s_Chris_dlhc.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "slug": "chris"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": "35000",
+  "slug": "levi-ackerman",
+  "name": "Levi Ackerman",
+  "title": "Zombie Bentu • SSR Levi Ackerman",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/levi-ackerman.png",
+  "fullArt": "/images/heroes/full/image_bingzhang.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là đội trưởng trong Đoàn Trinh Sát, cũng là phân đội trưởng của đội đặc nhiệm; Dáng người tuy nhỏ bé, nhưng lại có biệt danh là \"chiến binh mạnh nhất nhân loại\"",
+  "skills": [
+    {
+      "name": "Xoay Mình",
+      "icon": "/images/heroes/s_bingzhang_hxz.png",
+      "description": "Gây 350% sát thương vật lý và 180% sát thương t.tính Gió, tạo gấp 3-4 lần sát thương và sát thương t.tính cho BOSS; Mỗi hiệp gây tụt HP bằng ATK Gió và ATK Vật Lý*80%-225%, 2 hiệp",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Levi Ackerman",
+        "description": "Mục tiêu chết sẽ kích hoạt buff \"Liên Kích\", thả thêm \"Xoay Mình\" tấn công mục tiêu khác có HP thấp nhất lúc đó (mỗi lần liên kích sát thương tăng 20% điểm cơ bản, tối đa 80%, BOSS vô hiệu)"
+      }
+    },
+    {
+      "name": "Hoán Đao",
+      "icon": "/images/heroes/s_bingzhang_hrfj.png",
+      "description": "Khi chịu sát thương sẽ có 99% tỉ lệ phản công, gây 350% sát thương vật lý và 180% sát thương t.tính Gió lên mục tiêu tấn công mình; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính lên BOSS.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Levi Ackerman",
+        "description": "Hồi HP bằng 50% giới hạn HP bản thân cộng với tổng điểm sát thương gấp 2; tăng thêm 100%-300% Phòng Ngự, Phòng Ngự T.Tính và 6%-20% ATK t.tính Gió, tối đa dồn 5 tầng, 2 hiệp."
+      }
+    },
+    {
+      "name": "Cánh Tự Do",
+      "icon": "/images/heroes/s_bingzhang_zyzy.png",
+      "description": "Gây 350% sát thương vật lý và 250% sát thương t.tính Gió lên tất cả mục tiêu; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính cho BOSS.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Levi Ackerman",
+        "description": "Nếu HP mục tiêu cao hơn 85% giới hạn HP, sẽ nhân đôi sát thương mục tiêu phải chịu và sát thương t.tính (BOSS vô hiệu); làm 1-3 kẻ địch sợ, 1 hiệp."
+      }
+    },
+    {
+      "name": "Cuồng Trảm",
+      "icon": "/images/heroes/s_bingzhang_hrkz.png",
+      "description": "KN trước hiệp: Gây 350% sát thương vật lý và % sát thương t.tính Gió lên tất cả mục tiêu; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính cho BOSS.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Levi Ackerman",
+        "description": "Nếu mục tiêu có buff Tụt Máu, giảm 50% hồi HP của mục tiêu, kéo dài 1 hiệp; Thả buff \"Bất Khuất\", miễn dịch 2 lần sát thương và sát thương t.tính, xóa buff xấu (có thể xóa) cho mình."
+      }
+    },
+    {
+      "name": "Tuyệt Mệnh",
+      "icon": "/images/heroes/s_bingzhang_jmcs.png",
+      "description": "KN tử trận: Tấn công mục tiêu có HP thấp nhất lúc đó, tạo 350% sát thương vật lý và 1200% sát thương t.tính Gió (Nếu bị choáng, sợ hoặc đứng im, không thể thả KN)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Levi Ackerman",
+        "description": "Hồi tất cả HP đồng đội, tăng 100% Tốc Độ, 3 hiệp, và xóa buff xấu (có thể xóa) cho cả đội"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Khốc Liệt: Khi cùng Âu Cơ và Zoro ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Chiến Thần: Khi cùng Thunderbird và Kaneki ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Vai Nam Chính: Khi cùng Sesshoumaru ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Tốc Hành: Khi trang bị Kotetsu 0 thì Vật Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-levi",
+      "name": "CT-Levi",
+      "avatar": "/images/heroes/ct-levi.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Đội trưởng binh đoàn điều tra người khổng lồ, cũng là trưởng lớp binh đoàn tác chiến đặc biệt; Dáng người thấp bé, có danh hiệu \"binh sĩ mạnh nhất nhân loại\""
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Levi Ackerman",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Xoay Mình",
+      "skillIcon": "/images/heroes/s_bingzhang_hxz.png",
+      "skillDesc": "Mục tiêu chết sẽ kích hoạt buff \"Liên Kích\", thả thêm \"Xoay Mình\" tấn công mục tiêu khác có HP thấp nhất lúc đó (mỗi lần liên kích sát thương tăng 20% điểm cơ bản, tối đa 80%, BOSS vô hiệu)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Levi Ackerman",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hoán Đao",
+      "skillIcon": "/images/heroes/s_bingzhang_hrfj.png",
+      "skillDesc": "Hồi HP bằng 50% giới hạn HP bản thân cộng với tổng điểm sát thương gấp 2; tăng thêm 100%-300% Phòng Ngự, Phòng Ngự T.Tính và 6%-20% ATK t.tính Gió, tối đa dồn 5 tầng, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Levi Ackerman",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Cánh Tự Do",
+      "skillIcon": "/images/heroes/s_bingzhang_zyzy.png",
+      "skillDesc": "Nếu HP mục tiêu cao hơn 85% giới hạn HP, sẽ nhân đôi sát thương mục tiêu phải chịu và sát thương t.tính (BOSS vô hiệu); làm 1-3 kẻ địch sợ, 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Levi Ackerman",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Cuồng Trảm",
+      "skillIcon": "/images/heroes/s_bingzhang_hrkz.png",
+      "skillDesc": "Nếu mục tiêu có buff Tụt Máu, giảm 50% hồi HP của mục tiêu, kéo dài 1 hiệp; Thả buff \"Bất Khuất\", miễn dịch 2 lần sát thương và sát thương t.tính, xóa buff xấu (có thể xóa) cho mình.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Levi Ackerman",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Tuyệt Mệnh",
+      "skillIcon": "/images/heroes/s_bingzhang_jmcs.png",
+      "skillDesc": "Hồi tất cả HP đồng đội, tăng 100% Tốc Độ, 3 hiệp, và xóa buff xấu (có thể xóa) cho cả đội",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Levi Ackerman",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Levi Ackerman",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Levi Ackerman",
+          "icon": "/images/heroes/levi-ackerman.png",
+          "slug": "levi-ackerman"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "id": "61900",
+  "slug": "ct-constantine",
+  "name": "CT-Constantine",
+  "title": "Zombie Bentu • UR CT-Constantine",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-constantine.png",
+  "fullArt": "/images/heroes/full/image_kangsitanding.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Bắt nguồn từ vua Arthur và thời kì Merlin, thuộc tính ma pháp của gia tộc được truyền từ đời này sang đời khác",
+  "skills": [
+    {
+      "name": "Lựu Đạn-Thánh",
+      "icon": "/images/heroes/s_kangsi_hurt.png",
+      "description": "Thả lựu đạn tạo 350% sát thương ma pháp và 150% thuộc tính sát thương nước bản thân",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Constantine",
+        "description": "Súng Săn hồi phục thêm 30% HP bản thân "
+      }
+    },
+    {
+      "name": "Ma Gian Hành Giả-Thánh",
+      "icon": "/images/heroes/s_kangsi_injure.png",
+      "description": "Tạo ảo ảnh địa ngục khiến kẻ địch sợ hãi, chuyển hóa 20% HP bị mất thành tấn công ma pháp cho bản thân, tạo 350% sát thương ma pháp lên toàn bộ địch và 140% thuộc tính sát thương nước",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Constantine",
+        "description": "Ma Gian Hành Giả tạo hiệu ứng đóng băng, giảm 50% tốc độ toàn bộ phe địch"
+      }
+    },
+    {
+      "name": "Thám Tử Địa Ngục-Thánh",
+      "icon": "/images/heroes/s_kangsi_cure.png",
+      "description": "Kỹ năng trước hiệp, tăng 350% tấn công ma pháp và miễn giảm sát thương bản thân, 50% tỷ lệ tăng 1 tầng bảo vệ để miễn dịch tấn công phe địch 1 lần",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Constantine",
+        "description": "Tăng 50% tất cả thuộc tính cho phe ta, 1 hiệp"
+      }
+    },
+    {
+      "name": "Quỷ Săn-Thánh",
+      "icon": "/images/heroes/s_kangsi_injure.png",
+      "description": "Sau khi chịu tấn công, tăng điểm tuyệt đối effect của thuộc tính tấn công nước",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Constantine",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Mê Hồn.Nước-Thánh",
+      "icon": "/images/heroes/s_kangsi_cure.png",
+      "description": "Kỹ năng trước trận, giảm 350% sức tấn công ma pháp lên toàn thể phe địch",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Constantine",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thuật Sĩ Thần Bí: Khi ra trận cùng Dương Tiễn và Gaten thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Tình Thế Khủng Bố: Khi ra trận cùng Samurai và Na Tra thì vật công, HP và tốc độ+15%",
+    "Người Trừ Tà: Khi ra trận cùng Tề Thiên Đại Thánh thì ma công, HP và tốc độ+15%",
+    "Thợ Săn Quỷ: Khi trang bị Lựu Đạn thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Constantine: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Constantine",
+      "icon": "/images/heroes/constantine.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Loki",
+      "icon": "/images/heroes/loki.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Người Tí Hon",
+      "icon": "/images/heroes/nguoi-ti-hon.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Constantine",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Lựu Đạn-Thánh",
+      "skillIcon": "/images/heroes/s_kangsi_hurt.png",
+      "skillDesc": "Súng Săn hồi phục thêm 30% HP bản thân ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Constantine",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ma Gian Hành Giả-Thánh",
+      "skillIcon": "/images/heroes/s_kangsi_injure.png",
+      "skillDesc": "Ma Gian Hành Giả tạo hiệu ứng đóng băng, giảm 50% tốc độ toàn bộ phe địch",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Constantine",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thám Tử Địa Ngục-Thánh",
+      "skillIcon": "/images/heroes/s_kangsi_cure.png",
+      "skillDesc": "Tăng 50% tất cả thuộc tính cho phe ta, 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Constantine",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Quỷ Săn-Thánh",
+      "skillIcon": "/images/heroes/s_kangsi_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Loki",
+          "icon": "/images/heroes/loki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Người Tí Hon",
+          "icon": "/images/heroes/nguoi-ti-hon.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Constantine",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Mê Hồn.Nước-Thánh",
+      "skillIcon": "/images/heroes/s_kangsi_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Constantine",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Constantine",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Constantine",
+          "icon": "/images/heroes/constantine.png",
+          "slug": "constantine"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

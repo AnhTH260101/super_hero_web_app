@@ -1,0 +1,707 @@
+{
+  "id": "83000",
+  "slug": "shadow",
+  "name": "Shadow",
+  "title": "Vũ trụ linh tính • UR Shadow",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_anying2.png",
+  "fullArt": "/images/heroes/full/image_shadow.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Shadow chuyển sang tư thế giải phóng ma lực — điều này cho thấy anh ta đang tận hưởng trận chiến lần này rất nhiều.",
+  "skills": [
+    {
+      "name": "Loan Nguyệt Trảm",
+      "icon": "/images/heroes/s_anying2_s1.png",
+      "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Phong cho toàn phe địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Shadow",
+        "description": "Gây ra thêm 5 lần ST"
+      },
+      "badge": {
+        "level": 1,
+        "description": "Đột phá tiềm lực: （Loan Nguyệt Trảm）Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Kết Giới Cố Hữu",
+      "icon": "/images/heroes/s_anying2_s2.png",
+      "description": "Kĩ năng trước khi bị đánh: Gây ra 350% ST ma pháp và 100% ST thuộc tính Phong cho toàn phe địch. Cho bản thân 1 tầng \"Phóng Ma Lực\": Mỗi tầng \"Phóng Ma Lực\" sẽ tăng 10% lực công ma pháp, tối đa chồng đến 1000%",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Shadow",
+        "description": "Mỗi lượt tối đa dùng 3 lần; mỗi lần tăng 3 tầng \"Phóng Ma Lực\"; nhận 1 tầng \"Hộ Giá\""
+      },
+      "badge": {
+        "level": 2,
+        "description": "Đột phá tiềm lực: （Kết Giới Cố Hữu） Cho bản thân 1 lượt Vô Địch"
+      }
+    },
+    {
+      "name": "Chém Ngược",
+      "icon": "/images/heroes/s_anying2_s3.png",
+      "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 300% ST thuộc tính Phong cho toàn phe địch. Ở \"Hình thái Shadow\", gây ra thêm ST bằng 50% HP max của mục tiêu.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Shadow",
+        "description": "Trói Buộc mục tiêu 1 lượt"
+      },
+      "badge": {
+        "level": 3,
+        "description": "Đột phá tiềm lực: （Chém Ngược）Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Ma Lực Đâm Xuyên",
+      "icon": "/images/heroes/s_anying2_s6.png",
+      "description": "Kĩ năng tử vong: Hồi toàn bộ HP của bản thân (bỏ qua Trọng Thương). Gây ra 350% ST ma pháp và 1500% ST thuộc tính Phong cho toàn phe địch. Tối đa Hồi Sinh 3 lần. Có tỉ lệ 30% rút năng lượng HP để thêm 1 lần Hồi Sinh cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Shadow",
+        "description": "Số lần Hồi Sinh tối đa tăng thành 4. Diệt ngay 1 đơn vị ngẫu nhiên. Nhận 1 tầng \"Thần Ngự\""
+      },
+      "badge": {
+        "level": 6,
+        "description": "Đột phá tiềm lực: （Ma Lực Đâm Xuyên）Có tỉ lệ 40% rút năng lượng HP để thêm 1 lần Hồi Sinh cho bản thân."
+      }
+    },
+    {
+      "name": "Ám Đao",
+      "icon": "/images/heroes/s_anying2_s7.png",
+      "description": "Kĩ năng tiền chiến: Tăng vĩnh viễn 240% HP tối đa của bản thân, và 79% Giảm Thương chỉnh thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích. Phóng Thiên Thạch Ma Lực, gây ra ST thực gồm 350% ST ma pháp và 1800% ST thuộc tính Phong cho toàn phe địch",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Shadow",
+        "description": "Vĩnh viễn miễn Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi. Dùng ma lực tổn hại 1 lần Hồi Sinh của 2-3 mục tiêu, và gây ra thêm ST bằng 70% HP của mục tiêu"
+      },
+      "badge": {
+        "level": 7,
+        "description": "Đột phá tiềm lực: （Ám Đao）Dùng ma lực tổn hại 1 lần Hồi Sinh của 3-4 mục tiêu"
+      }
+    },
+    {
+      "name": "Sóng Shadow",
+      "icon": "/images/heroes/s_anying2_s4.png",
+      "description": "Khống chế dòng chảy ma lực gây ra cộng chấn, gây ra 350% ST ma pháp và 1200% ST thuộc tính Phong cho toàn phe địch. Giảm Phòng ngực toàn thuộc tính của mục tiêu về 0, duy trì 2 lượt",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Shadow",
+        "description": "Giảm 1 lần số lượt Hồi Sinh của ngẫu nhiên 1 người, số lần giả sẽ trở thành số lần Hồi Sinh của bản thân (tối đa 4 lần) và Diệt Ngay mục tiêu"
+      },
+      "badge": {
+        "level": 4,
+        "description": "Đột phá tiềm lực: （Sóng Shadow）Gây ra thêm gấp 5 ST và ST thuộc tính."
+      }
+    },
+    {
+      "name": "Atomic MAX",
+      "icon": "/images/heroes/s_anying2_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Dùng cực hạn thao tác để sử dụng ma lực, mô phỏng nổ hạt nhân. Gây ra 350% ST ma pháp và 1800% ST thuộc tính Phong cho toàn phe địch. Diệt Ngay 1 đơn vị ngẫu nhiên",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Shadow",
+        "description": "Gây ra thêm 10 lần ST. Nhận hiệu quả \"Vững Vàng\""
+      },
+      "badge": {
+        "level": 5,
+        "description": "Đột phá tiềm lực: （Atomic MAX）Có 50% tỉ lệ gây thêm một lần sát thương nữa."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tàng Phong: Khi xuất hiện cùng lúc với Frieren và Inori Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Tín Niệm: Khi xuất hiện cùng lúc với Pain Ma Công, HP và Tốc Độ+15%",
+    "Sáng Tạo Ma Pháp: Khi xuất hiện cùng lúc với Yatogami Tohka Ma Công, HP và Tốc Độ+15%",
+    "Thủ Lĩnh: Khi xuất hiện cùng lúc với Râu Trắng Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Cid Kageno: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Aizen",
+      "icon": "/images/heroes/aizen.png",
+      "amount": 5,
+      "type": "hero"
+    },
+    {
+      "name": "Cid Kageno",
+      "icon": "/images/heroes/icon_anying.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Shadow",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Loan Nguyệt Trảm",
+      "skillIcon": "/images/heroes/s_anying2_s1.png",
+      "skillDesc": "Gây ra thêm 5 lần ST",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Shadow",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Kết Giới Cố Hữu",
+      "skillIcon": "/images/heroes/s_anying2_s2.png",
+      "skillDesc": "Mỗi lượt tối đa dùng 3 lần; mỗi lần tăng 3 tầng \"Phóng Ma Lực\"; nhận 1 tầng \"Hộ Giá\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Shadow",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Chém Ngược",
+      "skillIcon": "/images/heroes/s_anying2_s3.png",
+      "skillDesc": "Trói Buộc mục tiêu 1 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Shadow",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Sóng Shadow",
+      "skillIcon": "/images/heroes/s_anying2_s4.png",
+      "skillDesc": "Giảm 1 lần số lượt Hồi Sinh của ngẫu nhiên 1 người, số lần giả sẽ trở thành số lần Hồi Sinh của bản thân (tối đa 4 lần) và Diệt Ngay mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Shadow",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Atomic MAX",
+      "skillIcon": "/images/heroes/s_anying2_s5.png",
+      "skillDesc": "Gây ra thêm 10 lần ST. Nhận hiệu quả \"Vững Vàng\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Shadow",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Ma Lực Đâm Xuyên",
+      "skillIcon": "/images/heroes/s_anying2_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Diệt ngay 1 đơn vị ngẫu nhiên. Nhận 1 tầng \"Thần Ngự\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Shadow",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ám Đao",
+      "skillIcon": "/images/heroes/s_anying2_s7.png",
+      "skillDesc": "Vĩnh viễn miễn Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi. Dùng ma lực tổn hại 1 lần Hồi Sinh của 2-3 mục tiêu, và gây ra thêm ST bằng 70% HP của mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Sóng Shadow",
+      "unlockedSkillIcon": "/images/heroes/s_anying2_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Atomic MAX",
+      "unlockedSkillIcon": "/images/heroes/s_anying2_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Cid Kageno",
+          "icon": "/images/heroes/icon_anying.png",
+          "slug": "cid-kageno"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

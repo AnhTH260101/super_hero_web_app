@@ -1,0 +1,657 @@
+{
+  "id": "61800",
+  "slug": "ct-sesshoumaru",
+  "name": "CT-Sesshoumaru",
+  "title": "Zombie Bentu • UR CT-Sesshoumaru",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-sesshoumaru.png",
+  "fullArt": "/images/heroes/full/image_shashengwan.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Tính tình tự cao, chỉ đối xử dịu dàng với Rin.",
+  "skills": [
+    {
+      "name": "Thanh Long Phá-Thánh",
+      "icon": "/images/heroes/s_ssw_hurt.png",
+      "description": "Tạo 350% sát thương ma pháp lên toàn thể địch, mặc định làm choáng mục tiêu 1 hiệp và 30% tỉ lệ làm choáng đơn bị địch khác trong 1 hiệp. Thêm 160% sát thương thuộc tính Gió của bản thân",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Sesshoumaru",
+        "description": "X2 tốc độ, chuyển hóa tấn công vật lý bản thân thành tấn công thuộc tính Gió"
+      }
+    },
+    {
+      "name": "Tenseiga-Thánh",
+      "icon": "/images/heroes/s_ssw_cure.png",
+      "description": "Trước hiệp, hồi phục 20% HP, tăng 350% tất cả thuộc tính và miễn sát cho bản thân, xóa buff: giảm thuộc tính, tụt máu, làm choáng…, miễn dịch làm choáng từ địch 1 lần",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Sesshoumaru",
+        "description": "Tăng 1 tầng hộ thuẫn cho bản thân, miễn dịch 1 lần tấn công từ địch trong 1 hiệp"
+      }
+    },
+    {
+      "name": "Bạo Toái Tức Thời-Thánh",
+      "icon": "/images/heroes/s_ssw_injure.png",
+      "description": "Tạo 350% sát thương ma pháp lên kẻ địch, nếu kẻ địch không thuộc lý tính vũ trụ sẽ tạo X2 sát thương. Tạo thêm 130% tấn công thuộc tính Gió của bản thân",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Sesshoumaru",
+        "description": "Nhắm chính xác mục tiêu, và hồi phục 15% HP bản thân"
+      }
+    },
+    {
+      "name": "Chém Chay-Thánh",
+      "icon": "/images/heroes/s_ssw_cure.png",
+      "description": "Bị tấn công xong, tăng effect điểm tuyệt đối tấn công thuộc tính Gió",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Sesshoumaru",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Đấu Hồn Cự Khuyển-Thánh",
+      "icon": "/images/heroes/s_ssw_injure.png",
+      "description": "Kỹ năng trước trận, tăng 50% điểm phòng ngự toàn thể phe ta, giảm 50% tốc độ mục tiêu thẳng hàng, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Sesshoumaru",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Khuyển Yêu Thuần: Khi ra trận cùng lúc với Nidhogg thì vật công, ma công, HP+20%, phòng ngự, tốc độ+15%",
+    "Trăng Khuyết U Ám: Khi ra trận cùng lúc với Samurai và Người Tí Hon thì ma công, HP và tốc độ+15%",
+    "Di Dời Nháy Mắt: Khi ra trận cùng lúc với Hoàng Phủ Kiếm và Kaneki thì ma công, HP và tốc độ+15%",
+    "Tà Kiến: Khi ra trận cùng lúc với Loki thì ma công, HP và tốc độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Sesshoumaru: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Sesshoumaru",
+      "icon": "/images/heroes/sesshoumaru.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Người Tí Hon",
+      "icon": "/images/heroes/nguoi-ti-hon.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Superman",
+      "icon": "/images/heroes/superman.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Sesshoumaru",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thanh Long Phá-Thánh",
+      "skillIcon": "/images/heroes/s_ssw_hurt.png",
+      "skillDesc": "X2 tốc độ, chuyển hóa tấn công vật lý bản thân thành tấn công thuộc tính Gió",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Sesshoumaru",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tenseiga-Thánh",
+      "skillIcon": "/images/heroes/s_ssw_cure.png",
+      "skillDesc": "Tăng 1 tầng hộ thuẫn cho bản thân, miễn dịch 1 lần tấn công từ địch trong 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Sesshoumaru",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Bạo Toái Tức Thời-Thánh",
+      "skillIcon": "/images/heroes/s_ssw_injure.png",
+      "skillDesc": "Nhắm chính xác mục tiêu, và hồi phục 15% HP bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Sesshoumaru",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Chém Chay-Thánh",
+      "skillIcon": "/images/heroes/s_ssw_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Người Tí Hon",
+          "icon": "/images/heroes/nguoi-ti-hon.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Superman",
+          "icon": "/images/heroes/superman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Sesshoumaru",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Đấu Hồn Cự Khuyển-Thánh",
+      "skillIcon": "/images/heroes/s_ssw_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Sesshoumaru",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Sesshoumaru",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "slug": "sesshoumaru"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "id": "68800",
+  "slug": "ct-gilgamesh",
+  "name": "CT-Gilgamesh",
+  "title": "Vũ trụ linh tính • UR CT-Gilgamesh",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-gilgamesh.png",
+  "fullArt": "/images/heroes/full/image_shanshan.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Anh là á thần có 2/3 là thần, 1/3 là người, tính cách cao ngạo, từng tự nhận là bạo quân không ai có thể đánh bại.",
+  "skills": [
+    {
+      "name": "Lưới Trời.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s1.png",
+      "description": "Tấn công mục tiêu đơn thể, tạo 350% ST ma công và 550% ST t.tính Gió, 50% tỉ lệ khiến mục tiêu chịu Tsukuyomi, nếu mục tiêu đã bị Tsukuyomi, sẽ tạo thêm x2 sát thương.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Gilgamesh",
+        "description": "Tỉ lệ Tsukuyomi biến thành 100%, nếu mục tiêu đã bị Tsukuyomi, sát thương tăng đến x3."
+      }
+    },
+    {
+      "name": "Khai Tịch Trảm.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s2.png",
+      "description": "Tấn công toàn thể phe địch, tạo 350% ST ma công và 350% ST t.tính Gió, tăng 40W~60W Ma Công, sát thương tạo cho mục tiêu bị trọng thương và Tsukuyomi tăng lên x3.\"",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Gilgamesh",
+        "description": "Tạo thêm x3 sát thương đối với mục tiêu có HP dưới 30%"
+      }
+    },
+    {
+      "name": "Vua Bảo Vệ.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s3.png",
+      "description": "Skill trước khi bị đánh: Mỗi lần trước khi bị tấn công, bản thân tăng 350% lực phòng ngự, 200% Chính Xác và Bạo Kích. Hồi HP bằng 20% giới hạn HP, nếu lúc đó bản thân đã mất 50% HP trở lên, sẽ tăng 50% hiệu suất hồi phục. Mỗi hiệp có hiệu quả 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Gilgamesh",
+        "description": "Tăng thêm 200% Né và Tốc Độ cho bản thân, mỗi hiệp chỉ được phát động 1 lần."
+      }
+    },
+    {
+      "name": "Vua Châu Báu.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s6.png",
+      "description": "Skill trước hiệp: Tạo 350% ST ma công lên toàn thể phe địch và ST thực bằng 850% ST t.tính Gió, hồi tất cả HP đã mất. Tạo thêm x3 sát thương đối với kẻ địch có HP thấp nhất, khiến mục tiêu tụt máu (30% HP bản thân).",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Gilgamesh",
+        "description": "Bỏ qua hiệu quả Đứng Im, Choáng, Sợ Hãi, Băng Phong, Hóa Đá, Mê Hoặc, Hôn Mê, Chế Giễu, Tsukuyomi; Tạo x5 sát thương đối với kẻ địch có HP nhiều nhất."
+      }
+    },
+    {
+      "name": "Vua Pháo Hiệu.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s7.png",
+      "description": "Skill tử trận: Hồi sinh sau khi tử trận, hồi tất cả HP. Tạo 350% ST ma công lên toàn thể phe địch và ST thực bằng 850% ST t.tính Gió. Tối đa được hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Gilgamesh",
+        "description": "Tối đa được hồi sinh 3 lần. Kết liễu mục tiêu tấn công có HP dưới 10%."
+      }
+    },
+    {
+      "name": "Thiên Tỏa.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s4.png",
+      "description": "Skill trước trận: Tấn công toàn thể phe địch, tạo 350% ST ma công và ST thực bằng 850% ST t.tính Gió. Tăng phòng ngự toàn thuộc tính bằng 500% tấn công t.tính Gió lên toàn thể phe ta, kéo dài 5 hiệp. 50% tỉ lệ tạo Tsukuyomi lên kẻ địch, tạo thêm x5 sát thương lên kẻ địch bị Tsukuyomi hoặc trọng thương.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Gilgamesh",
+        "description": "Tăng vĩnh viễn 800% phòng ngự và phòng ngự thuộc tính cho bản thân. Tăng vĩnh viễn 79% miễn thương tổng thể cho bản thân."
+      }
+    },
+    {
+      "name": "Sao Toàn Năng.Thánh",
+      "icon": "/images/heroes/s_jinshanshan_s5.png",
+      "description": "Tấn công toàn thể phe địch, tạo 350% ST ma công và 950% ST t.tính Gió, 50% tỉ lệ tạo trọng thương lên kẻ địch, kéo dài 2 hiệp. 50% tỉ lệ khiến kẻ địch bị Tsukuyomi.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Gilgamesh",
+        "description": "Tỉ lệ trọng thương và Tsukuyomi tăng đến 70%, và có 50% tỉ lệ giảm 30% Né của mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Vua Anh Hùng: Khi cùng Hisoka và Kefla ra trận, Vật Công, Ma Công, HP+20% , Phòng Ngự, Tốc Độ+15%",
+    "Hỗn Độn: Khi cùng Namikaze Minato ra trận, Ma Công, HP và Tốc Độ+15% ",
+    "Trật Tự: Khi cùng Thanos ra trận, Ma Công, HP và Tốc Độ+15% ",
+    "Quyền Lợi: Khi cùng Mihawk ra trận, Ma Công, HP và Tốc Độ+15% "
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Gilgamesh: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Yagami Iori",
+      "icon": "/images/heroes/yagami-iori.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Gilgamesh",
+      "icon": "/images/heroes/gilgamesh.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Gilgamesh",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Lưới Trời.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s1.png",
+      "skillDesc": "Tỉ lệ Tsukuyomi biến thành 100%, nếu mục tiêu đã bị Tsukuyomi, sát thương tăng đến x3.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Gilgamesh",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Khai Tịch Trảm.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s2.png",
+      "skillDesc": "Tạo thêm x3 sát thương đối với mục tiêu có HP dưới 30%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Gilgamesh",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Vua Bảo Vệ.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s3.png",
+      "skillDesc": "Tăng thêm 200% Né và Tốc Độ cho bản thân, mỗi hiệp chỉ được phát động 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Gilgamesh",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Thiên Tỏa.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s4.png",
+      "skillDesc": "Tăng vĩnh viễn 800% phòng ngự và phòng ngự thuộc tính cho bản thân. Tăng vĩnh viễn 79% miễn thương tổng thể cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Gilgamesh",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Sao Toàn Năng.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s5.png",
+      "skillDesc": "Tỉ lệ trọng thương và Tsukuyomi tăng đến 70%, và có 50% tỉ lệ giảm 30% Né của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Gilgamesh",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Vua Châu Báu.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s6.png",
+      "skillDesc": "Bỏ qua hiệu quả Đứng Im, Choáng, Sợ Hãi, Băng Phong, Hóa Đá, Mê Hoặc, Hôn Mê, Chế Giễu, Tsukuyomi; Tạo x5 sát thương đối với kẻ địch có HP nhiều nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Gilgamesh",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Vua Pháo Hiệu.Thánh",
+      "skillIcon": "/images/heroes/s_jinshanshan_s7.png",
+      "skillDesc": "Tối đa được hồi sinh 3 lần. Kết liễu mục tiêu tấn công có HP dưới 10%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Thiên Tỏa.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_jinshanshan_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Sao Toàn Năng.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_jinshanshan_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/gilgamesh.png",
+          "slug": "gilgamesh"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "yusuke",
+  "slug": "yusuke",
+  "name": "Yusuke",
+  "title": "Vũ trụ nguyên tố • UR Yusuke",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/yusuke.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Yusuke",
+  "skills": [
+    {
+      "name": "Siêu· Linh hoàn Lv3",
+      "type": "active",
+      "description": "Phóng ra một linh hoàn khổng lồ. Tạo 350% sát thương ma pháp cho mục tiêu, nếu mục tiêu ở trạng thái choáng thì tạo thêm 100% sát thương ma pháp.",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Linh quang loạn đả Lv3",
+      "type": "ultimate",
+      "description": "Tạo 1 lần 120% sát thương ma pháp cho tập thể địch, đồng thời bỏ qua 350% phòng ngự của kẻ bị tấn công.",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Lôi Thiền nhập thể Lv3",
+      "type": "talent",
+      "description": "Sau khi chết tiến vào trạng thái ma hóa, ma công tăng 350%, xóa bỏ toàn bộ tác dụng phụ trên người, đồng thời tối đa miễn dịch sát thương 4 lần.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Biến thân: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Bậc thầy giác đấu: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với card2, card3 và card4",
+    "Yu Yu: Phòng ngự +20% khi ra trận cùng lúc với card2",
+    "Pháo lóe sáng: Ma công +20% khi ra trận cùng lúc với card2"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

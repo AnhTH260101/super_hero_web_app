@@ -1,0 +1,59 @@
+{
+  "id": "50e",
+  "slug": "50e",
+  "name": "50e血没输出",
+  "title": "Vũ trụ sức mạnh • UR 50e血没输出",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ sức mạnh",
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "赌圣",
+  "skills": [
+    {
+      "name": "测试技能3",
+      "type": "active",
+      "description": "测试技能3",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "测试技能3",
+      "type": "ultimate",
+      "description": "测试技能3",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "测试技能3",
+      "type": "talent",
+      "description": "测试技能3",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Phối hợp tốt với các đồng đội hệ Vũ trụ sức mạnh để kích hoạt hào quang chủng tộc."
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

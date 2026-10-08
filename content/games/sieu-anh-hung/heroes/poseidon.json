@@ -1,0 +1,576 @@
+{
+  "id": "6900",
+  "slug": "poseidon",
+  "name": "Poseidon",
+  "title": "Vũ trụ linh tính • SSR Poseidon",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/poseidon.png",
+  "fullArt": "/images/heroes/full/image_bosaidong.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh trai của Zeus, bá chủ đại dương, \"biển cả nổi giận sẽ nuốt tươi mọi thứ một cách một tình!\"",
+  "skills": [
+    {
+      "name": "Hải Long Xung Kích",
+      "icon": "/images/heroes/s_baoyu.png",
+      "description": "Tấn công kẻ địch có ma công cao nhất, tạo 350% sát thương ma pháp. Đồng thời tạo thêm 100% sát thương thuộc tính Thủy.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Poseidon",
+        "description": "Kĩ năng Tăng cường Hải Long Xung Kích：có thể xóa tất cả BUFF có lợi của đối phương"
+      }
+    },
+    {
+      "name": "Phòng Ngự Tuyệt Đối",
+      "icon": "/images/heroes/s_shandianfengbao.png",
+      "description": "Trong hiệp này giảm thương 350% cho đồng đội có HP thấp nhất, không chịu sát thường ngoài thuộc tính địa, có hiệu quả 2 lần.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Poseidon",
+        "description": "Kĩ năng Tăng cường Phòng Ngự Tuyệt Đối：phục hồi thêm 30% HP, có hiệu quả trong 3 hiệp đầu"
+      }
+    },
+    {
+      "name": "Phẫn Nộ Thần Biển",
+      "icon": "/images/heroes/s_quntidaji.png",
+      "description": "Kỹ năng trước trận, tạo 350% sát thương ma pháp cho toàn bộ phe địch, giảm 20% tấn công của kẻ địch có ma công cao nhất, đồng thời tăng 20% ma công cho bản thân, duy trì 5 hiệp, còn tạo thêm 100% sát thương thuộc tính Thủy.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Poseidon",
+        "description": "Kĩ năng Tăng cường Thần Biển Phẫn Nộ：giảm điểm tấn công tăng lên 30%, tăng điểm ma công đến 30%, kéo dài suốt trận."
+      }
+    },
+    {
+      "name": "Nước·Hải Thần",
+      "icon": "/images/heroes/s_hanbingzhiqiang.png",
+      "description": "Tăng effect tấn công thuộc tính nước",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền thuyết·Poseidon",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Quy Linh Bí Ấn",
+      "icon": "/images/heroes/s_jijiu.png",
+      "description": "Tử vong xong tạo hiệu quả suy yếu lên toàn bộ địch, tăng 30% ma công của nhân vật có điểm ma công cao nhất phe ta",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Poseidon",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thiên Mệnh: Khi ra trận cùng lúc với Hades và Athena thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
+    "Chư Thần Phẫn Nộ: Khi ra trận cùng lúc với Seya và Zeus thì ma công, HP và tốc độ +15%",
+    "Biển Cả Chào Mừng: Khi ra trận cùng lúc với Sách Chuyển Thế thì vật công, HP và tốc độ +15%",
+    "Bão Táp: Khi trang bị La Bàn Biển thì ma công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Poseidon",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Hải Long Xung Kích",
+      "skillIcon": "/images/heroes/s_baoyu.png",
+      "skillDesc": "Kĩ năng Tăng cường Hải Long Xung Kích：có thể xóa tất cả BUFF có lợi của đối phương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Poseidon",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Phòng Ngự Tuyệt Đối",
+      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillDesc": "Kĩ năng Tăng cường Phòng Ngự Tuyệt Đối：phục hồi thêm 30% HP, có hiệu quả trong 3 hiệp đầu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Poseidon",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Phẫn Nộ Thần Biển",
+      "skillIcon": "/images/heroes/s_quntidaji.png",
+      "skillDesc": "Kĩ năng Tăng cường Thần Biển Phẫn Nộ：giảm điểm tấn công tăng lên 30%, tăng điểm ma công đến 30%, kéo dài suốt trận.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền thuyết·Poseidon",
+      "tierName": "Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Nước·Hải Thần",
+      "skillIcon": "/images/heroes/s_hanbingzhiqiang.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Poseidon",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Quy Linh Bí Ấn",
+      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Poseidon",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Poseidon",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Poseidon",
+          "icon": "/images/heroes/poseidon.png",
+          "slug": "poseidon"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

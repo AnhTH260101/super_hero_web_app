@@ -1,0 +1,37 @@
+{
+  "id": "nguyen-luc-hon",
+  "slug": "nguyen-luc-hon",
+  "name": "Nguyên Lực Hồn",
+  "title": "Vũ trụ nguyên tố • UR Nguyên Lực Hồn",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ nguyên tố",
+  "rarity": "UR",
+  "role": "DPS Đơn",
+  "tier": "S+",
+  "overview": "Dùng để tiến hóa đồng đội Cam, tiến hóa +40 trở lên có thể dùng.",
+  "skills": [],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Phối hợp tốt với các đồng đội hệ Vũ trụ nguyên tố để kích hoạt hào quang chủng tộc."
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

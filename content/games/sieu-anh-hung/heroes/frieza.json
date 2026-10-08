@@ -1,0 +1,608 @@
+{
+  "id": "37600",
+  "slug": "frieza",
+  "name": "Frieza",
+  "title": "Vũ trụ linh tính • SSR Frieza",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/frieza.png",
+  "fullArt": "/images/heroes/full/image_Frieza.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thiên tài tuyệt thế, vừa ra đời đã có lực tấn công cực mạnh, đại đế mạnh nhất vũ trụ (tự xưng), bản chất thâm độc, nham hiểm, tàn ác và tráo trở.",
+  "skills": [
+    {
+      "name": "Tia Tử Thần",
+      "icon": "/images/heroes/s_Frieza_s1.png",
+      "description": "Tấn công 1 mục tiêu, tạo 350% ST ma pháp & 500% ST t.tính Lửa lên mục tiêu; Giảm 50% phòng ngự & phòng ngự t.tính Lửa, hiệu lực 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Frieza",
+        "description": "Giảm 80% Tốc Độ và Né của mục tiêu, hiệu lực 1 hiệp; Và có 80% tỉ lệ tăng 150% bạo kích cho bản thân, hiệu lực 2 hiệp."
+      }
+    },
+    {
+      "name": "Bom Tử Thần",
+      "icon": "/images/heroes/s_Frieza_s2.png",
+      "description": "Skill trước trận: Tấn công toàn thể mục tiêu địch, tạo 350% ST ma pháp & 300% ST t.tính Lửa, khiến 2 mục tiêu hôn mê, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Frieza",
+        "description": "Tăng 150% Né & Chính Xác cho bản thân, hiệu lực 2 hiệp; Tăng 600% phòng ngự & thuộc tính phòng ngự cho đồng đội dãy trước, hiệu lực 3 hiệp."
+      }
+    },
+    {
+      "name": "Bão Tử Thần",
+      "icon": "/images/heroes/s_Frieza_s3.png",
+      "description": "Ngẫu nhiên tấn công 1 hàng mục tiêu, tạo 350% ST ma pháp & 200% ST t.tính Lửa lên mục tiêu; khiến 1 mục tiêu không thể hồi HP trong 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Frieza",
+        "description": "Tạo thêm X3 ST và ST thuộc tính lên mục tiêu dãy trước; và có 80% tỉ lệ làm mù 1 mục tiêu, hiệu lực 1 hiệp."
+      }
+    },
+    {
+      "name": "Sao Băng Tử Thần",
+      "icon": "/images/heroes/s_Frieza_s6.png",
+      "description": "Skill trước hiệp: Tạo 350% ST ma pháp & 800% ST t.tính Lửa lên 3 mục tiêu; Hồi tất cả HP đã mất cho bản thân, tăng 79% giảm thương tổng thể, kéo dài 1 hiệp; Nếu năng lực hồi phục của mục tiêu có tăng hoặc giảm, sẽ chịu thêm X4 sát thương ma pháp & sát thương t.tính Lửa.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Frieza",
+        "description": "30% tỉ lệ tăng ST ma pháp & ST thuộc tính lên ST thực, bỏ qua buff Chế Giễu, Đứng Im, Sợ, Hóa Đá, Hôn Mê và Hỗn Loạn 1 hiệp; Thêm 1 tầng buff Vô Địch cho 2 đồng đội có HP thấp nhất, hiệu lực 1 lần."
+      }
+    },
+    {
+      "name": "Thức Tỉnh Hồi Sinh",
+      "icon": "/images/heroes/s_Frieza_s7.png",
+      "description": "Skill tử trận: Tăng 50% năng lực hồi phục của cả đội, hồi sinh biến hình thành Frieza hoàng kim, hồi tất cả HP cho bản thân, tăng vĩnh viễn 50% tấn công t.tính Lửa & toàn thuộc tính; Tăng 350% phòng ngự & thuộc tính phòng ngự, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Frieza",
+        "description": "Giảm 20% Vật & Ma Công và Né của toàn thể địch; Tăng 800k-2500k tấn công t.tính Lửa cho bản thân, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Bóng Giam Cầm",
+      "icon": "/images/heroes/s_Frieza_s4.png",
+      "description": "Skill phản đòn: Bị tấn công xong, 99% tỉ lệ phản đòn mục tiêu tấn công bản thân, tạo 350% ST ma pháp & 800% ST t.tính Lửa, và trói buộc mục tiêu tấn công mình, khiến mục tiêu mất đi năng lực hành động 1 hiệp; giảm 30%-50% Né của mục tiêu 1 hiệp, mỗi hiệp tối đa phát động 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Frieza",
+        "description": "80% tỉ lệ tạo thêm X4 ST phản đòn và ST thuộc tính, khiến 1 mục tiêu hôn mê, hiệu lực 1 lần; Tăng 50% Ma Công, hiệu lực 1 hiệp, không thể cộng dồn."
+      }
+    },
+    {
+      "name": "Bom Hủy Diệt",
+      "icon": "/images/heroes/s_Frieza_s5.png",
+      "description": "Tấn công toàn thể mục tiêu địch, tạo 350% ST ma pháp & 900% ST t.tính Lửa, khiến 1-2 mục tiêu hỗn loạn 1 hiệp, và tăng 10% năng lực hồi HP cho cả đội, kéo dài 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Frieza",
+        "description": "50% tỉ lệ kết liễu 1 mục tiêu, hoặc tạo thêm X3 ST và ST thuộc tính, có 50% tỉ lệ tăng thêm 40% năng lực hồi phục cho cả đội, giảm 50% Tốc Độ và Né của mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Vũ trụ mạnh nhất: Cùng Kil'jaeden và Ma Nhân ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Dũng mãnh vô song: Cùng Lữ Bố ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Vua phá hoại: Cùng Black ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Biến Hình!: Cùng Monkey D. Luffy ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-frieza",
+      "name": "CT-Frieza",
+      "avatar": "/images/heroes/ct-frieza.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thiên tài tuyệt thế, vừa ra đời đã có lực tấn công cực mạnh, đại đế mạnh nhất vũ trụ (tự xưng), bản chất thâm độc, nham hiểm, tàn ác và tráo trở."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Frieza",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tia Tử Thần",
+      "skillIcon": "/images/heroes/s_Frieza_s1.png",
+      "skillDesc": "Giảm 80% Tốc Độ và Né của mục tiêu, hiệu lực 1 hiệp; Và có 80% tỉ lệ tăng 150% bạo kích cho bản thân, hiệu lực 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Frieza",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bom Tử Thần",
+      "skillIcon": "/images/heroes/s_Frieza_s2.png",
+      "skillDesc": "Tăng 150% Né & Chính Xác cho bản thân, hiệu lực 2 hiệp; Tăng 600% phòng ngự & thuộc tính phòng ngự cho đồng đội dãy trước, hiệu lực 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ảo Ảnh",
+          "icon": "/images/heroes/ao-anh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Frieza",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Bão Tử Thần",
+      "skillIcon": "/images/heroes/s_Frieza_s3.png",
+      "skillDesc": "Tạo thêm X3 ST và ST thuộc tính lên mục tiêu dãy trước; và có 80% tỉ lệ làm mù 1 mục tiêu, hiệu lực 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Frieza",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Bóng Giam Cầm",
+      "skillIcon": "/images/heroes/s_Frieza_s4.png",
+      "skillDesc": "80% tỉ lệ tạo thêm X4 ST phản đòn và ST thuộc tính, khiến 1 mục tiêu hôn mê, hiệu lực 1 lần; Tăng 50% Ma Công, hiệu lực 1 hiệp, không thể cộng dồn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Frieza",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bom Hủy Diệt",
+      "skillIcon": "/images/heroes/s_Frieza_s5.png",
+      "skillDesc": "50% tỉ lệ kết liễu 1 mục tiêu, hoặc tạo thêm X3 ST và ST thuộc tính, có 50% tỉ lệ tăng thêm 40% năng lực hồi phục cho cả đội, giảm 50% Tốc Độ và Né của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Frieza",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Sao Băng Tử Thần",
+      "skillIcon": "/images/heroes/s_Frieza_s6.png",
+      "skillDesc": "30% tỉ lệ tăng ST ma pháp & ST thuộc tính lên ST thực, bỏ qua buff Chế Giễu, Đứng Im, Sợ, Hóa Đá, Hôn Mê và Hỗn Loạn 1 hiệp; Thêm 1 tầng buff Vô Địch cho 2 đồng đội có HP thấp nhất, hiệu lực 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Frieza",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thức Tỉnh Hồi Sinh",
+      "skillIcon": "/images/heroes/s_Frieza_s7.png",
+      "skillDesc": "Giảm 20% Vật & Ma Công và Né của toàn thể địch; Tăng 800k-2500k tấn công t.tính Lửa cho bản thân, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Bóng Giam Cầm",
+      "unlockedSkillIcon": "/images/heroes/s_Frieza_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Bom Hủy Diệt",
+      "unlockedSkillIcon": "/images/heroes/s_Frieza_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "slug": "frieza"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

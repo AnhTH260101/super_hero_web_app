@@ -1,0 +1,707 @@
+{
+  "id": "81200",
+  "slug": "kakarot",
+  "name": "Kakarot",
+  "title": "Vũ trụ linh tính • UR Kakarot",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kakarot.png",
+  "fullArt": "/images/heroes/full/image_XWukong2.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Người Saiyan đến từ hành tinh Vegeta, lúc bé được đưa đến Trái Đất với thân phận là \"Chiến Sĩ Hạ Cấp\", và được nhà võ thuật Songohan nhận nuôi. Bởi vì mất khống chế biến thành King Kong đạp chết Songohan nên sau đó sống một mình trong núi sâu. Sau khi quen Bulma thì bước lên hành trình đi tìm Ngọc Rồng. Có ước mơ không ngừng trở nên mạnh mẽ,luôn khắc khổ tu luyện để có được sức mạnh lớn hơn.",
+  "skills": [
+    {
+      "name": "Đạn Khí",
+      "icon": "/images/heroes/s_XWukong2_s1.png",
+      "description": "Gây ra 350% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kakarot",
+        "description": "Khiến Né Tránh của tất cả kẻ địch biến về 0, giảm 100% tốc độ của tất cả kẻ địch, kéo dài 1 lượt."
+      },
+      "badge": {
+        "level": 1,
+        "description": "Đột phá tiềm lực: (Đạn Khí) Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Cảm Thụ Khí",
+      "icon": "/images/heroes/s_XWukong2_s2.png",
+      "description": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Kỹ năng trước khi bị tấn công: Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu; có được một tầng \"Hộ Giá\".",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kakarot",
+        "description": "Có thể kích hoạt 3 lần, cho bản thân Vô Địch 1 lượt"
+      },
+      "badge": {
+        "level": 2,
+        "description": "Đột phá tiềm lực: (Cảm Thụ Khí) Nhận 1 tầng \"Ngộ\""
+      }
+    },
+    {
+      "name": "Đạn Khí Liên Kích",
+      "icon": "/images/heroes/s_XWukong2_s3.png",
+      "description": "Kỹ năng phản kích: Gây ra 350% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kakarot",
+        "description": "Trầm Mặc mục tiêu"
+      },
+      "badge": {
+        "level": 1,
+        "description": "Đột phá tiềm lực: (Đạn Khí) Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Kích Hoạt Tiềm Lực",
+      "icon": "/images/heroes/s_XWukong2_s6.png",
+      "description": "Kỹ năng Tử Vong: Hồi phục toàn bộ HP. Tối đa có thể Hồi Sinh 2 lần.Diệt ngay ngẫu nhiên 1 kẻ địch.Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kakarot",
+        "description": "Số lần Hồi Sinh tăng lên đến 3. Khi Hồi Sinh bằng kĩ năng này sẽ nhận được 1 tầng hiệu quả \"Không\", KHÔNG: mỗi tầng cho hiệu quả 25% Mệt Mỏi；Nếu sử dụng skin \"Songoku Siêu Xayda 3\": \"Không\" không cho hiệu ứng “Mệt Mỏi\" nữa, số lần Hồi Sinh tăng lên thành 4, ST truy kích tăng lên đến 60% HP tối đa."
+      },
+      "badge": {
+        "level": 6,
+        "description": "Đột phá tiềm lực: (Kích Hoạt Tiềm Lực) Bỏ qua Trọng Thương"
+      }
+    },
+    {
+      "name": "Kamekameha",
+      "icon": "/images/heroes/s_XWukong2_s7.png",
+      "description": "Kỹ năng trước khi chiến đấu: Tăng 230% HP bản thân/ 79% giảm thương, 500% Trúng Đích và Né Tránh. Gây ra ST bằng 40% HP tối đa của bản thân.Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kakarot",
+        "description": "Vĩnh viễn miễn dịch Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phóng kỹ năng Tử Vong và Diệt Ngay; cho bản thân 1 tầng Thần Ngự.Giảm HP tối đa của kẻ địch thành 50% HP tối đa hiện tại"
+      },
+      "badge": {
+        "level": 7,
+        "description": "Đột phá tiềm lực: (Kamekameha) Cho bản thân 1 tầng Thần Ngự."
+      }
+    },
+    {
+      "name": "Ki Blast",
+      "icon": "/images/heroes/s_XWukong2_s4.png",
+      "description": "Hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương), gây ra 350% ST vật lý và 850% ST thuộc tính Hỏa cho toàn phe địch",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Kakarot",
+        "description": "Trói Buộc mục tiêu 1 lượt"
+      },
+      "badge": {
+        "level": 4,
+        "description": "Đột phá tiềm lực: (Ki Blast) Gây ra thêm ST thực bằng 50% HP"
+      }
+    },
+    {
+      "name": "Đạn Nguyên Khí",
+      "icon": "/images/heroes/s_XWukong2_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Tăng Trúng Đích của bản thân lên đến 100, nhận 1 tầng \"Không\", gây ra 350% ST vật lý thêm ST thực bằng số tầng \"Không\" x 10% HP tối đa.Nhiều nhất được chồng 10 tầng \"Không\".Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Gây ra thêm ST thực bằng 1500% tấn công thuộc tính hoả.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kakarot",
+        "description": "Nếu Piccolo có trong trận, sẽ luôn xem như có 10 tầng \"Không\". Nếu bản thân có 3 tầng \"Không\" thì ST sẽ tăng gấp bội so với max HP"
+      },
+      "badge": {
+        "level": 5,
+        "description": "Đột phá tiềm lực: (Đạn nguyên khí) \"Ngộ\" luôn có 10 tầng. Nếu bản thân đã có 3 tầng \"Không\" thì được tăng gấp bội ST bằng HP tối đa"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Người Saiyan: Khi xuất hiện cùng lúc với Broli và Shirakami Goku Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Tình Nghĩa: Khi xuất hiện cùng lúc với Piccolo Vật Công, HP và Tốc Độ+15%",
+    "Bất Diệt: Khi xuất hiện cùng lúc với Luffy Gear 4 Vật Công, HP và Tốc Độ+15%",
+    "Võ Si: Khi xuất hiện cùng lúc với Kamado Tanjiro Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Songoku: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Shirakami Goku",
+      "icon": "/images/heroes/shirakami-goku.png",
+      "amount": 4,
+      "type": "hero"
+    },
+    {
+      "name": "Songoku",
+      "icon": "/images/heroes/songoku.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kakarot",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đạn Khí",
+      "skillIcon": "/images/heroes/s_XWukong2_s1.png",
+      "skillDesc": "Khiến Né Tránh của tất cả kẻ địch biến về 0, giảm 100% tốc độ của tất cả kẻ địch, kéo dài 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kakarot",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cảm Thụ Khí",
+      "skillIcon": "/images/heroes/s_XWukong2_s2.png",
+      "skillDesc": "Có thể kích hoạt 3 lần, cho bản thân Vô Địch 1 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Shirakami Goku",
+          "icon": "/images/heroes/shirakami-goku.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kakarot",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đạn Khí Liên Kích",
+      "skillIcon": "/images/heroes/s_XWukong2_s3.png",
+      "skillDesc": "Trầm Mặc mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Kakarot",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Ki Blast",
+      "skillIcon": "/images/heroes/s_XWukong2_s4.png",
+      "skillDesc": "Trói Buộc mục tiêu 1 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shirakami Goku",
+          "icon": "/images/heroes/shirakami-goku.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kakarot",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Đạn Nguyên Khí",
+      "skillIcon": "/images/heroes/s_XWukong2_s5.png",
+      "skillDesc": "Nếu Piccolo có trong trận, sẽ luôn xem như có 10 tầng \"Không\". Nếu bản thân có 3 tầng \"Không\" thì ST sẽ tăng gấp bội so với max HP",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kakarot",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kích Hoạt Tiềm Lực",
+      "skillIcon": "/images/heroes/s_XWukong2_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tăng lên đến 3. Khi Hồi Sinh bằng kĩ năng này sẽ nhận được 1 tầng hiệu quả \"Không\", KHÔNG: mỗi tầng cho hiệu quả 25% Mệt Mỏi；Nếu sử dụng skin \"Songoku Siêu Xayda 3\": \"Không\" không cho hiệu ứng “Mệt Mỏi\" nữa, số lần Hồi Sinh tăng lên thành 4, ST truy kích tăng lên đến 60% HP tối đa.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kakarot",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kamekameha",
+      "skillIcon": "/images/heroes/s_XWukong2_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phóng kỹ năng Tử Vong và Diệt Ngay; cho bản thân 1 tầng Thần Ngự.Giảm HP tối đa của kẻ địch thành 50% HP tối đa hiện tại",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Ki Blast",
+      "unlockedSkillIcon": "/images/heroes/s_XWukong2_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Đạn Nguyên Khí",
+      "unlockedSkillIcon": "/images/heroes/s_XWukong2_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Songoku",
+          "icon": "/images/heroes/songoku.png",
+          "slug": "songoku"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

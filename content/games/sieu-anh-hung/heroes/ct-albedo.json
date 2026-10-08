@@ -1,0 +1,679 @@
+{
+  "id": "79400",
+  "slug": "ct-albedo",
+  "name": "CT-Albedo",
+  "title": "Vũ trụ linh tính • UR CT-Albedo",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-albedo.png",
+  "fullArt": "/images/heroes/full/image_yaerbeide.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Albedo, ngoại hình như ác ma, NPC mà Tabula Smaragdina tạo ra, chức vụ là tổng quản người bảo vệ đại lăng tẩm của Nazarick dưới lòng đất.",
+  "skills": [
+    {
+      "name": "Sát Khí",
+      "icon": "/images/heroes/s_yaerbeide_s1.png",
+      "description": "Skill phản đòn: Tạo lên toàn thể phe địch 350% ST Ma Pháp và 500% ST thuộc tính Đất. Có 50% tỉ lệ khiến mục tiêu hỗn loạn, tạo x3 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Albedo",
+        "description": "Giảm tất cả công và phòng ngự thuộc tính của mục tiêu xuống 0 điểm, hiệu lực kéo dài trong 1 lượt."
+      }
+    },
+    {
+      "name": "Ác Ma",
+      "icon": "/images/heroes/s_yaerbeide_s2.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Ma Pháp và 300% ST thuộc tính Đất, giảm 100% Phòng Ngự thuộc tính Lửa và Phòng Ngự thuộc tính Đất của mục tiêu, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Albedo",
+        "description": "Gây 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu ít nhất và nhiều nhất."
+      }
+    },
+    {
+      "name": "Lời Đồn",
+      "icon": "/images/heroes/s_yaerbeide_s3.png",
+      "description": "Skill trước khi bị đánh: Tạo lên toàn thể phe địch 350% ST Ma Pháp và 300% ST thuộc tính Đất, hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương), có 50% tỉ lệ giảm 100% Trúng của mục tiêu, tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Albedo",
+        "description": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, thêm một lớp hiệu ứng bất tử cho bản thân, số lần kích hoạt mỗi lượt là 3 lần."
+      }
+    },
+    {
+      "name": "Ác Ma Thuần Khiết",
+      "icon": "/images/heroes/s_yaerbeide_s6.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Pháp và 900% ST thực thuộc tính Đất, tạo lên mục tiêu ST bổ sung và ST thuộc tính bằng 800% SPEED của bản thân, và có 50% tỉ lệ khiến mục tiêu hỗn loạn.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Albedo",
+        "description": "Gây thêm 4-6 lần sát thương và sát thương thuộc tính, và có 50% cơ hội gây thêm một lần sát thương nữa."
+      }
+    },
+    {
+      "name": "Kỵ Sĩ Bóng Tối",
+      "icon": "/images/heroes/s_yaerbeide_s7.png",
+      "description": "Skill trước trận: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Pháp và 800% ST thực thuộc tính Đất, tăng 79% giảm thương tổng thể của bản thân, tăng 350% tấn công thuộc tính Đất của bản thân, tăng Phòng Ngự toàn thuộc tính của bằng 800% SPEED bản thân, vĩnh viễn tăng 800% Né, tạo thêm x4-6 ST và ST thuộc tính, khiến 1 mục tiêu bất kỳ không thể thả skill tử vong.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Albedo",
+        "description": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ. Có 50% cơ hội làm giảm một lần kỹ năng tử vong và số lần hồi sinh của mục tiêu (nếu có Ainz, tỷ lệ tăng lên 70%), tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu."
+      }
+    },
+    {
+      "name": "Truyền Phát",
+      "icon": "/images/heroes/s_yaerbeide_s4.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Ma Pháp và 800% ST thuộc tính Đất, tạo x4-6 ST và ST thuộc tính, tạo hỗn loạn lên tất cả kẻ địch.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Albedo",
+        "description": "Tùy vào số lượng đối thủ, gây ra hiệu ứng khác nhau:1.Nếu số lượng đối thủ từ 4 đến 5, gây thêm 5 lần sát thương và sát thương thuộc tính.2.Nếu số lượng đối thủ từ 1 đến 3, gây thêm 7 lần sát thương."
+      }
+    },
+    {
+      "name": "Triệu Hồi Kỵ Thú",
+      "icon": "/images/heroes/s_yaerbeide_s5.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Ma Pháp và 900% ST thuộc tính Đất, tạo hiệu quả tụt máu lên tất cả mục tiêu, mỗi hiệp tạo ST thực bằng 500% tấn công thuộc tính Đất và 30% HP bản thân, kéo dài 2 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Albedo",
+        "description": "Nếu có 4~5 kẻ địch, gây thêm 5 lần sát thương và sát thương thuộc tính lên mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ác Ma: Khi xuất hiện cùng lúc với Tsunade và Akame Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Tổng Quản: Khi xuất hiện cùng lúc với Overlord Ma Công, HP và Tốc Độ+15%",
+    "Năng Lực Quân Sự: Khi xuất hiện cùng lúc với Hisoka Ma Công, HP và Tốc Độ+15%",
+    "Người Bảo Vệ: Khi xuất hiện cùng lúc với Tachibana Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Albedo: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Mai Shiranui",
+      "icon": "/images/heroes/mai-shiranui.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Albedo",
+      "icon": "/images/heroes/albedo.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Albedo",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sát Khí",
+      "skillIcon": "/images/heroes/s_yaerbeide_s1.png",
+      "skillDesc": "Giảm tất cả công và phòng ngự thuộc tính của mục tiêu xuống 0 điểm, hiệu lực kéo dài trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Albedo",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ác Ma",
+      "skillIcon": "/images/heroes/s_yaerbeide_s2.png",
+      "skillDesc": "Gây 3 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu ít nhất và nhiều nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Albedo",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Lời Đồn",
+      "skillIcon": "/images/heroes/s_yaerbeide_s3.png",
+      "skillDesc": "Gây sát thương thực tế tương đương 30% lượng máu tối đa của bản thân lên kẻ địch, thêm một lớp hiệu ứng bất tử cho bản thân, số lần kích hoạt mỗi lượt là 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Albedo",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Truyền Phát",
+      "skillIcon": "/images/heroes/s_yaerbeide_s4.png",
+      "skillDesc": "Tùy vào số lượng đối thủ, gây ra hiệu ứng khác nhau:1.Nếu số lượng đối thủ từ 4 đến 5, gây thêm 5 lần sát thương và sát thương thuộc tính.2.Nếu số lượng đối thủ từ 1 đến 3, gây thêm 7 lần sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Albedo",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Triệu Hồi Kỵ Thú",
+      "skillIcon": "/images/heroes/s_yaerbeide_s5.png",
+      "skillDesc": "Nếu có 4~5 kẻ địch, gây thêm 5 lần sát thương và sát thương thuộc tính lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Albedo",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Ác Ma Thuần Khiết",
+      "skillIcon": "/images/heroes/s_yaerbeide_s6.png",
+      "skillDesc": "Gây thêm 4-6 lần sát thương và sát thương thuộc tính, và có 50% cơ hội gây thêm một lần sát thương nữa.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Albedo",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỵ Sĩ Bóng Tối",
+      "skillIcon": "/images/heroes/s_yaerbeide_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ. Có 50% cơ hội làm giảm một lần kỹ năng tử vong và số lần hồi sinh của mục tiêu (nếu có Ainz, tỷ lệ tăng lên 70%), tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Truyền Phát",
+      "unlockedSkillIcon": "/images/heroes/s_yaerbeide_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Triệu Hồi Kỵ Thú",
+      "unlockedSkillIcon": "/images/heroes/s_yaerbeide_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Albedo",
+          "icon": "/images/heroes/albedo.png",
+          "slug": "albedo"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

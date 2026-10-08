@@ -1,0 +1,602 @@
+{
+  "id": "34600",
+  "slug": "ma-nhan",
+  "name": "Ma Nhân",
+  "title": "Zombie Bentu • SSR Ma Nhân",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ma-nhan.png",
+  "fullArt": "/images/heroes/full/image_morenbuou.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Lực chiến có khả năng xé nát mọi thứ",
+  "skills": [
+    {
+      "name": "Sừng Ma Pháp",
+      "icon": "/images/heroes/s_mr_mfcj.png",
+      "description": "Chuyển hóa tấn công thuộc tính Lửa thành thuộc tính Gió, tạo 350% sát thương ma pháp và 160% sát thương thuộc tính Gió lên tất cả địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Ma Nhân",
+        "description": "Làm mục tiêu mặc định dãy sau đứng im 1 hiệp, không thể bị xóa, hiệp sau có hiệu lực. Có 50% tỉ lệ giảm tốc toàn thể địch, 2 hiệp."
+      }
+    },
+    {
+      "name": "Cuồng Ma",
+      "icon": "/images/heroes/s_mr_zdkm.png",
+      "description": "Mỗi lần bị tấn công đều hút EXP chiến đấu để tăng 350% phòng ngự và tốc độ bản thân, tối đa cộng dồn 3 tầng.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Ma Nhân",
+        "description": "Tăng thêm 70% phòng ngự thuộc tính của bản thân, tối đa cộng dồn 3 lần."
+      }
+    },
+    {
+      "name": "Bom Thịt",
+      "icon": "/images/heroes/s_mr_rqzd.png",
+      "description": "Chuyển hóa tấn công thuộc tính Lửa thành thuộc tính Đất, tạo 350% sát thương ma pháp và 130% sát thương thuộc tính Đất lên cơ thể địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Ma Nhân",
+        "description": "Làm mục tiêu dãy sau hoảng sợ 1 hiệp, không thể bị xóa."
+      }
+    },
+    {
+      "name": "Loạn Xạ",
+      "icon": "/images/heroes/s_mr_wjsl.png",
+      "description": "KN trước trận: Nhân đôi tấn công thuộc tính Lửa, tạo 350% sát thương ma pháp lên toàn thể địch, tạo thêm 650% sát thương thuộc tính Lửa và 100% sát thương vật lý, bản thân thêm 1 tầng \"Vầng Sáng Tàn Sát\" vĩnh viễn (không thể xóa), tăng 150% tốc độ (2 hiệp), tăng 60% giảm thương toàn thể (3 hiệp).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Ma Nhân",
+        "description": "Chỉ cần còn 1 tế bào sẽ hồi tất cả HP, từ đó hồi phục cơ thể hoàn chỉnh. Xóa buff xấu (có thể xóa) của bản thân"
+      }
+    },
+    {
+      "name": "Bom Ma Thuật",
+      "icon": "/images/heroes/s_mr_rqzd.png",
+      "description": "KN tử trận: Tạo 350% sát thương ma pháp và 600% sát thương thuộc tính Lửa lên toàn thể địch, xóa buff tốt (có thể xóa) của toàn thể mục tiêu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Ma Nhân",
+        "description": "Chuyển 50% vật công và ma công thành tấn công thuộc tính Nước"
+      }
+    },
+    {
+      "name": "Bất Tử",
+      "icon": "/images/heroes/s_mr_bsmr.png",
+      "description": "Trước hiệp sẽ xóa những buff xấu có thể xóa của bản thân, hồi HP bằng 350% HP tối đa của đồng đội.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Ma Nhân",
+        "description": "Chỉ cần còn 1 tế bào sẽ hồi tất cả HP, từ đó hồi phục cơ thể hoàn chỉnh. Xóa buff xấu (có thể xóa) của bản thân"
+      }
+    },
+    {
+      "name": "Tàn Sát",
+      "icon": "/images/heroes/s_mr_wjsl.png",
+      "description": "Chuyển tấn công thuộc tính Lửa thành thuộc tính Nước, tạo 350% sát thương ma pháp lên tất cả địch, tạo thêm 550% sát thương thuộc tính Nước, nếu đeo \"Vầng Sáng Tàn Sát\" sẽ X2 sát thương cuối và sát thương thuộc tính.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Ma Nhân",
+        "description": "Chuyển 50% vật công và ma công thành tấn công thuộc tính Nước"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hiếu Chiến: Khi cùng Vehito ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Máy Bay Viện Trợ: Khi cùng Thunderbird và Mei ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Nửa Chính Nửa Tà: Khi cùng Lich King và Kaneki ra trận thì Vật Công, HP, Tốc Độ+15%",
+    "Kẻ Phản Diện: Khi cùng Loki ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-ma-nhan",
+      "name": "CT-Ma Nhân",
+      "avatar": "/images/heroes/ct-ma-nhan.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Lực chiến có khả năng xé nát mọi thứ"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Ma Nhân",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sừng Ma Pháp",
+      "skillIcon": "/images/heroes/s_mr_mfcj.png",
+      "skillDesc": "Làm mục tiêu mặc định dãy sau đứng im 1 hiệp, không thể bị xóa, hiệp sau có hiệu lực. Có 50% tỉ lệ giảm tốc toàn thể địch, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Ma Nhân",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cuồng Ma",
+      "skillIcon": "/images/heroes/s_mr_zdkm.png",
+      "skillDesc": "Tăng thêm 70% phòng ngự thuộc tính của bản thân, tối đa cộng dồn 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Ma Nhân",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Bom Thịt",
+      "skillIcon": "/images/heroes/s_mr_rqzd.png",
+      "skillDesc": "Làm mục tiêu dãy sau hoảng sợ 1 hiệp, không thể bị xóa.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Ma Nhân",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Loạn Xạ",
+      "skillIcon": "/images/heroes/s_mr_wjsl.png",
+      "skillDesc": "Chỉ cần còn 1 tế bào sẽ hồi tất cả HP, từ đó hồi phục cơ thể hoàn chỉnh. Xóa buff xấu (có thể xóa) của bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Vehito",
+          "icon": "/images/heroes/vehito.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Ma Nhân",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bom Ma Thuật",
+      "skillIcon": "/images/heroes/s_mr_rqzd.png",
+      "skillDesc": "Chuyển 50% vật công và ma công thành tấn công thuộc tính Nước",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Ma Nhân",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Bất Tử",
+      "skillIcon": "/images/heroes/s_mr_bsmr.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Ma Nhân",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Tàn Sát",
+      "skillIcon": "/images/heroes/s_mr_wjsl.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": "Bất Tử",
+      "unlockedSkillIcon": "/images/heroes/s_mr_bsmr.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": "Tàn Sát",
+      "unlockedSkillIcon": "/images/heroes/s_mr_wjsl.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Ma Nhân",
+          "icon": "/images/heroes/ma-nhan.png",
+          "slug": "ma-nhan"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

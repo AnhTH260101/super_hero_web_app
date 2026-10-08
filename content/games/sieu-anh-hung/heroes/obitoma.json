@@ -1,0 +1,679 @@
+{
+  "id": "78100",
+  "slug": "obitoma",
+  "name": "Obito.Ma",
+  "title": "Vũ trụ linh tính • UR Obito.Ma",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/obitoma.png",
+  "fullArt": "/images/heroes/full/image_yuzhibodaitu1.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Thành viên của tộc Uchiha trong Mộc Diệp Thôn ở Hỏa Quốc, sở trường sử dụng nhẫn thuật thời gian không gian.",
+  "skills": [
+    {
+      "name": "Thủ Kiếm Thần Uy.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s1.png",
+      "description": "Tạo 350% ST ma công và 550% ST t.tính Lửa lên 3~5 kẻ địch ngẫu nhiên, khiến mục tiêu trọng thương, tạo x3 ST và ST t.tính.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Obito.Ma",
+        "description": "Nếu mục tiêu đã bị trói buộc khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Độn Âm Dương.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s2.png",
+      "description": "Tạo 350% ST ma công và 350% ST t.tính Lửa lên toàn thể phe địch, khiến mục tiêu bị trói buộc hoặc trọng thương, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Obito.Ma",
+        "description": "Tạo x3 ST và ST thuộc tính, nếu mục tiêu đã bị Trói Buộc thì tạo thêm x3 ST."
+      }
+    },
+    {
+      "name": "Loạn Địa Ngục.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s3.png",
+      "description": "Skill trước khi bị đánh: Tạo 350% ST ma công và ST thực bằng 250% ST t.tính Lửa lên toàn thể phe địch, hồi toàn bộ trị số HP cho bản thân, tăng 350% phòng ngự và phòng ngự t.tính cho bản thân, tối đa cộng dồn 5 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Obito.Ma",
+        "description": "50% tỉ lệ kết liễu 1 mục tiêu, tạo x3 ST và ST t.tính, số lần kích hoạt mỗi hiệp biến thành 3 lần."
+      }
+    },
+    {
+      "name": "Thần Uy.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s6.png",
+      "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành ma công, tạo 350% ST ma pháp và 850% ST thực t.tính Lửa lên toàn thể phe địch, 50% tỉ lệ khiến mục tiêu bị trói buộc, tạo hiệu quả cháy lên tất cả các mục tiêu, mỗi hiệp tạo ST thực bằng 350% tấn công t.tính Lửa và 30% HP của bản thân, kéo dài 2 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Obito.Ma",
+        "description": "Trong hiệp này giảm 100% tấn công thuộc tính, Phòng Ngự và Né của phe địch (Sinh hiệu quả trong lần tấn công này), tạo thêm x4-6 ST và ST t.tính."
+      }
+    },
+    {
+      "name": "Vạn Hoa Đồng Tả Luân Nhãn.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s7.png",
+      "description": "Skill tử trận: Hồi tất cả HP. Tạo 350% ST ma công và 850% ST thực t.tính Lửa lên toàn thể phe địch, được hồi sinh tối đa 2 lần, khiến mục tiêu trọng thương, kéo dài 2 hiệp(có hiệu lực trong hiệp này).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Obito.Ma",
+        "description": "Tối đa được hồi sinh 3 lần. Kết liễu mục tiêu tấn công có HP dưới 20%, trong hiệp này Ma & Vật Công của toàn thể phe địch và tấn công toàn thuộc tính giảm 100%"
+      }
+    },
+    {
+      "name": "Izanagi.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s4.png",
+      "description": "Skill trước trận: Tạo 350% ST ma công và ST thực bằng 850% ST t.tính Lửa lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể cho bản thân và 800% phòng ngự toàn thuộc tính của bản thân, vĩnh viễn tăng 350% tấn công t.tính Lửa cho bản thân, vĩnh viễn tăng 200% Né và Tốc Độ.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Obito.Ma",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Sau mỗi lần hành động sẽ khiến bản thân tạo thêm ST thực bằng 30% trị số HP của bản thân lên mục tiêu địch."
+      }
+    },
+    {
+      "name": "Quạt Lửa.Nhẫn",
+      "icon": "/images/heroes/s_yuzhibodaitu1_s5.png",
+      "description": "Tạo 350% ST ma công và 950% ST t.tính Lửa lên toàn thể phe địch, giảm 33% tấn công tổng thể của toàn thể phe địch, tạo x3 ST và ST t.tính, 50% tỉ lệ kết liễu ngẫu nhiên 1 mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Obito.Ma",
+        "description": "Giảm 50% Trúng, Né, Bạo Kích của kẻ tấn công, kéo dài 2 hiệp. Tăng 200% Trúng cho bản thân."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hiểu: Khi ra trận cùng lúc với Vlad III và Namikaze Minato, vật công, ma công, chính xác +20%, phòng ngự, tốc độ +15%",
+    "Tín Ngưỡng: Khi ra trận cùng lúc với Madara, ma công, HP và tốc độ +15%",
+    "Tổ Chức: Khi ra trận cùng lúc với Hashirama, ma công, HP và tốc độ +15%",
+    "Sharingan: Khi ra trận cùng lúc với Hatake, ma công, HP và tốc độ +15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Uchiha Obito: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Madara",
+      "icon": "/images/heroes/madara.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Uchiha Obito",
+      "icon": "/images/heroes/uchiha-obito.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Obito.Ma",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thủ Kiếm Thần Uy.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s1.png",
+      "skillDesc": "Nếu mục tiêu đã bị trói buộc khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Obito.Ma",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Độn Âm Dương.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s2.png",
+      "skillDesc": "Tạo x3 ST và ST thuộc tính, nếu mục tiêu đã bị Trói Buộc thì tạo thêm x3 ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Madara",
+          "icon": "/images/heroes/madara.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Obito.Ma",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Loạn Địa Ngục.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s3.png",
+      "skillDesc": "50% tỉ lệ kết liễu 1 mục tiêu, tạo x3 ST và ST t.tính, số lần kích hoạt mỗi hiệp biến thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Obito.Ma",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Izanagi.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s4.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Sau mỗi lần hành động sẽ khiến bản thân tạo thêm ST thực bằng 30% trị số HP của bản thân lên mục tiêu địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Madara",
+          "icon": "/images/heroes/madara.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Obito.Ma",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Quạt Lửa.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s5.png",
+      "skillDesc": "Giảm 50% Trúng, Né, Bạo Kích của kẻ tấn công, kéo dài 2 hiệp. Tăng 200% Trúng cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Obito.Ma",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Thần Uy.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s6.png",
+      "skillDesc": "Trong hiệp này giảm 100% tấn công thuộc tính, Phòng Ngự và Né của phe địch (Sinh hiệu quả trong lần tấn công này), tạo thêm x4-6 ST và ST t.tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Obito.Ma",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Vạn Hoa Đồng Tả Luân Nhãn.Nhẫn",
+      "skillIcon": "/images/heroes/s_yuzhibodaitu1_s7.png",
+      "skillDesc": "Tối đa được hồi sinh 3 lần. Kết liễu mục tiêu tấn công có HP dưới 20%, trong hiệp này Ma & Vật Công của toàn thể phe địch và tấn công toàn thuộc tính giảm 100%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Izanagi.Nhẫn",
+      "unlockedSkillIcon": "/images/heroes/s_yuzhibodaitu1_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Quạt Lửa.Nhẫn",
+      "unlockedSkillIcon": "/images/heroes/s_yuzhibodaitu1_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Uchiha Obito",
+          "icon": "/images/heroes/uchiha-obito.png",
+          "slug": "uchiha-obito"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

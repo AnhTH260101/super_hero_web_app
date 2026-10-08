@@ -1,0 +1,580 @@
+{
+  "id": "34200",
+  "slug": "soi-trang",
+  "name": "Sói Trắng",
+  "title": "Zombie Bentu • SSR Sói Trắng",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/soi-trang.png",
+  "fullArt": "/images/heroes/full/image_banzang.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là một bậc thầy tiễn thuật và nhẫn thuật, Sói Trắng luôn theo đuổi tài nghệ hoàn mỹ để chứng minh bản thân là võ sĩ mạnh nhất",
+  "skills": [
+    {
+      "name": "Gió",
+      "icon": "/images/heroes/s_banzang_hurt.png",
+      "description": "Tạo 350% sát thương vật lý lên hàng sau đối phương và tạo buff Tụt Máu trong 2 hiệp, tạo thêm 160% sát thương thuộc tính Gió",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Sói Trắng",
+        "description": "Chuyển 1.5 lần tấn công ma pháp thành tấn công thuộc tính Gió cho mình, tạo sát thương vật lý gấp 1.5 lên dãy sau địch"
+      }
+    },
+    {
+      "name": "Tản",
+      "icon": "/images/heroes/s_banzang_injure.png",
+      "description": "Tăng 350% giảm thương và toàn thuộc tính cho mình trước hiệp, xóa buff xấu: Giảm thuộc tính, tụt máu và choáng…, miễn dịch 1 lần choáng từ địch, tăng 50% tốc độ cho tất cả đồng đội trong 2 hiệp. Có hiệu lực từ hiệp sau, HQ ko thể xóa",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Sói Trắng",
+        "description": "Hồi HP bằng 25% điểm HP tối đa của mình, tăng thêm 20% giảm thương và toàn thuộc tính"
+      }
+    },
+    {
+      "name": "Rồng",
+      "icon": "/images/heroes/s_banzang_cure.png",
+      "description": "Tạo 350% sát thương vật lý lên toàn thể địch, tạo thêm 130% sát thương thuộc tính Gió",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Sói Trắng",
+        "description": "Tạo 1 khiên phòng ngự và khiên phòng ngự thuộc tính bằng 10% điểm HP bản thân cho phe ta trong 2 hiệp, hiệu quả không thể xóa"
+      }
+    },
+    {
+      "name": "Phá",
+      "icon": "/images/heroes/s_banzang_injure.png",
+      "description": "Tăng effect điểm tuyệt đối tấn công thuộc tính Gió cho mình, giảm 50% tấn công vật lý và ma pháp của tất cả địch",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Sói Trắng",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Âm",
+      "icon": "/images/heroes/s_banzang_cure.png",
+      "description": "KN trước trận, tạo 350% sát thương vật lý lên hàng trước địch và làm mục tiêu kinh sợ (HQ không thể xóa), tạo thêm 350% sát thương thuộc tính Gió",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Sói Trắng",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Võ Sĩ Đạo: Khi cùng Âu Cơ và Samurai ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Hồn Thần Long: Khi cùng Lý Tiểu Long và Nidhogg ra trận thì Vật Công, HP, Tốc Độ+15%",
+    "Thiện Xạ: Khi cùng Hậu Nghệ ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Phá Sập: Khi trang bị Cung Rồng thì Vật Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-soi-trang",
+      "name": "CT-Sói Trắng",
+      "avatar": "/images/heroes/ct-soi-trang.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là một bậc thầy tiễn thuật và nhẫn thuật, Sói Trắng luôn theo đuổi tài nghệ hoàn mỹ để chứng minh bản thân là võ sĩ mạnh nhất"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Sói Trắng",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Gió",
+      "skillIcon": "/images/heroes/s_banzang_hurt.png",
+      "skillDesc": "Chuyển 1.5 lần tấn công ma pháp thành tấn công thuộc tính Gió cho mình, tạo sát thương vật lý gấp 1.5 lên dãy sau địch",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Sói Trắng",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tản",
+      "skillIcon": "/images/heroes/s_banzang_injure.png",
+      "skillDesc": "Hồi HP bằng 25% điểm HP tối đa của mình, tăng thêm 20% giảm thương và toàn thuộc tính",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Sói Trắng",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Rồng",
+      "skillIcon": "/images/heroes/s_banzang_cure.png",
+      "skillDesc": "Tạo 1 khiên phòng ngự và khiên phòng ngự thuộc tính bằng 10% điểm HP bản thân cho phe ta trong 2 hiệp, hiệu quả không thể xóa",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Sói Trắng",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Phá",
+      "skillIcon": "/images/heroes/s_banzang_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Sói Trắng",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Âm",
+      "skillIcon": "/images/heroes/s_banzang_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Sói Trắng",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Sói Trắng",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "slug": "soi-trang"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "4200",
+  "slug": "veheta",
+  "name": "Veheta",
+  "title": "Vũ trụ linh tính • SSR Veheta",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/veheta.png",
+  "fullArt": "/images/heroes/full/image_vegeta.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Từng là một hoàng tử nhưng không biết tại sao hắn không thể mạnh hơn, đến một ngày, hắn lĩnh ngộ được một thứ, gọi là yêu. Hiện tại hắn ở chung với người bạn tốt \"Songoku\", chiến đấu để thu thập bảy viên ngọc cứu thế giới này!",
+  "skills": [
+    {
+      "name": "Pháo tia chớp",
+      "icon": "/images/heroes/s_shanguangpao.png",
+      "description": "Kĩ năng chiêu bài, phát ra một sóng xung kích cường hãn vô song, tạo 350% sát thương ma pháp cho mục tiêu trực tuyến, nếu ở trạng thái siêu saiya thì tăng 30% sát thương ma pháp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Bejita",
+        "description": "Kĩ năng\nTăng hiệu quả Pháo tia chớp: \n Ở trạng thái Siêu Saiya, Pháo tia chớp tạo thêm 100% sát thương."
+      }
+    },
+    {
+      "name": "Siêu Saiya",
+      "icon": "/images/heroes/s_feitianyujianliu.png",
+      "description": "Kĩ năng trước trận. Khi phẫn nộ đạt cực hạn có thể biến thân thành trạng thái siêu cấp, kéo dài 2 hiệp. Tăng 350% sát thương ma pháp, phòng ngự, tốc độ và giới hạn HP của bản thân, ngoài ra mỗi hiệp hồi phục 10% HP.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Bejita",
+        "description": "Kĩ năng\nTăng hiệu quả Siêu Saiya: \n Ở trạng thái Siêu Saiya, sát thương phải chịu giảm 40%."
+      }
+    },
+    {
+      "name": "Chiến sĩ cao ngạo",
+      "icon": "/images/heroes/s_chaojiwangzi.png",
+      "description": "Khi chết dùng toàn bộ sức mạnh còn lại của mình tạo 350% sát thương ma pháp cho địch, đồng thời có 30% tỉ lệ làm choáng mục tiêu.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Bejita",
+        "description": "Kĩ năng\nTăng hiệu quả Chiến Sĩ Cao Ngạo: \n Chiến Sĩ Cao Ngạo tăng 15% sát thương, đồng thời tỉ lệ choáng tăng lên 50%."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Liên minh nam thần: Phòng ngự và HP +25% khi ra trận cùng lúc với Daryl Dixon, Linh kiện Đăng Vân Lữ, Túi Anh Hồn +5 và 100 Năng tinh",
+    "Người Saiya: Vật công +20% khi ra trận cùng lúc với Sonkoku",
+    "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với Người Băng, Mabara và Trùm Cảnh Sát",
+    "Pháo lóe sáng: Ma công +20% khi ra trận cùng lúc với Yasuke"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Bejita",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Pháo tia chớp",
+      "skillIcon": "/images/heroes/s_shanguangpao.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Pháo tia chớp: \n Ở trạng thái Siêu Saiya, Pháo tia chớp tạo thêm 100% sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Bejita",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Siêu Saiya",
+      "skillIcon": "/images/heroes/s_feitianyujianliu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Siêu Saiya: \n Ở trạng thái Siêu Saiya, sát thương phải chịu giảm 40%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Bejita",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Chiến sĩ cao ngạo",
+      "skillIcon": "/images/heroes/s_chaojiwangzi.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Chiến Sĩ Cao Ngạo: \n Chiến Sĩ Cao Ngạo tăng 15% sát thương, đồng thời tỉ lệ choáng tăng lên 50%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Bejita",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Bejita",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Bejita",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Bejita",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

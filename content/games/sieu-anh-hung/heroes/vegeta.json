@@ -1,0 +1,608 @@
+{
+  "id": "43600",
+  "slug": "vegeta",
+  "name": "Vegeta",
+  "title": "Vũ trụ linh tính • SSR Vegeta",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_beijita.png",
+  "fullArt": "/images/heroes/full/image_vegeta.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là hoàng tử của dân tộc chiến đấu Saiya, cao ngạo, tự tôn cao. Sau khi hành tinh của Vegeta bị Friez tiêu diệt thì đầu quân cho Frieza.",
+  "skills": [
+    {
+      "name": "Đạn năng lượng",
+      "icon": "/images/heroes/s_beijita_s1.png",
+      "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Địa. Ở trạng thái \"Cực Ý Gogeta\" liên tục phóng 2 lần.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Vegeta",
+        "description": "Gây ra thêm 5 lần ST"
+      }
+    },
+    {
+      "name": "Bay - Giai",
+      "icon": "/images/heroes/s_beijita_s2.png",
+      "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST ma pháp và 100% ST thuộc tính Địa. Ở trạng thái \"Cực Ý Gogeta\" hồi 100% HP max",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Vegeta",
+        "description": "Mỗi lượt tối đa phát động 3 lần. Ở trạng thái \"Cực Ý Gogeta\", nhận 1 lần \"Hộ Giá\"."
+      }
+    },
+    {
+      "name": "Đạn chớp năng lượng - Giai",
+      "icon": "/images/heroes/s_beijita_s3.png",
+      "description": "Kỹ năng phản kích: Tất cả tấn công thuộc tính chuyển thành thuộc tính Địa. Gây ra 350% ST ma pháp và 200% ST thuộc tính Địa",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Vegeta",
+        "description": "mục tiêu và cho phòng ngự nguyên tố về 0, duy trì 2 lượt."
+      }
+    },
+    {
+      "name": "Chiến sĩ cuối cùng",
+      "icon": "/images/heroes/s_beijita_s6.png",
+      "description": "Kỹ năng Tử Vong: Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra 350% ST ma pháp, tối đa có thể Hồi Sinh 3 lần. Nếu có Kakalot trong trận, thì phát động kỹ năng Hợp Thể: Hợp Thể với Kakalot biến thành Cực Ý Gogeta, hấp thụ thêm thuộc tính cơ sở của Kakalot và tăng thêm 20%. Có lại 2 lần sử dụng Hồi Sinh (không bị xoá)",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Vegeta",
+        "description": "Số lần hồi sinh tối đa tăng thành 4. Diệt Ngay 1 đơn vị ngẫu nhiên."
+      }
+    },
+    {
+      "name": "Ma Quang Thiểm",
+      "icon": "/images/heroes/s_beijita_s7.png",
+      "description": "Kỹ năng tiền chiến: Gây ra ST thực bằng 350% lực công ma pháp và 1800% ST thuộc tính Địa. Ở trạng thái \"Cực Ý Gogeta\", Diệt Ngay ngẫu nhiên 1 đơn vị địch.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Vegeta",
+        "description": "Cho bản thân tăng vĩnh viễn 240% HP max, miễn dịch Trầm Mặc, Hoá Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi. Diệt Ngay ngẫu nhiên 1 đơn vị địch. Ở trạng thái \"Cực Ý Gogeta\", số người bị diệt biến thành 2, và xoá 2 lượt Hồi Sinh của mục tiêu,  có thêm \"Thần Ngự\" trong 1 lượt."
+      }
+    },
+    {
+      "name": "Pháo sáng chung cực",
+      "icon": "/images/heroes/s_beijita_s4.png",
+      "description": "Gây ra ST thực bằng 350% lực công ma pháp. Tăng 500% lực công ma pháp của bản thân cho đến khi chiến đấu kết thúc (có thể chồng)",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Vegeta",
+        "description": "Kỹ năng tăng thêm ST bằng 10 lần tốc độ. Ở trạng thái \"Cực Ý Gogeta\", tăng thêm 200% tốc độ bản thân cho đến khi kết thúc chiến đấu (có thể chồng)."
+      }
+    },
+    {
+      "name": "Chiến pháp của hoàng tử",
+      "icon": "/images/heroes/s_beijita_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Gây ra ST thực bằng 350% lực công ma pháp và 1800% ST thuộc tính Địa. Gây nên ST truy kích bằng 70% HP max bản thân. Ở trạng thái \"Cực Ý Gogeta\", Diệt Ngay ngẫu nhiên 1 đơn vị địch.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Vegeta",
+        "description": "hồi 100% HP max của bản thân."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Người Thủ Hộ: Khi xuất hiện cùng lúc với Trunks và Songoku Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Lãnh Tụ: Khi xuất hiện cùng lúc với Râu Trắng Ma Công, HP và Tốc Độ+15%",
+    "Bạn Tốt: Khi xuất hiện cùng lúc với Songohan Ma Công, HP và Tốc Độ+15%",
+    "Người Saiya: Khi xuất hiện cùng lúc với Songoku Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-vegeta",
+      "name": "CT - Vegeta",
+      "avatar": "/images/heroes/icon_beijita.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là hoàng tử của dân tộc chiến đấu Saiya, cao ngạo, tự tôn cao. Sau khi hành tinh của Vegeta bị Friez tiêu diệt thì đầu quân cho Frieza."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Vegeta",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đạn năng lượng",
+      "skillIcon": "/images/heroes/s_beijita_s1.png",
+      "skillDesc": "Gây ra thêm 5 lần ST",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Vegeta",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bay - Giai",
+      "skillIcon": "/images/heroes/s_beijita_s2.png",
+      "skillDesc": "Mỗi lượt tối đa phát động 3 lần. Ở trạng thái \"Cực Ý Gogeta\", nhận 1 lần \"Hộ Giá\".",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Vegeta",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đạn chớp năng lượng - Giai",
+      "skillIcon": "/images/heroes/s_beijita_s3.png",
+      "skillDesc": "mục tiêu và cho phòng ngự nguyên tố về 0, duy trì 2 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Vegeta",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Pháo sáng chung cực",
+      "skillIcon": "/images/heroes/s_beijita_s4.png",
+      "skillDesc": "Kỹ năng tăng thêm ST bằng 10 lần tốc độ. Ở trạng thái \"Cực Ý Gogeta\", tăng thêm 200% tốc độ bản thân cho đến khi kết thúc chiến đấu (có thể chồng).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Beerus",
+          "icon": "/images/heroes/beerus.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Vegeta",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Chiến pháp của hoàng tử",
+      "skillIcon": "/images/heroes/s_beijita_s5.png",
+      "skillDesc": "hồi 100% HP max của bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Vegeta",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Chiến sĩ cuối cùng",
+      "skillIcon": "/images/heroes/s_beijita_s6.png",
+      "skillDesc": "Số lần hồi sinh tối đa tăng thành 4. Diệt Ngay 1 đơn vị ngẫu nhiên.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Vegeta",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ma Quang Thiểm",
+      "skillIcon": "/images/heroes/s_beijita_s7.png",
+      "skillDesc": "Cho bản thân tăng vĩnh viễn 240% HP max, miễn dịch Trầm Mặc, Hoá Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi. Diệt Ngay ngẫu nhiên 1 đơn vị địch. Ở trạng thái \"Cực Ý Gogeta\", số người bị diệt biến thành 2, và xoá 2 lượt Hồi Sinh của mục tiêu,  có thêm \"Thần Ngự\" trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Pháo sáng chung cực",
+      "unlockedSkillIcon": "/images/heroes/s_beijita_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Chiến pháp của hoàng tử",
+      "unlockedSkillIcon": "/images/heroes/s_beijita_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Vegeta",
+          "icon": "/images/heroes/icon_beijita.png",
+          "slug": "vegeta"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

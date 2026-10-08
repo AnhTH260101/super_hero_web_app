@@ -1,0 +1,546 @@
+{
+  "id": "60700",
+  "slug": "ct-zeus",
+  "name": "CT-Zeus",
+  "title": "Vũ trụ nguyên tố • SSR CT-Zeus",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-zeus.png",
+  "fullArt": "/images/heroes/full/image_zhousi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chủ thần Zeus, chủ nhân của đỉnh Olympus, \"Phản bội ý chí của thần sẽ bị trừng phạt\"",
+  "skills": [
+    {
+      "name": "Sức Mạnh Tia Chớp-Thánh",
+      "icon": "/images/heroes/s_shandianfengbao.png",
+      "description": "Hóa thành cơ thể thần khổng lồ, ngẫu nhiên tạo 350% sát thương ma pháp lên 1~5 mục tiêu，tạo thêm 100% sát thương thuộc tính gió.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng sĩ·Zeus",
+        "description": "Kĩ năng Tăng cường Sức Mạnh Tia Chớp：nếu có Poseidon tại đó sẽ có 50% tỉ lệ làm choáng mục tiêu, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Cha Các Vị Thần-Thánh",
+      "icon": "/images/heroes/s_xianrenzhiti.png",
+      "description": "Sau khi tử vong xong hồi sinh,sẽ tăng 50% tốc độ của tất cả nhân vật phe ta, kéo dài 2 hiệp, tạo 350% sát thương ma pháp lên toàn bộ địch. Tạo thêm 100% sát thương thuộc tính gió.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu sĩ·Zeus",
+        "description": "Kĩ năng Tăng cường Cha Các Vị Thần：Nếu Athena có mặt thì tất cả mọi người chống được 1 lần sát thương."
+      }
+    },
+    {
+      "name": "Ý Chí Chủ Thần-Thánh",
+      "icon": "/images/heroes/s_quntidaji.png",
+      "description": "Dùng thần lực phi phầm tạo 350% sát thương ma pháp lên toàn bộ địch,  Tạo thêm 100% sát thương thuộc tính gió.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Zeus",
+        "description": "Kĩ năng Tăng cường Ý Chí Chủ Thần：Nếu Hades có mặt sẽ khiến đồng đội có tấn công vật lí cao nhất bên địch bị suy yếu, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Gió·Thần Vương-Thánh",
+      "icon": "/images/heroes/s_lingti.png",
+      "description": "Tăng effect tấn công thuộc tính gió điểm tuyệt đối",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền thuyết·Zeus",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Vô Gian Tịch-Thánh",
+      "icon": null,
+      "description": "Kĩ năng trước trận, khiến mục tiêu mặc định bên địch mù lòa 1 hiệp, tạo hiệu quả suy yếu. Nếu Hades có mặt sẽ tăng 20% chính xác của bản thân trong 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Zeus",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Chư Thần Phẫn Nộ: Khi ra trận cùng lúc với Seya và Poseidon thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
+    "Sức Mạnh Của Thần: Khi ra trận cùng lúc với Hades và Ichigo thì ma công, HP và tốc độ +15%",
+    "Thần Uy: Khi ra trận cùng lúc với Athena thì vật công, HP và tốc độ +15%",
+    "Sấm Sét Phẫn Nộ: Khi trang bị Giọt Lệ Nữ Thần thì ma công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng sĩ·Zeus",
+      "tierName": "CT-Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sức Mạnh Tia Chớp-Thánh",
+      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillDesc": "Kĩ năng Tăng cường Sức Mạnh Tia Chớp：nếu có Poseidon tại đó sẽ có 50% tỉ lệ làm choáng mục tiêu, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu sĩ·Zeus",
+      "tierName": "CT-Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cha Các Vị Thần-Thánh",
+      "skillIcon": "/images/heroes/s_xianrenzhiti.png",
+      "skillDesc": "Kĩ năng Tăng cường Cha Các Vị Thần：Nếu Athena có mặt thì tất cả mọi người chống được 1 lần sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Zeus",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Ý Chí Chủ Thần-Thánh",
+      "skillIcon": "/images/heroes/s_quntidaji.png",
+      "skillDesc": "Kĩ năng Tăng cường Ý Chí Chủ Thần：Nếu Hades có mặt sẽ khiến đồng đội có tấn công vật lí cao nhất bên địch bị suy yếu, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền thuyết·Zeus",
+      "tierName": "CT-Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Gió·Thần Vương-Thánh",
+      "skillIcon": "/images/heroes/s_lingti.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Zeus",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Vô Gian Tịch-Thánh",
+      "skillIcon": null,
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Zeus",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Zeus",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "slug": "zeus"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

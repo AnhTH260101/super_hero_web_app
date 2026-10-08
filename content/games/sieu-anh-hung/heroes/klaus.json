@@ -1,0 +1,608 @@
+{
+  "id": "39000",
+  "slug": "klaus",
+  "name": "Klaus",
+  "title": "Vũ trụ linh tính • SSR Klaus",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/klaus.png",
+  "fullArt": "/images/heroes/full/image_kelaosi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là người lãnh đạo của tổ chức bí mật (Libra), có ý chí và thực lực. Tuy mái tóc đỏ và vóc dáng cao to lực lưỡng khiến người khác cảm thấy áp lực, nhưng thực ra anh là một quý ông nhẹ nhàng. ",
+  "skills": [
+    {
+      "name": "Điện Tốc Kích",
+      "icon": "/images/heroes/s_kelaosi_s1.png",
+      "description": "Tấn công kẻ địch ngẫu nhiên, tạo 350% ST vật lý và % ST t.tính Nước lên mục tiêu. Khiến mục tiêu trọng thương và giảm 99% Tốc Độ, giảm 80% hiệu suất hồi HP, kéo dài 2 hiệp. Tạo sát thương bằng 30% HP của bản thân hồi phục, nếu vượt mức sẽ chia đều cho mỗi đồng đội.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ.Klaus",
+        "description": "Nếu mục tiêu hiệu quả hồi phục của mục tiêu thấp hơn 50%, sẽ tạo thêm gấp 3 sát thương. Hiệu quả Trọng Thương biến thành 100%"
+      }
+    },
+    {
+      "name": "Liên Đột Xoay Vòng",
+      "icon": "/images/heroes/s_kelaosi_s2.png",
+      "description": "Skill trước trận: Bản thân mất 10% HP, ngẫu nhiên tấn công mục tiêu dãy trước hoặc dãy sau, tạo 350% ST vật lý và % ST t.tính Nước lên mục tiêu. Kèm thêm sát thương thực của HP tổn thất. Tạo sát thương bằng 30% HP của bản thân hồi phục, nếu vượt mức sẽ chia đều cho mỗi đồng đội.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ.Klaus",
+        "description": "Hấp thụ 20% lực tấn công của mục tiêu để cộng cho bản thân. 50% tỉ lệ khiến mục tiêu tụt máu, tạo ST thực của 200% vật công của bản thân, kéo dài 2 hiệp. Vĩnh viễn miễn dịch Choáng, Đứng Im, Hóa Đá, Băng Phong, Hỗn Loạn, Chế Giễu, Tsukuyomi."
+      }
+    },
+    {
+      "name": "Tuyệt Đối Bất Phá Thuẫn",
+      "icon": "/images/heroes/s_kelaosi_s3.png",
+      "description": "Skill trước khi bị đánh: Trước khi bị đánh, trong hiệp này tăng 800% phòng ngự tổng thể cho bản thân, đồng thời bản thân tăng 200% Né, Chính Xác, Bạo Kích trong hiệp này. Mỗi hiệp tối đa kích hoạt 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng.Klaus",
+        "description": "Giảm 50% Chính Xác, Né, Bạo Kích của kẻ tấn công. Nếu mục tiêu là nhân vật dạng vật công hoặc ma công, sẽ tạo thêm ST thực bằng 35% giới hạn HP của mục tiêu."
+      }
+    },
+    {
+      "name": "Thập Tự Huyết Quan Hào",
+      "icon": "/images/heroes/s_kelaosi_s6.png",
+      "description": "Skill trước hiệp: Tất cả thuộc tính tấn công chuyển thành vật công, tạo 350% ST vật công lên tất cả kẻ địch, và hồi tất cả HP đã mất. Tạo thêm gấp 3 sát thương lên kẻ địch có HP thấp nhất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh.Klaus",
+        "description": "Tăng 79% tỉ lệ giảm thương tổng thể của bản thân, máu sẽ chuyển hóa thành lực phong ma, ngẫu nhiên khiến dãy trước hoặc dãy sau địch băng phong 1 hiệp. Chế giễu 1-3 kẻ địch, và phản đòn mục tiêu bằng 100% sát thương lần này."
+      }
+    },
+    {
+      "name": "Bregley Đấu Thuật.Súng Hủy Diệt",
+      "icon": "/images/heroes/s_kelaosi_s7.png",
+      "description": "Skill tử trận: Sau khi tử trận, thải tất cả HP của toàn thân, chuyển hóa chúng thành lực phong ma cực hạn, chuyển ma công và tất cả thuộc tính tấn công thành vật công, tạo 350% ST vật công lên tất cả kẻ địch, và kèm sát thương thực của sát thương chí mạng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn.Klaus",
+        "description": "Kèm ST thực bằng 50% giới hạn HP bản thân, ngẫu nhiên tạo hiệu quả băng phong hoặc hôn mê lên tất cả kẻ địch. Giảm 100% Tốc Độ và Chính Xác của tất cả kẻ địch, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Liên Đột Shotgun",
+      "icon": "/images/heroes/s_kelaosi_s4.png",
+      "description": "Tấn công toàn thể kẻ địch, bản thân mất 15% HP, tạo 350% ST vật lý và % ST t.tính Nước lên mục tiêu, kèm thêm sát thương thực của HP tổn thất. Đánh liên tục sẽ kèm gấp 3 sát thương, tạo sát thương bằng 30% HP bản thân hồi phục, nếu vượt mức sẽ chia đều cho mỗi đồng đội.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần thoại.Klaus",
+        "description": "ST kèm thêm ST thực. ST kèm thêm tăng lên gấp 5, 50% tỉ lệ khiến kẻ địch hôn mê."
+      }
+    },
+    {
+      "name": "Cửu Viễn Quan Phong Ngục",
+      "icon": "/images/heroes/s_kelaosi_s5.png",
+      "description": "Tối đa hóa việc chuyển HP của bản thân thành năng lượng, bản thân mất 30% HP, tạo 350% ST ma công và % ST t.tính Nước lên toàn thể địch, kèm thêm sát thương thực của HP đã mất.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần.Klaus",
+        "description": "Hiệu suất chuyển hóa của HP biến thành 150% (Tức là tạo thêm ST thực của 150% HP đã mất), tạo thêm gấp 5 sát thương lên kẻ địch trọng thương. Tạo ST bằng 30% HP bản thân hồi phục, nếu có vượt mức sẽ chia đều cho mỗi đồng đội."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Chiến Sĩ Siêu Năng: Ra trận cùng lúc với Kefla và Laxus Dreyar, Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Đội Cảm Đấu: Ra trận cùng lúc với Namikaze Minato, Vật Công, HP và Tốc Độ+15%",
+    "Cơ Thể Bất Diệt: Ra trận cùng lúc với Thanos, Vật Công, HP và Tốc Độ+15%",
+    "Phi Nhân Vật: Ra trận cùng lúc với Ma Nhân, Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-klaus",
+      "name": "CT-Klaus",
+      "avatar": "/images/heroes/ct-klaus.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là người lãnh đạo của tổ chức bí mật (Libra), có ý chí và thực lực. Tuy mái tóc đỏ và vóc dáng cao to lực lưỡng khiến người khác cảm thấy áp lực, nhưng thực ra anh là một quý ông nhẹ nhàng. "
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ.Klaus",
+      "tierName": "Dũng Sĩ.Klaus",
+      "auraColor": "emerald",
+      "skillName": "Điện Tốc Kích",
+      "skillIcon": "/images/heroes/s_kelaosi_s1.png",
+      "skillDesc": "Nếu mục tiêu hiệu quả hồi phục của mục tiêu thấp hơn 50%, sẽ tạo thêm gấp 3 sát thương. Hiệu quả Trọng Thương biến thành 100%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ.Klaus",
+      "tierName": "Đấu Sĩ.Klaus",
+      "auraColor": "cyan",
+      "skillName": "Liên Đột Xoay Vòng",
+      "skillIcon": "/images/heroes/s_kelaosi_s2.png",
+      "skillDesc": "Hấp thụ 20% lực tấn công của mục tiêu để cộng cho bản thân. 50% tỉ lệ khiến mục tiêu tụt máu, tạo ST thực của 200% vật công của bản thân, kéo dài 2 hiệp. Vĩnh viễn miễn dịch Choáng, Đứng Im, Hóa Đá, Băng Phong, Hỗn Loạn, Chế Giễu, Tsukuyomi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng.Klaus",
+      "tierName": "Anh Hùng.Klaus",
+      "auraColor": "purple",
+      "skillName": "Tuyệt Đối Bất Phá Thuẫn",
+      "skillIcon": "/images/heroes/s_kelaosi_s3.png",
+      "skillDesc": "Giảm 50% Chính Xác, Né, Bạo Kích của kẻ tấn công. Nếu mục tiêu là nhân vật dạng vật công hoặc ma công, sẽ tạo thêm ST thực bằng 35% giới hạn HP của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần thoại.Klaus",
+      "tierName": "Thần thoại.Klaus",
+      "auraColor": "amber",
+      "skillName": "Liên Đột Shotgun",
+      "skillIcon": "/images/heroes/s_kelaosi_s4.png",
+      "skillDesc": "ST kèm thêm ST thực. ST kèm thêm tăng lên gấp 5, 50% tỉ lệ khiến kẻ địch hôn mê.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Frieza",
+          "icon": "/images/heroes/frieza.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần.Klaus",
+      "tierName": "Thần.Klaus",
+      "auraColor": "red",
+      "skillName": "Cửu Viễn Quan Phong Ngục",
+      "skillIcon": "/images/heroes/s_kelaosi_s5.png",
+      "skillDesc": "Hiệu suất chuyển hóa của HP biến thành 150% (Tức là tạo thêm ST thực của 150% HP đã mất), tạo thêm gấp 5 sát thương lên kẻ địch trọng thương. Tạo ST bằng 30% HP bản thân hồi phục, nếu có vượt mức sẽ chia đều cho mỗi đồng đội.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh.Klaus",
+      "tierName": "Linh.Klaus",
+      "auraColor": "rose",
+      "skillName": "Thập Tự Huyết Quan Hào",
+      "skillIcon": "/images/heroes/s_kelaosi_s6.png",
+      "skillDesc": "Tăng 79% tỉ lệ giảm thương tổng thể của bản thân, máu sẽ chuyển hóa thành lực phong ma, ngẫu nhiên khiến dãy trước hoặc dãy sau địch băng phong 1 hiệp. Chế giễu 1-3 kẻ địch, và phản đòn mục tiêu bằng 100% sát thương lần này.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn.Klaus",
+      "tierName": "Hồn.Klaus",
+      "auraColor": "violet",
+      "skillName": "Bregley Đấu Thuật.Súng Hủy Diệt",
+      "skillIcon": "/images/heroes/s_kelaosi_s7.png",
+      "skillDesc": "Kèm ST thực bằng 50% giới hạn HP bản thân, ngẫu nhiên tạo hiệu quả băng phong hoặc hôn mê lên tất cả kẻ địch. Giảm 100% Tốc Độ và Chính Xác của tất cả kẻ địch, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Liên Đột Shotgun",
+      "unlockedSkillIcon": "/images/heroes/s_kelaosi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Cửu Viễn Quan Phong Ngục",
+      "unlockedSkillIcon": "/images/heroes/s_kelaosi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Klaus",
+          "icon": "/images/heroes/klaus.png",
+          "slug": "klaus"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "6700",
+  "slug": "ultron",
+  "name": "Ultron",
+  "title": "Sinh vật bản địa • SSR Ultron",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ultron.png",
+  "fullArt": "/images/heroes/full/image_aochuang.png",
+  "element": "Sinh vật bản địa",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Người máy trí năng siêu cấp muốn hủy diệt mọi sinh mệnh trên trái đất, một trong những kình dị của hội phụ nữ!",
+  "skills": [
+    {
+      "name": "Võ Trang Hạng Nặng",
+      "icon": "/images/heroes/s_chongci.png",
+      "description": "Cánh tay biến thành pháo Radium cực lớn, tạo 350% sát thương vật lí cho kẻ địch trực tuyến, tạo hiệu quả thiêu đốt lên mục tiêu, kéo dài 1 hiệp. Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Ultron",
+        "description": "Hiệu quả thiêu đốt tăng đến 3 hiệp, kẻ địch bị thiêu đốt tạo thêm 50% sát thương"
+      }
+    },
+    {
+      "name": "Áp Chế Phân Giải",
+      "icon": "/images/heroes/s_dibaotianxing.png",
+      "description": "Từ trong cơ thể phân giải ra vô số pháo Radium, tạo 350% sát thương vật lí cho toàn bộ địch. Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Ultron",
+        "description": "Ngẫu nhiên làm choáng 1-3 mục tiêu, phục hồi bản thân 10% HP"
+      }
+    },
+    {
+      "name": "Nano Tái Sinh",
+      "icon": "/images/heroes/s_qizha.png",
+      "description": "Sau khi chết sẽ thông qua người máy Nano để trùng tu hồi sinh lại, đồng thời tăng tất cả thuộc tính bản thân 30%, kéo dài 3 hiệp, tạo 350% sát thương vật lí lên toàn bộ địch.Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Ultron",
+        "description": "Hồi sinh xong tăng 30% giảm thương cho bản thân, tăng 20% giới hạn HP"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "BOSS: Khi ra trận cùng lúc với Roger, Mabara và Tiến sĩ X thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
+    "Đối đầu: Khi ra trận cùng lúc với Hulk và Thor thì vật công, HP và tốc độ+15%",
+    "Phản phệ: Khi ra trận cùng lúc với Hades thì ma công, HP và tốc độ+15%",
+    "Thệ linh: Khi trang bị Vong Hồn Kiếm thì vật công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Ultron",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Võ Trang Hạng Nặng",
+      "skillIcon": "/images/heroes/s_chongci.png",
+      "skillDesc": "Hiệu quả thiêu đốt tăng đến 3 hiệp, kẻ địch bị thiêu đốt tạo thêm 50% sát thương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Ultron",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Áp Chế Phân Giải",
+      "skillIcon": "/images/heroes/s_dibaotianxing.png",
+      "skillDesc": "Ngẫu nhiên làm choáng 1-3 mục tiêu, phục hồi bản thân 10% HP",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Ultron",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Nano Tái Sinh",
+      "skillIcon": "/images/heroes/s_qizha.png",
+      "skillDesc": "Hồi sinh xong tăng 30% giảm thương cho bản thân, tăng 20% giới hạn HP",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Ultron",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Ultron",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Ultron",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Ultron",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Ultron",
+          "icon": "/images/heroes/ultron.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

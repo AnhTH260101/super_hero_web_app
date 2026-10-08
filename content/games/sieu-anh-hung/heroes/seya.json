@@ -1,0 +1,576 @@
+{
+  "id": "4800",
+  "slug": "seya",
+  "name": "Seya",
+  "title": "Vũ trụ linh tính • SSR Seya",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/seya.png",
+  "fullArt": "/images/heroes/full/image_xingshi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Đấu sĩ chung cực của nữ thần, chiến đấu mạnh mẽ. Gục ngã xong vẫn luôn luôn đừng dậy, luôn luôn khi kẻ địch thấm mệt sẽ ra đòn phản kích. Trong thế giới này, sự cố chấp và niềm tin của hắn còn tác dụng không?",
+  "skills": [
+    {
+      "name": "Seiya Lưu Tinh Quyền",
+      "icon": "/images/heroes/s_JETluanda.png",
+      "description": "Saiya! Tốc độ của sao băng, tạo 1 lần 350% sát thương vật lí cho toàn bộ mục tiêu xếp trước của đối phương, đồng thời giảm 10% tỉ lệ chính xác của chúng, kéo dài 2 hiệp. Tạo thêm 140% sát thương thuộc tính gió",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Seiya",
+        "description": "Kĩ năng\nTăng hiệu quả Seiya Lưu Tinh Quyền: \nSeiya Lưu Tinh Quyền sẽ tăng thêm 1 lần tấn công Quang Tốc Quyền, sát thương và hiệu quả giống với Seiya Lưu Tinh Quyền."
+      }
+    },
+    {
+      "name": "Seiya Tuệ Tinh Quyền",
+      "icon": "/images/heroes/s_baoyu.png",
+      "description": "Dựa vào vầng sáng bất tử của nhân vật chính của mình để quyết trận sống còn với địch. Tạo 350% sát thương vật lí cho mục tiêu, đồng thời hi sinh 10% HP của bản thân. Tạo thêm 160% sát thương thuộc tính gió",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Seiya",
+        "description": "Kĩ năng\nTăng hiệu quả Seiya Tuệ Tinh Quyền: \nSeiya Tuệ Tinh Quyền sát thương tăng 20%, không còn tạo sát thương cho bản thân."
+      }
+    },
+    {
+      "name": "Tiểu Cường Vũ Trụ",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Vầng sáng bất tử của nhân vật chính cực mạnh! Sau khi chết sẽ hồi sinh rực rỡ, giảm 50% sát thương phải chịu, tăng 350% phòng ngự và tấn công của bản thân, nhưng giảm giới hạn HP 50%.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Seiya",
+        "description": "Kĩ năng\nTăng hiệu quả Tiểu Cường Vũ Trụ: \n Tiểu Cường Vũ Trụ không còn giảm giới hạn HP bản thân."
+      }
+    },
+    {
+      "name": "Gió·Chớp Nguyên Tử",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Tăng effect tấn công thuộc tính gió",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Huyền thoại·Seiya",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Quang Tốc Quyền",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Kĩ năng trước trận, tăng 350% giới hạn HP và 20% tốc độ và né tránh cho bản thân, kéo dài 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Seiya",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Ichigo và Mabara",
+    "Chính nghĩa chung cực: Vật công và tốc độ +20% khi ra trận cùng lúc với Người Băng và Kensiro",
+    "Năm bổn mạng: Phòng ngự +20% khi ra trận cùng lúc với Cảnh Sát Ngân Hà",
+    "Niềm tin: HP và tốc độ +15% khi ra trận cùng lúc với Nanato và Kensin"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Seiya",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Seiya Lưu Tinh Quyền",
+      "skillIcon": "/images/heroes/s_JETluanda.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Seiya Lưu Tinh Quyền: \nSeiya Lưu Tinh Quyền sẽ tăng thêm 1 lần tấn công Quang Tốc Quyền, sát thương và hiệu quả giống với Seiya Lưu Tinh Quyền.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Seiya",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Seiya Tuệ Tinh Quyền",
+      "skillIcon": "/images/heroes/s_baoyu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Seiya Tuệ Tinh Quyền: \nSeiya Tuệ Tinh Quyền sát thương tăng 20%, không còn tạo sát thương cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Seiya",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Tiểu Cường Vũ Trụ",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Tiểu Cường Vũ Trụ: \n Tiểu Cường Vũ Trụ không còn giảm giới hạn HP bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Seiya",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Gió·Chớp Nguyên Tử",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Seiya",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Quang Tốc Quyền",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Seiya",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Seiya",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

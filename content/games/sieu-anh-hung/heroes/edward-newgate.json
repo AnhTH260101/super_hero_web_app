@@ -1,0 +1,679 @@
+{
+  "id": "82200",
+  "slug": "edward-newgate",
+  "name": "Edward Newgate",
+  "title": "Vũ trụ linh tính • UR Edward Newgate",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_baihuzi2.png",
+  "fullArt": "/images/heroes/full/image_baihuzi2.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Biệt danh \"Râu Trắng\", thuyền trưởng băng hải tặc Râu Trắng. Lúc còn sống ônh là 1 trong \"Tứ Hoàng\", được tôn xưng là \"Người đàn ông mạnh nhất thế giới\". Ông là người sở hữu trái ác quỷ Gura Gura No Mi - lực lượng có thể hủy diệt thế giới. Vũ khí trong tay ông là \"Mura Kumogiri\", một trong \"12 thanh cực phẩm đại bảo kiếm\".",
+  "skills": [
+    {
+      "name": "Kaishin",
+      "icon": "/images/heroes/s_baihuzi2_s1.png",
+      "description": "Gây ra 350% ST vật lý và 300% ST thuộc tính Thổ lên toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Edward Newgate",
+        "description": "Gây ra thêm gấp 5 lần ST cho mục tiêu"
+      }
+    },
+    {
+      "name": "Tàu Moby Dick",
+      "icon": "/images/heroes/s_baihuzi2_s2.png",
+      "description": "Kỹ năng trước khi bị đánh: Triệu hồi Tàu Moby Dick; hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương), gây ra 350% ST vật lý và 200% ST thuộc tính Thổ lên toàn phe địch.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Edward Newgate",
+        "description": "Tối đa kích hoạt 3 lần, tăng 500% Né Tránh của bản thân (sau Chuyển Sinh 7, hiệu quả này sẽ tăng lên thành 700%). Truy Kích thêm với ST bằng (20% + tỉ lệ Mệt Mỏi) của HP thực."
+      }
+    },
+    {
+      "name": "Haki Quan Sát",
+      "icon": "/images/heroes/s_baihuzi2_s3.png",
+      "description": "Kĩ năng phản kích: Haki Quan Sát chấn kinh đối phương, Trói Buộc toàn phe địch. Gây ra 350% ST vật lý và 500% ST thuộc tính Thổ cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Edward Newgate",
+        "description": "Gây ra thêm gấp 8 lần ST"
+      }
+    },
+    {
+      "name": "Một địch một ngàn",
+      "icon": "/images/heroes/s_baihuzi2_s6.png",
+      "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thực bằng 350% ST vật lý và 1500% ST thuộc tính Thổ cho toàn phe địch, tối đa được Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 đơn vị.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Edward Newgate",
+        "description": "Truy kích thêm với ST thực bằng (20% + tỉ lệ Mệt Mỏi) HP"
+      }
+    },
+    {
+      "name": "Ngàn quân né tránh",
+      "icon": "/images/heroes/s_baihuzi2_s7.png",
+      "description": "Kỹ năng trước khi chiến đấu: Tập trung toàn bộ năng lượng trái Gura Gura no Mi đấm ra một đấm mạnh nhất. Vĩnh viễn tăng 220% HP max và 79% Giảm Thương chỉnh thể của bản thân. Tăng 500% Trúng Đích, Né Tránh và Bạo Kích. Gây ra ST thực bằng 350% ST vật lý và Truy Kích với ST bằng (20% + tỉ lệ Mệt Mỏi) HP max.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Edward Newgate",
+        "description": "và Truy Kích với mức ST thực bằng (20% + tỉ lệ Mệt Mỏi) của HP max hiện tại. Số lần Hồi Sinh tối đa tăng thành 4 lần. Lần thứ 4 hồi sinh nhờ kĩ năng này,  tỉ lệ Mệt Mỏi hiện tại sẽ có hiệu quả gấp bội, và tỉ lệ Mệt Mỏi có thể vượt qua 100%.      "
+      }
+    },
+    {
+      "name": "Đại Địa Chấn",
+      "icon": "/images/heroes/s_baihuzi2_s4.png",
+      "description": "Tập trung sức mạnh của trái Gura Gura no Mi đánh vỡ mặt đất, gây ra ST thực bằng 350% ST vật lý và 1800% ST thuộc tính Thổ. Trói Buộc mục tiêu 1 lượt.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Edward Newgate",
+        "description": "Ngẫu nhiên Diệt Ngay 1 đơn vị."
+      }
+    },
+    {
+      "name": "Moby Dick",
+      "icon": "/images/heroes/s_baihuzi2_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Nhảy lên trên cao và chém một đao cực mạnh. Gây ra ST thực bằng 350% ST vật lý và 1800% ST thuộc tính Thổ lên phe địch. Hồi phục 50% HP bản thân (bỏ qua Trọng Thương)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Edward Newgate",
+        "description": "Tối đa kích hoạt 3 lần, tăng 500% Né Tránh của bản thân (sau Chuyển Sinh 7, hiệu quả này sẽ tăng lên thành 700%). Truy Kích thêm với ST bằng (20% + tỉ lệ Mệt Mỏi) của HP thực."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "chí cường: Khi xuất hiện cùng lúc với Broli và Satoru Gojo Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "phụ huynh: Khi xuất hiện cùng lúc với Songoku Vật Công, HP và Tốc Độ+15%",
+    "khí phách: Khi xuất hiện cùng lúc với Luffy Gear 4 Vật Công, HP và Tốc Độ+15%",
+    "đao pháp: Khi xuất hiện cùng lúc với Yatogami Tohka Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Râu Trắng: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Kuchiki Byakuya",
+      "icon": "/images/heroes/kuchiki-byakuya.png",
+      "amount": 5,
+      "type": "hero"
+    },
+    {
+      "name": "Râu Trắng",
+      "icon": "/images/heroes/icon_baihuzi.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Edward Newgate",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Kaishin",
+      "skillIcon": "/images/heroes/s_baihuzi2_s1.png",
+      "skillDesc": "Gây ra thêm gấp 5 lần ST cho mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Edward Newgate",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tàu Moby Dick",
+      "skillIcon": "/images/heroes/s_baihuzi2_s2.png",
+      "skillDesc": "Tối đa kích hoạt 3 lần, tăng 500% Né Tránh của bản thân (sau Chuyển Sinh 7, hiệu quả này sẽ tăng lên thành 700%). Truy Kích thêm với ST bằng (20% + tỉ lệ Mệt Mỏi) của HP thực.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Edward Newgate",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Haki Quan Sát",
+      "skillIcon": "/images/heroes/s_baihuzi2_s3.png",
+      "skillDesc": "Gây ra thêm gấp 8 lần ST",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Edward Newgate",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Đại Địa Chấn",
+      "skillIcon": "/images/heroes/s_baihuzi2_s4.png",
+      "skillDesc": "Ngẫu nhiên Diệt Ngay 1 đơn vị.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Edward Newgate",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Một địch một ngàn",
+      "skillIcon": "/images/heroes/s_baihuzi2_s6.png",
+      "skillDesc": "Truy kích thêm với ST thực bằng (20% + tỉ lệ Mệt Mỏi) HP",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Edward Newgate",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Ngàn quân né tránh",
+      "skillIcon": "/images/heroes/s_baihuzi2_s7.png",
+      "skillDesc": "và Truy Kích với mức ST thực bằng (20% + tỉ lệ Mệt Mỏi) của HP max hiện tại. Số lần Hồi Sinh tối đa tăng thành 4 lần. Lần thứ 4 hồi sinh nhờ kĩ năng này,  tỉ lệ Mệt Mỏi hiện tại sẽ có hiệu quả gấp bội, và tỉ lệ Mệt Mỏi có thể vượt qua 100%.      ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Edward Newgate",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Moby Dick",
+      "skillIcon": "/images/heroes/s_baihuzi2_s5.png",
+      "skillDesc": "Vĩnh viễn miễn dịch Trầm Mặc, Hóa Đá, Choáng, Chế Giễu, Tsukuyomi, ngẫu nhiên diệt ngay 1 đơn vị địch. Tăng 20% Mệt Mỏi cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Đại Địa Chấn",
+      "unlockedSkillIcon": "/images/heroes/s_baihuzi2_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Moby Dick",
+      "unlockedSkillIcon": "/images/heroes/s_baihuzi2_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Râu Trắng",
+          "icon": "/images/heroes/icon_baihuzi.png",
+          "slug": "rau-trang"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

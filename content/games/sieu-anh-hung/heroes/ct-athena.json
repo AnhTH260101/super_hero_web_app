@@ -1,0 +1,615 @@
+{
+  "id": "60800",
+  "slug": "ct-athena",
+  "name": "CT-Athena",
+  "title": "Vũ trụ nguyên tố • UR CT-Athena",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-athena.png",
+  "fullArt": "/images/heroes/full/image_yadianna.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Nữ thần trí tuệ thích ban tuyệt kĩ \"Đánh mãi không chết\" cho các đệ tử của mình, năng lực chiến đấu bình thường nhưng lại rất xinh đẹp.",
+  "skills": [
+    {
+      "name": "Ánh Sáng Chiến Thắng-Thánh",
+      "icon": "/images/heroes/s_chaojishanguangpao.png",
+      "description": "Athena dùng gậy vàng phát ra Ánh Sáng Chiến Thắng，tấn công toàn bộ địch，tạo thành 350% sát thương ma pháp, đồng thời xua tan đi mọi hiệu quả phụ của phe ta.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng sĩ·Athena",
+        "description": "Ánh Sáng Chiến Thắng tăng thêm 50%"
+      }
+    },
+    {
+      "name": "Ánh Sáng Bảo Vệ-Thánh",
+      "icon": "/images/heroes/s_xianrenzhiti.png",
+      "description": "Athena phát ra Tuyên Ngôn Chiến Thắng, hiệp này sát thương phải chịu của toàn bộ phe ta giảm 350%, nếu Seiya có mặt thì triệu hồi Seiya phát động 1 lần Thiên Mã Tuệ Tinh quyền lên địch.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu sĩ·Athena",
+        "description": "Hiệu quả giảm sát thương của Ánh Sáng Bảo Vệ tăng 10%"
+      }
+    },
+    {
+      "name": "Nữ Thần Chiến Thắng-Thánh",
+      "icon": "/images/heroes/s_juexing.png",
+      "description": "Athena HP giảm còn 0 xong có thể tái sinh, đồng thời hồi phục HP toàn bộ phe ta, lượng hồi phục bằng 350% của HP bản thân, đồng thời khử đi toàn bộ BUFF của phe địch.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Athena",
+        "description": "Nữ Thần Chiến Thắng có thể tăng 20% ma công bản thân"
+      }
+    },
+    {
+      "name": "Gió·Ảnh Vũ-Thánh",
+      "icon": "/images/heroes/s_youhunzhan.png",
+      "description": "Tăng effect tấn công thuộc tính gió",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Huyền thoại·Athena",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Thiên Hoa-Thánh",
+      "icon": "/images/heroes/s_shandianfengbao.png",
+      "description": "Khi bị tấn công sẽ tăng 350% phòng ngự bản thân, mỗi hiệp tối đa phát động 1 lần",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Athena",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thiên Mệnh: Khi ra trận cùng lúc với Hades và Poseidon thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
+    "Cây Thường Xuân: Khi ra trận cùng lúc với Sonkoku và Yasuke thì vật công, HP và tốc độ +15%",
+    "Đấu Sĩ Nữ Thần: Khi ra trận cùng lúc với Seya thì ma công, HP và tốc độ +15%",
+    "Thán Phục: Khi trang bị Giọt Lệ Nữ Thần thì ma công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Athena: 180 Đá Chuyển Sinh + 20 Kiếm Nguyên Lực + 10 Đá Nguyên Lực + 15 Kiếm Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Athena",
+      "icon": "/images/heroes/athena.png",
+      "amount": 12,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 35,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng sĩ·Athena",
+      "tierName": "CT-Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Ánh Sáng Chiến Thắng-Thánh",
+      "skillIcon": "/images/heroes/s_chaojishanguangpao.png",
+      "skillDesc": "Ánh Sáng Chiến Thắng tăng thêm 50%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu sĩ·Athena",
+      "tierName": "CT-Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ánh Sáng Bảo Vệ-Thánh",
+      "skillIcon": "/images/heroes/s_xianrenzhiti.png",
+      "skillDesc": "Hiệu quả giảm sát thương của Ánh Sáng Bảo Vệ tăng 10%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Athena",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Nữ Thần Chiến Thắng-Thánh",
+      "skillIcon": "/images/heroes/s_juexing.png",
+      "skillDesc": "Nữ Thần Chiến Thắng có thể tăng 20% ma công bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Huyền thoại·Athena",
+      "tierName": "CT-Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Gió·Ảnh Vũ-Thánh",
+      "skillIcon": "/images/heroes/s_youhunzhan.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Athena",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Thiên Hoa-Thánh",
+      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Athena",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Athena",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "slug": "athena"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

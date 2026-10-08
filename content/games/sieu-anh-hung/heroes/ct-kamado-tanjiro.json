@@ -1,0 +1,679 @@
+{
+  "id": "80300",
+  "slug": "ct-kamado-tanjiro",
+  "name": "CT-Kamado Tanjiro",
+  "title": "Vũ trụ linh tính • UR CT-Kamado Tanjiro",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-kamado-tanjiro.png",
+  "fullArt": "/images/heroes/full/image_tanzhilang.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Kiếm sĩ Sát Quỷ Đội, là một thiếu niên lương thiện hiền lành, có vết sẹo bên trái trán. Vì muốn cứu em gái Nezuko đã bị biến thành quỷ, nên cùng lúc với việc thảo phạt ác quỷ, cậu cũng không ngừng tìm kẻ thù Kibutsuji Muzan",
+  "skills": [
+    {
+      "name": "Thủy Diện Trảm",
+      "icon": "/images/heroes/s_tanzhilang_s1.png",
+      "description": "Gây ra 350% ST vật lý và 550% ST thuộc tính Thủy với toàn thể phe địch, ngoài ra còn gây thêm ST bằng 1000% Tốc Độ.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Kamado Tanjiro",
+        "description": "Gây ra thêm gấp 3 ST."
+      }
+    },
+    {
+      "name": "Thủy Xa",
+      "icon": "/images/heroes/s_tanzhilang_s2.png",
+      "description": "Kỹ năng trước khi bị đánh: Gây ra ST thực bằng 40% HP bản thân với toàn thể phe địch, 70% Vô Địch 1 lượt.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Kamado Tanjiro",
+        "description": "Giảm toàn bộ tấn công thuộc tính hoặc tấn công kép Ma - vật về 0 trong 1 lượt, có thể kích hoạt 3 lần."
+      }
+    },
+    {
+      "name": "Đả Triều",
+      "icon": "/images/heroes/s_tanzhilang_s3.png",
+      "description": "Kỹ năng phản kích: Tất cả tấn công thuộc tính chuyển thành tấn công vật lý, gây ra 350% ST thực, đồng thời giảm toàn bộ tấn công thuộc tính và Phòng Ngự về 0 cho ngẫu nhiên 3-5 kẻ địch (ST lần này có tác dụng).",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Kamado Tanjiro",
+        "description": "Gây ra thêm gấp 4-6 ST và Trói Buộc mục tiêu."
+      }
+    },
+    {
+      "name": "Hơi Thở Của Nước - Liệt Oa",
+      "icon": "/images/heroes/s_tanzhilang_s6.png",
+      "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy cho toàn phe địch. Tiêu diệt ngay 1 đơn vị ngẫu nhiên. Tối đa hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Kamado Tanjiro",
+        "description": "Bỏ qua hiệu ứng Trọng Thương, số lần hồi sinh tăng lên 4 lần, gây ra gấp 4 lần ST và ST thuộc tính cho mục tiêu, sau khi hồi sinh, chỉnh thể ST tăng lên gấp 3."
+      }
+    },
+    {
+      "name": "Hơi Thở Của Nước - Sinh Sinh Lưu Chuyển",
+      "icon": "/images/heroes/s_tanzhilang_s7.png",
+      "description": "Kỹ năng tiền chiến: Tăng 200% HP/ 79% Giảm Thương, 500% Trúng Đích và Né Tránh cho bản thân, tạo thêm ST thực bằng 50% HP.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Kamado Tanjiro",
+        "description": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi, Vô Địch khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức, khiến phe địch bị Trói Buộc ngẫu nhiên 3-5 người 1 lượt."
+      }
+    },
+    {
+      "name": "Hơi Thở Của Nước - Hoành Thủy Xa",
+      "icon": "/images/heroes/s_tanzhilang_s4.png",
+      "description": "Gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy với toàn thể phe địch và hồi full HP (bỏ qua Trọng Thương), ngoài ra còn gây thêm ST bằng 50% HP.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Kamado Tanjiro",
+        "description": "Gây ra thêm gấp 5 ST và ST thuộc tính."
+      }
+    },
+    {
+      "name": "Hơi Thở Của Nước - Lưu Lưu Vũ",
+      "icon": "/images/heroes/s_tanzhilang_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Ngẫu nhiên tiêu diệt ngay 1 kẻ địch, gây ra 350% ST thực tấn công vật lý cho toàn bộ phe địch và gây Trọng Thương.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Kamado Tanjiro",
+        "description": "Gây ra thêm gấp 10 ST và ST bằng 50% HP, có 100% cơ hội lại gây ra thêm 1 lần ST."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Nước Chảy Vô Hình: Khi xuất hiện cùng lúc với Kikyo và Tsunade Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Khoái Đao Vô Ảnh: Khi xuất hiện cùng lúc với Kenpachi Zaraki Vật Công, HP và Tốc Độ+15%",
+    "Niên Thiếu: Khi xuất hiện cùng lúc với Kusajishi Yachiru Vật Công, HP và Tốc Độ+15%",
+    "Sức Mạnh Ẩn Tàng: Khi xuất hiện cùng lúc với Broli Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Kamado Tanjiro: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Esdese",
+      "icon": "/images/heroes/esdese.png",
+      "amount": 4,
+      "type": "hero"
+    },
+    {
+      "name": "Kamado Tanjiro",
+      "icon": "/images/heroes/kamado-tanjiro.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Kamado Tanjiro",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thủy Diện Trảm",
+      "skillIcon": "/images/heroes/s_tanzhilang_s1.png",
+      "skillDesc": "Gây ra thêm gấp 3 ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Kamado Tanjiro",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Thủy Xa",
+      "skillIcon": "/images/heroes/s_tanzhilang_s2.png",
+      "skillDesc": "Giảm toàn bộ tấn công thuộc tính hoặc tấn công kép Ma - vật về 0 trong 1 lượt, có thể kích hoạt 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Kamado Tanjiro",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đả Triều",
+      "skillIcon": "/images/heroes/s_tanzhilang_s3.png",
+      "skillDesc": "Gây ra thêm gấp 4-6 ST và Trói Buộc mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Kamado Tanjiro",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Hơi Thở Của Nước - Hoành Thủy Xa",
+      "skillIcon": "/images/heroes/s_tanzhilang_s4.png",
+      "skillDesc": "Gây ra thêm gấp 5 ST và ST thuộc tính.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Esdese",
+          "icon": "/images/heroes/esdese.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Kamado Tanjiro",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hơi Thở Của Nước - Lưu Lưu Vũ",
+      "skillIcon": "/images/heroes/s_tanzhilang_s5.png",
+      "skillDesc": "Gây ra thêm gấp 10 ST và ST bằng 50% HP, có 100% cơ hội lại gây ra thêm 1 lần ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Kamado Tanjiro",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Hơi Thở Của Nước - Liệt Oa",
+      "skillIcon": "/images/heroes/s_tanzhilang_s6.png",
+      "skillDesc": "Bỏ qua hiệu ứng Trọng Thương, số lần hồi sinh tăng lên 4 lần, gây ra gấp 4 lần ST và ST thuộc tính cho mục tiêu, sau khi hồi sinh, chỉnh thể ST tăng lên gấp 3.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Kamado Tanjiro",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Hơi Thở Của Nước - Sinh Sinh Lưu Chuyển",
+      "skillIcon": "/images/heroes/s_tanzhilang_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi, Vô Địch khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức, khiến phe địch bị Trói Buộc ngẫu nhiên 3-5 người 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hơi Thở Của Nước - Hoành Thủy Xa",
+      "unlockedSkillIcon": "/images/heroes/s_tanzhilang_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Hơi Thở Của Nước - Lưu Lưu Vũ",
+      "unlockedSkillIcon": "/images/heroes/s_tanzhilang_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "icon": "/images/heroes/kamado-tanjiro.png",
+          "slug": "kamado-tanjiro"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

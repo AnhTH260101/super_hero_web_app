@@ -1,0 +1,765 @@
+{
+  "id": "80200",
+  "slug": "cuonbroli",
+  "name": "CuồnBroli",
+  "title": "Vũ trụ linh tính • UR CuồnBroli",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/cuonbroli.png",
+  "fullArt": "/images/heroes/full/image_Buluoli_2.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "skills": [
+    {
+      "name": "Cuồng - Đạn Khí",
+      "icon": "/images/heroes/s_Buluoli_2_s1.png",
+      "description": "Gây ra gấp 4 lần 350% ST ma pháp và 500% ST thuộc tính Hỏa cho toàn phe địch, khiến mục tiêu Mù 1 lượt.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CuồnBroli",
+        "description": "Khiến tất cả thuộc tính Tấn Công và Phòng Ngự của mục tiêu về 0, duy trì 1 lượt."
+      },
+      "badge": {
+        "level": 1,
+        "description": "Đột phá tiềm lực: （Cuồng - Đạn Khí）Truy kích thêm ST thực bằng 25% HP."
+      }
+    },
+    {
+      "name": "Cuồng - Khinh Công",
+      "icon": "/images/heroes/s_Buluoli_2_s2.png",
+      "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST thực của tấn công ma pháp, giảm 90% Trúng Đích và Bạo Kích cho toàn phe địch, hồi phục 100% HP bản thân, đồng thời thêm 1 lần Vô Địch cho mình, duy trì 1 lượt. Có thể kích hoạt 3 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CuồnBroli",
+        "description": "Khiến mục tiêu Chảy Máu và tất cả thuộc tính Tấn Công Phòng Ngự về 0 (lượt này ST khi tấn công có giá trị), mỗi lượt kích hoạt số lần thành 3 lần."
+      },
+      "badge": {
+        "level": 2,
+        "description": "Đột phá tiềm lực: （Cuồng - Khinh Công）Truy kích thêm ST thực bằng 25% HP."
+      }
+    },
+    {
+      "name": "Cuồng - Pháo Cannon",
+      "icon": "/images/heroes/s_Buluoli_2_s3.png",
+      "description": "Kỹ năng phản kích: Tất cả tấn công thuộc tính chuyển thành tấn công ma pháp, gây ra 350% ST thực cho toàn phe địch, đồng thời hồi full HP (bỏ qua Trọng Thương).",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CuồnBroli",
+        "description": "Đối mục tiêu gây ra thêm ST và ST thuộc tính bằng 1200% Tốc Độ bản thân."
+      },
+      "badge": {
+        "level": 3,
+        "description": "Đột phá tiềm lực: （Cuồng - Pháo Cannon）Trói buộc mục tiêu trong 1 lượt"
+      }
+    },
+    {
+      "name": "Cuồng - Ác Mộng Chấn Động",
+      "icon": "/images/heroes/s_Buluoli_2_s6.png",
+      "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Hỏa. Ngẫu nhiên tiêu diệt 1 đơn vị. Tối đa hồi sinh 3 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CuồnBroli",
+        "description": "Tối đa có thể hồi sinh 4 lần (bỏ qua hiệu ứng Trọng Thương), gây ra gấp 8 lần ST và ST thuộc tính với mục tiêu, sau khi hồi sinh chỉnh thể ST tăng gấp 3 lần."
+      },
+      "badge": {
+        "level": 6,
+        "description": "Đột phá tiềm lực: （Cuồng - Ác Mộng Chấn Động）Bản thân nhận 1 tầng hiệu ứng Thần Ngự"
+      }
+    },
+    {
+      "name": "Cuồng - Giác Tỉnh",
+      "icon": "/images/heroes/s_Buluoli_2_s7.png",
+      "description": "Kỹ năng trước lượt đấu: Tăng 220% HP/ 79% Giảm Thương, 500% Trúng Đích, Bạo Kích và Né Tránh của bản thân, gây ra thêm ST thực bằng 50% HP .",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CuồnBroli",
+        "description": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi, khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức."
+      },
+      "badge": {
+        "level": 7,
+        "description": "Đột phá tiềm lực: （Cuồng - Giác Tỉnh）Nhận 1 lần Hộ Giá"
+      }
+    },
+    {
+      "name": "Cuồng - Vực Sâu",
+      "icon": "/images/heroes/s_Buluoli_2_s4.png",
+      "description": "Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Hỏa cho toàn thể phe địch, đồng thời hồi full HP (bỏ qua Trọng Thương), gây ra thêm ST thực bằng 50% HP",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CuồnBroli",
+        "description": "Gây ra thêm gấp 5 lần ST và ST thuộc tính, đồng thời tiêu diệt ngay mục tiêu có HP ít hơn 80%."
+      },
+      "badge": {
+        "level": 4,
+        "description": "Đột phá tiềm lực: （Cuồng - Vực Sâu）Gây ra thêm gấp 8 lần ST và ST thuộc tính, đồng thời tiêu diệt ngay mục tiêu có HP ít hơn 80%."
+      }
+    },
+    {
+      "name": "Cuồng - Siêu Sao Bạo Tạc",
+      "icon": "/images/heroes/s_Buluoli_2_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Gây ra 350% ST thực của tấn công ma pháp cho toàn phe địch và làm Trọng Thương mục tiêu.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CuồnBroli",
+        "description": "Gây ra thêm gấp 10 lần ST và ST thuộc tính, có 100% cơ hội lại tạo ra thêm 1 lần ST."
+      },
+      "badge": {
+        "level": 5,
+        "description": "Đột phá tiềm lực: （Cuồng - Siêu Sao Bạo Tạc）Truy kích thêm ST thực bằng 30% HP."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Sức Mạnh Diệt Sao: Khi xuất hiện cùng lúc với Shirakami Goku và Frieza Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Tà Ác: Khi xuất hiện cùng lúc với Piccolo Ma Công, HP và Tốc Độ+15%",
+    "Phá Hoại: Khi xuất hiện cùng lúc với Số 18 Ma Công, HP và Tốc Độ+15%",
+    "Tái Sinh Vô Hạn: Khi xuất hiện cùng lúc với Cell Ma Công, HP và Tốc Độ+15%"
+  ],
+  "afterlifeRequirementsText": "Broli: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Broli",
+      "icon": "/images/heroes/icon_Buluoli.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Kefla",
+      "icon": "/images/heroes/icon_Kevlar.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "destiny": [
+    {
+      "name": "Sức Mạnh Diệt Sao",
+      "effect": "Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+      "heroes": [
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/icon_baishenwukong.png"
+        },
+        {
+          "name": "Frieza",
+          "slug": "frieza",
+          "avatar": "/images/heroes/icon_Frieza.png"
+        }
+      ]
+    },
+    {
+      "name": "Tà Ác",
+      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "heroes": [
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "avatar": "/images/heroes/icon_bike.png"
+        }
+      ]
+    },
+    {
+      "name": "Phá Hoại",
+      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "heroes": [
+        {
+          "name": "Số 18",
+          "slug": "so-18",
+          "avatar": "/images/heroes/icon_renzaoren18hao.png"
+        }
+      ]
+    },
+    {
+      "name": "Tái Sinh Vô Hạn",
+      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/icon_shalu.png"
+        }
+      ]
+    }
+  ],
+  "effects": [
+    "Vô Địch",
+    "Hồi Sinh",
+    "Hộ Giá",
+    "Thần Ngự",
+    "Miễn Khống Chế",
+    "Tiêu Diệt Ngay",
+    "Mù",
+    "Chảy Máu",
+    "Trói Buộc",
+    "Trọng Thương"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CuồnBroli",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Cuồng - Đạn Khí",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s1.png",
+      "skillDesc": "Khiến tất cả thuộc tính Tấn Công và Phòng Ngự của mục tiêu về 0, duy trì 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CuồnBroli",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Cuồng - Khinh Công",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s2.png",
+      "skillDesc": "Khiến mục tiêu Chảy Máu và tất cả thuộc tính Tấn Công Phòng Ngự về 0 (lượt này ST khi tấn công có giá trị), mỗi lượt kích hoạt số lần thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CuồnBroli",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Cuồng - Pháo Cannon",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s3.png",
+      "skillDesc": "Đối mục tiêu gây ra thêm ST và ST thuộc tính bằng 1200% Tốc Độ bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CuồnBroli",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Cuồng - Vực Sâu",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s4.png",
+      "skillDesc": "Gây ra thêm gấp 5 lần ST và ST thuộc tính, đồng thời tiêu diệt ngay mục tiêu có HP ít hơn 80%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kefla",
+          "icon": "/images/heroes/kefla.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CuồnBroli",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Cuồng - Siêu Sao Bạo Tạc",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s5.png",
+      "skillDesc": "Gây ra thêm gấp 10 lần ST và ST thuộc tính, có 100% cơ hội lại tạo ra thêm 1 lần ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CuồnBroli",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Cuồng - Ác Mộng Chấn Động",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s6.png",
+      "skillDesc": "Tối đa có thể hồi sinh 4 lần (bỏ qua hiệu ứng Trọng Thương), gây ra gấp 8 lần ST và ST thuộc tính với mục tiêu, sau khi hồi sinh chỉnh thể ST tăng gấp 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CuồnBroli",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Cuồng - Giác Tỉnh",
+      "skillIcon": "/images/heroes/s_Buluoli_2_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi, khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Cuồng - Vực Sâu",
+      "unlockedSkillIcon": "/images/heroes/s_Buluoli_2_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Cuồng - Siêu Sao Bạo Tạc",
+      "unlockedSkillIcon": "/images/heroes/s_Buluoli_2_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Broli",
+          "icon": "/images/heroes/broli.png",
+          "slug": "broli"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

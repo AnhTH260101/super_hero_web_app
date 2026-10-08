@@ -1,0 +1,558 @@
+{
+  "id": "32400",
+  "slug": "ct-samurai",
+  "name": "CT-Samurai",
+  "title": "Vũ trụ nguyên tố • SSR CT-Samurai",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-samurai.png",
+  "fullArt": "/images/heroes/full/image_bawangwan.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Kiếm sĩ lang thang hào sảng nhưng khát rượu, không ngừng tìm kiếm cảnh giới kiếm thuật cao hơn. Tay cầm danh đao từng bước tiến lên trên chuến hành trình. Hắn có tính cách chính phái đầy nhiệt huyết và phong độ sảng khoái lưu linh, là một kiếm hiệp thật sự.",
+  "skills": [
+    {
+      "name": "Hồ Nguyệt Trảm-Thánh",
+      "icon": "/images/heroes/s_lingnengzhiren.png",
+      "description": "Vung kiếm lên phóng ra một đạo kiếm khí nhắm vào kẻ địch và mục tiêu phía sau hắn tạo 350% sát thương vật lí và 80% sát thương thuộc tính nước, tạo thêm 20% tổn thất HP lên xếp trước, đồng thời giảm 20% chính xác và 20% né tránh của từ 1 - 3 tên địch (kéo dài 1 hiệp, vô hiệu với mục tiêu nhất định chính xác và nhất định né tránh)",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng Sĩ·Samurai",
+        "description": "Hồ Nguyệt Trảm làm choáng mục tiêu xếp sau mặc định 1 hiệp, mỗi lần dùng kiếm khí sẽ phục hồi 18% giới hạn HP bản thân"
+      }
+    },
+    {
+      "name": "Túy Kích-Thánh",
+      "icon": "/images/heroes/s_laoshuyao.png",
+      "description": "Túy Kích (kĩ năng BUFF trước hiệp): sương rượu hộ thể, mỗi lần dùng tăng 350% toàn bộ thuộc tính và HP của bản thân, tối đa dồn 3 tầng, phòng ngự thuộc tính nhân đôi",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu Sĩ·Samurai",
+        "description": "Túy Kích mỗi tăng 1 tầng sương rượu sẽ tăng 10% giảm thương và 5% né tránh cho bản thân, tối đa dồn 3 tầng"
+      }
+    },
+    {
+      "name": "Thiên Bá Phong Thần Trảm-Thánh",
+      "icon": "/images/heroes/s_kuangyezhifeng.png",
+      "description": "Cầm thanh kiếm khổng lồ tạo một đòn hủy thiên diệt địa, nhắm vào toàn bộ địch tạo 350% sát thương vật lí và 160% sát thương thuộc tính nước, xóa hiệu quả phụ của bản thân, giảm 20% tốc độ của nhân vật nào đó bên địch (kéo dài 2 hiệp)",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "CT-Anh Hùng·Samurai",
+        "description": "Phán xét ngẫu nhiên một nhân vật của địch, nếu tốc độ và HP của địch đều ít hơn Samurai thì làm choáng 1 hiệp, nếu nhân vật này HP còn lại ít hơn 15% thì tạo sát thương x3"
+      }
+    },
+    {
+      "name": "Nước·Túc Đao-Thánh",
+      "icon": "/images/heroes/s_laoshuyao.png",
+      "description": "Tăng effect tấn công thuộc tính nước điểm tuyệt đối.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền Thuyết·Samurai",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Lốc Xoáy-Thánh",
+      "icon": "/images/heroes/s_kuangyezhifeng.png",
+      "description": "Tử vong xong tăng 350% phòng ngự và HP toàn đội, xóa hiệu quả BUFF của tất cả kẻ địch trực tuyến.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Samurai",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Anh Hùng Phong Bạo: Khi ra trận cùng lúc với Vehito, Blademaster và Lục Đạo Tiên Nhân thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Kiếm Khách Tam Hiệp: Khi ra trận cùng lúc với Master Yi và Hoàng Phủ Kiếm thì ma công, HP và tốc độ+15%",
+    "Phá Thiên Giáng Ma: Khi ra trận cùng lúc với Na Tra thì vật công, HP và tốc độ+15%",
+    "Khắc Đao: Khi trang bị Đao Thần Ảo Độc thì vật công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng Sĩ·Samurai",
+      "tierName": "CT-Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Hồ Nguyệt Trảm-Thánh",
+      "skillIcon": "/images/heroes/s_lingnengzhiren.png",
+      "skillDesc": "Hồ Nguyệt Trảm làm choáng mục tiêu xếp sau mặc định 1 hiệp, mỗi lần dùng kiếm khí sẽ phục hồi 18% giới hạn HP bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu Sĩ·Samurai",
+      "tierName": "CT-Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Túy Kích-Thánh",
+      "skillIcon": "/images/heroes/s_laoshuyao.png",
+      "skillDesc": "Túy Kích mỗi tăng 1 tầng sương rượu sẽ tăng 10% giảm thương và 5% né tránh cho bản thân, tối đa dồn 3 tầng",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "CT-Anh Hùng·Samurai",
+      "tierName": "CT-Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thiên Bá Phong Thần Trảm-Thánh",
+      "skillIcon": "/images/heroes/s_kuangyezhifeng.png",
+      "skillDesc": "Phán xét ngẫu nhiên một nhân vật của địch, nếu tốc độ và HP của địch đều ít hơn Samurai thì làm choáng 1 hiệp, nếu nhân vật này HP còn lại ít hơn 15% thì tạo sát thương x3",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền Thuyết·Samurai",
+      "tierName": "CT-Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Nước·Túc Đao-Thánh",
+      "skillIcon": "/images/heroes/s_laoshuyao.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Blademaster",
+          "icon": "/images/heroes/blademaster.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Samurai",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Lốc Xoáy-Thánh",
+      "skillIcon": "/images/heroes/s_kuangyezhifeng.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Samurai",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Samurai",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Samurai",
+          "icon": "/images/heroes/samurai.png",
+          "slug": "samurai"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

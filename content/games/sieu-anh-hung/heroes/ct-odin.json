@@ -1,0 +1,639 @@
+{
+  "id": "32500",
+  "slug": "ct-odin",
+  "name": "CT-Odin",
+  "title": "Vũ trụ nguyên tố • UR CT-Odin",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-odin.png",
+  "fullArt": "/images/heroes/full/image_aoding.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Cha các vị thần, tay cầm ngọn thương vĩnh hằng, bách phát bách trúng, nếu được Odin che chở trong chiến tranh sẽ có tinh thần của gấu, dũng cảm của sói, đánh đâu thắng đó!",
+  "skills": [
+    {
+      "name": "Bão Quạ-Thánh",
+      "icon": "/images/heroes/s_ad_crow.png",
+      "description": "Tạo 350% sát thương ma pháp lên xếp sau của địch, tạo thêm 220% sát thương thuộc tính lửa, phục hồi cho bản thân 20% HP.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng Sĩ·Odin",
+        "description": "Chuyển hóa 50% vật công của bản thân thành tấn công thuộc tính lửa, tăng 20% tỉ lệ bạo kích"
+      }
+    },
+    {
+      "name": "Hoàng Hôn Chư Thần-Thánh",
+      "icon": "/images/heroes/s_ad_guangjian.png",
+      "description": "Tạo 350% sát thương ma pháp lên toàn bộ địch, tạo thêm 130% sát thương thuộc tính lửa, giảm 30% điểm phòng ngự của toàn bộ địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu Sĩ·Odin",
+        "description": "Tăng 15% tỉ lệ chính xác và né tránh cho bản thân, làm choáng mục tieu mặc định"
+      }
+    },
+    {
+      "name": "Chủ Thần Phẫn Nộ-Thánh",
+      "icon": "/images/heroes/s_ad_angry.png",
+      "description": "Trước khi vào hiệp xóa debuff và miễn dịch 1 lần làm choáng của địch cho bản thân, tăng cho bản thân 30% giảm thương, phục hồi 350% HP bản thân.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "CT-Anh Hùng·Odin",
+        "description": "Tăng 50% toàn bộ thuộc tính cho bản thân, tăng 100% phòng ngự thuộc tính"
+      }
+    },
+    {
+      "name": "Cuồng Chiến-Thánh",
+      "icon": "/images/heroes/s_ad_guangjian.png",
+      "description": "Tăng effect tấn công thuộc tính lửa điểm tuyệt đối",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền Thuyết·Odin",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Trừng Giới-Thánh",
+      "icon": "/images/heroes/s_ad_angry.png",
+      "description": "Tử vong xong giảm 350% điểm phòng ngự của toàn bộ địch, kéo dài 2 hiệp. Xóa hiệu quả buff của kẻ địch trực tuyến",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Odin",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Anh Dũng: Khi ra trận cùng lúc với Nidhogg và Dương Tiễn thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Nguồn Trí Tuệ: Khi ra trận cùng lúc với Lục Đạo Tiên Nhân và Athena thì vật công, HP và tốc độ+15%",
+    "Cha Các Vị Thần: Khi ra trận cùng lúc với Zeus thì ma công, HP và tốc độ+15%",
+    "Cửu Dạ: Khi trang bị Thương Vĩnh Hằng thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Odin: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Odin",
+      "icon": "/images/heroes/odin.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Zeus",
+      "icon": "/images/heroes/zeus.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Poseidon",
+      "icon": "/images/heroes/poseidon.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng Sĩ·Odin",
+      "tierName": "CT-Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Bão Quạ-Thánh",
+      "skillIcon": "/images/heroes/s_ad_crow.png",
+      "skillDesc": "Chuyển hóa 50% vật công của bản thân thành tấn công thuộc tính lửa, tăng 20% tỉ lệ bạo kích",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu Sĩ·Odin",
+      "tierName": "CT-Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hoàng Hôn Chư Thần-Thánh",
+      "skillIcon": "/images/heroes/s_ad_guangjian.png",
+      "skillDesc": "Tăng 15% tỉ lệ chính xác và né tránh cho bản thân, làm choáng mục tieu mặc định",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "CT-Anh Hùng·Odin",
+      "tierName": "CT-Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Chủ Thần Phẫn Nộ-Thánh",
+      "skillIcon": "/images/heroes/s_ad_angry.png",
+      "skillDesc": "Tăng 50% toàn bộ thuộc tính cho bản thân, tăng 100% phòng ngự thuộc tính",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền Thuyết·Odin",
+      "tierName": "CT-Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Cuồng Chiến-Thánh",
+      "skillIcon": "/images/heroes/s_ad_guangjian.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Zeus",
+          "icon": "/images/heroes/zeus.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Odin",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Trừng Giới-Thánh",
+      "skillIcon": "/images/heroes/s_ad_angry.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Odin",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Odin",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Odin",
+          "icon": "/images/heroes/odin.png",
+          "slug": "odin"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

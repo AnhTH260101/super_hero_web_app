@@ -1,0 +1,64 @@
+{
+  "id": "ace",
+  "slug": "ace",
+  "name": "Ace",
+  "title": "Vũ trụ nguyên tố • SSR Ace",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ace.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thanh niên có vấn đề nổi tiếng, giỏi ăn quỵt, vào nhà không gõ cửa, trước khi ngủ còn dám chơi lửa. Còn thêm đứa em trai người cao su zombie ở nhà. Tóm lại cuộc đời rất hoàn chỉnh.",
+  "skills": [
+    {
+      "name": "Xung kích lửa đỏ",
+      "type": "active",
+      "description": "Dùng sức mạnh của lửa tạo sát thương ma pháp 350% cho mục tiêu, khi trên người mục tiêu có hiệu quả thiêu đốt thì tạo thêm 100% sát thương ma pháp.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Sóng lửa",
+      "type": "ultimate",
+      "description": "Tạo 1 lần sát thương ma pháp 350% cho toàn bộ đơn vị địch, có 50% tỉ lệ khiến mục tiêu bị thiêu đốt, kẻ bị thiêu mỗi hiệp giảm 5% HP, kéo dài 3 hiệp.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Khiên lửa đỏ",
+      "type": "talent",
+      "description": "Tạo 1 lần sát thương ma pháp cho mục tiêu, đồng thời lấy lửa vây quanh người đồng đội phe ta, khi đồng đội bị tấn công, kẻ tấn công sẽ bị phản đòn 350% do sát thương của hắn gây ra, không thể phòng ngự.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Băng lửa: Ma công +20% khi ra trận cùng lúc với card2",
+    "Anh em: HP +20% khi ra trận cùng lúc với card2",
+    "Mình trần ra trận: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Quá khứ hào hùng: Vật công +30% khi ra trận cùng lúc với card2, card3 và card4"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

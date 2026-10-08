@@ -1,0 +1,576 @@
+{
+  "id": "8700",
+  "slug": "master-yi",
+  "name": "Master Yi",
+  "title": "Vũ trụ nguyên tố • SSR Master Yi",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/master-yi.png",
+  "fullArt": "/images/heroes/full/image_wujijiansheng.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Kiếm sĩ tham thấu đạo vô cực, cơ thể cao lớn với ánh mắt kì lạ đột phá giới hạn bản thân, lĩnh ngộ cảnh giới kiếm thuật cao hơn!",
+  "skills": [
+    {
+      "name": "Đột Tập",
+      "icon": "/images/heroes/icon_maze_wind.png",
+      "description": "Xông vào chiến trường dùng kiếm trong tay nhắm vào 1 - 3 kẻ địch ngẫu nhiên tạo 350% sát thương vật lí và 80% sát thương thuộc tính đất",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Yi",
+        "description": "Tạo thêm 50% sát thương vật lí, tạo hiệu quả chảy máu"
+      }
+    },
+    {
+      "name": "Suy Tưởng",
+      "icon": "/images/heroes/icon_maze_winddfs.png",
+      "description": "Trước khi vào hiệp sẽ hoạt hóa cơ thể, phục hồi 350% HP bản thân, tăng 10% toàn bộ thuộc tính, kéo dài 2 hiệp, tăng phòng ngự thuộc tính 50%",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Yi",
+        "description": "Tăng 10% hiệu quả cộng thêm của toàn bộ thuộc tính, tăng 10% giảm thương"
+      }
+    },
+    {
+      "name": "Vô Cực Kiếm Đạo",
+      "icon": "/images/heroes/icon_maze_wish.png",
+      "description": "Tấn công nhanh, nhắm vào toàn bộ địch tạo 350% sát thương vật lí và 160% sát thương thuộc tính đất",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Yi",
+        "description": "Tạo thêm 100% sát thương vật lí lên nhân vật có HP cao nhất bên địch, giảm 10% giảm thương của hắn (kéo dài 1 hiệp)"
+      }
+    },
+    {
+      "name": "Đất·Dẫn Dắt",
+      "icon": "/images/heroes/icon_maze_winddfs.png",
+      "description": "Tăng effect tấn công thuộc tính đất điểm tuyệt đối.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Yi",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Khiên Năng Lượng",
+      "icon": "/images/heroes/icon_maze_wish.png",
+      "description": "Kĩ năng trước trận, khiến mục tiêu mặc định bên địch mù lòa 1 hiệp, tạo hiệu quả suy yếu, đồng thời tăng 350% vật công của bản thân (kéo dài 2 hiệp).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Yi",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Vô Cực Đạo: Khi ra trận cùng lúc với Tề Thiên Đại Thánh và Ichigo thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Thiên Phú: Khi ra trận cùng lúc với Lục Đạo Tiên Nhân và Hằng Nga thì vật công, HP và tốc độ+15%",
+    "Kiếm Khách Tam Hiệp: Khi ra trận cùng lúc với Samurai và Hoàng Phủ Kiếm thì ma công, HP và tốc độ+15%",
+    "Ảo Vũ: Khi trang bị Ảo Ảnh Vũ thì vật công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Yi",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đột Tập",
+      "skillIcon": "/images/heroes/icon_maze_wind.png",
+      "skillDesc": "Tạo thêm 50% sát thương vật lí, tạo hiệu quả chảy máu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Yi",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Suy Tưởng",
+      "skillIcon": "/images/heroes/icon_maze_winddfs.png",
+      "skillDesc": "Tăng 10% hiệu quả cộng thêm của toàn bộ thuộc tính, tăng 10% giảm thương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Yi",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Vô Cực Kiếm Đạo",
+      "skillIcon": "/images/heroes/icon_maze_wish.png",
+      "skillDesc": "Tạo thêm 100% sát thương vật lí lên nhân vật có HP cao nhất bên địch, giảm 10% giảm thương của hắn (kéo dài 1 hiệp)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Yi",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Đất·Dẫn Dắt",
+      "skillIcon": "/images/heroes/icon_maze_winddfs.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Yi",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Khiên Năng Lượng",
+      "skillIcon": "/images/heroes/icon_maze_wish.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Yi",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Yi",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Master Yi",
+          "icon": "/images/heroes/master-yi.png",
+          "slug": "master-yi"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

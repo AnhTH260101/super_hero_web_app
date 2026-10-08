@@ -1,0 +1,30 @@
+[
+  {
+    "code": "SIEUVIP888",
+    "rewards": "1000 Kim Cương, 10 Vé Quay Cao Cấp, 50 Vạn Vàng",
+    "expiration": "Vô thời hạn",
+    "status": "active",
+    "serverNote": "Dành cho tân thủ toàn server"
+  },
+  {
+    "code": "HERO2026",
+    "rewards": "Rương Chọn Tướng SSR x1, 5 Rương Trang Bị Cam",
+    "expiration": "30/11/2026",
+    "status": "active",
+    "serverNote": "Mỗi tài khoản chỉ nhập 1 lần"
+  },
+  {
+    "code": "TRIEUTAPTOP1",
+    "rewards": "500 Kim Cương, 20 Thuốc Thể Lực, 100 Đá Nâng Cấp",
+    "expiration": "15/10/2026",
+    "status": "active",
+    "serverNote": "Mã tri ân sự kiện mừng máy chủ mới"
+  },
+  {
+    "code": "HEROBETA01",
+    "rewards": "300 Kim Cương, 5 Vé Quay Thường",
+    "expiration": "01/01/2025",
+    "status": "expired",
+    "serverNote": "Mã thử nghiệm Closed Beta cũ"
+  }
+]

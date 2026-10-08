@@ -1,0 +1,304 @@
+{
+  "id": "2500",
+  "slug": "dracula",
+  "name": "Dracula",
+  "title": "Vũ trụ linh tính • SSR Dracula",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/dracula.png",
+  "fullArt": "/images/heroes/full/image_dracula.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Đây là một huyền thoại, thủy tổ của Quỷ Hút Máu. Hắn không biết đã sống ở hành tinh này bao nhiêu năm, sinh ra bao nhiêu hậu duệ. Đến hôm nay, tuy hắn đã không còn sức mạnh như xưa, như uy nghiêm còn đó.",
+  "skills": [
+    {
+      "name": "Vết cắn đêm",
+      "icon": "/images/heroes/s_xixueliaoya.png",
+      "description": "Dùng răng nanh tạo 1 lần 350% sát thương vật lí cho mục tiêu, đồng thời hồi phục HP bằng 20% sát thương, hút 5 điểm nộ khí của đối phương, ở trạng thái đêm khuya tăng thêm 10% lượng máu hút và 5 điểm nộ khí.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Dracula",
+        "description": "Kĩ năng\nTăng hiệu quả Vết Cắn Đêm: \n Vết Cắn Đêm tăng 50% sát thương."
+      }
+    },
+    {
+      "name": "Sinh mạng vĩnh hằng",
+      "icon": "/images/heroes/s_fpe.png",
+      "description": "Khi chết trong chiến đấu có tỉ lệ hồi sinh. Hồi sinh xong tăng 350% phòng ngự, kéo dài 1 hiệp, đồng thời tăng 50 điểm nộ khí phe ta.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Dracula",
+        "description": "Kĩ năng\nTăng hiệu quả Sinh Mạng Vĩnh Hằng: \nSinh Mạng Vĩnh Hằng dùng xong, hiệu quả phòng ngự và thời gian kéo dài tăng gấp đôi."
+      }
+    },
+    {
+      "name": "Hình thái đêm khuya",
+      "icon": "/images/heroes/s_heiyexingtai.png",
+      "description": "Khi phát động tấn công thường có thể vào hình thái đêm khuya, khiến sát thương cuối cùng phải chịu trong hiệp này giảm 50%, đồng thời tăng 350% vật công, ma công và tốc độ, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Dracula",
+        "description": "Kĩ năng\nTăng hiệu quả Hình Thái Đêm Khuya: \n Hình Thái Đêm Khuya giảm tốc độ mục tiêu đã định còn 0."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thù truyền kiếp: Vật công +20% khi ra trận cùng lúc với Đồ tể Pudge",
+    "Xuất quỷ nhập thần: Phòng ngự và tốc độ +15% khi ra trận cùng lúc với Thằng Hề, Pyramid Head và Người Nhện",
+    "Bàn tay đen: HP và tốc độ +15% khi ra trận cùng lúc với Alessa và Magneto",
+    "Biến thân: Ma công và HP +20% khi ra trận cùng lúc với Luffy, Sonkoku và Yasuke"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Dracula",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Vết cắn đêm",
+      "skillIcon": "/images/heroes/s_xixueliaoya.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Vết Cắn Đêm: \n Vết Cắn Đêm tăng 50% sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Dracula",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Sinh mạng vĩnh hằng",
+      "skillIcon": "/images/heroes/s_fpe.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Sinh Mạng Vĩnh Hằng: \nSinh Mạng Vĩnh Hằng dùng xong, hiệu quả phòng ngự và thời gian kéo dài tăng gấp đôi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Dracula",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Hình thái đêm khuya",
+      "skillIcon": "/images/heroes/s_heiyexingtai.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Hình Thái Đêm Khuya: \n Hình Thái Đêm Khuya giảm tốc độ mục tiêu đã định còn 0.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Dracula",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Dracula",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Dracula",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Dracula",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Dracula",
+          "icon": "/images/heroes/dracula.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

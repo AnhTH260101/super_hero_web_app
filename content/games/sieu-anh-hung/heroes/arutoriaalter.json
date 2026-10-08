@@ -1,0 +1,673 @@
+{
+  "id": "68100",
+  "slug": "arutoriaalter",
+  "name": "Arutoria·Alter",
+  "title": "Vũ trụ nguyên tố • UR Arutoria·Alter",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/arutoriaalter.png",
+  "fullArt": "/images/heroes/full/image_saber1.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Bị Chén Thánh nguyền rủa, bộc lộ sự tàn nhẫn vô tình của King Arthur. Đây mới là hình tượng \"Vị vua lý tưởng\" mà King Arthur theo đuổi.",
+  "skills": [
+    {
+      "name": "Ngăn Phản Đòn",
+      "icon": "/images/heroes/s_saber1_s1.png",
+      "description": "Skill phản đòn: Sau khi chịu tấn công có 99% tỉ lệ dùng kiếm xoắn ốc tấn công mục tiêu, tạo 350% ST vật lý và ST thực bằng 600% ST t.tính Gió lên mục tiêu. Làm mục tiêu trọng thương, trong 1 hiệp ko thể hồi HP. Mỗi cuộc chiến chỉ phát động 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Arutoria·Alter",
+        "description": "Tăng 100% lực phòng ngự tổng thể (được dồn 2 lần). Mỗi lần hồi 25% HP. Nếu HP mục tiêu dưới 50% sẽ làm mục tiêu hỗn loạn 1 hiệp. Nếu sát thương lần này của kẻ tấn công ko phá được phòng ngự hoặc miss, sẽ kèm thêm ST thực bằng lực phòng ngự."
+      }
+    },
+    {
+      "name": "Ám Ảnh Đột Kích",
+      "icon": "/images/heroes/s_saber1_s2.png",
+      "description": "Tấn công toàn thể kẻ địch, tạo 350% Vật Công và 400% ST t.tính Gió. Tạo thêm x3 sát thương đối với tất cả mục tiêu địch có phòng ngự thấp hơn bản thân, khiến chúng hỗn loạn 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Arutoria·Alter",
+        "description": "Tạo hiệu quả phá giáp lên mục tiêu có điểm phòng ngự cao hơn bản thân, -99% điểm hộ giáp, làm mục tiêu hôn mê. Bản thân tăng phòng ngự tổng thể (Cứ 1 mục tiêu có điểm phòng ngự cao hơn bản thân sẽ tăng 100%)."
+      }
+    },
+    {
+      "name": "Thủ lĩnh máu sắt",
+      "icon": "/images/heroes/s_saber1_s3.png",
+      "description": "Chế giễu 1-3 mục tiêu, cộng hiệu quả phản đòn cho bản thân, bất kỳ kẻ địch tấn công bản thân đều có 80% tỉ lệ chịu 50% ST tạo ra và ST thực bằng 30% điểm phòng ngự của Alter.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Arutoria·Alter",
+        "description": "Hiệu quả phản đòn biến thành: 100% tỉ lệ tạo 80% ST phải chịu và ST thực bằng 50% trị số phòng ngự lên kẻ tấn công. Cộng hiệu quả tụt máu cho toàn thể địch, mỗi hiệp tạo ST thực bằng lực phòng ngự, kéo dài 2 hiệp, +500% Né."
+      }
+    },
+    {
+      "name": "Lễ Vật Thánh",
+      "icon": "/images/heroes/s_saber1_s6.png",
+      "description": "Skill trước hiệp: Liên tục tấn công kẻ địch, tạo 350% ST vật lý và 1000% ST t.tính Gió lên toàn thể phe địch, hồi tất cả HP đã mất. Tăng điểm phòng ngự cho bản thân, đồng đội càng ít thì tăng càng nhiều, tối đa tăng 800%, cứ có thêm 1 đồng đội sẽ giảm 200%.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Arutoria·Alter",
+        "description": "Ngẫu nhiên chọn 1 mục tiêu, phá nát hộ giáp của kẻ địch, giảm 99% phòng ngự và khiến mục tiêu tụt máu, mỗi hiệp tạo ST bằng trị số phòng ngự lần này đã mất, kéo dài 2 hiệp. Làm mục tiêu này hỗn loạn 1 hiệp."
+      }
+    },
+    {
+      "name": "Gia Hộ Xa Xôi",
+      "icon": "/images/heroes/s_saber1_s7.png",
+      "description": "Skill tử trận: Khi tử trận sẽ hồi sinh, hồi tất cả HP, bản thân tăng 350% phòng ngự tổng thể, kéo dài 3 hiệp. Sau tử trận sẽ có 60% tỉ lệ hồi sinh, tỉ lệ này sẽ tăng dần 40% cho những lần kế tiếp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Arutoria·Alter",
+        "description": "Bản thân tăng 200% Vật & Ma Công và tấn công t.tính. Giảm 30% bạo kích chính xác của mục tiêu. Tạo thêm ST thực bằng trị số phòng ngự bản thân lên top 3 kẻ địch có phòng ngự thấp nhất, và làm các kẻ địch khác hôn mê. Tỉ lệ hồi sinh giảm còn 30%."
+      }
+    },
+    {
+      "name": "Ma Lực",
+      "icon": "/images/heroes/s_saber1_s4.png",
+      "description": "Skill trước trận: Tăng 350% phòng ngự tổng thể và 100% Vật & Ma Công cho toàn thể đồng đội, kéo dài 2 hiệp. Cộng 1 tầng hiệu quả Vô Địch cho bản thân, có thể ngăn 5 lần sát thương, chế giễu toàn thể mục tiêu địch, tăng vĩnh viễn 200% Trúng, Né và bạo kích.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Arutoria·Alter",
+        "description": "Tăng vĩnh viễn 79% tỉ lệ giảm thương tổng thể, vĩnh viễn miễn dịch Đứng Im, Hôn Mê, Hóa Đá, Choáng, Tsukuyomi, Chế Giễu, Mê Hoặc, Băng Phong. Tăng 50% giới hạn HP."
+      }
+    },
+    {
+      "name": "‎Excalibur·Morgan",
+      "icon": "/images/heroes/s_saber1_s5.png",
+      "description": "Giải phóng lực morgan trên kiếm thánh, tạo 350% ST vật lý và 900% ST thực t.tính Gió, hồi ít HP (Điểm HP bằng 5% lực phòng ngự)",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Arutoria·Alter",
+        "description": "Kèm ST thực bằng 600% trị số phòng ngự lên tất cả mục tiêu. Tạo thêm x6 ST lên tất cả kẻ địch có trị số phòng ngự thấp hơn bản thân, và khiến kẻ địch hỗn loạn 1 hiệp. Tạo x3 ST lên kẻ địch có trị số phòng ngự cao hơn bản thân, hút 20% trị số phòng ngự của kẻ địch."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Phong lâm sơn hỏa: Cùng Lữ Bố và Yagami Iori ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Vua một nước: Cùng Boa Hancock ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Sứ đồ kiếm: Cùng Mihawk ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Phong thái nữ vương: Cùng Erza ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "saber: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Erza",
+      "icon": "/images/heroes/erza.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "saber",
+      "icon": "/images/heroes/saber.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Arutoria·Alter",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Ngăn Phản Đòn",
+      "skillIcon": "/images/heroes/s_saber1_s1.png",
+      "skillDesc": "Tăng 100% lực phòng ngự tổng thể (được dồn 2 lần). Mỗi lần hồi 25% HP. Nếu HP mục tiêu dưới 50% sẽ làm mục tiêu hỗn loạn 1 hiệp. Nếu sát thương lần này của kẻ tấn công ko phá được phòng ngự hoặc miss, sẽ kèm thêm ST thực bằng lực phòng ngự.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Arutoria·Alter",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Ám Ảnh Đột Kích",
+      "skillIcon": "/images/heroes/s_saber1_s2.png",
+      "skillDesc": "Tạo hiệu quả phá giáp lên mục tiêu có điểm phòng ngự cao hơn bản thân, -99% điểm hộ giáp, làm mục tiêu hôn mê. Bản thân tăng phòng ngự tổng thể (Cứ 1 mục tiêu có điểm phòng ngự cao hơn bản thân sẽ tăng 100%).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Erza",
+          "icon": "/images/heroes/erza.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Arutoria·Alter",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Thủ lĩnh máu sắt",
+      "skillIcon": "/images/heroes/s_saber1_s3.png",
+      "skillDesc": "Hiệu quả phản đòn biến thành: 100% tỉ lệ tạo 80% ST phải chịu và ST thực bằng 50% trị số phòng ngự lên kẻ tấn công. Cộng hiệu quả tụt máu cho toàn thể địch, mỗi hiệp tạo ST thực bằng lực phòng ngự, kéo dài 2 hiệp, +500% Né.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Arutoria·Alter",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Ma Lực",
+      "skillIcon": "/images/heroes/s_saber1_s4.png",
+      "skillDesc": "Tăng vĩnh viễn 79% tỉ lệ giảm thương tổng thể, vĩnh viễn miễn dịch Đứng Im, Hôn Mê, Hóa Đá, Choáng, Tsukuyomi, Chế Giễu, Mê Hoặc, Băng Phong. Tăng 50% giới hạn HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Erza",
+          "icon": "/images/heroes/erza.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Arutoria·Alter",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "‎Excalibur·Morgan",
+      "skillIcon": "/images/heroes/s_saber1_s5.png",
+      "skillDesc": "Kèm ST thực bằng 600% trị số phòng ngự lên tất cả mục tiêu. Tạo thêm x6 ST lên tất cả kẻ địch có trị số phòng ngự thấp hơn bản thân, và khiến kẻ địch hỗn loạn 1 hiệp. Tạo x3 ST lên kẻ địch có trị số phòng ngự cao hơn bản thân, hút 20% trị số phòng ngự của kẻ địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Arutoria·Alter",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Lễ Vật Thánh",
+      "skillIcon": "/images/heroes/s_saber1_s6.png",
+      "skillDesc": "Ngẫu nhiên chọn 1 mục tiêu, phá nát hộ giáp của kẻ địch, giảm 99% phòng ngự và khiến mục tiêu tụt máu, mỗi hiệp tạo ST bằng trị số phòng ngự lần này đã mất, kéo dài 2 hiệp. Làm mục tiêu này hỗn loạn 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Arutoria·Alter",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Gia Hộ Xa Xôi",
+      "skillIcon": "/images/heroes/s_saber1_s7.png",
+      "skillDesc": "Bản thân tăng 200% Vật & Ma Công và tấn công t.tính. Giảm 30% bạo kích chính xác của mục tiêu. Tạo thêm ST thực bằng trị số phòng ngự bản thân lên top 3 kẻ địch có phòng ngự thấp nhất, và làm các kẻ địch khác hôn mê. Tỉ lệ hồi sinh giảm còn 30%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Ma Lực",
+      "unlockedSkillIcon": "/images/heroes/s_saber1_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "‎Excalibur·Morgan",
+      "unlockedSkillIcon": "/images/heroes/s_saber1_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

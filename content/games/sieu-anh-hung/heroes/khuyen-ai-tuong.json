@@ -1,0 +1,655 @@
+{
+  "id": "65400",
+  "slug": "khuyen-ai-tuong",
+  "name": "Khuyển Đại Tướng",
+  "title": "Zombie Bentu • UR Khuyển Đại Tướng",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/khuyen-ai-tuong.png",
+  "fullArt": "/images/heroes/full/image_quandajiang.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Cha của Khuyển Dạ Xoa và Sesshomaru, có yêu lực cực mạnh, tay cầm 3 thanh yêu đao \"Tessaiga\", \"Tenseiga\" và \"So'unga\" thống lĩnh khuyển yêu!",
+  "skills": [
+    {
+      "name": "Khuyển Vương Trảo",
+      "icon": "/images/heroes/s_quandajiang_skill1.png",
+      "description": "Tấn công 1-3 mục tiêu, tạo 350% ST vật lý và 250% ST t.tính Gió lên mục tiêu (Tấn công càng ít mục tiêu, ST càng cao: Khi tấn công 1 mục tiêu, tạo thêm X2 ST; Khi tấn công 2 mục tiêu, tạo thêm X1 ST).",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Khuyển Đại Tướng",
+        "description": "Khiến mục tiêu tụt máu, mỗi hiệp tạo ST tụt máu bằng 200%-800% Vật & Ma Công (Bỏ qua giảm thương, không thể bỏ qua phòng ngự), kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Tessaiga-Bộc Lưu Phá",
+      "icon": "/images/heroes/s_quandajiang_skill2.png",
+      "description": "Skill phản đòn: Sau khi chịu tấn công, có 99% tỉ lệ phản đòn mục tiêu tấn công mình, phản đòn tất cả ST bản thân chịu cho mục tiêu, tạo thêm 350% ST ma pháp và 230% ST t.tính Gió, mỗi hiệp tối đa phát động 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Khuyển Đại Tướng",
+        "description": "Sát thương phản đòn nâng cấp lên sát thương thực, số lần phản đòn tăng đến 3 lần."
+      }
+    },
+    {
+      "name": "Tenseiga-Hộ Thể",
+      "icon": "/images/heroes/s_quandajiang_skill3.png",
+      "description": "Skill trước trận: Vĩnh viễn miễn dịch tấn công t.tính Lửa, tăng 350% Phòng Ngự & Phòng Ngự t.tính cho bản thân, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Khuyển Đại Tướng",
+        "description": "Tăng vĩnh viễn 50% Tốc Độ cho bản thân, trước mỗi hiệp, đều có 80% tỉ lệ nhận được hiệu quả vô địch, từ đó miễn dịch tấn công 1 lần"
+      }
+    },
+    {
+      "name": "So'unga.Ngục Long Phá",
+      "icon": "/images/heroes/s_quandajiang_skill6.png",
+      "description": "Skill trước hiệp: Tấn công 1 mục tiêu, căn cứ trạng thái của mục tiêu thả skill khác nhau, hồi 50% HP bản thân đã mất.\n\nNếu mục tiêu ở trạng thái vô địch: Thả \"Thiết Toái Nha đỏ\", bỏ qua trạng thái vô địch, tạo ST thực bằng 350% Vật Công, không tạo ST thuộc tính;\nNếu mục tiêu không ở trạng thái vô địch, và HP dưới 40%, sẽ kết liễu mục tiêu;\nNếu mục tiêu không ở trạng thái vô địch, và HP trên 40%, Vật & Ma Công cao hơn bản thân, sẽ tấn công mục tiêu tạo 350% ST ma pháp và 850% ST t.tính Gió, hút 80% Vật & Ma Công của mục tiêu (Giảm của mục tiêu phe địch, tăng t.tính bản thân), lần sau tấn công có hiệu lực, hiệu lực 1 hiệp;\nNếu mục tiêu không tồn tại 3 trạng thái trên, sẽ thả \"Kim Cang Thương Phá\", tấn công toàn thể mục tiêu, tạo 350% ST vật lý và 850% ST t.tính Gió, khiến 1 mục tiêu hỗn loạn, hiệu lực 1 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Khuyển Đại Tướng",
+        "description": "Bỏ qua hiệu quả Đứng Im, Choáng, Chấn Động, Đóng Băng, Mê Hoặc, Hóa Đá; Tăng 300% Phòng Ngự cho đồng đội phe ta, kéo dài 1 hiệp; Dùng \"Yêu Vương Lực\" hồi sinh xong, năng lực hồi HP tăng đến 100%."
+      }
+    },
+    {
+      "name": "Yêu Vương Lực",
+      "icon": "/images/heroes/s_quandajiang_skill7.png",
+      "description": "Skill trước khi bị đánh: Tăng 350% Chính Xác và tỉ lệ bạo kích của đồng đội",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Khuyển Đại Tướng",
+        "description": "Tăng 69% giảm thương tổng thể của bản thân, kéo dài 1 hiệp; \"Yêu Vương Lực\" sẽ có 1 cơ hội hồi sinh cho Đấu Nha Vương, sau khi hồi sinh sẽ tăng 100% Vật & Ma Công, 50% Né, 200% tỉ lệ bạo kích của bản thân, cả trận hồi sinh tối đa 1 lần."
+      }
+    },
+    {
+      "name": "Tessaiga.Khuyển Nha Đao",
+      "icon": "/images/heroes/s_quandajiang_skill4.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% ST vật lý & 800% ST t.tính Gió lên mục tiêu",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Khuyển Đại Tướng",
+        "description": "Khiến 1 mục tiêu trọng thương, giảm 90% hiệu quả hồi HP của mục tiêu, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Hóa Hình.Khuyển Yêu Trảo",
+      "icon": "/images/heroes/s_quandajiang_skill5.png",
+      "description": "Tấn công toàn thể phe địch, bỏ qua 50% Phòng Ngự của mục tiêu, tạo 350% Vật & Ma Công và 850% ST t.tính Gió.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Khuyển Đại Tướng",
+        "description": "Tạo thêm X1-3 sát thương và sát thương t.tính lên mục tiêu; Giảm 80% Né của 2-4 mục tiêu, kéo dài 2 hiệp; Khiến 1 mục tiêu tụt máu, mỗi hiệp tạo ST thực bằng X3 sát thương t.tính Gió, hiệu lực 2 lần, khiến mục tiêu đó hôn mê 1 hiệp "
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đao Kiếm Đạo: Khi cùng Kurosaki và Gintoki ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Siêu Cảm: Khi cùng Uchiha và Sanji ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Huynh Đệ: Khi cùng Sesshoumaru ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Lửa Miệt Thị: Khi cùng Natsu ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "InuYasha: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "InuYasha",
+      "icon": "/images/heroes/inuyasha.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Khuyển Đại Tướng",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Khuyển Vương Trảo",
+      "skillIcon": "/images/heroes/s_quandajiang_skill1.png",
+      "skillDesc": "Khiến mục tiêu tụt máu, mỗi hiệp tạo ST tụt máu bằng 200%-800% Vật & Ma Công (Bỏ qua giảm thương, không thể bỏ qua phòng ngự), kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Khuyển Đại Tướng",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tessaiga-Bộc Lưu Phá",
+      "skillIcon": "/images/heroes/s_quandajiang_skill2.png",
+      "skillDesc": "Sát thương phản đòn nâng cấp lên sát thương thực, số lần phản đòn tăng đến 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Khuyển Đại Tướng",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Tenseiga-Hộ Thể",
+      "skillIcon": "/images/heroes/s_quandajiang_skill3.png",
+      "skillDesc": "Tăng vĩnh viễn 50% Tốc Độ cho bản thân, trước mỗi hiệp, đều có 80% tỉ lệ nhận được hiệu quả vô địch, từ đó miễn dịch tấn công 1 lần",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Khuyển Đại Tướng",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Tessaiga.Khuyển Nha Đao",
+      "skillIcon": "/images/heroes/s_quandajiang_skill4.png",
+      "skillDesc": "Khiến 1 mục tiêu trọng thương, giảm 90% hiệu quả hồi HP của mục tiêu, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sesshoumaru",
+          "icon": "/images/heroes/sesshoumaru.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Khuyển Đại Tướng",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hóa Hình.Khuyển Yêu Trảo",
+      "skillIcon": "/images/heroes/s_quandajiang_skill5.png",
+      "skillDesc": "Tạo thêm X1-3 sát thương và sát thương t.tính lên mục tiêu; Giảm 80% Né của 2-4 mục tiêu, kéo dài 2 hiệp; Khiến 1 mục tiêu tụt máu, mỗi hiệp tạo ST thực bằng X3 sát thương t.tính Gió, hiệu lực 2 lần, khiến mục tiêu đó hôn mê 1 hiệp ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Khuyển Đại Tướng",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "So'unga.Ngục Long Phá",
+      "skillIcon": "/images/heroes/s_quandajiang_skill6.png",
+      "skillDesc": "Bỏ qua hiệu quả Đứng Im, Choáng, Chấn Động, Đóng Băng, Mê Hoặc, Hóa Đá; Tăng 300% Phòng Ngự cho đồng đội phe ta, kéo dài 1 hiệp; Dùng \"Yêu Vương Lực\" hồi sinh xong, năng lực hồi HP tăng đến 100%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Khuyển Đại Tướng",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Yêu Vương Lực",
+      "skillIcon": "/images/heroes/s_quandajiang_skill7.png",
+      "skillDesc": "Tăng 69% giảm thương tổng thể của bản thân, kéo dài 1 hiệp; \"Yêu Vương Lực\" sẽ có 1 cơ hội hồi sinh cho Đấu Nha Vương, sau khi hồi sinh sẽ tăng 100% Vật & Ma Công, 50% Né, 200% tỉ lệ bạo kích của bản thân, cả trận hồi sinh tối đa 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Tessaiga.Khuyển Nha Đao",
+      "unlockedSkillIcon": "/images/heroes/s_quandajiang_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Hóa Hình.Khuyển Yêu Trảo",
+      "unlockedSkillIcon": "/images/heroes/s_quandajiang_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "id": "61000",
+  "slug": "ct-hau-nghe",
+  "name": "CT-Hậu Nghệ",
+  "title": "Vũ trụ nguyên tố • SSR CT-Hậu Nghệ",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-hau-nghe.png",
+  "fullArt": "/images/heroes/full/image_houyi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh hùng thượng cổ trong truyền thuyết, giỏi bắn tên, lực kéo Vạn Quân Cung, mũi tên nghìn cân, Kiêu Dương Vẫn Lạc cũng không phải đùa",
+  "skills": [
+    {
+      "name": "Xuyên Vân Tiễn-Thánh",
+      "icon": "/images/heroes/s_mingjietuci.png",
+      "description": "Bắn ra mũi tên rực lửa, tạo 350% sát thương vật lí lên đơn vị trực tuyến, kèm theo hiệu quả thiêu đốt, nếu Hằng Nga có mặt thì hồi phục cho bản thân 20% HP",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng sĩ·Hậu Nghệ",
+        "description": "Sát thương tăng 20% và tạo hiệu quả thiêu đốt lên toàn bộ đơn vị địch ra trận"
+      }
+    },
+    {
+      "name": "Kiêu Dương Vẫn Lạc-Thánh",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Hậu Nghệ giương cung lên trời bắn rơi chín mặt trời, tạo 350% sát thương vật lí lên toàn bộ địch, mỗi mặt trời tạo thêm 20% sát thương thuộc tính lửa",
+      "cooldown": "5 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu sĩ·Hậu Nghệ",
+        "description": "Làm choáng 1 kẻ địch chịu sát thương thấp nhất 1 hiệp"
+      }
+    },
+    {
+      "name": "Trục Dương-Thánh",
+      "icon": "/images/heroes/s_quntijijiu.png",
+      "description": "Kĩ năng trước trận, tăng 350% vật công cho bản thân, kéo dài 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Hậu Nghệ",
+        "description": "Kĩ năng Trục Dương tăng 20% giảm sát thương và 10% né tránh cho bản thân"
+      }
+    },
+    {
+      "name": "Xuyên Nhật-Thánh",
+      "icon": "/images/heroes/s_quntijijiu.png",
+      "description": "Tăng 350% tấn công thuộc tính lửa điểm tuyệt đối trong chiến đấu",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền thuyết·Hậu Nghệ",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Diệt Thế-Thánh",
+      "icon": "/images/heroes/s_quntijijiu.png",
+      "description": "Tử vong xong làm choáng 1 mục tiêu ngẫu nhiên xếp sau của địch trong 1 hiệp. Nếu Hằng Nga có mặt sẽ thanh tẩy tất cả hiệu quả phụ trên người Hằng Nga.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Hậu Nghệ",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần Thượng Cổ: Khi cùng Hằng Nga và Tề Thiên Đại Thánh ra trận thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
+    "Thông Thiên Quán Địa: Khi cùng Zeus và Lục Đạo Tiên Nhân ra trận thì vật công, HP và tốc độ +15%",
+    "Vạn Quân Thế: Khi cùng Võ Thánh Quan Vũ ra trận thì ma công, HP và tốc độ +15%",
+    "Sí Liệt: Khi trang bị Vạn Quân Cung thì vật công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng sĩ·Hậu Nghệ",
+      "tierName": "CT-Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Xuyên Vân Tiễn-Thánh",
+      "skillIcon": "/images/heroes/s_mingjietuci.png",
+      "skillDesc": "Sát thương tăng 20% và tạo hiệu quả thiêu đốt lên toàn bộ đơn vị địch ra trận",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu sĩ·Hậu Nghệ",
+      "tierName": "CT-Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Kiêu Dương Vẫn Lạc-Thánh",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Làm choáng 1 kẻ địch chịu sát thương thấp nhất 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Hậu Nghệ",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Trục Dương-Thánh",
+      "skillIcon": "/images/heroes/s_quntijijiu.png",
+      "skillDesc": "Kĩ năng Trục Dương tăng 20% giảm sát thương và 10% né tránh cho bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền thuyết·Hậu Nghệ",
+      "tierName": "CT-Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Xuyên Nhật-Thánh",
+      "skillIcon": "/images/heroes/s_quntijijiu.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Hậu Nghệ",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Diệt Thế-Thánh",
+      "skillIcon": "/images/heroes/s_quntijijiu.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Hậu Nghệ",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Hậu Nghệ",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "icon": "/images/heroes/hau-nghe.png",
+          "slug": "hau-nghe"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

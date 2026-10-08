@@ -1,0 +1,332 @@
+{
+  "id": "60300",
+  "slug": "ct-gaten",
+  "name": "CT-Gaten",
+  "title": "Vũ trụ nguyên tố • SSR CT-Gaten",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-gaten.png",
+  "fullArt": "/images/heroes/full/image_gailun.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Người đàn ông đường phố sở hữu \"Sức mạnh Demacica\", vĩnh viễn không tìm cớ để trốn trách nhiệm, bỏ chạy hoặc đầu hàng, tin tưởng cách tốt nhất để giết địch chính là chẻ đôi luôn kẻ bên cạnh hắn.",
+  "skills": [
+    {
+      "name": "Thẩm Phán",
+      "icon": "/images/heroes/icon_maze_fire.png",
+      "description": "Xông vào trận hình địch, vung kiếm tạo 350% sát thương vật lí lên toàn bộ địch và 80% sát thương thuộc tính đất.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng sĩ·Gaten",
+        "description": "Thẩm phán giảm 10% phòng ngự của đối phương, có 50% tỉ lệ làm choáng 1 đồng đội của đối phương"
+      }
+    },
+    {
+      "name": "Dũng Khí",
+      "icon": "/images/heroes/icon_maze_firedfs.png",
+      "description": "Trước khi bắt đầu hiệp đấu, tăng cho bản thân 350% tốc độ và giảm thương, tăng thêm 1 tầng hộ thuẫn tăng 50% phòng ngự thuộc tính, có thể miễn dịch tấn công lần sau.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu sĩ·Gaten",
+        "description": "Dũng Khí: tăng 50% toàn bộ thuộc tính bản thân, phục hồi 15% HP cho bản thân."
+      }
+    },
+    {
+      "name": "Sức Mạnh Demacia",
+      "icon": "/images/heroes/icon_maze_crit.png",
+      "description": "Tạo 350% sát thương vật lí lên toàn bộ địch, tạo thêm 160% sát thương thuộc tính đất. Ngẫu nhiên tạo thêm 1.5 lần sát thương lên địch có 50% HP trở xuống.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Gaten",
+        "description": "Sức Mạnh Demacia có thể trực tiếp giết ngay đồng đội có HP dưới 10% của địch."
+      }
+    },
+    {
+      "name": "Địa·Kiên Nhẫn",
+      "icon": "/images/heroes/icon_maze_firedfs.png",
+      "description": "Tăng effect điểm tuyệt đối tấn công thuộc tính đất.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Truyền thuyết·Gaten",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Đả Kích Chí Mạng",
+      "icon": "/images/heroes/icon_maze_crit.png",
+      "description": "Kĩ năng trước trận, xóa hiệu quả BUFF của tất cả nhân vật xếp trước của địch, tăng 2 lần miễn dịch, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Gaten",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Bậc Thầy Kiếm Thuật: Khi ra trận cùng với Dương Tiễn và Ichigo thì vật công, ma công, HP+20%，phòng ngự và tốc độ+10%",
+    "Sát Thương Tối Đa: Khi ra trận cùng với Vehito và Zeus thì vật công, HP và tốc độ+15%",
+    "Siêu Khiên Thịt: Khi ra trận cùng với Hulk thì ma công, HP và tốc độ+15%",
+    "Yêu Đao: Khi trang bị Đao Tàn Bạo thì vật công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng sĩ·Gaten",
+      "tierName": "CT-Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thẩm Phán",
+      "skillIcon": "/images/heroes/icon_maze_fire.png",
+      "skillDesc": "Thẩm phán giảm 10% phòng ngự của đối phương, có 50% tỉ lệ làm choáng 1 đồng đội của đối phương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu sĩ·Gaten",
+      "tierName": "CT-Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Dũng Khí",
+      "skillIcon": "/images/heroes/icon_maze_firedfs.png",
+      "skillDesc": "Dũng Khí: tăng 50% toàn bộ thuộc tính bản thân, phục hồi 15% HP cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Gaten",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Sức Mạnh Demacia",
+      "skillIcon": "/images/heroes/icon_maze_crit.png",
+      "skillDesc": "Sức Mạnh Demacia có thể trực tiếp giết ngay đồng đội có HP dưới 10% của địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Truyền thuyết·Gaten",
+      "tierName": "CT-Truyền thuyết",
+      "auraColor": "amber",
+      "skillName": "Địa·Kiên Nhẫn",
+      "skillIcon": "/images/heroes/icon_maze_firedfs.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Gaten",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Đả Kích Chí Mạng",
+      "skillIcon": "/images/heroes/icon_maze_crit.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Gaten",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Gaten",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Gaten",
+          "icon": "/images/heroes/gaten.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

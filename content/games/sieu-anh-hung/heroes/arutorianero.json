@@ -1,0 +1,673 @@
+{
+  "id": "67800",
+  "slug": "arutorianero",
+  "name": "Arutoria·Nero",
+  "title": "Vũ trụ nguyên tố • UR Arutoria·Nero",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/arutorianero.png",
+  "fullArt": "/images/heroes/full/image_saber2.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Tính cách hướng ngoại, có tài ăn nói, hay thể hiện bản thân; Khi đối xử với đối tượng yêu thích lại hay nũng nịu; Miễn là đẹp, nam nữ đều thích.",
+  "skills": [
+    {
+      "name": "Fax Caelestis",
+      "icon": "/images/heroes/s_saberNero_s1.png",
+      "description": "Skill phản đòn: Sau khi chịu tấn công có 99% tỉ lệ dùng kiếm xoắn ốc chém mục tiêu, tạo 350% ST vật lý và ST thực bằng 600% ST t.tính Gió. Làm trọng thương mục tiêu, trong 1 hiệp ko thể hồi HP. Mỗi hiệp tối đa phát động 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Arutoria·Nero",
+        "description": "Nếu mục tiêu còn sống sẽ đốt cháy mục tiêu, mỗi hiệp tạo ST cháy bằng 100% tấn công t.tính Gió, kéo dài 2 hiệp, và -33% Trúng. Nếu mục tiêu tử trận, sẽ đốt cháy toàn thể phe địch, và -50% Trúng, Bạo Kích, Né."
+      }
+    },
+    {
+      "name": "Luật Hoàng Kim",
+      "icon": "/images/heroes/s_saberNero_s2.png",
+      "description": "Tăng Vật & Ma Công bằng 350% tấn công t.tính Gió cho phe ta, bản thân tăng 100% Né và Trúng. Kéo dài 1 hiệp. Hồi 30% HP cho toàn thể đồng đội.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Arutoria·Nero",
+        "description": "Xóa tất cả hiệu quả đốt cháy của phe ta; Hiệu quả tăng Né, Trúng được dồn 2 lần."
+      }
+    },
+    {
+      "name": "Suối Thánh Chữa Lành",
+      "icon": "/images/heroes/s_saberNero_s3.png",
+      "description": "Tạo 350% ST vật lý & 300% ST t.tính Gió lên toàn thể phe địch. Hồi điểm HP, lượng hồi HP bằng tổng ST tạo ra.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Arutoria·Nero",
+        "description": "ST biến thành ST thực, xóa hiệu quả trọng thương của bản thân, bản thân tăng 50% tỉ lệ hồi phục. Lượng hồi phục vượt mức sẽ cộng cho đồng đội có HP thấp nhất."
+      }
+    },
+    {
+      "name": "Aestus Estus",
+      "icon": "/images/heroes/s_saberNero_s6.png",
+      "description": "Skill trước hiệp: Tinh linh thả Aestus Estus, tạo 350% Vật & Ma Công và 1000% ST t.tính Gió lên toàn thể mục tiêu, bỏ qua phòng ngự. Hồi tất cả HP đã mất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Arutoria·Nero",
+        "description": "Chọn ngẫu nhiên 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội, hiệu lực 2 lần. Trong 1 hiệp tạo ST cháy bằng 100% ST t.tính Gió lên 1-3 kẻ địch ngẫu nhiên."
+      }
+    },
+    {
+      "name": "Lạc Nhật Tam Độ",
+      "icon": "/images/heroes/s_saberNero_s7.png",
+      "description": "Skill tử trận: Khi tử trận sẽ hồi sinh, lượng hồi HP bằng với sát thương chí mạng đã chịu, mỗi trận phát động 3 lần. Tăng vĩnh viễn 30% Vật Công và tấn công t.tính Gió cho bản thân (Được tăng 3 lần). Giảm 33% Vật & Ma Công của kẻ tấn công, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Arutoria·Nero",
+        "description": "Hồi HP bằng 300% ST chí mạng phải chịu, cộng 1 tầng hiệu quả Vô Địch khi hồi sinh, ngăn 3 lần ST. Khiến kẻ tấn công chịu ST thực bằng 50% ST lần này phải chịu. Nếu mục tiêu chết ở ST lần này, bản thân sẽ tăng 800% phòng ngự và phòng ngự t.tính, kéo dài 3 hiệp."
+      }
+    },
+    {
+      "name": "Đặc Quyền Vua",
+      "icon": "/images/heroes/s_saberNero_s4.png",
+      "description": "Skill trước trận: Tăng vĩnh viễn 350% điểm toàn bộ t.tính cho bản thân! Và tăng 350% Công & Phòng của toàn t.tính, kéo dài 2 hiệp. Mê hoặc 1-3 kẻ địch, kéo dài 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Arutoria·Nero",
+        "description": "Cộng 1000k-1500k Vật Công, kéo dài 3 hiệp. Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hôn Mê, Hóa Đá, Choáng, Hỗn Loạn."
+      }
+    },
+    {
+      "name": "Laus Saint Claudius",
+      "icon": "/images/heroes/s_saberNero_s5.png",
+      "description": "Tạo 350% ST vật lý và ST thực bằng 900% tấn công t.tính Gió, khiến toàn thể kẻ địch trọng thương, trong 1 hiệp ko thể hồi HP.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Arutoria·Nero",
+        "description": "Chọn 1-5 kẻ địch và mê hoặc chúng, tạo thêm x2 sát thương. Khiến kẻ địch còn lại Đứng Im, tạo thêm x3 sát thương."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Phong lâm sơn hỏa: Cùng Lữ Bố và Yagami Iori ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Vua một nước: Cùng Boa Hancock ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Sứ đồ kiếm: Cùng Mihawk ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Phong thái nữ vương: Cùng Erza ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "saber: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Erza",
+      "icon": "/images/heroes/erza.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "saber",
+      "icon": "/images/heroes/saber.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Arutoria·Nero",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Fax Caelestis",
+      "skillIcon": "/images/heroes/s_saberNero_s1.png",
+      "skillDesc": "Nếu mục tiêu còn sống sẽ đốt cháy mục tiêu, mỗi hiệp tạo ST cháy bằng 100% tấn công t.tính Gió, kéo dài 2 hiệp, và -33% Trúng. Nếu mục tiêu tử trận, sẽ đốt cháy toàn thể phe địch, và -50% Trúng, Bạo Kích, Né.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Arutoria·Nero",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Luật Hoàng Kim",
+      "skillIcon": "/images/heroes/s_saberNero_s2.png",
+      "skillDesc": "Xóa tất cả hiệu quả đốt cháy của phe ta; Hiệu quả tăng Né, Trúng được dồn 2 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Erza",
+          "icon": "/images/heroes/erza.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Arutoria·Nero",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Suối Thánh Chữa Lành",
+      "skillIcon": "/images/heroes/s_saberNero_s3.png",
+      "skillDesc": "ST biến thành ST thực, xóa hiệu quả trọng thương của bản thân, bản thân tăng 50% tỉ lệ hồi phục. Lượng hồi phục vượt mức sẽ cộng cho đồng đội có HP thấp nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Arutoria·Nero",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Đặc Quyền Vua",
+      "skillIcon": "/images/heroes/s_saberNero_s4.png",
+      "skillDesc": "Cộng 1000k-1500k Vật Công, kéo dài 3 hiệp. Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hôn Mê, Hóa Đá, Choáng, Hỗn Loạn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Erza",
+          "icon": "/images/heroes/erza.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Arutoria·Nero",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Laus Saint Claudius",
+      "skillIcon": "/images/heroes/s_saberNero_s5.png",
+      "skillDesc": "Chọn 1-5 kẻ địch và mê hoặc chúng, tạo thêm x2 sát thương. Khiến kẻ địch còn lại Đứng Im, tạo thêm x3 sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Arutoria·Nero",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Aestus Estus",
+      "skillIcon": "/images/heroes/s_saberNero_s6.png",
+      "skillDesc": "Chọn ngẫu nhiên 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội, hiệu lực 2 lần. Trong 1 hiệp tạo ST cháy bằng 100% ST t.tính Gió lên 1-3 kẻ địch ngẫu nhiên.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Arutoria·Nero",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Lạc Nhật Tam Độ",
+      "skillIcon": "/images/heroes/s_saberNero_s7.png",
+      "skillDesc": "Hồi HP bằng 300% ST chí mạng phải chịu, cộng 1 tầng hiệu quả Vô Địch khi hồi sinh, ngăn 3 lần ST. Khiến kẻ tấn công chịu ST thực bằng 50% ST lần này phải chịu. Nếu mục tiêu chết ở ST lần này, bản thân sẽ tăng 800% phòng ngự và phòng ngự t.tính, kéo dài 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Đặc Quyền Vua",
+      "unlockedSkillIcon": "/images/heroes/s_saberNero_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Laus Saint Claudius",
+      "unlockedSkillIcon": "/images/heroes/s_saberNero_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "saber",
+          "icon": "/images/heroes/saber.png",
+          "slug": "saber"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

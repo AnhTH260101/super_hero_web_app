@@ -1,0 +1,580 @@
+{
+  "id": "34900",
+  "slug": "shin",
+  "name": "Shin",
+  "title": "Zombie Bentu • SSR Shin",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/shin.png",
+  "fullArt": "/images/heroes/full/image_jiewangshen.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Vị thần có quả đầu undercut màu trắng cá tính, da màu tím, đeo hoa tai Potara",
+  "skills": [
+    {
+      "name": "Quả Đấm Thần",
+      "icon": "/images/heroes/s_jiewangshen_hurt.png",
+      "description": "Tạo 350% sát thương ma pháp lên tất cả mục tiêu, có 50% tỉ lệ làm choáng dãy trước địch, tạo X2 sát thương lên dãy sau địch, tạo thêm 160% sát thương thuộc tính Gió của mình",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Shin",
+        "description": "Hồi 30% HP bản thân, giảm 50% Tốc Độ toàn thể địch, kéo dài 2 hiệp (HQ ko thể xóa)"
+      }
+    },
+    {
+      "name": "Hồi Phục",
+      "icon": "/images/heroes/s_jiewangshen_cure.png",
+      "description": "Trước hiệp hồi 20% HP bản thân, tăng 350% giảm thương tổng thể và 45% toàn thuộc tính cho mình, 2 hiệp. Xóa buff xấu: Giảm thuộc tính, tụt máu và choáng… Miễn dịch 1 lần choáng từ địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Shin",
+        "description": "Mỗi lần thả sẽ giảm 40% Vật & Ma Công, 1 hiệp, hiệu quả ko thể dồn"
+      }
+    },
+    {
+      "name": "Tương Trợ",
+      "icon": "/images/heroes/s_jiewangshen_injure.png",
+      "description": "Gây 350% sát thương ma pháp lên tất cả mục tiêu, tạo X3 sát thương lên tất cả địch khi Vihito có mặt, tạo thêm 130% sát thương thuộc tính Gió của mình",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Shin",
+        "description": "Giới hạn HP+30%, miễn dịch 1 lần sát thương"
+      }
+    },
+    {
+      "name": "Tức Thời",
+      "icon": "/images/heroes/s_jiewangshen_cure1.png",
+      "description": "KN trước trận: Tăng effect điểm tuyệt đối của tấn công thuộc tính Gió, X2 tốc độ bản thân (HQ ko thể xóa), giúp \"Tương Trợ\" miễn dịch 2 lần sát thương từ địch.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Shin",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Vũ Không Thuật",
+      "icon": "/images/heroes/s_jiewangshen_injure1.png",
+      "description": "Tử trận xong gây 350% sát thương ma pháp 1 lần lên tất cả địch, tạo thêm sát thương t.tính Gió bằng điểm t.tính Gió bản thân cộng với 30% HP của mình",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Shin",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Asin: Khi cùng Ma Nhân và Thủy Tinh ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Punk: Khi cùng Âu Cơ và Bạch Liên Sư ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Vũ Không: Khi cùng Lý Tiểu Long ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Kiếm Thần: Khi trang bị Găng Kaio thì Ma Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-shin",
+      "name": "CT-Shin",
+      "avatar": "/images/heroes/ct-shin.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Zamasu có mái tóc màu trắng, làn da màu tím, đeo khuyên tai Potara"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Shin",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Quả Đấm Thần",
+      "skillIcon": "/images/heroes/s_jiewangshen_hurt.png",
+      "skillDesc": "Hồi 30% HP bản thân, giảm 50% Tốc Độ toàn thể địch, kéo dài 2 hiệp (HQ ko thể xóa)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Shin",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hồi Phục",
+      "skillIcon": "/images/heroes/s_jiewangshen_cure.png",
+      "skillDesc": "Mỗi lần thả sẽ giảm 40% Vật & Ma Công, 1 hiệp, hiệu quả ko thể dồn",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Shin",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Tương Trợ",
+      "skillIcon": "/images/heroes/s_jiewangshen_injure.png",
+      "skillDesc": "Giới hạn HP+30%, miễn dịch 1 lần sát thương",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Shin",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Tức Thời",
+      "skillIcon": "/images/heroes/s_jiewangshen_cure1.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Hatake",
+          "icon": "/images/heroes/hatake.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Shin",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Vũ Không Thuật",
+      "skillIcon": "/images/heroes/s_jiewangshen_injure1.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Shin",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Shin",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        }
+      ],
+      "statBonus": "+240 Công, +237 Thủ, +277 HP, +108 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +415 HP, +162 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Shin",
+          "icon": "/images/heroes/shin.png",
+          "slug": "shin"
+        }
+      ],
+      "statBonus": "+480 Công, +475 Thủ, +554 HP, +216 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

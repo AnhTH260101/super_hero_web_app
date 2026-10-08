@@ -1,0 +1,661 @@
+{
+  "id": "66100",
+  "slug": "ct-asamiya-athena",
+  "name": "CT-Asamiya Athena",
+  "title": "Vũ trụ linh tính • UR CT-Asamiya Athena",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-asamiya-athena.png",
+  "fullArt": "/images/heroes/full/image_Athena.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là nữ sinh trung học kiêm ca sĩ thần tượng , được nhiều người mến mộ bởi vẻ ngoài đáng yêu và có siêu năng lực cực mạnh, và biết võ cổ truyền Trung Hoa",
+  "skills": [
+    {
+      "name": "Song Quyền-Thánh",
+      "icon": "/images/heroes/s_Athena_skill1.png",
+      "description": "Tấn công mục tiêu địch, giảm 30%-50% Vật & Ma Công hoặc tấn công toàn t.tính của toàn thể mục tiêu, kéo dài 2 hiệp, tạo 350% ST ma pháp và 250% ST t.tính Nước lên 1 mục tiêu.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Asamiya Athena",
+        "description": "Tăng 50% Chính Xác & Né cho tất cả đồng đội"
+      }
+    },
+    {
+      "name": "Lướt Kiếm-Thánh",
+      "icon": "/images/heroes/s_Athena_skill2.png",
+      "description": "Skill phản đòn: Phản đòn mục tiêu tấn công mình, tạo ST bằng 350% Vật & Ma Công và 300% ST t.tính Nước, trọng thương mục tiêu, giảm 50% Hồi HP của mục tiêu, mỗi hiệp tối đa thả 3 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Asamiya Athena",
+        "description": "Cứ thả 1 lần Lướt Kiếm, tăng 20% tỉ lệ bạo kích cho mình, tối đa cộng dồn 5 tầng; Giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu bị mù, 2 hiệp."
+      }
+    },
+    {
+      "name": "Mũi Tên FANG-Thánh",
+      "icon": "/images/heroes/s_Athena_skill3.png",
+      "description": "Tạo 350% ST ma pháp và 200% ST t.tính Nước lên mục tiêu hàng mặc định, hút 50% tấn công toàn thuộc tính và Vật & Ma Công của mục tiêu (cộng thuộc tính của mục tiêu bị giảm cho bản thân), kéo dài 3 hiệp, tối đa cộng dồn 3 tầng.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Asamiya Athena",
+        "description": "Xóa buff xấu có thể xóa cho tất cả đồng đội; -50% Tốc Độ của mục tiêu, và có 50% tỉ lệ làm mục tiêu hôn mê 1 hiệp."
+      }
+    },
+    {
+      "name": "Sóng Pha Lê-Thánh",
+      "icon": "/images/heroes/s_Athena_skill6.png",
+      "description": "Skill trước hiệp: Hồi 50% HP bản thân đã mất, tăng 350% Phòng Ngự toàn thuộc tính cho bản thân, và hồi HP bằng 350% Ma Công cho cả đội",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Asamiya Athena",
+        "description": "Cộng 1 tầng buff Vô Địch cho mình, hiệp trước trận có hiệu lực; Và có 50% tỉ lệ cộng 1 tầng buff Vô Địch cho đồng đội"
+      }
+    },
+    {
+      "name": "Bạo Phát Tâm Linh-Thánh",
+      "icon": "/images/heroes/s_Athena_skill7.png",
+      "description": "Skill bị động: Cứ có 1 nhân vật nam trên trận, sau khi thả TC thường và skill chủ động, tạo thêm ST tụt máu bằng 350% Vật Công lên 1-2 mục tiêu; Tăng 69% giảm thương tổng thể cho bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Asamiya Athena",
+        "description": "Tạo thêm ST thực t.tính Nước lên mục tiêu tăng đến 30% HP cao nhất của Asamiya Athena, khi HP hiện tại của mục tiêu thấp hơn HP bản thân cũng phát động HQ này; Làm trọng thương 2 mục tiêu, khiến chúng trong 1 hiệp ko thể hồi HP."
+      }
+    },
+    {
+      "name": "Phản Sóng Tâm Linh-Thánh",
+      "icon": "/images/heroes/s_Athena_skill4.png",
+      "description": "Skill trước trận: Vĩnh viễn tăng 350% Phòng Ngự và Phòng Ngự t.tính cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Asamiya Athena",
+        "description": "Hồi 100% HP đã mất, tăng thêm 10% điểm tuyệt đối của giảm thương t.tính cho tất cả đồng đội, bản thân bỏ qua Choáng, Chấn Động, Đứng Im, Hóa Đá, Tsukuyomi và Mê Hoặc; Ở hiệp 1 & hiệp chẵn, có 80% tử trận xong hồi đầy HP, hồi sinh xong có 2 tầng buff Vô Địch."
+      }
+    },
+    {
+      "name": "Siêu Xạ Pha Lê.Thánh",
+      "icon": "/images/heroes/s_Athena_skill5.png",
+      "description": "Tạo 350% ST ma pháp và 900% ST t.tính Nước lên toàn thể mục tiêu địch; Nếu HP hiện tại của mục tiêu cao hơn HP bản thân, sẽ tạo thêm ST thực t.tính Nước bằng 10% HP lớn nhất của Asamiya Athena",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Asamiya Athena",
+        "description": "Có 500k-1500k Vật Công, bản thân tăng 50% bạo kích."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Chiến Sĩ Thiếu Nữ: Cùng Sakura và Thunderbird ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Nam thanh nữ tú: Cùng Chris và Shermie ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Power Girl: Cùng Shaka ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Magic Girl: Cùng Erza ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Asamiya Athena: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Ảo Ảnh",
+      "icon": "/images/heroes/ao-anh.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Asamiya Athena",
+      "icon": "/images/heroes/asamiya-athena.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Sói Trắng",
+      "icon": "/images/heroes/soi-trang.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Asamiya Athena",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Song Quyền-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill1.png",
+      "skillDesc": "Tăng 50% Chính Xác & Né cho tất cả đồng đội",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Asamiya Athena",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Lướt Kiếm-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill2.png",
+      "skillDesc": "Cứ thả 1 lần Lướt Kiếm, tăng 20% tỉ lệ bạo kích cho mình, tối đa cộng dồn 5 tầng; Giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu bị mù, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Asamiya Athena",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Mũi Tên FANG-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill3.png",
+      "skillDesc": "Xóa buff xấu có thể xóa cho tất cả đồng đội; -50% Tốc Độ của mục tiêu, và có 50% tỉ lệ làm mục tiêu hôn mê 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Asamiya Athena",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Sóng Pha Lê-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill6.png",
+      "skillDesc": "Cộng 1 tầng buff Vô Địch cho mình, hiệp trước trận có hiệu lực; Và có 50% tỉ lệ cộng 1 tầng buff Vô Địch cho đồng đội",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Asamiya Athena",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bạo Phát Tâm Linh-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill7.png",
+      "skillDesc": "Tạo thêm ST thực t.tính Nước lên mục tiêu tăng đến 30% HP cao nhất của Asamiya Athena, khi HP hiện tại của mục tiêu thấp hơn HP bản thân cũng phát động HQ này; Làm trọng thương 2 mục tiêu, khiến chúng trong 1 hiệp ko thể hồi HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Asamiya Athena",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Phản Sóng Tâm Linh-Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill4.png",
+      "skillDesc": "Hồi 100% HP đã mất, tăng thêm 10% điểm tuyệt đối của giảm thương t.tính cho tất cả đồng đội, bản thân bỏ qua Choáng, Chấn Động, Đứng Im, Hóa Đá, Tsukuyomi và Mê Hoặc; Ở hiệp 1 & hiệp chẵn, có 80% tử trận xong hồi đầy HP, hồi sinh xong có 2 tầng buff Vô Địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Asamiya Athena",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Siêu Xạ Pha Lê.Thánh",
+      "skillIcon": "/images/heroes/s_Athena_skill5.png",
+      "skillDesc": "Có 500k-1500k Vật Công, bản thân tăng 50% bạo kích.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Phản Sóng Tâm Linh-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Athena_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Siêu Xạ Pha Lê.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Athena_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Asamiya Athena",
+          "icon": "/images/heroes/asamiya-athena.png",
+          "slug": "asamiya-athena"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "32000",
+  "slug": "naruto-tien-nhan",
+  "name": "Naruto (Tiên nhân)",
+  "title": "Vũ trụ nguyên tố • SSR Naruto (Tiên nhân)",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/naruto-tien-nhan.png",
+  "fullArt": "/images/heroes/full/image_naruto2.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Người kế thừa ý chí của lửa, Naruto xuất hiện",
+  "skills": [
+    {
+      "name": "Nhẫn Pháp※Liệt Quang Đạn",
+      "icon": "/images/heroes/s_guangjian.png",
+      "description": "Ném thanh kiếm trong tay chứa tiểu vũ trụ về phía mục tiêu, tạo thành tổng cộng 350% sát thương ma pháp, có 100% tỉ lệ khiến hắn choáng 1 hiệp. Đồng thời tăng cho bản thân 10% giảm thương, kéo dài 2 hiệp. Nếu Uchiha Sasuke có mặt thì hiệu quả giảm thương đồng thời có hiệu quả với Uchiha Sasuke. Tạo thêm 160% sát thương thuộc tính gió của bản thân.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Naruto (Tiên nhân)",
+        "description": "Tăng hiệu quả giảm thương 10%, Nhẫn pháp※Sát thương Liệt Quang Đạn tăng 50%"
+      }
+    },
+    {
+      "name": "Nhẫn Pháp※Triệu Hồi",
+      "icon": "/images/heroes/s_bawangse.png",
+      "description": "Triệu hồi Tiên Nhân, tạo 350% sát thương ma pháp lên toàn bộ địch, đồng thời tăng 10% sát thương ma pháp cho toàn bộ phe ta kéo dài 2 hiệp. Tạo thêm 130% sát thương thuộc tính gió của bản thân.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Naruto (Tiên nhân)",
+        "description": "Tăng thêm 10% ma công, 20% vật công cho toàn đội, kéo dài 2 hiệp"
+      }
+    },
+    {
+      "name": "Nhẫn Pháp※Thần Giáng",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Kĩ năng trước trận. Khi bắt đầu chiến đấu triệu hồi sức mạnh cửu vĩ thú, tăng cho anh hùng phe ta 15 điểm nộ khí và giới hạn HP 350% vĩnh viễn cho toàn bộ phe ta, đồng thời mỗi hiệp hồi phục 5% HP cho toàn bộ phe ta, kéo dài 1 hiệp, khi Uchiha Sasuke có mặt thì hiệu quả hồi phục tăng 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Naruto (Tiên nhân)",
+        "description": "Tăng 5% hiệu quả hồi phục HP, anh hùng phe ta nộ khí thành 100"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Trói buộc: Tốc độ +20% khi ra trận cùng lúc với Linh kiện Đăng Vân Lữ",
+    "Thuật sexy: Ma công +20% khi ra trận cùng lúc với Bé Mai",
+    "Niềm tin: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với Kensin và Seya",
+    "Manga hay: Ma công và HP +15% khi ra trận cùng lúc với Luffy và Ichigo"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Naruto (Tiên nhân)",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Nhẫn Pháp※Liệt Quang Đạn",
+      "skillIcon": "/images/heroes/s_guangjian.png",
+      "skillDesc": "Tăng hiệu quả giảm thương 10%, Nhẫn pháp※Sát thương Liệt Quang Đạn tăng 50%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Naruto (Tiên nhân)",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Nhẫn Pháp※Triệu Hồi",
+      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillDesc": "Tăng thêm 10% ma công, 20% vật công cho toàn đội, kéo dài 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Naruto (Tiên nhân)",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Nhẫn Pháp※Thần Giáng",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Tăng 5% hiệu quả hồi phục HP, anh hùng phe ta nộ khí thành 100",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Naruto (Tiên nhân)",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Naruto (Tiên nhân)",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Naruto (Tiên nhân)",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Naruto (Tiên nhân)",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Naruto (Tiên nhân)",
+          "icon": "/images/heroes/naruto-tien-nhan.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "id": "81600",
+  "slug": "ct-yatogami-tohka",
+  "name": "CT -のYatogami Tohka",
+  "title": "Vũ trụ linh tính • UR CT -のYatogami Tohka",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_shenshixiang.png",
+  "fullArt": "/images/heroes/full/image_shenshixiang.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Tinh linh đầu tiên xuất hiện là Tinh linh Kiếm. Cô gái tinh linh xuất hiện trước mặt Shidou cùng với vụ nổ bí ẩn, sở hữu mái tóc dài đen đến đầu gối và đôi mắt màu sắc kỳ diệu như pha lê.",
+  "skills": [
+    {
+      "name": "Đâm",
+      "icon": "/images/heroes/s_shenshixiang_s1.png",
+      "description": "Trị Liệu ngẫu nhiên 1 đơn vị phe ta, lượng trị liệu bằng 30% HP tối đa của mục tiêu.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT -のYatogami Tohka",
+        "description": "Tập hợp Linh Khí, gây ra thêm gấp 5 lần ST với mục tiêu"
+      }
+    },
+    {
+      "name": "Khiên Năng Lượng",
+      "icon": "/images/heroes/s_shenshixiang_s2.png",
+      "description": "Kĩ năng trước khi bị đánh: Inori thông qua quan sát tần số của phe địch, tăng 100% Né Tránh của bản thân, có thể chồng Né Tránh. Hồi phục 30% HP tối đa cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT -のYatogami Tohka",
+        "description": "Số lần kích hoạt tối đa thay đổi thành 3, gây thêm ST thực bằng 50% HP, cho bản thân và ngẫu nhiên 1 đồng đội 1 lần Vô Địch."
+      }
+    },
+    {
+      "name": "Phản Kích Năng Lượng",
+      "icon": "/images/heroes/s_shenshixiang_s3.png",
+      "description": "Kĩ năng phản kích: Inori dùng tiếng hát để phản kích, gây ra effect % ST ma pháp và 200% ST thuộc tính Phong cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT -のYatogami Tohka",
+        "description": "Trói Buộc mục tiêu thêm 1 lượt"
+      }
+    },
+    {
+      "name": "Linh Năng Cuồng Bạo",
+      "icon": "/images/heroes/s_shenshixiang_s6.png",
+      "description": "Kĩ năng tử vong: Thể lực của Inori không đủ nên hóa thành hình thái Hư Không, nhổ ra Thanh Kiếm Hư Không, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong cho toàn phe địch. Hồi phục 100% HP tối đa bản thân. Tối đa có thể phóng ra 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT -のYatogami Tohka",
+        "description": "Số lần Hồi Sinh tối đa thay đổi thành 3, gây thêm ST gấp 5 lần ST thuộc tính, sau khi Hồi Sinh thì chỉnh thể  ST của kĩ năng này tăng gấp 5."
+      }
+    },
+    {
+      "name": "Uy Trang Linh Năng",
+      "icon": "/images/heroes/s_shenshixiang_s7.png",
+      "description": "Kĩ năng trước chiến đấu: Inori dùng tiếng hát cổ vũ bản thân, tăng 79% Giảm Thương/ 500% tấn công ma pháp cho bản thân, vĩnh viễn nâng lên 200% Né Tránh và Tốc Độ, và nâng 230% HP tối đa bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT -のYatogami Tohka",
+        "description": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hỗn Loạn, Chế Giễu, Tsukuyomi, ngẫu nhiên Diệt Ngay 1 đơn vị, tăng cho bản thân 25% hiệu ứng Mệt Mỏi."
+      }
+    },
+    {
+      "name": "Kiếm Khí Xung Kích",
+      "icon": "/images/heroes/s_shenshixiang_s4.png",
+      "description": "Inori cộng hưởng Linh Lực ở xung quanh, hồi phục HP cho toàn phe ta bằng 100% HP tối đa của Inori",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT -のYatogami Tohka",
+        "description": "Linh Lực sẽ Ăn Mòn ngẫu nhiên 1 mục tiêu và Diệt Ngay."
+      }
+    },
+    {
+      "name": "Tinh Linh Bạo Phát",
+      "icon": "/images/heroes/s_shenshixiang_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Ý thức tạm thời bị Chân Danh tiếp quản, bạo phát ra năng lượng cực mạnh, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT -のYatogami Tohka",
+        "description": "Linh lực tràn ra sân sẽ gây thêm hiệu ứng Ăn Mòn mục tiêu, cộng thêm ST thực bằng 50% HP."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kiếm Pháp Vượt Trội: Khi xuất hiện cùng lúc với Kenpachi Zaraki và Kusajishi Yachiru Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Mèo Ham Ăn: Khi xuất hiện cùng lúc với Maple Vật Công, HP và Tốc Độ+15%",
+    "Bạo Ngược: Khi xuất hiện cùng lúc với Albedo Vật Công, HP và Tốc Độ+15%",
+    "Khống Linh: Khi xuất hiện cùng lúc với Kurumi Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Yatogami Tohka: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 5 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Kurumi",
+      "icon": "/images/heroes/kurumi.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Yatogami Tohka",
+      "icon": "/images/heroes/icon_shenshixiang.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT -のYatogami Tohka",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đâm",
+      "skillIcon": "/images/heroes/s_shenshixiang_s1.png",
+      "skillDesc": "Tập hợp Linh Khí, gây ra thêm gấp 5 lần ST với mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT -のYatogami Tohka",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Khiên Năng Lượng",
+      "skillIcon": "/images/heroes/s_shenshixiang_s2.png",
+      "skillDesc": "Số lần kích hoạt tối đa thay đổi thành 3, gây thêm ST thực bằng 50% HP, cho bản thân và ngẫu nhiên 1 đồng đội 1 lần Vô Địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kurumi",
+          "icon": "/images/heroes/kurumi.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT -のYatogami Tohka",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Phản Kích Năng Lượng",
+      "skillIcon": "/images/heroes/s_shenshixiang_s3.png",
+      "skillDesc": "Trói Buộc mục tiêu thêm 1 lượt",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT -のYatogami Tohka",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Kiếm Khí Xung Kích",
+      "skillIcon": "/images/heroes/s_shenshixiang_s4.png",
+      "skillDesc": "Linh Lực sẽ Ăn Mòn ngẫu nhiên 1 mục tiêu và Diệt Ngay.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kurumi",
+          "icon": "/images/heroes/kurumi.png",
+          "amount": 5,
+          "type": "hero"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT -のYatogami Tohka",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Tinh Linh Bạo Phát",
+      "skillIcon": "/images/heroes/s_shenshixiang_s5.png",
+      "skillDesc": "Linh lực tràn ra sân sẽ gây thêm hiệu ứng Ăn Mòn mục tiêu, cộng thêm ST thực bằng 50% HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT -のYatogami Tohka",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Linh Năng Cuồng Bạo",
+      "skillIcon": "/images/heroes/s_shenshixiang_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tối đa thay đổi thành 3, gây thêm ST gấp 5 lần ST thuộc tính, sau khi Hồi Sinh thì chỉnh thể  ST của kĩ năng này tăng gấp 5.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT -のYatogami Tohka",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Uy Trang Linh Năng",
+      "skillIcon": "/images/heroes/s_shenshixiang_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hỗn Loạn, Chế Giễu, Tsukuyomi, ngẫu nhiên Diệt Ngay 1 đơn vị, tăng cho bản thân 25% hiệu ứng Mệt Mỏi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Kiếm Khí Xung Kích",
+      "unlockedSkillIcon": "/images/heroes/s_shenshixiang_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Tinh Linh Bạo Phát",
+      "unlockedSkillIcon": "/images/heroes/s_shenshixiang_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "icon": "/images/heroes/icon_shenshixiang.png",
+          "slug": "yatogami-tohka"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "3100",
+  "slug": "copper",
+  "name": "Copper",
+  "title": "Vũ trụ linh tính • SSR Copper",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/copper.png",
+  "fullArt": "/images/heroes/full/image_chopper.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Một con tuần lộc không biết vì sao xảy ra đột biến, có ý thức con người. Sau khi học ngành bác sĩ xong trở thành một bác sĩ ưu tú. Năng lực trị liệu mạnh mẽ khiến giá trị của nó không gì sánh được.",
+  "skills": [
+    {
+      "name": "Anh Đào Tung Bay",
+      "icon": "/images/heroes/s_yinhuafeiwu.png",
+      "description": "Phục hồi 10% HP cho toàn đội phe ta, đồng thời tạo 350% sát thương ma pháp lên toàn bộ địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Chopper",
+        "description": "Kĩ năng\nTăng hiệu quả Anh Đào Tung Bay: \nAnh Đào Tung Bay sẽ giảm 20% tỉ lệ chính xác của địch, kéo dài 2 hiệp"
+      }
+    },
+    {
+      "name": "Khích Lệ",
+      "icon": "/images/heroes/s_qijiyiliao.png",
+      "description": "Kĩ năng trước trận. Giảm 350% sát thương toàn đội phe ta phải chịu, kéo dài 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Chopper",
+        "description": "Kĩ năng\nTăng hiệu quả Khích Lệ: \n Khích Lệ sẽ tăng tấn công vật lí cho phe ta (lượng tăng và giảm sát thương giống nhau)."
+      }
+    },
+    {
+      "name": "Cấp Cứu",
+      "icon": "/images/heroes/s_jijiu.png",
+      "description": "Thi triển thuật cấp cứu cấp độ bậc thầy lên mục tiêu. Phục hồi HP bằng 350% ma pháp cho đồng đội có % HP còn lại thấp nhất phe ta.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Chopper",
+        "description": "Kĩ năng\nTăng hiệu quả Cấp Cứu: \n Mục tiêu của Cấp Cứu giảm 50% sát thương phải chịu lần sau"
+      }
+    },
+    {
+      "name": "0.0",
+      "icon": "/images/heroes/s_jijiu.png",
+      "description": "增加effect的水属性攻击",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Huyền thoại·Chopper",
+        "description": "Không có"
+      }
+    },
+    {
+      "name": "0.0",
+      "icon": "/images/heroes/s_jijiu.png",
+      "description": "被攻击时，减少攻击者10%的物理攻击与10%的魔法攻击，每回合最多生效一次",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Chopper",
+        "description": "Không có"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Giông buồm ra khơi: Khi ra trận cùng lúc với Roger và Luffy thì HP , ma công+15%, phòng ngự+10%",
+    "Anime dễ thương: Khi ra trận cùng lúc với Ninja Rùa và Phượng Hoàng thì ma công, ma công， phòng ngự và tốc độ +10%",
+    "Thầy luyện thú: Khi ra trận cùng lúc với Ấn Kí Saiyan và Ichigo thì ma công, HP và tốc độ +10%",
+    "Thế giới động vật: Khi trang bị La Bàn Biển thì ma công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Chopper",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Anh Đào Tung Bay",
+      "skillIcon": "/images/heroes/s_yinhuafeiwu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Anh Đào Tung Bay: \nAnh Đào Tung Bay sẽ giảm 20% tỉ lệ chính xác của địch, kéo dài 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Chopper",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Khích Lệ",
+      "skillIcon": "/images/heroes/s_qijiyiliao.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Khích Lệ: \n Khích Lệ sẽ tăng tấn công vật lí cho phe ta (lượng tăng và giảm sát thương giống nhau).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Chopper",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Cấp Cứu",
+      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Cấp Cứu: \n Mục tiêu của Cấp Cứu giảm 50% sát thương phải chịu lần sau",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Chopper",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "0.0",
+      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillDesc": "Không có",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Chopper",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "0.0",
+      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillDesc": "Không có",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Chopper",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Chopper",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Copper",
+          "icon": "/images/heroes/copper.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

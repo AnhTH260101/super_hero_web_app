@@ -1,0 +1,90 @@
+{
+  "id": "hero-9",
+  "slug": "hero-9",
+  "name": "圣の香克斯",
+  "title": "Vũ trụ linh tính • SSR 圣の香克斯",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "外号“红发”，红发海贼团的船长，“四皇”之一。",
+  "skills": [
+    {
+      "name": "斩击",
+      "type": "active",
+      "description": "对敌方全体造成350%的魔法伤害和800%的风属性伤害。凝聚1层“霸王色霸气”。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "见闻色霸气",
+      "type": "ultimate",
+      "description": "感知技：作为“四皇”之一的红发，所有人都愿意给香克斯一个面子；在受到敌人攻击前，获得“招架”一层；回复30%最大生命值；降低敌方目标100%命中率，持续1回合。",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "连续斩击",
+      "type": "talent",
+      "description": "反击技:对敌方全体造成350%的魔法伤害和200%的风属性伤害。降低目标100%所有防御力，持续1回合。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "格里芬奥义",
+      "type": "passive",
+      "description": "死亡技：复活时根据自身“霸王色霸气”层数，每层增加10%的概率不消耗复活技使用次数（上限40%概率）；回复自身全部生命值（无视重伤）。对敌方全体造成350%的魔法攻击真伤与1500%地属性真实伤害，最多可复活3次。凝聚1层“霸王色霸气”；获得1层“神御”。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "霸王色霸气",
+      "type": "talent",
+      "description": "战前技：对敌方全体造成350%的魔法攻击真伤与1800%风属性真实伤害。回复自身100%最大生命值。将霸王色缠绕于刀剑激射挥出，降低敌方所有目标90%所有攻击力，持续3回合。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "武装色霸气",
+      "type": "passive",
+      "description": "对敌方造成350%的魔法攻击真伤与1800%风属性伤害真实伤害。凝聚1层“霸王色霸气”。",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "神避",
+      "type": "passive",
+      "description": "回合前技：将霸王色缠绕于刀剑全力挥出。对敌方造成350%的魔法攻击真伤与1500%风属性伤害真实伤害。回复自身100%最大生命值。凝聚1层“霸王色霸气”。每层“霸王色霸气”额外使该技能整体伤害提高1倍（上限20倍）。",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "海上四皇: 与card2和card3同时出场时物攻、魔攻、生命+20%，防御、速度+15%",
+    "引路人: 与card2同时出场时物攻、生命和速度+15%",
+    "荣耀伤痕: 与card2同时出场时物攻、生命和速度+15%",
+    "刀剑纵横: 与card2同时出场时物攻、生命和速度+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

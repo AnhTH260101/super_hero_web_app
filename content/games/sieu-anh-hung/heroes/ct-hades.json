@@ -1,0 +1,546 @@
+{
+  "id": "60500",
+  "slug": "ct-hades",
+  "name": "CT-Hades",
+  "title": "Vũ trụ nguyên tố • SSR CT-Hades",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-hades.png",
+  "fullArt": "/images/heroes/full/image_hadisi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh của thần Zeus, thống trị địa ngục, nắm sức mạnh chết chóc! Trong mắt hắn, bạn chỉ có một con đường!",
+  "skills": [
+    {
+      "name": "Minh Giới Đột Thích-Thánh",
+      "icon": "/images/heroes/s_mingshenmen.png",
+      "description": "Dùng ma kiếm của minh giới đâm kẻ địch có tấn công cao nhất, tạo 350% sát thương ma pháp lên kẻ địch, giảm 30% vật công và ma công của mục tiêu, kéo dài 2 hiệp. Tạo thêm attr_350% sát thương thuộc tính lửa.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "CT-Dũng sĩ·Hades",
+        "description": "Kĩ năng Minh Giới Đột Thích：\nxóa hiệu quả BUFF của mục tiêu địch."
+      }
+    },
+    {
+      "name": "U Hồn Trảm-Thánh",
+      "icon": "/images/heroes/s_dibaotianxing.png",
+      "description": "Phát động sức mạnh minh vương, qua lại không ngừng giữa minh giới và hiện thế, tiến hành trảm kích mạnh mẽ tạo 350% sát thương ma pháp lên toàn bộ địch, đồng thời tạo sát thương gấp đôi lên kẻ địch có HP còn 25% trở xuống. Tạo thêm 130% sát thương thuộc tính lửa.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "CT-Đấu sĩ·Hades",
+        "description": "Kĩ năng U Hồn Trảm：\nTăng gấp đôi sát thương với mục tiêu dưới 50% HP."
+      }
+    },
+    {
+      "name": "U Minh Vương-Thánh",
+      "icon": "/images/heroes/s_lingti.png",
+      "description": "Tử vong xong hồi sinh (mỗi trận dùng 1 lần), hồi sinh xong giới hạn HP giảm 30%, tất cả thuộc tính bản thân tăng 350%, kéo dài 3 hiệp, giảm sát thương 20%.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Hades",
+        "description": "Kĩ năng U Minh Vương：\nTăng 1 lần hồi sinh."
+      }
+    },
+    {
+      "name": "Lửa·Thương Triệt-Thánh",
+      "icon": "/images/heroes/s_lingti.png",
+      "description": "Tăng effect tấn công thuộc tính lửa",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "CT-Huyền thoại·Hades",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Tử Thần Đưa Tang-Thánh",
+      "icon": "/images/heroes/s_lingti.png",
+      "description": "Kĩ năng trước trận, tăng 350% ma công của toàn đội, nhân đôi phòng ngự thuộc tính, kéo dài 2 hiệp, nếu Zeus có mặt sẽ tăng 20% tốc độ của hắn, kéo dài 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "CT-Thần·Hades",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần· Minh Giới Chuyển Sinh: Khi ra trận cùng lúc với Phượng Hoàng, Seya, Mabara và Dracula thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
+    "Thể Linh Năng: Khi ra trận cùng lúc với Luffy và Yasuke thì vật công, HP và tốc độ +15%",
+    "Thiên Mệnh: Khi ra trận cùng lúc với Poseidon và Athena thì ma công, HP và tốc độ +15%",
+    "Xích Luyện: Khi trang bị Dây Chuyền Minh Thần thì ma công +20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "CT-Dũng sĩ·Hades",
+      "tierName": "CT-Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Minh Giới Đột Thích-Thánh",
+      "skillIcon": "/images/heroes/s_mingshenmen.png",
+      "skillDesc": "Kĩ năng Minh Giới Đột Thích：\nxóa hiệu quả BUFF của mục tiêu địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "CT-Đấu sĩ·Hades",
+      "tierName": "CT-Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "U Hồn Trảm-Thánh",
+      "skillIcon": "/images/heroes/s_dibaotianxing.png",
+      "skillDesc": "Kĩ năng U Hồn Trảm：\nTăng gấp đôi sát thương với mục tiêu dưới 50% HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Hades",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "U Minh Vương-Thánh",
+      "skillIcon": "/images/heroes/s_lingti.png",
+      "skillDesc": "Kĩ năng U Minh Vương：\nTăng 1 lần hồi sinh.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "CT-Huyền thoại·Hades",
+      "tierName": "CT-Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Lửa·Thương Triệt-Thánh",
+      "skillIcon": "/images/heroes/s_lingti.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "CT-Thần·Hades",
+      "tierName": "CT-Thần",
+      "auraColor": "red",
+      "skillName": "Tử Thần Đưa Tang-Thánh",
+      "skillIcon": "/images/heroes/s_lingti.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "CT-Linh·Hades",
+      "tierName": "CT-Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "CT-Hồn·Hades",
+      "tierName": "CT-Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "amount": 4,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hades",
+          "icon": "/images/heroes/hades.png",
+          "slug": "hades"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

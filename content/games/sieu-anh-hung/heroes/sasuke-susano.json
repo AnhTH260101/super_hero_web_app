@@ -1,0 +1,304 @@
+{
+  "id": "32100",
+  "slug": "sasuke-susano",
+  "name": "Sasuke (Susano)",
+  "title": "Vũ trụ nguyên tố • SSR Sasuke (Susano)",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/sasuke-susano.png",
+  "fullArt": "/images/heroes/full/image_sasuke2.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Lửa đỏ báo thù dẫn dắt ta, sức mạnh sẽ vượt qua tất cả",
+  "skills": [
+    {
+      "name": "Nhẫn Thuật※Hỏa Đạn",
+      "icon": "/images/heroes/s_haohuoqiushu.png",
+      "description": "Tạo 350% sát thương ma pháp lên toàn bộ địch, có 20% tỉ lệ sinh ra thêm 50% sát thương ma pháp, tạo thêm cho bản thân 150% sát thương thuộc tính lửa",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Sasuke (Susano)",
+        "description": "Nếu Naruto có mặt thì tỉ lệ sát thương thêm tăng đến 50%, tăng thêm 50% sát thương thuộc tính lửa."
+      }
+    },
+    {
+      "name": "Nhẫn Thuật※Susano",
+      "icon": "/images/heroes/s_xuzuonenghu.png",
+      "description": "Tạo 350% sát thương ma pháp lên mục tiêu trực tuyến, nhất định chính xác. Nếu Naruto có mặt sẽ tạo thêm 100% sát thương. Làm choáng mục tiêu đã định 1 hiệp. Tạo thêm cho bản thân 160% sát thương thuộc tính lửa",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Sasuke (Susano)",
+        "description": "Làm choáng toàn bộ mục tiêu trực tuyến 1 hiệp"
+      }
+    },
+    {
+      "name": "Nhẫn Thuật※Dự Báo",
+      "icon": "/images/heroes/s_xuelunyan.png",
+      "description": "Khi bị tấn công sẽ tăng cho bản thân 350% né tránh và 20% giảm thương, kéo dài 2 hiệp",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Sasuke (Susano)",
+        "description": "Tăng cho bản thân 20% ma công, kéo dài 2 hiệp; hồi phục bản thân 20% HP."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Liên minh nam thần: Phòng ngự và HP +25% khi ra trận cùng lúc với Daryl Dixon, Túi Anh Hồn +5, Veheta và 100 Năng tinh",
+    "Uchiha: Ma công +20% khi ra trận cùng lúc với Mabara",
+    "Trói buộc: Tốc độ +20% khi ra trận cùng lúc với Nanato",
+    "Kiếm chủ: Ma công và HP +15% khi ra trận cùng lúc với Kensin và Túi Anh Hồn +5"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Sasuke (Susano)",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Nhẫn Thuật※Hỏa Đạn",
+      "skillIcon": "/images/heroes/s_haohuoqiushu.png",
+      "skillDesc": "Nếu Naruto có mặt thì tỉ lệ sát thương thêm tăng đến 50%, tăng thêm 50% sát thương thuộc tính lửa.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Sasuke (Susano)",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Nhẫn Thuật※Susano",
+      "skillIcon": "/images/heroes/s_xuzuonenghu.png",
+      "skillDesc": "Làm choáng toàn bộ mục tiêu trực tuyến 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Sasuke (Susano)",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Nhẫn Thuật※Dự Báo",
+      "skillIcon": "/images/heroes/s_xuelunyan.png",
+      "skillDesc": "Tăng cho bản thân 20% ma công, kéo dài 2 hiệp; hồi phục bản thân 20% HP.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Sasuke (Susano)",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Sasuke (Susano)",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Sasuke (Susano)",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Sasuke (Susano)",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "icon": "/images/heroes/sasuke-susano.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

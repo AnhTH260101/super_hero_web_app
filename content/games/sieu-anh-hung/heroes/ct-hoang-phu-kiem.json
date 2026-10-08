@@ -1,0 +1,633 @@
+{
+  "id": "61600",
+  "slug": "ct-hoang-phu-kiem",
+  "name": "CT-Hoàng Phủ Kiếm",
+  "title": "Vũ trụ nguyên tố • UR CT-Hoàng Phủ Kiếm",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-hoang-phu-kiem.png",
+  "fullArt": "/images/heroes/full/image_fengyunjiansheng.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Từ nhỏ đã là tay kiếm cô độc, dùng nhiệt huyết cả đời theo đuổi ý nghĩa tối cao của kiếm thuật. Thế rồi vào một ngày nọ, hắn đã có linh cảm mới, ngộ ra nhị thập tam kiếm hủy thiên diệt địa!",
+  "skills": [
+    {
+      "name": "Trăng Sáng-Kiếm Linh Thần Pháp",
+      "icon": "/images/heroes/icon_maze_mgc.png",
+      "description": "Múa kiếm tung kiếm hồn, nhắm vào kẻ địch xếp trước tạo 350% sát thương ma pháp và 100% sát thương thuộc tính gió, giảm 30% phòng ngự của kẻ địch đối diện, kéo dài 2 hiệp, đồng thời đánh dấu 1 lần lên xếp sau (không thể xóa)",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Hoàng Phủ Kiếm",
+        "description": "Giảm 15% vật công của xếp trước đối diện, kéo dài 2 hiệp, khi dùng kĩ năng sẽ phục hồi 15% HP bản thân"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Vô Song",
+      "icon": "/images/heroes/icon_maze_phsc.png",
+      "description": "Vung kiếm trong tay, dùng kiếm khí nhắm vào toàn bộ địch tạo 350% sát thương ma pháp, đồng thời giảm phòng ngự thuộc tính của địch (điểm giảm bằng 50% tấn công thuộc tính gió của bản thân), làm choáng ngẫu nhiên 1-3 tên địch, tạo sát thương x1.5 lên kẻ địch bị đánh dấu",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Hoàng Phủ Kiếm",
+        "description": "Mỗi lần dùng kĩ năng tăng 25% giảm thương cho bản thân, kéo dài 2 hiệp"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Nguyên Thần Xuất Khiếu",
+      "icon": "/images/heroes/icon_maze_nodamage.png",
+      "description": "Dùng trước khi vào hiệp, tập trung ý niệm suy tưởng đả thăng kì kinh bát mạch, xóa trạng thái phụ của bản thân, phục hồi 350% HP và tăng 350% toàn bộ thuộc tính cho bản thân",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Hoàng Phủ Kiếm",
+        "description": "Tăng 50% tốc độ cho bản thân, đồng thời tăng 30% né tránh cho toàn đội, kéo dài 1 hiệp"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Gió·Kiếm Linh",
+      "icon": "/images/heroes/icon_maze_phsc.png",
+      "description": "Tăng effect tấn công thuộc tính gió điểm tuyệt đối",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Hoàng Phủ Kiếm",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Tuyệt Thế Tâm Kiếm",
+      "icon": "/images/heroes/icon_maze_nodamage.png",
+      "description": "Tử vong xong, phục hồi 350% tốc độ và né tránh cho toàn đội, kéo dài 2 hiệp, xóa BUFF của tất cả nhân vật xếp sau phe địch, nếu Hoàng Phủ Kiếm và Master có mặt sẽ tăng thêm 30% vật công",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Hoàng Phủ Kiếm",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Tấn Công Hung Tàn: Khi ra trận cùng lúc với Dương Tiễn và Blademaster thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Xung Phong: Khi ra trận cùng lúc với Roger và Na Tra thì vật công, HP và tốc độ+15%",
+    "Kiếm Khách Tam Hiệp: Khi ra trận cùng lúc với Samurai và Master Yi thì ma công, HP và tốc độ+15%",
+    "Phong Ba: Khi trang bị Sương Thần Kiếm thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Hoàng Phủ Kiếm: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Hoàng Phủ Kiếm",
+      "icon": "/images/heroes/hoang-phu-kiem.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Master Yi",
+      "icon": "/images/heroes/master-yi.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Hoàng Phủ Kiếm",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Trăng Sáng-Kiếm Linh Thần Pháp",
+      "skillIcon": "/images/heroes/icon_maze_mgc.png",
+      "skillDesc": "Giảm 15% vật công của xếp trước đối diện, kéo dài 2 hiệp, khi dùng kĩ năng sẽ phục hồi 15% HP bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Hoàng Phủ Kiếm",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Trăng Sáng-Vô Song",
+      "skillIcon": "/images/heroes/icon_maze_phsc.png",
+      "skillDesc": "Mỗi lần dùng kĩ năng tăng 25% giảm thương cho bản thân, kéo dài 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Hoàng Phủ Kiếm",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Trăng Sáng-Nguyên Thần Xuất Khiếu",
+      "skillIcon": "/images/heroes/icon_maze_nodamage.png",
+      "skillDesc": "Tăng 50% tốc độ cho bản thân, đồng thời tăng 30% né tránh cho toàn đội, kéo dài 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Hoàng Phủ Kiếm",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Trăng Sáng-Gió·Kiếm Linh",
+      "skillIcon": "/images/heroes/icon_maze_phsc.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Hoàng Phủ Kiếm",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Trăng Sáng-Tuyệt Thế Tâm Kiếm",
+      "skillIcon": "/images/heroes/icon_maze_nodamage.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Hoàng Phủ Kiếm",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 200,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Hoàng Phủ Kiếm",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 300,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "icon": "/images/heroes/hoang-phu-kiem.png",
+          "slug": "hoang-phu-kiem"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

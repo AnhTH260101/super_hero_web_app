@@ -1,0 +1,580 @@
+{
+  "id": "33500",
+  "slug": "mi-nuong",
+  "name": "Mị Nương",
+  "title": "Vũ trụ nguyên tố • SSR Mị Nương",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/mi-nuong.png",
+  "fullArt": "/images/heroes/full/image_zhurong.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chúc Dung là lửa, xem ta thiêu trụi cả thế gian đây",
+  "skills": [
+    {
+      "name": "Hỏa Vũ",
+      "icon": "/images/heroes/s_sgzr_hurt.png",
+      "description": "Phát 1 trận hỏa tiễn, tạo sát thương vật lý 350% cho dãy địch phía sau, tự hồi 20% HP, thêm 160% sát thương Hỏa",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Mị Nương",
+        "description": "Hỏa Vũ đốt mục tiêu dãy sau, 2 hiệp. Loại tất cả BUFF"
+      }
+    },
+    {
+      "name": "Phá",
+      "icon": "/images/heroes/s_sgzr_cure.png",
+      "description": "Thả trước trận, tự tăng 350% mọi giảm thương và tốc độ, xóa buff xấu: giảm thuộc tính, chảy máu và choáng, miễn dịch Choáng 1 lần",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Mị Nương",
+        "description": "Từ hiệp thứ 2, Chúc Dung tăng thêm 50% tốc độ trong 3 hiệp"
+      }
+    },
+    {
+      "name": "Sao Băng Lửa",
+      "icon": "/images/heroes/s_sgzr_injure.png",
+      "description": "Tạo sát thương vật lý 350% và 130% sát thương Hỏa, x2 sát thương vật lý cho mục tiêu đang cháy.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Mị Nương",
+        "description": "Chúc Dung chuyển tấn công Ma Pháp thành tấn công Hỏa"
+      }
+    },
+    {
+      "name": "Tấn công rực lửa",
+      "icon": "/images/heroes/s_sgzr_cure.png",
+      "description": "Tăng 10000 tấn công Hỏa cho mình, tăng 50% tấn công vật lý, mỗi đồng đội ra trận tăng 25% tấn công vật lý cho Chúc Dung",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Mị Nương",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Cuồng nhiệt",
+      "icon": "/images/heroes/s_sgzr_injure.png",
+      "description": "Thả trước trận, tấn công mục tiêu mặc định dãy sau tạo 350% sát thương vật lý và 300% sát thương Hỏa, trộm 50% tốc độ",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Mị Nương",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Cảnh Rực Lửa: Cùng Zoro và Sesshoumaru ra trận thì Vật Công, Ma Công, HP+20%, Phòng ngự, Tốc độ+15%",
+    "Tức giận đánh úp: Cùng Odin và Hậu Nghệ ra trận thì Vật Công, HP, Tốc độ+15%",
+    "Thần linh nộ: Cùng Heimdall và Zeus ra trận thì Vật Công, HP, Tốc độ+15%",
+    "Lửa Công lý: Cùng Na Tra ra trận thì Vật Công, HP, Tốc độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-mi-nuong",
+      "name": "CT-Mị Nương",
+      "avatar": "/images/heroes/ct-mi-nuong.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Chúc Dung là lửa, xem ta thiêu trụi cả thế gian đây"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Mị Nương",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Hỏa Vũ",
+      "skillIcon": "/images/heroes/s_sgzr_hurt.png",
+      "skillDesc": "Hỏa Vũ đốt mục tiêu dãy sau, 2 hiệp. Loại tất cả BUFF",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Mị Nương",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Phá",
+      "skillIcon": "/images/heroes/s_sgzr_cure.png",
+      "skillDesc": "Từ hiệp thứ 2, Chúc Dung tăng thêm 50% tốc độ trong 3 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Mị Nương",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Sao Băng Lửa",
+      "skillIcon": "/images/heroes/s_sgzr_injure.png",
+      "skillDesc": "Chúc Dung chuyển tấn công Ma Pháp thành tấn công Hỏa",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Mị Nương",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Tấn công rực lửa",
+      "skillIcon": "/images/heroes/s_sgzr_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Na Tra",
+          "icon": "/images/heroes/na-tra.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Dương Tiễn",
+          "icon": "/images/heroes/duong-tien.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Mị Nương",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Cuồng nhiệt",
+      "skillIcon": "/images/heroes/s_sgzr_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Mị Nương",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Mị Nương",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mị Nương",
+          "icon": "/images/heroes/mi-nuong.png",
+          "slug": "mi-nuong"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

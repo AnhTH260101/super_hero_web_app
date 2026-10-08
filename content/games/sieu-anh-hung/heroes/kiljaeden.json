@@ -1,0 +1,602 @@
+{
+  "id": "36100",
+  "slug": "kiljaeden",
+  "name": "Kil'jaeden",
+  "title": "Vũ trụ sức mạnh • SSR Kil'jaeden",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kiljaeden.png",
+  "fullArt": "/images/heroes/full/image_jaeden.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là 1 trong những thành viên cấp cao trong Eredar. Sự tà ác của hắn sánh ngang với sức mạnh khiến người khác rùng mình.",
+  "skills": [
+    {
+      "name": "Đốm Lửa",
+      "icon": "/images/heroes/s_jaeden_hyzh.png",
+      "description": "Tạo 350% Ma Pháp và 200% dmg t.tính Lửa lên kẻ địch, và thêm BUFF Cháy cấp A cho phe địch (Tạo dmg thực bằng 240% Ma Công). Mỗi BUFF Cháy kéo dài 2 hiệp. Tối đa cộng dồn 5 hiệu quả Cháy.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kil'jaeden",
+        "description": "HQ Cháy cấp A nâng cấp lên cấp S (Tạo dmg bỏ qua phòng ngự bằng 300% Ma Công)"
+      }
+    },
+    {
+      "name": "Viên Bảo Hộ",
+      "icon": "/images/heroes/s_jaeden_hdbz.png",
+      "description": "KN bị đánh: Trước mỗi hiệp thêm BUFF trị liệu cho tất cả đồng đội phe ta có mặt, có hiệu lực trước mỗi hiệp, tổng lượng trị liệu là 50% HP đã mất, cộng thêm 350% Phòng Ngự của Kil'jaeden & Phòng Ngự của đồng đội được trị liệu, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kil'jaeden",
+        "description": "Kéo dài thời gian tăng 1 hiệp, tổng lượng trị liệu +50%"
+      }
+    },
+    {
+      "name": "Vùng Warcraft",
+      "icon": "/images/heroes/s_jaeden_qhza.png",
+      "description": "Tạo 350% Ma Pháp & 200% dmg t.tính Lửa cho 3 mục tiêu, tăng 350% Phòng Ngự & Phòng Ngự toàn thuộc tính.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kil'jaeden",
+        "description": "Giới hạn HP tăng 150%, chế nhạo dãy trước hoặc dãy sau phe địch, HQ chế nhạo kéo dài 1 hiệp"
+      }
+    },
+    {
+      "name": "Đâm Lén",
+      "icon": "/images/heroes/s_jaeden_ayzc.png",
+      "description": "KN trước trận, bản thân mãi mãi miễn dịch với HQ Hỗn Loạn/Hóa Đá/Đứng Im/Choáng/Sợ/Đóng Băng. Toàn thể địch được trị liệu -50%, 2 hiệp. Thêm BUFF trị liệu cho mình, trước mỗi hiệp có hiệu lực, tổng lượng trị liệu là 50% HP đã mất, cộng thêm 350% Phòng Ngự của Kil'jaeden & Phòng Ngự của đồng đội được trị liệu, kéo dài 2 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kil'jaeden",
+        "description": "Toàn thể địch nhận được HQ trị liệu -70%; bản thân giảm thương 69%"
+      }
+    },
+    {
+      "name": "Trận Tận Thế",
+      "icon": "/images/heroes/s_jaeden_mrjz.png",
+      "description": "Khi Kil'jaeden tử trận, tạo 350% dmg Ma Pháp & 600% dmg t.tính Lửa. Kèm BUFF Cháy cấp S cho tất cả đồng đội phe địch có mặt",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kil'jaeden",
+        "description": "Tổng sát thương Ma Pháp tăng 20%"
+      }
+    },
+    {
+      "name": "Lam Diệm Thuẫn",
+      "icon": "/images/heroes/s_jaeden_lyhd.png",
+      "description": "KN trước khi bị đánh, sau khi bị đánh có 99% tỉ lệ phản đòn 350% dmg Ma Pháp lên kẻ tấn công, và kèm BUFF Cháy cấp A.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Kil'jaeden",
+        "description": "HQ Cháy cấp A nâng cấp lên cấp S (Tạo dmg bỏ qua phòng ngự bằng 300% Ma Công)"
+      }
+    },
+    {
+      "name": "Lãnh Chúa Lửa",
+      "icon": "/images/heroes/s_jaeden_hylz.png",
+      "description": "Tạo 350% dmg Ma Pháp & 800% dmg t.tính Lửa cho toàn thể địch. Tăng thêm 150% Ma Công & 150% Tấn Công t.tính Lửa cho mình (có hiệu lực đối với kỹ năng này), kéo dài 2 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kil'jaeden",
+        "description": "Tăng thêm 30% Ma Công & 30% Tấn Công t.tính Lửa"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ác Ma Nộ: Cùng Lich King ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Tốc Độ Đen Tối: Cùng Uchiha và Ma Nhân ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Địa Ngục Thiên Đường: Cùng Erza ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Băng Hỏa Ma: Cùng Gray ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kiljaeden",
+      "name": "CT-Kil'jaeden",
+      "avatar": "/images/heroes/ct-kiljaeden.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là 1 trong những thành viên cấp cao trong Eredar. Sự tà ác của hắn sánh ngang với sức mạnh khiến người khác rùng mình."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kil'jaeden",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đốm Lửa",
+      "skillIcon": "/images/heroes/s_jaeden_hyzh.png",
+      "skillDesc": "HQ Cháy cấp A nâng cấp lên cấp S (Tạo dmg bỏ qua phòng ngự bằng 300% Ma Công)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kil'jaeden",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Viên Bảo Hộ",
+      "skillIcon": "/images/heroes/s_jaeden_hdbz.png",
+      "skillDesc": "Kéo dài thời gian tăng 1 hiệp, tổng lượng trị liệu +50%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kil'jaeden",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Vùng Warcraft",
+      "skillIcon": "/images/heroes/s_jaeden_qhza.png",
+      "skillDesc": "Giới hạn HP tăng 150%, chế nhạo dãy trước hoặc dãy sau phe địch, HQ chế nhạo kéo dài 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Kil'jaeden",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Lam Diệm Thuẫn",
+      "skillIcon": "/images/heroes/s_jaeden_lyhd.png",
+      "skillDesc": "HQ Cháy cấp A nâng cấp lên cấp S (Tạo dmg bỏ qua phòng ngự bằng 300% Ma Công)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kil'jaeden",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Lãnh Chúa Lửa",
+      "skillIcon": "/images/heroes/s_jaeden_hylz.png",
+      "skillDesc": "Tăng thêm 30% Ma Công & 30% Tấn Công t.tính Lửa",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kil'jaeden",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Đâm Lén",
+      "skillIcon": "/images/heroes/s_jaeden_ayzc.png",
+      "skillDesc": "Toàn thể địch nhận được HQ trị liệu -70%; bản thân giảm thương 69%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kil'jaeden",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Trận Tận Thế",
+      "skillIcon": "/images/heroes/s_jaeden_mrjz.png",
+      "skillDesc": "Tổng sát thương Ma Pháp tăng 20%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lam Diệm Thuẫn",
+      "unlockedSkillIcon": "/images/heroes/s_jaeden_lyhd.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Lãnh Chúa Lửa",
+      "unlockedSkillIcon": "/images/heroes/s_jaeden_hylz.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kil'jaeden",
+          "icon": "/images/heroes/kiljaeden.png",
+          "slug": "kiljaeden"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

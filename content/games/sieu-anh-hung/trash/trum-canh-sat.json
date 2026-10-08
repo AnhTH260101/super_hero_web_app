@@ -1,0 +1,64 @@
+{
+  "id": "trum-canh-sat",
+  "slug": "trum-canh-sat",
+  "name": "Trùm Cảnh Sát",
+  "title": "Vũ trụ lí tính • SSR Trùm Cảnh Sát",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/trum-canh-sat.png",
+  "element": "Vũ trụ lí tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Vega: phần tử phản nhân loại cực đoan, nghề chính: phần tử khủng bố, nghề phụ: MC đài truyền hình Hồ Nam. Hắn không những cải tạo mình thành cỗ máy, còn xem tiêu diệt mọi con người là lẽ sống đời mình. Kĩ năng chiêu bài khoan điện và Toàn Phong Cước, các bạn còn nhớ không?",
+  "skills": [
+    {
+      "name": "Cước Đao",
+      "type": "active",
+      "description": "Cú đá lật tung trời mạnh mẽ! Tạo 1 lần 350% sát thương vật lí cho mục tiêu, có 50% tỉ lệ làm choáng mục tiêu, đồng thời chắc chắn giảm 20% tấn công của hắn, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Khoan điện",
+      "type": "ultimate",
+      "description": "Tuyệt kĩ chiêu bài! Tạo 1 lần 100% sát thương vật lí và 350% sát thương ma pháp cho mục tiêu và kẻ địch sau hắn, chắc chắn làm choáng mục tiêu đã định, đồng thời có 50% tỉ lệ khiến mục tiêu sau hắn choáng 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Kẻ thù nhân loại",
+      "type": "talent",
+      "description": "Nếu trên chiến trường có bất kì 1 nhân vật nhân loại nào thì Trùm Cảnh Sát sẽ trong 2 hiệp trước trận đấu tăng 350% toàn bộ thuộc tính bản thân, đồng thời tăng 20 điểm nộ khí anh hùng phe ta.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Người sắt: Phòng ngự và tốc độ +25% khi ra trận cùng lúc với card2, card3, card4 và card5",
+    "Phản nhân loại: Vật công và HP +15% khi ra trận cùng lúc với card2 và card3",
+    "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Thế bất lưỡng lập: Ma công +20% khi ra trận cùng lúc với card2"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

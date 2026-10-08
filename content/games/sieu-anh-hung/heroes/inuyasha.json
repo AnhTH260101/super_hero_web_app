@@ -1,0 +1,610 @@
+{
+  "id": "36300",
+  "slug": "inuyasha",
+  "name": "InuYasha",
+  "title": "Zombie Bentu • SSR InuYasha",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/inuyasha.png",
+  "fullArt": "/images/heroes/full/image_Inuyasha.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là một bán yêu, nhưng lại kiên cường và có tấm lòng ấm áp, tay cầm \"Thiết Toái Nha\" cùng đồng đội sát cánh chiến đấu!",
+  "skills": [
+    {
+      "name": "Sankontetsou",
+      "icon": "/images/heroes/s_Natsu_gz.png",
+      "description": "Tấn công 1-3 mục tiêu, tạo 350% dmg Vật Lý & % dmg t.tính Gió (tấn công càng ít người, dmg càng cao: Đánh 1 người, tạo X2 dmg; Đánh 2 người, tạo X1 dmg)",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·InuYasha",
+        "description": "Mỗi hiệp tạo dmg tụt máu bằng 200%-800% Vật & Ma Công (Bỏ qua Giảm Thương, không thể bỏ qua Phòng Ngự), kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Bộc Lưu Phá",
+      "icon": "/images/heroes/s_Ichigo_txlw.png",
+      "description": "KN phản đòn: Sau khi bị tấn công, có 99% tỉ lệ phản đòn tất cả sát thương mà bản thân chịu cho mục tiêu, tạo thêm 350% dmg Ma Pháp và % dmg t.tính Gió, mỗi hiệp tối đa phát động 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·InuYasha",
+        "description": "Nâng cấp thành phản đòn sát thương thực, số lần phản đòn tăng đến 3 lần."
+      }
+    },
+    {
+      "name": "Áo Hakama",
+      "icon": "/images/heroes/s_zamas_lz.png",
+      "description": "KN trước trận: Vĩnh viễn miễn dịch Tấn Công T.Tính Lửa, tăng 350% Phòng Ngự & Phòng Ngự T.Tính, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·InuYasha",
+        "description": "Vĩnh viễn tăng 50% Tốc Độ bản thân, trước mỗi hiệp, đều có 80% tỉ lệ được HQ Vô Địch, từ đó miễn dịch 1 lần tấn công"
+      }
+    },
+    {
+      "name": "Thiết Toái Nha",
+      "icon": "/images/heroes/s_ssw_hurt.png",
+      "description": "KN trước hiệp: Tấn công 1 mục tiêu, căn cứ trạng thái mục tiêu chọn KN để thả, hồi 50% HP đã mất của mình\nNếu mục tiêu không tồn tại trạng thái Vô Địch, sẽ thả \"Thiết Nha Đỏ\", bỏ qua trạng thái Vô Địch, tạo dmg thực bằng 350% Vật Công, không tạo dmg thuộc tính;\nNếu mục tiêu không tồn tại trạng thái Vô Địch, HP dưới 30%, sẽ thả \"Tàn Nguyệt Phá\", kết liễu mục tiêu;\nNếu mục tiêu không tồn tại trạng thái Vô Địch, HP trên 30%, Vật & Ma Công cao hơn bản thân, sẽ thả \"Thiết Nha Rồng\", tạo 350% dmg Ma Pháp & 800% dmg t.tính Gió, và hút 80% Vật & Ma Công của mục tiêu (Giảm mục tiêu địch, tăng thuộc tính bản thân), lần đánh sau có hiệu lực, 1 hiệp;\nNếu mục tiêu không tồn tại 3 trạng thái trên, sẽ thả \"Kim Cang Giáo\", tấn công toàn thể địch, tạo 350% dmg Vật Lý & 800% dmg t.tính Gió, làm choáng 1 mục tiêu, có hiệu lực 1 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·InuYasha",
+        "description": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Mê Hoặc; tăng 300% Phòng Ngự cho phe ta, kéo dài 1 hiệp; Ở trạng thái Khuyển Yêu, Hồi HP tăng đến 100%"
+      }
+    },
+    {
+      "name": "Khuyển Yêu",
+      "icon": "/images/heroes/s_ssw_cure.png",
+      "description": "KN trước khi bị đánh: Tăng 50% Chính Xác và tỉ lệ Bạo Kích cho đồng đội",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·InuYasha",
+        "description": "Tăng 69% giảm thương toàn thể, kéo dài 1 hiệp; Khi thả KN \"Khuyển Yêu\" xong, InuYasha sẽ có 1 cơ hội hồi sinh, và tăng 100% Vật & Ma Công, 50% Né, 200% tỉ lệ Bạo Kích, cả trận tối đa hồi sinh 1 lần."
+      }
+    },
+    {
+      "name": "Yêu Đao Lực",
+      "icon": "/images/heroes/s_Ichigo_szc.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% dmg Vật Lý & dmg t.tính Gió",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·InuYasha",
+        "description": "Làm 1 mục tiêu trọng thương, giảm 90% HQ hồi HP của mục tiêu, kéo dài 1 hiệp"
+      }
+    },
+    {
+      "name": "Phong Thương",
+      "icon": "/images/heroes/s_bingzhang_zyzy.png",
+      "description": "Tấn công toàn thể địch, bỏ qua 50% Phòng Ngự của mục tiêu, tạo dmg bằng 350% Vật & Ma Công và 800% dmg t.tính Gió.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·InuYasha",
+        "description": "Tạo X1-3 dmg và dmg t.tính lên mục tiêu; Giảm 80% Né của 2-4 mục tiêu, kéo dài 2 hiệp; Khiến 1 kẻ địch tụt máu, mỗi hiệp tạo dmg thực bằng X3 dmg t.tính Gió, có hiệu lực 2 lần."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đao Kiếm Đạo: Khi cùng Kurosaki và Gintoki ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Siêu Cảm: Khi cùng Uchiha và Sanji ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Huynh Đệ: Khi cùng Sesshoumaru ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Lửa Miệt Thị: Khi cùng Natsu ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-inuyasha",
+      "name": "CT-InuYasha",
+      "avatar": "/images/heroes/ct-inuyasha.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là một bán yêu, nhưng lại kiên cường và có tấm lòng ấm áp, tay cầm \"Thiết Toái Nha\" cùng đồng đội sát cánh chiến đấu!"
+    },
+    {
+      "slug": "khuyen-ai-tuong",
+      "name": "Khuyển Đại Tướng",
+      "avatar": "/images/heroes/khuyen-ai-tuong.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Cha của Khuyển Dạ Xoa và Sesshomaru, có yêu lực cực mạnh, tay cầm 3 thanh yêu đao \"Tessaiga\", \"Tenseiga\" và \"So'unga\" thống lĩnh khuyển yêu!"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·InuYasha",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sankontetsou",
+      "skillIcon": "/images/heroes/s_Natsu_gz.png",
+      "skillDesc": "Mỗi hiệp tạo dmg tụt máu bằng 200%-800% Vật & Ma Công (Bỏ qua Giảm Thương, không thể bỏ qua Phòng Ngự), kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·InuYasha",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bộc Lưu Phá",
+      "skillIcon": "/images/heroes/s_Ichigo_txlw.png",
+      "skillDesc": "Nâng cấp thành phản đòn sát thương thực, số lần phản đòn tăng đến 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·InuYasha",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Áo Hakama",
+      "skillIcon": "/images/heroes/s_zamas_lz.png",
+      "skillDesc": "Vĩnh viễn tăng 50% Tốc Độ bản thân, trước mỗi hiệp, đều có 80% tỉ lệ được HQ Vô Địch, từ đó miễn dịch 1 lần tấn công",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·InuYasha",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Yêu Đao Lực",
+      "skillIcon": "/images/heroes/s_Ichigo_szc.png",
+      "skillDesc": "Làm 1 mục tiêu trọng thương, giảm 90% HQ hồi HP của mục tiêu, kéo dài 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·InuYasha",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Phong Thương",
+      "skillIcon": "/images/heroes/s_bingzhang_zyzy.png",
+      "skillDesc": "Tạo X1-3 dmg và dmg t.tính lên mục tiêu; Giảm 80% Né của 2-4 mục tiêu, kéo dài 2 hiệp; Khiến 1 kẻ địch tụt máu, mỗi hiệp tạo dmg thực bằng X3 dmg t.tính Gió, có hiệu lực 2 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·InuYasha",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Thiết Toái Nha",
+      "skillIcon": "/images/heroes/s_ssw_hurt.png",
+      "skillDesc": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Mê Hoặc; tăng 300% Phòng Ngự cho phe ta, kéo dài 1 hiệp; Ở trạng thái Khuyển Yêu, Hồi HP tăng đến 100%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·InuYasha",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Khuyển Yêu",
+      "skillIcon": "/images/heroes/s_ssw_cure.png",
+      "skillDesc": "Tăng 69% giảm thương toàn thể, kéo dài 1 hiệp; Khi thả KN \"Khuyển Yêu\" xong, InuYasha sẽ có 1 cơ hội hồi sinh, và tăng 100% Vật & Ma Công, 50% Né, 200% tỉ lệ Bạo Kích, cả trận tối đa hồi sinh 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Yêu Đao Lực",
+      "unlockedSkillIcon": "/images/heroes/s_Ichigo_szc.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Phong Thương",
+      "unlockedSkillIcon": "/images/heroes/s_bingzhang_zyzy.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "InuYasha",
+          "icon": "/images/heroes/inuyasha.png",
+          "slug": "inuyasha"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

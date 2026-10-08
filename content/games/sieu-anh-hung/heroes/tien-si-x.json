@@ -1,0 +1,304 @@
+{
+  "id": "3400",
+  "slug": "tien-si-x",
+  "name": "Tiến sĩ X",
+  "title": "Vũ trụ nguyên tố • SSR Tiến sĩ X",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/tien-si-x.png",
+  "fullArt": "/images/heroes/full/image_professorX.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Vốn là bạn tốt của Thần Mam Châm, trong thời đại hòa bình chia tay vì chuyện nhỉ, trong ngày tận thế lại tìm được lí do ở cùng nhau. Ở cùng nhau, ở cùng nhau!",
+  "skills": [
+    {
+      "name": "Tinh thần xung kích",
+      "icon": "/images/heroes/s_jingshenkongzhi.png",
+      "description": "Dùng siêu năng lực tạo 1 lần 350% sát thương ma pháp cho nhân vật có tốc độ cao nhất của phe địch, đồng thời có 50% tỉ lệ giảm 20 điểm nộ khí của anh hùng đối phương.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Tiến sĩ X",
+        "description": "Kĩ năng\nTăng hiệu quả Tinh Thần Xung Kích: \n Tinh Thần Xung Kích sẽ tạo 2 lần sát thương."
+      }
+    },
+    {
+      "name": "Bạo phá tinh thần",
+      "icon": "/images/heroes/s_loudian.png",
+      "description": "Dùng siêu năng lực tấn công liên tục tinh thần của mục tiêu, tổng cộng tạo 350% sát thương ma pháp, đồng thời có 50% tỉ lệ làm choáng mục tiêu 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Tiến sĩ X",
+        "description": "Kĩ năng\nTăng hiệu quả Bạo Phá Tinh Thần: \n Bạo Phá Tinh Thần nhất định làm choáng địch."
+      }
+    },
+    {
+      "name": "Lãnh vực X",
+      "icon": "/images/heroes/s_Xlingyu.png",
+      "description": "Kĩ năng trước trận. Dùng sức mạnh ý niệm tạo ra một trường lực, tăng 350% sát thương ma pháp cho toàn bộ đội viên phe ta, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Tiến sĩ X",
+        "description": "Kĩ năng\nTăng hiệu quả Lãnh  Vực X: \n Lãnh Vực X sẽ giảm 50% sát thương phải chịu của mục tiêu phe ta."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thay đổi tương lai: Ma công và HP +15% khi ra trận cùng lúc với Thần bài và Kẻ Hủy Diệt",
+    "Sức mạnh ý niệm: Vật công và HP +15% khi ra trận cùng lúc với Alessa và Phượng Hoàng",
+    "Vừa thù vừa bạn: Ma công +20% khi ra trận cùng lúc với Magneto",
+    "Người chỉ dẫn: HP +20% khi ra trận cùng lúc với Đội trưởng"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Tiến sĩ X",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tinh thần xung kích",
+      "skillIcon": "/images/heroes/s_jingshenkongzhi.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Tinh Thần Xung Kích: \n Tinh Thần Xung Kích sẽ tạo 2 lần sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Tiến sĩ X",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bạo phá tinh thần",
+      "skillIcon": "/images/heroes/s_loudian.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Bạo Phá Tinh Thần: \n Bạo Phá Tinh Thần nhất định làm choáng địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Tiến sĩ X",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Lãnh vực X",
+      "skillIcon": "/images/heroes/s_Xlingyu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Lãnh  Vực X: \n Lãnh Vực X sẽ giảm 50% sát thương phải chịu của mục tiêu phe ta.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Tiến sĩ X",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Tiến sĩ X",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Tiến sĩ X",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Tiến sĩ X",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "icon": "/images/heroes/tien-si-x.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

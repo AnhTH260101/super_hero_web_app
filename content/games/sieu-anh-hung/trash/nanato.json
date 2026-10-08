@@ -1,0 +1,64 @@
+{
+  "id": "nanato",
+  "slug": "nanato",
+  "name": "Nanato",
+  "title": "Vũ trụ linh tính • SSR Nanato",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/nanato.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Nhìn thấy sáu chiếc râu ở miệng Naruto chưa? Đó là biểu tượng cho sức mạnh của cửu vĩ hồ, nó mang lại năng lực đào tẩu to lớn và hào quang nhân vật chính cho Naruto.",
+  "skills": [
+    {
+      "name": "Nhẫn pháp※ Liệt Quang Đạn",
+      "type": "active",
+      "description": "Ném về phía mục tiêu thanh kiếm chứa vũ trụ nhỏ, tạo thành tổng 350% sát thương ma pháp, đồng thời có 100% tỉ lệ khiến hắn choáng 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Nhẫn pháp※ Triệu hồi",
+      "type": "ultimate",
+      "description": "Triệu hồi tiên nhân, tạo 350% sát thương ma pháp cho toàn bộ địch, đồng thời tăng 5% sát thương ma pháp cho toàn bộ phe ta, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Nhẫn pháp※ Thần giáng",
+      "type": "talent",
+      "description": "Kĩ năng trước trận. Khi chiến đấu bắt đầu triệu hồi sức mạnh của cửu vĩ hồ, tăng 15 điểm nộ khí cho anh hùng phe ta và 350% giới hạn HP toàn bộ đội viên phe ta, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Trói buộc: Tốc độ +20% khi ra trận cùng lúc với card2",
+    "Thuật sexy: Ma công +20% khi ra trận cùng lúc với card2",
+    "Niềm tin: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với card2 và card3",
+    "Manga hay: Ma công và HP +15% khi ra trận cùng lúc với card2 và card3"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

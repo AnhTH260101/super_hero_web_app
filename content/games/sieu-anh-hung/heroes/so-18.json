@@ -1,0 +1,608 @@
+{
+  "id": "41600",
+  "slug": "so-18",
+  "name": "Số 18",
+  "title": "Vũ trụ linh tính • SSR Số 18",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/so-18.png",
+  "fullArt": "/images/heroes/full/image_renzaoren18hao.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Người Nhân Tạo Android Số 18, tên gốc là Lazuli, vốn dĩ là một cô gái Địa Cầu xinh đẹp bình thường, sau đó bị Dr. Gero cải tạo thành Android cùng với em trai Lapis số 17.",
+  "skills": [
+    {
+      "name": "Sóng Năng Lượng",
+      "icon": "/images/heroes/s_renzaoren18hao_s1.png",
+      "description": "Gây 350% ST ma pháp và 500% ST thuộc tính Hỏa cho ngẫu nhiên 3 ~ 5 kẻ địch, gây ra gấp 3-5 lần ST và ST thuộc tính và làm mục tiêu bị Trói Buộc.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Số 18",
+        "description": "Trong số các mục tiêu, gây thêm gấp 3 ST đối với kẻ địch có HP ít hơn 50%"
+      }
+    },
+    {
+      "name": "Đạn Đuổi",
+      "icon": "/images/heroes/s_renzaoren18hao_s2.png",
+      "description": "Gây 350% ST ma pháp và 300% ST thuộc tính Hỏa cho ngẫu nhiên 3 ~ 5 kẻ địch, giảm 33% tấn công kép Ma-Vật của mục tiêu, duy trì 2 lượt.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Số 18",
+        "description": "Gây ra gấp 3 ST và ST thuộc tính, làm mục tiêu Mù. "
+      }
+    },
+    {
+      "name": "Khinh Công",
+      "icon": "/images/heroes/s_renzaoren18hao_s3.png",
+      "description": "Kỹ năng trước khi bị đánh: Gây 350% ST ma pháp và 200% ST thực thuộc tính Hỏa cho tất cả kẻ địch, giảm 90% khả năng Trúng Đích, Bạo Kích của mục tiêu, thêm 1 tầng Vô Địch cho bản thân, hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Số 18",
+        "description": "Gây hiệu ứng Chảy Máu lên tất cả mục tiêu (30% HP bản thân) và có 50% cơ hội giảm đòn tấn công toàn thuộc tính của mục tiêu xuống 0 (có hiệu lực trong lượt này), số lần kích hoạt mỗi lượt biến thành 3 lần.\n"
+      }
+    },
+    {
+      "name": "Năng Lượng Vô Tận",
+      "icon": "/images/heroes/s_renzaoren18hao_s6.png",
+      "description": "Kỹ năng tử vong (lần đầu hồi sinh bỏ qua hiệu ứng Trọng Thương): Phục hồi toàn bộ HP. Đối toàn thể kẻ địch gây ra ST thực bằng 45% HP tối đa của bản thân, chọn 1 mục tiêu ngẫu nhiên tiêu diệt ngay lập tức.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Số 18",
+        "description": "Tối đa có thể hồi sinh 3 lần, sau khi tử vong có 50% cơ hội khiến mục tiêu bị Trói Buộc và khiến mục tiêu không thể phát động kỹ năng trước khi bị đánh ở lượt này."
+      }
+    },
+    {
+      "name": "Người Nhân Tạo",
+      "icon": "/images/heroes/s_renzaoren18hao_s7.png",
+      "description": "Kỹ năng tiền chiến: Tăng 79% tỉ lệ Giảm Thương chỉnh thể của bản thân, vĩnh viễn tăng 350% tấn công ma pháp, tất cả Phòng Ngự và Né Tránh của bản thân, đồng thời tăng 100% giới hạn HP của toàn đội.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Số 18",
+        "description": "Có 50% cơ hội Trói Buộc mục tiêu và không thể phát động kỹ năng trước khi bị đánh ở lượt này, miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi."
+      }
+    },
+    {
+      "name": "Lưỡi Cưa Khí",
+      "icon": "/images/heroes/s_renzaoren18hao_s4.png",
+      "description": "Đối toàn thể kẻ địch gây ra 350% ST ma pháp và 900% ST thuộc tính Hỏa, gây ra hiệu ứng Chảy Máu cho tất cả mục tiêu, mỗi lượt tạo ra 500% ST thực công kích thuộc tính Hỏa và hồi phục 30% HP bản thân, duy trì 2 lượt.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Số 18",
+        "description": "Chọn 1 mục tiêu ngẫu nhiên, tiêu diệt ngay lập tức, tăng 200% Né Tránh và Tốc Độ bản thân."
+      }
+    },
+    {
+      "name": "Pháo Năng Nguyên",
+      "icon": "/images/heroes/s_renzaoren18hao_s5.png",
+      "description": "Kỹ năng trước lượt đấu: Tất cả tấn công thuộc tính đều chuyển thành tấn công ma pháp, đối toàn bộ kẻ địch gây ra 350% ST ma pháp và 900% ST thực thuộc tính Hỏa, gây ST thực bằng 30% HP tối đa và 800% tốc độ của bản thân lên tất cả kẻ địch, kéo dài 1 lượt.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Số 18",
+        "description": "Tạo ra hiệu quả bất đồng tùy vào số lượng người của đối phương:\n1. Phe địch có 4-5 người, gây ra thêm gấp 5 ST.\n2. Phe địch có 1-3 người, gây ra thêm gấp 7 ST."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Cao Thủ Tán Đả: Khi xuất hiện cùng lúc với Kusajishi Yachiru và Beerus Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Vĩnh Hằng: Khi xuất hiện cùng lúc với Kenpachi Zaraki Ma Công, HP và Tốc Độ+15%",
+    "Thể Thuật: Khi xuất hiện cùng lúc với Kefla Ma Công, HP và Tốc Độ+15%",
+    "Thủ Hộ: Khi xuất hiện cùng lúc với Champa Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-so-18",
+      "name": "CT-Số 18",
+      "avatar": "/images/heroes/ct-so-18.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Người Nhân Tạo Android Số 18, tên gốc là Lazuli, vốn dĩ là một cô gái Địa Cầu xinh đẹp bình thường, sau đó bị Dr. Gero cải tạo thành Android cùng với em trai Lapis số 17."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Số 18",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sóng Năng Lượng",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s1.png",
+      "skillDesc": "Trong số các mục tiêu, gây thêm gấp 3 ST đối với kẻ địch có HP ít hơn 50%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Số 18",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Đạn Đuổi",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s2.png",
+      "skillDesc": "Gây ra gấp 3 ST và ST thuộc tính, làm mục tiêu Mù. ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Black",
+          "icon": "/images/heroes/black.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Số 18",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Khinh Công",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s3.png",
+      "skillDesc": "Gây hiệu ứng Chảy Máu lên tất cả mục tiêu (30% HP bản thân) và có 50% cơ hội giảm đòn tấn công toàn thuộc tính của mục tiêu xuống 0 (có hiệu lực trong lượt này), số lần kích hoạt mỗi lượt biến thành 3 lần.\n",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Số 18",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Lưỡi Cưa Khí",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s4.png",
+      "skillDesc": "Chọn 1 mục tiêu ngẫu nhiên, tiêu diệt ngay lập tức, tăng 200% Né Tránh và Tốc Độ bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Black",
+          "icon": "/images/heroes/black.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Số 18",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Pháo Năng Nguyên",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s5.png",
+      "skillDesc": "Tạo ra hiệu quả bất đồng tùy vào số lượng người của đối phương:\n1. Phe địch có 4-5 người, gây ra thêm gấp 5 ST.\n2. Phe địch có 1-3 người, gây ra thêm gấp 7 ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Số 18",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Năng Lượng Vô Tận",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s6.png",
+      "skillDesc": "Tối đa có thể hồi sinh 3 lần, sau khi tử vong có 50% cơ hội khiến mục tiêu bị Trói Buộc và khiến mục tiêu không thể phát động kỹ năng trước khi bị đánh ở lượt này.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Số 18",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Người Nhân Tạo",
+      "skillIcon": "/images/heroes/s_renzaoren18hao_s7.png",
+      "skillDesc": "Có 50% cơ hội Trói Buộc mục tiêu và không thể phát động kỹ năng trước khi bị đánh ở lượt này, miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lưỡi Cưa Khí",
+      "unlockedSkillIcon": "/images/heroes/s_renzaoren18hao_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Pháo Năng Nguyên",
+      "unlockedSkillIcon": "/images/heroes/s_renzaoren18hao_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Số 18",
+          "icon": "/images/heroes/so-18.png",
+          "slug": "so-18"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

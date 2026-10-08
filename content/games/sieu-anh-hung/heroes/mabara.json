@@ -1,0 +1,304 @@
+{
+  "id": "1900",
+  "slug": "mabara",
+  "name": "Mabara",
+  "title": "Vũ trụ linh tính • SSR Mabara",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/mabara.png",
+  "fullArt": "/images/heroes/full/image_madara.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Madara? Không sai! Madara thích mọi người gọi hắn như vậy, khi zombie tấn công thì bạn sẽ hiểu, thân pháp nhanh nhẹn của Madara, sức tấn công khủng bố tuyệt đối xứng với cái tên này.",
+  "skills": [
+    {
+      "name": "Susanoo",
+      "icon": "/images/heroes/s_xuzuonenghu.png",
+      "description": "Kĩ năng trước trận. Triệu hồi Susanoo tấn công kẻ địch trực tuyến, tạo 1 lần 350% sát thương ma pháp. Đồng thời tăng 20% né tránh cho toàn bộ thành viên phe ta, kéo dài 2 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Uchiha",
+        "description": "Kĩ năng\nTăng hiệu quả Susanoo: \nSusanoo sẽ tấn công liên tiếp 2 lần."
+      }
+    },
+    {
+      "name": "Vẩn thạch",
+      "icon": "/images/heroes/s_yunshitianjiang.png",
+      "description": "Triệu hồi lượng lớn vẩn thạch tạo 350% sát thương ma pháp cho toàn bộ địch, đồng thời có 20% tỉ lệ gây hiệu quả choáng 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Uchiha",
+        "description": "Kĩ năng\nTăng hiệu quả Vẩn Thạch: \n Tỉ lệ choáng của Vẩn Thạch tăng 10%."
+      }
+    },
+    {
+      "name": "Chuyển sinh",
+      "icon": "/images/heroes/s_zhuansheng.png",
+      "description": "Khi chết sẽ có tỉ lệ chuyển sinh nhất định. Chuyển sinh xong ma công và phòng ngự tăng 350%, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Uchiha",
+        "description": "Kĩ năng\nTăng hiệu quả Chuyển Sinh: \n Chuyển sinh xong, trong vòng 1 hiệp sát thương phải chịu giảm 99%."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Ichigo và Seya",
+    "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với Người Băng, Veheta và Trùm Cảnh Sát",
+    "Phản nhân loại: Vật công và HP +15% khi ra trận cùng lúc với Trùm Cảnh Sát và 100 Năng tinh",
+    "Uchiha: Ma công +20% khi ra trận cùng lúc với Linh kiện Đăng Vân Lữ"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Uchiha",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Susanoo",
+      "skillIcon": "/images/heroes/s_xuzuonenghu.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Susanoo: \nSusanoo sẽ tấn công liên tiếp 2 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Uchiha",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Vẩn thạch",
+      "skillIcon": "/images/heroes/s_yunshitianjiang.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Vẩn Thạch: \n Tỉ lệ choáng của Vẩn Thạch tăng 10%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Uchiha",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Chuyển sinh",
+      "skillIcon": "/images/heroes/s_zhuansheng.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Chuyển Sinh: \n Chuyển sinh xong, trong vòng 1 hiệp sát thương phải chịu giảm 99%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Uchiha",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Uchiha",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Uchiha",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Uchiha",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

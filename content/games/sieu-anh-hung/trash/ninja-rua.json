@@ -1,0 +1,64 @@
+{
+  "id": "ninja-rua",
+  "slug": "ninja-rua",
+  "name": "Ninja Rùa",
+  "title": "Zombie Bentu • SSR Ninja Rùa",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ninja-rua.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Bạn cho rằng bọn ta sống dưới đường cống là do giá nhà đắt? Là một Ninja, bọn ta tin rằng chỉ có trong hoàn cảnh khốn khó nhất mới có thể luyện ra nhẫn thuật cao thâm nhất. Vì vậy, có ai cho ta mượn chút tiền thuê nhà không?!",
+  "skills": [
+    {
+      "name": "Tước vũ khí",
+      "type": "active",
+      "description": "Trừ đi vũ khí của đối phương, tạo 350% sát thương vật lí cho địch, đồng thời giảm 20% vật công và ma công của địch.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Bậc thầy vũ khí",
+      "type": "ultimate",
+      "description": "Phản ứng nhạy bén có thể khiến hắn sau khi bị tấn công có thể nhanh chóng phản đòn, tạo 350% sát thương vật lí cho địch, mỗi hiệp nhiều nhất xúc phát 2 lần. Tạo thêm 140% sát thương thuộc tính nước.",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Đao kiếm loạn vũ",
+      "type": "talent",
+      "description": "Xoay trường đao trong tay, tạo 350% sát thương vật lí cho toàn bộ địch.  Tạo thêm 130% sát thương thuộc tính nước.",
+      "cooldown": "4 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Green: Khi ra trận cùng lúc với card2 thì phòng ngự+10%, tốc độ+10%",
+    "Thể Giới Động Vật: Khi ra trận cùng lúc với card2 và card3 thì ma công, HP và tốc độ+15%",
+    "Bậc Thầy Giác Đấu: Khi ra trận cùng lúc với card2 và card3 thì HP và tốc độ+15%",
+    "Rực Rỡ: Khi ra trận cùng lúc với card2 thì vật công và phòng ngự+10%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

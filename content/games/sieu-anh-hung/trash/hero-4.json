@@ -1,0 +1,40 @@
+{
+  "id": "hero-4",
+  "slug": "hero-4",
+  "name": "因陀罗",
+  "title": "Vũ trụ linh tính • SSR 因陀罗",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "因陀罗的查克拉在死后持续转世，附身于宇智波斑、宇智波佐助等后代忍者，成为宇智波一族的始祖，导致宇智波与千手一族千年恩怨。",
+  "skills": [],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "巅峰: 与card2和card3同时出场时物攻、魔攻、生命+20%，防御、速度+15%",
+    "强横肉身: 与card2同时出场时魔攻、生命和速度+15%",
+    "宇智波: 与card2同时出场时魔攻、生命和速度+15%",
+    "首领: 与card2同时出场时魔攻、生命和速度+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

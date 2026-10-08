@@ -1,0 +1,64 @@
+{
+  "id": "luffy",
+  "slug": "luffy",
+  "name": "Luffy",
+  "title": "Zombie Bentu • SSR Luffy",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/luffy.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Vốn là một hải tặc huyền thoại, sau khi chết cũng không ngừng lại, bị người ta biến thành zombie. Sau khi bị bóng của người cao su nhập thể thì không ngờ có cả linh hồn, sở hữu sức mạnh siêu cường.",
+  "skills": [
+    {
+      "name": "Vua hải tặc",
+      "type": "talent",
+      "description": "Kĩ năng trước trận. Dùng đấu chí mạnh mẽ cổ vũ toàn bộ đội viên, tăng 350% vật công toàn bộ đồng đội, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "Loạn đả JET",
+      "type": "ultimate",
+      "description": "Tạo 350% sát thương vật lí cho mục tiêu, nếu lúc này mục tiêu ở trạng thái chảy máu thì tăng thêm 30% sát thương, đồng thời làm choáng 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Bậc 2",
+      "type": "talent",
+      "description": "Tiến vào trạng thái Bậc 2, tăng toàn bộ thuộc tính 20%, kéo dài 2 hiệp. Đồng thời tạo 1 lần 350% sát thương vật lí cho mục tiêu.",
+      "cooldown": "4 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Anh em: HP +20% khi ra trận cùng lúc với card2",
+    "Ba chàng mập: Vật công và phòng ngự +15% khi ra trận cùng lúc với card2 và card3",
+    "Biến thân: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Manga hay: Ma công và HP +15% khi ra trận cùng lúc với card2 và card3"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

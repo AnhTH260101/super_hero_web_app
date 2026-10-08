@@ -1,0 +1,667 @@
+{
+  "id": "64400",
+  "slug": "ct-luffy",
+  "name": "CT-Luffy",
+  "title": "Vũ trụ sức mạnh • UR CT-Luffy",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-luffy.png",
+  "fullArt": "/images/heroes/full/image_lufei.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Ước mơ trở thành vua hải tặc, tự tin với cơ thể dẻo dai có khả năng biến hình đa dạng của mình; Lúc nào cũng đội chiếc mũ rơm, nên được gọi là Luffy mũ rơm!",
+  "skills": [
+    {
+      "name": "Súng Cao Su-Thánh",
+      "icon": "/images/heroes/s_lufei_sq.png",
+      "description": "Ngẫu nhiên tấn công mục tiêu đơn thể, tạo 350% ST vật lý và 200% ST t.tính Đất;\nBậc 2: Tăng 50% sát thương và ảnh hưởng sát thương t.tính;\nBậc 3: Tăng 100% sát thương và ảnh hưởng sát thương t.tính;\nBậc 4: Tăng 150% sát thương và ảnh hưởng sát thương t.tính;",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Luffy",
+        "description": "Làm mục tiêu choáng 1 hiệp, có 50% tỉ lệ ra tay liên tục 2 lần (X2 sát thương lần thứ 2 ra tay)"
+      }
+    },
+    {
+      "name": "Bá Đạo-Thánh",
+      "icon": "/images/heroes/s_lufei_bws.png",
+      "description": "Skill trước trận: Tấn công toàn thể mục tiêu, tạo 350% ST ma pháp (Bỏ qua phòng ngự của mục tiêu) và 180% ST t.tính Đất, ngẫu nhiên làm 2 mục tiêu sợ 1 hiệp (Hiệp sau có hiệu lực).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Luffy",
+        "description": "Tăng 50% tỉ lệ sát thương, làm 3 mục tiêu hoảng sợ"
+      }
+    },
+    {
+      "name": "Súng Máy Cao Su-Thánh",
+      "icon": "/images/heroes/s_lufei_jgq.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% ST vật lý và 180% ST t.tính Đất\nBậc 2: Tăng 50% sát thương và ảnh hưởng sát thương thuộc tính\nBậc 3: Tăng 100% sát thương và ảnh hưởng sát thương thuộc tính\nBậc 4: Tăng 150% sát thương và ảnh hưởng sát thương thuộc tính",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Luffy",
+        "description": "Tăng 25%-100% Tốc Độ của đồng đội, kéo dài 2 hiệp; Khiến 1 mục tiêu tụt máu, mỗi hiệp tạo ST tụt máu bằng 100%-550% Vật Công của Luffy, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Dấu Cao Su-Thánh",
+      "icon": "/images/heroes/s_lufei_yz.png",
+      "description": "Skill phản đòn: Sau khi Luffy bị tấn công, có 99% tỉ lệ phản đòn toàn thể mục tiêu, tạo 350% ST vật lý và 500% ST t.tính Đất (Mỗi hiệp tối đa thả 1 lần)\nBậc 2: Tăng 50% sát thương và ảnh hưởng sát thương t.tính\nBậc 3: Tăng 100% sát thương và ảnh hưởng sát thương t.tính\nBậc 4: Tăng 150% sát thương và ảnh hưởng sát thương t.tính",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Luffy",
+        "description": "Nhận được thêm 50% giảm thương tổng thể;\nBậc 2: Tăng 10% tỉ lệ giảm thương tổng thế\nBậc 3: Tăng 15% tỉ lệ giảm thương tổng thể\nBậc 4: Tăng 20% tỉ lệ giảm thương tổng thể"
+      }
+    },
+    {
+      "name": "Thăng Bậc.Thánh",
+      "icon": "/images/heroes/s_lufei_sd.png",
+      "description": "Skill trước hiệp: Trước hiệp, ngẫu nhiên tăng bậc và các năng lực của bản thân, kéo dài 2 hiệp (Sau khi biến hình đến bậc 2 trở lên, trong lúc biến bình sẽ ko thả skill này nữa), bất kể tăng bậc thành công hoặc thất bại (Tăng đến bậc 1), Luffy đều hồi HP đã mất cho bản thân; Bỏ qua Choáng, Sợ, Đứng Im, Hóa Đá 4 hiệp;\nBậc 2: Bản thân tăng 350% Tốc Độ, Vật Công và tấn công t.tính Đất;\nBậc 3: Bản thân tăng 350% Vật Công, Phòng Ngự, tấn công t.tính Đất, phòng ngự toàn thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Luffy",
+        "description": "Khiến 2 mục tiêu có Vật Công & Ma Công cao nhất phe địch kiệt sức, giảm 40%-50% Chính Xác và Né của chúng, kéo dài 1 hiệp; Tạo 50% sát thương lên mục tiêu có tấn công t.tính Lửa cao nhất."
+      }
+    },
+    {
+      "name": "Haki Quan Sát-Thánh",
+      "icon": "/images/heroes/s_lufei_jws.png",
+      "description": "Skill trước khi bị đánh: Tăng 350% Né và Trúng cho bản thân\nBậc 2: Tăng 50% ảnh hưởng skill\nBậc 3: Tăng 100% ảnh hưởng skill\nBậc 4: Tăng 150% ảnh hưởng skill",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Luffy",
+        "description": "Trọng thương 3 mục tiêu, giảm 60% tỉ lệ Hồi HP của mục tiêu, kéo dài 1 hiệp, khiến mục tiêu giảm tốc 50% kéo dài 1 hiệp"
+      }
+    },
+    {
+      "name": "Pháo Cao Su-Thánh",
+      "icon": "/images/heroes/s_lufei_ldp.png",
+      "description": "Tấn công toàn thể địch, bỏ Tấn Công Thuộc Tính, chuyển tất cả tấn công t.tính thành Vật Công, tạo 350% ST vật lý và bỏ qua phòng ngự;\nBậc 2: Tăng 50% ảnh hưởng sát thương\nBậc 3: Tăng 100% ảnh hưởng sát thương\nBậc 4: Tăng 150% ảnh hưởng sát thương",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Luffy",
+        "description": "Nếu Boa Hancock có mặt và chưa chết, tăng thêm 500k-2000k phòng ngự t.tính Lửa, Đất cho bản thân\nNhận được trạng thái mới Bậc 4: Tăng 150% Tốc Độ, Vật Công, Phòng Ngự, Tấn Công T.Tính Đất và Phòng Ngự toàn t.tính cho bản thân\nBậc 2: Nhận thêm 30% giới hạn HP, kéo dài 2 hiệp;\nBậc 3: Nhận thêm 50% giới hạn HP, kéo dài 2 hiệp;\nBậc 4: Nhận thêm 80% giới hạn HP, kéo dài 2 hiệp;\nLưu ý: Sau khi trạng thái Bậc 4 hồi phục trạng thái thường, cần nghỉ 1 hiệp mới được thăng bậc tiếp"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thuyền Trưởng: Cùng Roger ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Đồng Hành: Cùng Zoro và Sách Chuyển Thế ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Ngây Ngô: Cùng Black và Gintoki ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Biến Dạng: Cùng Kaio ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Monkey D. Luffy: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Monkey D. Luffy",
+      "icon": "/images/heroes/monkey-d-luffy.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Zoro",
+      "icon": "/images/heroes/zoro.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Luffy",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Súng Cao Su-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_sq.png",
+      "skillDesc": "Làm mục tiêu choáng 1 hiệp, có 50% tỉ lệ ra tay liên tục 2 lần (X2 sát thương lần thứ 2 ra tay)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Luffy",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bá Đạo-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_bws.png",
+      "skillDesc": "Tăng 50% tỉ lệ sát thương, làm 3 mục tiêu hoảng sợ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Luffy",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Súng Máy Cao Su-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_jgq.png",
+      "skillDesc": "Tăng 25%-100% Tốc Độ của đồng đội, kéo dài 2 hiệp; Khiến 1 mục tiêu tụt máu, mỗi hiệp tạo ST tụt máu bằng 100%-550% Vật Công của Luffy, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Luffy",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Dấu Cao Su-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_yz.png",
+      "skillDesc": "Nhận được thêm 50% giảm thương tổng thể;\nBậc 2: Tăng 10% tỉ lệ giảm thương tổng thế\nBậc 3: Tăng 15% tỉ lệ giảm thương tổng thể\nBậc 4: Tăng 20% tỉ lệ giảm thương tổng thể",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Zoro",
+          "icon": "/images/heroes/zoro.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Luffy",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Thăng Bậc.Thánh",
+      "skillIcon": "/images/heroes/s_lufei_sd.png",
+      "skillDesc": "Khiến 2 mục tiêu có Vật Công & Ma Công cao nhất phe địch kiệt sức, giảm 40%-50% Chính Xác và Né của chúng, kéo dài 1 hiệp; Tạo 50% sát thương lên mục tiêu có tấn công t.tính Lửa cao nhất.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Luffy",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Haki Quan Sát-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_jws.png",
+      "skillDesc": "Trọng thương 3 mục tiêu, giảm 60% tỉ lệ Hồi HP của mục tiêu, kéo dài 1 hiệp, khiến mục tiêu giảm tốc 50% kéo dài 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Luffy",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Pháo Cao Su-Thánh",
+      "skillIcon": "/images/heroes/s_lufei_ldp.png",
+      "skillDesc": "Nếu Boa Hancock có mặt và chưa chết, tăng thêm 500k-2000k phòng ngự t.tính Lửa, Đất cho bản thân\nNhận được trạng thái mới Bậc 4: Tăng 150% Tốc Độ, Vật Công, Phòng Ngự, Tấn Công T.Tính Đất và Phòng Ngự toàn t.tính cho bản thân\nBậc 2: Nhận thêm 30% giới hạn HP, kéo dài 2 hiệp;\nBậc 3: Nhận thêm 50% giới hạn HP, kéo dài 2 hiệp;\nBậc 4: Nhận thêm 80% giới hạn HP, kéo dài 2 hiệp;\nLưu ý: Sau khi trạng thái Bậc 4 hồi phục trạng thái thường, cần nghỉ 1 hiệp mới được thăng bậc tiếp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Haki Quan Sát-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_lufei_jws.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Pháo Cao Su-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_lufei_ldp.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "icon": "/images/heroes/monkey-d-luffy.png",
+          "slug": "monkey-d-luffy"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

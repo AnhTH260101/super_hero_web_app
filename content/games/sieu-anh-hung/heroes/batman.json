@@ -1,0 +1,570 @@
+{
+  "id": "33000",
+  "slug": "batman",
+  "name": "Batman",
+  "title": "Zombie Bentu • SSR Batman",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/batman.png",
+  "fullArt": "/images/heroes/full/image_batman.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Bruce Wayne chứng kiến cái chết của mẹ khi còn là đứa trẻ, anh thề sẽ trả thù tội phạm và theo đuổi ý tưởng về công lý",
+  "skills": [
+    {
+      "name": "Dark Rider",
+      "icon": "/images/heroes/s_bfx_hurt.png",
+      "description": "Tốc độ nhanh như gió tạo 1 lần 350% sát thương vật lý cho mục tiêu mặc định, kèm 150% sát thương thuộc tính đất",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Batman",
+        "description": "Chuyển hóa gấp 1.5 tấn công ma pháp của bản thân thành tấn công thuộc tính Đất, tăng 50% né tránh cho mình, 1 hiệp."
+      }
+    },
+    {
+      "name": "Bất Khuất",
+      "icon": "/images/heroes/s_bfx_cure.png",
+      "description": "Thả trước hiệp, hồi phục 30% điểm HP, tăng 350% tất cả thuộc tính và miễn giảm sát thương cho bản thân, xóa buff giảm thuộc tính, tuột HP, choáng cho bản thân, miễn dịch 1 lần choáng của địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Batman",
+        "description": "Miễn dịch ngẫu nhiên 2 thuộc tính Nước, Đất hoặc Gió, Lửa, 1 hiệp"
+      }
+    },
+    {
+      "name": "Công nghệ Wayne",
+      "icon": "/images/heroes/s_bfx_injure.png",
+      "description": "Tấn công toàn thể địch, tạo 350% sát thương vật lý, kèm 140% sát thương thuộc tính đất, tạo gấp 2 lần sát thương kẻ địch hàng sau",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Batman",
+        "description": "Làm choáng mục tiêu hàng sau, X2 tấn công thuộc tính Đất cho bản thân (không gồm phần chuyển hóa ma công), 2 hiệp"
+      }
+    },
+    {
+      "name": "Vua Chiến Lược",
+      "icon": "/images/heroes/s_bfx_cure.png",
+      "description": "Sau khi chịu tấn công, tăng effect điểm tuyệt đối của tấn công thuộc tính đất",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Batman",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Nguy Cơ Vô Hạn",
+      "icon": "/images/heroes/s_bfx_injure.png",
+      "description": "Kỹ năng trước trận, tăng 100% điểm phòng ngự cho đồng đội",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Batman",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Liên Minh Chính Nghĩa: Khi ra trận cùng lúc với Người Hùng Tia Chớp và Superman thì vật công, ma công, HP+20%, phòng ngự, tốc độ+15",
+    "Bậc Thầy Chiến Thuật: Khi ra trận cùng lúc với Võ Thánh Quan Vũ và Constantine thì vật công, HP và tốc độ+15%",
+    "Anh Hùng Bình Dân: Khi ra trận cùng lúc với Hậu Nghệ và Người Tí Hon thì vật công, HP và tốc độ+15%",
+    "Các Đấu: Khi ra trận cùng lúc với Lý Tiểu Long thì vật công, HP và tốc độ+17"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Batman",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Dark Rider",
+      "skillIcon": "/images/heroes/s_bfx_hurt.png",
+      "skillDesc": "Chuyển hóa gấp 1.5 tấn công ma pháp của bản thân thành tấn công thuộc tính Đất, tăng 50% né tránh cho mình, 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Batman",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Bất Khuất",
+      "skillIcon": "/images/heroes/s_bfx_cure.png",
+      "skillDesc": "Miễn dịch ngẫu nhiên 2 thuộc tính Nước, Đất hoặc Gió, Lửa, 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Batman",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Công nghệ Wayne",
+      "skillIcon": "/images/heroes/s_bfx_injure.png",
+      "skillDesc": "Làm choáng mục tiêu hàng sau, X2 tấn công thuộc tính Đất cho bản thân (không gồm phần chuyển hóa ma công), 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Batman",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Vua Chiến Lược",
+      "skillIcon": "/images/heroes/s_bfx_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Cỗ Máy Chiến Tranh",
+          "icon": "/images/heroes/co-may-chien-tranh.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Batman",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Nguy Cơ Vô Hạn",
+      "skillIcon": "/images/heroes/s_bfx_injure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Batman",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Batman",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Batman",
+          "icon": "/images/heroes/batman.png",
+          "slug": "batman"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

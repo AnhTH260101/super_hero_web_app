@@ -1,0 +1,90 @@
+{
+  "id": "2",
+  "slug": "2",
+  "name": "圣の贝吉塔2",
+  "title": "Vũ trụ linh tính • SSR 圣の贝吉塔2",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/default_hero.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "此卡站位用 没有实际投放与开放转生 如有需要新形态后续在这加",
+  "skills": [
+    {
+      "name": "能量弹",
+      "type": "active",
+      "description": "对敌方全体造成350%的魔法伤害和100%的地属性伤害。“极意悟吉塔”状态下，连续释放2次。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "舞空术",
+      "type": "ultimate",
+      "description": "被击前技：对敌方全体造成350%的魔法伤害和100%的地属性伤害。“极意悟吉塔”状态下，回复100%最大生命值。",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "能量飞弹",
+      "type": "talent",
+      "description": "反击技:所有属性攻击力转化为地属性攻击力，对目标造成350%的魔法伤害和200%的地属性伤害。",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "最后的战士",
+      "type": "passive",
+      "description": "死亡技：回复自身全部生命值（无视重伤）。对敌方全体造成350%的魔法真伤，最多可复活3次。如果“卡卡罗特”在场，则触发合体技：与卡卡罗特合体变身成极意悟吉塔，额外获取卡卡罗特基础属性并提20%。重新获得2次死亡技使用次数（不会被移除）。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "闪光炮",
+      "type": "talent",
+      "description": "战前技：对敌方全体造成350%的魔法攻击真伤与1800%地属性真实伤害。“极意悟吉塔”状态下，随机秒杀一名随机目标。",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "终极闪光",
+      "type": "passive",
+      "description": "对敌方全体造成350%的魔法攻击力的真实伤害。提升自身500%魔法攻击力直到战斗结束（可叠加）。",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "王子战法",
+      "type": "passive",
+      "description": "回合前技：对敌方造成350%的魔法攻击真伤与1800%地属性伤害真实伤害。造成自身70%最大生命值的追击伤害。“极意悟吉塔”状态下，额外秒杀一名随机单位。",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Người Thủ Hộ: Khi xuất hiện cùng lúc với card2 và card3 Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Lãnh Tụ: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+    "Bạn Tốt: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%",
+    "Người Saiya: Khi xuất hiện cùng lúc với card2 Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

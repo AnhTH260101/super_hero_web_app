@@ -1,0 +1,608 @@
+{
+  "id": "40900",
+  "slug": "tornado",
+  "name": "Tornado",
+  "title": "Vũ trụ linh tính • SSR Tornado",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/tornado.png",
+  "fullArt": "/images/heroes/full/image_longjuan.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh hùng xếp hạng 2 cấp S, người siêu năng lực. Cô gái gương mặt loli với tóc xoăn màu xanh lục, mặc chiếc sườn xám xẻ tà.",
+  "skills": [
+    {
+      "name": "Thiên Thạch",
+      "icon": "/images/heroes/s_longjuan_s1.png",
+      "description": "Tạo lên 3~5 kẻ địch bất kì 350% ST Ma Công và 500% ST thuộc tính Gió, tạo x3-5 ST và ST thuộc tính, khiến mục tiêu bị trói buộc.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Tornado",
+        "description": "Tạo x3 ST lên kẻ địch có HP dưới 50% trong số mục tiêu."
+      }
+    },
+    {
+      "name": "Trận Gió",
+      "icon": "/images/heroes/s_longjuan_s2.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Ma Công và 300% ST thuộc tính Gió, tạo x4-6 ST và ST thuộc tính, giảm 100% Tốc Độ và Né của tất cả kẻ địch, kéo dài 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Tornado",
+        "description": "Giảm 30% tỉ lệ giảm thương tổng thể của kẻ địch. (ST sinh hiệu quả trong lần tấn công này)"
+      }
+    },
+    {
+      "name": "Nộ Ý",
+      "icon": "/images/heroes/s_longjuan_s3.png",
+      "description": "Skill trước khi bị đánh: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Công và 200% ST thực thuộc tính Gió, hồi toàn bộ HP bản thân (Bỏ qua trọng thương), có 50 tỉ lệ khiến mục tiêu bị trói buộc, tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Tornado",
+        "description": "Tạo lên phe địch sát thương thực bằng 800% Tốc Độ của bản thân, số lần mỗi hiệp kích hoạt đổi thành 3 lần."
+      }
+    },
+    {
+      "name": "Mắt Bão",
+      "icon": "/images/heroes/s_longjuan_s6.png",
+      "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Công và 800% ST thực thuộc tính Gió, khiến mục tiêu bị trói buộc hoặc mê hoặc, và tạo x4-6 ST và ST thuộc tính.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Tornado",
+        "description": "Trước khi tấn công tăng thêm 100W~180W tấn công thuộc tính Gió và 50W~80W tấn công Ma Pháp, và tạo thêm x3 sát thương lên giới nam."
+      }
+    },
+    {
+      "name": "Thiên Thạch Niệm Động Lực",
+      "icon": "/images/heroes/s_longjuan_s7.png",
+      "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thực thuộc tính Gió, tối đa được hồi sinh 2 lần, có 50% tỉ lệ trói buộc kẻ địch, có 50% tỉ lệ chọn ngẫu nhiên một mục tiêu để kết liễu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Tornado",
+        "description": "Tối đa được hồi sinh 3 lần. Hồi cho toàn đội HP bằng 800% Ma Công bản thân, kết liễu mục tiêu tấn công có HP dưới 20%."
+      }
+    },
+    {
+      "name": "Bão Táp Kinh Hoàng",
+      "icon": "/images/heroes/s_longjuan_s4.png",
+      "description": "Skill trước trận: Tạo lên 3~5 kẻ địch bất kì 350% ST Ma Công và 800% ST thực thuộc tính Gió, tăng 79% tỉ lệ giảm thương tổng thể và 800% Phòng Ngự toàn thuộc tính của bản thân, vĩnh viễn tăng 350% tấn công thuộc tính Gió cho bản thân, vĩnh viễn tăng 200% Né và Tốc Độ cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Tornado",
+        "description": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, giảm tấn công thuộc tính của mục tiêu thành 0, khiến tất cả skill của bản thân sau mỗi lần hành động sẽ tạo thêm lên mục tiêu phe địch sát thương thực bằng 30% HP bản thân."
+      }
+    },
+    {
+      "name": "Bão Táp Siêu Năng",
+      "icon": "/images/heroes/s_longjuan_s5.png",
+      "description": "Tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thuộc tính Gió, trong hiệp này giảm 100% tấn công thuộc tính Gió, Phòng Ngự và Né của phe địch (ST sinh hiệu quả trong lần tấn công này).",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Tornado",
+        "description": "Khiến mục tiêu bị trói buộc hoặc mê hoặc, và có 50% tỉ lệ tạo tiếp 1 lần sát thương."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Anh Hùng Cấp S: Khi xuất hiện cùng lúc với Champa và Esdese Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Lạnh Lùng: Khi xuất hiện cùng lúc với Mai Shiranui Ma Công, HP và Tốc Độ+15%",
+    "Ngạo Kiều: Khi xuất hiện cùng lúc với Namikaze Minato Ma Công, HP và Tốc Độ+15%",
+    "Bão Táp: Khi xuất hiện cùng lúc với Kefla Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-tornado",
+      "name": "CT-Tornado",
+      "avatar": "/images/heroes/ct-tornado.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Anh hùng xếp hạng 2 cấp S, người siêu năng lực. Cô gái gương mặt loli với tóc xoăn màu xanh lục, mặc chiếc sườn xám xẻ tà."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Tornado",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Thiên Thạch",
+      "skillIcon": "/images/heroes/s_longjuan_s1.png",
+      "skillDesc": "Tạo x3 ST lên kẻ địch có HP dưới 50% trong số mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Tornado",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Trận Gió",
+      "skillIcon": "/images/heroes/s_longjuan_s2.png",
+      "skillDesc": "Giảm 30% tỉ lệ giảm thương tổng thể của kẻ địch. (ST sinh hiệu quả trong lần tấn công này)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Tornado",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Nộ Ý",
+      "skillIcon": "/images/heroes/s_longjuan_s3.png",
+      "skillDesc": "Tạo lên phe địch sát thương thực bằng 800% Tốc Độ của bản thân, số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Tornado",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Bão Táp Kinh Hoàng",
+      "skillIcon": "/images/heroes/s_longjuan_s4.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, giảm tấn công thuộc tính của mục tiêu thành 0, khiến tất cả skill của bản thân sau mỗi lần hành động sẽ tạo thêm lên mục tiêu phe địch sát thương thực bằng 30% HP bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mai Shiranui",
+          "icon": "/images/heroes/mai-shiranui.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Tornado",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bão Táp Siêu Năng",
+      "skillIcon": "/images/heroes/s_longjuan_s5.png",
+      "skillDesc": "Khiến mục tiêu bị trói buộc hoặc mê hoặc, và có 50% tỉ lệ tạo tiếp 1 lần sát thương.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Tornado",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Mắt Bão",
+      "skillIcon": "/images/heroes/s_longjuan_s6.png",
+      "skillDesc": "Trước khi tấn công tăng thêm 100W~180W tấn công thuộc tính Gió và 50W~80W tấn công Ma Pháp, và tạo thêm x3 sát thương lên giới nam.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Tornado",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thiên Thạch Niệm Động Lực",
+      "skillIcon": "/images/heroes/s_longjuan_s7.png",
+      "skillDesc": "Tối đa được hồi sinh 3 lần. Hồi cho toàn đội HP bằng 800% Ma Công bản thân, kết liễu mục tiêu tấn công có HP dưới 20%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Bão Táp Kinh Hoàng",
+      "unlockedSkillIcon": "/images/heroes/s_longjuan_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Bão Táp Siêu Năng",
+      "unlockedSkillIcon": "/images/heroes/s_longjuan_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Tornado",
+          "icon": "/images/heroes/tornado.png",
+          "slug": "tornado"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "id": "39300",
+  "slug": "muc",
+  "name": "Mục",
+  "title": "Vũ trụ linh tính • SSR Mục",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/muc.png",
+  "fullArt": "/images/heroes/full/image_mu.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Còn gọi là Mục tiên sinh. Là thánh đấu sĩ hoàng kim cung bạch dương-Trấn giữ cung thứ 1 trong 12 cung.",
+  "skills": [
+    {
+      "name": "Quang Tốc",
+      "icon": "/images/heroes/s_mu_s1.png",
+      "description": "Tạo 350% ST ma pháp và 500% ST t.tính Đất lên kẻ địch, 50% tỉ lệ cộng hiệu quả Vô Địch cho bản thân, kéo dài 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Mục",
+        "description": "50% tỉ lệ tạo thêm sát thương bằng 800% Tốc Độ bản thân."
+      }
+    },
+    {
+      "name": "Tinh Quang",
+      "icon": "/images/heroes/s_mu_s2.png",
+      "description": "Tạo 350% ST ma pháp và 300% ST t.tính Đất lên toàn thể phe địch, và xóa tất cả hiệu quả bất lợi của phe ta, 50% tỉ lệ giảm 30%~60% Tốc Độ của mục tiêu, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Mục",
+        "description": "Giảm 50% Vật Công, Ma Công và Phòng Ngự hiện tại của mục tiêu, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Niệm Động Lực",
+      "icon": "/images/heroes/s_mu_s3.png",
+      "description": "Skill trước trận: Tăng 79% tỉ lệ giảm thương tổng thể cho bản thân, tăng vĩnh viễn 350% ST ma pháp, 200% Né và Tốc Độ cho bản thân. 50% tỉ lệ khiến đồng đội phe ta và bản thân vĩnh viễn miễn dịch hiệu quả: Đứng Im, Hóa Đá, Choáng, Hôn Mê, Mê Hoặc.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Mục",
+        "description": "50% tỉ lệ khiến phe ta vĩnh viễn miễn dịch sát thương của tất cả thuộc tính, tăng 400%-600% lực phòng ngự cho toàn thể đồng đội, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Vẫn Thạch Kích",
+      "icon": "/images/heroes/s_mu_s6.png",
+      "description": "Skill trước hiệp: Tạo 350% ST ma công và 800% ST thực t.tính Đất lên toàn thể phe địch, hồi HP bản thân, tăng 350% phòng ngự toàn thuộc tính cho bản thân, và hồi HP cho cả đội bằng 350% Ma Công của bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Mục",
+        "description": "Ngẫu nhiên chọn 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội đó, hiệu lực 2 lần. Tăng 200% Né cho toàn thể đồng đội."
+      }
+    },
+    {
+      "name": "Bão Tinh Thần",
+      "icon": "/images/heroes/s_mu_s7.png",
+      "description": "Skill trử trận: Hồi sinh sau khi tử trận, hồi tất cả HP, tạo 350% ST ma công và 800% ST thực t.tính Đất lên toàn thể phe địch, và xóa tất cả BUFF có lợi của phe địch. Tối đa được hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Mục",
+        "description": "Tối đa được hồi sinh 3 lần, và xóa tất cả hiệu quả bất lợi của phe ta. Hồi HP cho cả đội bằng 800% Ma Công của bản thân, 20% tỉ lệ chọn 1 mục tiêu để kết liễu."
+      }
+    },
+    {
+      "name": "Tường Thủy Tinh",
+      "icon": "/images/heroes/s_mu_s4.png",
+      "description": "Skill trước khi bị đánh: Trong hiệp hiện tại, tăng 350% phòng ngự tổng thể cho bản thân, và hiệp này tăng 200% Né, Chính Xác, Bạo Kích cho bản thân. Mỗi hiệp tối đa phát động 1 lần.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Mục",
+        "description": "Giảm 50% Chính Xác, Né, Bạo Kích của kẻ tấn công. Nếu tốc độ của mục tiêu thấp hơn bản thân, sẽ khiến mục tiêu trói buộc 1 hiệp."
+      }
+    },
+    {
+      "name": "Vẫn Thạch Sắt",
+      "icon": "/images/heroes/s_mu_s5.png",
+      "description": "Tạo 350% ST ma pháp và 900% ST thực t.tính Đất lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể. Cộng thêm 100W~180W tấn công t.tính Đất. Kéo dài 2 hiệp. Cộng 1 tầng hiệu quả Vô Địch cho toàn thể đồng đội, có thể ngăn 2 lần sát thương.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Mục",
+        "description": "Giảm 20% Vật & Ma Công và Né của toàn thể phe địch, và giảm 10%-30% phòng ngự toàn thuộc tính của mục tiêu, kéo dài 2 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Ẩn Cư: Khi cùng Gilgamesh và Shaka ra trận, Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Người Tu Bổ: Khi cùng Saga ra trận, Ma Công, HP và Tốc Độ+15%",
+    "Thần Bí: Khi cùng Athena ra trận, Ma Công, HP và Tốc Độ+15%",
+    "Hiểu Biết: Khi cùng Sir ra trận, Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-muc",
+      "name": "CT-Mục",
+      "avatar": "/images/heroes/ct-muc.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Còn gọi là Mục tiên sinh. Là thánh đấu sĩ hoàng kim cung bạch dương-Trấn giữ cung thứ 1 trong 12 cung."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Mục",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Quang Tốc",
+      "skillIcon": "/images/heroes/s_mu_s1.png",
+      "skillDesc": "50% tỉ lệ tạo thêm sát thương bằng 800% Tốc Độ bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Mục",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tinh Quang",
+      "skillIcon": "/images/heroes/s_mu_s2.png",
+      "skillDesc": "Giảm 50% Vật Công, Ma Công và Phòng Ngự hiện tại của mục tiêu, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Saga",
+          "icon": "/images/heroes/saga.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Mục",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Niệm Động Lực",
+      "skillIcon": "/images/heroes/s_mu_s3.png",
+      "skillDesc": "50% tỉ lệ khiến phe ta vĩnh viễn miễn dịch sát thương của tất cả thuộc tính, tăng 400%-600% lực phòng ngự cho toàn thể đồng đội, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Mục",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Tường Thủy Tinh",
+      "skillIcon": "/images/heroes/s_mu_s4.png",
+      "skillDesc": "Giảm 50% Chính Xác, Né, Bạo Kích của kẻ tấn công. Nếu tốc độ của mục tiêu thấp hơn bản thân, sẽ khiến mục tiêu trói buộc 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Shaka",
+          "icon": "/images/heroes/shaka.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Mục",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Vẫn Thạch Sắt",
+      "skillIcon": "/images/heroes/s_mu_s5.png",
+      "skillDesc": "Giảm 20% Vật & Ma Công và Né của toàn thể phe địch, và giảm 10%-30% phòng ngự toàn thuộc tính của mục tiêu, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Mục",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Vẫn Thạch Kích",
+      "skillIcon": "/images/heroes/s_mu_s6.png",
+      "skillDesc": "Ngẫu nhiên chọn 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội đó, hiệu lực 2 lần. Tăng 200% Né cho toàn thể đồng đội.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Mục",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Bão Tinh Thần",
+      "skillIcon": "/images/heroes/s_mu_s7.png",
+      "skillDesc": "Tối đa được hồi sinh 3 lần, và xóa tất cả hiệu quả bất lợi của phe ta. Hồi HP cho cả đội bằng 800% Ma Công của bản thân, 20% tỉ lệ chọn 1 mục tiêu để kết liễu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Tường Thủy Tinh",
+      "unlockedSkillIcon": "/images/heroes/s_mu_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Vẫn Thạch Sắt",
+      "unlockedSkillIcon": "/images/heroes/s_mu_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Mục",
+          "icon": "/images/heroes/muc.png",
+          "slug": "muc"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sieu-anh-hung",
+  "slug": "sieu-anh-hung",
+  "name": "Siêu Anh Hùng Mobile",
+  "tagline": "Cẩm nang chiến thuật, Tra cứu tướng & Giftcode mới nhất",
+  "description": "Kho tàng dữ liệu đầy đủ nhất về game thẻ tướng Siêu Anh Hùng: Bảng xếp hạng Tier List, bộ kỹ năng nhân vật, cách lên đồ và đội hình leo top meta.",
+  "genre": "Chiến thuật thẻ tướng / RPG",
+  "logo": "🦸",
+  "banner": "/images/games/sieu-anh-hung-banner.jpg",
+  "releaseYear": 2024,
+  "tags": ["Chiến thuật", "Thẻ bài", "Siêu Anh Hùng", "PvP", "Gacha"],
+  "affiliateLinks": {
+    "pcEmulator": "https://ldplayer.net?n=sieuanhhung_pc_affiliate",
+    "topUpDiscount": "https://napgame.vn?ref=sieuanhhung_vip",
+    "officialStore": "https://play.google.com/store"
+  }
+}

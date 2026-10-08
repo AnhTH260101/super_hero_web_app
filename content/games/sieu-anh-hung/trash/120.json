@@ -1,0 +1,90 @@
+{
+  "id": "120",
+  "slug": "120",
+  "name": "12.0",
+  "title": "Vũ trụ linh tính • SSR 12.0",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_vegetto.png",
+  "element": "Vũ trụ linh tính",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "12.0 sở hữu sức mạnh thức tỉnh đặc biệt trong thế giới Siêu Anh Hùng.",
+  "skills": [
+    {
+      "name": "1.0",
+      "type": "active",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "",
+      "type": "ultimate",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": null,
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "",
+      "type": "talent",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "",
+      "type": "passive",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "",
+      "type": "talent",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "",
+      "type": "passive",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": "2 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "",
+      "type": "passive",
+      "description": "Gây sát thương và tạo hiệu ứng đặc biệt trong trận chiến.",
+      "cooldown": "1 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Saiyan: Khi xuất hiện cùng lúc với card2 và card3 Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Sức Mạnh Hợp Thể: Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%",
+    "Thân Xác Cường Hãn: Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%",
+    "Chúa Tể Tuyệt Đối: Khi xuất hiện cùng lúc với card2 Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

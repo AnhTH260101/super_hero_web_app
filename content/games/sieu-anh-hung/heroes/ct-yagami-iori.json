@@ -1,0 +1,661 @@
+{
+  "id": "67000",
+  "slug": "ct-yagami-iori",
+  "name": "CT-Yagami Iori",
+  "title": "Vũ trụ linh tính • UR CT-Yagami Iori",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-yagami-iori.png",
+  "fullArt": "/images/heroes/full/image_Iori.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là người kế thừa của dòng họ Yagami, thần khí của gia tộc là Bát Chỉ Kính, có hình dạng như mặt trăng. Sở hữu năng lực điều khiển ngọn lửa màu xanh.",
+  "skills": [
+    {
+      "name": "Ám Phù-Thánh",
+      "icon": "/images/heroes/s_Iori_s1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST vật lý và 500% ST t.tính Lửa; 50% tỉ lệ khiến mục tiêu rơi vào trạng thái Cháy, mỗi hiệp tạo ST cháy bằng 20%-35% HP lớn nhất của Yagami Iori, hiệu lực 1 hiệp; Ở trạng thái thức tỉnh, mục tiêu tấn công đổi thành mục tiêu hàng mặc định.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Yagami Iori",
+        "description": "Tỉ lệ Cháy tăng đến 80%, giới hạn sát thương Cháy tăng đến 25% HP lớn nhất của Yagami Iori"
+      }
+    },
+    {
+      "name": "Quỷ Thiêu-Thánh",
+      "icon": "/images/heroes/s_Iori_s2.png",
+      "description": "Skill phản đòn: 99% tỉ lệ phản đòn mục tiêu tấn công mình, tạo 350% ST vật lý và 300% ST t.tính Lửa lên mục tiêu, khiến mục tiêu trọng thương, giảm 60% năng lực hồi HP của mục tiêu, kéo dài 1 hiệp, mỗi hiệp tối đa phát động 3 lần. Ở trạng thái thức tỉnh, 60% tỉ lệ khiến mục tiêu Đứng Im hoặc Hóa Đá.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Yagami Iori",
+        "description": "50% tăng buff Trọng Thương, khiến mục tiêu không thể hồi máu; chuyển tổng ST của lần tấn công này tạo ra thành hồi HP cho bản thân."
+      }
+    },
+    {
+      "name": "Lực Magatama-Thánh",
+      "icon": "/images/heroes/s_Iori_s3.png",
+      "description": "Skill trước trận: Tăng 50% giới hạn HP, tăng 50% Vật Công và 350% Phòng Ngự t.tính cho cả đội, và có 50% tỉ lệ tăng 200k-1000k TC t.tính Lửa cho cả đội, hiệu lực vĩnh viễn.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Yagami Iori",
+        "description": "Tăng 150% Né, Chính Xác và Bạo Kích cho mình, hiệu lực 2 hiệp; Giảm 30% phòng ngự & thuộc tính phòng ngự cho đồng đội dãy trước, hiệu lực 3 hiệp."
+      }
+    },
+    {
+      "name": "Bát Tửu Bôi-Thánh",
+      "icon": "/images/heroes/s_Iori_s6.png",
+      "description": "Skill trước hiệp: Tấn công 1 mục tiêu dãy trước, khiến mục tiêu hôn mê 1 hiệp, và tạo 350% ST vật lý và 800% ST t.tính Lửa lên mục tiêu, ở trạng thái thức tỉnh, mục tiêu tấn công mở rộng ra cả dãy.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Yagami Iori",
+        "description": "Bỏ qua buff Đứng Im, Choáng, Hỗn Loạn, Hóa Đá, Hôn Mê, Tsukuyomi và Cháy; 50% tỉ lệ cộng 1 tầng buff Vô Địch cho bản thân, hiệu lực 2 lần."
+      }
+    },
+    {
+      "name": "Thức Tỉnh-Thánh",
+      "icon": "/images/heroes/s_Iori_s7.png",
+      "description": "Skill trước khi bị đánh: Tăng 79% giảm sát tổng thể của bản thân, tăng 500% bạo kích, phòng ngự t.tính Đất và phòng ngự t.tính Gió, kéo dài 1 hiệp, skill này thả 3 lần trở lên, có thể thức tỉnh thành Yagami Iori, chuyển Ma Công của bản thân thành Vật Công, chuyển tất cả TC t.tính thành TC t.tính Lửa, hiệu lực vĩnh viễn, và tăng 200% Né cho bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Yagami Iori",
+        "description": "Sau khi thức tỉnh, vĩnh viễn miễn dịch tấn công t.tính Lửa & t.tính Nước, và khi thức tỉnh giảm 50% tấn công t.tính Gió & t.tính Đất của phe địch, hiệu lực 3 hiệp."
+      }
+    },
+    {
+      "name": "Hoa Hướng Dương-Thánh",
+      "icon": "/images/heroes/s_Iori_s4.png",
+      "description": "Tấn công 1 mục tiêu, tạo 350% ST vật lý và 800% ST t.tính Lửa, 60% tỉ lệ làm mục tiêu đó hôn mê 1 hiệp; Có 50% tỉ lệ phát động liên tục nhiều lần (Tối đa phát động 2 lần), hiệp lẻ không tấn công cùng 1 mục tiêu, ở trạng thái thức tỉnh, hiệp lẻ tối đa phát động 3 lần, hiệu quả hôn mê kéo dài 2 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Yagami Iori",
+        "description": "Tăng 80% tỉ lệ phát động buff hôn mê, tăng 30% Chính Xác & Bạo Kích cho cả đội, tối đa cộng dồn 5 lần."
+      }
+    },
+    {
+      "name": "Bát Trĩ Nữ-Thánh",
+      "icon": "/images/heroes/s_Iori_s5.png",
+      "description": "Tấn công 1 mục tiêu, nếu mục tiêu rơi vào trạng thái vô địch, tạo 350% ST vật lý và 900% ST t.tính Lửa và tạo thêm ST thực bằng 20% HP lớn nhất hiện tại của mục tiêu (Bỏ qua HQ vô địch), nếu mục tiêu không có HQ vô địch, sẽ có 60% tỉ lệ kết liễu mục tiêu đó, và sát thương mục tiêu khác, tạo 350% ST vật lý và ST t.tính Lửa; Ở trạng thái thức tỉnh, tỉ lệ kết liễu tăng đến 80%, ST tăng đến 30% HP lớn nhất hiện tại của mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Yagami Iori",
+        "description": "Giảm 50% tấn công t.tính Lửa & giảm thương thuộc tính của toàn thể mục tiêu địch, kéo dài 2 hiệp, tấn công lần này vẫn có hiệu lực."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Máu Orochi: Cùng Shermie và Chris ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Thức tỉnh: Cùng Frieza ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Lửa Bất Diệt: Cùng Uchiha ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Đóng băng vĩnh viễn: Cùng Kula ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Yagami Iori: 180 Đá Chuyển Sinh + 10 Đá Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Ảo Ảnh",
+      "icon": "/images/heroes/ao-anh.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Yagami Iori",
+      "icon": "/images/heroes/yagami-iori.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Sói Trắng",
+      "icon": "/images/heroes/soi-trang.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 50,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Yagami Iori",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Ám Phù-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s1.png",
+      "skillDesc": "Tỉ lệ Cháy tăng đến 80%, giới hạn sát thương Cháy tăng đến 25% HP lớn nhất của Yagami Iori",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Yagami Iori",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Quỷ Thiêu-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s2.png",
+      "skillDesc": "50% tăng buff Trọng Thương, khiến mục tiêu không thể hồi máu; chuyển tổng ST của lần tấn công này tạo ra thành hồi HP cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Yagami Iori",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Lực Magatama-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s3.png",
+      "skillDesc": "Tăng 150% Né, Chính Xác và Bạo Kích cho mình, hiệu lực 2 hiệp; Giảm 30% phòng ngự & thuộc tính phòng ngự cho đồng đội dãy trước, hiệu lực 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Yagami Iori",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Hoa Hướng Dương-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s4.png",
+      "skillDesc": "Tăng 80% tỉ lệ phát động buff hôn mê, tăng 30% Chính Xác & Bạo Kích cho cả đội, tối đa cộng dồn 5 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Chris",
+          "icon": "/images/heroes/chris.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Yagami Iori",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bát Trĩ Nữ-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s5.png",
+      "skillDesc": "Giảm 50% tấn công t.tính Lửa & giảm thương thuộc tính của toàn thể mục tiêu địch, kéo dài 2 hiệp, tấn công lần này vẫn có hiệu lực.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Yagami Iori",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Bát Tửu Bôi-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s6.png",
+      "skillDesc": "Bỏ qua buff Đứng Im, Choáng, Hỗn Loạn, Hóa Đá, Hôn Mê, Tsukuyomi và Cháy; 50% tỉ lệ cộng 1 tầng buff Vô Địch cho bản thân, hiệu lực 2 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Yagami Iori",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thức Tỉnh-Thánh",
+      "skillIcon": "/images/heroes/s_Iori_s7.png",
+      "skillDesc": "Sau khi thức tỉnh, vĩnh viễn miễn dịch tấn công t.tính Lửa & t.tính Nước, và khi thức tỉnh giảm 50% tấn công t.tính Gió & t.tính Đất của phe địch, hiệu lực 3 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hoa Hướng Dương-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Iori_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Bát Trĩ Nữ-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Iori_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "slug": "yagami-iori"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

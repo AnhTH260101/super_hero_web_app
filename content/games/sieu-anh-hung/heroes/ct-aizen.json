@@ -1,0 +1,679 @@
+{
+  "id": "78300",
+  "slug": "ct-aizen",
+  "name": "CT-Aizen",
+  "title": "Vũ trụ linh tính • UR CT-Aizen",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-aizen.png",
+  "fullArt": "/images/heroes/full/image_lanran.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Từng đảm nhiệm vị trí đội phó trong đội Số 5 vào 110 trước, vốn là đội trưởng đội số 5 trong 13 đội bảo vệ triều đình ở Thi Hồn Giới và kiêm giáo viên thư pháp mà học viện Linh Thuật đặc biệt mời về, sau này phản bội Thi Hồn Giới chạy trốn đến Hueco Mundo, tạo nên Espada và trở thành kẻ thống trị Hueco Mundo.",
+  "skills": [
+    {
+      "name": "Quỷ Đạo",
+      "icon": "/images/heroes/s_lanran_s1.png",
+      "description": "Tạo 350% ST vật lý và 500% ST t.tính Nước lên 3~5 mục tiêu ngẫu nhiên, giảm 33% Vật & Ma Công và tỉ lệ giảm thương tổng thế của mục tiêu, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Aizen",
+        "description": "Làm mù mục tiêu trong lượt này, giảm 100% độ chính xác của kẻ địch."
+      }
+    },
+    {
+      "name": "Pháo Lôi Hống",
+      "icon": "/images/heroes/s_lanran_s2.png",
+      "description": "Skill trước khi bị đánh: Tạo 350% ST vật lý và 300% ST t.tính Nước lên toàn thể phe địch, cho bản thân một tầng hiệu quả, mỗi tầng hiệu quả khiến skill của bản thân tăng 50% ST và ST t.tính tạo ra, hiệu quả kéo dài 3 hiệp sẽ biến mất, tối đa cộng liên tiếp 6 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Aizen",
+        "description": "Giảm 90% né tránh và tốc độ của tất cả kẻ địch, hiệu lực kéo dài trong 2 lượt, số lần kích hoạt mỗi lượt là 3 lần."
+      }
+    },
+    {
+      "name": "Hắc Quan",
+      "icon": "/images/heroes/s_lanran_s3.png",
+      "description": "Skill phản đòn: Chuyển tất cả tấn công t.tính thành Vật Công, tạo 350% ST vật lý và 200% ST t.tính Nước lên 3~5 mục tiêu ngẫu nhiên, khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0 (sinh hiệu quả ST trong lần tấn công này).",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Aizen",
+        "description": "Gây 4-6 lần sát thương và sát thương thuộc tính, trói buộc tất cả kẻ địch."
+      }
+    },
+    {
+      "name": "Thôi Miên",
+      "icon": "/images/heroes/s_lanran_s6.png",
+      "description": "Skill tử trận (Lần đầu tử trận bỏ qua hiệu quả Trọng Thương): Hồi toàn bộ HP, tạo 350% ST vật lý và 900% ST thực t.tính Nước lên toàn thể phe địch, chọn ngẫu nhiên 1 mục tiêu để kết liễu. Đồng thời kết liễu mục tiêu tấn công có HP dưới 20%.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Aizen",
+        "description": "Có thể hồi sinh tối đa 3 lần. Gây sát thương thực tế bằng 30% lượng máu tối đa của bản thân lên toàn bộ kẻ địch, đồng thời giảm 100% tốc độ và độ chính xác của tất cả kẻ địch trong 1 lượt."
+      }
+    },
+    {
+      "name": "Long Chuyển Diệt",
+      "icon": "/images/heroes/s_lanran_s7.png",
+      "description": "Skill trước trận:  Tạo 350% ST vật lý và 800% ST thực t.tính Nước lên toàn thể phe địch, cộng hiệu quả phản đòn cho bản thân, bất kì kẻ địch nào tấn công bản thân cũng có 100% tỉ lệ chịu 80% ST tạo ra và ST thực bằng 20% HP của bản thân, vĩnh viễn tăng 350% tấn công t.tính Nước của bản thân, vĩnh viễn tăng 200% Trúng, Tốc Độ và Bạo Kích.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Aizen",
+        "description": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, tăng 79% tỷ lệ giảm sát thương tổng thể của bản thân, tăng gấp đôi sát thương và sát thương thuộc tính của tất cả các kỹ năng."
+      }
+    },
+    {
+      "name": "Khúc Quang",
+      "icon": "/images/heroes/s_lanran_s4.png",
+      "description": "Tạo 350% ST vật lý và 800% ST t.tính Nước lên toàn thể phe địch, tạo thêm x3 ST và ST t.tính lên những kẻ địch có HP dưới 50%.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Aizen",
+        "description": "Gây 6 lần sát thương và sát thương thuộc tính đối với mục tiêu có lượng máu trên 50%."
+      }
+    },
+    {
+      "name": "Đoạn Không",
+      "icon": "/images/heroes/s_lanran_s5.png",
+      "description": "Skill trước hiệp: Chuyển tất cả tấn công thuộc tính thành Vật Công , tạo 350% ST vật lý và 900% ST thực t.tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân, tạo thêm ST thực lên toàn thể phe địch bằng 30% HP tối đa của bản thân, và có 50% tỉ lệ khiến mục tiêu trọng thương.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Aizen",
+        "description": "Gây 6 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu cao hơn 50%."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Dã tâm: Khi ra trận cùng lúc với Kuchiki Byakuya và Grimmjow +20% Vật Công, Ma Công và HP; +15% Phòng Ngự, SPEED",
+    "Âm mưu: Khi ra trận cùng lúc với Quạ Đen +15% Vật Công, HP và SPEED",
+    "Mưu đồ: Khi ra trận cùng lúc với Kurosaki +15% Vật Công, HP và SPEED",
+    "Khát máu: Khi ra trận cùng lúc với Kula +15% Vật Công, HP và SPEED"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Aizen: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Quạ Đen",
+      "icon": "/images/heroes/qua-en.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Aizen",
+      "icon": "/images/heroes/aizen.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Aizen",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Quỷ Đạo",
+      "skillIcon": "/images/heroes/s_lanran_s1.png",
+      "skillDesc": "Làm mù mục tiêu trong lượt này, giảm 100% độ chính xác của kẻ địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Aizen",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Pháo Lôi Hống",
+      "skillIcon": "/images/heroes/s_lanran_s2.png",
+      "skillDesc": "Giảm 90% né tránh và tốc độ của tất cả kẻ địch, hiệu lực kéo dài trong 2 lượt, số lần kích hoạt mỗi lượt là 3 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Aizen",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Hắc Quan",
+      "skillIcon": "/images/heroes/s_lanran_s3.png",
+      "skillDesc": "Gây 4-6 lần sát thương và sát thương thuộc tính, trói buộc tất cả kẻ địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Aizen",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Khúc Quang",
+      "skillIcon": "/images/heroes/s_lanran_s4.png",
+      "skillDesc": "Gây 6 lần sát thương và sát thương thuộc tính đối với mục tiêu có lượng máu trên 50%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Aizen",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Đoạn Không",
+      "skillIcon": "/images/heroes/s_lanran_s5.png",
+      "skillDesc": "Gây 6 lần sát thương và sát thương thuộc tính lên kẻ địch có lượng máu cao hơn 50%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Aizen",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Thôi Miên",
+      "skillIcon": "/images/heroes/s_lanran_s6.png",
+      "skillDesc": "Có thể hồi sinh tối đa 3 lần. Gây sát thương thực tế bằng 30% lượng máu tối đa của bản thân lên toàn bộ kẻ địch, đồng thời giảm 100% tốc độ và độ chính xác của tất cả kẻ địch trong 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Aizen",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Long Chuyển Diệt",
+      "skillIcon": "/images/heroes/s_lanran_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, tăng 79% tỷ lệ giảm sát thương tổng thể của bản thân, tăng gấp đôi sát thương và sát thương thuộc tính của tất cả các kỹ năng.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Khúc Quang",
+      "unlockedSkillIcon": "/images/heroes/s_lanran_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Đoạn Không",
+      "unlockedSkillIcon": "/images/heroes/s_lanran_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Aizen",
+          "icon": "/images/heroes/aizen.png",
+          "slug": "aizen"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

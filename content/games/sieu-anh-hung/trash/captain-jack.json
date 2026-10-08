@@ -1,0 +1,63 @@
+{
+  "id": "captain-jack",
+  "slug": "captain-jack",
+  "name": "Captain Jack",
+  "title": "Vũ trụ sức mạnh • SSR Captain Jack",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/captain-jack.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Thích của cải, thích phiêu bạt, thích biển lớn, thích uống rượu Rum. Ta là Captain Jack, ta là đại biểu cho tự do.",
+  "skills": [
+    {
+      "name": "Nước lũ",
+      "type": "active",
+      "description": "Dùng sức mạnh thủy triều tấn công địch! Tạo 1 lần 350% sát thương vật lí cho mục tiêu, đồng thời làm choáng mục tiêu 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Sứ giả hải triều",
+      "type": "ultimate",
+      "description": "Triệu hồi cá mập tấn công tập thể kẻ địch, tạo 350% sát thương vật lí cho tập thể địch.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Thuyền Ma",
+      "type": "talent",
+      "description": "Triệu hồi Thuyền Ma khổng lồ tấn công kẻ địch, tạo 350% sát thương vật lí cho tập thể địch, đồng thời có 50% tỉ lệ làm choáng địch. Mỗi trận chỉ được dùng 1 lần.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Giông buồm ra khơi: Vật công và HP +15% khi ra trận cùng lúc với card2 và card3",
+    "Legendary: Ma công và HP +15% khi ra trận cùng lúc với card2 và card3",
+    "Nhà mạo hiểm: Ma công và HP +15% khi ra trận cùng lúc với card2, card3 và card4",
+    "Móc câu: Vật công +20% khi ra trận cùng lúc với card2"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "500",
+  "slug": "wesker",
+  "name": "Wesker",
+  "title": "Vũ trụ nguyên tố • SSR Wesker",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/wesker.png",
+  "fullArt": "/images/heroes/full/image_weisike.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Nhân vật trong \"Sinh hóa\", là sản vật hoàn hảo của virus T, sở hữu tốc độ như điện xẹt và sức mạnh to lớn.",
+  "skills": [
+    {
+      "name": "Sét đánh",
+      "icon": "/images/heroes/s_dianguangshihuo.png",
+      "description": "Tia sét tấn công mục tiêu 1 lần, tạo sát thương điểm tốc độ 350%, đồng thời tăng tốc độ bản thân 20%, kéo dài 2 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Wesker",
+        "description": "\"Kĩ năng\nTăng hiệu quả Sét Đánh: \n Sét Đánh đồng thời tăng 15% tỉ lệ né tránh bản thân, kéo dài 2 hiệp.\""
+      }
+    },
+    {
+      "name": "Khởi động nhanh",
+      "icon": "/images/heroes/s_quanxihuanying.png",
+      "description": "Kĩ năng trước trận. Trước chiến đấu phát ra tiếng thét, tăng 350% điểm tốc độ toàn bộ phe ta, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Wesker",
+        "description": "Kĩ năng\nTăng hiệu quả Khởi Động Nhanh: \n Khởi Động Nhanh đồng thời giảm tốc độ của kẻ địch có tốc độ cao nhất còn 0, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Nhát chém Z",
+      "icon": "/images/heroes/s_chaoyinsudaji.png",
+      "description": "Quang tốc nháy mắt tạo sát thương vật lí 90% + tốc độ 350% cho toàn bộ đối phương, tạo thêm 40% sát thương cho mục tiêu đang đốt.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Wesker",
+        "description": "Kĩ năng\nTăng hiệu quả Nhát Chém Chữ Z: \n Nhát Chém Chữ Z tăng 60% sát thương cho mục tiêu đang bị thiêu đốt."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Quá khứ hào hùng: Vật công +25% khi ra trận cùng lúc với Ấn Kí Saiyan, Nemesis và Phượng Hoàng",
+    "Phản nhân loại: Vật công và HP +15% khi ra trận cùng lúc với Trùm Cảnh Sát và Mabara",
+    "Liên minh nam thần: Phòng ngự và HP +25% khi ra trận cùng lúc với Daryl Dixon, Linh kiện Đăng Vân Lữ, Túi Anh Hồn +5 và Veheta",
+    "Hô mưa gọi gió: Tốc độ +20% khi ra trận cùng lúc với Ada"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Wesker",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Sét đánh",
+      "skillIcon": "/images/heroes/s_dianguangshihuo.png",
+      "skillDesc": "\"Kĩ năng\nTăng hiệu quả Sét Đánh: \n Sét Đánh đồng thời tăng 15% tỉ lệ né tránh bản thân, kéo dài 2 hiệp.\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Wesker",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Khởi động nhanh",
+      "skillIcon": "/images/heroes/s_quanxihuanying.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Khởi Động Nhanh: \n Khởi Động Nhanh đồng thời giảm tốc độ của kẻ địch có tốc độ cao nhất còn 0, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Wesker",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Nhát chém Z",
+      "skillIcon": "/images/heroes/s_chaoyinsudaji.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Nhát Chém Chữ Z: \n Nhát Chém Chữ Z tăng 60% sát thương cho mục tiêu đang bị thiêu đốt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Wesker",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Wesker",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Wesker",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Wesker",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Wesker",
+          "icon": "/images/heroes/wesker.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

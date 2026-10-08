@@ -1,0 +1,685 @@
+{
+  "id": "69000",
+  "slug": "ct-deadpool",
+  "name": "CT-Deadpool",
+  "title": "Vũ trụ linh tính • UR CT-Deadpool",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-deadpool.png",
+  "fullArt": "/images/heroes/full/image_sishi.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Cơ thể do bị nữ thần chết và Thanos nguyền rủa trở nên bất tử, sau này Thanos và Deadpool cùng liên thủ cứu nữ thần chết và thu hồi lời nguyền.",
+  "skills": [
+    {
+      "name": "Tức Thời.Thánh",
+      "icon": "/images/heroes/s_sishi_s1.png",
+      "description": "Tạo 350% ST vật lý và 550% ST t.tính Lửa lên kẻ địch, tạo hiệu quả tụt máu lên đối phương, mỗi hiệp tạo x3 sát thương tấn công t.tính Lửa, kéo dài 2 hiệp.\"",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Deadpool",
+        "description": "Hấp thụ 20% lực tấn công của mục tiêu cộng cho bản thân"
+      }
+    },
+    {
+      "name": "Chém Đứt.Thánh",
+      "icon": "/images/heroes/s_sishi_s2.png",
+      "description": "Skill phản đòn: 99% tỉ lệ bị tấn công xong, tạo 350% ST vật lý và 350% ST t.tính Lửa lên 1-5 mục tiêu, ST vật lý và ST t.tính Lửa tạo cho mục tiêu tăng lên x3",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Deadpool",
+        "description": "Cộng hiệu quả hồi HP cho bản thân bằng 200% sát thương tạo ra, tăng 100% Tốc Độ, trói buộc kẻ tấn công 1 hiệp. "
+      }
+    },
+    {
+      "name": "Đứt Gân.Thánh",
+      "icon": "/images/heroes/s_sishi_s3.png",
+      "description": "Skill trước trận: Tạo 350% ST vật lý và 350% ST t.tính Lửa lên 1-5 mục tiêu, tăng vĩnh viễn 100% bạo kích, 200% Chính Xác và Né, 79% tỉ lệ giảm thương tổng thể, 30% HP cho bản thân. Bỏ qua hiệu quả Đứng Im, Choáng, Sợ Hãi, Băng Phong, Hóa Đá, Hôn Mê, Chế Giễu, Tsukuyomi;",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Deadpool",
+        "description": "Khiến mục tiêu rơi vào trạng thái tụt máu, mỗi hiệp tạo sát thương bằng x3 tấn công t.tính Lửa, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Bất Tử.Thánh",
+      "icon": "/images/heroes/s_sishi_s6.png",
+      "description": "Tấn công của tất cả thuộc tính chuyển thành Vật Công, skill trước hiệp: Tạo 350% ST vật lý và 800% ST thực t.tính Lửa lên toàn thể phe địch, hồi tất cả HP đã mất. 50% tỉ lệ khiến kẻ địch giảm tốc 50%.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Deadpool",
+        "description": "Tạo x5 sát thương và sát thương thuộc tính, và giảm 50% Tốc Độ & Né của mục tiêu."
+      }
+    },
+    {
+      "name": "Hạ Màn.Thánh",
+      "icon": "/images/heroes/s_sishi_s7.png",
+      "description": "Skill trước khi bị đánh: Trong hiệp này tăng 200% Né, Chính Xác, Bạo Kích cho bản thân. Mỗi hiệp tối đa phát động 1 lần. Hồi HP bằng 20% giới hạn HP. Nếu lúc đó bản thân đã mất trên 60% HP, sẽ tăng 50% hiệu suất hồi phục. Mỗi hiệp có hiệu lực 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Deadpool",
+        "description": "Tăng vĩnh viễn 100% Vật & Ma Công. Tăng 50% bạo kích cho đồng đội khác, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Hỏa Dược.Thánh",
+      "icon": "/images/heroes/s_sishi_s4.png",
+      "description": "Tạo 350% ST vật lý và 800% ST thực t.tính Lửa lên toàn thể phe địch, giảm 50% Vật Công, Ma Công và tỉ lệ giảm thương tổng thể của mục tiêu, hiệu lực 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·CT-Deadpool",
+        "description": "Tạo thêm x3 sát thương vật lý và sát thương thuộc tính lên mục tiêu, và có 50% tỉ lệ khiến mục tiêu mù 1 hiệp."
+      }
+    },
+    {
+      "name": "Hồi Máu.Thánh",
+      "icon": "/images/heroes/s_sishi_s5.png",
+      "description": "Tạo 350% ST vật lý và 900% ST thực t.tính Lửa lên toàn thể phe địch, 50% tỉ lệ khiến mục tiêu rơi vào trạng thái tụt máu, mỗi hiệp tạo x3 sát thương tấn công t.tính Lửa, kéo dài 2 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Deadpool",
+        "description": "Tạo thêm x4-x6 sát thương lên mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Kẻ Phá Hoại: Khi cùng Chizuru và Thanos ra trận, Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Diệt: Khi cùng Cell ra trận, Vật Công, HP và Tốc Độ+15%",
+    "Ý Chí: Khi cùng Kefla ra trận, Vật Công, HP và Tốc Độ+15%",
+    "Thức Tỉnh: Khi cùng Người Nhện ra trận, Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Deadpool: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Thanos",
+      "icon": "/images/heroes/thanos.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Deadpool",
+      "icon": "/images/heroes/deadpool.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Cell",
+      "icon": "/images/heroes/cell.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Deadpool",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tức Thời.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s1.png",
+      "skillDesc": "Hấp thụ 20% lực tấn công của mục tiêu cộng cho bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Deadpool",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Chém Đứt.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s2.png",
+      "skillDesc": "Cộng hiệu quả hồi HP cho bản thân bằng 200% sát thương tạo ra, tăng 100% Tốc Độ, trói buộc kẻ tấn công 1 hiệp. ",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Thanos",
+          "icon": "/images/heroes/thanos.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Deadpool",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Đứt Gân.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s3.png",
+      "skillDesc": "Khiến mục tiêu rơi vào trạng thái tụt máu, mỗi hiệp tạo sát thương bằng x3 tấn công t.tính Lửa, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·CT-Deadpool",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Hỏa Dược.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s4.png",
+      "skillDesc": "Tạo thêm x3 sát thương vật lý và sát thương thuộc tính lên mục tiêu, và có 50% tỉ lệ khiến mục tiêu mù 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Cell",
+          "icon": "/images/heroes/cell.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Deadpool",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hồi Máu.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s5.png",
+      "skillDesc": "Tạo thêm x4-x6 sát thương lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Deadpool",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Bất Tử.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s6.png",
+      "skillDesc": "Tạo x5 sát thương và sát thương thuộc tính, và giảm 50% Tốc Độ & Né của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Deadpool",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Hạ Màn.Thánh",
+      "skillIcon": "/images/heroes/s_sishi_s7.png",
+      "skillDesc": "Tăng vĩnh viễn 100% Vật & Ma Công. Tăng 50% bạo kích cho đồng đội khác, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hỏa Dược.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_sishi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Hồi Máu.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_sishi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Deadpool",
+          "icon": "/images/heroes/deadpool.png",
+          "slug": "deadpool"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

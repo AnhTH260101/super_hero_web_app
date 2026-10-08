@@ -1,0 +1,661 @@
+{
+  "id": "66400",
+  "slug": "ct-qua-en",
+  "name": "CT-Quạ Đen",
+  "title": "Vũ trụ sức mạnh • UR CT-Quạ Đen",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-qua-en.png",
+  "fullArt": "/images/heroes/full/image_Ulquiorra.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Espada thứ 4 trong đội quân Arrancar, đại diện cho cái chết \"hư vô\"; Quạ Đen có tính cách lạnh lùng, năng lực cực mạnh, là người duy nhất trong số Espada có 2 giải ấn.",
+  "skills": [
+    {
+      "name": "Dạ Trảm-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST vật lý và 500% ST t.tính Gió; Khiến mục tiêu đó trọng thương, giảm 80% năng lực hồi HP của mục tiêu, hiệu lực 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Quạ Đen",
+        "description": "Buff Trọng Thương có hiệu lực trong 2 hiệp, khi đang trọng thương, mục tiêu bị trọng thương ko thể hồi HP, nếu khi mục tiêu đó bị tấn công, đã tồn tại  buff Trọng Thương, sẽ có 20% tỉ lệ kết liễu hắn"
+      }
+    },
+    {
+      "name": "Hư Đạn-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill2.png",
+      "description": "Tấn công mục tiêu hàng mặc định, tạo 350% ST vật lý và 300% ST t.tính Gió lên mục tiêu; Khiến mục tiêu hôn mê 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Quạ Đen",
+        "description": "10% tổng sát thương chuyển thành hồi HP cho dãy trước phe ta; và hút 50% Vật & Ma Công của mục tiêu bị tấn công, cộng cho bản thân, hiệu lực 2 hiệp."
+      }
+    },
+    {
+      "name": "Ám Thiểm-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill3.png",
+      "description": "Skill phản đòn: 99% tỉ lệ sau khi bị tấn công, tấn công mục tiêu dãy trước hoặc dãy sau, tạo 350% ST vật lý và 200% ST t.tính Gió lên mục tiêu, mỗi hiệp tối đa phát động 1 lần; Khiến 1 mục tiêu bị tấn công tụt máu, mỗi hiệp tạo ST thực bằng ST vật lý và ST t.tính lớn nhất, hiệu lực 1 hiệp; chuyển tất cả ST của lần tấn công này tạo ra, thành hồi HP cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Quạ Đen",
+        "description": "ST tấn công và ST thuộc tính tăng thêm X2; Buff tụt máu có hiệu lực 2 hiệp"
+      }
+    },
+    {
+      "name": "Liên Trảm Siêu Tốc-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill6.png",
+      "description": "Skill trước hiệp: Tấn công toàn thể mục tiêu, tạo 350% ST vật lý và 800% ST t.tính Gió, tạo thêm X1 ST t.tính lên mục tiêu dãy mặc định; Tăng 69% Giảm Thương Tổng Thể và 700% Phòng Ngự t.tính Đất, Phòng Ngự t.tính Gió cho bản thân; Và hồi tất cả HP bản thân đã mất.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Quạ Đen",
+        "description": "Bản thân tăng 40%-100% Né, Bạo Kích và Chính Xác; Tăng 200%-500% phòng ngự t.tính Gió cho đồng đội dãy trước, hiệu lực 5 hiệp"
+      }
+    },
+    {
+      "name": "Giải Phóng.Quy Đao-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill7.png",
+      "description": "Skill trước khi bị đánh: 99% tỉ lệ trước khi bị đánh, giải phóng giới hạn năng lực, tăng 350% Vật Công, Ma Công, Phòng Ngự, Tốc Độ cho bản thân; Thả hơn 1 lần, sẽ rơi vào trạng thái \"Quy Đao\", mãi mãi có hiệu quả bonus;\nTrạng thái \"Quy Đao\": Trừ \"Vương Hư Thiểm\", tăng 100% tất cả ST skill tấn công và ST t.tính",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Quạ Đen",
+        "description": "Đối với mỗi mục tiêu đều có 50% tỉ lệ tạo thêm X4 ST và ST t.tính; Tăng 300% t.tính phòng ngự và 20% t.tính miễn thương cho đồng đội nữ phe ta, hiệu lực 1 hiệp"
+      }
+    },
+    {
+      "name": "Hư Thuẫn-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill4.png",
+      "description": "Skill trước trận: Tăng 20%-50% giới hạn HP cho bản thân, và tăng vĩnh viễn 200%-500% Phòng Ngự, Phòng Ngự t.tính và 350% Tốc Độ cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Quạ Đen",
+        "description": "Bỏ qua buff Đứng Im, Choáng, Sợ, Hóa Đá, Hôn Mê và Hỗn Loạn; Tăng 700% phòng ngự cho bản thân, kéo dài 1 hiệp, bản thân cộng 1 buff Vô Địch, hiệu lực 2 lần; tạo X1 ST vật lý lên tất cả mục tiêu nam của phe địch."
+      }
+    },
+    {
+      "name": "Vương Hư Thiểm-Thánh",
+      "icon": "/images/heroes/s_Ulquiorra_skill5.png",
+      "description": "Tấn công toàn thể mục tiêu, tạo 350% ST vật lý và 800% ST t.tính Gió, khiến 1 mục tiêu hỗn loạn 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Quạ Đen",
+        "description": "Bản thân tăng thêm tấn công t.tính Gió và 100% phòng ngự toàn thuộc tính; Trạng thái \"Quy Đao\", thả hơn 2 lần KN \"Giải Phóng.Quy Đao\", sẽ rơi vào trạng thái \"Quy Đao đoạn 2\", \"Giải Phóng.Quy Đao\" được X2 bonus;\nTrạng thái \"Quy Đao đoạn 2\": Tăng 200% tất cả ST tấn công & ST t.tính trừ skill \"Vương Hư Thiểm\"; ST vật lý \"Vương Hư Thiểm\" tạo ra tăng thành ST thực."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Đơn Đao Hội: Cùng InuYasha và Mihawk ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Ám Ảnh: Cùng Uchiha ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Vua Bóng Đêm: Cùng Kil'jaeden ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Tử Thần Bleach: Cùng Kurosaki ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Quạ Đen: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Ichigo",
+      "icon": "/images/heroes/ichigo.png",
+      "amount": 2,
+      "type": "hero"
+    },
+    {
+      "name": "Quạ Đen",
+      "icon": "/images/heroes/qua-en.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Sói Trắng",
+      "icon": "/images/heroes/soi-trang.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijia.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Quạ Đen",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Dạ Trảm-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill1.png",
+      "skillDesc": "Buff Trọng Thương có hiệu lực trong 2 hiệp, khi đang trọng thương, mục tiêu bị trọng thương ko thể hồi HP, nếu khi mục tiêu đó bị tấn công, đã tồn tại  buff Trọng Thương, sẽ có 20% tỉ lệ kết liễu hắn",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Quạ Đen",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Hư Đạn-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill2.png",
+      "skillDesc": "10% tổng sát thương chuyển thành hồi HP cho dãy trước phe ta; và hút 50% Vật & Ma Công của mục tiêu bị tấn công, cộng cho bản thân, hiệu lực 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Quạ Đen",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Ám Thiểm-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill3.png",
+      "skillDesc": "ST tấn công và ST thuộc tính tăng thêm X2; Buff tụt máu có hiệu lực 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Quạ Đen",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Liên Trảm Siêu Tốc-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill6.png",
+      "skillDesc": "Bản thân tăng 40%-100% Né, Bạo Kích và Chính Xác; Tăng 200%-500% phòng ngự t.tính Gió cho đồng đội dãy trước, hiệu lực 5 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Quạ Đen",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Giải Phóng.Quy Đao-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill7.png",
+      "skillDesc": "Đối với mỗi mục tiêu đều có 50% tỉ lệ tạo thêm X4 ST và ST t.tính; Tăng 300% t.tính phòng ngự và 20% t.tính miễn thương cho đồng đội nữ phe ta, hiệu lực 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Quạ Đen",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Hư Thuẫn-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill4.png",
+      "skillDesc": "Bỏ qua buff Đứng Im, Choáng, Sợ, Hóa Đá, Hôn Mê và Hỗn Loạn; Tăng 700% phòng ngự cho bản thân, kéo dài 1 hiệp, bản thân cộng 1 buff Vô Địch, hiệu lực 2 lần; tạo X1 ST vật lý lên tất cả mục tiêu nam của phe địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Quạ Đen",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Vương Hư Thiểm-Thánh",
+      "skillIcon": "/images/heroes/s_Ulquiorra_skill5.png",
+      "skillDesc": "Bản thân tăng thêm tấn công t.tính Gió và 100% phòng ngự toàn thuộc tính; Trạng thái \"Quy Đao\", thả hơn 2 lần KN \"Giải Phóng.Quy Đao\", sẽ rơi vào trạng thái \"Quy Đao đoạn 2\", \"Giải Phóng.Quy Đao\" được X2 bonus;\nTrạng thái \"Quy Đao đoạn 2\": Tăng 200% tất cả ST tấn công & ST t.tính trừ skill \"Vương Hư Thiểm\"; ST vật lý \"Vương Hư Thiểm\" tạo ra tăng thành ST thực.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hư Thuẫn-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Ulquiorra_skill4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Vương Hư Thiểm-Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Ulquiorra_skill5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/qua-en.png",
+          "slug": "qua-en"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

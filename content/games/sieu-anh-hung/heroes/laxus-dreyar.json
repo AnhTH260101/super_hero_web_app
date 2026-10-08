@@ -1,0 +1,608 @@
+{
+  "id": "38600",
+  "slug": "laxus-dreyar",
+  "name": "Laxus Dreyar",
+  "title": "Vũ trụ sức mạnh • SSR Laxus Dreyar",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/laxus-dreyar.png",
+  "fullArt": "/images/heroes/full/image_lakesasi.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Là một pháp sư cấp S của Fairy Tail, tính tình nóng nảy, không giỏi giao thiệp, nên thường hay hành sự một mình, vì cơ thể lúc nhỏ không chịu nổi ma lực lớn mạnh từ ông nội, nên bị cấy Lacrima Rồng và có Diệt Long Ma Pháp, trở thành pháp sư lôi long thuật.",
+  "skills": [
+    {
+      "name": "Lôi Long Trượng",
+      "icon": "/images/heroes/s_lakesasi_s1.png",
+      "description": "Chuyển hóa tấn công t.tính Nước và tấn công t.tính Lửa thành Ma Công, tạo 350% ST Ma Công lên 1 dãy địch, tạo hiệu quả Tê lên mục tiêu, giảm 20%-35% tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 2 hiệp. 50% tỉ lệ khiến mục tiêu trọng thương, giảm 66% hiệu quả hồi phục, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Laxus Dreyar",
+        "description": "Hiệu quả trọng thương tăng lên 80%, tỉ lệ tăng lên 100%, làm mục tiêu hôn mê 1 hiệp."
+      }
+    },
+    {
+      "name": "Lôi Long Quyền",
+      "icon": "/images/heroes/s_lakesasi_s2.png",
+      "description": "Chuyển hóa tấn công t.tính Nước thành Ma Công, tạo 350% ST Ma Công lên 3-5 kẻ địch, có 50% tỉ lệ khiến mục tiêu mù, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Laxus Dreyar",
+        "description": "Khiến mục tiêu choáng, và giảm 80% Tốc Độ của mục tiêu."
+      }
+    },
+    {
+      "name": "Cuồng Bạo Volt",
+      "icon": "/images/heroes/s_lakesasi_s3.png",
+      "description": "Skill trước khi bị đánh: Tăng 350% phòng ngự cho bản thân (Được dồn 10 lần), mỗi lần trước khi bị đánh, cộng 1 tầng hiệu quả tăng áp cho bản thân, hiệu quả tăng áp có thể tăng mạnh điện áp của bản thân, mỗi tầng hiệu quả tăng 30% sát thương skill tạo ra, hiệu quả tăng áp duy trì 3 hiệp biến mất, tối đa dồn 10 tầng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Laxus Dreyar",
+        "description": "Giảm 33% trúng và bạo kích của kẻ tấn công. Kéo dài 2 hiệp. Tăng 100% Tốc Độ của bản thân. (Không thể cộng dồn)"
+      }
+    },
+    {
+      "name": "Lôi Long Gầm",
+      "icon": "/images/heroes/s_lakesasi_s6.png",
+      "description": "Skill trước hiệp: Chuyển hóa tấn công t.tính Nước và tấn công t.tính Lửa thành Ma Công, tạo 350% ST ma pháp lên toàn thể phe địch. Hồi tất cả HP đã mất. Và trong hiệp này tăng 30% Ma Công cho bản thân.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Laxus Dreyar",
+        "description": "Ngẫu nhiên chọn 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội, hiệu lực 2 lần. Tạo hiệu quả Tê lên 1-3 kẻ địch, và làm kẻ địch còn lại đứng im 1 hiệp."
+      }
+    },
+    {
+      "name": "Pháp Luật Yêu Tinh",
+      "icon": "/images/heroes/s_lakesasi_s7.png",
+      "description": "Skill trước trận: Tăng 79% tỉ lệ giảm thương tổng thể, tăng vĩnh viễn 800% phòng ngự tổng thể cho bản thân, tăng vĩnh viễn 300% Trúng, Né và bạo kích. Miễn dịch vĩnh viễn hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Mê Hoặc.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Laxus Dreyar",
+        "description": "Ngẫu nhiên chọn 1-5 kẻ địch, giảm 10%-30% giới hạn HP của mục tiêu. Giảm 33% tấn công tổng thể của toàn thể địch, và giảm 50% Tốc Độ và Bạo Kích. Tăng 50% giới hạn HP cho bản thân. Khi miễn dịch lâu dài sẽ cộng hiệu quả Tsukuyomi, Chế Giễu."
+      }
+    },
+    {
+      "name": "Lôi Long Ngạc",
+      "icon": "/images/heroes/s_lakesasi_s4.png",
+      "description": "Skill phản đòn: Sau khi bị tấn công có 99% tỉ lệ chuyển hóa tấn công t.tính Nước và tấn công t.tính Lửa thành Ma Công, ngẫu nhiên tấn công dãy trước hoặc dãy sau, tạo 350% ST ma pháp. Nếu mục tiêu bị tê, tạo thêm X3 sát thương. Nếu mục tiêu bị mù, tạo thêm X2 sát thương. Mỗi hiệp tối đa phát động 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần thoại·Laxus Dreyar",
+        "description": "200% sát thương tạo ra sẽ trở thành hiệu quả hồi HP cho bản thân, lượng HP vượt mức sẽ chia đều cho đồng đội khác."
+      }
+    },
+    {
+      "name": "Diệt Long·Minh Ngự Lôi",
+      "icon": "/images/heroes/s_lakesasi_s5.png",
+      "description": "Chuyển hóa tấn công t.tính Nước và tấn công t.tính Lửa thành Ma Công, tạo 350% ST Ma Công lên toàn thể kẻ địch, nếu mục tiêu bị tê, sẽ tạo thêm X3 sát thương. Nếu mục tiêu bị mù, tạo thêm X2 sát thương.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Laxus Dreyar",
+        "description": "Đối với mục tiêu:\nTạo thêm X3 sát thương lên kẻ địch loại Vật Công & Ma Công, và giảm 20%-45% lực tấn công tương ứng của kẻ địch; Tạo thêm X2 sát thương lên kẻ địch dạng hỗ trợ, và giảm 20%-45% tỉ lệ giảm thương tổng thể của kẻ địch; Tạo thêm X6 sát thương lên kẻ địch dạng phòng ngự, và giảm 20%-45% tỉ lệ giảm thương tổng thể của kẻ địch."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Liên Kết Fairy Tail: Cùng Erza và Natsu ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Cảm Điện: Cùng Shermie ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Dẫn Điện: Cùng Kula ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Cường Điện: Cùng Tobirama ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-laxus-dreyar",
+      "name": "CT-Laxus Dreyar",
+      "avatar": "/images/heroes/ct-laxus-dreyar.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Là một pháp sư cấp S của Fairy Tail, tính tình nóng nảy, không giỏi giao thiệp, nên thường hay hành sự một mình, vì cơ thể lúc nhỏ không chịu nổi ma lực lớn mạnh từ ông nội, nên bị cấy Lacrima Rồng và có Diệt Long Ma Pháp, trở thành pháp sư lôi long thuật."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Laxus Dreyar",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Lôi Long Trượng",
+      "skillIcon": "/images/heroes/s_lakesasi_s1.png",
+      "skillDesc": "Hiệu quả trọng thương tăng lên 80%, tỉ lệ tăng lên 100%, làm mục tiêu hôn mê 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Laxus Dreyar",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Lôi Long Quyền",
+      "skillIcon": "/images/heroes/s_lakesasi_s2.png",
+      "skillDesc": "Khiến mục tiêu choáng, và giảm 80% Tốc Độ của mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Gray",
+          "icon": "/images/heroes/gray.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Laxus Dreyar",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Cuồng Bạo Volt",
+      "skillIcon": "/images/heroes/s_lakesasi_s3.png",
+      "skillDesc": "Giảm 33% trúng và bạo kích của kẻ tấn công. Kéo dài 2 hiệp. Tăng 100% Tốc Độ của bản thân. (Không thể cộng dồn)",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần thoại·Laxus Dreyar",
+      "tierName": "Thần thoại",
+      "auraColor": "amber",
+      "skillName": "Lôi Long Ngạc",
+      "skillIcon": "/images/heroes/s_lakesasi_s4.png",
+      "skillDesc": "200% sát thương tạo ra sẽ trở thành hiệu quả hồi HP cho bản thân, lượng HP vượt mức sẽ chia đều cho đồng đội khác.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Natsu",
+          "icon": "/images/heroes/natsu.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Laxus Dreyar",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Diệt Long·Minh Ngự Lôi",
+      "skillIcon": "/images/heroes/s_lakesasi_s5.png",
+      "skillDesc": "Đối với mục tiêu:\nTạo thêm X3 sát thương lên kẻ địch loại Vật Công & Ma Công, và giảm 20%-45% lực tấn công tương ứng của kẻ địch; Tạo thêm X2 sát thương lên kẻ địch dạng hỗ trợ, và giảm 20%-45% tỉ lệ giảm thương tổng thể của kẻ địch; Tạo thêm X6 sát thương lên kẻ địch dạng phòng ngự, và giảm 20%-45% tỉ lệ giảm thương tổng thể của kẻ địch.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Laxus Dreyar",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Lôi Long Gầm",
+      "skillIcon": "/images/heroes/s_lakesasi_s6.png",
+      "skillDesc": "Ngẫu nhiên chọn 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội, hiệu lực 2 lần. Tạo hiệu quả Tê lên 1-3 kẻ địch, và làm kẻ địch còn lại đứng im 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Laxus Dreyar",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Pháp Luật Yêu Tinh",
+      "skillIcon": "/images/heroes/s_lakesasi_s7.png",
+      "skillDesc": "Ngẫu nhiên chọn 1-5 kẻ địch, giảm 10%-30% giới hạn HP của mục tiêu. Giảm 33% tấn công tổng thể của toàn thể địch, và giảm 50% Tốc Độ và Bạo Kích. Tăng 50% giới hạn HP cho bản thân. Khi miễn dịch lâu dài sẽ cộng hiệu quả Tsukuyomi, Chế Giễu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Lôi Long Ngạc",
+      "unlockedSkillIcon": "/images/heroes/s_lakesasi_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Diệt Long·Minh Ngự Lôi",
+      "unlockedSkillIcon": "/images/heroes/s_lakesasi_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "icon": "/images/heroes/laxus-dreyar.png",
+          "slug": "laxus-dreyar"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

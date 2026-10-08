@@ -1,0 +1,645 @@
+{
+  "id": "63700",
+  "slug": "ct-boa-hancock",
+  "name": "CT-Boa Hancock",
+  "title": "Vũ trụ nguyên tố • UR CT-Boa Hancock",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-boa-hancock.png",
+  "fullArt": "/images/heroes/full/image_nvdi.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là một vị nữ hải tặc xinh đẹp nhất! Dựa vào nhan sắc và năng lực thực thụ để khống chế người khác!",
+  "skills": [
+    {
+      "name": "Trăng Sáng-Mũi Tên Kẹo",
+      "icon": "/images/heroes/s_nd_tiantian.png",
+      "description": "Trêu chọc mục tiêu mặc định hoặc dãy sau địch, tạo e350% sát thương ma pháp và 160% sát thương thuộc tính Đất.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Boa Hancock",
+        "description": "Nếu Tốc Độ của mục tiêu cao hơn mình, giảm 50% Tốc Độ của hắn, 2 hiệp và ko thể bị xóa; Ngẫu nhiên hóa đá 1 mục tiêu tấn công, 1 hiệp, miễn dịch 1 hiệp từ địch, có thể bị xóa buff khống chế"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Khí Chất Nữ Đế",
+      "icon": "/images/heroes/s_nd_baqi.png",
+      "description": "KN bị đánh: Tăng 350% Tấn Công Thuộc Tính, Phòng Ngự Thuộc Tính cho mỗi thành viên phe ta, 2 hiệp, và khi thu hút mục tiêu có 50% tỉ lệ, làm 1 mục tiêu Sợ, 1 hiệp",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Boa Hancock",
+        "description": "Tỉ lệ Sợ tăng đến 100%, tăng thêm 50% Tốc Độ, 2 hiệp"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Xà Vương",
+      "icon": "/images/heroes/s_nd_shewang.png",
+      "description": "Chuyển tốc độ thành tấn công thuộc tính Đất, tạo 350% sát thương ma pháp và 130% sát thương thuộc tính Đất lên mục tiêu, giảm 30% Vật Công và Ma Công của tất cả địch, 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Boa Hancock",
+        "description": "Nếu mục tiêu bị Choáng hoặc Sợ, sẽ X2 sát thương thuộc tính, ngẫu nhiên làm 1-2 kẻ địch Đứng Im, 1 hiệp; Nếu trong 1 hiệp mục tiêu từng bị Boa hóa đá, hoặc tồn tại buff Hóa Đá, tạo thêm 500k-1000k sát thương thực lên hắn"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Mỹ Nhân Kế",
+      "icon": "/images/heroes/s_nd_meiren.png",
+      "description": "KN trước hiệp: Tăng 350% tấn công thuộc tính Đất, giảm 10% tỉ lệ giảm sát thương của toàn thể địch.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Boa Hancock",
+        "description": "Tỉ lệ giảm “Giảm Sát Tổng Thể” của địch tăng đến 30%, hồi 50% HP bản thân; Từ hiệp 2, nếu Luffy Chuyển5 trở lên ra trận và chưa chết, sẽ thả buff Mê Hoặc (Mê Hoặc vô hiệu với Luffy phe địch), khiến 1 mục tiêu thả tấn công thường lên bản thân, Hồi HP tăng đến 80%\n\n"
+      }
+    },
+    {
+      "name": "Trăng Sáng-Cửu Xà Nữ Đế",
+      "icon": "/images/heroes/s_nd_jiushe.png",
+      "description": "KN trước trận: Chuyển 200% phòng ngự thành tấn công thuộc tính Đất, tạo 350% sát thương ma pháp và 550% sát thương thuộc tính Đất lên mục tiêu, tăng 50% vật công, ma công, phòng ngự và tốc độ, 3 hiệp. Tăng 10% giới hạn HP.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Boa Hancock",
+        "description": "Cả đội tăng 10% giới hạn HP, giới hạn HP bản thân tăng đến 30%, và xóa BUFF xấu của cả đội; Bản thân tăng thêm 30% Giảm Thương Tổng Thể, 3 hiệp, và không thể bị xóa."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Lục Hải Không: Khi cùng Thunderbird và Người Hùng Tia Chớp ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+10%",
+    "Vua Biển Cả: Khi cùng Zoro và Roger ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Biệt Đội Nữ Thần: Khi cùng Mei ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Đẹp Tuyệt Trần: Khi trang bị Trâm Nữ Đế thì Ma Công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Boa Hancock: 180 Đá Chuyển Sinh + 10 Giáp Nguyên Lực + 10 Kiếm Nguyên Lực + 15 Kiếm Thần Lực + 2 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Boa Hancock",
+      "icon": "/images/heroes/boa-hancock.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Zoro",
+      "icon": "/images/heroes/zoro.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Seya",
+      "icon": "/images/heroes/seya.png",
+      "amount": 1,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_3.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 35,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 15,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Linh Phách",
+      "icon": "/images/items/i_c_lingpozhijian.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Boa Hancock",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Trăng Sáng-Mũi Tên Kẹo",
+      "skillIcon": "/images/heroes/s_nd_tiantian.png",
+      "skillDesc": "Nếu Tốc Độ của mục tiêu cao hơn mình, giảm 50% Tốc Độ của hắn, 2 hiệp và ko thể bị xóa; Ngẫu nhiên hóa đá 1 mục tiêu tấn công, 1 hiệp, miễn dịch 1 hiệp từ địch, có thể bị xóa buff khống chế",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Boa Hancock",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Trăng Sáng-Khí Chất Nữ Đế",
+      "skillIcon": "/images/heroes/s_nd_baqi.png",
+      "skillDesc": "Tỉ lệ Sợ tăng đến 100%, tăng thêm 50% Tốc Độ, 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Boa Hancock",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Trăng Sáng-Xà Vương",
+      "skillIcon": "/images/heroes/s_nd_shewang.png",
+      "skillDesc": "Nếu mục tiêu bị Choáng hoặc Sợ, sẽ X2 sát thương thuộc tính, ngẫu nhiên làm 1-2 kẻ địch Đứng Im, 1 hiệp; Nếu trong 1 hiệp mục tiêu từng bị Boa hóa đá, hoặc tồn tại buff Hóa Đá, tạo thêm 500k-1000k sát thương thực lên hắn",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 30,
+          "type": "item"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Boa Hancock",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Trăng Sáng-Mỹ Nhân Kế",
+      "skillIcon": "/images/heroes/s_nd_meiren.png",
+      "skillDesc": "Tỉ lệ giảm “Giảm Sát Tổng Thể” của địch tăng đến 30%, hồi 50% HP bản thân; Từ hiệp 2, nếu Luffy Chuyển5 trở lên ra trận và chưa chết, sẽ thả buff Mê Hoặc (Mê Hoặc vô hiệu với Luffy phe địch), khiến 1 mục tiêu thả tấn công thường lên bản thân, Hồi HP tăng đến 80%\n\n",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Zoro",
+          "icon": "/images/heroes/zoro.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Boa Hancock",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Trăng Sáng-Cửu Xà Nữ Đế",
+      "skillIcon": "/images/heroes/s_nd_jiushe.png",
+      "skillDesc": "Cả đội tăng 10% giới hạn HP, giới hạn HP bản thân tăng đến 30%, và xóa BUFF xấu của cả đội; Bản thân tăng thêm 30% Giảm Thương Tổng Thể, 3 hiệp, và không thể bị xóa.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Boa Hancock",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Boa Hancock",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "slug": "boa-hancock"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

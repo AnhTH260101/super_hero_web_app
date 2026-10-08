@@ -1,0 +1,64 @@
+{
+  "id": "kensin",
+  "slug": "kensin",
+  "name": "Kensin",
+  "title": "Vũ trụ sức mạnh • SSR Kensin",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kensin.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Làn sóng zombie bùng nổ, khiến Kensin kết thúc 10 năm lang thang của mình. Hắn không biết thế giới này sẽ trở thành như vậy, nhưng hắn cũng không từ bỏ ước mơ của mình.",
+  "skills": [
+    {
+      "name": "Cửu Đầu Long Thiểm",
+      "type": "active",
+      "description": "Tạo 350% sát thương vật lí cho mục tiêu, giảm 10% toàn bộ thuộc tính của mục tiêu, kéo dài 3 hiệp, tối đa dồn 3 lần.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    },
+    {
+      "name": "Thiên Tường Long Thiểm",
+      "type": "ultimate",
+      "description": "Tạo 1 lần 350% sát thương vật lí cho mục tiêu, đồng thời tăng tốc độ bản thân 10%, kéo dài 3 hiệp, nếu mục tiêu chảy máu thì tạo thêm 100% sát thương.",
+      "cooldown": "4 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Phi Thiên Ngự Kiếm Lưu",
+      "type": "talent",
+      "description": "Tạo 1 lần 100% sát thương vật lí cho mục tiêu, đồng thời kèm theo sát thương bằng 350% điểm tốc độ, tăng tốc độ bản thân 10%, tối đa dồn 3 lần, hiệu quả kéo dài toàn trận chiến.",
+      "cooldown": "3 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Người cầm đao: Vật công và tốc độ +15% khi ra trận cùng lúc với card2 và card3",
+    "Kẻ lang thang: HP và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Niềm tin: Vật công và phòng ngự +20% khi ra trận cùng lúc với card2 và card3",
+    "Kiếm chủ: Ma công và HP +15% khi ra trận cùng lúc với card2 và card3"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

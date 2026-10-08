@@ -1,0 +1,707 @@
+{
+  "id": "82400",
+  "slug": "nagato",
+  "name": "Nagato",
+  "title": "Vũ trụ linh tính • UR Nagato",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/nagato.png",
+  "fullArt": "/images/heroes/full/image_peien2.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Khi còn nhỏ, Nagato đã bị Uchiha Madara chèn vào Nhãn Luân Hoán và nắm được năm thuộc tính thay đổi Chakara.",
+  "skills": [
+    {
+      "name": "Tổ Hợp Nhẫn Thuật - Phong Hỏa",
+      "icon": "/images/heroes/s_peien2_s1.png",
+      "description": "Gây ra 350% ST ma pháp và 300% ST thuộc tính Thổ cho toàn phe địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Nagato",
+        "description": "Tăng 5 lần tấn công thuộc tính Hỏa của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Hỏa; Sau khi chuyển đổi, mỗi có 1tr điểm tấn công thuộc tính Hỏa thì truy kích 1 lần mục tiêu bị kĩ năng này gây ra ST thuộc tính"
+      },
+      "badge": {
+        "level": 1,
+        "description": "Đột phá tiềm lực: (Tổ Hợp Nhẫn Thuật - Phong Hỏa) Tăng 10 lần tấn công thuộc tính Hỏa của bản thân"
+      }
+    },
+    {
+      "name": "Tổ Hợp Nhẫn Thuật - Lôi Thủy",
+      "icon": "/images/heroes/s_peien2_s2.png",
+      "description": "Kĩ năng trước khi bị đánh: Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt. Gây ra 350% ST ma pháp và 100% ST thuộc tính Thủy cho toàn phe địch. Hộ Giá: Chắn các ST trực tiếp từ địch (ST truy kích, ST thuộc tính, ST diệt ngay không thể chắn) 1 lần",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Nagato",
+        "description": "Tối đa kích hoạt 3 lần. Cho bản thân 1 tầng Thần Ngự. Tăng 5 lần tấn công thuộc tính Thủy của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Thủy; Sau khi chuyển đổi, mỗi có 3tr điểm tấn công thuộc tính Thủy thì thêm 1 tầng \"Hộ Giá\""
+      },
+      "badge": {
+        "level": 2,
+        "description": "Đột phá tiềm lực: (Tổ Hợp Nhẫn Thuật - Lôi Thủy) Gây ra thêm ST thực bằng 50% HP tối đa"
+      }
+    },
+    {
+      "name": "Gedo Mazo",
+      "icon": "/images/heroes/s_peien2_s3.png",
+      "description": "Kĩ năng phản kích: Thông linh Gedo Mazo để phản kích, gây ra 350% ST ma pháp và 500% ST thuộc tính Thổ cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Nagato",
+        "description": "Né Tránh của toàn phe địch về 0"
+      },
+      "badge": {
+        "level": 3,
+        "description": "Đột phá tiềm lực (Gedo Mazo) Gây ra thêm gấp 10 lần ST"
+      }
+    },
+    {
+      "name": "Diêm Vương Luân Hồi Phục Sinh",
+      "icon": "/images/heroes/s_peien2_s6.png",
+      "description": "Kĩ năng tử vong: Thông qua Địa Ngục hồi sinh bản thân, hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra 350% ST thực ma pháp và 1500% ST thực thuộc tính Thổ, tối đa có thể Hồi Sinh 3 lần. Diệt Ngay 1 đơn vị ngẫu nhiên",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Nagato",
+        "description": "Số lần Hồi Sinh tối đa biến thành 4, khi Hồi Sinh có tỉ lệ 30% không bị trừ số lần hồi sinh. Mỗi có 350k điểm tấn công thuộc tính Phong cơ sở thì tỉ lệ này tăng 5%"
+      },
+      "badge": {
+        "level": 6,
+        "description": "Đột phá tiềm lực: (Diêm Vương Luân Hồi Phục Sinh) Gây ra thêm gấp 5 lần ST"
+      }
+    },
+    {
+      "name": "Ngoại đạo ma tượng - Genryuu Kyuu Fuujin",
+      "icon": "/images/heroes/s_peien2_s7.png",
+      "description": "Kĩ năng trước chiến đấu: Triệu hồi bản thể Gedo Mazo, hấp thu linh hồn phe địch. Vĩnh viễn tăng 210% HP max, 79% Giảm Thương chỉnh thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân Gây ra 350% ST thực ma pháp và 1800% ST nguyên tố Thổ, Truy Kích với ST thực bằng 50% HP max của bản thân",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Nagato",
+        "description": "Vĩnh viễn miễn dịch các hiệu ứng Câm Lặng, Hóa Đá, Hỗn Loạn, Khiêu Khích, Tsukuyomi. Tiêu diệt ngay ngẫu nhiên 1 đơn vị địch. Mỗi khi sở hữu 350.000 điểm Tấn Công thuộc tính Địa cơ bản, sẽ xóa bỏ 1 lần hồi sinh của mục tiêu (tối đa xóa 4 lần)."
+      },
+      "badge": {
+        "level": 7,
+        "description": "Đột phá tiềm lực: (Ngoại đạo ma tượng - Genryuu Kyuu Fuujin) Cho bản thân 1 tầng Thần Ngự."
+      }
+    },
+    {
+      "name": "Vạn Tượng Thiên Dẫn",
+      "icon": "/images/heroes/s_peien2_s4.png",
+      "description": "Dẫn động sức mạnh Lục Đạo, gây ra 350% ST thực ma pháp và 1200% ST thực thuộc tính Thổ cho toàn phe địch. Trói Buộc mục tiêu 1 lượt",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Nagato",
+        "description": "Tăng 5 lần tấn công thuộc tính Địa của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Địa; Sau khi chuyển đổi, mỗi có 1tr điểm tấn công thuộc tính Địa thì tăng gấp 2 lần ST chỉnh thể kĩ năng này gây ra"
+      },
+      "badge": {
+        "level": 4,
+        "description": "Đột phá tiềm lực: (Vạn Tượng Thiên Dẫn) Gây ra thêm ST thực bằng 50% HP tối đa"
+      }
+    },
+    {
+      "name": "Địa Bạo Thiên Tinh",
+      "icon": "/images/heroes/s_peien2_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Tay bóp vẫn thạch. Gây ra 350% ST thực ma pháp và 1800% ST thực thuộc tính Thổ. Hồi 50% HP cho bản thân (bỏ qua Trọng Thương)",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Nagato",
+        "description": "Dựa vào số người của đối phương mà gây ra hiệu quả khác nhau:\n1. Địch có 4-5 người, gây ra thêm gấp 5 lần ST cho mục tiêu\n2. Địch có 2-3 người, gây ra thêm gấp 10 lần ST cho mục tiêu\nĐịch có 1 người, thêm \"Tuyệt Diệt\""
+      },
+      "badge": {
+        "level": 5,
+        "description": "Đột phá tiềm lực: (Địa Bạo Thiên Tinh) Gây ra thêm ST thực bằng 50% HP tối đa"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hồi Sinh: Khi xuất hiện cùng lúc với Songohan và Yatogami Tohka Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Thủ Lĩnh: Khi xuất hiện cùng lúc với Râu Trắng Ma Công, HP và Tốc Độ+15%",
+    "Lưỡi Kiếm: Khi xuất hiện cùng lúc với Yatogami Tohka Ma Công, HP và Tốc Độ+15%",
+    "Huyết Cừu: Khi xuất hiện cùng lúc với Tsunade Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Pain: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 4 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Jiraiya",
+      "icon": "/images/heroes/jiraiya.png",
+      "amount": 5,
+      "type": "hero"
+    },
+    {
+      "name": "Pain",
+      "icon": "/images/heroes/pain.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Nagato",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Tổ Hợp Nhẫn Thuật - Phong Hỏa",
+      "skillIcon": "/images/heroes/s_peien2_s1.png",
+      "skillDesc": "Tăng 5 lần tấn công thuộc tính Hỏa của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Hỏa; Sau khi chuyển đổi, mỗi có 1tr điểm tấn công thuộc tính Hỏa thì truy kích 1 lần mục tiêu bị kĩ năng này gây ra ST thuộc tính",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Nagato",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tổ Hợp Nhẫn Thuật - Lôi Thủy",
+      "skillIcon": "/images/heroes/s_peien2_s2.png",
+      "skillDesc": "Tối đa kích hoạt 3 lần. Cho bản thân 1 tầng Thần Ngự. Tăng 5 lần tấn công thuộc tính Thủy của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Thủy; Sau khi chuyển đổi, mỗi có 3tr điểm tấn công thuộc tính Thủy thì thêm 1 tầng \"Hộ Giá\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Nagato",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Gedo Mazo",
+      "skillIcon": "/images/heroes/s_peien2_s3.png",
+      "skillDesc": "Né Tránh của toàn phe địch về 0",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Nagato",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Vạn Tượng Thiên Dẫn",
+      "skillIcon": "/images/heroes/s_peien2_s4.png",
+      "skillDesc": "Tăng 5 lần tấn công thuộc tính Địa của bản thân, và chuyển hóa tất cả tấn công thuộc tính khác thành thuộc tính Địa; Sau khi chuyển đổi, mỗi có 1tr điểm tấn công thuộc tính Địa thì tăng gấp 2 lần ST chỉnh thể kĩ năng này gây ra",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Jiraiya",
+          "icon": "/images/heroes/jiraiya.png",
+          "amount": 3,
+          "type": "hero"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Nagato",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Địa Bạo Thiên Tinh",
+      "skillIcon": "/images/heroes/s_peien2_s5.png",
+      "skillDesc": "Dựa vào số người của đối phương mà gây ra hiệu quả khác nhau:\n1. Địch có 4-5 người, gây ra thêm gấp 5 lần ST cho mục tiêu\n2. Địch có 2-3 người, gây ra thêm gấp 10 lần ST cho mục tiêu\nĐịch có 1 người, thêm \"Tuyệt Diệt\"",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Nagato",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Diêm Vương Luân Hồi Phục Sinh",
+      "skillIcon": "/images/heroes/s_peien2_s6.png",
+      "skillDesc": "Số lần Hồi Sinh tối đa biến thành 4, khi Hồi Sinh có tỉ lệ 30% không bị trừ số lần hồi sinh. Mỗi có 350k điểm tấn công thuộc tính Phong cơ sở thì tỉ lệ này tăng 5%",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Nagato",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ngoại đạo ma tượng - Genryuu Kyuu Fuujin",
+      "skillIcon": "/images/heroes/s_peien2_s7.png",
+      "skillDesc": "Vĩnh viễn miễn dịch các hiệu ứng Câm Lặng, Hóa Đá, Hỗn Loạn, Khiêu Khích, Tsukuyomi. Tiêu diệt ngay ngẫu nhiên 1 đơn vị địch. Mỗi khi sở hữu 350.000 điểm Tấn Công thuộc tính Địa cơ bản, sẽ xóa bỏ 1 lần hồi sinh của mục tiêu (tối đa xóa 4 lần).",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Vạn Tượng Thiên Dẫn",
+      "unlockedSkillIcon": "/images/heroes/s_peien2_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Địa Bạo Thiên Tinh",
+      "unlockedSkillIcon": "/images/heroes/s_peien2_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Pain",
+          "icon": "/images/heroes/pain.png",
+          "slug": "pain"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

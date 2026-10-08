@@ -1,0 +1,64 @@
+{
+  "id": "ma",
+  "slug": "ma",
+  "name": "Ma",
+  "title": "Zombie Bentu • UR Ma",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ma.png",
+  "element": "Zombie Bentu",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Madara",
+  "skills": [
+    {
+      "name": "Susanoo Lv3",
+      "type": "talent",
+      "description": "Kĩ năng trước trận. Triệu hồi Susanoo tấn công kẻ địch trực tuyến, tạo 1 lần 350% sát thương ma pháp. Đồng thời tăng 30% né tránh cho toàn bộ thành viên phe ta, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "Vẩn thạch Lv3",
+      "type": "ultimate",
+      "description": "Triệu hồi lượng lớn vẩn thạch tạo 350% sát thương ma pháp cho toàn bộ địch, đồng thời có 20% tỉ lệ gây hiệu quả choáng 1 hiệp.",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Chuyển sinh Lv3",
+      "type": "talent",
+      "description": "Khi chết sẽ có tỉ lệ chuyển sinh nhất định. Chuyển sinh xong ma công và phòng ngự tăng 350%, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với card2, card3, card4 và card5",
+    "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Phản nhân loại: Vật công và HP +15% khi ra trận cùng lúc với card2 và card3",
+    "Uchiha: Ma công +20% khi ra trận cùng lúc với card2"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

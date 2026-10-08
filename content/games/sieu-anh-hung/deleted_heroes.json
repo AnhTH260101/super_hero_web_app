@@ -1,0 +1,309 @@
+{
+  "4": {
+    "id": "4",
+    "name": "Luffy",
+    "slug": "luffy",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "6": {
+    "id": "6",
+    "name": "Yusuke",
+    "slug": "yusuke",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "8": {
+    "id": "8",
+    "name": "Ma",
+    "slug": "ma",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "12": {
+    "id": "12",
+    "name": "50e血没输出",
+    "slug": "50e",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "54": {
+    "id": "54",
+    "name": "Nguyên Lực Hồn",
+    "slug": "nguyen-luc-hon",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "55": {
+    "id": "55",
+    "name": "Hồn thần lực",
+    "slug": "hon-than-luc",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "56": {
+    "id": "56",
+    "name": "Thẻ nguyên liệu Thần thú",
+    "slug": "the-nguyen-lieu-than-thu",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "57": {
+    "id": "57",
+    "name": "圣の宇智波斑",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "58": {
+    "id": "58",
+    "name": "圣の宇智波斑",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "59": {
+    "id": "59",
+    "name": "Hồn Thần Thú hình 1",
+    "slug": "hon-than-thu-hinh-1",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "60": {
+    "id": "60",
+    "name": "Hồn Thần Thú hình 2",
+    "slug": "hon-than-thu-hinh-2",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "600": {
+    "id": "600",
+    "name": "Alessa",
+    "slug": "alessa",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "900": {
+    "id": "900",
+    "name": "Ace",
+    "slug": "ace",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "1100": {
+    "id": "1100",
+    "name": "Hulk",
+    "slug": "hulk",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "2000": {
+    "id": "2000",
+    "name": "Nanato",
+    "slug": "nanato",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "2100": {
+    "id": "2100",
+    "name": "Xaxuke",
+    "slug": "xaxuke",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "2300": {
+    "id": "2300",
+    "name": "Luffy",
+    "slug": "luffy",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "3300": {
+    "id": "3300",
+    "name": "Magneto",
+    "slug": "magneto",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "3600": {
+    "id": "3600",
+    "name": "Người Băng",
+    "slug": "nguoi-bang",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "3700": {
+    "id": "3700",
+    "name": "Kensiro",
+    "slug": "kensiro",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "4000": {
+    "id": "4000",
+    "name": "Mũi Tên Xanh",
+    "slug": "mui-ten-xanh",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "4400": {
+    "id": "4400",
+    "name": "Yasuke",
+    "slug": "yasuke",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "4600": {
+    "id": "4600",
+    "name": "Kensin",
+    "slug": "kensin",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "4900": {
+    "id": "4900",
+    "name": "Trùm Cảnh Sát",
+    "slug": "trum-canh-sat",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "5600": {
+    "id": "5600",
+    "name": "Thằng Hề",
+    "slug": "thang-he",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "5700": {
+    "id": "5700",
+    "name": "Captain Jack",
+    "slug": "captain-jack",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "6100": {
+    "id": "6100",
+    "name": "Ninja Rùa",
+    "slug": "ninja-rua",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "7400": {
+    "id": "7400",
+    "name": "Đội Trưởng Mỹ",
+    "slug": "oi-truong-my",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "7500": {
+    "id": "7500",
+    "name": "Mũi Tên Xanh",
+    "slug": "mui-ten-xanh",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "32900": {
+    "id": "32900",
+    "name": "Zoro",
+    "slug": "zoro",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "44100": {
+    "id": "44100",
+    "name": "香克斯",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "44300": {
+    "id": "44300",
+    "name": "宇智波斑",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "44400": {
+    "id": "44400",
+    "name": "阿尔泰尔",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "74800": {
+    "id": "74800",
+    "name": "Soái Khí Thảo Nima",
+    "slug": "soai-khi-thao-nima",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "83100": {
+    "id": "83100",
+    "name": "3.0",
+    "slug": "30",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "83400": {
+    "id": "83400",
+    "name": "圣の贝吉塔2",
+    "slug": "2",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84300": {
+    "id": "84300",
+    "name": "圣の香克斯",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84400": {
+    "id": "84400",
+    "name": "夏姆洛克",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84600": {
+    "id": "84600",
+    "name": "12.0",
+    "slug": "120",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84700": {
+    "id": "84700",
+    "name": "圣の宇智波斑",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84800": {
+    "id": "84800",
+    "name": "因陀罗",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "84900": {
+    "id": "84900",
+    "name": "圣の阿尔泰尔",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "85000": {
+    "id": "85000",
+    "name": "席利乌斯",
+    "slug": "hero",
+    "deletedAt": "2026-10-07T20:54:00Z",
+    "reason": "Admin deleted (junk/duplicate/material)"
+  },
+  "sonkoku": {
+    "slug": "sonkoku",
+    "name": "Sonkoku",
+    "deletedAt": "2026-10-07T14:10:18.519Z",
+    "reason": "Admin deleted via dashboard"
+  }
+}

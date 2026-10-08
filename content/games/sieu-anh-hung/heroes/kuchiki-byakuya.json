@@ -1,0 +1,608 @@
+{
+  "id": "39800",
+  "slug": "kuchiki-byakuya",
+  "name": "Kuchiki Byakuya",
+  "title": "Vũ trụ linh tính • SSR Kuchiki Byakuya",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kuchiki-byakuya.png",
+  "fullArt": "/images/heroes/full/image_xiumubaizai.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Đội trưởng của Đội 6 trong Gotei 13, người đứng đầu đời thứ 28 của gia tộc Kuchiki, anh kết nghĩa của Kuchiki Rukia. Anh ta luôn giữ vẻ suy tư bình tĩnh, thực tế lại là người trọng tình cảm (kiểu trong nóng ngoài lạnh).",
+  "skills": [
+    {
+      "name": "Bạch Lôi",
+      "icon": "/images/heroes/s_xiumubaizai_s1.png",
+      "description": "Skill phản đòn: bị tấn công có 99% tỉ lệ gây sát thương thật sự bằng 350% sát thương ma pháp và 500% sát thương thuộc tính Nước lên kẻ địch đơn thể, khiến mục tiêu trọng thương, giảm hồi phục HP 80%.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kuchiki Byakuya",
+        "description": "Nếu hiệu quả hồi phục của mục tiêu dưới 50%, gây thêm gấp 3 lần sát thương. Hiệu quả trọng thương là 100%."
+      }
+    },
+    {
+      "name": "Thương Hỏa Trụy",
+      "icon": "/images/heroes/s_xiumubaizai_s2.png",
+      "description": "Gây 350% sát thương ma pháp và 300% sát thương thuộc tính Nước lên ngẫu nhiên 3~5 kẻ địch, giảm 30% ~ 60% tốc độ của mục tiêu. Kéo dài 2 hiệp, tăng 200% né tránh, chính xác, bạo kích của bản thân.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kuchiki Byakuya",
+        "description": "Giảm thêm 50% vật & ma công của mục tiêu, tăng 20% vật & ma công cho đồng đội có tổng vật & ma công thấp nhất trong phe ta."
+      }
+    },
+    {
+      "name": "Tiêm Cảnh",
+      "icon": "/images/heroes/s_xiumubaizai_s3.png",
+      "description": "Gây 350% sát thương ma pháp và 200% sát thương thật sự thuộc tính nước lên toàn bộ địch, hồi phục HP, lượng hồi phục bằng tổng sát thương gây ra, 50% tỉ lệ khiến mục tiêu trọng thương, giảm hồi phục HP 100%",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kuchiki Byakuya",
+        "description": "Gây thêm gấp 3 lần sát thương lên kẻ địch có HP dưới 30% trong số mục tiêu."
+      }
+    },
+    {
+      "name": "Nhất Giảo Hoa",
+      "icon": "/images/heroes/s_xiumubaizai_s6.png",
+      "description": "Skill trước hiệp: tất cả tấn công thuộc tính chuyển hóa thành ma công, gây 350% sát thương ma pháp và 800% sát thương thật sự thuộc tính NƯớc lên toàn bộ địch, hồi phục toàn bộ HP bản thân, tăng phòng ngự toàn bộ thuộc tính và phòng ngự bằng 350% điểm ma công bản thân cho đồng đội xếp trước, hiệu quả kéo dài 1 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kuchiki Byakuya",
+        "description": "Gây thêm gấp 4 lần sát thương và sát thương thuộc tính; giảm 20% ~ 45% phòng ngự tổng thể và tỉ lệ giảm thương tổng thể của mục tiêu, hiệu quả kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Thiên Bản Anh",
+      "icon": "/images/heroes/s_xiumubaizai_s7.png",
+      "description": "Skill tử trận: tử vong xong hồi sinh, hồi phục toàn bộ HP. Gây 350% sát thương ma công và 800% sát thương thuộc tính Nước lên toàn bộ địch. Tối đa hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kuchiki Byakuya",
+        "description": "Tối đa hồi sinh 3 lần. Tất cả tấn công thuộc tính chuyển thành ma công và gây sát thương thật sự."
+      }
+    },
+    {
+      "name": "Hàng Cảnh",
+      "icon": "/images/heroes/s_xiumubaizai_s4.png",
+      "description": "Skill trước trận: gây 350% sát thương ma pháp và 800% sát thương thật sự thuộc tính Nước lên toàn bộ địch, giảm 30% ~ 50% Vật & Ma công của địch, tăng 30% Vật & Ma công và 300% phòng ngự thuộc tính của đồng đội.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Kuchiki Byakuya",
+        "description": "Vĩnh viễn miễn dịch hiệu quả đứng im, hóa đá, choáng, hôn mê, hỗn loạn, chế giễu, tsukuyomi, tăng 79% tỉ lệ giảm thương tổng thể của bản thân."
+      }
+    },
+    {
+      "name": "Bạch Đế Kiếm",
+      "icon": "/images/heroes/s_xiumubaizai_s5.png",
+      "description": "Gây 350% sát thương ma pháp và sát thương thật sự thuộc tính Nước bằng 800% tổng toàn thuộc tính lên ngẫu nhiên 3~5 kẻ địch, giảm 50% chính xác của mục tiêu, khiến mục tiêu trọng thương, giảm HP hồi phục 100%, sát thương và sát thương thuộc tính tăng 100%.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kuchiki Byakuya",
+        "description": "Tăng ngẫu nhiên 40 vạn ~ 80 vạn ma công, gây thêm gấp 3 lần sát thương lên mục tiêu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Quý Tộc: Khi ra trận cùng lúc với Jiraiya và Kurosaki, vật công, ma công, chính xác +20%, phòng ngự, tốc độ +15%",
+    "Vinh Diệu: Khi ra trận cùng lúc với Chris, ma công, HP và tốc độ +15%",
+    "Cát Cánh: Khi ra trận cùng lúc với Kula, ma công, HP và tốc độ +15%",
+    "Kiêu Ngạo: Khi ra trận cùng lúc với Gintoki, ma công, HP và tốc độ +15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kuchiki-byakuya",
+      "name": "CT-Kuchiki Byakuya",
+      "avatar": "/images/heroes/ct-kuchiki-byakuya.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Đội trưởng đội số 6 trong 13 đội bảo vệ triều đình, Byakuya là người đứng đầu đời thứ 28 của gia tộc Kuchiki, một trong 4 gia tộc lớn nhất, đồng thời cũng là anh kết nghĩa của Rukia Kuchiki - Đội trưởng đội số 13. Con người luôn bình tĩnh suy nghĩ vấn đề như anh, thực tế lại là một người rất xem trọng tình cảm (Điển hình của ngoài lạnh trong nóng)"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kuchiki Byakuya",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Bạch Lôi",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s1.png",
+      "skillDesc": "Nếu hiệu quả hồi phục của mục tiêu dưới 50%, gây thêm gấp 3 lần sát thương. Hiệu quả trọng thương là 100%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kuchiki Byakuya",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Thương Hỏa Trụy",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s2.png",
+      "skillDesc": "Giảm thêm 50% vật & ma công của mục tiêu, tăng 20% vật & ma công cho đồng đội có tổng vật & ma công thấp nhất trong phe ta.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kuchiki Byakuya",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Tiêm Cảnh",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s3.png",
+      "skillDesc": "Gây thêm gấp 3 lần sát thương lên kẻ địch có HP dưới 30% trong số mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Kuchiki Byakuya",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Hàng Cảnh",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s4.png",
+      "skillDesc": "Vĩnh viễn miễn dịch hiệu quả đứng im, hóa đá, choáng, hôn mê, hỗn loạn, chế giễu, tsukuyomi, tăng 79% tỉ lệ giảm thương tổng thể của bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kuchiki Byakuya",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Bạch Đế Kiếm",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s5.png",
+      "skillDesc": "Tăng ngẫu nhiên 40 vạn ~ 80 vạn ma công, gây thêm gấp 3 lần sát thương lên mục tiêu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kuchiki Byakuya",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Nhất Giảo Hoa",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s6.png",
+      "skillDesc": "Gây thêm gấp 4 lần sát thương và sát thương thuộc tính; giảm 20% ~ 45% phòng ngự tổng thể và tỉ lệ giảm thương tổng thể của mục tiêu, hiệu quả kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kuchiki Byakuya",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thiên Bản Anh",
+      "skillIcon": "/images/heroes/s_xiumubaizai_s7.png",
+      "skillDesc": "Tối đa hồi sinh 3 lần. Tất cả tấn công thuộc tính chuyển thành ma công và gây sát thương thật sự.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Hàng Cảnh",
+      "unlockedSkillIcon": "/images/heroes/s_xiumubaizai_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Bạch Đế Kiếm",
+      "unlockedSkillIcon": "/images/heroes/s_xiumubaizai_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "slug": "kuchiki-byakuya"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

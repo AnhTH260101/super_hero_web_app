@@ -1,0 +1,679 @@
+{
+  "id": "68700",
+  "slug": "ct-hisoka",
+  "name": "CT-Hisoka",
+  "title": "Vũ trụ linh tính • UR CT-Hisoka",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ct-hisoka.png",
+  "fullArt": "/images/heroes/full/image_Hisoka.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": true,
+  "isSkinForm": false,
+  "rarity": "UR",
+  "role": "Tanker",
+  "tier": "S+",
+  "overview": "Là thành viên số 4 của Genei Ryodan. Là nhà ảo thuật và kẻ giết người hàng loạt, tính tình thất thường.",
+  "skills": [
+    {
+      "name": "Đạn Không Trung.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s1.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% ST ma công và 550% ST t.tính Nước, làm mục tiêu mù, kéo dài 2 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·CT-Hisoka",
+        "description": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "Tình Yêu Linh Hoạt.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s2.png",
+      "description": "Skill phản đòn: Tạo 350% ST ma công và 350% ST t.tính Nước lên mục tiêu mặc định và 2 mục tiêu có Tốc Độ thấp nhất, giảm 100% phòng ngự t.tính Nước và phòng ngự t.tính Lửa của mục tiêu.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·CT-Hisoka",
+        "description": "Tạo hiệu quả gây mù lên mục tiêu, kéo dài 2 hiệp."
+      }
+    },
+    {
+      "name": "JOKER.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s3.png",
+      "description": "Skill trước khi bị đánh: Ở hiệp này tăng 350% phòng ngự tổng thể cho bản thân, tăng 200% Né và Tốc Độ, mỗi hiệp chỉ được phát động 1 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·CT-Hisoka",
+        "description": "Tăng 100% sát thương skill ACE, mỗi hiệp chỉ được kích hoạt 1 lần."
+      }
+    },
+    {
+      "name": "Kẹo Niệm Lực.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s6.png",
+      "description": "Skill trước hiệp: Cộng 89% giảm thương tổng thể, tạo 350% ST ma công và 850% ST t.tính Nước lên toàn thể địch, làm mục tiêu mặc định mù 1 hiệp, nếu mục tiêu đã bị mù, sẽ cộng 1 tầng tụt máu, mỗi hiệp tạo ST thực bằng 350% tấn công t.tính Nước, kéo dài 1 hiệp.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·CT-Hisoka",
+        "description": "Bỏ qua hiệu quả Đứng Im, Choáng, Hoảng Sợ, Băng Phong, Hóa Đá, Mê Hoặc, Hôn Mê, Chế Giễu, Tsukuyomi; Sát thương tụt máu tăng lên gấp 2."
+      }
+    },
+    {
+      "name": "Ảo Tưởng Mảnh.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s7.png",
+      "description": "Skill tử trận: Hồi sinh sau khi tử trận, hồi tất cả HP. Tăng vĩnh viễn 350% ST ma pháp và 800k-1100k tấn công t.tính Nước cho bản thân. Sau khi hồi sinh tăng vĩnh viễn 60% ST kỹ năng ACE. Tối đa được hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·CT-Hisoka",
+        "description": "Hồi sinh sẽ tăng vĩnh viễn 100% sát thương skill ACE, số lần hồi sinh tăng 1."
+      }
+    },
+    {
+      "name": "Niệm Lực Kích.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s4.png",
+      "description": "Tấn công mục tiêu dãy sau, tạo 350% ST ma pháp và 850% ST t.tính Nước; Làm mục tiêu trọng thương, khiến mục tiêu ko thể hồi HP 1 hiệp.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·CT-Hisoka",
+        "description": "Tăng thêm 50% ST thực của giới hạn HP đối với 1 mục tiêu dãy sau."
+      }
+    },
+    {
+      "name": "ACE.Thánh",
+      "icon": "/images/heroes/s_Hisoka_s5.png",
+      "description": "Tạo 350% ST ma công và 950% ST t.tính Nước lên toàn thể phe địch, ở hiệp này giảm 100% tấn công t.tính Lửa, lực phòng ngự và Né của phe địch (ST tấn công lần này có hiệu lực)",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·CT-Hisoka",
+        "description": "Tạo thêm x4-5 sát thương đối với mục tiêu bị mù hoặc tụt máu."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Vua Thời Trang: Ra trận cùng lúc với Mai Shiranui và Grimmjow, Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Diệt Thế Thần Lực: Ra trận cùng lúc với Thanos, Ma Công, HP và Tốc Độ+15%",
+    "Phản Phái Quang: Ra trận cùng lúc với Sir, Ma Công, HP và Tốc Độ+15%",
+    "Lực Tà Ác: Ra trận cùng lúc với Cell, Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeRequirementsText": "Hisoka: 180 Đá Chuyển Sinh + 10 Mũ Nguyên Lực + 10 Giáp Nguyên Lực + 15 Đá Thần Lực + 3 phôi",
+  "afterlifeMaterials": [
+    {
+      "name": "Yagami Iori",
+      "icon": "/images/heroes/yagami-iori.png",
+      "amount": 3,
+      "type": "hero"
+    },
+    {
+      "name": "Hisoka",
+      "icon": "/images/heroes/hisoka.png",
+      "amount": 8,
+      "type": "hero"
+    },
+    {
+      "name": "Đá Chuyển Sinh",
+      "icon": "/images/items/i_b_0_0.png",
+      "amount": 450,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_4.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Giáp Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_1.png",
+      "amount": 10,
+      "type": "item"
+    },
+    {
+      "name": "Đá Thần Lực",
+      "icon": "/images/items/i_b_shenli_2.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Lực",
+      "icon": "/images/items/i_b_yuanli_2.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Kiếm Thần Lực",
+      "icon": "/images/items/i_b_shenli_3.png",
+      "amount": 20,
+      "type": "item"
+    },
+    {
+      "name": "Đá Chuyển Sinh Cao Cấp",
+      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "amount": 250,
+      "type": "item"
+    },
+    {
+      "name": "Đá Linh Phách",
+      "icon": "/images/items/i_c_lingpozhishi.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Linh Phách",
+      "icon": "/images/items/i_c_lingpozhikui.png",
+      "amount": 30,
+      "type": "item"
+    },
+    {
+      "name": "Đá Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "amount": 40,
+      "type": "item"
+    },
+    {
+      "name": "Mũ Nguyên Phách",
+      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "amount": 40,
+      "type": "item"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·CT-Hisoka",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đạn Không Trung.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s1.png",
+      "skillDesc": "Giảm 90% Né và Tốc Độ của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·CT-Hisoka",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Tình Yêu Linh Hoạt.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s2.png",
+      "skillDesc": "Tạo hiệu quả gây mù lên mục tiêu, kéo dài 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·CT-Hisoka",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "JOKER.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s3.png",
+      "skillDesc": "Tăng 100% sát thương skill ACE, mỗi hiệp chỉ được kích hoạt 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·CT-Hisoka",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Niệm Lực Kích.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s4.png",
+      "skillDesc": "Tăng thêm 50% ST thực của giới hạn HP đối với 1 mục tiêu dãy sau.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Yagami Iori",
+          "icon": "/images/heroes/yagami-iori.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·CT-Hisoka",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "ACE.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s5.png",
+      "skillDesc": "Tạo thêm x4-5 sát thương đối với mục tiêu bị mù hoặc tụt máu.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·CT-Hisoka",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kẹo Niệm Lực.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s6.png",
+      "skillDesc": "Bỏ qua hiệu quả Đứng Im, Choáng, Hoảng Sợ, Băng Phong, Hóa Đá, Mê Hoặc, Hôn Mê, Chế Giễu, Tsukuyomi; Sát thương tụt máu tăng lên gấp 2.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·CT-Hisoka",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Ảo Tưởng Mảnh.Thánh",
+      "skillIcon": "/images/heroes/s_Hisoka_s7.png",
+      "skillDesc": "Hồi sinh sẽ tăng vĩnh viễn 100% sát thương skill ACE, số lần hồi sinh tăng 1.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Niệm Lực Kích.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Hisoka_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "ACE.Thánh",
+      "unlockedSkillIcon": "/images/heroes/s_Hisoka_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Hisoka",
+          "icon": "/images/heroes/hisoka.png",
+          "slug": "hisoka"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "id": "5800",
+  "slug": "thor",
+  "name": "Thor",
+  "title": "Vũ trụ nguyên tố • SSR Thor",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/thor.png",
+  "fullArt": "/images/heroes/full/image_thor.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Tuy mặt toàn lông nhưng ta không phải ông chú; tuy tay cầm chùy nặng nhưng ta không phá nát đá; thế như sấm sét, nhanh như điện xẹt, hãy gọi ta là Thần, Thor.",
+  "skills": [
+    {
+      "name": "Chùy Thor",
+      "icon": "/images/heroes/e_w_zhongwu3.png",
+      "description": "Triệu hồi tia sét tấn công địch, tạo 350% sát thương ma pháp cho địch, đồng thời có 50% tỉ lệ làm choáng địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng sĩ·Thor",
+        "description": "Kĩ năng\nTăng hiệu quả Chùy Thor: \nChùy Thor sẽ tăng 15% ma công của Thor."
+      }
+    },
+    {
+      "name": "Sấm rền",
+      "icon": "/images/heroes/s_loudian.png",
+      "description": "Triệu hồi lượng lớn tia sét tấn công địch, tạo 350% sát thương ma pháp cho tập thể địch, tạo thêm 50% sát thương cho mục tiêu choáng.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu sĩ·Thor",
+        "description": "Kĩ năng\nTăng hiệu quả Sấm Rền: \n Sấm Rền tăng 100% sát thương cho mục tiêu đang choáng."
+      }
+    },
+    {
+      "name": "Thần",
+      "icon": "/images/heroes/s_shandianfengbao.png",
+      "description": "Kĩ năng trước trận. Thor là dũng sĩ mạnh nhất trong thần tộc, cơ thể tính thần của hắn miễn dịch mọi tác dụng phụ, đồng thời tăng thêm 350% phòng ngự của hắn, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh hùng·Thor",
+        "description": "Kĩ năng\nTăng hiệu quả Thần: \n Thor vào trạng thái Thần xong, sát thương phải chịu giảm 15%."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Hội phụ nữ: Phòng ngự và HP +15% khi ra trận cùng lúc với Người Sắt, Hulk và Đội trưởng",
+    "Kẻ lang thang: Vật công, HP và tốc độ +15% khi ra trận cùng lúc với Kensin, Kensiro và Tiến Sĩ Rocky",
+    "Sức mạnh nguyên tố: HP và tốc độ +15% khi ra trận cùng lúc với Người Băng và Bé Mai",
+    "Sạc điện: Phòng ngự +20% khi ra trận cùng lúc với Cảnh Trưởng Thép"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng sĩ·Thor",
+      "tierName": "Dũng sĩ",
+      "auraColor": "emerald",
+      "skillName": "Chùy Thor",
+      "skillIcon": "/images/heroes/e_w_zhongwu3.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Chùy Thor: \nChùy Thor sẽ tăng 15% ma công của Thor.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu sĩ·Thor",
+      "tierName": "Đấu sĩ",
+      "auraColor": "cyan",
+      "skillName": "Sấm rền",
+      "skillIcon": "/images/heroes/s_loudian.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Sấm Rền: \n Sấm Rền tăng 100% sát thương cho mục tiêu đang choáng.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh hùng·Thor",
+      "tierName": "Anh hùng",
+      "auraColor": "purple",
+      "skillName": "Thần",
+      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillDesc": "Kĩ năng\nTăng hiệu quả Thần: \n Thor vào trạng thái Thần xong, sát thương phải chịu giảm 15%.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Huyền thoại·Thor",
+      "tierName": "Huyền thoại",
+      "auraColor": "amber",
+      "skillName": "Kỹ năng 4",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Thần Lực",
+          "icon": "/images/items/i_b_shenli_4.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Thor",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Kỹ năng 5",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Thần Lực",
+          "icon": "/images/items/i_b_shenli_1.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Thor",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Thor",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Thor",
+          "icon": "/images/heroes/thor.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ]
+}

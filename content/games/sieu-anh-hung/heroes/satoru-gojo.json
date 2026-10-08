@@ -1,0 +1,616 @@
+{
+  "id": "42300",
+  "slug": "satoru-gojo",
+  "name": "Satoru Gojo",
+  "title": "Vũ trụ linh tính • SSR Satoru Gojo",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/satoru-gojo.png",
+  "fullArt": "/images/heroes/full/image_wutiaowu.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Chú Thuật Sư đặc cấp, sinh ra tại gia đình Gojo có thuật thức Vô Hạ Hạn, bởi vì vừa sinh ra đã có thuật thức \"Lục Nhãn\" nên có thể sử dụng nó một cách thành thạo.",
+  "skills": [
+    {
+      "name": "Chú Lực Xung Kích",
+      "icon": "/images/heroes/s_wutiaowu_s1.png",
+      "description": "Gây ra 350% ST ma pháp và 300% ST thuộc tính Phong, gây ra gấp 4-6 lần ST và ST thuộc tính, giảm 100% tốc độ kẻ địch, duy trì 1 lượt.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Satoru Gojo",
+        "description": "Giảm Né Tránh của tất cả kẻ địch thành 0."
+      }
+    },
+    {
+      "name": "Vô Hạ Hạn",
+      "icon": "/images/heroes/s_wutiaowu_s2.png",
+      "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST ma pháp cho toàn kẻ địch, hồi phục toàn bộ HP bản thân (bỏ quan Trọng Thương), giảm 100% Trúng Đích của mục tiêu, gây ra gấp 4-6 lần ST.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Satoru Gojo",
+        "description": "Có 15% cho bản thân 1 tầng Thần Ngự; có thể kích hoạt 3 lần"
+      }
+    },
+    {
+      "name": "Lục Nhãn",
+      "icon": "/images/heroes/s_wutiaowu_s3.png",
+      "description": "Kỹ năng phản kích:  Gây ra 350% ST ma pháp cho toàn kẻ địch và 500% ST thuộc tính Phong, và Trói Buộc mục tiêu",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Satoru Gojo",
+        "description": "Nếu mục tiêu đã bị Trói Buộc thì gây ra thêm gấp 10 lần ST."
+      }
+    },
+    {
+      "name": "Nghịch Chuyển Thuật Thức",
+      "icon": "/images/heroes/s_wutiaowu_s6.png",
+      "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP.  Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Phong cho toàn kẻ địch. Ngẫu nhiên tiêu diệt ngay 1 đơn vị. Tối đa có thể hồi sinh 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Satoru Gojo",
+        "description": "Số lần hồi sinh tăng lên 3 lần, sau khi hồi sinh, ST chỉnh thể tăng lên gấp 3."
+      }
+    },
+    {
+      "name": "Thuật Thức Nghịch Chuyển [Hách]",
+      "icon": "/images/heroes/s_wutiaowu_s7.png",
+      "description": "Kỹ năng tiền chiến: Tăng 200% HP/ 79% Giảm Thương, 500% Trúng Đích và Né Tránh của bản thân, gây ra thêm ST thực bằng 50% HP.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Satoru Gojo",
+        "description": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt ngay; cho bản thân 1 tầng Thần Ngự."
+      }
+    },
+    {
+      "name": "Chú Thuật [Thương]",
+      "icon": "/images/heroes/s_wutiaowu_s4.png",
+      "description": "Gây ra 350% tấn công Ma Pháp và 1800% ST thực thuộc tính Phong với 1 kẻ địch ngẫu nhiên. Gây ra thêm ST bằng 30% HP.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Satoru Gojo",
+        "description": "Nếu mục tiêu bị giết thì sẽ lại phóng ra kĩ năng này. Mỗi lần phóng thêm thì sẽ khiến kĩ năng tăng 50% ST, tối đa có thể chồng 10 lần."
+      }
+    },
+    {
+      "name": "Hư Thức [Tì]",
+      "icon": "/images/heroes/s_wutiaowu_s5.png",
+      "description": "Kỹ năng trước lượt đấu:  Gây ra 350% ST ma pháp cho toàn kẻ địch, Trói Buộc mục tiêu. Ngẫu nhiên tiêu diệt ngay 1 người.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Satoru Gojo",
+        "description": "Hồi phục HP bằng 50% HP tối đa; khiến toàn thể Né Tránh của phe địch giảm xuống 0 (có hiệu lực ở lần tấn công này); Trói Buộc mục tiêu 1 lượt."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Cảm Tri Ngoài Thị Giác: Khi xuất hiện cùng lúc với Kamado Tanjiro và Tornado Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+    "Vũ Khí?: Khi xuất hiện cùng lúc với Maple Ma Công, HP và Tốc Độ+15%",
+    "Độc Tôn: Khi xuất hiện cùng lúc với Overlord Ma Công, HP và Tốc Độ+15%",
+    "Sức Mạnh Niết Bàn: Khi xuất hiện cùng lúc với Kikyo Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-satoru-gojo",
+      "name": "CT-Satoru Gojo",
+      "avatar": "/images/heroes/ct-satoru-gojo.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Chú Thuật Sư đặc cấp, sinh ra tại gia đình Gojo có thuật thức Vô Hạ Hạn, bởi vì vừa sinh ra đã có thuật thức \"Lục Nhãn\" nên có thể sử dụng nó một cách thành thạo."
+    },
+    {
+      "slug": "giacsatoru-gojo",
+      "name": "GiácSatoru Gojo",
+      "avatar": "/images/heroes/giacsatoru-gojo.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Chú Thuật Sư đặc cấp, sinh ra tại gia đình Gojo có thuật thức Vô Hạ Hạn, bởi vì vừa sinh ra đã có thuật thức \"Lục Nhãn\" nên có thể sử dụng nó một cách thành thạo."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Satoru Gojo",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Chú Lực Xung Kích",
+      "skillIcon": "/images/heroes/s_wutiaowu_s1.png",
+      "skillDesc": "Giảm Né Tránh của tất cả kẻ địch thành 0.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Satoru Gojo",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Vô Hạ Hạn",
+      "skillIcon": "/images/heroes/s_wutiaowu_s2.png",
+      "skillDesc": "Có 15% cho bản thân 1 tầng Thần Ngự; có thể kích hoạt 3 lần",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Satoru Gojo",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Lục Nhãn",
+      "skillIcon": "/images/heroes/s_wutiaowu_s3.png",
+      "skillDesc": "Nếu mục tiêu đã bị Trói Buộc thì gây ra thêm gấp 10 lần ST.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Thần Thoại·Satoru Gojo",
+      "tierName": "Thần Thoại",
+      "auraColor": "amber",
+      "skillName": "Chú Thuật [Thương]",
+      "skillIcon": "/images/heroes/s_wutiaowu_s4.png",
+      "skillDesc": "Nếu mục tiêu bị giết thì sẽ lại phóng ra kĩ năng này. Mỗi lần phóng thêm thì sẽ khiến kĩ năng tăng 50% ST, tối đa có thể chồng 10 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Tsunade",
+          "icon": "/images/heroes/tsunade.png",
+          "amount": 2,
+          "type": "hero"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Satoru Gojo",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hư Thức [Tì]",
+      "skillIcon": "/images/heroes/s_wutiaowu_s5.png",
+      "skillDesc": "Hồi phục HP bằng 50% HP tối đa; khiến toàn thể Né Tránh của phe địch giảm xuống 0 (có hiệu lực ở lần tấn công này); Trói Buộc mục tiêu 1 lượt.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Satoru Gojo",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Nghịch Chuyển Thuật Thức",
+      "skillIcon": "/images/heroes/s_wutiaowu_s6.png",
+      "skillDesc": "Số lần hồi sinh tăng lên 3 lần, sau khi hồi sinh, ST chỉnh thể tăng lên gấp 3.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Satoru Gojo",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Thuật Thức Nghịch Chuyển [Hách]",
+      "skillIcon": "/images/heroes/s_wutiaowu_s7.png",
+      "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi; bản thân Vô Địch 1 lượt; khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt ngay; cho bản thân 1 tầng Thần Ngự.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Chú Thuật [Thương]",
+      "unlockedSkillIcon": "/images/heroes/s_wutiaowu_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Hư Thức [Tì]",
+      "unlockedSkillIcon": "/images/heroes/s_wutiaowu_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Satoru Gojo",
+          "icon": "/images/heroes/satoru-gojo.png",
+          "slug": "satoru-gojo"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "id": "7600",
+  "slug": "linh-hon-thu-han",
+  "name": "Linh Hồn Thù Hận",
+  "title": "Vũ trụ nguyên tố • SSR Linh Hồn Thù Hận",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/icon_eling.png",
+  "fullArt": "/images/heroes/full/image_eling.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Kỵ sĩ đầu lâu bán linh hồn mình cho chúa tể địa ngục để nhận lấy sức mạnh khổng lồ. Trong cái địa ngục nơi mọi linh hồn đều bị nhiễm virus trở thành xác sống này, Ghost Rider đã thề rằng phải quét sạch tất cả zombie, tìm lại linh hồn đã mất của mình.",
+  "skills": [
+    {
+      "name": "Đinh Kích",
+      "icon": "/images/heroes/s_youhunzhan.png",
+      "description": "Tạo 350% sát thương ma pháp lên hàng trước kẻ địch, hồi phục 20% HP bản thân. Tạo thêm 140% sát thương thuộc tính đất",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Ghost Rider",
+        "description": "Tăng 50% sát thương tấn công đinh, miễn trong 1 lần tấn công trong hiệp"
+      }
+    },
+    {
+      "name": "Xét Xử Tội Ác",
+      "icon": "/images/heroes/s_mingjietuci.png",
+      "description": "Tạo 350% sát thương ma pháp toàn thể địch, thêm 1 lần tấn công mục tiêu mặc định và làm choáng 2 mục tiêu kẻ địch. Tạo thêm 140% sát thương thuộc tính đất",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Ghost Rider",
+        "description": "Tăng thêm 50% sát thương phán tội ác và 20% miễn sát, 2 hiệp"
+      }
+    },
+    {
+      "name": "Khát Vọng Linh Hồn",
+      "icon": "/images/heroes/s_youmingzhiwang.png",
+      "description": "Khi Phục Thù tử vong sẽ thiêu đốt linh hồn để tái sinh, tăng 15% giới hạn HP, tạo 350% sát thương ma pháp lên toàn thể địch, tạo thêm 140% sát thương thuộc tính đất",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Ghost Rider",
+        "description": "Tăng 20% phòng ngự cả đội, làm mù mục tiêu mặc định 1 hiệp"
+      }
+    },
+    {
+      "name": "Lửa Địa Ngục",
+      "icon": "/images/heroes/s_mingjietuci.png",
+      "description": "Tăng 4000 điểm tuyệt đối tấn công thuộc tính đất",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Ghost Rider",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Mắc Xích Linh Hồn",
+      "icon": "/images/heroes/s_youmingzhiwang.png",
+      "description": "Thả trước trận, tăng 20% tấn công ma pháp bản thân, giảm 10% tốc độ kẻ địch hàng sau, 2 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Ghost Rider",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Sức Mạnh Linh Hồn: Khi ra trận cùng lúc với Dương Tiễn và Roger thì vật công, ma công, HP+20%, phòng ngự và tốc độ+10%",
+    "Dũng Sĩ Phục Thù: Khi ra trận cùng lúc với Tề Thiên Đại Thánh và Hậu Nghệ thì vật công, HP và tốc độ+15%",
+    "Thiên Sứ Vĩ Đại: Khi ra trận cùng lúc với Hằng Nga thì ma công, HP, tốc độ+15%",
+    "Ác Linh: Khi trang bị Lưỡi Hái Máu thì ma công+20%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Ghost Rider",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đinh Kích",
+      "skillIcon": "/images/heroes/s_youhunzhan.png",
+      "skillDesc": "Tăng 50% sát thương tấn công đinh, miễn trong 1 lần tấn công trong hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Ghost Rider",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Xét Xử Tội Ác",
+      "skillIcon": "/images/heroes/s_mingjietuci.png",
+      "skillDesc": "Tăng thêm 50% sát thương phán tội ác và 20% miễn sát, 2 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Ghost Rider",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Khát Vọng Linh Hồn",
+      "skillIcon": "/images/heroes/s_youmingzhiwang.png",
+      "skillDesc": "Tăng 20% phòng ngự cả đội, làm mù mục tiêu mặc định 1 hiệp",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Ghost Rider",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Lửa Địa Ngục",
+      "skillIcon": "/images/heroes/s_mingjietuci.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Ghost Rider",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Mắc Xích Linh Hồn",
+      "skillIcon": "/images/heroes/s_youmingzhiwang.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Ghost Rider",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Ghost Rider",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "amount": 3,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        }
+      ],
+      "statBonus": "+300 Công, +297 Thủ, +118 HP, +378 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        }
+      ],
+      "statBonus": "+450 Công, +445 Thủ, +178 HP, +567 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Linh Hồn Thù Hận",
+          "icon": "/images/heroes/icon_eling.png",
+          "slug": "linh-hon-thu-han"
+        }
+      ],
+      "statBonus": "+600 Công, +594 Thủ, +237 HP, +756 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

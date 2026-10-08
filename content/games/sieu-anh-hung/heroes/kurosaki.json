@@ -1,0 +1,618 @@
+{
+  "id": "35700",
+  "slug": "kurosaki",
+  "name": "Kurosaki",
+  "title": "Vũ trụ sức mạnh • SSR Kurosaki",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/kurosaki.png",
+  "fullArt": "/images/heroes/full/image_Ichig.png",
+  "element": "Vũ trụ sức mạnh",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Kurosaki là một thiếu niên có được sức mạnh Shinigami, tóc màu cam có thể thấy linh hồn.",
+  "skills": [
+    {
+      "name": "Kiếm Áp",
+      "icon": "/images/heroes/s_Ichigo_jy.png",
+      "description": "Tấn công mục tiêu tạo 350% sát thương vật lý & 200 % sát thương t.tính Gió, giảm 50% Né của mục tiêu\n\"Vạn Giải\" xong tăng 50% sát thương và sát thương thuộc tính",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Kurosaki",
+        "description": "Phạm vi tấn công tăng lên tất cả mục tiêu, có thêm 50% tỉ lệ làm 1 mục tiêu Hỗn Loạn, và bản thân miễn 1 lần Hỗn Loạn."
+      }
+    },
+    {
+      "name": "Quét Trời",
+      "icon": "/images/heroes/s_Ichigo_lks.png",
+      "description": "Tấn công mục tiêu dãy trước, tạo 350% dmg vật lý & 180% dmg t.tính Gió; Giảm 20% Trúng, làm Trọng Thương và -50% HQ hồi HP của mục tiêu.\n\"Vạn Giải\" xong tăng 50% sát thương & sát thương thuộc tính",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Kurosaki",
+        "description": "Giảm thêm 50% Vật Công & Ma Công, tăng 20% Vật & Ma Công cho đồng đội có Vật & Ma Công thấp nhất"
+      }
+    },
+    {
+      "name": "Bước Vội",
+      "icon": "/images/heroes/s_Ichigo_sb.png",
+      "description": "KN trước trận: Bản thân tăng 350% Né, SPEED và Trúng.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Kurosaki",
+        "description": "Tăng 20% tỉ lệ Hồi HP & Vật Công cả đội, reset buff xấu của bản thân"
+      }
+    },
+    {
+      "name": "Thiên Vũ",
+      "icon": "/images/heroes/s_Ichigo_txlw.png",
+      "description": "KN trước hiệp: Nhận được buff Vô Địch, miễn dịch 1 lần sát thương tấn công, và được 1 tầng HQ phản sát thương, 1 hiệp (50% tỉ lệ phản đòn 30% dmg lên mục tiêu tấn công mình, bỏ qua giảm thương)\n\"Vạn Giải\" xong, tỉ lệ kích hoạt HQ phản thương là 80%, sát thương phản đòn là 50%",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Kurosaki",
+        "description": "Bản thân tăng 50% Bạo Kích, bỏ qua Đóng Băng, Sợ, Choáng & Đứng Im; Ở trạng thái Thủy Giải, khi dùng 3 lần \"Thiên Vũ\", sẽ mở trạng thái \"Vạn Giải\", tăng 50% Vật Công, Ma Công, Phòng Ngự & Tốc Độ, 2 hiệp."
+      }
+    },
+    {
+      "name": "Tái Sinh Siêu Tốc",
+      "icon": "/images/heroes/s_Ichigo_cszs.png",
+      "description": "KN trước khi chịu đòn: Trước khi bị đánh, hồi HP bằng 350% Ma Công hiện tại (mỗi hiệp tối đa thả 1 lần)\nỞ trạng thái \"Vạn Giải\", hồi tất cả HP bản thân đã mất",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Kurosaki",
+        "description": "Bản thân tăng 60% giảm sát tổng thể; Hồi HP bằng 80% Hồi HP bản thân cho 2 đồng đội có HP thấp nhất\nỞ trạng thái \"Vạn Giải\", hồi HP bằng 80% HP đã mất của 2 đồng đội đó"
+      }
+    },
+    {
+      "name": "Nứt Toác",
+      "icon": "/images/heroes/s_Ichigo_dlbj.png",
+      "description": "KN phản đòn: Bị đánh xong, có 99% tỉ lệ tấn công 1-2 mục tiêu, tạo 350% dmg vật lý & 500% dmg t.tính Gió, làm 1 mục tiêu tấn công mình Hoảng Sợ (mỗi hiệp tối đa 1 lần), dmg vật lý & dmg thuộc tính cao nhất chuyển thành Hồi HP cho bản thân.\n\"Vạn Giải\" xong mục tiêu tấn công là 2-3 người",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Kurosaki",
+        "description": "Làm 1 mục tiêu khác Đứng Im, kéo dài đến hiệp sau; Bản thân tăng 1 tầng bảo vệ bằng 260%-550% Phòng Ngự & Phòng Ngự T.Tính, 2 hiệp; số HP  hồi của \"Nứt Toác\" tăng gấp đôi"
+      }
+    },
+    {
+      "name": "Tấn Công X",
+      "icon": "/images/heroes/s_Ichigo_szc.png",
+      "description": "Tấn công mục tiêu dãy trước tạo 350% dmg vật lý & 500% dmg thuộc tính Gió\n\"Vạn Giải\" xong, phạm vi tấn công sẽ là tất cả mục tiêu",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Kurosaki",
+        "description": "Tạo gấp 1-3 lần dmg và dmg t.tính; Hóa đá mục tiêu mặc định, ngẫu nhiên Trọng Thương 2 mục tiêu, giảm 60% tỉ lệ hồi HP của hắn.\nỞ trạng thái \"Vạn Giải\" Trọng Thương 3 mục tiêu; Dmg tăng gấp 2-4"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Thần Tốc: Khi cùng Thunderbird ra trận thì Vật Công, Ma Công, HP+20%, Phòng Ngự, Tốc Độ+15%",
+    "Lực Đao Kiếm: Khi cùng Sesshoumaru và Gintoki ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Dị Chủng: Khi cùng Black và Ma Nhân ra trận thì Vật Công, HP và Tốc Độ+15%",
+    "Loạn Trảm: Khi cùng Zoro ra trận thì Vật Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-kurosaki",
+      "name": "CT-Kurosaki",
+      "avatar": "/images/heroes/ct-kurosaki.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
+    },
+    {
+      "slug": "ct-kurosaki",
+      "name": "CT-Kurosaki",
+      "avatar": "/images/heroes/ct-kurosaki.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
+    },
+    {
+      "slug": "ct-kurosaki",
+      "name": "CT-Kurosaki",
+      "avatar": "/images/heroes/ct-kurosaki.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Kurosaki",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Kiếm Áp",
+      "skillIcon": "/images/heroes/s_Ichigo_jy.png",
+      "skillDesc": "Phạm vi tấn công tăng lên tất cả mục tiêu, có thêm 50% tỉ lệ làm 1 mục tiêu Hỗn Loạn, và bản thân miễn 1 lần Hỗn Loạn.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_4.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Kurosaki",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Quét Trời",
+      "skillIcon": "/images/heroes/s_Ichigo_lks.png",
+      "skillDesc": "Giảm thêm 50% Vật Công & Ma Công, tăng 20% Vật & Ma Công cho đồng đội có Vật & Ma Công thấp nhất",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Kurosaki",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Bước Vội",
+      "skillIcon": "/images/heroes/s_Ichigo_sb.png",
+      "skillDesc": "Tăng 20% tỉ lệ Hồi HP & Vật Công cả đội, reset buff xấu của bản thân",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Kurosaki",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Nứt Toác",
+      "skillIcon": "/images/heroes/s_Ichigo_dlbj.png",
+      "skillDesc": "Làm 1 mục tiêu khác Đứng Im, kéo dài đến hiệp sau; Bản thân tăng 1 tầng bảo vệ bằng 260%-550% Phòng Ngự & Phòng Ngự T.Tính, 2 hiệp; số HP  hồi của \"Nứt Toác\" tăng gấp đôi",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Boa Hancock",
+          "icon": "/images/heroes/boa-hancock.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Kurosaki",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Tấn Công X",
+      "skillIcon": "/images/heroes/s_Ichigo_szc.png",
+      "skillDesc": "Tạo gấp 1-3 lần dmg và dmg t.tính; Hóa đá mục tiêu mặc định, ngẫu nhiên Trọng Thương 2 mục tiêu, giảm 60% tỉ lệ hồi HP của hắn.\nỞ trạng thái \"Vạn Giải\" Trọng Thương 3 mục tiêu; Dmg tăng gấp 2-4",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Kurosaki",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Thiên Vũ",
+      "skillIcon": "/images/heroes/s_Ichigo_txlw.png",
+      "skillDesc": "Bản thân tăng 50% Bạo Kích, bỏ qua Đóng Băng, Sợ, Choáng & Đứng Im; Ở trạng thái Thủy Giải, khi dùng 3 lần \"Thiên Vũ\", sẽ mở trạng thái \"Vạn Giải\", tăng 50% Vật Công, Ma Công, Phòng Ngự & Tốc Độ, 2 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Kurosaki",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Tái Sinh Siêu Tốc",
+      "skillIcon": "/images/heroes/s_Ichigo_cszs.png",
+      "skillDesc": "Bản thân tăng 60% giảm sát tổng thể; Hồi HP bằng 80% Hồi HP bản thân cho 2 đồng đội có HP thấp nhất\nỞ trạng thái \"Vạn Giải\", hồi HP bằng 80% HP đã mất của 2 đồng đội đó",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Nứt Toác",
+      "unlockedSkillIcon": "/images/heroes/s_Ichigo_dlbj.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Tấn Công X",
+      "unlockedSkillIcon": "/images/heroes/s_Ichigo_szc.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Kurosaki",
+          "icon": "/images/heroes/kurosaki.png",
+          "slug": "kurosaki"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

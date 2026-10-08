@@ -1,0 +1,62 @@
+{
+  "id": "magneto",
+  "slug": "magneto",
+  "name": "Magneto",
+  "title": "Vũ trụ nguyên tố • SSR Magneto",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/magneto.png",
+  "element": "Vũ trụ nguyên tố",
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Vốn là bạn tốt của Tiến sĩ X, trong thời đại hòa bình chia tay vì chuyện nhỉ, trong ngày tận thế lại tìm được lí do ở cùng nhau. Ở cùng nhau, ở cùng nhau!",
+  "skills": [
+    {
+      "name": "Oanh tạc kim loại",
+      "type": "talent",
+      "description": "Kĩ năng trước trận. Tiên phát chế nhân, lấy ra một chiếc trực thăng nhào vào đối phương, tạo 350% sát thương vật lí cho toàn bộ địch, đồng thời tăng 20% tốc độ toàn bộ phe ta, kéo dài 3 hiệp.",
+      "cooldown": null,
+      "energyCost": null
+    },
+    {
+      "name": "Đạn động lực",
+      "type": "ultimate",
+      "description": "Điều khiển quả cầu kim loại tấn công mục tiêu liên tục, tổng cộng tạo 350% sát thương vật lí, tạo thêm 50% sát thương cho kẻ địch đến từ thế giới lí tính.",
+      "cooldown": "3 hiệp",
+      "energyCost": "100 Năng lượng"
+    },
+    {
+      "name": "Điên cuồng nghiền nát",
+      "type": "talent",
+      "description": "Triệu hồi lỗ đen kim loại hút kẻ địch vào. Tạo 350% sát thương vật lí cho toàn bộ địch.",
+      "cooldown": "4 hiệp",
+      "energyCost": null
+    }
+  ],
+  "recommendedGears": [
+    {
+      "setName": "Bộ 4 Món Vận Mệnh Lục Đạo",
+      "description": "Tăng 35% sát thương ma pháp và tạo khiên Chakra chống chịu toàn bộ sát thương lượt đầu."
+    },
+    {
+      "setName": "Bộ 2 Món Rinegan Hộ Thể",
+      "description": "Tăng 20% Máu tối đa và giảm sát thương chí mạng nhận vào."
+    }
+  ],
+  "statPriorities": [
+    "Ma Công Kỹ Thuật",
+    "Máu Tối Đa",
+    "Tốc Độ Ra Chiêu",
+    "Bạo Kích"
+  ],
+  "bestSynergies": [
+    "Áo giáp sắt: Phòng ngự và HP +15% khi ra trận cùng lúc với card2 và card3.",
+    "Vừa thù vừa bạn: Ma công +20% khi ra trận cùng lúc với card2",
+    "Chính Tà lưỡng lập: Ma công và HP +20% khi ra trận cùng lúc với card2, card3 và card4",
+    "Bàn tay đen: HP và tốc độ +15% khi ra trận cùng lúc với card2 và card3"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ]
+}

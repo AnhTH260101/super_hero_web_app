@@ -1,0 +1,608 @@
+{
+  "id": "37500",
+  "slug": "ly-nguyen-ba",
+  "name": "Lý Nguyên Bá",
+  "title": "Vũ trụ linh tính • SSR Lý Nguyên Bá",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/ly-nguyen-ba.png",
+  "fullArt": "/images/heroes/full/image_liyuanba.png",
+  "element": "Vũ trụ linh tính",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Lý Nguyên Bá sức mạnh vô song, tương truyền là chuyển thế của Suparn!a. Lực của 2 cánh tay tương đương 4 con voi. Cầm 1 cặp búa, mỗi cây 200kg.",
+  "skills": [
+    {
+      "name": "Đòn Sấm Sét",
+      "icon": "/images/heroes/s_liyuanba_s1.png",
+      "description": "Tấn công mục tiêu mặc định, tạo 350% ST vật lý và 500% ST t.tính Đất; Giảm 80% Tốc Độ của mục tiêu, kéo dài 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Lý Nguyên Bá",
+        "description": "Làm mục tiêu trọng thương, khiến hắn không thể hồi máu 1 hiệp; Nếu mục tiêu có buff Trọng Thương, có 50% tỉ lệ tạo thêm ST vật lý bằng 30% HP của bản thân."
+      }
+    },
+    {
+      "name": "Đại Bàng Hống",
+      "icon": "/images/heroes/s_liyuanba_s2.png",
+      "description": "Skill trước trận: Gào thét trước trận, giảm 20% Vật & Ma Công của phe địch, tăng 30% Vật & Ma Công và 350% thuộc tính phòng ngự.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Lý Nguyên Bá",
+        "description": "Tăng 150% bạo kích cho cả đội, giảm 20% Né của toàn thể mục tiêu, kéo dài 3 hiệp; Tăng vĩnh viễn 50% HP lớn nhất cho bản thân."
+      }
+    },
+    {
+      "name": "Song Chùy Chấn",
+      "icon": "/images/heroes/s_liyuanba_s3.png",
+      "description": "Vỗ mạnh mặt đất phát nổ, tạo 350% ST vật lý & 200% ST t.tính Đất lên 2-3 mục tiêu; và hóa đá mục tiêu bị tấn công trong 1 hiệp.",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Lý Nguyên Bá",
+        "description": "80% tỉ lệ tạo thêm X3 ST vật lý và ST thuộc tính lên mục tiêu, và có 50% tỉ lệ thêm 1 tầng buff Vô Địch cho mình, hiệu lực 1 lần."
+      }
+    },
+    {
+      "name": "Thiên Hạ Đệ Nhất",
+      "icon": "/images/heroes/s_liyuanba_s6.png",
+      "description": "Skill trước hiệp: Tạo 350% ST vật lý và 800% ST t.tính Đất lên 3 mục tiêu, hồi tất cả HP đã mất cho bản thân",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Lý Nguyên Bá",
+        "description": "Bỏ qua buff Đứng Im, Choáng, Sợ, Đóng Băng, Tsukuyomi, Hôn Mê; Tạo thêm X3 ST vật lý và ST thuộc tính lên mục tiêu dãy trước."
+      }
+    },
+    {
+      "name": "Đại Bàng Phụ Thể",
+      "icon": "/images/heroes/s_liyuanba_s7.png",
+      "description": "Skill bị động: Ngẫu nhiên nhận được 500k-1000k Tấn Công t.tính Đất hoặc toàn thuộc tính phòng ngự, tăng 69% giảm thương tổng thể và 350% Né cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Lý Nguyên Bá",
+        "description": "Tăng 200% bạo kích cho bản thân; Nếu bản thân có buff Chế Giễu, nhận thêm 1000k tấn công t.tính Đất, kéo dài 1 hiệp."
+      }
+    },
+    {
+      "name": "Đại Bàng Tung Cánh",
+      "icon": "/images/heroes/s_liyuanba_s4.png",
+      "description": "Skill bị đòn: Bị tấn công xong có 99% tỉ lệ tăng 350% phòng ngự và thuộc tính phòng ngự cho bản thân, tăng 50% Né cho toàn thể đồng đội trừ bản thân, kéo dài 1 hiệp.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Lý Nguyên Bá",
+        "description": "50% tỉ lệ cộng 1 tầng buff phản xạ ST cho bản thân, giúp phản xạ 80% sát thương lên mục tiêu tấn công mình, hiệu lực 5 lần."
+      }
+    },
+    {
+      "name": "Thần Lực Chấn Thiên",
+      "icon": "/images/heroes/s_liyuanba_s5.png",
+      "description": "Tấn công toàn thể mục tiêu, dùng búa đập xuống đất tạo cú nổ, tạo 350% ST vật lý & 800% ST t.tính Đất lên mục tiêu.",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Lý Nguyên Bá",
+        "description": "Mục tiêu hàng mặc định chịu thêm X3 ST và ST thuộc tính, mục tiêu còn lại bị hoảng sợ 1 hiệp."
+      }
+    }
+  ],
+  "bestSynergies": [
+    "1 chọi 100: Cùng Lữ Bố và Mihawk ra trận thì Vật Công, Ma Công, HP+20%,Phòng Ngự, Tốc Độ+15%",
+    "Lực tia chớp: Cùng Shermie ra trận thì Ma Công, HP và Tốc Độ+15%",
+    "Truyền nhân Tử Dương: Cùng Quạ Đen ra trận thì Ma Công,  HP và Tốc Độ+15%",
+    "Tướng quân dũng mãnh: Cùng Erza ra trận thì Ma Công, HP và Tốc Độ+15%"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-ly-nguyen-ba",
+      "name": "CT-Lý Nguyên Bá",
+      "avatar": "/images/heroes/ct-ly-nguyen-ba.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Lý Nguyên Bá sức mạnh vô song, tương truyền là chuyển thế của Suparn!a. Lực của 2 cánh tay tương đương 4 con voi. Cầm 1 cặp búa, mỗi cây 200kg."
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Lý Nguyên Bá",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Đòn Sấm Sét",
+      "skillIcon": "/images/heroes/s_liyuanba_s1.png",
+      "skillDesc": "Làm mục tiêu trọng thương, khiến hắn không thể hồi máu 1 hiệp; Nếu mục tiêu có buff Trọng Thương, có 50% tỉ lệ tạo thêm ST vật lý bằng 30% HP của bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Lý Nguyên Bá",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Đại Bàng Hống",
+      "skillIcon": "/images/heroes/s_liyuanba_s2.png",
+      "skillDesc": "Tăng 150% bạo kích cho cả đội, giảm 20% Né của toàn thể mục tiêu, kéo dài 3 hiệp; Tăng vĩnh viễn 50% HP lớn nhất cho bản thân.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_1.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Ảo Ảnh",
+          "icon": "/images/heroes/ao-anh.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Lý Nguyên Bá",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Song Chùy Chấn",
+      "skillIcon": "/images/heroes/s_liyuanba_s3.png",
+      "skillDesc": "80% tỉ lệ tạo thêm X3 ST vật lý và ST thuộc tính lên mục tiêu, và có 50% tỉ lệ thêm 1 tầng buff Vô Địch cho mình, hiệu lực 1 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Lý Nguyên Bá",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Đại Bàng Tung Cánh",
+      "skillIcon": "/images/heroes/s_liyuanba_s4.png",
+      "skillDesc": "50% tỉ lệ cộng 1 tầng buff phản xạ ST cho bản thân, giúp phản xạ 80% sát thương lên mục tiêu tấn công mình, hiệu lực 5 lần.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Sói Trắng",
+          "icon": "/images/heroes/soi-trang.png",
+          "amount": 1,
+          "type": "hero"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Lý Nguyên Bá",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Thần Lực Chấn Thiên",
+      "skillIcon": "/images/heroes/s_liyuanba_s5.png",
+      "skillDesc": "Mục tiêu hàng mặc định chịu thêm X3 ST và ST thuộc tính, mục tiêu còn lại bị hoảng sợ 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Lý Nguyên Bá",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Thiên Hạ Đệ Nhất",
+      "skillIcon": "/images/heroes/s_liyuanba_s6.png",
+      "skillDesc": "Bỏ qua buff Đứng Im, Choáng, Sợ, Đóng Băng, Tsukuyomi, Hôn Mê; Tạo thêm X3 ST vật lý và ST thuộc tính lên mục tiêu dãy trước.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Đá Linh Phách",
+          "icon": "/images/items/i_c_lingpozhishi.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Mũ Linh Phách",
+          "icon": "/images/items/i_c_lingpozhikui.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Lý Nguyên Bá",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Đại Bàng Phụ Thể",
+      "skillIcon": "/images/heroes/s_liyuanba_s7.png",
+      "skillDesc": "Tăng 200% bạo kích cho bản thân; Nếu bản thân có buff Chế Giễu, nhận thêm 1000k tấn công t.tính Đất, kéo dài 1 hiệp.",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": "Đại Bàng Tung Cánh",
+      "unlockedSkillIcon": "/images/heroes/s_liyuanba_s4.png",
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": "Thần Lực Chấn Thiên",
+      "unlockedSkillIcon": "/images/heroes/s_liyuanba_s5.png",
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Lý Nguyên Bá",
+          "icon": "/images/heroes/ly-nguyen-ba.png",
+          "slug": "ly-nguyen-ba"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}

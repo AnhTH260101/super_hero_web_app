@@ -1,0 +1,574 @@
+{
+  "id": "9300",
+  "slug": "heimdall",
+  "name": "Heimdall",
+  "title": "Vũ trụ nguyên tố • SSR Heimdall",
+  "gameSlug": "sieu-anh-hung",
+  "avatar": "/images/heroes/heimdall.png",
+  "fullArt": "/images/heroes/full/image_shouwei.png",
+  "element": "Vũ trụ nguyên tố",
+  "isAfterlifeForm": false,
+  "isSkinForm": false,
+  "rarity": "SSR",
+  "role": "Tanker",
+  "tier": "S",
+  "overview": "Anh được ban cho đôi tai nhạy, đứng trên cầu nghe được âm thanh cây cỏ dưới đất . Và có đôi mắt tốt, nhìn thấy vật xa vạn dặm trong bóng tối",
+  "skills": [
+    {
+      "name": "Anh Dũng",
+      "icon": "/images/heroes/s_hmde_hurt.png",
+      "description": "Tạo 350% sát thương ma pháp và 130% thuộc tính nước lên đối phương, xóa tất cả BUFF xấu cho phe ta",
+      "cooldown": "4 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Heimdall",
+        "description": "Tạo sát thương gấp 2 lần lên địch và làm choáng mục tiêu"
+      }
+    },
+    {
+      "name": "Áo Choàng Năng Lượng",
+      "icon": "/images/heroes/s_hmde_cure.png",
+      "description": "Kỹ năng trước hiệp, tăng 50% toàn bộ thuộc tính của bản thân, nhân đôi thuộc tính phòng ngự cho cả đội, khởi động ý niệm pháp lực, hồi phục 350% HP và 50% thuộc tính phòng ngự của cá nhân nào thấp hơn 50%",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Heimdall",
+        "description": "Tăng đồng đội pháp thuật cao cường nhất 50% bạo kích"
+      }
+    },
+    {
+      "name": "Khiên Vương Giả",
+      "icon": "/images/heroes/s_hmde_allcure.png",
+      "description": "Tăng 350% miễn giảm sát thương cho cả đội, xóa BUFF tốt và giảm 20% tốc độ của phe địch",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Heimdall",
+        "description": "Tăng thêm 10% miễn giảm sát thương, tăng 1 lớp bảo vệ cho cả đội, chống đỡ 1 lần sát thương, mỗi hiệp dùng 1 lần"
+      }
+    },
+    {
+      "name": "Kiếm Thủy",
+      "icon": "/images/heroes/s_hmde_cure.png",
+      "description": "Tăng effect điểm tấn công tuyệt đối của thuộc tính lửa",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 4,
+        "title": "Truyền Thuyết·Heimdall",
+        "description": "Không"
+      }
+    },
+    {
+      "name": "Hồn Vệ",
+      "icon": "/images/heroes/s_hmde_allcure.png",
+      "description": "Sau khi bỏ mạng, hồi phục 350% HP cho cả đội, tăng 30% miễn giảm sát thương, 3 hiệp",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Heimdall",
+        "description": "Không"
+      }
+    }
+  ],
+  "bestSynergies": [
+    "Asgard: Vật công, ma công, hp +20% và phòng ngự, tốc độ +10% khi Odin và Blademaster cùng ra trận",
+    "Hiệp Sĩ Cầu Vồng: Vật công, hp và tốc độ +15% khi Samurai và Võ Thánh Quan Vũ cùng ra trận",
+    "Oberon: Ma công, HP và tốc độ +15% khi Dương Tiễn cùng ra trận",
+    "Tay Đôi: Ma công +20% khi trang bị Gươm Thủ"
+  ],
+  "counters": [
+    "Tướng có sát thương chuẩn bỏ qua giáp",
+    "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-heimdall",
+      "name": "CT-Heimdall",
+      "avatar": "/images/heroes/ct-heimdall.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Anh được ban cho đôi tai nhạy, đứng trên cầu nghe được âm thanh cây cỏ dưới đất . Và có đôi mắt tốt, nhìn thấy vật xa vạn dặm trong bóng tối"
+    }
+  ],
+  "breakthroughSimData": [
+    {
+      "level": 1,
+      "title": "Dũng Sĩ·Heimdall",
+      "tierName": "Dũng Sĩ",
+      "auraColor": "emerald",
+      "skillName": "Anh Dũng",
+      "skillIcon": "/images/heroes/s_hmde_hurt.png",
+      "skillDesc": "Tạo sát thương gấp 2 lần lên địch và làm choáng mục tiêu",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Đá Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_2.png",
+          "amount": 10,
+          "type": "item"
+        }
+      ],
+      "starsCount": 1,
+      "moonsCount": 0
+    },
+    {
+      "level": 2,
+      "title": "Đấu Sĩ·Heimdall",
+      "tierName": "Đấu Sĩ",
+      "auraColor": "cyan",
+      "skillName": "Áo Choàng Năng Lượng",
+      "skillIcon": "/images/heroes/s_hmde_cure.png",
+      "skillDesc": "Tăng đồng đội pháp thuật cao cường nhất 50% bạo kích",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 60,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Lực",
+          "icon": "/images/items/i_b_yuanli_3.png",
+          "amount": 10,
+          "type": "item"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 2,
+      "moonsCount": 0
+    },
+    {
+      "level": 3,
+      "title": "Anh Hùng·Heimdall",
+      "tierName": "Anh Hùng",
+      "auraColor": "purple",
+      "skillName": "Khiên Vương Giả",
+      "skillIcon": "/images/heroes/s_hmde_allcure.png",
+      "skillDesc": "Tăng thêm 10% miễn giảm sát thương, tăng 1 lớp bảo vệ cho cả đội, chống đỡ 1 lần sát thương, mỗi hiệp dùng 1 lần",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 90,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 3,
+      "moonsCount": 0
+    },
+    {
+      "level": 4,
+      "title": "Truyền Thuyết·Heimdall",
+      "tierName": "Truyền Thuyết",
+      "auraColor": "amber",
+      "skillName": "Kiếm Thủy",
+      "skillIcon": "/images/heroes/s_hmde_cure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 120,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Thần Lực",
+          "icon": "/images/items/i_b_shenli_3.png",
+          "amount": 15,
+          "type": "item"
+        },
+        {
+          "name": "Athena",
+          "icon": "/images/heroes/athena.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 4,
+      "moonsCount": 0
+    },
+    {
+      "level": 5,
+      "title": "Thần·Heimdall",
+      "tierName": "Thần",
+      "auraColor": "red",
+      "skillName": "Hồn Vệ",
+      "skillIcon": "/images/heroes/s_hmde_allcure.png",
+      "skillDesc": "Không",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh",
+          "icon": "/images/items/i_b_0_0.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Đá Thần Lực",
+          "icon": "/images/items/i_b_shenli_2.png",
+          "amount": 20,
+          "type": "item"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 5,
+      "moonsCount": 0
+    },
+    {
+      "level": 6,
+      "title": "Linh·Heimdall",
+      "tierName": "Linh",
+      "auraColor": "rose",
+      "skillName": "Kỹ năng 6",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 100,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijia.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Linh Phách",
+          "icon": "/images/items/i_c_lingpozhijian.png",
+          "amount": 30,
+          "type": "item"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "amount": 1,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 1
+    },
+    {
+      "level": 7,
+      "title": "Hồn·Heimdall",
+      "tierName": "Hồn",
+      "auraColor": "violet",
+      "skillName": "Kỹ năng 7",
+      "skillIcon": "/images/heroes/default_hero.png",
+      "skillDesc": "",
+      "materials": [
+        {
+          "name": "Đá Chuyển Sinh Cao Cấp",
+          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "amount": 150,
+          "type": "item"
+        },
+        {
+          "name": "Giáp Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Kiếm Nguyên Phách",
+          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "amount": 40,
+          "type": "item"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "amount": 2,
+          "type": "hero"
+        }
+      ],
+      "starsCount": 0,
+      "moonsCount": 2
+    }
+  ],
+  "superEvoSimData": [
+    {
+      "level": 1,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ",
+      "frame": "/images/card_layers/card_q_bgRed.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 2,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ +",
+      "frame": "/images/card_layers/card_q_bgRed1.png",
+      "nameplateColor": "bg-red-900 border-amber-500"
+    },
+    {
+      "level": 3,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        }
+      ],
+      "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Đỏ ++",
+      "frame": "/images/card_layers/card_q_bgRed2.png",
+      "nameplateColor": "bg-red-950 border-amber-400"
+    },
+    {
+      "level": 4,
+      "materials": [
+        {
+          "name": "Sonkoku",
+          "icon": "/images/heroes/sonkoku.png",
+          "slug": "sonkoku"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng",
+      "frame": "/images/card_layers/card_q_bgYellow.png",
+      "nameplateColor": "bg-amber-950 border-amber-500"
+    },
+    {
+      "level": 5,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng +",
+      "frame": "/images/card_layers/card_q_bgGolden1.png",
+      "nameplateColor": "bg-amber-950 border-amber-400"
+    },
+    {
+      "level": 6,
+      "materials": [
+        {
+          "name": "Veheta",
+          "icon": "/images/heroes/veheta.png",
+          "slug": "veheta"
+        },
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        }
+      ],
+      "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng ++",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 7,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Ichigo",
+          "icon": "/images/heroes/ichigo.png",
+          "slug": "ichigo"
+        },
+        {
+          "name": "Mabara",
+          "icon": "/images/heroes/mabara.png",
+          "slug": "mabara"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 1",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    },
+    {
+      "level": 8,
+      "materials": [
+        {
+          "name": "Seya",
+          "icon": "/images/heroes/seya.png",
+          "slug": "seya"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "icon": "/images/heroes/phuong-hoang.png",
+          "slug": "phuong-hoang"
+        },
+        {
+          "name": "Yasuke",
+          "icon": "/images/heroes/yasuke.png",
+          "slug": "yasuke"
+        },
+        {
+          "name": "Heimdall",
+          "icon": "/images/heroes/heimdall.png",
+          "slug": "heimdall"
+        }
+      ],
+      "statBonus": "+720 Công, +712 Thủ, +316 HP, +648 Tốc",
+      "unlockedSkill": null,
+      "unlockedSkillIcon": null,
+      "tierLabel": "Vàng Cực Hạn 2",
+      "frame": "/images/card_layers/card_q_bgGolden2.png",
+      "nameplateColor": "bg-black border-amber-400"
+    }
+  ]
+}
