@@ -675,5 +675,16 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
+  ],
+  "effects": [
+    "Hồi Sinh",
+    "Miễn Khống Chế",
+    "Bất Tử",
+    "Giảm Thương",
+    "Chảy Máu",
+    "Phá Giáp",
+    "Hỗn Loạn",
+    "Phản Đòn",
+    "Hồi Phục"
   ]
 }

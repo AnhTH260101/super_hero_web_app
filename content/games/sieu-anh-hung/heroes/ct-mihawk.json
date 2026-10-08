@@ -657,5 +657,21 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
+  ],
+  "effects": [
+    "Vô Địch",
+    "Giảm Thương",
+    "Trọng Thương",
+    "Chảy Máu",
+    "Mù",
+    "Choáng",
+    "Đóng Băng",
+    "Hỗn Loạn",
+    "Hôn Mê",
+    "Đứng Im",
+    "Chế Giễu",
+    "Tsukuyomi",
+    "Phản Đòn",
+    "Hồi Phục"
   ]
 }

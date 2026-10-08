@@ -322,5 +322,9 @@
       "starsCount": 0,
       "moonsCount": 2
     }
+  ],
+  "effects": [
+    "Giảm Thương",
+    "Hồi Phục"
   ]
 }

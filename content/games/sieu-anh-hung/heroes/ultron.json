@@ -300,5 +300,11 @@
       "starsCount": 0,
       "moonsCount": 2
     }
+  ],
+  "effects": [
+    "Hồi Sinh",
+    "Giảm Thương",
+    "Thiêu Đốt",
+    "Choáng"
   ]
 }

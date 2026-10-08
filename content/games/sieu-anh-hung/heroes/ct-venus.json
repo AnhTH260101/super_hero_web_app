@@ -328,5 +328,11 @@
       "starsCount": 0,
       "moonsCount": 2
     }
+  ],
+  "effects": [
+    "Giảm Thương",
+    "Hóa Giải",
+    "Mù",
+    "Hồi Phục"
   ]
 }

@@ -703,5 +703,22 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
+  ],
+  "effects": [
+    "Vô Địch",
+    "Hồi Sinh",
+    "Hộ Giá",
+    "Thần Ngự",
+    "Giảm Thương",
+    "Phá Giáp",
+    "Trói Buộc",
+    "Choáng",
+    "Hóa Đá",
+    "Hỗn Loạn",
+    "Trầm Mặc",
+    "Chế Giễu",
+    "Tsukuyomi",
+    "Phản Đòn",
+    "Hồi Phục"
   ]
 }

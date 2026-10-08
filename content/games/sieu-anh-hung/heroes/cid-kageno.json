@@ -612,5 +612,16 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
+  ],
+  "effects": [
+    "Vô Địch",
+    "Hồi Sinh",
+    "Hộ Giá",
+    "Miễn Khống Chế",
+    "Giảm Thương",
+    "Phá Giáp",
+    "Trói Buộc",
+    "Phản Đòn",
+    "Truy Kích"
   ]
 }

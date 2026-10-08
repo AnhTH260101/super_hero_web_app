@@ -564,5 +564,11 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
+  ],
+  "effects": [
+    "Hóa Giải",
+    "Đóng Băng",
+    "Đứng Im",
+    "Hồi Phục"
   ]
 }
