@@ -221,3 +221,25 @@ export interface MetaLineup {
   strengths: string[];
   weaknesses: string[];
 }
+
+export interface ResourceSource {
+  id: string;
+  name: string;
+  icon: string;
+  note?: string;
+}
+
+export interface ResourceItemSourceRef {
+  sourceId: string;
+  note?: string;
+}
+
+export interface ResourceItem {
+  id: string;
+  name: string;
+  category?: string;
+  icon: string;
+  border?: string;
+  description: string[];
+  sources: ResourceItemSourceRef[];
+}

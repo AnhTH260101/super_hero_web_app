@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ban-co-lua",
+    "name": "Bàn Cờ Lửa",
+    "icon": "/images/resources/sources/ban-co-lua.png"
+  },
+  {
+    "id": "cua-hang",
+    "name": "Cửa hàng",
+    "icon": "/images/resources/sources/cua-hang.png"
+  },
+  {
+    "id": "kho-bau",
+    "name": "Kho báu",
+    "icon": "/images/resources/sources/kho-bau.png"
+  },
+  {
+    "id": "hoat-dong",
+    "name": "Hoạt động",
+    "icon": "/images/resources/sources/hoat-dong.png"
+  },
+  {
+    "id": "nhai-ba",
+    "name": "Nhái Ba",
+    "icon": "/images/resources/sources/nhai-ba.png"
+  },
+  {
+    "id": "minh-nguyet",
+    "name": "Minh nguyệt",
+    "icon": "/images/resources/sources/minh-nguyet.png"
+  },
+  {
+    "id": "phuc-loi",
+    "name": "Phúc Lợi",
+    "icon": "/images/resources/sources/phuc-loi.png"
+  },
+  {
+    "id": "ngoi-chua",
+    "name": "Ngôi chùa",
+    "icon": "/images/resources/sources/ngoi-chua.png"
+  },
+  {
+    "id": "kho-bau-me-cung",
+    "name": "Kho Báu Mê Cung",
+    "icon": "/images/resources/sources/kho-bau-me-cung.png"
+  },
+  {
+    "id": "farm",
+    "name": "Farm",
+    "icon": "/images/resources/sources/farm.png"
+  },
+  {
+    "id": "tu-bao-bon",
+    "name": "Tụ Bảo Bồn",
+    "icon": "/images/resources/sources/tu-bao-bon.png"
+  },
+  {
+    "id": "vong-quay",
+    "name": "Vòng quay",
+    "icon": "/images/resources/sources/vong-quay.png"
+  },
+  {
+    "id": "vong-quay-lien-server",
+    "name": "Vòng quay liên server",
+    "icon": "/images/resources/sources/vong-quay-lien-server.png"
+  },
+  {
+    "id": "doat-bao",
+    "name": "Đoạt Bảo",
+    "icon": "/images/resources/sources/doat-bao.png"
+  },
+  {
+    "id": "yggdrasil",
+    "name": "Yggdrasill",
+    "icon": "/images/resources/sources/yggdrasil.png"
+  },
+  {
+    "id": "than-vuc",
+    "name": "Thần Vực",
+    "icon": "/images/resources/sources/than-vuc.png"
+  },
+  {
+    "id": "vua-vu-tru",
+    "name": "Vua Vũ Trụ",
+    "icon": "/images/resources/sources/vua-vu-tru.png"
+  },
+  {
+    "id": "quan-hung-tranh-ba",
+    "name": "Quần Hùng Tranh Bá",
+    "icon": "/images/resources/sources/quan-hung-tranh-ba.png"
+  },
+  {
+    "id": "hero-sieu-dang",
+    "name": "Hero siêu đẳng",
+    "icon": "/images/resources/sources/hero-sieu-dang.png"
+  },
+  {
+    "id": "loan-the-kieu-hung",
+    "name": "Loạn Thế Kiêu Hùng",
+    "icon": "/images/resources/sources/loan-the-kieu-hung.png"
+  },
+  {
+    "id": "giftcode",
+    "name": "GIFTCODE",
+    "icon": "/images/resources/sources/giftcode.png"
+  },
+  {
+    "id": "sieu-li-xi",
+    "name": "Siêu Lì Xì",
+    "icon": "/images/resources/sources/sieu-li-xi.png"
+  },
+  {
+    "id": "hot",
+    "name": "Hot",
+    "icon": "/images/resources/sources/hot.png"
+  },
+  {
+    "id": "lien-minh",
+    "name": "Liên minh",
+    "icon": "/images/resources/sources/lien-minh.png"
+  },
+  {
+    "id": "danh-hieu",
+    "name": "Danh hiệu",
+    "icon": "/images/resources/sources/danh-hieu.png"
+  },
+  {
+    "id": "sieu-ba-ho",
+    "name": "Siêu Ba Hộ",
+    "icon": "/images/resources/sources/sieu-ba-ho.png"
+  },
+  {
+    "id": "han-gio-xuat-chinh",
+    "name": "Hạn Giờ Xuất Chinh",
+    "icon": "/images/resources/sources/han-gio-xuat-chinh.png"
+  },
+  {
+    "id": "tieu-nap",
+    "name": "Sự kiện tiêu nạp",
+    "icon": "/images/resources/sources/tieu-nap.png"
+  },
+  {
+    "id": "nap-don",
+    "name": "Sự kiện nạp",
+    "icon": "/images/resources/sources/tieu-nap.png"
+  },
+  {
+    "id": "to-chuc-tranh-dau",
+    "name": "Tổ Chức Tranh Đấu",
+    "icon": "/images/resources/sources/quan-hung-tranh-ba.png"
+  },
+  {
+    "id": "than-dien",
+    "name": "Thần Điền",
+    "icon": "/images/resources/sources/than-vuc.png"
+  },
+  {
+    "id": "dau-truong-dinh-cao",
+    "name": "Đấu Trường Đỉnh Cao",
+    "icon": "/images/resources/sources/quan-hung-tranh-ba.png"
+  },
+  {
+    "id": "mong-gap",
+    "name": "Móng Gắp",
+    "icon": "/images/resources/sources/mong-gap.png"
+  }
+]

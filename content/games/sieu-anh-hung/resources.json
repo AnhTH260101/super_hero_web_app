@@ -1,0 +1,895 @@
+[
+  {
+    "id": "da-ren-tho",
+    "name": "Đá rèn thô",
+    "category": "Rèn Trang Bị",
+    "icon": "/images/resources/items/da-ren-tho.png",
+    "description": [
+      "Dùng để rèn trang bị, tạo một nhánh được rèn ra chỉ số cao hơn. Đá này khá yếu nên không cần quan tâm."
+    ],
+    "sources": [
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "hoat-dong"
+      }
+    ]
+  },
+  {
+    "id": "da-ren-trung",
+    "name": "Đá rèn trung",
+    "category": "Rèn Trang Bị",
+    "icon": "/images/resources/items/da-ren-trung.png",
+    "description": [
+      "Dùng để rèn trang bị như cái trên nhưng hiệu quả cao hơn."
+    ],
+    "sources": [
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "nhai-ba"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      },
+      {
+        "sourceId": "phuc-loi"
+      }
+    ]
+  },
+  {
+    "id": "da-ren-cao",
+    "name": "Đá rèn cao",
+    "category": "Rèn Trang Bị",
+    "icon": "/images/resources/items/da-ren-cao.png",
+    "description": [
+      "Dùng để rèn trang bị, loại đá hiệu quả nhất và dễ kiếm nhất."
+    ],
+    "sources": [
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "han-gio-xuat-chinh"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "farm"
+      },
+      {
+        "sourceId": "tu-bao-bon"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      }
+    ]
+  },
+  {
+    "id": "tui-the-luc-50",
+    "name": "Túi thể lực 50",
+    "category": "Thể Lực & Hoạt Động",
+    "icon": "/images/resources/items/tui-the-luc-50.png",
+    "description": [
+      "Dùng xong tăng 50đ thể lực. Rất thích hợp cho việc chạy hoạt động nhái ba"
+    ],
+    "sources": [
+      {
+        "sourceId": "vong-quay"
+      },
+      {
+        "sourceId": "vong-quay-lien-server"
+      },
+      {
+        "sourceId": "doat-bao"
+      }
+    ]
+  },
+  {
+    "id": "da-van-menh-tho",
+    "name": "Đá vận mệnh thô",
+    "category": "Đá Vận Mệnh",
+    "icon": "/images/resources/items/da-van-menh-tho.png",
+    "description": [
+      "Tăng hiệu quả cho đá vận mệnh được lắp vào trang bị. Nên sử dụng loại này trước"
+    ],
+    "sources": [
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "quan-hung-tranh-ba"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "nhai-ba"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      }
+    ]
+  },
+  {
+    "id": "da-van-menh-trung",
+    "name": "Đá vận mệnh trung",
+    "category": "Đá Vận Mệnh",
+    "icon": "/images/resources/items/da-van-menh-trung.png",
+    "description": [
+      "Tăng hiệu quả cho đá vận mệnh được lắp vào trang bị. Hiệu quả cao hơn đá thô"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "than-vuc"
+      },
+      {
+        "sourceId": "nhai-ba"
+      },
+      {
+        "sourceId": "farm"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      },
+      {
+        "sourceId": "phuc-loi"
+      }
+    ]
+  },
+  {
+    "id": "da-van-menh-cao",
+    "name": "Đá vận mệnh cao",
+    "category": "Đá Vận Mệnh",
+    "icon": "/images/resources/items/da-van-menh-cao.png",
+    "description": [
+      "Tăng hiệu quả cho đá vận mệnh được lắp vào trang bị. Hiệu quả cao hơn đá trung"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "yggdrasil"
+      },
+      {
+        "sourceId": "nhai-ba"
+      },
+      {
+        "sourceId": "farm"
+      },
+      {
+        "sourceId": "tu-bao-bon"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      }
+    ]
+  },
+  {
+    "id": "da-ba-chu",
+    "name": "Đá bá chủ",
+    "category": "Tiến Bậc Trang Bị",
+    "icon": "/images/resources/items/da-ba-chu.png",
+    "description": [
+      "Tăng bậc cho trang bị lên đỏ và cầu vồng"
+    ],
+    "sources": [
+      {
+        "sourceId": "hero-sieu-dang"
+      },
+      {
+        "sourceId": "lien-minh",
+        "note": "(Rương minh nguyệt)"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "loan-the-kieu-hung"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "minh-nguyet"
+      }
+    ]
+  },
+  {
+    "id": "phieu-anh-hon-do",
+    "name": "Phiếu anh hồn đỏ",
+    "category": "Anh Hồn Trận Hình",
+    "icon": "/images/resources/items/phieu-anh-hon-do.png",
+    "description": [
+      "Anh hồn đỏ tương ứng sẽ tăng chỉ số cho nhân vật. Lắp ở phần trận hình"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "nap-don"
+      }
+    ]
+  },
+  {
+    "id": "phieu-anh-hon-vang",
+    "name": "Phiếu anh hồn vàng",
+    "category": "Anh Hồn Trận Hình",
+    "icon": "/images/resources/items/phieu-anh-hon-vang.png",
+    "description": [
+      "Anh hồn đỏ nhưng mà mạnh hơn"
+    ],
+    "sources": [
+      {
+        "sourceId": "vong-quay"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "nap-don"
+      }
+    ]
+  },
+  {
+    "id": "ruong-phap-bao",
+    "name": "Rương pháp bảo siêu giá trị",
+    "category": "Pháp Bảo",
+    "icon": "/images/resources/items/ruong-phap-bao.png",
+    "description": [
+      "Có một số pháp bảo dễ kiếm như kim tê giáp, chùy vàng, thủy xích để nâng pháp bảo lvmax sớm"
+    ],
+    "sources": [
+      {
+        "sourceId": "yggdrasil"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "hot",
+        "note": "Mốc tiêu từ 3 & 5"
+      }
+    ]
+  },
+  {
+    "id": "ruong-nang-luong",
+    "name": "Rương năng lượng đột phá",
+    "category": "Đột Phá Chuyển Thế",
+    "icon": "/images/resources/items/ruong-nang-luong.png",
+    "description": [
+      "Chứa năng lượng nguyên tố dùng để đột phá tướng chuyển thế tại đồng đội -> đột phá"
+    ],
+    "sources": [
+      {
+        "sourceId": "doat-bao"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "giftcode"
+      }
+    ]
+  },
+  {
+    "id": "chuyen-the-don",
+    "name": "Chuyển thế đơn (đan)",
+    "category": "Đột Phá Chuyển Thế",
+    "icon": "/images/resources/items/chuyen-the-don.png",
+    "description": [
+      "Viên đan thần kì tăng sức mạnh. 50 viên để chuyển thế, 200 viên để đột phá tướng chuyển thế."
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "lien-minh"
+      },
+      {
+        "sourceId": "cua-hang"
+      }
+    ]
+  },
+  {
+    "id": "tinh-hoa-da-quy-6-4",
+    "name": "Tinh hoa linh hồn (Đá quý lv6 & Đá thánh lv4)",
+    "category": "Đá Quý & Đá Thánh",
+    "icon": "/images/resources/items/tinh-hoa-da-quy-6-4.png",
+    "description": [
+      "Dùng để ghép đá quý lv6 và đá thánh level 4"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "vong-quay"
+      },
+      {
+        "sourceId": "nhai-ba"
+      }
+    ]
+  },
+  {
+    "id": "tinh-hoa-da-quy-7-15",
+    "name": "Tinh hoa linh hồn (Đá quý lv7-lv15 & Đá thánh lv5-lv6)",
+    "category": "Đá Quý & Đá Thánh",
+    "icon": "/images/resources/items/tinh-hoa-da-quy-7-15.png",
+    "description": [
+      "Dùng để ghép đá quý lv7-lv15 và đá thánh level 5-lv6"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "vong-quay"
+      },
+      {
+        "sourceId": "nhai-ba"
+      }
+    ]
+  },
+  {
+    "id": "tuyet-tran-tuyet-tinh",
+    "name": "Tuyệt trần tuyệt tính",
+    "category": "Trợ Uy & Thần Thú",
+    "icon": "/images/resources/items/tuyet-tran-tuyet-tinh.png",
+    "description": [
+      "Dùng để mở khóa thuộc tính trợ uy ở thẻ 3 tăng chỉ số. Nâng cấp phẩm chất nguyên liệu thần thú"
+    ],
+    "sources": [
+      {
+        "sourceId": "kho-bau"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "nap-don"
+      }
+    ]
+  },
+  {
+    "id": "ruong-da-quy-lv13",
+    "name": "Rương đá quý level 13",
+    "category": "Đá Quý & Đá Thánh",
+    "icon": "/images/resources/items/ruong-da-quy-lv13.png",
+    "description": [
+      "Chứa đá quý tăng chỉ số tấn công, phòng ngự thuộc tính. Khuyến nghị nên nâng dần từ lv13 lên 15"
+    ],
+    "sources": [
+      {
+        "sourceId": "doat-bao"
+      },
+      {
+        "sourceId": "kho-bau-me-cung"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "tieu-nap"
+      }
+    ]
+  },
+  {
+    "id": "ruong-da-van-menh-lv4",
+    "name": "Rương đá vận mệnh level 4",
+    "category": "Đá Vận Mệnh",
+    "icon": "/images/resources/items/ruong-da-van-menh-lv4.png",
+    "description": [
+      "Đá vận mệnh tăng 1 lượng rất lớn chỉ số. Khi bạn xúc xắc sẽ có thêm hiệu ứng phụ, từ 4-5 cho nông dân, tối đa là đá 6"
+    ],
+    "sources": [
+      {
+        "sourceId": "vong-quay-lien-server"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "han-gio-xuat-chinh"
+      },
+      {
+        "sourceId": "sieu-ba-ho"
+      },
+      {
+        "sourceId": "tieu-nap"
+      }
+    ]
+  },
+  {
+    "id": "da-in-s",
+    "name": "Đá in S",
+    "category": "Bản Sắc & Điểm Hóa",
+    "icon": "/images/resources/items/da-in-s.png",
+    "description": [
+      "Loại đá in dễ kiếm nhất. Dùng để khắc ấn bản sắc để tạo đá điểm hóa cấp D-S. Chi tiết xem ở trang bách khoa bản văn mệnh"
+    ],
+    "sources": [
+      {
+        "sourceId": "doat-bao"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "to-chuc-tranh-dau"
+      }
+    ]
+  },
+  {
+    "id": "da-thuy-tinh-empower",
+    "name": "Đá thủy tinh Empower",
+    "category": "Bản Sắc & Điểm Hóa",
+    "icon": "/images/resources/items/da-thuy-tinh-empower.png",
+    "description": [
+      "Sử dụng đá này có thể ban sức mạnh ngẫu nhiên 1 loại hiệu ứng lên đá vận mệnh. (Đá in nhưng random + tốn thêm xu)"
+    ],
+    "sources": [
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "danh-hieu"
+      }
+    ]
+  },
+  {
+    "id": "ruong-tu-chon-c-diem-hoa-s",
+    "name": "Rương tự chọn C điểm hóa S",
+    "category": "Bản Sắc & Điểm Hóa",
+    "icon": "/images/resources/items/ruong-tu-chon-c-diem-hoa-s.png",
+    "description": [
+      "Tự chọn bất kì 1 đá điểm hóa bạn ước ao. VD: lãnh chúa, aether, titan..."
+    ],
+    "sources": [
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "doat-bao"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "to-chuc-tranh-dau"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "danh-hieu"
+      }
+    ]
+  },
+  {
+    "id": "tinh-hoa-hu-ao",
+    "name": "Tinh hoa - hư ảo",
+    "category": "Đá Quý & Đá Thánh",
+    "icon": "/images/resources/items/tinh-hoa-hu-ao.png",
+    "description": [
+      "Tăng chỉ số cho đá quý, nhưng cần phải tháo đá quý trước"
+    ],
+    "sources": [
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "yggdrasil"
+      },
+      {
+        "sourceId": "tu-bao-bon"
+      }
+    ]
+  },
+  {
+    "id": "da-phu-van",
+    "name": "Đá phù văn",
+    "category": "Phù Văn Chuyển Thế",
+    "icon": "/images/resources/items/da-phu-van.png",
+    "description": [
+      "Kích hoạt phù văn tăng chỉ số cho nv chuyển thế. Nên tạo mới ra những nv chuyển thế có sẵn. Tốn thêm 200 xu để sử dụng"
+    ],
+    "sources": [
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "ban-co-lua"
+      },
+      {
+        "sourceId": "nhai-ba"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "nap-don"
+      }
+    ]
+  },
+  {
+    "id": "phieu-bich-huyet-do",
+    "name": "Phiếu bích huyết đồ",
+    "category": "Tiến Bậc Trang Bị",
+    "icon": "/images/resources/items/phieu-bich-huyet-do.png",
+    "description": [
+      "Không có tác dụng khi trang bị. Có thể dùng làm nguyên liệu nạp trang bị cầu vồng, cùng với đá bá chủ"
+    ],
+    "sources": [
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "loan-the-kieu-hung"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "hot",
+        "note": "(Mốc tiêu/rút ngày CN)"
+      }
+    ]
+  },
+  {
+    "id": "mong-gap",
+    "name": "Móng gắp",
+    "category": "Đạo Cụ Sự Kiện",
+    "icon": "/images/resources/items/mong-gap.png",
+    "description": [
+      "Đạo cụ dùng cho sự kiện con búp bê máy. 1 lần gắp yêu cầu 3 móng"
+    ],
+    "sources": [
+      {
+        "sourceId": "sieu-ba-ho"
+      },
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "hoat-dong"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "hot"
+      }
+    ]
+  },
+  {
+    "id": "bong-ma-mini",
+    "name": "Bóng ma mini",
+    "category": "Đạo Cụ Sự Kiện",
+    "icon": "/images/resources/items/bong-ma-mini.png",
+    "description": [
+      "Đạo cụ dùng cho sự kiện ngôi chùa mở mỗi tháng 1 lần. Tổng cần 1 chùa là 325"
+    ],
+    "sources": [
+      {
+        "sourceId": "sieu-ba-ho"
+      },
+      {
+        "sourceId": "vua-vu-tru"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "hoat-dong"
+      },
+      {
+        "sourceId": "hero-sieu-dang"
+      },
+      {
+        "sourceId": "hot"
+      }
+    ]
+  },
+  {
+    "id": "ngoc-rong",
+    "name": "Ngọc rồng",
+    "category": "Đạo Cụ Sự Kiện",
+    "icon": "/images/resources/items/ngoc-rong-item.png",
+    "description": [
+      "Cần 171 viên ngọc rồng cho 1 vòng quay. Sử dụng tại sự kiện kho báu mê cung"
+    ],
+    "sources": [
+      {
+        "sourceId": "sieu-ba-ho"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "danh-hieu"
+      }
+    ]
+  },
+  {
+    "id": "ruong-xuat-chinh",
+    "name": "Rương xuất chinh",
+    "category": "Xuất Chinh",
+    "icon": "/images/resources/items/ruong-xuat-chinh.png",
+    "description": [
+      "Mở có thể có tỉ lệ nhận vé xuất chinh và 1 số nguyên liệu khác cũng như kim cương."
+    ],
+    "sources": [
+      {
+        "sourceId": "hoat-dong"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "hot",
+        "note": "(Khi có xuất chinh hoặc 3K lớn)"
+      }
+    ]
+  },
+  {
+    "id": "ve-xuat-chinh",
+    "name": "Vé xuất chinh",
+    "category": "Xuất Chinh",
+    "icon": "/images/resources/items/ve-xuat-chinh.png",
+    "description": [
+      "Dùng trong hoạt động xuất chinh hạn giờ. Thay vì cử nhân vật có thể trực tiếp nhận thưởng."
+    ],
+    "sources": [
+      {
+        "sourceId": "hoat-dong"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "cua-hang"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "hot",
+        "note": "(Đổi sự kiện)"
+      }
+    ]
+  },
+  {
+    "id": "tinh-hoa-da-van-menh",
+    "name": "Tinh hoa – đá vận mệnh",
+    "category": "Đá Vận Mệnh",
+    "icon": "/images/resources/items/tinh-hoa-da-van-menh.png",
+    "description": [
+      "Tương tự tinh hoa linh hồn để ghép đá quý. Tinh hoa này dùng để ghép đá vận mệnh cấp cao."
+    ],
+    "sources": [
+      {
+        "sourceId": "cua-hang",
+        "note": "(Cách nhận duy nhất. Kéo đến cuối mục để mua)"
+      }
+    ]
+  },
+  {
+    "id": "phieu-set-nam-hoi",
+    "name": "Phiếu set năm hợi",
+    "category": "Trang Bị 12 Con Giáp",
+    "icon": "/images/resources/items/phieu-set-nam-hoi.png",
+    "description": [
+      "Trang bị thuộc series 12 con giáp. Tăng đáng kể chỉ số của bản thân người đeo."
+    ],
+    "sources": [
+      {
+        "sourceId": "minh-nguyet",
+        "note": "(Đốt <325 lửa, cuối tuần)"
+      },
+      {
+        "sourceId": "loan-the-kieu-hung"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "than-dien"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "sieu-li-xi"
+      },
+      {
+        "sourceId": "dau-truong-dinh-cao"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      }
+    ]
+  },
+  {
+    "id": "phieu-set-nam-chuot",
+    "name": "Phiếu set năm chuột",
+    "category": "Trang Bị 12 Con Giáp",
+    "icon": "/images/resources/items/phieu-set-nam-chuot.png",
+    "description": [
+      "Trang bị thuộc series 12 con giáp. Tăng mạnh chỉ số của bản thân người đeo."
+    ],
+    "sources": [
+      {
+        "sourceId": "minh-nguyet"
+      },
+      {
+        "sourceId": "loan-the-kieu-hung"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "than-dien"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "sieu-li-xi"
+      }
+    ]
+  },
+  {
+    "id": "phieu-set-nam-rong",
+    "name": "Phiếu set năm rồng",
+    "category": "Trang Bị 12 Con Giáp",
+    "icon": "/images/resources/items/phieu-set-nam-rong.png",
+    "description": [
+      "Trang bị thuộc series 12 con giáp. Tăng mạnh chỉ số của bản thân người đeo. Nên sử dụng vì rất dễ kiếm"
+    ],
+    "sources": [
+      {
+        "sourceId": "minh-nguyet",
+        "note": "(Đốt 325 lửa)"
+      },
+      {
+        "sourceId": "loan-the-kieu-hung"
+      },
+      {
+        "sourceId": "hot"
+      },
+      {
+        "sourceId": "than-dien"
+      },
+      {
+        "sourceId": "nap-don"
+      },
+      {
+        "sourceId": "sieu-li-xi"
+      },
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "ngoi-chua"
+      }
+    ]
+  },
+  {
+    "id": "phieu-set-nam-ti",
+    "name": "Phiếu set năm tị",
+    "category": "Trang Bị 12 Con Giáp",
+    "icon": "/images/resources/items/phieu-set-nam-ti.png",
+    "description": [
+      "Trang bị thuộc series 12 con giáp. Tăng mạnh chỉ số của bản thân người đeo. Hiện tại khó kiếm. Nhưng hiệu quả nhất"
+    ],
+    "sources": [
+      {
+        "sourceId": "tieu-nap"
+      },
+      {
+        "sourceId": "sieu-li-xi"
+      },
+      {
+        "sourceId": "hot",
+        "note": "(HĐ tiêu/nạp)"
+      }
+    ]
+  }
+]

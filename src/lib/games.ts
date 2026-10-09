@@ -125,3 +125,23 @@ export function getMetaLineups(gameSlug: string): MetaLineup[] {
     return [];
   }
 }
+
+export function getGameResources(gameSlug: string): import('@/types/game').ResourceItem[] {
+  const resPath = path.join(CONTENT_DIR, gameSlug, 'resources.json');
+  if (!fs.existsSync(resPath)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(resPath, 'utf-8'));
+  } catch {
+    return [];
+  }
+}
+
+export function getGameResourceSources(gameSlug: string): import('@/types/game').ResourceSource[] {
+  const srcPath = path.join(CONTENT_DIR, gameSlug, 'resource_sources.json');
+  if (!fs.existsSync(srcPath)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(srcPath, 'utf-8'));
+  } catch {
+    return [];
+  }
+}

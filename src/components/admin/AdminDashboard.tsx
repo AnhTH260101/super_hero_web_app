@@ -15,20 +15,30 @@ import {
   RotateCcw,
   Archive,
   Trophy,
+  Sparkles,
 } from 'lucide-react';
-import { Hero, TierGroup } from '@/types/game';
+import { Hero, TierGroup, ResourceItem, ResourceSource } from '@/types/game';
 import { AdminTierListEditor } from './AdminTierListEditor';
+import { AdminResourceEditor } from './AdminResourceEditor';
 
 interface AdminDashboardProps {
   initialHeroes: Hero[];
   initialTiers?: TierGroup[];
+  initialResources?: ResourceItem[];
+  initialSources?: ResourceSource[];
   gameSlug: string;
 }
 
-export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, initialTiers = [], gameSlug }) => {
+export const AdminDashboard: React.FC<AdminDashboardProps> = ({
+  initialHeroes,
+  initialTiers = [],
+  initialResources = [],
+  initialSources = [],
+  gameSlug,
+}) => {
   const [adminToken, setAdminToken] = useState('admin123');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'trash'>('active');
+  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'trash'>('active');
 
   const [heroes, setHeroes] = useState<Hero[]>(initialHeroes);
   const [trashHeroes, setTrashHeroes] = useState<Hero[]>([]);
@@ -283,6 +293,21 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, i
 
           <button
             onClick={() => {
+              setCurrentTab('resources');
+              setSelectedSlugs([]);
+            }}
+            className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+              currentTab === 'resources'
+                ? 'bg-amber-500 text-slate-950 shadow-md'
+                : 'text-slate-400 hover:text-white hover:bg-slate-900'
+            }`}
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>Tài Nguyên Game ({initialResources.length})</span>
+          </button>
+
+          <button
+            onClick={() => {
               setCurrentTab('trash');
               setSelectedSlugs([]);
               fetchTrash();
@@ -321,6 +346,12 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, i
             allHeroes={heroes}
             gameSlug={gameSlug}
             adminToken={adminToken}
+          />
+        ) : currentTab === 'resources' ? (
+          <AdminResourceEditor
+            initialResources={initialResources}
+            initialSources={initialSources}
+            gameSlug={gameSlug}
           />
         ) : (
           <>

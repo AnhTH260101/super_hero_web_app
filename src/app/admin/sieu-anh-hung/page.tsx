@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getGameMeta, getGameHeroes, getTierList } from '@/lib/games';
+import { getGameMeta, getGameHeroes, getTierList, getGameResources, getGameResourceSources } from '@/lib/games';
 import { AdminDashboard } from '@/components/admin/AdminDashboard';
 
 export default async function AdminPage() {
@@ -9,11 +9,15 @@ export default async function AdminPage() {
 
   const heroes = getGameHeroes(gameSlug, { includeAfterlife: true, includeSkins: true });
   const tierData = getTierList(gameSlug);
+  const resources = getGameResources(gameSlug);
+  const sources = getGameResourceSources(gameSlug);
 
   return (
     <AdminDashboard
       initialHeroes={heroes}
       initialTiers={tierData?.tiers || []}
+      initialResources={resources}
+      initialSources={sources}
       gameSlug={gameSlug}
     />
   );
