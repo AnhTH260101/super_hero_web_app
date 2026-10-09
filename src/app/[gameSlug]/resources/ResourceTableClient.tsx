@@ -69,15 +69,15 @@ export const ResourceTableClient: React.FC<Props> = ({
         {/* 3-Column Table Row Body */}
         <div className="grid grid-cols-12 min-h-[90px] divide-x divide-slate-400">
           {/* Column 1: Icon (2 cols on small, 2 cols on medium) */}
-          <div className="col-span-3 sm:col-span-2 flex items-center justify-center p-2 bg-slate-100/70">
-            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-lg overflow-hidden border border-slate-400/80 shadow-inner flex items-center justify-center bg-slate-800">
+          <div className="col-span-3 sm:col-span-2 flex items-center justify-center p-2 bg-slate-50">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden border border-slate-300 shadow-sm flex items-center justify-center bg-white p-1">
               <img
                 src={item.icon}
                 alt={item.name}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain drop-shadow-sm"
                 loading="lazy"
                 onError={(e) => {
-                  (e.target as HTMLElement).style.display = 'none';
+                  (e.target as HTMLElement).style.opacity = '0.4';
                 }}
               />
             </div>
@@ -94,7 +94,7 @@ export const ResourceTableClient: React.FC<Props> = ({
             </ul>
           </div>
 
-          {/* Column 3: Cách nhận (5 cols) */}
+          {/* Column 3: Cách nhận (Chỉ hiển thị Icon hoạt động - vì icon đã có chữ sẵn) */}
           <div className="col-span-4 sm:col-span-5 p-2 sm:p-2.5 bg-slate-50 flex flex-col justify-center">
             <div className="text-[11px] sm:text-xs font-bold text-slate-700 mb-1.5 underline decoration-slate-300">
               Cách nhận:
@@ -105,32 +105,22 @@ export const ResourceTableClient: React.FC<Props> = ({
                 const srcData = sourceMap.get(srcRef.sourceId);
                 const displayName = srcData ? srcData.name : srcRef.sourceId;
                 const iconPath = srcData ? srcData.icon : null;
+                if (!iconPath) return null;
 
                 return (
                   <div
                     key={sIdx}
-                    className="inline-flex items-center gap-1 bg-white border border-slate-300 rounded px-1 py-0.5 shadow-xs"
-                    title={`${displayName} ${srcRef.note ? srcRef.note : ''}`}
+                    className="relative group transition-transform hover:scale-105 active:scale-95"
+                    title={displayName + (srcRef.note ? ` (${srcRef.note})` : '')}
                   >
-                    {/* Badge Icon */}
-                    {iconPath && (
-                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded overflow-hidden bg-slate-800 flex items-center justify-center shrink-0 border border-slate-300">
-                        <img
-                          src={iconPath}
-                          alt={displayName}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                        />
-                      </div>
-                    )}
-                    {/* Badge Label */}
-                    <span className="text-[10px] sm:text-[11px] font-semibold text-slate-800 px-0.5 max-w-[80px] sm:max-w-[110px] truncate">
-                      {displayName}
-                    </span>
-
-                    {/* Specific Note if present */}
+                    <img
+                      src={iconPath}
+                      alt={displayName}
+                      className="w-8 h-8 sm:w-10 sm:h-10 object-contain drop-shadow-sm rounded border border-slate-200 bg-white p-0.5"
+                      loading="lazy"
+                    />
                     {srcRef.note && (
-                      <span className="text-[9px] sm:text-[10px] text-red-600 font-medium italic">
+                      <span className="absolute -bottom-1 -right-1 text-[9px] bg-red-600 text-white font-bold px-1 rounded-full shadow">
                         {srcRef.note}
                       </span>
                     )}

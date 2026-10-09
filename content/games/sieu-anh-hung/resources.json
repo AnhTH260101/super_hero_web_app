@@ -20,7 +20,8 @@
       {
         "sourceId": "hoat-dong"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_qianghuashi1.png"
   },
   {
     "id": "da-ren-trung",
@@ -43,7 +44,8 @@
       {
         "sourceId": "phuc-loi"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_qianghuashi2.png"
   },
   {
     "id": "da-ren-cao",
@@ -78,7 +80,8 @@
       {
         "sourceId": "minh-nguyet"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_qianghuashi3.png"
   },
   {
     "id": "tui-the-luc-50",
@@ -98,7 +101,8 @@
       {
         "sourceId": "doat-bao"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_point3.png"
   },
   {
     "id": "da-van-menh-tho",
@@ -130,7 +134,8 @@
       {
         "sourceId": "minh-nguyet"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/fate_stone11.png"
   },
   {
     "id": "da-van-menh-trung",
@@ -171,7 +176,8 @@
       {
         "sourceId": "phuc-loi"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/fate_stone12.png"
   },
   {
     "id": "da-van-menh-cao",
@@ -212,7 +218,8 @@
       {
         "sourceId": "minh-nguyet"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/fate_stone14.png"
   },
   {
     "id": "da-ba-chu",
@@ -242,7 +249,8 @@
       {
         "sourceId": "minh-nguyet"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_bazhu.png"
   },
   {
     "id": "phieu-anh-hon-do",
@@ -262,7 +270,8 @@
       {
         "sourceId": "nap-don"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_boxb14.png"
   },
   {
     "id": "phieu-anh-hon-vang",
@@ -288,7 +297,8 @@
       {
         "sourceId": "nap-don"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_yh_atn_7.png"
   },
   {
     "id": "ruong-phap-bao",
@@ -309,7 +319,8 @@
         "sourceId": "hot",
         "note": "Mốc tiêu từ 3 & 5"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_box9.png"
   },
   {
     "id": "ruong-nang-luong",
@@ -329,7 +340,8 @@
       {
         "sourceId": "giftcode"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_box8.png"
   },
   {
     "id": "chuyen-the-don",
@@ -349,7 +361,8 @@
       {
         "sourceId": "cua-hang"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/zhuanshi_shitou.png"
   },
   {
     "id": "tinh-hoa-da-quy-6-4",
@@ -369,7 +382,8 @@
       {
         "sourceId": "nhai-ba"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_jinghua1.png"
   },
   {
     "id": "tinh-hoa-da-quy-7-15",
@@ -389,7 +403,8 @@
       {
         "sourceId": "nhai-ba"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_jinghua2.png"
   },
   {
     "id": "tuyet-tran-tuyet-tinh",
@@ -409,7 +424,8 @@
       {
         "sourceId": "nap-don"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/i_c_31_3.png"
   },
   {
     "id": "ruong-da-quy-lv13",
@@ -432,7 +448,8 @@
       {
         "sourceId": "tieu-nap"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_bestbox.png"
   },
   {
     "id": "ruong-da-van-menh-lv4",
@@ -461,7 +478,8 @@
       {
         "sourceId": "tieu-nap"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_box7.png"
   },
   {
     "id": "da-in-s",
@@ -487,7 +505,8 @@
       {
         "sourceId": "to-chuc-tranh-dau"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/mingyunfuneng_dj07.png"
   },
   {
     "id": "da-thuy-tinh-empower",
@@ -539,7 +558,8 @@
       {
         "sourceId": "danh-hieu"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_piecebox1.png"
   },
   {
     "id": "tinh-hoa-hu-ao",
@@ -559,7 +579,8 @@
       {
         "sourceId": "tu-bao-bon"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_jinghua3.png"
   },
   {
     "id": "da-phu-van",
@@ -585,7 +606,8 @@
       {
         "sourceId": "nap-don"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/item_fuwenshi.png"
   },
   {
     "id": "phieu-bich-huyet-do",
@@ -609,7 +631,8 @@
         "sourceId": "hot",
         "note": "(Mốc tiêu/rút ngày CN)"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/i_b_shenli_3.png"
   },
   {
     "id": "mong-gap",
@@ -641,7 +664,8 @@
       {
         "sourceId": "hot"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_zhuazi2.png"
   },
   {
     "id": "bong-ma-mini",
@@ -670,7 +694,8 @@
       {
         "sourceId": "hot"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/chocolate_fire.png"
   },
   {
     "id": "ngoc-rong",
@@ -702,7 +727,8 @@
       {
         "sourceId": "danh-hieu"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_dragon_ball.png"
   },
   {
     "id": "ruong-xuat-chinh",
@@ -726,7 +752,8 @@
         "sourceId": "hot",
         "note": "(Khi có xuất chinh hoặc 3K lớn)"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_piecebox2.png"
   },
   {
     "id": "ve-xuat-chinh",
@@ -753,7 +780,8 @@
         "sourceId": "hot",
         "note": "(Đổi sự kiện)"
       }
-    ]
+    ],
+    "iconUrl": "/images/resources/game_items/icon_silvercard.png"
   },
   {
     "id": "tinh-hoa-da-van-menh",
