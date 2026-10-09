@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Gamepad2, Search } from 'lucide-react';
+import { Gamepad2, Search, ChevronDown, Swords } from 'lucide-react';
 import { GameMeta } from '@/types/game';
 
 interface HeaderProps {
@@ -38,6 +38,41 @@ export const Header: React.FC<HeaderProps> = ({ currentGame, allGames = [] }) =>
             <Link href={`/${currentGame.slug}/lineups`} className="hover:text-amber-400 transition-colors">
               Đội Hình Meta
             </Link>
+
+            {/* Dropdown Hoạt Động (Daily Activities) */}
+            <div className="relative group">
+              <button
+                type="button"
+                className="hover:text-amber-400 transition-colors flex items-center gap-1 py-2 focus:outline-none"
+              >
+                <span>Hoạt Động</span>
+                <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180 text-slate-400 group-hover:text-amber-400" />
+              </button>
+
+              {/* Dropdown Menu */}
+              <div className="absolute left-0 top-full pt-2 w-56 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+                <div className="p-2 rounded-2xl bg-slate-900/95 backdrop-blur-xl border border-slate-800 shadow-2xl space-y-1">
+                  {/* Mục 1: Boss */}
+                  <Link
+                    href={`/${currentGame.slug}/daily/boss`}
+                    className="flex items-center gap-3 p-2.5 rounded-xl hover:bg-slate-800/80 text-slate-200 hover:text-amber-400 transition-colors group/item"
+                  >
+                    <div className="w-8 h-8 rounded-lg bg-red-500/10 border border-red-500/20 flex items-center justify-center text-red-400 group-hover/item:scale-110 transition-transform">
+                      <Swords className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <div className="font-bold text-xs text-white group-hover/item:text-amber-400">
+                        Boss
+                      </div>
+                      <div className="text-[10px] text-slate-400">
+                        Boss Thế Giới & Khiêu Chiến
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <Link href={`/${currentGame.slug}/giftcodes`} className="hover:text-amber-400 transition-colors flex items-center gap-1.5 text-red-400">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
