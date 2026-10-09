@@ -615,5 +615,56 @@
     "Hỗn Loạn",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ác Ma",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        },
+        {
+          "name": "Akame",
+          "slug": "akame",
+          "avatar": "/images/heroes/akame.png"
+        }
+      ]
+    },
+    {
+      "name": "Tổng Quản",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        }
+      ]
+    },
+    {
+      "name": "Năng Lực Quân Sự",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hisoka",
+          "slug": "hisoka",
+          "avatar": "/images/heroes/hisoka.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Bảo Vệ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tachibana",
+          "slug": "tachibana",
+          "avatar": "/images/heroes/tachibana.png"
+        }
+      ]
+    }
   ]
 }

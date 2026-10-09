@@ -618,5 +618,56 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Tam kiệt Uchiha",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "slug": "sasuke-susano",
+          "avatar": "/images/heroes/sasuke-susano.png"
+        }
+      ]
+    },
+    {
+      "name": "Tôn nghiêm BOSS",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kil'jaeden",
+          "slug": "kiljaeden",
+          "avatar": "/images/heroes/kiljaeden.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần thể giáng lâm",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần hỏa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yagami Iori",
+          "slug": "yagami-iori",
+          "avatar": "/images/heroes/yagami-iori.png"
+        }
+      ]
+    }
   ]
 }

@@ -72,7 +72,7 @@
   ],
   "bestSynergies": [
     "Thiên Mệnh: Khi ra trận cùng lúc với Hades và Poseidon thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
-    "Cây Thường Xuân: Khi ra trận cùng lúc với Sonkoku và Yasuke thì vật công, HP và tốc độ +15%",
+    "Cây Thường Xuân: Khi ra trận cùng lúc với Songoku và Yasuke thì vật công, HP và tốc độ +15%",
     "Đấu Sĩ Nữ Thần: Khi ra trận cùng lúc với Seya thì ma công, HP và tốc độ +15%",
     "Thán Phục: Khi trang bị Giọt Lệ Nữ Thần thì ma công +20%"
   ],
@@ -587,5 +587,50 @@
     "Hồi Sinh",
     "Giảm Thương",
     "Hóa Giải"
+  ],
+  "destiny": [
+    {
+      "name": "Thiên Mệnh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        },
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    },
+    {
+      "name": "Cây Thường Xuân",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Đấu Sĩ Nữ Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    }
   ]
 }

@@ -618,5 +618,56 @@
     "Phản Đòn",
     "Hút Máu",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Tướng Quân Bất Bại",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Lý Nguyên Bá",
+          "slug": "ly-nguyen-ba",
+          "avatar": "/images/heroes/ly-nguyen-ba.png"
+        },
+        {
+          "name": "saber",
+          "slug": "saber",
+          "avatar": "/images/heroes/saber.png"
+        }
+      ]
+    },
+    {
+      "name": "Quần Hùng Tam Quốc",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lữ Bố",
+          "slug": "lu-bo",
+          "avatar": "/images/heroes/lu-bo.png"
+        }
+      ]
+    },
+    {
+      "name": "Kỵ Binh Tiên Phong",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    },
+    {
+      "name": "Bá Vương Chiến Trường",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    }
   ]
 }

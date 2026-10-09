@@ -684,5 +684,64 @@
     "Thiêu Đốt",
     "Phá Giáp",
     "Trói Buộc"
+  ],
+  "baseHero": {
+    "id": "40000",
+    "slug": "uchiha-obito",
+    "name": "Uchiha Obito",
+    "avatar": "/images/heroes/uchiha-obito.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Hiểu",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Vlad III",
+          "slug": "vlad-iii",
+          "avatar": "/images/heroes/vlad-iii.png"
+        },
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Tín Ngưỡng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Madara",
+          "slug": "madara",
+          "avatar": "/images/heroes/madara.png"
+        }
+      ]
+    },
+    {
+      "name": "Tổ Chức",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hashirama",
+          "slug": "hashirama",
+          "avatar": "/images/heroes/hashirama.png"
+        }
+      ]
+    },
+    {
+      "name": "Sharingan",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        }
+      ]
+    }
   ]
 }

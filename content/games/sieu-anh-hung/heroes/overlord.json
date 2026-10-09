@@ -614,5 +614,56 @@
     "Mù",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Bá Chủ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        },
+        {
+          "name": "Akame",
+          "slug": "akame",
+          "avatar": "/images/heroes/akame.png"
+        }
+      ]
+    },
+    {
+      "name": "Chí Tôn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Beerus",
+          "slug": "beerus",
+          "avatar": "/images/heroes/beerus.png"
+        }
+      ]
+    },
+    {
+      "name": "Thưởng Phạt Rõ Ràng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hisoka",
+          "slug": "hisoka",
+          "avatar": "/images/heroes/hisoka.png"
+        }
+      ]
+    },
+    {
+      "name": "Không Đối Thủ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tachibana",
+          "slug": "tachibana",
+          "avatar": "/images/heroes/tachibana.png"
+        }
+      ]
+    }
   ]
 }

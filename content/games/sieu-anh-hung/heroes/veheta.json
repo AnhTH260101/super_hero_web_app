@@ -50,7 +50,7 @@
   ],
   "bestSynergies": [
     "Liên minh nam thần: Phòng ngự và HP +25% khi ra trận cùng lúc với Daryl Dixon, Linh kiện Đăng Vân Lữ, Túi Anh Hồn +5 và 100 Năng tinh",
-    "Người Saiya: Vật công +20% khi ra trận cùng lúc với Sonkoku",
+    "Người Saiya: Vật công +20% khi ra trận cùng lúc với Songoku",
     "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với Người Băng, Mabara và Trùm Cảnh Sát",
     "Pháo lóe sáng: Ma công +20% khi ra trận cùng lúc với Yasuke"
   ],
@@ -303,5 +303,92 @@
   ],
   "effects": [
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Liên minh nam thần",
+      "effect": "Phòng Ngự, HP +25%",
+      "heroes": [
+        {
+          "name": "Daryl Dixon",
+          "slug": "",
+          "avatar": "/images/heroes/icon_darryl.png"
+        },
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        },
+        {
+          "name": "Hiei",
+          "slug": "",
+          "avatar": "/images/heroes/icon_shadow.png"
+        },
+        {
+          "name": "Wesker",
+          "slug": "wesker",
+          "avatar": "/images/heroes/wesker.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Saiya",
+      "effect": "Vật Công +20%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân ở trên cao",
+      "effect": "Ma Công, Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Người Băng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kuzan.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Trùm Cảnh Sát",
+          "slug": "",
+          "avatar": "/images/heroes/icon_vega.png"
+        }
+      ]
+    },
+    {
+      "name": "Pháo lóe sáng",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Namek",
+      "effect": "Vật Công, Phòng Ngự +15%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        }
+      ]
+    }
   ]
 }

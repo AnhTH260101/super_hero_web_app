@@ -688,5 +688,64 @@
     "Chế Giễu",
     "Tsukuyomi",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39200",
+    "slug": "gilgamesh",
+    "name": "Gilgamesh",
+    "avatar": "/images/heroes/gilgamesh.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Vua Anh Hùng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Hisoka",
+          "slug": "hisoka",
+          "avatar": "/images/heroes/hisoka.png"
+        },
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Hỗn Độn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Trật Tự",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thanos",
+          "slug": "thanos",
+          "avatar": "/images/heroes/thanos.png"
+        }
+      ]
+    },
+    {
+      "name": "Quyền Lợi",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    }
   ]
 }

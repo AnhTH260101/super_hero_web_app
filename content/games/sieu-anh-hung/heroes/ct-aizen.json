@@ -686,5 +686,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "40200",
+    "slug": "aizen",
+    "name": "Aizen",
+    "avatar": "/images/heroes/aizen.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Dã tâm",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kuchiki Byakuya",
+          "slug": "kuchiki-byakuya",
+          "avatar": "/images/heroes/kuchiki-byakuya.png"
+        },
+        {
+          "name": "Grimmjow",
+          "slug": "grimmjow",
+          "avatar": "/images/heroes/grimmjow.png"
+        }
+      ]
+    },
+    {
+      "name": "Âm mưu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Quạ Đen",
+          "slug": "qua-en",
+          "avatar": "/images/heroes/qua-en.png"
+        }
+      ]
+    },
+    {
+      "name": "Mưu đồ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        }
+      ]
+    },
+    {
+      "name": "Khát máu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    }
   ]
 }

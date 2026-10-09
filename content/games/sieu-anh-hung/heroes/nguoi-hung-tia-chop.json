@@ -580,5 +580,50 @@
   "effects": [
     "Giảm Thương",
     "Mù"
+  ],
+  "destiny": [
+    {
+      "name": "Cuồng Phong",
+      "effect": "Vật Công, Ma Công, Tốc Độ, HP +20%; Phòng Ngự +10%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        }
+      ]
+    },
+    {
+      "name": "Liên Minh Hòa Bình",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "slug": "vo-thanh-quan-vu",
+          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+        }
+      ]
+    },
+    {
+      "name": "Xuyên Không",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        }
+      ]
+    }
   ]
 }

@@ -587,5 +587,50 @@
     "Miễn Khống Chế",
     "Giảm Thương",
     "Hóa Giải"
+  ],
+  "destiny": [
+    {
+      "name": "Tinh Võ Môn",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        }
+      ]
+    },
+    {
+      "name": "Lý Tam Cước",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Tí Hon",
+          "slug": "nguoi-ti-hon",
+          "avatar": "/images/heroes/nguoi-ti-hon.png"
+        },
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "slug": "vo-thanh-quan-vu",
+          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+        }
+      ]
+    },
+    {
+      "name": "Siêu Sao Võ Thuật",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        }
+      ]
+    }
   ]
 }

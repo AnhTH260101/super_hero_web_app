@@ -37,6 +37,7 @@ export interface HeroSkill {
   energyCost?: string;
   breakthrough?: HeroSkillBreakthrough;
   badge?: HeroSkillBadge;
+  skinEffect?: string;
 }
 
 export interface HeroRebirthForm {
@@ -48,11 +49,31 @@ export interface HeroRebirthForm {
   overview?: string;
 }
 
-export interface HeroSkin {
+export interface BaseHeroRef {
+  id?: string;
   slug: string;
   name: string;
   avatar: string;
+  rarity?: string;
+  role?: string;
+}
+
+export interface HeroSkin {
+  id?: string;
+  slug: string;
+  name: string;
+  avatar: string;
+  fullArt?: string;
+  costItem?: string;
+  costAmount?: number;
+  costIcon?: string;
+  refreshCostItem?: string;
+  refreshCostAmount?: number;
   overview?: string;
+  skillEnhancements?: Array<{
+    skillName: string;
+    description: string;
+  }>;
 }
 
 export interface AfterlifeMaterial {
@@ -91,6 +112,7 @@ export interface Hero {
   overview?: string;
   skills: HeroSkill[];
   afterlifeForms?: HeroRebirthForm[];
+  baseHero?: BaseHeroRef; // Lối tắt về tướng mặc định (đối với tướng chuyển thế)
   skins?: HeroSkin[];
   afterlifeRequirementsText?: string;
   afterlifeMaterials?: AfterlifeMaterial[];

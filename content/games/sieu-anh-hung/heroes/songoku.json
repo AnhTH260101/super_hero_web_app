@@ -4,7 +4,7 @@
   "name": "Songoku",
   "title": "Vũ trụ linh tính • SSR Songoku",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-songoku.png",
+  "avatar": "/images/heroes/icon_XWukong.png",
   "fullArt": "/images/heroes/full/image_XWukong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -114,10 +114,35 @@
   ],
   "skins": [
     {
+      "id": "425000",
       "slug": "songoku-sieu-xayda-3",
       "name": "Songoku Siêu Xayda 3",
       "avatar": "/images/heroes/icon_XWukong3.png",
-      "overview": "Ngoại trang Songoku Siêu Xayda 3 kích hoạt hiệu ứng Hộ Giá và truy kích tăng sát thương dựa trên máu tối đa."
+      "fullArt": "/images/heroes/full/image_XWukong3.png",
+      "costItem": "Xu Skin",
+      "costAmount": 500,
+      "costIcon": "/images/items/icon_maze_gold.png",
+      "refreshCostItem": "Xu Skin",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục Super Saiyan 3 huyền thoại mở khóa bằng 500 Xu Skin, kích hoạt hiệu ứng Hộ Giá, miễn nhiễm hiệu ứng Mệt Mỏi, tăng số lần Hồi Sinh và sát thương thuộc tính Hỏa.",
+      "skillEnhancements": [
+        {
+          "skillName": "Kỹ năng trước khi bị tấn công",
+          "description": "Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu; nhận 1 tầng \"Hộ Giá\"."
+        },
+        {
+          "skillName": "Kỹ năng Tử Vong",
+          "description": "Truy kích thêm ST bằng 40% HP tối đa. Khi Hồi Sinh: \"Không\" không cho hiệu ứng \"Mệt Mỏi\" nữa, số lần Hồi Sinh tăng lên 4, ST truy kích tăng lên 60% HP tối đa."
+        },
+        {
+          "skillName": "Kỹ năng trước khi chiến đấu",
+          "description": "Truy kích thêm ST bằng 40% HP tối đa."
+        },
+        {
+          "skillName": "Kỹ năng trước lượt đấu",
+          "description": "Gây ra thêm ST thực bằng 1500% tấn công thuộc tính hoả."
+        }
+      ]
     }
   ],
   "breakthroughSimData": [
@@ -621,5 +646,56 @@
     "Trói Buộc",
     "Trầm Mặc",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Người Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình Nghĩa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "avatar": "/images/heroes/piccolo.png"
+        }
+      ]
+    },
+    {
+      "name": "Bất Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        }
+      ]
+    },
+    {
+      "name": "Võ Si",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    }
   ]
 }

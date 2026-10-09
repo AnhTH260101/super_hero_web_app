@@ -614,5 +614,56 @@
     "Trói Buộc",
     "Hỗn Loạn",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Hộ Vệ Địa Cầu",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Số 18",
+          "slug": "so-18",
+          "avatar": "/images/heroes/so-18.png"
+        },
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        }
+      ]
+    },
+    {
+      "name": "Chính Tà",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shalltear",
+          "slug": "shalltear",
+          "avatar": "/images/heroes/shalltear.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Giới",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Beerus",
+          "slug": "beerus",
+          "avatar": "/images/heroes/beerus.png"
+        }
+      ]
+    },
+    {
+      "name": "Tái Sinh Vô Hạn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/cell.png"
+        }
+      ]
+    }
   ]
 }

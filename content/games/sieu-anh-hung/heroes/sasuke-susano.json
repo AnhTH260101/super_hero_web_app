@@ -304,5 +304,92 @@
   "effects": [
     "Giảm Thương",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Liên minh nam thần",
+      "effect": "Phòng Ngự, HP +25%",
+      "heroes": [
+        {
+          "name": "Daryl Dixon",
+          "slug": "",
+          "avatar": "/images/heroes/icon_darryl.png"
+        },
+        {
+          "name": "Hiei",
+          "slug": "",
+          "avatar": "/images/heroes/icon_shadow.png"
+        },
+        {
+          "name": "Veheta",
+          "slug": "veheta",
+          "avatar": "/images/heroes/veheta.png"
+        },
+        {
+          "name": "Wesker",
+          "slug": "wesker",
+          "avatar": "/images/heroes/wesker.png"
+        }
+      ]
+    },
+    {
+      "name": "Uchiha",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        }
+      ]
+    },
+    {
+      "name": "Trói buộc",
+      "effect": "Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Nanato",
+          "slug": "",
+          "avatar": "/images/heroes/icon_naruto.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm chủ",
+      "effect": "Ma Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Kensin",
+          "slug": "",
+          "avatar": "/images/heroes/icon_swordheart.png"
+        },
+        {
+          "name": "Hiei",
+          "slug": "",
+          "avatar": "/images/heroes/icon_shadow.png"
+        }
+      ]
+    },
+    {
+      "name": "Lục đạo luân hồi",
+      "effect": "Vật Công, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Nanato",
+          "slug": "",
+          "avatar": "/images/heroes/icon_naruto.png"
+        }
+      ]
+    }
   ]
 }

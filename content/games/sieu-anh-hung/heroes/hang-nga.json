@@ -575,5 +575,50 @@
   ],
   "effects": [
     "Miễn Khống Chế"
+  ],
+  "destiny": [
+    {
+      "name": "Thần Thượng Cổ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "slug": "hau-nghe",
+          "avatar": "/images/heroes/hau-nghe.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Tự Nhiên",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Liên Minh Nữ Thần",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        }
+      ]
+    }
   ]
 }

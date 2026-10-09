@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • UR CT - Chú Nguyền Sasuke",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_xzuozhu.png",
-  "fullArt": "/images/heroes/icon_xzuozhu.png",
+  "fullArt": "/images/heroes/full/image_xzuozhu2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
   "isSkinForm": false,
@@ -684,5 +684,64 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "43900",
+    "slug": "chu-nguyen-sasuke",
+    "name": "Chú Nguyền Sasuke",
+    "avatar": "/images/heroes/icon_xzuozhu.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Kiếm Quang",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kochou Shinobu",
+          "slug": "kochou-shinobu",
+          "avatar": "/images/heroes/icon_hudieren.png"
+        },
+        {
+          "name": "Thợ Săn - Zoro",
+          "slug": "tho-san-zoro",
+          "avatar": "/images/heroes/icon_xsjsuolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Sấm Sét",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Elaina",
+          "slug": "elaina",
+          "avatar": "/images/heroes/icon_yileina.png"
+        }
+      ]
+    },
+    {
+      "name": "Phục Thù",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Pain",
+          "slug": "pain",
+          "avatar": "/images/heroes/pain.png"
+        }
+      ]
+    },
+    {
+      "name": "Chí Cốt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Naruto (Tiên nhân)",
+          "slug": "naruto-tien-nhan",
+          "avatar": "/images/heroes/naruto-tien-nhan.png"
+        }
+      ]
+    }
   ]
 }

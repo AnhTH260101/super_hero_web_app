@@ -716,5 +716,64 @@
     "Trói Buộc",
     "Hút Máu",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "41700",
+    "slug": "shalltear",
+    "name": "Shalltear",
+    "avatar": "/images/heroes/shalltear.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Dị Thế Giới",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        },
+        {
+          "name": "Albedo",
+          "slug": "albedo",
+          "avatar": "/images/heroes/albedo.png"
+        }
+      ]
+    },
+    {
+      "name": "Quỷ Hút Máu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Vlad III",
+          "slug": "vlad-iii",
+          "avatar": "/images/heroes/vlad-iii.png"
+        }
+      ]
+    },
+    {
+      "name": "Hai Mặt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurumi",
+          "slug": "kurumi",
+          "avatar": "/images/heroes/kurumi.png"
+        }
+      ]
+    },
+    {
+      "name": "Phe Phản Diện",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Aizen",
+          "slug": "aizen",
+          "avatar": "/images/heroes/aizen.png"
+        }
+      ]
+    }
   ]
 }

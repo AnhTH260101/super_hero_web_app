@@ -617,5 +617,56 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Số 1 Thế Giới",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Saitama",
+          "slug": "saitama",
+          "avatar": "/images/heroes/saitama.png"
+        },
+        {
+          "name": "Lữ Bố",
+          "slug": "lu-bo",
+          "avatar": "/images/heroes/lu-bo.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiện Tướng Thể Thao",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thanos",
+          "slug": "thanos",
+          "avatar": "/images/heroes/thanos.png"
+        }
+      ]
+    },
+    {
+      "name": "Thị Lực Động Thái",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    },
+    {
+      "name": "Cao Thủ Bóng Đá",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lý Nguyên Bá",
+          "slug": "ly-nguyen-ba",
+          "avatar": "/images/heroes/ly-nguyen-ba.png"
+        }
+      ]
+    }
   ]
 }

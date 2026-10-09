@@ -716,5 +716,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Truy Kích"
+  ],
+  "baseHero": {
+    "id": "42700",
+    "slug": "yatogami-tohka",
+    "name": "Yatogami Tohka",
+    "avatar": "/images/heroes/icon_shenshixiang.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Kiếm Pháp Vượt Trội",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kenpachi Zaraki",
+          "slug": "kenpachi-zaraki",
+          "avatar": "/images/heroes/kenpachi-zaraki.png"
+        },
+        {
+          "name": "Kusajishi Yachiru",
+          "slug": "kusajishi-yachiru",
+          "avatar": "/images/heroes/kusajishi-yachiru.png"
+        }
+      ]
+    },
+    {
+      "name": "Mèo Ham Ăn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    },
+    {
+      "name": "Bạo Ngược",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Albedo",
+          "slug": "albedo",
+          "avatar": "/images/heroes/albedo.png"
+        }
+      ]
+    },
+    {
+      "name": "Khống Linh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurumi",
+          "slug": "kurumi",
+          "avatar": "/images/heroes/kurumi.png"
+        }
+      ]
+    }
   ]
 }

@@ -617,5 +617,56 @@
     "Chế Giễu",
     "Tsukuyomi",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "1 chọi 100",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Lữ Bố",
+          "slug": "lu-bo",
+          "avatar": "/images/heroes/lu-bo.png"
+        },
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    },
+    {
+      "name": "Lực tia chớp",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    },
+    {
+      "name": "Truyền nhân Tử Dương",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Quạ Đen",
+          "slug": "qua-en",
+          "avatar": "/images/heroes/qua-en.png"
+        }
+      ]
+    },
+    {
+      "name": "Tướng quân dũng mãnh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    }
   ]
 }

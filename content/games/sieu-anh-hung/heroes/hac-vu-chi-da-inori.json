@@ -13,7 +13,89 @@
   "role": "Tanker",
   "tier": "S",
   "overview": "Trang phục xuất hiện trong MV, chủ yếu là lông vũ đen bóng, tràn đầy khí chất thần bí.",
-  "skills": [],
+  "skills": [
+    {
+      "name": "Bài Ca Trị Liệu",
+      "icon": "/images/heroes/s_dieqi_s1.png",
+      "description": "Trị Liệu ngẫu nhiên 1 đơn vị phe ta, lượng trị liệu bằng 30% HP tối đa của mục tiêu.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 1,
+        "title": "Dũng Sĩ·Inori",
+        "description": "Tăng \"Trị Liệu\" cho mục tiêu: khi mục tiêu sắp tử vong thì hồi phục 100% HP của mục tiêu,"
+      }
+    },
+    {
+      "name": "Cảm Nhận Tần Số",
+      "icon": "/images/heroes/s_dieqi_s2.png",
+      "description": "Kĩ năng trước khi bị đánh: Inori thông qua quan sát tần số của phe địch, tăng 100% Né Tránh của bản thân, có thể chồng Né Tránh. Hồi phục 30% HP tối đa cho bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 2,
+        "title": "Đấu Sĩ·Inori",
+        "description": "Số lần kích hoạt tối đa thay đổi thành 3, cho bản thân 1 lần Vô Địch."
+      }
+    },
+    {
+      "name": "Nốt Nhạc Phản Kích",
+      "icon": "/images/heroes/s_dieqi_s3.png",
+      "description": "Kĩ năng phản kích: Inori dùng tiếng hát để phản kích, gây ra effect % ST ma pháp và 200% ST thuộc tính Phong cho toàn phe địch.",
+      "cooldown": "3 hiệp",
+      "breakthrough": {
+        "level": 3,
+        "title": "Anh Hùng·Inori",
+        "description": "Giảm Né Tránh của toàn thể phe địch về 0."
+      },
+      "skinEffect": "Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", mỗi tầng \"Hòa vào màn đêm\" sẽ khiến kĩ năng này tăng thêm 1 lần ST, giới hạn max gấp 20 lần."
+    },
+    {
+      "name": "Hư Không",
+      "icon": "/images/heroes/s_dieqi_s6.png",
+      "description": "Kĩ năng tử vong: Thể lực của Inori không đủ nên hóa thành hình thái Hư Không, nhổ ra Thanh Kiếm Hư Không, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong cho toàn phe địch. Hồi phục 100% HP tối đa bản thân. Tối đa có thể phóng ra 2 lần.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 6,
+        "title": "Linh·Inori",
+        "description": "Tối đa có thể Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 đơn vị, Trói Buộc toàn thể mục tiêu."
+      },
+      "skinEffect": "Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", gây ra thêm ST bằng 30% HP tối đa của bản thân."
+    },
+    {
+      "name": "Bài Ca Vận Mệnh",
+      "icon": "/images/heroes/s_dieqi_s7.png",
+      "description": "Kĩ năng trước chiến đấu: Inori dùng tiếng hát cổ vũ bản thân, tăng 79% Giảm Thương/ 500% tấn công ma pháp cho bản thân, vĩnh viễn nâng lên 200% Né Tránh và Tốc Độ, và nâng 230% HP tối đa bản thân.",
+      "cooldown": null,
+      "breakthrough": {
+        "level": 7,
+        "title": "Hồn·Inori",
+        "description": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi, hiệu quả tăng HP tối đa được truyền cho toàn thể phe ta."
+      },
+      "skinEffect": "Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\""
+    },
+    {
+      "name": "Tinh Hóa Tâm Linh",
+      "icon": "/images/heroes/s_dieqi_s4.png",
+      "description": "Inori cộng hưởng Linh Lực ở xung quanh, hồi phục HP cho toàn phe ta bằng 100% HP tối đa của Inori",
+      "cooldown": "2 hiệp",
+      "breakthrough": {
+        "level": 4,
+        "title": "Thần Thoại·Inori",
+        "description": "Cho toàn thể phe mình thêm 20% hiệu ứng 神倦."
+      }
+    },
+    {
+      "name": "Mặc Thị Lục",
+      "icon": "/images/heroes/s_dieqi_s5.png",
+      "description": "Kĩ năng trước lượt đấu: Ý thức tạm thời bị Chân Danh tiếp quản, bạo phát ra năng lượng cực mạnh, gây ra effect % ST thực ma pháp và 1200% ST thực thuộc tính Phong.",
+      "cooldown": "1 hiệp",
+      "breakthrough": {
+        "level": 5,
+        "title": "Thần·Inori",
+        "description": "Linh lực tràn ra sẽ cho ngẫu nhiên 2 quân phe ta hiệu ứng Vô Địch trong 2 lượt."
+      },
+      "skinEffect": "Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\"Nếu sử dụng skin \"Hắc Vũ Chi Dạ\" thì sẽ được nhận thêm 1 tầng \"Hòa vào màn đêm\", Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch"
+    }
+  ],
   "bestSynergies": [
     "Thiếu Nữ Ngây Thơ: Khi xuất hiện cùng lúc với Maple và Yatogami Tohka Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
     "Phụng Hiến: Khi xuất hiện cùng lúc với Kikyo Ma Công, HP và Tốc Độ+15%",
@@ -524,5 +606,85 @@
     "Miễn Khống Chế",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Thiếu Nữ Ngây Thơ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Phụng Hiến",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kikyo",
+          "slug": "kikyo",
+          "avatar": "/images/heroes/kikyo.png"
+        }
+      ]
+    },
+    {
+      "name": "Hắc Hóa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Không Thích Tranh Đấu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "428000",
+      "slug": "inori",
+      "name": "Hắc Vũ Chi Dạ - Inori",
+      "avatar": "/images/heroes/icon_dieqipifu.png",
+      "fullArt": "/images/heroes/full/image_dieqipifu.png",
+      "costItem": "Xu Skin",
+      "costAmount": 500,
+      "costIcon": "/images/items/icon_maze_gold.png",
+      "refreshCostItem": "Xu Skin",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục Hắc Vũ Chi Dạ mở khóa bằng 500 Xu Skin, kích hoạt các tầng hiệu ứng \"Hòa vào màn đêm\", gây thêm ST cực mạnh theo HP tối đa và Diệt Ngay kẻ địch.",
+      "skillEnhancements": [
+        {
+          "skillName": "Kỹ năng tử vong",
+          "description": "Nhận thêm 1 tầng \"Hòa vào màn đêm\", gây ra thêm ST bằng 30% HP tối đa của bản thân."
+        },
+        {
+          "skillName": "Kỹ năng trước chiến đấu",
+          "description": "Nhận thêm 1 tầng \"Hòa vào màn đêm\"."
+        },
+        {
+          "skillName": "Kỹ năng trước lượt đấu",
+          "description": "Nhận thêm 1 tầng \"Hòa vào màn đêm\", Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch."
+        }
+      ]
+    }
   ]
 }

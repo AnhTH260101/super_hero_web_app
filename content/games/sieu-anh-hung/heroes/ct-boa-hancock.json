@@ -650,5 +650,58 @@
     "Hóa Đá",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34700",
+    "slug": "boa-hancock",
+    "name": "Boa Hancock",
+    "avatar": "/images/heroes/boa-hancock.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Lục Hải Không",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        },
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua Biển Cả",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        }
+      ]
+    },
+    {
+      "name": "Biệt Đội Nữ Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mei",
+          "slug": "mei",
+          "avatar": "/images/heroes/mei.png"
+        }
+      ]
+    }
   ]
 }

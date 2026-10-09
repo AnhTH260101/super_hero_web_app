@@ -60,18 +60,40 @@ export function getGameHeroes(gameSlug: string, options?: { includeAfterlife?: b
 }
 
 export function getHeroBySlug(gameSlug: string, heroSlugOrId: string): Hero | null {
+  let hero: Hero | null = null;
   const directPath = path.join(CONTENT_DIR, gameSlug, 'heroes', `${heroSlugOrId}.json`);
   if (fs.existsSync(directPath)) {
     try {
-      return JSON.parse(fs.readFileSync(directPath, 'utf-8'));
+      hero = JSON.parse(fs.readFileSync(directPath, 'utf-8'));
     } catch {
       return null;
     }
+  } else {
+    // Tra cứu linh hoạt theo id hoặc slug
+    const heroes = getGameHeroes(gameSlug, { includeAfterlife: true, includeSkins: true });
+    hero = heroes.find(h => h.id === heroSlugOrId || h.slug === heroSlugOrId) || null;
   }
 
-  // Tra cứu linh hoạt theo id hoặc slug
-  const heroes = getGameHeroes(gameSlug, { includeAfterlife: true, includeSkins: true });
-  return heroes.find(h => h.id === heroSlugOrId || h.slug === heroSlugOrId) || null;
+  if (hero && (hero.isAfterlifeForm || hero.isSkinForm) && !hero.baseHero) {
+    const baseHeroes = getGameHeroes(gameSlug, { includeAfterlife: false, includeSkins: false });
+    const base = baseHeroes.find(h => 
+      h.afterlifeForms?.some(af => af.slug === hero?.slug) ||
+      h.skins?.some(s => s.slug === hero?.slug) ||
+      (hero?.slug.startsWith('ct-') && h.slug === hero?.slug.replace(/^ct-/, ''))
+    );
+    if (base) {
+      hero.baseHero = {
+        id: base.id,
+        slug: base.slug,
+        name: base.name,
+        avatar: base.avatar,
+        rarity: base.rarity,
+        role: base.role,
+      };
+    }
+  }
+
+  return hero;
 }
 
 export function getTierList(gameSlug: string): TierListData | null {

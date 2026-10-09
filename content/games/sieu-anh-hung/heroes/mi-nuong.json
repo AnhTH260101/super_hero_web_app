@@ -584,5 +584,66 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Cảnh Rực Lửa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    },
+    {
+      "name": "Tức giận đánh úp",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "slug": "hau-nghe",
+          "avatar": "/images/heroes/hau-nghe.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần linh nộ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Heimdall",
+          "slug": "heimdall",
+          "avatar": "/images/heroes/heimdall.png"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        }
+      ]
+    },
+    {
+      "name": "Lửa Công lý",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        }
+      ]
+    }
   ]
 }

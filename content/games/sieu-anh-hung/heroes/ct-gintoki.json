@@ -644,5 +644,58 @@
     "Đứng Im",
     "Chế Giễu",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "35100",
+    "slug": "gintoki",
+    "name": "Gintoki",
+    "avatar": "/images/heroes/gintoki.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Kiếm Pháp",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        },
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        }
+      ]
+    },
+    {
+      "name": "Cực Hạn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Hảo Ngọt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Levi Ackerman",
+          "slug": "levi-ackerman",
+          "avatar": "/images/heroes/levi-ackerman.png"
+        }
+      ]
+    }
   ]
 }

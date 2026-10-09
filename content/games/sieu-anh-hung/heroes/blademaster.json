@@ -579,5 +579,50 @@
     "Hóa Giải",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Bậc Thầy Bạo Lực",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    },
+    {
+      "name": "Dũng Sĩ Tận Thế",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        },
+        {
+          "name": "Thor",
+          "slug": "thor",
+          "avatar": "/images/heroes/thor.png"
+        }
+      ]
+    },
+    {
+      "name": "Cuồng Chiến Sĩ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        }
+      ]
+    }
   ]
 }

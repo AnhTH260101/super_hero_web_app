@@ -584,5 +584,50 @@
     "Choáng",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Khốc Liệt",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        },
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Chiến Thần",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        },
+        {
+          "name": "Kaneki",
+          "slug": "kaneki",
+          "avatar": "/images/heroes/kaneki.png"
+        }
+      ]
+    },
+    {
+      "name": "Vai Nam Chính",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    }
   ]
 }

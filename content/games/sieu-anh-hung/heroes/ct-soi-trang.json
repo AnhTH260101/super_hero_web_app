@@ -644,5 +644,58 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34200",
+    "slug": "soi-trang",
+    "name": "Sói Trắng",
+    "avatar": "/images/heroes/soi-trang.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Võ Sĩ Đạo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        },
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        }
+      ]
+    },
+    {
+      "name": "Hồn Thần Long",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lý Tiểu Long",
+          "slug": "ly-tieu-long",
+          "avatar": "/images/heroes/ly-tieu-long.png"
+        },
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        }
+      ]
+    },
+    {
+      "name": "Thiện Xạ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hậu Nghệ",
+          "slug": "hau-nghe",
+          "avatar": "/images/heroes/hau-nghe.png"
+        }
+      ]
+    }
   ]
 }

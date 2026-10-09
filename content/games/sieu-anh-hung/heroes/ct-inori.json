@@ -713,5 +713,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "42800",
+    "slug": "inori",
+    "name": "Inori",
+    "avatar": "/images/heroes/icon_dieqi.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Thiếu Nữ Ngây Thơ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Phụng Hiến",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kikyo",
+          "slug": "kikyo",
+          "avatar": "/images/heroes/kikyo.png"
+        }
+      ]
+    },
+    {
+      "name": "Hắc Hóa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Không Thích Tranh Đấu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    }
   ]
 }

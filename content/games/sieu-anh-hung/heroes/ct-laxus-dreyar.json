@@ -687,5 +687,64 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "38600",
+    "slug": "laxus-dreyar",
+    "name": "Laxus Dreyar",
+    "avatar": "/images/heroes/laxus-dreyar.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Liên Kết Fairy Tail",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        },
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        }
+      ]
+    },
+    {
+      "name": "Cảm Điện",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    },
+    {
+      "name": "Dẫn Điện",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    },
+    {
+      "name": "Cường Điện",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tobirama",
+          "slug": "tobirama",
+          "avatar": "/images/heroes/tobirama.png"
+        }
+      ]
+    }
   ]
 }

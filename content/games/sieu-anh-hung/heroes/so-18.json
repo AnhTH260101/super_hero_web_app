@@ -616,5 +616,56 @@
     "Mù",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Cao Thủ Tán Đả",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kusajishi Yachiru",
+          "slug": "kusajishi-yachiru",
+          "avatar": "/images/heroes/kusajishi-yachiru.png"
+        },
+        {
+          "name": "Beerus",
+          "slug": "beerus",
+          "avatar": "/images/heroes/beerus.png"
+        }
+      ]
+    },
+    {
+      "name": "Vĩnh Hằng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kenpachi Zaraki",
+          "slug": "kenpachi-zaraki",
+          "avatar": "/images/heroes/kenpachi-zaraki.png"
+        }
+      ]
+    },
+    {
+      "name": "Thể Thuật",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Thủ Hộ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Champa",
+          "slug": "champa",
+          "avatar": "/images/heroes/champa.png"
+        }
+      ]
+    }
   ]
 }

@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • UR CT - Vegeta",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_beijita.png",
-  "fullArt": "/images/heroes/full/image_vegeta.png",
+  "fullArt": "/images/heroes/full/image_beijita2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
   "isSkinForm": false,
@@ -714,5 +714,64 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "43600",
+    "slug": "vegeta",
+    "name": "Vegeta",
+    "avatar": "/images/heroes/icon_beijita.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Người Thủ Hộ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Trunks",
+          "slug": "trunks",
+          "avatar": "/images/heroes/icon_telankesi.png"
+        },
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Lãnh Tụ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        }
+      ]
+    },
+    {
+      "name": "Bạn Tốt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songohan",
+          "slug": "songohan",
+          "avatar": "/images/heroes/songohan.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Saiya",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    }
   ]
 }

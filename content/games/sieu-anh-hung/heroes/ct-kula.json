@@ -668,5 +668,64 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37200",
+    "slug": "kula",
+    "name": "Kula",
+    "avatar": "/images/heroes/kula.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Vua Các Đấu",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        },
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    },
+    {
+      "name": "Kết Giới Băng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    },
+    {
+      "name": "Đối Lập",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        }
+      ]
+    },
+    {
+      "name": "Ngưng Kết",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        }
+      ]
+    }
   ]
 }

@@ -546,5 +546,50 @@
   "effects": [
     "Giảm Thương",
     "Hóa Giải"
+  ],
+  "destiny": [
+    {
+      "name": "Thiên Mệnh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        },
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        }
+      ]
+    },
+    {
+      "name": "Chư Thần Phẫn Nộ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        }
+      ]
+    },
+    {
+      "name": "Biển Cả Chào Mừng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Copper",
+          "slug": "copper",
+          "avatar": "/images/heroes/copper.png"
+        }
+      ]
+    }
   ]
 }

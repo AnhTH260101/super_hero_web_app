@@ -576,5 +576,55 @@
     "Hóa Giải",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Tấn Công Hung Tàn",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Dương Tiễn",
+          "slug": "duong-tien",
+          "avatar": "/images/heroes/duong-tien.png"
+        },
+        {
+          "name": "Blademaster",
+          "slug": "blademaster",
+          "avatar": "/images/heroes/blademaster.png"
+        }
+      ]
+    },
+    {
+      "name": "Xung Phong",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        },
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm Khách Tam Hiệp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Master Yi",
+          "slug": "master-yi",
+          "avatar": "/images/heroes/master-yi.png"
+        }
+      ]
+    }
   ]
 }

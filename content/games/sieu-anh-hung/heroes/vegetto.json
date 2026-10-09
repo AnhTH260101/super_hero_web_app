@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • SSR Vegetto",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_vegetto.png",
-  "fullArt": "/images/heroes/icon_vegetto.png",
+  "fullArt": "/images/heroes/full/image_vegetto.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
   "isSkinForm": false,
@@ -104,10 +104,45 @@
   ],
   "skins": [
     {
+      "id": "442000",
       "slug": "ct-vegetto",
       "name": "CT - vegetto",
       "avatar": "/images/heroes/icon_vegettopf.png",
-      "overview": "Chiến binh chung cực Cực Ý Vegito với hiệu ứng tăng cường kĩ năng Tự Tại Cực Ý Công và Xóa Sổ."
+      "fullArt": "/images/heroes/full/image_vegettopf.png",
+      "costItem": "Xu Skin Giới Hạn",
+      "costAmount": 500,
+      "costIcon": "/images/items/xiandingyingbi.png",
+      "refreshCostItem": "Xu Skin Giới Hạn",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục chiến binh chung cực Cực Ý Vegito mở khóa bằng Xu Skin Giới Hạn, cường hóa vượt trội toàn bộ kỹ năng nộ, phản kích và tử vong.",
+      "skillEnhancements": [
+        {
+          "skillName": "Tự Tại Cực Ý Công",
+          "description": "Thẻ Phe không nhận Bị Động nữa; bản thân nhận 2 tầng Gợi Đòn, lượng HP max được hồi phục lên tới 100%."
+        },
+        {
+          "skillName": "Xóa Sổ",
+          "description": "Không cần có đồng đội cùng phe Ngọc Rồng trên trận, có tỉ lệ 40% được Hồi Sinh không tốn số lượt, sau khi Chuyển Sinh tăng lên 60%."
+        },
+        {
+          "skillName": "Kỹ năng nộ / Phản trảm",
+          "description": "Hồi 100% HP max."
+        },
+        {
+          "skillName": "Kỹ năng trước lượt đấu",
+          "description": "Không cần đồng đội cùng phe Ngọc Rồng cũng có thể trực tiếp Truy Kích với ST bằng 40% HP max (Chuyển Sinh tăng gấp bội)."
+        }
+      ]
+    }
+  ],
+  "afterlifeForms": [
+    {
+      "slug": "ct-vegetto",
+      "name": "CT - vegetto",
+      "avatar": "/images/heroes/icon_vegettopf.png",
+      "rarity": "SSR",
+      "role": "Tanker",
+      "overview": "Trong lúc chiến đấu với Beerus, Songoku và Vegeta đã dùng \"Bông tai Potara\" do thần Kaio tặng để hợp thể, và sinh ra chiến binh chung cực Cực Ý Vegito."
     }
   ],
   "breakthroughSimData": [
@@ -586,5 +621,56 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Vegeta",
+          "slug": "vegeta",
+          "avatar": "/images/heroes/icon_beijita.png"
+        },
+        {
+          "name": "Trunks",
+          "slug": "trunks",
+          "avatar": "/images/heroes/icon_telankesi.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Hợp Thể",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân Xác Cường Hãn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thợ Săn - Zoro",
+          "slug": "tho-san-zoro",
+          "avatar": "/images/heroes/icon_xsjsuolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Chúa Tể Tuyệt Đối",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        }
+      ]
+    }
   ]
 }

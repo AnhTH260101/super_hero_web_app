@@ -692,5 +692,64 @@
     "Hỗn Loạn",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39600",
+    "slug": "shirakami-goku",
+    "name": "Shirakami Goku",
+    "avatar": "/images/heroes/shirakami-goku.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Tu Hành",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Chizuru",
+          "slug": "chizuru",
+          "avatar": "/images/heroes/chizuru.png"
+        },
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Khí Công",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/cell.png"
+        }
+      ]
+    },
+    {
+      "name": "Nhà Đạo Gia",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Frieza",
+          "slug": "frieza",
+          "avatar": "/images/heroes/frieza.png"
+        }
+      ]
+    },
+    {
+      "name": "Siêu Tiến Hóa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    }
   ]
 }

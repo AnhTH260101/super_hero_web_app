@@ -71,7 +71,7 @@
     }
   ],
   "bestSynergies": [
-    "Bách Chiến Bách Thắng: Khi ra trận cùng lúc với Vehito và Sonkoku thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
+    "Bách Chiến Bách Thắng: Khi ra trận cùng lúc với Vehito và Songoku thì vật công, ma công, HP +20%, phòng ngự, tốc độ +10%",
     "Thần Thượng Cổ: Khi ra trận cùng lúc với Hằng Nga và Hậu Nghệ thì vật công, HP và tốc độ+15%",
     "Người Bảo Vệ: Khi ra trận cùng lúc với Seya thì ma công, HP và tốc độ+15%",
     "Lấp Lánh: Khi trang bị Như Ý Bổng thì vật công+20%"
@@ -577,5 +577,50 @@
     "Giảm Thương",
     "Choáng",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Bách Chiến Bách Thắng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Thượng Cổ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hằng Nga",
+          "slug": "hang-nga",
+          "avatar": "/images/heroes/hang-nga.png"
+        },
+        {
+          "name": "Hậu Nghệ",
+          "slug": "hau-nghe",
+          "avatar": "/images/heroes/hau-nghe.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Bảo Vệ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    }
   ]
 }

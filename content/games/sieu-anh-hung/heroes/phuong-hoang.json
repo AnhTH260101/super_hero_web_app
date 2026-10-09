@@ -50,7 +50,7 @@
   ],
   "bestSynergies": [
     "Quá khứ hào hùng: Tốc độ +30% khi ra trận cùng lúc với Ấn Kí Saiyan, Nemesis và 100 Năng tinh",
-    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Ichigo, Seya và Mabara",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Songoku, Ichigo, Seya và Mabara",
     "Sức mạnh ý niệm: Vật công và HP +15% khi ra trận cùng lúc với Alessa và Tiến sĩ X",
     "Trai tài gái sắc: Ma công +20% khi ra trận cùng lúc với Người sói"
   ],
@@ -304,5 +304,81 @@
   "effects": [
     "Hồi Sinh",
     "Hộ Thuẫn"
+  ],
+  "destiny": [
+    {
+      "name": "Quá khứ hào hùng",
+      "effect": "Tốc Độ +30%",
+      "heroes": [
+        {
+          "name": "Ace",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ace.png"
+        },
+        {
+          "name": "Nemesis",
+          "slug": "",
+          "avatar": "/images/heroes/icon_matt.png"
+        },
+        {
+          "name": "Wesker",
+          "slug": "wesker",
+          "avatar": "/images/heroes/wesker.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần hủy thiên diệt địa",
+      "effect": "Vật Công, HP +25%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức mạnh ý niệm",
+      "effect": "Vật Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Alessa",
+          "slug": "",
+          "avatar": "/images/heroes/icon_aretha.png"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "slug": "tien-si-x",
+          "avatar": "/images/heroes/tien-si-x.png"
+        }
+      ]
+    },
+    {
+      "name": "Trai tài gái sắc",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Người sói",
+          "slug": "",
+          "avatar": "/images/heroes/icon_wolverine.png"
+        }
+      ]
+    }
   ]
 }

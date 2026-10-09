@@ -692,5 +692,64 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39100",
+    "slug": "hisoka",
+    "name": "Hisoka",
+    "avatar": "/images/heroes/hisoka.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Vua Thời Trang",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Mai Shiranui",
+          "slug": "mai-shiranui",
+          "avatar": "/images/heroes/mai-shiranui.png"
+        },
+        {
+          "name": "Grimmjow",
+          "slug": "grimmjow",
+          "avatar": "/images/heroes/grimmjow.png"
+        }
+      ]
+    },
+    {
+      "name": "Diệt Thế Thần Lực",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thanos",
+          "slug": "thanos",
+          "avatar": "/images/heroes/thanos.png"
+        }
+      ]
+    },
+    {
+      "name": "Phản Phái Quang",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sir",
+          "slug": "sir",
+          "avatar": "/images/heroes/sir.png"
+        }
+      ]
+    },
+    {
+      "name": "Lực Tà Ác",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/cell.png"
+        }
+      ]
+    }
   ]
 }

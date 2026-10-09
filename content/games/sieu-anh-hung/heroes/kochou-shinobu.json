@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • SSR Kochou Shinobu",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_hudieren.png",
-  "fullArt": "/images/heroes/icon_hudieren.png",
+  "fullArt": "/images/heroes/full/image_hudieren.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
   "isSkinForm": false,
@@ -621,5 +621,56 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Chuyên gia Đao Kiếm",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Thợ Săn - Zoro",
+          "slug": "tho-san-zoro",
+          "avatar": "/images/heroes/icon_xsjsuolong.png"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Sát Quỷ Đội",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    },
+    {
+      "name": "Hồi Ức Đau Khổ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Pain",
+          "slug": "pain",
+          "avatar": "/images/heroes/pain.png"
+        }
+      ]
+    },
+    {
+      "name": "Y Dược Học",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        }
+      ]
+    }
   ]
 }

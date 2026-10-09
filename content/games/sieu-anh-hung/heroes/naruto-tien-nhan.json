@@ -304,5 +304,82 @@
   "effects": [
     "Giảm Thương",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Trói buộc",
+      "effect": "Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Thuật sexy",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Bé Mai",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kofbeauty.png"
+        }
+      ]
+    },
+    {
+      "name": "Niềm tin",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kensin",
+          "slug": "",
+          "avatar": "/images/heroes/icon_swordheart.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    },
+    {
+      "name": "Manga hay",
+      "effect": "Ma Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy",
+          "slug": "",
+          "avatar": "/images/heroes/icon_luffy.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    },
+    {
+      "name": "Lục đạo luân hồi",
+      "effect": "Vật Công, Phòng Ngự +15%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        }
+      ]
+    }
   ]
 }

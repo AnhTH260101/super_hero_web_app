@@ -97,6 +97,19 @@ export function HeroSkillsSection({ skills }: HeroSkillsSectionProps) {
                 </div>
               )}
 
+              {/* Hiệu ứng cường hóa khi có Trang Phục / Skin */}
+              {skill.skinEffect && (
+                <div className="mt-2.5 p-2.5 rounded-xl bg-pink-950/40 border border-pink-500/50 text-xs shadow-inner">
+                  <div className="font-bold text-pink-300 mb-1 flex items-center gap-1.5">
+                    <span className="text-pink-400">👗</span>
+                    <span>Hiệu ứng Trang Phục / Skin:</span>
+                  </div>
+                  <div className="text-pink-100/90 text-xs leading-relaxed space-y-1">
+                    {renderFormattedDescription(skill.skinEffect)}
+                  </div>
+                </div>
+              )}
+
               {/* Thời gian hồi chiêu */}
               {skill.cooldown && (
                 <div className="text-[11px] font-semibold text-slate-400 pt-2.5 mt-2.5 border-t border-slate-800/80">

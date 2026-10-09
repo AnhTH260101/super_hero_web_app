@@ -670,5 +670,64 @@
     "Chế Giễu",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37600",
+    "slug": "frieza",
+    "name": "Frieza",
+    "avatar": "/images/heroes/frieza.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Vũ trụ mạnh nhất",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kil'jaeden",
+          "slug": "kiljaeden",
+          "avatar": "/images/heroes/kiljaeden.png"
+        },
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Dũng mãnh vô song",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lữ Bố",
+          "slug": "lu-bo",
+          "avatar": "/images/heroes/lu-bo.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua phá hoại",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    },
+    {
+      "name": "Biến Hình!",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        }
+      ]
+    }
   ]
 }

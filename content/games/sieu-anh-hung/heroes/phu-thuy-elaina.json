@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • UR Phù Thủy - Elaina",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_yileina2.png",
-  "fullArt": "/images/heroes/icon_yileina2.png",
+  "fullArt": "/images/heroes/full/image_yileina2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
   "isSkinForm": false,
@@ -718,5 +718,64 @@
     "Chế Giễu",
     "Tsukuyomi",
     "Phản Đòn"
+  ],
+  "baseHero": {
+    "id": "43500",
+    "slug": "elaina",
+    "name": "Elaina",
+    "avatar": "/images/heroes/icon_yileina.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Ma Pháp Sư",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Frieren",
+          "slug": "frieren",
+          "avatar": "/images/heroes/icon_fulilian.png"
+        },
+        {
+          "name": "Satoru Gojo",
+          "slug": "satoru-gojo",
+          "avatar": "/images/heroes/satoru-gojo.png"
+        }
+      ]
+    },
+    {
+      "name": "Tâm Thiếu Nữ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    },
+    {
+      "name": "Nhà Lữ Hành",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Frieren",
+          "slug": "frieren",
+          "avatar": "/images/heroes/icon_fulilian.png"
+        }
+      ]
+    },
+    {
+      "name": "Thành Tựu Học Tập",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Satoru Gojo",
+          "slug": "satoru-gojo",
+          "avatar": "/images/heroes/satoru-gojo.png"
+        }
+      ]
+    }
   ]
 }

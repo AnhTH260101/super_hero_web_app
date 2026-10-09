@@ -581,5 +581,65 @@
     "Hóa Đá",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Lục Hải Không",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        },
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua Biển Cả",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        }
+      ]
+    },
+    {
+      "name": "Biệt Đội Nữ Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mei",
+          "slug": "mei",
+          "avatar": "/images/heroes/mei.png"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "347000",
+      "slug": "bikiniboa-hancock",
+      "name": "Bikini·Boa Hancock",
+      "avatar": "/images/heroes/icon_nvdi_pifu.png",
+      "fullArt": "/images/heroes/full/image_nvdi_pifu.png",
+      "costItem": "Xu Skin",
+      "costAmount": 100,
+      "costIcon": "/images/items/icon_maze_gold.png",
+      "refreshCostItem": "Xu Skin",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục Áo Tắm Nữ Hoàng Hải Tặc mở khóa bằng 100 Xu Skin, gia tăng chỉ số sinh lực và công kích toàn diện."
+    }
   ]
 }

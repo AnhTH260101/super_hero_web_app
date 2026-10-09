@@ -576,5 +576,50 @@
   "effects": [
     "Hóa Giải",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Thần ngạo thế",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Anh linh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        }
+      ]
+    },
+    {
+      "name": "Cha và con",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ace",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ace.png"
+        }
+      ]
+    }
   ]
 }

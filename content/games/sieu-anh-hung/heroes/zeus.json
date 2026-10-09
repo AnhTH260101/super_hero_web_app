@@ -577,5 +577,50 @@
     "Hồi Sinh",
     "Mù",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Chư Thần Phẫn Nộ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        },
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Của Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Uy",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        }
+      ]
+    }
   ]
 }

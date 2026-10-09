@@ -615,5 +615,56 @@
     "Trói Buộc",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ám Bộ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Beerus",
+          "slug": "beerus",
+          "avatar": "/images/heroes/beerus.png"
+        },
+        {
+          "name": "Asamiya Athena",
+          "slug": "asamiya-athena",
+          "avatar": "/images/heroes/asamiya-athena.png"
+        }
+      ]
+    },
+    {
+      "name": "Ám Sát",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Esdese",
+          "slug": "esdese",
+          "avatar": "/images/heroes/esdese.png"
+        }
+      ]
+    },
+    {
+      "name": "Sát Thủ Vương Bài",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    },
+    {
+      "name": "Kẻ Tàng Hình",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    }
   ]
 }

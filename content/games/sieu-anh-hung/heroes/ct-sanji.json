@@ -669,5 +669,69 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "35800",
+    "slug": "sanji",
+    "name": "Sanji",
+    "avatar": "/images/heroes/sanji.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Đầu Bếp Riêng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        }
+      ]
+    },
+    {
+      "name": "Phong Độ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Boa Hancock",
+          "slug": "boa-hancock",
+          "avatar": "/images/heroes/boa-hancock.png"
+        },
+        {
+          "name": "Sakura",
+          "slug": "sakura",
+          "avatar": "/images/heroes/sakura.png"
+        }
+      ]
+    },
+    {
+      "name": "Đấu Tay Không",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kaio",
+          "slug": "kaio",
+          "avatar": "/images/heroes/kaio.png"
+        },
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    },
+    {
+      "name": "Tương Sát",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    }
   ]
 }

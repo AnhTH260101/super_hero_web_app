@@ -5,7 +5,7 @@
   "title": "Vũ trụ sức mạnh • UR CT-Mihawk",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/ct-mihawk.png",
-  "fullArt": "/images/heroes/ct-mihawk.png",
+  "fullArt": "/images/heroes/full/image_yinigyan.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
   "isSkinForm": false,
@@ -673,5 +673,69 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "36500",
+    "slug": "mihawk",
+    "name": "Mihawk",
+    "avatar": "/images/heroes/mihawk.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Tín Ngưỡng Tự Do",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        },
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        }
+      ]
+    },
+    {
+      "name": "Tinh Thần Kỵ Sĩ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        },
+        {
+          "name": "Sanji",
+          "slug": "sanji",
+          "avatar": "/images/heroes/sanji.png"
+        }
+      ]
+    },
+    {
+      "name": "Sư Đồ Đối Thủ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Chủ Yoru",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        }
+      ]
+    }
   ]
 }

@@ -672,5 +672,64 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37700",
+    "slug": "yagami-iori",
+    "name": "Yagami Iori",
+    "avatar": "/images/heroes/yagami-iori.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Máu Orochi",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        },
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        }
+      ]
+    },
+    {
+      "name": "Thức tỉnh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Frieza",
+          "slug": "frieza",
+          "avatar": "/images/heroes/frieza.png"
+        }
+      ]
+    },
+    {
+      "name": "Lửa Bất Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        }
+      ]
+    },
+    {
+      "name": "Đóng băng vĩnh viễn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    }
   ]
 }

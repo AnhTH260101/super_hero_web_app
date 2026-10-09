@@ -585,5 +585,61 @@
     "Choáng",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "CSO",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Batman",
+          "slug": "batman",
+          "avatar": "/images/heroes/batman.png"
+        }
+      ]
+    },
+    {
+      "name": "Pharah",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Medusa",
+          "slug": "medusa",
+          "avatar": "/images/heroes/medusa.png"
+        },
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Động Cơ Đốt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        },
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        }
+      ]
+    },
+    {
+      "name": "Phóng Tên Lửa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    }
   ]
 }

@@ -614,5 +614,56 @@
     "Trói Buộc",
     "Hỗn Loạn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Kẹo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kenpachi Zaraki",
+          "slug": "kenpachi-zaraki",
+          "avatar": "/images/heroes/kenpachi-zaraki.png"
+        },
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        }
+      ]
+    },
+    {
+      "name": "Hoa Mơ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Aizen",
+          "slug": "aizen",
+          "avatar": "/images/heroes/aizen.png"
+        }
+      ]
+    },
+    {
+      "name": "Hộp Đồ Ăn Vặt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hisoka",
+          "slug": "hisoka",
+          "avatar": "/images/heroes/hisoka.png"
+        }
+      ]
+    },
+    {
+      "name": "Màu Hồng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    }
   ]
 }

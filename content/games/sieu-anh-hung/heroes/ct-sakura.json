@@ -656,5 +656,58 @@
     "Thiêu Đốt",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "33400",
+    "slug": "sakura",
+    "name": "Sakura",
+    "avatar": "/images/heroes/sakura.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Ninja Trị Liệu",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "slug": "sasuke-susano",
+          "avatar": "/images/heroes/sasuke-susano.png"
+        }
+      ]
+    },
+    {
+      "name": "Bão Sakura",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gintoki",
+          "slug": "gintoki",
+          "avatar": "/images/heroes/gintoki.png"
+        },
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        }
+      ]
+    },
+    {
+      "name": "Gương Mẫu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mei",
+          "slug": "mei",
+          "avatar": "/images/heroes/mei.png"
+        }
+      ]
+    }
   ]
 }

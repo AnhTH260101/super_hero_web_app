@@ -630,5 +630,56 @@
     "Trói Buộc",
     "Hỗn Loạn",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Nhẫn Thuật",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        },
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Ẩn Thân",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hashirama",
+          "slug": "hashirama",
+          "avatar": "/images/heroes/hashirama.png"
+        }
+      ]
+    },
+    {
+      "name": "Thông Linh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tobirama",
+          "slug": "tobirama",
+          "avatar": "/images/heroes/tobirama.png"
+        }
+      ]
+    },
+    {
+      "name": "Tu Luyện",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Naruto (Tiên nhân)",
+          "slug": "naruto-tien-nhan",
+          "avatar": "/images/heroes/naruto-tien-nhan.png"
+        }
+      ]
+    }
   ]
 }

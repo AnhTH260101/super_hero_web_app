@@ -304,5 +304,76 @@
   "effects": [
     "Miễn Khống Chế",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Hội phụ nữ",
+      "effect": "Phòng Ngự, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Sắt",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ironman.png"
+        },
+        {
+          "name": "Hulk",
+          "slug": "",
+          "avatar": "/images/heroes/icon_hork.png"
+        },
+        {
+          "name": "Đội trưởng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_steve.png"
+        }
+      ]
+    },
+    {
+      "name": "Kẻ lang thang",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kensin",
+          "slug": "",
+          "avatar": "/images/heroes/icon_swordheart.png"
+        },
+        {
+          "name": "Kensiro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_northfist.png"
+        },
+        {
+          "name": "Tiến Sĩ Rocky",
+          "slug": "",
+          "avatar": "/images/heroes/icon_neville.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức mạnh nguyên tố",
+      "effect": "Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Băng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kuzan.png"
+        },
+        {
+          "name": "Bé Mai",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kofbeauty.png"
+        }
+      ]
+    },
+    {
+      "name": "Sạc điện",
+      "effect": "Phòng Ngự +20%",
+      "heroes": [
+        {
+          "name": "Cảnh Trưởng Thép",
+          "slug": "",
+          "avatar": "/images/heroes/icon_robocop.png"
+        }
+      ]
+    }
   ]
 }

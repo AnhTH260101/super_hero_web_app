@@ -577,5 +577,65 @@
     "Hồi Sinh",
     "Giảm Thương",
     "Hóa Giải"
+  ],
+  "destiny": [
+    {
+      "name": "Thần· Minh Giới Chuyển Sinh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Dracula",
+          "slug": "dracula",
+          "avatar": "/images/heroes/dracula.png"
+        }
+      ]
+    },
+    {
+      "name": "Thể Linh Năng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy",
+          "slug": "",
+          "avatar": "/images/heroes/icon_luffy.png"
+        },
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Thiên Mệnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        },
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        }
+      ]
+    }
   ]
 }

@@ -689,5 +689,64 @@
     "Phản Đòn",
     "Hút Máu",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39900",
+    "slug": "vlad-iii",
+    "name": "Vlad III",
+    "avatar": "/images/heroes/vlad-iii.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Hoàng Tộc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kuchiki Byakuya",
+          "slug": "kuchiki-byakuya",
+          "avatar": "/images/heroes/kuchiki-byakuya.png"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "slug": "laxus-dreyar",
+          "avatar": "/images/heroes/laxus-dreyar.png"
+        }
+      ]
+    },
+    {
+      "name": "Huyết Mạch",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "saber",
+          "slug": "saber",
+          "avatar": "/images/heroes/saber.png"
+        }
+      ]
+    },
+    {
+      "name": "Hắc Ám",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    },
+    {
+      "name": "Vương Giả",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kaio",
+          "slug": "kaio",
+          "avatar": "/images/heroes/kaio.png"
+        }
+      ]
+    }
   ]
 }

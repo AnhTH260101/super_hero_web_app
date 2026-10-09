@@ -582,5 +582,50 @@
     "Giảm Thương",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Tracer",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Sói Trắng",
+          "slug": "soi-trang",
+          "avatar": "/images/heroes/soi-trang.png"
+        },
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        }
+      ]
+    },
+    {
+      "name": "Đánh Cắp Thời Gian",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        },
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        }
+      ]
+    },
+    {
+      "name": "Bậc Thầy Phi Hành",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Batman",
+          "slug": "batman",
+          "avatar": "/images/heroes/batman.png"
+        }
+      ]
+    }
   ]
 }

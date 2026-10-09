@@ -685,5 +685,64 @@
     "Trọng Thương",
     "Trói Buộc",
     "Phản Đòn"
+  ],
+  "baseHero": {
+    "id": "42300",
+    "slug": "satoru-gojo",
+    "name": "Satoru Gojo",
+    "avatar": "/images/heroes/satoru-gojo.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Cảm Tri Ngoài Thị Giác",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        },
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        }
+      ]
+    },
+    {
+      "name": "Vũ Khí?",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    },
+    {
+      "name": "Độc Tôn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Niết Bàn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kikyo",
+          "slug": "kikyo",
+          "avatar": "/images/heroes/kikyo.png"
+        }
+      ]
+    }
   ]
 }

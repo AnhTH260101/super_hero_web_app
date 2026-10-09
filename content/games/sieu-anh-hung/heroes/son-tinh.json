@@ -580,5 +580,50 @@
   "effects": [
     "Giảm Thương",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Bộ lạc vương tử",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Batman",
+          "slug": "batman",
+          "avatar": "/images/heroes/batman.png"
+        }
+      ]
+    },
+    {
+      "name": "Ma thần cổ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        },
+        {
+          "name": "Medusa",
+          "slug": "medusa",
+          "avatar": "/images/heroes/medusa.png"
+        }
+      ]
+    },
+    {
+      "name": "Truyền thuyết hắc ám",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        }
+      ]
+    }
   ]
 }

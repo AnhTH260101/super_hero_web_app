@@ -685,5 +685,64 @@
     "Mù",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "41200",
+    "slug": "tsunade",
+    "name": "Tsunade",
+    "avatar": "/images/heroes/tsunade.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Cờ Bạc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        },
+        {
+          "name": "Uchiha Obito",
+          "slug": "uchiha-obito",
+          "avatar": "/images/heroes/uchiha-obito.png"
+        }
+      ]
+    },
+    {
+      "name": "Nghiện Rượu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shana",
+          "slug": "shana",
+          "avatar": "/images/heroes/shana.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiên Cường",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mai Shiranui",
+          "slug": "mai-shiranui",
+          "avatar": "/images/heroes/mai-shiranui.png"
+        }
+      ]
+    },
+    {
+      "name": "Thể Thuật",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    }
   ]
 }

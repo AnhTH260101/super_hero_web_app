@@ -683,5 +683,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Truy Kích"
+  ],
+  "baseHero": {
+    "id": "43000",
+    "slug": "rau-trang",
+    "name": "Râu Trắng",
+    "avatar": "/images/heroes/icon_baihuzi.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "chí cường",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Satoru Gojo",
+          "slug": "satoru-gojo",
+          "avatar": "/images/heroes/satoru-gojo.png"
+        }
+      ]
+    },
+    {
+      "name": "phụ huynh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "khí phách",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        }
+      ]
+    },
+    {
+      "name": "đao pháp",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    }
   ]
 }

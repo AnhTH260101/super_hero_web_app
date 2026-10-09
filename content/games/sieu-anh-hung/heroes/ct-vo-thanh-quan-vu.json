@@ -559,5 +559,50 @@
     "Giảm Thương",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Đấu Hồn",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        }
+      ]
+    },
+    {
+      "name": "Qua Ải Chém Tướng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Xích Liễm Bạch Mã",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    }
   ]
 }

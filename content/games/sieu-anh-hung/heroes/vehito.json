@@ -579,5 +579,55 @@
   ],
   "effects": [
     "Miễn Khống Chế"
+  ],
+  "destiny": [
+    {
+      "name": "Thần· Ngạo thế",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        }
+      ]
+    },
+    {
+      "name": "Mạnh nhất vũ trụ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    },
+    {
+      "name": "Namek",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Veheta",
+          "slug": "veheta",
+          "avatar": "/images/heroes/veheta.png"
+        }
+      ]
+    }
   ]
 }

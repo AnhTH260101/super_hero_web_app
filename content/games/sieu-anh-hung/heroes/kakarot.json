@@ -32,7 +32,7 @@
     {
       "name": "Cảm Thụ Khí",
       "icon": "/images/heroes/s_XWukong2_s2.png",
-      "description": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Kỹ năng trước khi bị tấn công: Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu; có được một tầng \"Hộ Giá\".",
+      "description": "",
       "cooldown": null,
       "breakthrough": {
         "level": 2,
@@ -42,7 +42,8 @@
       "badge": {
         "level": 2,
         "description": "Đột phá tiềm lực: (Cảm Thụ Khí) Nhận 1 tầng \"Ngộ\""
-      }
+      },
+      "skinEffect": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Kỹ năng trước khi bị tấn công: Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu; có được một tầng \"Hộ Giá\"."
     },
     {
       "name": "Đạn Khí Liên Kích",
@@ -62,7 +63,7 @@
     {
       "name": "Kích Hoạt Tiềm Lực",
       "icon": "/images/heroes/s_XWukong2_s6.png",
-      "description": "Kỹ năng Tử Vong: Hồi phục toàn bộ HP. Tối đa có thể Hồi Sinh 2 lần.Diệt ngay ngẫu nhiên 1 kẻ địch.Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa.",
+      "description": "Kỹ năng Tử Vong: Hồi phục toàn bộ HP. Tối đa có thể Hồi Sinh 2 lần.Diệt ngay ngẫu nhiên 1 kẻ địch.",
       "cooldown": null,
       "breakthrough": {
         "level": 6,
@@ -72,12 +73,13 @@
       "badge": {
         "level": 6,
         "description": "Đột phá tiềm lực: (Kích Hoạt Tiềm Lực) Bỏ qua Trọng Thương"
-      }
+      },
+      "skinEffect": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa."
     },
     {
       "name": "Kamekameha",
       "icon": "/images/heroes/s_XWukong2_s7.png",
-      "description": "Kỹ năng trước khi chiến đấu: Tăng 230% HP bản thân/ 79% giảm thương, 500% Trúng Đích và Né Tránh. Gây ra ST bằng 40% HP tối đa của bản thân.Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa.",
+      "description": "Kỹ năng trước khi chiến đấu: Tăng 230% HP bản thân/ 79% giảm thương, 500% Trúng Đích và Né Tránh. Gây ra ST bằng 40% HP tối đa của bản thân.",
       "cooldown": null,
       "breakthrough": {
         "level": 7,
@@ -87,7 +89,8 @@
       "badge": {
         "level": 7,
         "description": "Đột phá tiềm lực: (Kamekameha) Cho bản thân 1 tầng Thần Ngự."
-      }
+      },
+      "skinEffect": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Truy kích thêm ST bằng 40% HP tối đa."
     },
     {
       "name": "Ki Blast",
@@ -107,7 +110,7 @@
     {
       "name": "Đạn Nguyên Khí",
       "icon": "/images/heroes/s_XWukong2_s5.png",
-      "description": "Kỹ năng trước lượt đấu: Tăng Trúng Đích của bản thân lên đến 100, nhận 1 tầng \"Không\", gây ra 350% ST vật lý thêm ST thực bằng số tầng \"Không\" x 10% HP tối đa.Nhiều nhất được chồng 10 tầng \"Không\".Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Gây ra thêm ST thực bằng 1500% tấn công thuộc tính hoả.",
+      "description": "Kỹ năng trước lượt đấu: Tăng Trúng Đích của bản thân lên đến 100, nhận 1 tầng \"Không\", gây ra 350% ST vật lý thêm ST thực bằng số tầng \"Không\" x 10% HP tối đa.Nhiều nhất được chồng 10 tầng \"Không\".",
       "cooldown": "1 hiệp",
       "breakthrough": {
         "level": 5,
@@ -117,7 +120,8 @@
       "badge": {
         "level": 5,
         "description": "Đột phá tiềm lực: (Đạn nguyên khí) \"Ngộ\" luôn có 10 tầng. Nếu bản thân đã có 3 tầng \"Không\" thì được tăng gấp bội ST bằng HP tối đa"
-      }
+      },
+      "skinEffect": "Nếu sử dụng skin \"Songoku Siêu Xayda 3\": Gây ra thêm ST thực bằng 1500% tấn công thuộc tính hoả."
     }
   ],
   "bestSynergies": [
@@ -715,5 +719,97 @@
     "Trầm Mặc",
     "Phản Đòn",
     "Truy Kích"
+  ],
+  "baseHero": {
+    "id": "42500",
+    "slug": "songoku",
+    "name": "Songoku",
+    "avatar": "/images/heroes/ct-songoku.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Người Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình Nghĩa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "avatar": "/images/heroes/piccolo.png"
+        }
+      ]
+    },
+    {
+      "name": "Bất Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        }
+      ]
+    },
+    {
+      "name": "Võ Si",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "425000",
+      "slug": "songoku-sieu-xayda-3",
+      "name": "Songoku Siêu Xayda 3",
+      "avatar": "/images/heroes/icon_XWukong3.png",
+      "fullArt": "/images/heroes/full/image_XWukong3.png",
+      "costItem": "Xu Skin",
+      "costAmount": 500,
+      "costIcon": "/images/items/icon_maze_gold.png",
+      "refreshCostItem": "Xu Skin",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục Super Saiyan 3 huyền thoại mở khóa bằng 500 Xu Skin, kích hoạt hiệu ứng Hộ Giá, miễn nhiễm hiệu ứng Mệt Mỏi, tăng số lần Hồi Sinh và sát thương thuộc tính Hỏa.",
+      "skillEnhancements": [
+        {
+          "skillName": "Kỹ năng trước khi bị tấn công",
+          "description": "Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu; nhận 1 tầng \"Hộ Giá\"."
+        },
+        {
+          "skillName": "Kỹ năng Tử Vong",
+          "description": "Truy kích thêm ST bằng 40% HP tối đa. Khi Hồi Sinh: \"Không\" không cho hiệu ứng \"Mệt Mỏi\" nữa, số lần Hồi Sinh tăng lên 4, ST truy kích tăng lên 60% HP tối đa."
+        },
+        {
+          "skillName": "Kỹ năng trước khi chiến đấu",
+          "description": "Truy kích thêm ST bằng 40% HP tối đa."
+        },
+        {
+          "skillName": "Kỹ năng trước lượt đấu",
+          "description": "Gây ra thêm ST thực bằng 1500% tấn công thuộc tính hoả."
+        }
+      ]
+    }
   ]
 }

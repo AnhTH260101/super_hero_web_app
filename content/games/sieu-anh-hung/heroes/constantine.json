@@ -581,5 +581,50 @@
     "Miễn Khống Chế",
     "Giảm Thương",
     "Đóng Băng"
+  ],
+  "destiny": [
+    {
+      "name": "Thuật Sĩ Thần Bí",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Dương Tiễn",
+          "slug": "duong-tien",
+          "avatar": "/images/heroes/duong-tien.png"
+        },
+        {
+          "name": "Gaten",
+          "slug": "gaten",
+          "avatar": "/images/heroes/gaten.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình Thế Khủng Bố",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Trừ Tà",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        }
+      ]
+    }
   ]
 }

@@ -613,5 +613,56 @@
     "Hóa Giải",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ẩn Cư",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Gilgamesh",
+          "slug": "gilgamesh",
+          "avatar": "/images/heroes/gilgamesh.png"
+        },
+        {
+          "name": "Shaka",
+          "slug": "shaka",
+          "avatar": "/images/heroes/shaka.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Tu Bổ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Saga",
+          "slug": "saga",
+          "avatar": "/images/heroes/saga.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Bí",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        }
+      ]
+    },
+    {
+      "name": "Hiểu Biết",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sir",
+          "slug": "sir",
+          "avatar": "/images/heroes/sir.png"
+        }
+      ]
+    }
   ]
 }

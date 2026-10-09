@@ -585,5 +585,61 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Cứng Nhắc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Hỏa Nhân",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "N.G.U",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        },
+        {
+          "name": "Gintoki",
+          "slug": "gintoki",
+          "avatar": "/images/heroes/gintoki.png"
+        }
+      ]
+    },
+    {
+      "name": "Sát Quỷ Rồng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    }
   ]
 }

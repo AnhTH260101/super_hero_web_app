@@ -659,5 +659,64 @@
     "Chế Giễu",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "36100",
+    "slug": "kiljaeden",
+    "name": "Kil'jaeden",
+    "avatar": "/images/heroes/kiljaeden.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Ác Ma Nộ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Lich King",
+          "slug": "lich-king",
+          "avatar": "/images/heroes/lich-king.png"
+        }
+      ]
+    },
+    {
+      "name": "Tốc Độ Đen Tối",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Địa Ngục Thiên Đường",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    },
+    {
+      "name": "Băng Hỏa Ma",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    }
   ]
 }

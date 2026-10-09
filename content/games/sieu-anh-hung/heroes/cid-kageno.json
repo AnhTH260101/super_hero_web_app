@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • SSR Cid Kageno",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_anying.png",
-  "fullArt": "/images/heroes/icon_anying.png",
+  "fullArt": "/images/heroes/full/image_anying.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
   "isSkinForm": false,
@@ -623,5 +623,56 @@
     "Trói Buộc",
     "Phản Đòn",
     "Truy Kích"
+  ],
+  "destiny": [
+    {
+      "name": "Tàng Phong",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Frieren",
+          "slug": "frieren",
+          "avatar": "/images/heroes/icon_fulilian.png"
+        },
+        {
+          "name": "Inori",
+          "slug": "inori",
+          "avatar": "/images/heroes/icon_dieqi.png"
+        }
+      ]
+    },
+    {
+      "name": "Tín Niệm",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Pain",
+          "slug": "pain",
+          "avatar": "/images/heroes/pain.png"
+        }
+      ]
+    },
+    {
+      "name": "Sáng Tạo Ma Pháp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Thủ Lĩnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        }
+      ]
+    }
   ]
 }

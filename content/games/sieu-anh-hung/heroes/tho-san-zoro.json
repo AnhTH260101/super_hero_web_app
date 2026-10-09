@@ -5,7 +5,7 @@
   "title": "Vũ trụ linh tính • SSR Thợ Săn - Zoro",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_xsjsuolong.png",
-  "fullArt": "/images/heroes/icon_xsjsuolong.png",
+  "fullArt": "/images/heroes/full/image_xsjsuolong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
   "isSkinForm": false,
@@ -622,5 +622,56 @@
     "Chế Giễu",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Kiểm Ảnh Tà Mị",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        },
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    },
+    {
+      "name": "Hải Tặc Nổi Tiếng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        }
+      ]
+    },
+    {
+      "name": "Lý Tưởng Vĩ Đại",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        }
+      ]
+    },
+    {
+      "name": "Sư Đồ Truyền Thừa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    }
   ]
 }

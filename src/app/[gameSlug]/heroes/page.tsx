@@ -15,7 +15,7 @@ export default async function HeroesListPage({ params }: Props) {
   const game = getGameMeta(gameSlug);
   if (!game) notFound();
 
-  const heroes = getGameHeroes(gameSlug, { includeAfterlife: true });
+  const heroes = getGameHeroes(gameSlug, { includeAfterlife: true, includeSkins: true });
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col">
@@ -35,7 +35,7 @@ export default async function HeroesListPage({ params }: Props) {
             <span>Thư Viện Tướng ({heroes.length})</span>
           </h1>
           <p className="text-sm text-slate-400 mt-1">
-            Tra cứu thông tin chi tiết toàn bộ nhân vật, bao gồm tướng mặc định cốt lõi và các dạng cảnh giới chuyển thế.
+            Tra cứu thông tin chi tiết toàn bộ nhân vật, bao gồm tướng mặc định cốt lõi, cảnh giới chuyển thế và hệ thống trang phục skin.
           </p>
         </div>
 

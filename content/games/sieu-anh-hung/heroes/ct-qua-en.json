@@ -670,5 +670,64 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37100",
+    "slug": "qua-en",
+    "name": "Quạ Đen",
+    "avatar": "/images/heroes/qua-en.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Đơn Đao Hội",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "InuYasha",
+          "slug": "inuyasha",
+          "avatar": "/images/heroes/inuyasha.png"
+        },
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    },
+    {
+      "name": "Ám Ảnh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua Bóng Đêm",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kil'jaeden",
+          "slug": "kiljaeden",
+          "avatar": "/images/heroes/kiljaeden.png"
+        }
+      ]
+    },
+    {
+      "name": "Tử Thần Bleach",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        }
+      ]
+    }
   ]
 }

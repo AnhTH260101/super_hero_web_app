@@ -673,5 +673,69 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "35500",
+    "slug": "monkey-d-luffy",
+    "name": "Monkey D. Luffy",
+    "avatar": "/images/heroes/monkey-d-luffy.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Thuyền Trưởng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        }
+      ]
+    },
+    {
+      "name": "Đồng Hành",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Copper",
+          "slug": "copper",
+          "avatar": "/images/heroes/copper.png"
+        }
+      ]
+    },
+    {
+      "name": "Ngây Ngô",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        },
+        {
+          "name": "Gintoki",
+          "slug": "gintoki",
+          "avatar": "/images/heroes/gintoki.png"
+        }
+      ]
+    },
+    {
+      "name": "Biến Dạng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kaio",
+          "slug": "kaio",
+          "avatar": "/images/heroes/kaio.png"
+        }
+      ]
+    }
   ]
 }

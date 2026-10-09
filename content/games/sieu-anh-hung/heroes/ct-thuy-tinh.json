@@ -648,5 +648,58 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "33900",
+    "slug": "thuy-tinh",
+    "name": "Thủy Tinh",
+    "avatar": "/images/heroes/thuy-tinh.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Thủy Chính vương tộc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Heimdall",
+          "slug": "heimdall",
+          "avatar": "/images/heroes/heimdall.png"
+        },
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    },
+    {
+      "name": "Hỗn độn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Batman",
+          "slug": "batman",
+          "avatar": "/images/heroes/batman.png"
+        }
+      ]
+    },
+    {
+      "name": "Thủy Hỏa bất dung",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        }
+      ]
+    }
   ]
 }

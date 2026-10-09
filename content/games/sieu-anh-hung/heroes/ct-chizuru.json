@@ -690,5 +690,64 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39500",
+    "slug": "chizuru",
+    "name": "Chizuru",
+    "avatar": "/images/heroes/chizuru.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Mê Ảnh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Deadpool",
+          "slug": "deadpool",
+          "avatar": "/images/heroes/deadpool.png"
+        },
+        {
+          "name": "Yagami Iori",
+          "slug": "yagami-iori",
+          "avatar": "/images/heroes/yagami-iori.png"
+        }
+      ]
+    },
+    {
+      "name": "Gia Tộc Thủ Hộ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mai Shiranui",
+          "slug": "mai-shiranui",
+          "avatar": "/images/heroes/mai-shiranui.png"
+        }
+      ]
+    },
+    {
+      "name": "Ẩn Danh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Asamiya Athena",
+          "slug": "asamiya-athena",
+          "avatar": "/images/heroes/asamiya-athena.png"
+        }
+      ]
+    },
+    {
+      "name": "Nhà Các Đấu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Saitama",
+          "slug": "saitama",
+          "avatar": "/images/heroes/saitama.png"
+        }
+      ]
+    }
   ]
 }

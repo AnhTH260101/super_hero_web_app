@@ -573,5 +573,50 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ngai Vàng Băng Giá",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Constantine",
+          "slug": "constantine",
+          "avatar": "/images/heroes/constantine.png"
+        },
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        }
+      ]
+    },
+    {
+      "name": "Đoàn Thiên Tai",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        },
+        {
+          "name": "Superman",
+          "slug": "superman",
+          "avatar": "/images/heroes/superman.png"
+        }
+      ]
+    },
+    {
+      "name": "Viễn Chinh Bừng Cháy",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gaten",
+          "slug": "gaten",
+          "avatar": "/images/heroes/gaten.png"
+        }
+      ]
+    }
   ]
 }

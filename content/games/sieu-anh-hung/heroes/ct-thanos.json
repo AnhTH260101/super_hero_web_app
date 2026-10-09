@@ -678,5 +678,64 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "38400",
+    "slug": "thanos",
+    "name": "Thanos",
+    "avatar": "/images/heroes/thanos.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Hủy Thiên Diệt Địa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        },
+        {
+          "name": "Kil'jaeden",
+          "slug": "kiljaeden",
+          "avatar": "/images/heroes/kiljaeden.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Vũ Trụ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shin",
+          "slug": "shin",
+          "avatar": "/images/heroes/shin.png"
+        }
+      ]
+    },
+    {
+      "name": "Nhà Dã Tâm",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Diệt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Frieza",
+          "slug": "frieza",
+          "avatar": "/images/heroes/frieza.png"
+        }
+      ]
+    }
   ]
 }

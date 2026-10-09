@@ -676,5 +676,64 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "38500",
+    "slug": "mai-shiranui",
+    "name": "Mai Shiranui",
+    "avatar": "/images/heroes/mai-shiranui.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Trợ Diệm!",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "saber",
+          "slug": "saber",
+          "avatar": "/images/heroes/saber.png"
+        },
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Mỹ Nữ Các Đấu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    },
+    {
+      "name": "Shiranui? Rắn Lửa?",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yagami Iori",
+          "slug": "yagami-iori",
+          "avatar": "/images/heroes/yagami-iori.png"
+        }
+      ]
+    },
+    {
+      "name": "Bữa Tiệc Lửa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        }
+      ]
+    }
   ]
 }

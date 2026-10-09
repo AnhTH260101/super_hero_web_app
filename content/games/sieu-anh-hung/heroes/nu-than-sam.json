@@ -576,5 +576,50 @@
   "effects": [
     "Giảm Thương",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Lôi Âm Chấn",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Loki",
+          "slug": "loki",
+          "avatar": "/images/heroes/loki.png"
+        }
+      ]
+    },
+    {
+      "name": "Trận Lôi Đình",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Blademaster",
+          "slug": "blademaster",
+          "avatar": "/images/heroes/blademaster.png"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        }
+      ]
+    },
+    {
+      "name": "Lôi Chấn Biển",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    }
   ]
 }

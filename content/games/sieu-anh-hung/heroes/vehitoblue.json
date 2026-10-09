@@ -669,5 +669,69 @@
     "Thiêu Đốt",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34800",
+    "slug": "black",
+    "name": "Black",
+    "avatar": "/images/heroes/black.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Cắt Nhanh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        }
+      ]
+    },
+    {
+      "name": "Cuồng Ma",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        },
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        }
+      ]
+    },
+    {
+      "name": "Xông Pha",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        },
+        {
+          "name": "Kaneki",
+          "slug": "kaneki",
+          "avatar": "/images/heroes/kaneki.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm Thần",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        }
+      ]
+    }
   ]
 }

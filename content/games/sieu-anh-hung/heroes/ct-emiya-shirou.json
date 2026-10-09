@@ -684,5 +684,64 @@
     "Hỗn Loạn",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "41000",
+    "slug": "emiya-shirou",
+    "name": "Emiya Shirou",
+    "avatar": "/images/heroes/emiya-shirou.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Kiếm Tiên",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        },
+        {
+          "name": "Gilgamesh",
+          "slug": "gilgamesh",
+          "avatar": "/images/heroes/gilgamesh.png"
+        }
+      ]
+    },
+    {
+      "name": "Ma Thuật",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Chiến Binh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "InuYasha",
+          "slug": "inuyasha",
+          "avatar": "/images/heroes/inuyasha.png"
+        }
+      ]
+    },
+    {
+      "name": "Ảnh Đế",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Asamiya Athena",
+          "slug": "asamiya-athena",
+          "avatar": "/images/heroes/asamiya-athena.png"
+        }
+      ]
+    }
   ]
 }

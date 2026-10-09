@@ -572,5 +572,50 @@
     "Hóa Giải",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ma Long Kỵ Sĩ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Gaten",
+          "slug": "gaten",
+          "avatar": "/images/heroes/gaten.png"
+        },
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        }
+      ]
+    },
+    {
+      "name": "Tướng Lĩnh Tận Thế",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        }
+      ]
+    },
+    {
+      "name": "Huyết Thống Cao Quý",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        },
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        }
+      ]
+    }
   ]
 }

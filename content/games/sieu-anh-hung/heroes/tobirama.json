@@ -5,7 +5,7 @@
   "title": "Vũ trụ sức mạnh • SSR Tobirama",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/tobirama.png",
-  "fullArt": "/images/heroes/tobirama.png",
+  "fullArt": "/images/heroes/full/image_feijian.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
   "isSkinForm": false,
@@ -618,5 +618,56 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Ý chí lửa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Gaara",
+          "slug": "gaara",
+          "avatar": "/images/heroes/gaara.png"
+        },
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        }
+      ]
+    },
+    {
+      "name": "Tộc Senju",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hashirama",
+          "slug": "hashirama",
+          "avatar": "/images/heroes/hashirama.png"
+        }
+      ]
+    },
+    {
+      "name": "Lực thủy lưu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        }
+      ]
+    },
+    {
+      "name": "Dẫn điện mạnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    }
   ]
 }

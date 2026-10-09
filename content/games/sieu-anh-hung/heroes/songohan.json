@@ -622,5 +622,56 @@
     "Choáng",
     "Trầm Mặc",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Người Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình nghĩa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        }
+      ]
+    },
+    {
+      "name": "Cha con",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Không thích tranh đấu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    }
   ]
 }

@@ -50,7 +50,7 @@
   ],
   "bestSynergies": [
     "Người cầm đao: Vật công và tốc độ +15% khi ra trận cùng lúc với Michonne và Kensin",
-    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Seya và Mabara",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Songoku, Phượng Hoàng, Seya và Mabara",
     "Thay lời cái chết: Tốc độ +20% khi ra trận cùng lúc với Ghost Rider",
     "Manga hay: Ma công và HP +15% khi ra trận cùng lúc với Nanato và Luffy"
   ],
@@ -303,5 +303,108 @@
   ],
   "effects": [
     "Chảy Máu"
+  ],
+  "destiny": [
+    {
+      "name": "Người cầm đao",
+      "effect": "Vật Công, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Michonne",
+          "slug": "",
+          "avatar": "/images/heroes/icon_daonv.png"
+        },
+        {
+          "name": "Kensin",
+          "slug": "",
+          "avatar": "/images/heroes/icon_swordheart.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần hủy thiên diệt địa",
+      "effect": "Vật Công, HP +25%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        }
+      ]
+    },
+    {
+      "name": "Thay lời cái chết",
+      "effect": "Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Ghost Rider",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ketch.png"
+        }
+      ]
+    },
+    {
+      "name": "Manga hay",
+      "effect": "Ma Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Nanato",
+          "slug": "",
+          "avatar": "/images/heroes/icon_naruto.png"
+        },
+        {
+          "name": "Luffy",
+          "slug": "",
+          "avatar": "/images/heroes/icon_luffy.png"
+        }
+      ]
+    },
+    {
+      "name": "Sâu sắc",
+      "effect": "Ma Công, Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    },
+    {
+      "name": "Mạnh nhất vũ trụ",
+      "effect": "Ma Công +15%; Phòng Ngự +10%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        }
+      ]
+    }
   ]
 }

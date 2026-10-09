@@ -616,5 +616,61 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Thiếu Nữ Hiếu Chiến",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Asamiya Athena",
+          "slug": "asamiya-athena",
+          "avatar": "/images/heroes/asamiya-athena.png"
+        },
+        {
+          "name": "Shaka",
+          "slug": "shaka",
+          "avatar": "/images/heroes/shaka.png"
+        }
+      ]
+    },
+    {
+      "name": "Ninja Xuất Chúng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Sakura",
+          "slug": "sakura",
+          "avatar": "/images/heroes/sakura.png"
+        }
+      ]
+    },
+    {
+      "name": "Chiến Thần Tay Không",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Saitama",
+          "slug": "saitama",
+          "avatar": "/images/heroes/saitama.png"
+        }
+      ]
+    },
+    {
+      "name": "Khí Chất Ngự Tỉ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        }
+      ]
+    }
   ]
 }

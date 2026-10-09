@@ -684,5 +684,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Truy Kích"
+  ],
+  "baseHero": {
+    "id": "42900",
+    "slug": "rimuru",
+    "name": "Rimuru",
+    "avatar": "/images/heroes/icon_limulu.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Nam Chính",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        },
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Dị Thế Giới",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Vương Giả",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        }
+      ]
+    },
+    {
+      "name": "Nơi Mũi Kiếm Hướng Về",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shalltear",
+          "slug": "shalltear",
+          "avatar": "/images/heroes/shalltear.png"
+        }
+      ]
+    }
   ]
 }

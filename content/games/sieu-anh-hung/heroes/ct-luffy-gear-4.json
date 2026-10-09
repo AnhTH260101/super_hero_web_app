@@ -683,5 +683,64 @@
     "Giảm Thương",
     "Trói Buộc",
     "Phản Đòn"
+  ],
+  "baseHero": {
+    "id": "42400",
+    "slug": "luffy-gear-4",
+    "name": "Luffy Gear 4",
+    "avatar": "/images/heroes/luffy-gear-4.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Từng Quyền Đấm Thịt",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Shalltear",
+          "slug": "shalltear",
+          "avatar": "/images/heroes/shalltear.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân Thịt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        }
+      ]
+    },
+    {
+      "name": "Phòng Ngự",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Ẩn Tàng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    }
   ]
 }

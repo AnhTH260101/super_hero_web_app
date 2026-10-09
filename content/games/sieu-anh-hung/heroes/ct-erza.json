@@ -664,5 +664,69 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "36000",
+    "slug": "erza",
+    "name": "Erza",
+    "avatar": "/images/heroes/erza.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Bá Vương Fairy",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        },
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        }
+      ]
+    },
+    {
+      "name": "Nữ Vương",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Boa Hancock",
+          "slug": "boa-hancock",
+          "avatar": "/images/heroes/boa-hancock.png"
+        }
+      ]
+    },
+    {
+      "name": "Hoán Trang",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        },
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        }
+      ]
+    },
+    {
+      "name": "Miss Bạo Lực",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sakura",
+          "slug": "sakura",
+          "avatar": "/images/heroes/sakura.png"
+        }
+      ]
+    }
   ]
 }

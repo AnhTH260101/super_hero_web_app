@@ -579,5 +579,55 @@
     "Chảy Máu",
     "Mù",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Vô Cực Đạo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    },
+    {
+      "name": "Thiên Phú",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Hằng Nga",
+          "slug": "hang-nga",
+          "avatar": "/images/heroes/hang-nga.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm Khách Tam Hiệp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        }
+      ]
+    }
   ]
 }

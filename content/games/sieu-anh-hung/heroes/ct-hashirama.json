@@ -672,5 +672,69 @@
     "Đứng Im",
     "Tsukuyomi",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "36700",
+    "slug": "hashirama",
+    "name": "Hashirama",
+    "avatar": "/images/heroes/hashirama.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Tư Duy Hỏa Ảnh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        }
+      ]
+    },
+    {
+      "name": "Người Chuyển Thế",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        },
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân Khổng Lồ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Sáng Pháp Bách Hào",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sakura",
+          "slug": "sakura",
+          "avatar": "/images/heroes/sakura.png"
+        }
+      ]
+    }
   ]
 }

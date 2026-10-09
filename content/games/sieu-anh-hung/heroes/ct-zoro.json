@@ -536,5 +536,50 @@
   "effects": [
     "Giảm Thương",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Tà Mị Kiếm Ảnh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        },
+        {
+          "name": "Heimdall",
+          "slug": "heimdall",
+          "avatar": "/images/heroes/heimdall.png"
+        }
+      ]
+    },
+    {
+      "name": "Hải Tặc Trứ Danh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        },
+        {
+          "name": "Nữ thần Sấm",
+          "slug": "nu-than-sam",
+          "avatar": "/images/heroes/nu-than-sam.png"
+        }
+      ]
+    },
+    {
+      "name": "Bảo Vệ Môi Trường",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Loki",
+          "slug": "loki",
+          "avatar": "/images/heroes/loki.png"
+        }
+      ]
+    }
   ]
 }

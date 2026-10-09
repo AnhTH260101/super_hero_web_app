@@ -624,5 +624,56 @@
     "Trói Buộc",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Nước Chảy Vô Hình",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kikyo",
+          "slug": "kikyo",
+          "avatar": "/images/heroes/kikyo.png"
+        },
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        }
+      ]
+    },
+    {
+      "name": "Khoái Đao Vô Ảnh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kenpachi Zaraki",
+          "slug": "kenpachi-zaraki",
+          "avatar": "/images/heroes/kenpachi-zaraki.png"
+        }
+      ]
+    },
+    {
+      "name": "Niên Thiếu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kusajishi Yachiru",
+          "slug": "kusajishi-yachiru",
+          "avatar": "/images/heroes/kusajishi-yachiru.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Ẩn Tàng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        }
+      ]
+    }
   ]
 }

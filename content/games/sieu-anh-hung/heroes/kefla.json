@@ -619,5 +619,56 @@
     "Đứng Im",
     "Chế Giễu",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Valkyrie",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Shermie",
+          "slug": "shermie",
+          "avatar": "/images/heroes/shermie.png"
+        },
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    },
+    {
+      "name": "Lực hợp thể",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        }
+      ]
+    },
+    {
+      "name": "Năng lượng vô hạn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức mạnh nữ vương",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Boa Hancock",
+          "slug": "boa-hancock",
+          "avatar": "/images/heroes/boa-hancock.png"
+        }
+      ]
+    }
   ]
 }

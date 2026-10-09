@@ -614,5 +614,56 @@
     "Trói Buộc",
     "Hỗn Loạn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Thích Khách",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Akame",
+          "slug": "akame",
+          "avatar": "/images/heroes/akame.png"
+        },
+        {
+          "name": "Beerus",
+          "slug": "beerus",
+          "avatar": "/images/heroes/beerus.png"
+        }
+      ]
+    },
+    {
+      "name": "Thu Hoạch",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Vlad III",
+          "slug": "vlad-iii",
+          "avatar": "/images/heroes/vlad-iii.png"
+        }
+      ]
+    },
+    {
+      "name": "Phù Tang",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "InuYasha",
+          "slug": "inuyasha",
+          "avatar": "/images/heroes/inuyasha.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm Gỗ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Asamiya Athena",
+          "slug": "asamiya-athena",
+          "avatar": "/images/heroes/asamiya-athena.png"
+        }
+      ]
+    }
   ]
 }

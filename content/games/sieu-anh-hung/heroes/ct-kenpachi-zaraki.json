@@ -686,5 +686,64 @@
     "Trói Buộc",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "41400",
+    "slug": "kenpachi-zaraki",
+    "name": "Kenpachi Zaraki",
+    "avatar": "/images/heroes/kenpachi-zaraki.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Hung Ác",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        },
+        {
+          "name": "Aizen",
+          "slug": "aizen",
+          "avatar": "/images/heroes/aizen.png"
+        }
+      ]
+    },
+    {
+      "name": "Vết Thẹo",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        }
+      ]
+    },
+    {
+      "name": "Nhiệt Huyết",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mai Shiranui",
+          "slug": "mai-shiranui",
+          "avatar": "/images/heroes/mai-shiranui.png"
+        }
+      ]
+    },
+    {
+      "name": "Mù Đường",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    }
   ]
 }

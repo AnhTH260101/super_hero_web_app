@@ -578,5 +578,50 @@
     "Hóa Giải",
     "Mù",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Thần Lực Vô Tận",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        },
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Chư Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        },
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    },
+    {
+      "name": "Bảo Vệ Tuyệt Đối",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    }
   ]
 }

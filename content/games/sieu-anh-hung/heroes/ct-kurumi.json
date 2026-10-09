@@ -686,5 +686,64 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "40300",
+    "slug": "kurumi",
+    "name": "Kurumi",
+    "avatar": "/images/heroes/kurumi.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Thiên Sứ Thời Gian",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Aizen",
+          "slug": "aizen",
+          "avatar": "/images/heroes/aizen.png"
+        },
+        {
+          "name": "Esdese",
+          "slug": "esdese",
+          "avatar": "/images/heroes/esdese.png"
+        }
+      ]
+    },
+    {
+      "name": "Thời Gian",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiểm Soát",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    },
+    {
+      "name": "Trôi Qua",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    }
   ]
 }

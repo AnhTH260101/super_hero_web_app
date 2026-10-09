@@ -71,7 +71,7 @@
     }
   ],
   "bestSynergies": [
-    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Ichigo và Mabara",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Songoku, Phượng Hoàng, Ichigo và Mabara",
     "Chính nghĩa chung cực: Vật công và tốc độ +20% khi ra trận cùng lúc với Người Băng và Kensiro",
     "Năm bổn mạng: Phòng ngự +20% khi ra trận cùng lúc với Cảnh Sát Ngân Hà",
     "Niềm tin: HP và tốc độ +15% khi ra trận cùng lúc với Nanato và Kensin"
@@ -576,5 +576,92 @@
   "effects": [
     "Hồi Sinh",
     "Bất Tử"
+  ],
+  "destiny": [
+    {
+      "name": "Thần hủy thiên diệt địa",
+      "effect": "Vật Công, HP +25%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        }
+      ]
+    },
+    {
+      "name": "Chính nghĩa chung cực",
+      "effect": "Vật Công, Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Người Băng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kuzan.png"
+        },
+        {
+          "name": "Kensiro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_northfist.png"
+        }
+      ]
+    },
+    {
+      "name": "Năm bổn mạng",
+      "effect": "Phòng Ngự +20%",
+      "heroes": [
+        {
+          "name": "Cảnh Sát Ngân Hà",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sailajiong.png"
+        }
+      ]
+    },
+    {
+      "name": "Niềm tin",
+      "effect": "Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Nanato",
+          "slug": "",
+          "avatar": "/images/heroes/icon_naruto.png"
+        },
+        {
+          "name": "Kensin",
+          "slug": "",
+          "avatar": "/images/heroes/icon_swordheart.png"
+        }
+      ]
+    },
+    {
+      "name": "Sâu sắc",
+      "effect": "Ma Công, Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    }
   ]
 }

@@ -49,7 +49,7 @@
     }
   ],
   "bestSynergies": [
-    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Sonkoku, Phượng Hoàng, Ichigo và Seya",
+    "Thần hủy thiên diệt địa: Vật công và HP +25% khi ra trận cùng lúc với Songoku, Phượng Hoàng, Ichigo và Seya",
     "Thân ở trên cao: Ma công và tốc độ +20% khi ra trận cùng lúc với Người Băng, Veheta và Trùm Cảnh Sát",
     "Phản nhân loại: Vật công và HP +15% khi ra trận cùng lúc với Trùm Cảnh Sát và 100 Năng tinh",
     "Uchiha: Ma công +20% khi ra trận cùng lúc với Linh kiện Đăng Vân Lữ"
@@ -303,5 +303,113 @@
   ],
   "effects": [
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Thần hủy thiên diệt địa",
+      "effect": "Vật Công, HP +25%",
+      "heroes": [
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        },
+        {
+          "name": "Seya",
+          "slug": "seya",
+          "avatar": "/images/heroes/seya.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân ở trên cao",
+      "effect": "Ma Công, Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Người Băng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_kuzan.png"
+        },
+        {
+          "name": "Veheta",
+          "slug": "veheta",
+          "avatar": "/images/heroes/veheta.png"
+        },
+        {
+          "name": "Trùm Cảnh Sát",
+          "slug": "",
+          "avatar": "/images/heroes/icon_vega.png"
+        }
+      ]
+    },
+    {
+      "name": "Phản nhân loại",
+      "effect": "Vật Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Trùm Cảnh Sát",
+          "slug": "",
+          "avatar": "/images/heroes/icon_vega.png"
+        },
+        {
+          "name": "Wesker",
+          "slug": "wesker",
+          "avatar": "/images/heroes/wesker.png"
+        }
+      ]
+    },
+    {
+      "name": "Uchiha",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Lục đạo luân hồi",
+      "effect": "Ma Công, Phòng Ngự +10%; Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Nanato",
+          "slug": "",
+          "avatar": "/images/heroes/icon_naruto.png"
+        },
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        }
+      ]
+    },
+    {
+      "name": "Sặc sỡ",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Ninja Rùa",
+          "slug": "",
+          "avatar": "/images/heroes/icon_davinci.png"
+        }
+      ]
+    }
   ]
 }

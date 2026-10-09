@@ -618,5 +618,56 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Quí Tộc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kurumi",
+          "slug": "kurumi",
+          "avatar": "/images/heroes/kurumi.png"
+        },
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Hủy Diệt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Thức Tỉnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/cell.png"
+        }
+      ]
+    },
+    {
+      "name": "Con Thoi",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    }
   ]
 }

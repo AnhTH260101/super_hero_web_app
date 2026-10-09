@@ -547,5 +547,50 @@
     "Giảm Thương",
     "Thiêu Đốt",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Thần Thượng Cổ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Hằng Nga",
+          "slug": "hang-nga",
+          "avatar": "/images/heroes/hang-nga.png"
+        },
+        {
+          "name": "Tề Thiên Đại Thánh",
+          "slug": "te-thien-ai-thanh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+        }
+      ]
+    },
+    {
+      "name": "Thông Thiên Quán Địa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zeus",
+          "slug": "zeus",
+          "avatar": "/images/heroes/zeus.png"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Vạn Quân Thế",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "slug": "vo-thanh-quan-vu",
+          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+        }
+      ]
+    }
   ]
 }

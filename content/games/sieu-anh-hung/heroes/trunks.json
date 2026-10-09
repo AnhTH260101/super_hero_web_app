@@ -626,5 +626,56 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Người Thủ Hộ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        },
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    },
+    {
+      "name": "Nagato",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        }
+      ]
+    },
+    {
+      "name": "Bạn Thân",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songohan",
+          "slug": "songohan",
+          "avatar": "/images/heroes/songohan.png"
+        }
+      ]
+    },
+    {
+      "name": "Saiyan",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    }
   ]
 }

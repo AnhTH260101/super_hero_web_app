@@ -666,5 +666,64 @@
     "Hôn Mê",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37800",
+    "slug": "saber",
+    "name": "saber",
+    "avatar": "/images/heroes/saber.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Phong lâm sơn hỏa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Lữ Bố",
+          "slug": "lu-bo",
+          "avatar": "/images/heroes/lu-bo.png"
+        },
+        {
+          "name": "Yagami Iori",
+          "slug": "yagami-iori",
+          "avatar": "/images/heroes/yagami-iori.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua một nước",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Boa Hancock",
+          "slug": "boa-hancock",
+          "avatar": "/images/heroes/boa-hancock.png"
+        }
+      ]
+    },
+    {
+      "name": "Sứ đồ kiếm",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    },
+    {
+      "name": "Phong thái nữ vương",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    }
   ]
 }

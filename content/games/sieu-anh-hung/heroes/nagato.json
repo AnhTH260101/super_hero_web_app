@@ -715,5 +715,64 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "43100",
+    "slug": "pain",
+    "name": "Pain",
+    "avatar": "/images/heroes/pain.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Hồi Sinh",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Songohan",
+          "slug": "songohan",
+          "avatar": "/images/heroes/songohan.png"
+        },
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Thủ Lĩnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Râu Trắng",
+          "slug": "rau-trang",
+          "avatar": "/images/heroes/icon_baihuzi.png"
+        }
+      ]
+    },
+    {
+      "name": "Lưỡi Kiếm",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Huyết Cừu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tsunade",
+          "slug": "tsunade",
+          "avatar": "/images/heroes/tsunade.png"
+        }
+      ]
+    }
   ]
 }

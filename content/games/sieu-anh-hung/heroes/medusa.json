@@ -584,5 +584,45 @@
     "Mù",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Oa Hoàng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        },
+        {
+          "name": "Constantine",
+          "slug": "constantine",
+          "avatar": "/images/heroes/constantine.png"
+        }
+      ]
+    },
+    {
+      "name": "Nữ Đế",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Mình người mặt rắn",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        }
+      ]
+    }
   ]
 }

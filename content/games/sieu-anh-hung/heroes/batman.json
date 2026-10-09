@@ -572,5 +572,66 @@
     "Giảm Thương",
     "Hóa Giải",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Liên Minh Chính Nghĩa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        },
+        {
+          "name": "Superman",
+          "slug": "superman",
+          "avatar": "/images/heroes/superman.png"
+        }
+      ]
+    },
+    {
+      "name": "Bậc Thầy Chiến Thuật",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Võ Thánh Quan Vũ",
+          "slug": "vo-thanh-quan-vu",
+          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+        },
+        {
+          "name": "Constantine",
+          "slug": "constantine",
+          "avatar": "/images/heroes/constantine.png"
+        }
+      ]
+    },
+    {
+      "name": "Anh Hùng Bình Dân",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hậu Nghệ",
+          "slug": "hau-nghe",
+          "avatar": "/images/heroes/hau-nghe.png"
+        },
+        {
+          "name": "Người Tí Hon",
+          "slug": "nguoi-ti-hon",
+          "avatar": "/images/heroes/nguoi-ti-hon.png"
+        }
+      ]
+    },
+    {
+      "name": "Các Đấu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lý Tiểu Long",
+          "slug": "ly-tieu-long",
+          "avatar": "/images/heroes/ly-tieu-long.png"
+        }
+      ]
+    }
   ]
 }

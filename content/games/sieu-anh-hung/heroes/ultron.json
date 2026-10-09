@@ -306,5 +306,55 @@
     "Giảm Thương",
     "Thiêu Đốt",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "BOSS",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        },
+        {
+          "name": "Tiến sĩ X",
+          "slug": "tien-si-x",
+          "avatar": "/images/heroes/tien-si-x.png"
+        }
+      ]
+    },
+    {
+      "name": "Đối đầu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hulk",
+          "slug": "",
+          "avatar": "/images/heroes/icon_hork.png"
+        },
+        {
+          "name": "Thor",
+          "slug": "thor",
+          "avatar": "/images/heroes/thor.png"
+        }
+      ]
+    },
+    {
+      "name": "Phản phệ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hades",
+          "slug": "hades",
+          "avatar": "/images/heroes/hades.png"
+        }
+      ]
+    }
   ]
 }

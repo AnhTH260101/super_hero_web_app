@@ -12,10 +12,10 @@ interface HeroesExplorerProps {
 
 export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug }) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [heroTypeFilter, setHeroTypeFilter] = useState<'ALL' | 'DEFAULT' | 'AFTERLIFE'>('ALL');
+  const [heroTypeFilter, setHeroTypeFilter] = useState<'DEFAULT' | 'AFTERLIFE' | 'SKIN'>('DEFAULT');
 
   // Lọc tướng theo từ khóa và phân tách
-  const { defaultHeroes, afterlifeHeroes } = useMemo(() => {
+  const { defaultHeroes, afterlifeHeroes, skinForms, baseSkinHeroes, skinHeroes } = useMemo(() => {
     const term = searchTerm.trim().toLowerCase();
 
     const matchesSearch = (h: Hero) =>
@@ -24,18 +24,31 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
       h.id.includes(term) ||
       h.skills.some((s) => s.name.toLowerCase().includes(term));
 
-    const defaults = heroes.filter((h) => !h.isAfterlifeForm && matchesSearch(h));
-    const afterlifes = heroes.filter((h) => h.isAfterlifeForm && matchesSearch(h));
+    const defaults = heroes.filter((h) => !h.isAfterlifeForm && !h.isSkinForm && matchesSearch(h));
+    const afterlifes = heroes.filter((h) => h.isAfterlifeForm && !h.isSkinForm && matchesSearch(h));
 
-    return { defaultHeroes: defaults, afterlifeHeroes: afterlifes };
+    // Thẻ trang phục skin độc lập (isSkinForm)
+    const skins = heroes.filter((h) => h.isSkinForm && matchesSearch(h));
+    // Tướng gốc sở hữu trang phục skin
+    const baseSkins = heroes.filter((h) => !h.isSkinForm && h.skins && h.skins.length > 0 && matchesSearch(h));
+    // Toàn bộ nhân vật liên quan đến skin (thẻ trang phục + tướng sở hữu skin)
+    const allSkins = [...skins, ...baseSkins];
+
+    return {
+      defaultHeroes: defaults,
+      afterlifeHeroes: afterlifes,
+      skinForms: skins,
+      baseSkinHeroes: baseSkins,
+      skinHeroes: allSkins,
+    };
   }, [heroes, searchTerm]);
 
   const totalFiltered =
-    heroTypeFilter === 'ALL'
-      ? defaultHeroes.length + afterlifeHeroes.length
-      : heroTypeFilter === 'DEFAULT'
+    heroTypeFilter === 'DEFAULT'
       ? defaultHeroes.length
-      : afterlifeHeroes.length;
+      : heroTypeFilter === 'AFTERLIFE'
+      ? afterlifeHeroes.length
+      : skinHeroes.length;
 
   const renderHeroCard = (hero: Hero) => (
     <Link
@@ -58,9 +71,17 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
           </div>
 
           <div className="flex flex-col items-end gap-1">
-            {hero.isAfterlifeForm ? (
+            {hero.isSkinForm ? (
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-pink-500/20 text-pink-300 border border-pink-500/40">
+                Trang Phục
+              </span>
+            ) : hero.isAfterlifeForm ? (
               <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/40">
                 Chuyển Thế
+              </span>
+            ) : hero.skins && hero.skins.length > 0 ? (
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-pink-500/10 text-pink-300 border border-pink-500/30">
+                Có Skin
               </span>
             ) : (
               <span className="px-2 py-0.5 rounded-md text-[10px] font-mono text-slate-400 bg-slate-800/80 border border-slate-700">
@@ -110,23 +131,13 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
           )}
         </div>
 
-        {/* Duy nhất Bộ Lọc: Mặc Định & Chuyển Thế */}
+        {/* Bộ Lọc: Mặc Định, Chuyển Thế & Trang Phục / Skin */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-1">
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold text-slate-400 uppercase tracking-wider mr-1">
               Phân loại:
             </span>
-            <div className="inline-flex p-1 bg-slate-950 rounded-2xl border border-slate-800">
-              <button
-                onClick={() => setHeroTypeFilter('ALL')}
-                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                  heroTypeFilter === 'ALL'
-                    ? 'bg-amber-500 text-slate-950 shadow-md'
-                    : 'text-slate-400 hover:text-white'
-                }`}
-              >
-                Tất Cả ({defaultHeroes.length + afterlifeHeroes.length})
-              </button>
+            <div className="inline-flex flex-wrap p-1 bg-slate-950 rounded-2xl border border-slate-800 gap-1">
               <button
                 onClick={() => setHeroTypeFilter('DEFAULT')}
                 className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
@@ -146,6 +157,16 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
                 }`}
               >
                 Tướng Chuyển Thế ({afterlifeHeroes.length})
+              </button>
+              <button
+                onClick={() => setHeroTypeFilter('SKIN')}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                  heroTypeFilter === 'SKIN'
+                    ? 'bg-pink-600 text-white shadow-md'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                Trang Phục / Skin ({skinHeroes.length})
               </button>
             </div>
           </div>
@@ -170,17 +191,17 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
           <button
             onClick={() => {
               setSearchTerm('');
-              setHeroTypeFilter('ALL');
+              setHeroTypeFilter('DEFAULT');
             }}
             className="px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold"
           >
-            Hiển thị lại toàn bộ tướng
+            Hiển thị lại tướng mặc định
           </button>
         </div>
       ) : (
         <div className="space-y-12">
           {/* Layout 1: Tướng Mặc Định / Cốt Lõi */}
-          {(heroTypeFilter === 'ALL' || heroTypeFilter === 'DEFAULT') && defaultHeroes.length > 0 && (
+          {heroTypeFilter === 'DEFAULT' && defaultHeroes.length > 0 && (
             <div>
               <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-800">
                 <div className="w-8 h-8 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400">
@@ -201,7 +222,7 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
           )}
 
           {/* Layout 2: Tướng Chuyển Thế (Afterlife) */}
-          {(heroTypeFilter === 'ALL' || heroTypeFilter === 'AFTERLIFE') && afterlifeHeroes.length > 0 && (
+          {heroTypeFilter === 'AFTERLIFE' && afterlifeHeroes.length > 0 && (
             <div>
               <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-800">
                 <div className="w-8 h-8 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
@@ -218,6 +239,53 @@ export const HeroesExplorer: React.FC<HeroesExplorerProps> = ({ heroes, gameSlug
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {afterlifeHeroes.map(renderHeroCard)}
               </div>
+            </div>
+          )}
+
+          {/* Layout 3: Tab SKIN */}
+          {heroTypeFilter === 'SKIN' && skinHeroes.length > 0 && (
+            <div className="space-y-12">
+              {/* Thẻ Trang Phục Skin */}
+              {skinForms.length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-800">
+                    <div className="w-8 h-8 rounded-xl bg-pink-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400">
+                      <Sparkles className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h2 className="text-xl font-black text-white">Thẻ Trang Phục / Skin ({skinForms.length})</h2>
+                      <p className="text-xs text-pink-300/80">
+                        Các phiên bản ngoại hình độc lập mở khóa bằng Xu Skin hoặc Xu Skin Giới Hạn
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {skinForms.map(renderHeroCard)}
+                  </div>
+                </div>
+              )}
+
+              {/* Tướng Gốc Có Thể Kích Hoạt Skin */}
+              {baseSkinHeroes.length > 0 && (
+                <div>
+                  <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-800">
+                    <div className="w-8 h-8 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400">
+                      <Shield className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <h2 className="text-xl font-black text-white">Tướng Gốc Sở Hữu Trang Phục ({baseSkinHeroes.length})</h2>
+                      <p className="text-xs text-slate-400">
+                        Các tướng cốt lõi có kỹ năng được kích hoạt thêm hiệu ứng mạnh mẽ khi sở hữu Skin
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {baseSkinHeroes.map(renderHeroCard)}
+                  </div>
+                </div>
+              )}
             </div>
           )}
         </div>

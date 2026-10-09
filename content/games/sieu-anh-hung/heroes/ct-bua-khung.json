@@ -651,5 +651,69 @@
     "Choáng",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34400",
+    "slug": "bua-khung",
+    "name": "Búa Khủng",
+    "avatar": "/images/heroes/bua-khung.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Tín Điều Kỵ Sĩ",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Bậc Thầy Chính Nghĩa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ảo Ảnh",
+          "slug": "ao-anh",
+          "avatar": "/images/heroes/ao-anh.png"
+        },
+        {
+          "name": "Constantine",
+          "slug": "constantine",
+          "avatar": "/images/heroes/constantine.png"
+        }
+      ]
+    },
+    {
+      "name": "Quân Chữ Thập",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        },
+        {
+          "name": "Mị Nương",
+          "slug": "mi-nuong",
+          "avatar": "/images/heroes/mi-nuong.png"
+        }
+      ]
+    },
+    {
+      "name": "Lính Đặc Chủng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Heimdall",
+          "slug": "heimdall",
+          "avatar": "/images/heroes/heimdall.png"
+        }
+      ]
+    }
   ]
 }

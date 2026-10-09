@@ -114,10 +114,17 @@
   ],
   "skins": [
     {
+      "id": "353000",
       "slug": "darkuchiha",
       "name": "Dark·Uchiha",
-      "avatar": "/images/heroes/darkuchiha.png",
-      "overview": "Uchiha phiên bản hắc ám, sống đơn độc trong bóng tối và gánh tất cả trách nhiệm."
+      "avatar": "/images/heroes/icon_Itachi_pifu.png",
+      "fullArt": "/images/heroes/full/image_Itachi_pifu.png",
+      "costItem": "Xu Skin",
+      "costAmount": 100,
+      "costIcon": "/images/items/icon_maze_gold.png",
+      "refreshCostItem": "Xu Skin",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục Dark Uchiha mở khóa bằng 100 Xu Skin, gia tăng chỉ số bạo kích, công kích và năng lực khống chế."
     }
   ],
   "breakthroughSimData": [
@@ -616,5 +623,61 @@
     "Đứng Im",
     "Tsukuyomi",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Góc Tối",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    },
+    {
+      "name": "Kính Vạn Hoa",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        },
+        {
+          "name": "Sasuke (Susano)",
+          "slug": "sasuke-susano",
+          "avatar": "/images/heroes/sasuke-susano.png"
+        }
+      ]
+    },
+    {
+      "name": "Phong Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        },
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        }
+      ]
+    },
+    {
+      "name": "Công Bằng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kaio",
+          "slug": "kaio",
+          "avatar": "/images/heroes/kaio.png"
+        }
+      ]
+    }
   ]
 }

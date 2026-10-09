@@ -326,5 +326,55 @@
   "effects": [
     "Giảm Thương",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Giông buồm ra khơi",
+      "effect": "HP, Ma Công +15%; Phòng Ngự +10%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        },
+        {
+          "name": "Luffy",
+          "slug": "",
+          "avatar": "/images/heroes/icon_luffy.png"
+        }
+      ]
+    },
+    {
+      "name": "Anime dễ thương",
+      "effect": "Phòng Ngự, Tốc Độ +10%; Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Ninja Rùa",
+          "slug": "",
+          "avatar": "/images/heroes/icon_davinci.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        }
+      ]
+    },
+    {
+      "name": "Thầy luyện thú",
+      "effect": "HP, Ma Công, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Ace",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ace.png"
+        },
+        {
+          "name": "Ichigo",
+          "slug": "ichigo",
+          "avatar": "/images/heroes/ichigo.png"
+        }
+      ]
+    }
   ]
 }

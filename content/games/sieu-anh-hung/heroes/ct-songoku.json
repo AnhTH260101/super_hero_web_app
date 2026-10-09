@@ -4,7 +4,7 @@
   "name": "CT - Songoku",
   "title": "Vũ trụ linh tính • SSR CT - Songoku",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/songoku.png",
+  "avatar": "/images/heroes/icon_XWukong.png",
   "fullArt": "/images/heroes/full/image_XWukong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -603,5 +603,56 @@
     "Trói Buộc",
     "Trầm Mặc",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Người Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Broli",
+          "slug": "broli",
+          "avatar": "/images/heroes/broli.png"
+        },
+        {
+          "name": "Shirakami Goku",
+          "slug": "shirakami-goku",
+          "avatar": "/images/heroes/shirakami-goku.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình Nghĩa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "avatar": "/images/heroes/piccolo.png"
+        }
+      ]
+    },
+    {
+      "name": "Bất Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Luffy Gear 4",
+          "slug": "luffy-gear-4",
+          "avatar": "/images/heroes/luffy-gear-4.png"
+        }
+      ]
+    },
+    {
+      "name": "Võ Si",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kamado Tanjiro",
+          "slug": "kamado-tanjiro",
+          "avatar": "/images/heroes/kamado-tanjiro.png"
+        }
+      ]
+    }
   ]
 }

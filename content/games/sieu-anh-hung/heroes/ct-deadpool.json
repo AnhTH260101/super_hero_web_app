@@ -697,5 +697,64 @@
     "Tsukuyomi",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "39400",
+    "slug": "deadpool",
+    "name": "Deadpool",
+    "avatar": "/images/heroes/deadpool.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Kẻ Phá Hoại",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Chizuru",
+          "slug": "chizuru",
+          "avatar": "/images/heroes/chizuru.png"
+        },
+        {
+          "name": "Thanos",
+          "slug": "thanos",
+          "avatar": "/images/heroes/thanos.png"
+        }
+      ]
+    },
+    {
+      "name": "Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Cell",
+          "slug": "cell",
+          "avatar": "/images/heroes/cell.png"
+        }
+      ]
+    },
+    {
+      "name": "Ý Chí",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    },
+    {
+      "name": "Thức Tỉnh",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Nhện",
+          "slug": "",
+          "avatar": "/images/heroes/icon_spiderman.png"
+        }
+      ]
+    }
   ]
 }

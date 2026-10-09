@@ -303,5 +303,81 @@
   ],
   "effects": [
     "Thiêu Đốt"
+  ],
+  "destiny": [
+    {
+      "name": "Quá khứ hào hùng",
+      "effect": "Vật Công +25%",
+      "heroes": [
+        {
+          "name": "Ace",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ace.png"
+        },
+        {
+          "name": "Nemesis",
+          "slug": "",
+          "avatar": "/images/heroes/icon_matt.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        }
+      ]
+    },
+    {
+      "name": "Phản nhân loại",
+      "effect": "Vật Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Trùm Cảnh Sát",
+          "slug": "",
+          "avatar": "/images/heroes/icon_vega.png"
+        },
+        {
+          "name": "Mabara",
+          "slug": "mabara",
+          "avatar": "/images/heroes/mabara.png"
+        }
+      ]
+    },
+    {
+      "name": "Liên minh nam thần",
+      "effect": "Phòng Ngự, HP +25%",
+      "heroes": [
+        {
+          "name": "Daryl Dixon",
+          "slug": "",
+          "avatar": "/images/heroes/icon_darryl.png"
+        },
+        {
+          "name": "Xaxuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sasuke.png"
+        },
+        {
+          "name": "Hiei",
+          "slug": "",
+          "avatar": "/images/heroes/icon_shadow.png"
+        },
+        {
+          "name": "Veheta",
+          "slug": "veheta",
+          "avatar": "/images/heroes/veheta.png"
+        }
+      ]
+    },
+    {
+      "name": "Hô mưa gọi gió",
+      "effect": "Tốc Độ +20%",
+      "heroes": [
+        {
+          "name": "Ada",
+          "slug": "",
+          "avatar": "/images/heroes/icon_ada.png"
+        }
+      ]
+    }
   ]
 }

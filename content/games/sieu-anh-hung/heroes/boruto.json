@@ -569,5 +569,50 @@
   ],
   "effects": [
     "Miễn Khống Chế"
+  ],
+  "destiny": [
+    {
+      "name": "Dòng Máu Hiếm",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        },
+        {
+          "name": "Gaten",
+          "slug": "gaten",
+          "avatar": "/images/heroes/gaten.png"
+        }
+      ]
+    },
+    {
+      "name": "Bi Kịch",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Loki",
+          "slug": "loki",
+          "avatar": "/images/heroes/loki.png"
+        },
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        }
+      ]
+    },
+    {
+      "name": "Chơi Khăm",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Người Hùng Tia Chớp",
+          "slug": "nguoi-hung-tia-chop",
+          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+        }
+      ]
+    }
   ]
 }

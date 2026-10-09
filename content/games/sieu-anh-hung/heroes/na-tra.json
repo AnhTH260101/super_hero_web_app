@@ -71,7 +71,7 @@
     }
   ],
   "bestSynergies": [
-    "Thiếu Niên Anh Hùng: Khi cùng Venus và Sonkoku ra trận thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
+    "Thiếu Niên Anh Hùng: Khi cùng Venus và Songoku ra trận thì vật công, ma công, HP +20%, phòng ngự và tốc độ +10%",
     "Thủy Thượng Giao Long: Khi cùng Athena và Poseidon ra trận thì vật công, HP và tốc độ +15%",
     "Đấu Chiến Tam Thánh: Khi cùng Dương Tiễn ra trận thì ma công, HP và tốc độ +15%",
     "Thần Hồn: Khi trang bị Tiểu Tiêm Thương thì ma công +20%"
@@ -574,5 +574,50 @@
     "Thiêu Đốt",
     "Choáng",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Thiếu Niên Anh Hùng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Venus",
+          "slug": "venus",
+          "avatar": "/images/heroes/venus.png"
+        },
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thủy Thượng Giao Long",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Athena",
+          "slug": "athena",
+          "avatar": "/images/heroes/athena.png"
+        },
+        {
+          "name": "Poseidon",
+          "slug": "poseidon",
+          "avatar": "/images/heroes/poseidon.png"
+        }
+      ]
+    },
+    {
+      "name": "Đấu Chiến Tam Thánh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Dương Tiễn",
+          "slug": "duong-tien",
+          "avatar": "/images/heroes/duong-tien.png"
+        }
+      ]
+    }
   ]
 }

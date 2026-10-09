@@ -686,5 +686,64 @@
     "Trói Buộc",
     "Tsukuyomi",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "40900",
+    "slug": "tornado",
+    "name": "Tornado",
+    "avatar": "/images/heroes/tornado.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Anh Hùng Cấp S",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Champa",
+          "slug": "champa",
+          "avatar": "/images/heroes/champa.png"
+        },
+        {
+          "name": "Esdese",
+          "slug": "esdese",
+          "avatar": "/images/heroes/esdese.png"
+        }
+      ]
+    },
+    {
+      "name": "Lạnh Lùng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mai Shiranui",
+          "slug": "mai-shiranui",
+          "avatar": "/images/heroes/mai-shiranui.png"
+        }
+      ]
+    },
+    {
+      "name": "Ngạo Kiều",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Bão Táp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        }
+      ]
+    }
   ]
 }

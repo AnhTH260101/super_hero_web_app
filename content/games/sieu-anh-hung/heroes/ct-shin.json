@@ -648,5 +648,58 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34900",
+    "slug": "shin",
+    "name": "Shin",
+    "avatar": "/images/heroes/shin.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Asin",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        },
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        }
+      ]
+    },
+    {
+      "name": "Punk",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Âu Cơ",
+          "slug": "au-co",
+          "avatar": "/images/heroes/au-co.png"
+        },
+        {
+          "name": "Bạch Liên Sư",
+          "slug": "bach-lien-su",
+          "avatar": "/images/heroes/bach-lien-su.png"
+        }
+      ]
+    },
+    {
+      "name": "Vũ Không",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Lý Tiểu Long",
+          "slug": "ly-tieu-long",
+          "avatar": "/images/heroes/ly-tieu-long.png"
+        }
+      ]
+    }
   ]
 }

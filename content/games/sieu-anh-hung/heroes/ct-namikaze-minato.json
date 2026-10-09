@@ -665,5 +665,64 @@
     "Hôn Mê",
     "Đứng Im",
     "Phản Đòn"
+  ],
+  "baseHero": {
+    "id": "38100",
+    "slug": "namikaze-minato",
+    "name": "Namikaze Minato",
+    "avatar": "/images/heroes/namikaze-minato.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Ý Chí Lửa",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Tobirama",
+          "slug": "tobirama",
+          "avatar": "/images/heroes/tobirama.png"
+        },
+        {
+          "name": "Hashirama",
+          "slug": "hashirama",
+          "avatar": "/images/heroes/hashirama.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần gió phù hộ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "saber",
+          "slug": "saber",
+          "avatar": "/images/heroes/saber.png"
+        }
+      ]
+    },
+    {
+      "name": "Tình phụ tử",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Naruto (Tiên nhân)",
+          "slug": "naruto-tien-nhan",
+          "avatar": "/images/heroes/naruto-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Bạo phát năng lượng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    }
   ]
 }

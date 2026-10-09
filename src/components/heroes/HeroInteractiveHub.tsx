@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Hero, BreakthroughSimItem, SuperEvoSimItem } from '@/types/game';
 import { ChevronLeft, ChevronRight, ChevronDown, Swords } from 'lucide-react';
 
@@ -9,7 +10,7 @@ interface HeroInteractiveHubProps {
   gameSlug: string;
 }
 
-export function HeroInteractiveHub({ hero }: HeroInteractiveHubProps) {
+export function HeroInteractiveHub({ hero, gameSlug }: HeroInteractiveHubProps) {
   // Cấp chuyển sinh (1 - 7, mặc định 1)
   const [breakLevel, setBreakLevel] = useState<number>(1);
   // Bậc siêu tiến hóa (1 - 8, tương ứng Đỏ, Đỏ +, Đỏ ++, Vàng, Vàng +, Vàng ++...)
@@ -57,6 +58,17 @@ export function HeroInteractiveHub({ hero }: HeroInteractiveHubProps) {
                       Dạng Chuyển Thế
                     </span>
                   )}
+                  {(hero.isAfterlifeForm || hero.isSkinForm) && hero.baseHero && (
+                    <Link
+                      href={`/${gameSlug}/heroes/${hero.baseHero.slug}`}
+                      className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 hover:text-amber-200 border border-amber-500/40 hover:border-amber-400 transition-all flex items-center gap-1 shadow-sm group"
+                      title={`Xem tướng mặc định: ${hero.baseHero.name}`}
+                    >
+                      <span className="text-amber-400 font-black group-hover:-translate-x-0.5 transition-transform">↩</span>
+                      <span className="text-slate-300 font-normal">Gốc:</span>
+                      <span className="font-extrabold text-amber-400">{hero.baseHero.name}</span>
+                    </Link>
+                  )}
                   <span className="px-2.5 py-0.5 rounded-full text-xs font-black bg-red-500/20 text-red-400 border border-red-500/40">
                     Tier {hero.tier}
                   </span>
@@ -83,46 +95,65 @@ export function HeroInteractiveHub({ hero }: HeroInteractiveHubProps) {
               </div>
             </div>
 
-            {/* Đối với nhân vật chuyển thế: Tổng nguyên liệu chuyển thế */}
-            {hero.isAfterlifeForm && (hero.afterlifeMaterials || hero.afterlifeRequirementsText) && (
+            {/* Đối với nhân vật chuyển thế / trang phục: Tổng nguyên liệu */}
+            {(hero.isAfterlifeForm || hero.isSkinForm) && (hero.afterlifeMaterials || hero.afterlifeRequirementsText) && (
               <div className="mt-4 p-4 rounded-2xl bg-gradient-to-r from-purple-950/60 via-slate-900 to-slate-950 border border-purple-500/40 shadow-xl text-left">
-                <div className="flex items-center gap-2 mb-3">
+                <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                   <span className="text-amber-400 font-black text-xs uppercase tracking-wider flex items-center gap-1.5">
                     <span>💎</span> Tổng nguyên liệu chuyển thế
                   </span>
+                  {hero.baseHero && (
+                    <Link
+                      href={`/${gameSlug}/heroes/${hero.baseHero.slug}`}
+                      className="inline-flex items-center gap-1 text-[11px] font-bold text-purple-300 hover:text-amber-300 transition-colors shrink-0 group"
+                    >
+                      <span>Về tướng mặc định ({hero.baseHero.name})</span>
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </Link>
+                  )}
                 </div>
 
                 {hero.afterlifeMaterials && hero.afterlifeMaterials.length > 0 ? (
                   <div className="flex flex-wrap items-center gap-2.5">
-                    {hero.afterlifeMaterials.map((mat, idx) => (
-                      <div
-                        key={idx}
-                        title={`${mat.name} x${mat.amount}`}
-                        className={`group relative flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-slate-950/90 border transition-all shadow-md overflow-hidden hover:scale-105 ${
-                          mat.type === 'hero'
-                            ? 'border-amber-500/60 hover:border-amber-400'
-                            : 'border-purple-500/40 hover:border-purple-300'
-                        }`}
-                      >
-                        {mat.type === 'hero' && (
-                          <div className="absolute top-1 left-1 px-1 py-0.2 rounded text-[8px] font-black bg-amber-500 text-slate-950 z-10 leading-none shadow">
-                            Tướng
-                          </div>
-                        )}
-
-                        <img
-                          src={mat.icon}
-                          alt={mat.name}
-                          className={`w-full h-full object-contain p-1.5 transition-transform group-hover:scale-110 ${
-                            mat.type === 'hero' ? 'rounded-xl' : ''
+                    {hero.afterlifeMaterials.map((mat, idx) => {
+                      const isBaseHeroMat = mat.type === 'hero' && hero.baseHero;
+                      const matNode = (
+                        <div
+                          title={isBaseHeroMat ? `Phôi tướng gốc: ${mat.name} x${mat.amount} (Bấm để xem tướng mặc định)` : `${mat.name} x${mat.amount}`}
+                          className={`group relative flex items-center justify-center w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-slate-950/90 border transition-all shadow-md overflow-hidden hover:scale-105 ${
+                            mat.type === 'hero'
+                              ? 'border-amber-500/60 hover:border-amber-400'
+                              : 'border-purple-500/40 hover:border-purple-300'
                           }`}
-                        />
+                        >
+                          {mat.type === 'hero' && (
+                            <div className="absolute top-1 left-1 px-1 py-0.2 rounded text-[8px] font-black bg-amber-500 text-slate-950 z-10 leading-none shadow">
+                              Tướng
+                            </div>
+                          )}
 
-                        <span className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-md bg-slate-950/90 border border-slate-700 text-[10px] sm:text-[11px] font-black text-amber-300 leading-none shadow">
-                          x{mat.amount}
-                        </span>
-                      </div>
-                    ))}
+                          <img
+                            src={mat.icon}
+                            alt={mat.name}
+                            className={`w-full h-full object-contain p-1.5 transition-transform group-hover:scale-110 ${
+                              mat.type === 'hero' ? 'rounded-xl' : ''
+                            }`}
+                          />
+
+                          <span className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-md bg-slate-950/90 border border-slate-700 text-[10px] sm:text-[11px] font-black text-amber-300 leading-none shadow">
+                            x{mat.amount}
+                          </span>
+                        </div>
+                      );
+
+                      return hero.baseHero && mat.type === 'hero' ? (
+                        <Link key={idx} href={`/${gameSlug}/heroes/${hero.baseHero.slug}`}>
+                          {matNode}
+                        </Link>
+                      ) : (
+                        <div key={idx}>{matNode}</div>
+                      );
+                    })}
                   </div>
                 ) : (
                   <div className="text-xs text-purple-200 font-semibold">
@@ -144,7 +175,110 @@ export function HeroInteractiveHub({ hero }: HeroInteractiveHubProps) {
         </div>
       </div>
 
-      {/* 2. Tính năng Chuyển Sinh Mô Phỏng (Collapsible Toggle, Mặc định mở) */}
+      {/* 2. Hệ Thống Trang Phục / Skin Đặc Biệt (Mặc định thu gọn / ẩn) */}
+      {hero.skins && hero.skins.length > 0 && (
+        <details className="group p-6 rounded-3xl bg-gradient-to-r from-pink-950/20 via-slate-900 to-slate-900 border border-pink-500/30 shadow-xl transition-all">
+          <summary className="flex items-center justify-between cursor-pointer list-none select-none">
+            <div className="flex items-center gap-2">
+              <span className="text-xl">👗</span>
+              <h2 className="text-xl font-black text-white">
+                Trang Phục / Skin Đặc Biệt ({hero.skins.length})
+              </h2>
+              <span className="hidden sm:inline-block px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-pink-500/20 text-pink-300 border border-pink-500/40">
+                Tăng mạnh hiệu ứng kỹ năng
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5 text-xs font-semibold px-3 py-1 rounded-full bg-slate-800 text-slate-300 border border-slate-700 group-open:bg-pink-500/20 group-open:text-pink-400 group-open:border-pink-500/40 transition-colors">
+              <span className="group-open:hidden">Hiển thị</span>
+              <span className="hidden group-open:inline">Thu gọn</span>
+              <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
+            </div>
+          </summary>
+
+          <div className="mt-5 space-y-4 pt-4 border-t border-slate-800">
+            {hero.skins.map((skin, sIdx) => (
+              <div
+                key={sIdx}
+                className="p-5 rounded-2xl bg-slate-950/70 border border-pink-500/30 flex flex-col md:flex-row gap-5 items-start"
+              >
+                {/* Ảnh Skin */}
+                <div className="shrink-0 flex sm:flex-col items-center gap-3">
+                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-slate-900 border-2 border-pink-500/60 p-1 overflow-hidden shadow-lg shadow-pink-500/10">
+                    <img
+                      src={skin.fullArt || skin.avatar}
+                      alt={skin.name}
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  {skin.slug && skin.slug !== hero.slug && (
+                    <Link
+                      href={`/${gameSlug}/heroes/${skin.slug}`}
+                      className="px-2.5 py-1 rounded-xl bg-pink-950/80 hover:bg-pink-900 border border-pink-500/40 text-[11px] font-bold text-pink-200 hover:text-white transition-all text-center"
+                    >
+                      Xem dạng Skin
+                    </Link>
+                  )}
+                </div>
+
+                {/* Thông tin Skin & Chi phí */}
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                    <h3 className="text-lg font-black text-white flex items-center gap-2">
+                      <span>{skin.name}</span>
+                      <span className="text-xs font-bold px-2 py-0.5 rounded bg-pink-500/20 text-pink-300 border border-pink-500/40">
+                        Skin Giới Hạn
+                      </span>
+                    </h3>
+
+                    {/* Chi phí mở khóa */}
+                    {skin.costAmount && (
+                      <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900 border border-amber-500/40 text-xs font-bold text-amber-300">
+                        {skin.costIcon && (
+                          <img src={skin.costIcon} alt={skin.costItem || 'Xu'} className="w-5 h-5 object-contain" />
+                        )}
+                        <span>Mở khóa: {skin.costAmount} {skin.costItem || 'Xu Skin'}</span>
+                      </div>
+                    )}
+                  </div>
+
+                  {skin.overview && (
+                    <p className="text-xs text-slate-300 mb-3 leading-relaxed">
+                      {skin.overview}
+                    </p>
+                  )}
+
+                  {skin.refreshCostAmount && (
+                    <div className="text-[11px] text-slate-400 mb-3 flex items-center gap-1.5">
+                      <span className="text-pink-400">🔄</span>
+                      <span>Chi phí tẩy thuộc tính: <strong>{skin.refreshCostAmount} {skin.refreshCostItem || 'Xu Skin'}</strong>/lần</span>
+                    </div>
+                  )}
+
+                  {/* Danh sách hiệu ứng kỹ năng được cường hóa */}
+                  {skin.skillEnhancements && skin.skillEnhancements.length > 0 && (
+                    <div className="mt-3 p-3.5 rounded-xl bg-pink-950/30 border border-pink-500/20">
+                      <div className="text-xs font-black text-pink-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                        <span>✨</span>
+                        <span>Cường Hóa Kỹ Năng Khi Sở Hữu:</span>
+                      </div>
+                      <div className="space-y-2">
+                        {skin.skillEnhancements.map((enh, eIdx) => (
+                          <div key={eIdx} className="text-xs leading-relaxed">
+                            <span className="font-bold text-amber-300">{enh.skillName}: </span>
+                            <span className="text-slate-200">{enh.description}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </details>
+      )}
+
+      {/* 3. Tính năng Chuyển Sinh Mô Phỏng (Collapsible Toggle, Mặc định mở) */}
       {breakData.length > 0 && currentBreak && (
         <details open className="group p-6 rounded-3xl bg-slate-900 border border-purple-500/40 shadow-xl">
           <summary className="flex items-center justify-between cursor-pointer list-none select-none mb-5">

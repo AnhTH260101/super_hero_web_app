@@ -653,5 +653,58 @@
     "Đóng Băng",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "34100",
+    "slug": "mei",
+    "name": "Mei",
+    "avatar": "/images/heroes/mei.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Chuyên Gia Khí Hậu",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Thủy Tinh",
+          "slug": "thuy-tinh",
+          "avatar": "/images/heroes/thuy-tinh.png"
+        },
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Bom Lạnh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        },
+        {
+          "name": "Batman",
+          "slug": "batman",
+          "avatar": "/images/heroes/batman.png"
+        }
+      ]
+    },
+    {
+      "name": "Thím Đẹp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    }
   ]
 }

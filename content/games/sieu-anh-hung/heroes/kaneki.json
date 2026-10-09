@@ -576,5 +576,50 @@
   "effects": [
     "Hồi Sinh",
     "Thiêu Đốt"
+  ],
+  "destiny": [
+    {
+      "name": "Thần Đại.Lợi Thế",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        },
+        {
+          "name": "Constantine",
+          "slug": "constantine",
+          "avatar": "/images/heroes/constantine.png"
+        }
+      ]
+    },
+    {
+      "name": "Mặt Nạ Hề",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Roger",
+          "slug": "roger",
+          "avatar": "/images/heroes/roger.png"
+        },
+        {
+          "name": "Người Tí Hon",
+          "slug": "nguoi-ti-hon",
+          "avatar": "/images/heroes/nguoi-ti-hon.png"
+        }
+      ]
+    },
+    {
+      "name": "Kakuko cuồng bạo",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Odin",
+          "slug": "odin",
+          "avatar": "/images/heroes/odin.png"
+        }
+      ]
+    }
   ]
 }

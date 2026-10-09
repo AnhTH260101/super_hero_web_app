@@ -669,5 +669,69 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "37000",
+    "slug": "lu-bo",
+    "name": "Lữ Bố",
+    "avatar": "/images/heroes/lu-bo.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Sứ Giả Địa Ngục",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Sanji",
+          "slug": "sanji",
+          "avatar": "/images/heroes/sanji.png"
+        },
+        {
+          "name": "Kil'jaeden",
+          "slug": "kiljaeden",
+          "avatar": "/images/heroes/kiljaeden.png"
+        }
+      ]
+    },
+    {
+      "name": "Mạnh Nhất Lục Địa",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        },
+        {
+          "name": "Saitama",
+          "slug": "saitama",
+          "avatar": "/images/heroes/saitama.png"
+        }
+      ]
+    },
+    {
+      "name": "Giáp Trụ Phi Thân",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Erza",
+          "slug": "erza",
+          "avatar": "/images/heroes/erza.png"
+        }
+      ]
+    },
+    {
+      "name": "Thiên Hạ Đệ Nhất",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    }
   ]
 }

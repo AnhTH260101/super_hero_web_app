@@ -643,5 +643,69 @@
     "Chảy Máu",
     "Choáng",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "33800",
+    "slug": "au-co",
+    "name": "Âu Cơ",
+    "avatar": "/images/heroes/au-co.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Viễn cổ chí tôn",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Medusa",
+          "slug": "medusa",
+          "avatar": "/images/heroes/medusa.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm thuật kinh người",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Zoro",
+          "slug": "",
+          "avatar": "/images/heroes/icon_suolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Vô tận đao",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        }
+      ]
+    },
+    {
+      "name": "Đối đầu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sơn Tinh",
+          "slug": "son-tinh",
+          "avatar": "/images/heroes/son-tinh.png"
+        }
+      ]
+    }
   ]
 }

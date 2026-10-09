@@ -52,7 +52,7 @@
     "Thù truyền kiếp: Vật công +20% khi ra trận cùng lúc với Đồ tể Pudge",
     "Xuất quỷ nhập thần: Phòng ngự và tốc độ +15% khi ra trận cùng lúc với Thằng Hề, Pyramid Head và Người Nhện",
     "Bàn tay đen: HP và tốc độ +15% khi ra trận cùng lúc với Alessa và Magneto",
-    "Biến thân: Ma công và HP +20% khi ra trận cùng lúc với Luffy, Sonkoku và Yasuke"
+    "Biến thân: Ma công và HP +20% khi ra trận cùng lúc với Luffy, Songoku và Yasuke"
   ],
   "counters": [
     "Tướng có sát thương chuẩn bỏ qua giáp",
@@ -303,5 +303,76 @@
   ],
   "effects": [
     "Hồi Sinh"
+  ],
+  "destiny": [
+    {
+      "name": "Thù truyền kiếp",
+      "effect": "Vật Công +20%",
+      "heroes": [
+        {
+          "name": "Đồ tể Pudge",
+          "slug": "",
+          "avatar": "/images/heroes/icon_pudge.png"
+        }
+      ]
+    },
+    {
+      "name": "Xuất quỷ nhập thần",
+      "effect": "Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Thằng Hề",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sake.png"
+        },
+        {
+          "name": "Pyramid Head",
+          "slug": "",
+          "avatar": "/images/heroes/icon_sanjiaotou.png"
+        },
+        {
+          "name": "Người Nhện",
+          "slug": "",
+          "avatar": "/images/heroes/icon_spiderman.png"
+        }
+      ]
+    },
+    {
+      "name": "Bàn tay đen",
+      "effect": "Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Alessa",
+          "slug": "",
+          "avatar": "/images/heroes/icon_aretha.png"
+        },
+        {
+          "name": "Magneto",
+          "slug": "",
+          "avatar": "/images/heroes/icon_magneto.png"
+        }
+      ]
+    },
+    {
+      "name": "Biến thân",
+      "effect": "Ma Công, HP +20%",
+      "heroes": [
+        {
+          "name": "Luffy",
+          "slug": "",
+          "avatar": "/images/heroes/icon_luffy.png"
+        },
+        {
+          "name": "Sonkoku",
+          "slug": "sonkoku",
+          "avatar": "/images/heroes/sonkoku.png"
+        },
+        {
+          "name": "Yasuke",
+          "slug": "",
+          "avatar": "/images/heroes/icon_yusuke.png"
+        }
+      ]
+    }
   ]
 }

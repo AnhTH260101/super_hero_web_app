@@ -611,5 +611,56 @@
     "Giảm Thương",
     "Trọng Thương",
     "Phản Đòn"
+  ],
+  "destiny": [
+    {
+      "name": "Quý Tộc",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Jiraiya",
+          "slug": "jiraiya",
+          "avatar": "/images/heroes/jiraiya.png"
+        },
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        }
+      ]
+    },
+    {
+      "name": "Vinh Diệu",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Chris",
+          "slug": "chris",
+          "avatar": "/images/heroes/chris.png"
+        }
+      ]
+    },
+    {
+      "name": "Cát Cánh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Kula",
+          "slug": "kula",
+          "avatar": "/images/heroes/kula.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiêu Ngạo",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gintoki",
+          "slug": "gintoki",
+          "avatar": "/images/heroes/gintoki.png"
+        }
+      ]
+    }
   ]
 }

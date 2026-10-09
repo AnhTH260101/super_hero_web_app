@@ -684,5 +684,64 @@
     "Hôn Mê",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "38800",
+    "slug": "sir",
+    "name": "Sir",
+    "avatar": "/images/heroes/sir.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Tàn Bạo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Frieza",
+          "slug": "frieza",
+          "avatar": "/images/heroes/frieza.png"
+        },
+        {
+          "name": "Madara",
+          "slug": "madara",
+          "avatar": "/images/heroes/madara.png"
+        }
+      ]
+    },
+    {
+      "name": "Vua Cát",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Gaara",
+          "slug": "gaara",
+          "avatar": "/images/heroes/gaara.png"
+        }
+      ]
+    },
+    {
+      "name": "Mục tiêu: Vua hải tặc!",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Monkey D. Luffy",
+          "slug": "monkey-d-luffy",
+          "avatar": "/images/heroes/monkey-d-luffy.png"
+        }
+      ]
+    },
+    {
+      "name": "Thiếu Niên Thành Danh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Mihawk",
+          "slug": "mihawk",
+          "avatar": "/images/heroes/mihawk.png"
+        }
+      ]
+    }
   ]
 }

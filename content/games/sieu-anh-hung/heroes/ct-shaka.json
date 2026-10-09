@@ -670,5 +670,69 @@
     "Hỗn Loạn",
     "Đứng Im",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "36400",
+    "slug": "shaka",
+    "name": "Shaka",
+    "avatar": "/images/heroes/shaka.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Lôi Thần Cung",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        },
+        {
+          "name": "Gray",
+          "slug": "gray",
+          "avatar": "/images/heroes/gray.png"
+        }
+      ]
+    },
+    {
+      "name": "Thần Vương",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Shin",
+          "slug": "shin",
+          "avatar": "/images/heroes/shin.png"
+        },
+        {
+          "name": "Kaio",
+          "slug": "kaio",
+          "avatar": "/images/heroes/kaio.png"
+        }
+      ]
+    },
+    {
+      "name": "Thánh Hồn Kép",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thunderbird",
+          "slug": "thunderbird",
+          "avatar": "/images/heroes/thunderbird.png"
+        }
+      ]
+    },
+    {
+      "name": "Ý Chỉ Thần",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "avatar": "/images/heroes/black.png"
+        }
+      ]
+    }
   ]
 }

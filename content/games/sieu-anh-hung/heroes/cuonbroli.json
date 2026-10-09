@@ -209,50 +209,50 @@
   "destiny": [
     {
       "name": "Sức Mạnh Diệt Sao",
-      "effect": "Vật Công, Ma Công, HP+20%; Phòng Ngự, Tốc Độ+15%",
+      "effect": "Ma Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
       "heroes": [
         {
           "name": "Shirakami Goku",
           "slug": "shirakami-goku",
-          "avatar": "/images/heroes/icon_baishenwukong.png"
+          "avatar": "/images/heroes/shirakami-goku.png"
         },
         {
           "name": "Frieza",
           "slug": "frieza",
-          "avatar": "/images/heroes/icon_Frieza.png"
+          "avatar": "/images/heroes/frieza.png"
         }
       ]
     },
     {
       "name": "Tà Ác",
-      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
       "heroes": [
         {
           "name": "Piccolo",
           "slug": "piccolo",
-          "avatar": "/images/heroes/icon_bike.png"
+          "avatar": "/images/heroes/piccolo.png"
         }
       ]
     },
     {
       "name": "Phá Hoại",
-      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
       "heroes": [
         {
           "name": "Số 18",
           "slug": "so-18",
-          "avatar": "/images/heroes/icon_renzaoren18hao.png"
+          "avatar": "/images/heroes/so-18.png"
         }
       ]
     },
     {
       "name": "Tái Sinh Vô Hạn",
-      "effect": "Ma Công, HP và Tốc Độ+15%",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
       "heroes": [
         {
           "name": "Cell",
           "slug": "cell",
-          "avatar": "/images/heroes/icon_shalu.png"
+          "avatar": "/images/heroes/cell.png"
         }
       ]
     }
@@ -766,5 +766,13 @@
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
     }
-  ]
+  ],
+  "baseHero": {
+    "id": "42000",
+    "slug": "broli",
+    "name": "Broli",
+    "avatar": "/images/heroes/broli.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  }
 }

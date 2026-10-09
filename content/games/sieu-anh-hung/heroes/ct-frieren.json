@@ -686,5 +686,64 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "baseHero": {
+    "id": "43300",
+    "slug": "frieren",
+    "name": "Frieren",
+    "avatar": "/images/heroes/icon_fulilian.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Ma pháp sư",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Pain",
+          "slug": "pain",
+          "avatar": "/images/heroes/pain.png"
+        },
+        {
+          "name": "Satoru Gojo",
+          "slug": "satoru-gojo",
+          "avatar": "/images/heroes/satoru-gojo.png"
+        }
+      ]
+    },
+    {
+      "name": "Trái tim thiếu nữ",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Maple",
+          "slug": "maple",
+          "avatar": "/images/heroes/maple.png"
+        }
+      ]
+    },
+    {
+      "name": "Tinh linh",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Yatogami Tohka",
+          "slug": "yatogami-tohka",
+          "avatar": "/images/heroes/icon_shenshixiang.png"
+        }
+      ]
+    },
+    {
+      "name": "Tàng phong",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Inori",
+          "slug": "inori",
+          "avatar": "/images/heroes/icon_dieqi.png"
+        }
+      ]
+    }
   ]
 }

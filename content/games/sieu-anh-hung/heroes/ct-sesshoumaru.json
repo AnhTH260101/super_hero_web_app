@@ -660,5 +660,69 @@
     "Hóa Giải",
     "Chảy Máu",
     "Choáng"
+  ],
+  "baseHero": {
+    "id": "33300",
+    "slug": "sesshoumaru",
+    "name": "Sesshoumaru",
+    "avatar": "/images/heroes/sesshoumaru.png",
+    "rarity": "SSR",
+    "role": "Tanker"
+  },
+  "destiny": [
+    {
+      "name": "Khuyển Yêu Thuần",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Nidhogg",
+          "slug": "nidhogg",
+          "avatar": "/images/heroes/nidhogg.png"
+        }
+      ]
+    },
+    {
+      "name": "Trăng Khuyết U Ám",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Samurai",
+          "slug": "samurai",
+          "avatar": "/images/heroes/samurai.png"
+        },
+        {
+          "name": "Người Tí Hon",
+          "slug": "nguoi-ti-hon",
+          "avatar": "/images/heroes/nguoi-ti-hon.png"
+        }
+      ]
+    },
+    {
+      "name": "Di Dời Nháy Mắt",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        },
+        {
+          "name": "Kaneki",
+          "slug": "kaneki",
+          "avatar": "/images/heroes/kaneki.png"
+        }
+      ]
+    },
+    {
+      "name": "Tà Kiến",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Loki",
+          "slug": "loki",
+          "avatar": "/images/heroes/loki.png"
+        }
+      ]
+    }
   ]
 }

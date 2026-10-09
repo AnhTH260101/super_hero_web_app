@@ -619,5 +619,61 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Đao Kiếm Đạo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kurosaki",
+          "slug": "kurosaki",
+          "avatar": "/images/heroes/kurosaki.png"
+        },
+        {
+          "name": "Gintoki",
+          "slug": "gintoki",
+          "avatar": "/images/heroes/gintoki.png"
+        }
+      ]
+    },
+    {
+      "name": "Siêu Cảm",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Sanji",
+          "slug": "sanji",
+          "avatar": "/images/heroes/sanji.png"
+        }
+      ]
+    },
+    {
+      "name": "Huynh Đệ",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    },
+    {
+      "name": "Lửa Miệt Thị",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        }
+      ]
+    }
   ]
 }

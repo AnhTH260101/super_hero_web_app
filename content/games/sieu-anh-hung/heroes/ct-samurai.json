@@ -559,5 +559,55 @@
     "Giảm Thương",
     "Hóa Giải",
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Anh Hùng Phong Bạo",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +10%",
+      "heroes": [
+        {
+          "name": "Vehito",
+          "slug": "vehito",
+          "avatar": "/images/heroes/vehito.png"
+        },
+        {
+          "name": "Blademaster",
+          "slug": "blademaster",
+          "avatar": "/images/heroes/blademaster.png"
+        },
+        {
+          "name": "Lục Đạo Tiên Nhân",
+          "slug": "luc-ao-tien-nhan",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+        }
+      ]
+    },
+    {
+      "name": "Kiếm Khách Tam Hiệp",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Master Yi",
+          "slug": "master-yi",
+          "avatar": "/images/heroes/master-yi.png"
+        },
+        {
+          "name": "Hoàng Phủ Kiếm",
+          "slug": "hoang-phu-kiem",
+          "avatar": "/images/heroes/hoang-phu-kiem.png"
+        }
+      ]
+    },
+    {
+      "name": "Phá Thiên Giáng Ma",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Na Tra",
+          "slug": "na-tra",
+          "avatar": "/images/heroes/na-tra.png"
+        }
+      ]
+    }
   ]
 }

@@ -616,5 +616,56 @@
     "Chế Giễu",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Chiến Sĩ Siêu Năng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Kefla",
+          "slug": "kefla",
+          "avatar": "/images/heroes/kefla.png"
+        },
+        {
+          "name": "Laxus Dreyar",
+          "slug": "laxus-dreyar",
+          "avatar": "/images/heroes/laxus-dreyar.png"
+        }
+      ]
+    },
+    {
+      "name": "Đội Cảm Đấu",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Namikaze Minato",
+          "slug": "namikaze-minato",
+          "avatar": "/images/heroes/namikaze-minato.png"
+        }
+      ]
+    },
+    {
+      "name": "Cơ Thể Bất Diệt",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thanos",
+          "slug": "thanos",
+          "avatar": "/images/heroes/thanos.png"
+        }
+      ]
+    },
+    {
+      "name": "Phi Nhân Vật",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Ma Nhân",
+          "slug": "ma-nhan",
+          "avatar": "/images/heroes/ma-nhan.png"
+        }
+      ]
+    }
   ]
 }

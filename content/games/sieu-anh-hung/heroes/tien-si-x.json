@@ -303,5 +303,61 @@
   ],
   "effects": [
     "Choáng"
+  ],
+  "destiny": [
+    {
+      "name": "Thay đổi tương lai",
+      "effect": "Ma Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Thần bài",
+          "slug": "",
+          "avatar": "/images/heroes/icon_twist.png"
+        },
+        {
+          "name": "Kẻ Hủy Diệt",
+          "slug": "",
+          "avatar": "/images/heroes/icon_terminator.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức mạnh ý niệm",
+      "effect": "Vật Công, HP +15%",
+      "heroes": [
+        {
+          "name": "Alessa",
+          "slug": "",
+          "avatar": "/images/heroes/icon_aretha.png"
+        },
+        {
+          "name": "Phượng Hoàng",
+          "slug": "phuong-hoang",
+          "avatar": "/images/heroes/phuong-hoang.png"
+        }
+      ]
+    },
+    {
+      "name": "Vừa thù vừa bạn",
+      "effect": "Ma Công +20%",
+      "heroes": [
+        {
+          "name": "Magneto",
+          "slug": "",
+          "avatar": "/images/heroes/icon_magneto.png"
+        }
+      ]
+    },
+    {
+      "name": "Người chỉ dẫn",
+      "effect": "HP +20%",
+      "heroes": [
+        {
+          "name": "Đội trưởng",
+          "slug": "",
+          "avatar": "/images/heroes/icon_steve.png"
+        }
+      ]
+    }
   ]
 }

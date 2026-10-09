@@ -585,5 +585,61 @@
     "Đứng Im",
     "Phản Đòn",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Lạnh Cóng",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Mei",
+          "slug": "mei",
+          "avatar": "/images/heroes/mei.png"
+        }
+      ]
+    },
+    {
+      "name": "Soái Ca",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Hatake",
+          "slug": "hatake",
+          "avatar": "/images/heroes/hatake.png"
+        },
+        {
+          "name": "Sesshoumaru",
+          "slug": "sesshoumaru",
+          "avatar": "/images/heroes/sesshoumaru.png"
+        }
+      ]
+    },
+    {
+      "name": "Ngoài Lạnh Trong Nóng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Uchiha",
+          "slug": "uchiha",
+          "avatar": "/images/heroes/uchiha.png"
+        },
+        {
+          "name": "Levi Ackerman",
+          "slug": "levi-ackerman",
+          "avatar": "/images/heroes/levi-ackerman.png"
+        }
+      ]
+    },
+    {
+      "name": "Sát Quỷ Rồng",
+      "effect": "Ma Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Natsu",
+          "slug": "natsu",
+          "avatar": "/images/heroes/natsu.png"
+        }
+      ]
+    }
   ]
 }

@@ -5,9 +5,9 @@
   "title": "Vũ trụ linh tính • SSR CT - vegetto",
   "gameSlug": "sieu-anh-hung",
   "avatar": "/images/heroes/icon_vegettopf.png",
-  "fullArt": "/images/heroes/icon_vegettopf.png",
+  "fullArt": "/images/heroes/full/image_vegettopf.png",
   "element": "Vũ trụ linh tính",
-  "isAfterlifeForm": false,
+  "isAfterlifeForm": true,
   "isSkinForm": true,
   "rarity": "SSR",
   "role": "Tanker",
@@ -28,13 +28,14 @@
     {
       "name": "Tự Tại Cực Ý Công",
       "icon": "/images/heroes/s_vegetto_s2.png",
-      "description": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 30% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.(Hiệu ứng Skin: Thẻ Phe không nhận Bị Động nữa; bản thân nhận 2 tầng Gợi Đòn, lượng HP max được hồi phục lên tới 100%)",
+      "description": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 30% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
       "cooldown": null,
       "breakthrough": {
         "level": 2,
         "title": "Đấu Sĩ·CT - Vegetto",
         "description": "Mỗi lượt tối đa kích hoạt 3 lần; nhận 1 lượt \"Vô Địch\"."
-      }
+      },
+      "skinEffect": "Thẻ Phe không nhận Bị Động nữa; bản thân nhận 2 tầng Gợi Đòn, lượng HP max được hồi phục lên tới 100%"
     },
     {
       "name": "Kamekameha",
@@ -50,13 +51,14 @@
     {
       "name": "Xóa Sổ",
       "icon": "/images/heroes/s_vegetto_s6.png",
-      "description": "Kĩ năng Tử Vong: Khi Hồi Sinh sẽ có tăng tỉ lệ không tốn số lần Hồi Sinh dựa theo số người cùng phe Ngọc Rồng có trên trường đấu, mỗi 1 người tăng 10% (Hiệu ứng Skin: Không cần có đồng đội cùng phe Ngọc Rồng trên trận, có tỉ lệ 40% được Hồi Sinh không tốn số lượt, sau khi Chuyển Sinh tăng lên 60%); Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thật bằng 350% tấn công ma pháp và 1500% ST thuộc tính Hoả cho toàn phe địch, tối đa Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
+      "description": "Kĩ năng Tử Vong: Khi Hồi Sinh sẽ có tăng tỉ lệ không tốn số lần Hồi Sinh dựa theo số người cùng phe Ngọc Rồng có trên trường đấu, mỗi 1 người tăng 10% ; Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thật bằng 350% tấn công ma pháp và 1500% ST thuộc tính Hoả cho toàn phe địch, tối đa Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
       "cooldown": null,
       "breakthrough": {
         "level": 6,
         "title": "Linh·CT - Vegetto",
         "description": "Số lượt Hồi Sinh tối đa tăng thành 4. Xác suất không mất lượt sử dụng kỹ năng hồi sinh do mỗi nhân vật cung cấp tăng thành 15%."
-      }
+      },
+      "skinEffect": "Không cần có đồng đội cùng phe Ngọc Rồng trên trận, có tỉ lệ 40% được Hồi Sinh không tốn số lượt, sau khi Chuyển Sinh tăng lên 60%"
     },
     {
       "name": "Cực - Kiếm Khí",
@@ -72,24 +74,26 @@
     {
       "name": "Cực - Chung cực Ma Quang Thiểm",
       "icon": "/images/heroes/s_vegetto_s4.png",
-      "description": "Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch. Diệt Ngay ngẫu nhiên 1 mục tiêu.(Hiệu ứng Skin: Hồi 100% HP max)",
+      "description": "Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch. Diệt Ngay ngẫu nhiên 1 mục tiêu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
         "level": 4,
         "title": "Thần Thoại·CT - Vegetto",
         "description": "Trước khi Diệt Ngay mục tiêu, xóa 1 lần số lượt Hồi Sinh có thể dùng của mục tiêu"
-      }
+      },
+      "skinEffect": "Hồi 100% HP max"
     },
     {
       "name": "Cực - Kamekameha",
       "icon": "/images/heroes/s_vegetto_s5.png",
-      "description": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng 350% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Hồi 100% HP max bản thân. Mỗi một đồng đội thuộc phe Ngọc Rồng có trong trận sẽ giúp kĩ năng này gây thêm ST truy kích bằng 10% HP max bản thân.(Hiệu ứng Skin: Không cần có đồng đội cùng phe Ngọc Rồng cũng có thể trực tiếp Truy Kích với ST bằng 40% HP max, Chuyển Sinh sẽ tăng gấp bội)",
+      "description": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng 350% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Hồi 100% HP max bản thân. Mỗi một đồng đội thuộc phe Ngọc Rồng có trong trận sẽ giúp kĩ năng này gây thêm ST truy kích bằng 10% HP max bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
         "level": 5,
         "title": "Thần·CT - Vegetto",
         "description": "Diệt Ngay ngẫu nhiên 1 mục tiêu. ST truy kích tăng lên đến 20%."
-      }
+      },
+      "skinEffect": "Không cần có đồng đội cùng phe Ngọc Rồng cũng có thể trực tiếp Truy Kích với ST bằng 40% HP max, Chuyển Sinh sẽ tăng gấp bội"
     }
   ],
   "bestSynergies": [
@@ -101,6 +105,68 @@
   "counters": [
     "Tướng có sát thương chuẩn bỏ qua giáp",
     "Đội hình câm lặng khóa chiêu liên tục"
+  ],
+  "afterlifeMaterials": [
+    {
+      "name": "Vegetto",
+      "icon": "/images/heroes/icon_vegetto.png",
+      "amount": 7,
+      "type": "hero"
+    },
+    {
+      "name": "Shirakami Goku",
+      "icon": "/images/heroes/shirakami-goku.png",
+      "amount": 6,
+      "type": "hero"
+    },
+    {
+      "name": "Bông Tai Potara",
+      "icon": "/images/items/erhuan.png",
+      "amount": 5,
+      "type": "item"
+    },
+    {
+      "name": "Kim Ngũ Hành",
+      "icon": "/images/items/jin.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Mộc Ngũ Hành",
+      "icon": "/images/items/mu.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Thủy Ngũ Hành",
+      "icon": "/images/items/shui.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Hỏa Ngũ Hành",
+      "icon": "/images/items/huo.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Thổ Ngũ Hành",
+      "icon": "/images/items/tu.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Linh Tiềm Năng",
+      "icon": "/images/items/wenzhang.png",
+      "amount": 1,
+      "type": "item"
+    },
+    {
+      "name": "Hồn Tiềm Năng",
+      "icon": "/images/items/hun.png",
+      "amount": 1,
+      "type": "item"
+    }
   ],
   "breakthroughSimData": [
     {
@@ -574,5 +640,89 @@
     "Phản Đòn",
     "Truy Kích",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Saiyan",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Vegeta",
+          "slug": "vegeta",
+          "avatar": "/images/heroes/icon_beijita.png"
+        },
+        {
+          "name": "Trunks",
+          "slug": "trunks",
+          "avatar": "/images/heroes/icon_telankesi.png"
+        }
+      ]
+    },
+    {
+      "name": "Sức Mạnh Hợp Thể",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Songoku",
+          "slug": "songoku",
+          "avatar": "/images/heroes/songoku.png"
+        }
+      ]
+    },
+    {
+      "name": "Thân Xác Cường Hãn",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Thợ Săn - Zoro",
+          "slug": "tho-san-zoro",
+          "avatar": "/images/heroes/icon_xsjsuolong.png"
+        }
+      ]
+    },
+    {
+      "name": "Chúa Tể Tuyệt Đối",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Overlord",
+          "slug": "overlord",
+          "avatar": "/images/heroes/overlord.png"
+        }
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "id": "442000",
+      "slug": "ct-vegetto",
+      "name": "CT - vegetto",
+      "avatar": "/images/heroes/icon_vegettopf.png",
+      "fullArt": "/images/heroes/full/image_vegettopf.png",
+      "costItem": "Xu Skin Giới Hạn",
+      "costAmount": 500,
+      "costIcon": "/images/items/xiandingyingbi.png",
+      "refreshCostItem": "Xu Skin Giới Hạn",
+      "refreshCostAmount": 10,
+      "overview": "Trang phục chiến binh chung cực Cực Ý Vegito mở khóa bằng Xu Skin Giới Hạn, cường hóa vượt trội toàn bộ kỹ năng nộ, phản kích và tử vong.",
+      "skillEnhancements": [
+        {
+          "skillName": "Tự Tại Cực Ý Công",
+          "description": "Thẻ Phe không nhận Bị Động nữa; bản thân nhận 2 tầng Gợi Đòn, lượng HP max được hồi phục lên tới 100%."
+        },
+        {
+          "skillName": "Xóa Sổ",
+          "description": "Không cần có đồng đội cùng phe Ngọc Rồng trên trận, có tỉ lệ 40% được Hồi Sinh không tốn số lượt, sau khi Chuyển Sinh tăng lên 60%."
+        },
+        {
+          "skillName": "Kỹ năng nộ / Phản trảm",
+          "description": "Hồi 100% HP max."
+        },
+        {
+          "skillName": "Kỹ năng trước lượt đấu",
+          "description": "Không cần đồng đội cùng phe Ngọc Rồng cũng có thể trực tiếp Truy Kích với ST bằng 40% HP max (Chuyển Sinh tăng gấp bội)."
+        }
+      ]
+    }
   ]
 }

@@ -613,5 +613,56 @@
     "Trọng Thương",
     "Trói Buộc",
     "Hồi Phục"
+  ],
+  "destiny": [
+    {
+      "name": "Nữ Nhị",
+      "effect": "Vật Công, Ma Công, HP +20%; Phòng Ngự, Tốc Độ +15%",
+      "heroes": [
+        {
+          "name": "Shalltear",
+          "slug": "shalltear",
+          "avatar": "/images/heroes/shalltear.png"
+        },
+        {
+          "name": "Số 18",
+          "slug": "so-18",
+          "avatar": "/images/heroes/so-18.png"
+        }
+      ]
+    },
+    {
+      "name": "Kinh Hồng",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Tornado",
+          "slug": "tornado",
+          "avatar": "/images/heroes/tornado.png"
+        }
+      ]
+    },
+    {
+      "name": "Dị Giới",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "Piccolo",
+          "slug": "piccolo",
+          "avatar": "/images/heroes/piccolo.png"
+        }
+      ]
+    },
+    {
+      "name": "Ràng Buộc",
+      "effect": "Vật Công, Tốc Độ, HP +15%",
+      "heroes": [
+        {
+          "name": "InuYasha",
+          "slug": "inuyasha",
+          "avatar": "/images/heroes/inuyasha.png"
+        }
+      ]
+    }
   ]
 }
