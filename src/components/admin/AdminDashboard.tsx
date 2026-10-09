@@ -14,18 +14,21 @@ import {
   ArrowLeft,
   RotateCcw,
   Archive,
+  Trophy,
 } from 'lucide-react';
-import { Hero } from '@/types/game';
+import { Hero, TierGroup } from '@/types/game';
+import { AdminTierListEditor } from './AdminTierListEditor';
 
 interface AdminDashboardProps {
   initialHeroes: Hero[];
+  initialTiers?: TierGroup[];
   gameSlug: string;
 }
 
-export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, gameSlug }) => {
+export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, initialTiers = [], gameSlug }) => {
   const [adminToken, setAdminToken] = useState('admin123');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentTab, setCurrentTab] = useState<'active' | 'trash'>('active');
+  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'trash'>('active');
 
   const [heroes, setHeroes] = useState<Hero[]>(initialHeroes);
   const [trashHeroes, setTrashHeroes] = useState<Hero[]>([]);
@@ -265,6 +268,21 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, g
 
           <button
             onClick={() => {
+              setCurrentTab('tier-list');
+              setSelectedSlugs([]);
+            }}
+            className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+              currentTab === 'tier-list'
+                ? 'bg-amber-500 text-slate-950 shadow-md'
+                : 'text-slate-400 hover:text-white hover:bg-slate-900'
+            }`}
+          >
+            <Trophy className="w-4 h-4" />
+            <span>Bảng Xếp Hạng Meta (Tier List)</span>
+          </button>
+
+          <button
+            onClick={() => {
               setCurrentTab('trash');
               setSelectedSlugs([]);
               fetchTrash();
@@ -296,7 +314,17 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, g
           </div>
         )}
 
-        {/* Toolbar & Filter */}
+        {/* Content depending on currentTab */}
+        {currentTab === 'tier-list' ? (
+          <AdminTierListEditor
+            initialTiers={initialTiers}
+            allHeroes={heroes}
+            gameSlug={gameSlug}
+            adminToken={adminToken}
+          />
+        ) : (
+          <>
+            {/* Toolbar & Filter */}
         <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="relative w-full sm:w-96">
@@ -458,6 +486,8 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({ initialHeroes, g
             </table>
           </div>
         </div>
+      </>
+    )}
       </div>
     </div>
   );

@@ -1,1130 +1,432 @@
 {
-  "overall": {
-    "S+": [
-      {
-        "heroSlug": "songoku",
-        "name": "Songoku",
-        "avatar": "/images/heroes/ct-songoku.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "phuong-hoang",
-        "name": "Phượng Hoàng",
-        "avatar": "/images/heroes/phuong-hoang.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "dracula",
-        "name": "Dracula",
-        "avatar": "/images/heroes/dracula.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "wesker",
-        "name": "Wesker",
-        "avatar": "/images/heroes/wesker.png",
-        "element": "Zombie Bentu",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      }
-    ],
-    "S": [
-      {
-        "heroSlug": "ct-duong-tien",
-        "name": "CT-Dương Tiễn",
-        "avatar": "/images/heroes/ct-duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "hatake",
-        "name": "Hatake",
-        "avatar": "/images/heroes/hatake.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "gaara",
-        "name": "Gaara",
-        "avatar": "/images/heroes/gaara.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "emiya-shirou",
-        "name": "Emiya Shirou",
-        "avatar": "/images/heroes/emiya-shirou.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "duong-tien",
-        "name": "Dương Tiễn",
-        "avatar": "/images/heroes/duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "shin",
-        "name": "Shin",
-        "avatar": "/images/heroes/shin.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "klaus",
-        "name": "Klaus",
-        "avatar": "/images/heroes/klaus.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "sasuke-susano",
-        "name": "Sasuke (Susano)",
-        "avatar": "/images/heroes/sasuke-susano.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "pain",
-        "name": "Pain",
-        "avatar": "/images/heroes/pain.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "veheta",
-        "name": "Veheta",
-        "avatar": "/images/heroes/veheta.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "na-tra",
-        "name": "Na Tra",
-        "avatar": "/images/heroes/na-tra.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "lu-bo",
-        "name": "Lữ Bố",
-        "avatar": "/images/heroes/lu-bo.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "overlord",
-        "name": "Overlord",
-        "avatar": "/images/heroes/overlord.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "ichigo",
-        "name": "Ichigo",
-        "avatar": "/images/heroes/ichigo.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "ct-venus",
-        "name": "CT-Venus",
-        "avatar": "/images/heroes/ct-venus.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "roger",
-        "name": "Roger",
-        "avatar": "/images/heroes/roger.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "levi-ackerman",
-        "name": "Levi Ackerman",
-        "avatar": "/images/heroes/levi-ackerman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "hisoka",
-        "name": "Hisoka",
-        "avatar": "/images/heroes/hisoka.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "trunks",
-        "name": "Trunks",
-        "avatar": "/images/heroes/icon_telankesi.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "blademaster",
-        "name": "Blademaster",
-        "avatar": "/images/heroes/blademaster.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "batman",
-        "name": "Batman",
-        "avatar": "/images/heroes/batman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "qua-en",
-        "name": "Quạ Đen",
-        "avatar": "/images/heroes/qua-en.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "tsunade",
-        "name": "Tsunade",
-        "avatar": "/images/heroes/tsunade.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "songoku-sieu-xayda-3",
-        "name": "Songoku Siêu Xayda 3",
-        "avatar": "/images/heroes/icon_XWukong3.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "vehito",
-        "name": "Vehito",
-        "avatar": "/images/heroes/vehito.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gintoki",
-        "name": "Gintoki",
-        "avatar": "/images/heroes/gintoki.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gilgamesh",
-        "name": "Gilgamesh",
-        "avatar": "/images/heroes/gilgamesh.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "frieren",
-        "name": "Frieren",
-        "avatar": "/images/heroes/icon_fulilian.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gaten",
-        "name": "Gaten",
-        "avatar": "/images/heroes/gaten.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "boruto",
-        "name": "Boruto",
-        "avatar": "/images/heroes/boruto.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "kula",
-        "name": "Kula",
-        "avatar": "/images/heroes/kula.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "luc-ao-tien-nhan",
-        "name": "Lục Đạo Tiên Nhân",
-        "avatar": "/images/heroes/luc-ao-tien-nhan.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "albedo",
-        "name": "Albedo",
-        "avatar": "/images/heroes/albedo.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "te-thien-ai-thanh",
-        "name": "Tề Thiên Đại Thánh",
-        "avatar": "/images/heroes/te-thien-ai-thanh.png",
-        "element": "Sinh vật bản địa",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "kaio",
-        "name": "Kaio",
-        "avatar": "/images/heroes/kaio.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "muc",
-        "name": "Mục",
-        "avatar": "/images/heroes/muc.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "cid-kageno",
-        "name": "Cid Kageno",
-        "avatar": "/images/heroes/icon_anying.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "samurai",
-        "name": "Samurai",
-        "avatar": "/images/heroes/samurai.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "lich-king",
-        "name": "Lich King",
-        "avatar": "/images/heroes/lich-king.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "saga",
-        "name": "Saga",
-        "avatar": "/images/heroes/saga.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      }
-    ],
-    "A": [],
-    "B": []
-  },
-  "pvp": {
-    "S+": [
-      {
-        "heroSlug": "songoku",
-        "name": "Songoku",
-        "avatar": "/images/heroes/ct-songoku.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "phuong-hoang",
-        "name": "Phượng Hoàng",
-        "avatar": "/images/heroes/phuong-hoang.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "dracula",
-        "name": "Dracula",
-        "avatar": "/images/heroes/dracula.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "wesker",
-        "name": "Wesker",
-        "avatar": "/images/heroes/wesker.png",
-        "element": "Zombie Bentu",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      }
-    ],
-    "S": [
-      {
-        "heroSlug": "ct-duong-tien",
-        "name": "CT-Dương Tiễn",
-        "avatar": "/images/heroes/ct-duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "hatake",
-        "name": "Hatake",
-        "avatar": "/images/heroes/hatake.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "gaara",
-        "name": "Gaara",
-        "avatar": "/images/heroes/gaara.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "emiya-shirou",
-        "name": "Emiya Shirou",
-        "avatar": "/images/heroes/emiya-shirou.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "duong-tien",
-        "name": "Dương Tiễn",
-        "avatar": "/images/heroes/duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "shin",
-        "name": "Shin",
-        "avatar": "/images/heroes/shin.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "klaus",
-        "name": "Klaus",
-        "avatar": "/images/heroes/klaus.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "sasuke-susano",
-        "name": "Sasuke (Susano)",
-        "avatar": "/images/heroes/sasuke-susano.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "pain",
-        "name": "Pain",
-        "avatar": "/images/heroes/pain.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "veheta",
-        "name": "Veheta",
-        "avatar": "/images/heroes/veheta.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "na-tra",
-        "name": "Na Tra",
-        "avatar": "/images/heroes/na-tra.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "lu-bo",
-        "name": "Lữ Bố",
-        "avatar": "/images/heroes/lu-bo.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "overlord",
-        "name": "Overlord",
-        "avatar": "/images/heroes/overlord.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "ichigo",
-        "name": "Ichigo",
-        "avatar": "/images/heroes/ichigo.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "ct-venus",
-        "name": "CT-Venus",
-        "avatar": "/images/heroes/ct-venus.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "roger",
-        "name": "Roger",
-        "avatar": "/images/heroes/roger.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "levi-ackerman",
-        "name": "Levi Ackerman",
-        "avatar": "/images/heroes/levi-ackerman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "hisoka",
-        "name": "Hisoka",
-        "avatar": "/images/heroes/hisoka.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "trunks",
-        "name": "Trunks",
-        "avatar": "/images/heroes/icon_telankesi.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "blademaster",
-        "name": "Blademaster",
-        "avatar": "/images/heroes/blademaster.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "batman",
-        "name": "Batman",
-        "avatar": "/images/heroes/batman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "qua-en",
-        "name": "Quạ Đen",
-        "avatar": "/images/heroes/qua-en.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "tsunade",
-        "name": "Tsunade",
-        "avatar": "/images/heroes/tsunade.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "songoku-sieu-xayda-3",
-        "name": "Songoku Siêu Xayda 3",
-        "avatar": "/images/heroes/icon_XWukong3.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "vehito",
-        "name": "Vehito",
-        "avatar": "/images/heroes/vehito.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gintoki",
-        "name": "Gintoki",
-        "avatar": "/images/heroes/gintoki.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gilgamesh",
-        "name": "Gilgamesh",
-        "avatar": "/images/heroes/gilgamesh.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "frieren",
-        "name": "Frieren",
-        "avatar": "/images/heroes/icon_fulilian.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gaten",
-        "name": "Gaten",
-        "avatar": "/images/heroes/gaten.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "boruto",
-        "name": "Boruto",
-        "avatar": "/images/heroes/boruto.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      }
-    ],
-    "A": [],
-    "B": []
-  },
-  "pve": {
-    "S+": [
-      {
-        "heroSlug": "songoku",
-        "name": "Songoku",
-        "avatar": "/images/heroes/ct-songoku.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "phuong-hoang",
-        "name": "Phượng Hoàng",
-        "avatar": "/images/heroes/phuong-hoang.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "dracula",
-        "name": "Dracula",
-        "avatar": "/images/heroes/dracula.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      },
-      {
-        "heroSlug": "wesker",
-        "name": "Wesker",
-        "avatar": "/images/heroes/wesker.png",
-        "element": "Zombie Bentu",
-        "rarity": "UR",
-        "role": "Tanker",
-        "note": "Phẩm chất UR chuẩn meta."
-      }
-    ],
-    "S": [
-      {
-        "heroSlug": "ct-duong-tien",
-        "name": "CT-Dương Tiễn",
-        "avatar": "/images/heroes/ct-duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "hatake",
-        "name": "Hatake",
-        "avatar": "/images/heroes/hatake.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "gaara",
-        "name": "Gaara",
-        "avatar": "/images/heroes/gaara.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "emiya-shirou",
-        "name": "Emiya Shirou",
-        "avatar": "/images/heroes/emiya-shirou.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "duong-tien",
-        "name": "Dương Tiễn",
-        "avatar": "/images/heroes/duong-tien.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "shin",
-        "name": "Shin",
-        "avatar": "/images/heroes/shin.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "klaus",
-        "name": "Klaus",
-        "avatar": "/images/heroes/klaus.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "sasuke-susano",
-        "name": "Sasuke (Susano)",
-        "avatar": "/images/heroes/sasuke-susano.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "pain",
-        "name": "Pain",
-        "avatar": "/images/heroes/pain.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "veheta",
-        "name": "Veheta",
-        "avatar": "/images/heroes/veheta.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "na-tra",
-        "name": "Na Tra",
-        "avatar": "/images/heroes/na-tra.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "lu-bo",
-        "name": "Lữ Bố",
-        "avatar": "/images/heroes/lu-bo.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "overlord",
-        "name": "Overlord",
-        "avatar": "/images/heroes/overlord.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "ichigo",
-        "name": "Ichigo",
-        "avatar": "/images/heroes/ichigo.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "ct-venus",
-        "name": "CT-Venus",
-        "avatar": "/images/heroes/ct-venus.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "roger",
-        "name": "Roger",
-        "avatar": "/images/heroes/roger.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "levi-ackerman",
-        "name": "Levi Ackerman",
-        "avatar": "/images/heroes/levi-ackerman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "hisoka",
-        "name": "Hisoka",
-        "avatar": "/images/heroes/hisoka.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "trunks",
-        "name": "Trunks",
-        "avatar": "/images/heroes/icon_telankesi.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "blademaster",
-        "name": "Blademaster",
-        "avatar": "/images/heroes/blademaster.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "batman",
-        "name": "Batman",
-        "avatar": "/images/heroes/batman.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "qua-en",
-        "name": "Quạ Đen",
-        "avatar": "/images/heroes/qua-en.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "tsunade",
-        "name": "Tsunade",
-        "avatar": "/images/heroes/tsunade.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "songoku-sieu-xayda-3",
-        "name": "Songoku Siêu Xayda 3",
-        "avatar": "/images/heroes/icon_XWukong3.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "vehito",
-        "name": "Vehito",
-        "avatar": "/images/heroes/vehito.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gintoki",
-        "name": "Gintoki",
-        "avatar": "/images/heroes/gintoki.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gilgamesh",
-        "name": "Gilgamesh",
-        "avatar": "/images/heroes/gilgamesh.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "frieren",
-        "name": "Frieren",
-        "avatar": "/images/heroes/icon_fulilian.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "gaten",
-        "name": "Gaten",
-        "avatar": "/images/heroes/gaten.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "boruto",
-        "name": "Boruto",
-        "avatar": "/images/heroes/boruto.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "kula",
-        "name": "Kula",
-        "avatar": "/images/heroes/kula.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "luc-ao-tien-nhan",
-        "name": "Lục Đạo Tiên Nhân",
-        "avatar": "/images/heroes/luc-ao-tien-nhan.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "albedo",
-        "name": "Albedo",
-        "avatar": "/images/heroes/albedo.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "te-thien-ai-thanh",
-        "name": "Tề Thiên Đại Thánh",
-        "avatar": "/images/heroes/te-thien-ai-thanh.png",
-        "element": "Sinh vật bản địa",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "kaio",
-        "name": "Kaio",
-        "avatar": "/images/heroes/kaio.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "muc",
-        "name": "Mục",
-        "avatar": "/images/heroes/muc.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "cid-kageno",
-        "name": "Cid Kageno",
-        "avatar": "/images/heroes/icon_anying.png",
-        "element": "Vũ trụ linh tính",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
-      },
-      {
-        "heroSlug": "samurai",
-        "name": "Samurai",
-        "avatar": "/images/heroes/samurai.png",
-        "element": "Vũ trụ nguyên tố",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "lich-king",
-        "name": "Lich King",
-        "avatar": "/images/heroes/lich-king.png",
-        "element": "Zombie Bentu",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR chuẩn meta."
-      },
-      {
-        "heroSlug": "saga",
-        "name": "Saga",
-        "avatar": "/images/heroes/saga.png",
-        "element": "Vũ trụ sức mạnh",
-        "rarity": "SSR",
-        "role": "Tanker",
-        "note": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
-      }
-    ],
-    "A": [],
-    "B": []
-  },
-  "boss": {
-    "S+": [],
-    "S": [],
-    "A": [],
-    "B": []
-  }
+  "tiers": [
+    {
+      "id": "t0",
+      "name": "T0",
+      "color": "red",
+      "description": "Cực phẩm tối thượng, thống trị meta ở mọi chế độ",
+      "heroes": [
+        {
+          "heroSlug": "songoku",
+          "name": "Songoku",
+          "avatar": "/images/heroes/ct-songoku.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "UR",
+          "role": "Tanker",
+          "description": "Phẩm chất UR chuẩn meta."
+        },
+        {
+          "heroSlug": "phuong-hoang",
+          "name": "Phượng Hoàng",
+          "avatar": "/images/heroes/phuong-hoang.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "UR",
+          "role": "Tanker",
+          "description": "Phẩm chất UR chuẩn meta."
+        },
+        {
+          "heroSlug": "dracula",
+          "name": "Dracula",
+          "avatar": "/images/heroes/dracula.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "description": "Phẩm chất UR chuẩn meta."
+        },
+        {
+          "heroSlug": "wesker",
+          "name": "Wesker",
+          "avatar": "/images/heroes/wesker.png",
+          "element": "Zombie Bentu",
+          "rarity": "UR",
+          "role": "Tanker",
+          "description": "Phẩm chất UR chuẩn meta."
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "name": "T1",
+      "color": "amber",
+      "description": "Tướng chủ lực sức mạnh vượt trội, đa dụng và gánh team",
+      "heroes": [
+        {
+          "heroSlug": "ct-duong-tien",
+          "name": "CT-Dương Tiễn",
+          "avatar": "/images/heroes/ct-duong-tien.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "hatake",
+          "name": "Hatake",
+          "avatar": "/images/heroes/hatake.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "gaara",
+          "name": "Gaara",
+          "avatar": "/images/heroes/gaara.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "emiya-shirou",
+          "name": "Emiya Shirou",
+          "avatar": "/images/heroes/emiya-shirou.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "duong-tien",
+          "name": "Dương Tiễn",
+          "avatar": "/images/heroes/duong-tien.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "shin",
+          "name": "Shin",
+          "avatar": "/images/heroes/shin.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "klaus",
+          "name": "Klaus",
+          "avatar": "/images/heroes/klaus.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "sasuke-susano",
+          "name": "Sasuke (Susano)",
+          "avatar": "/images/heroes/sasuke-susano.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "pain",
+          "name": "Pain",
+          "avatar": "/images/heroes/pain.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "veheta",
+          "name": "Veheta",
+          "avatar": "/images/heroes/veheta.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "na-tra",
+          "name": "Na Tra",
+          "avatar": "/images/heroes/na-tra.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "lu-bo",
+          "name": "Lữ Bố",
+          "avatar": "/images/heroes/lu-bo.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "T2",
+      "color": "purple",
+      "description": "Lựa chọn chiến thuật mạnh, kết hợp tốt trong nhiều đội hình",
+      "heroes": [
+        {
+          "heroSlug": "overlord",
+          "name": "Overlord",
+          "avatar": "/images/heroes/overlord.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "ichigo",
+          "name": "Ichigo",
+          "avatar": "/images/heroes/ichigo.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "ct-venus",
+          "name": "CT-Venus",
+          "avatar": "/images/heroes/ct-venus.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "roger",
+          "name": "Roger",
+          "avatar": "/images/heroes/roger.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "levi-ackerman",
+          "name": "Levi Ackerman",
+          "avatar": "/images/heroes/levi-ackerman.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "hisoka",
+          "name": "Hisoka",
+          "avatar": "/images/heroes/hisoka.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "trunks",
+          "name": "Trunks",
+          "avatar": "/images/heroes/icon_telankesi.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "blademaster",
+          "name": "Blademaster",
+          "avatar": "/images/heroes/blademaster.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "batman",
+          "name": "Batman",
+          "avatar": "/images/heroes/batman.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "qua-en",
+          "name": "Quạ Đen",
+          "avatar": "/images/heroes/qua-en.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "tsunade",
+          "name": "Tsunade",
+          "avatar": "/images/heroes/tsunade.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "songoku-sieu-xayda-3",
+          "name": "Songoku Siêu Xayda 3",
+          "avatar": "/images/heroes/icon_XWukong3.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "T3",
+      "color": "blue",
+      "description": "Tướng tình huống hoặc hỗ trợ đội hình chuyên biệt",
+      "heroes": [
+        {
+          "heroSlug": "vehito",
+          "name": "Vehito",
+          "avatar": "/images/heroes/vehito.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "gintoki",
+          "name": "Gintoki",
+          "avatar": "/images/heroes/gintoki.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "gilgamesh",
+          "name": "Gilgamesh",
+          "avatar": "/images/heroes/gilgamesh.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "frieren",
+          "name": "Frieren",
+          "avatar": "/images/heroes/icon_fulilian.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "gaten",
+          "name": "Gaten",
+          "avatar": "/images/heroes/gaten.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "boruto",
+          "name": "Boruto",
+          "avatar": "/images/heroes/boruto.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "kula",
+          "name": "Kula",
+          "avatar": "/images/heroes/kula.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "luc-ao-tien-nhan",
+          "name": "Lục Đạo Tiên Nhân",
+          "avatar": "/images/heroes/luc-ao-tien-nhan.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "albedo",
+          "name": "Albedo",
+          "avatar": "/images/heroes/albedo.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "te-thien-ai-thanh",
+          "name": "Tề Thiên Đại Thánh",
+          "avatar": "/images/heroes/te-thien-ai-thanh.png",
+          "element": "Sinh vật bản địa",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "kaio",
+          "name": "Kaio",
+          "avatar": "/images/heroes/kaio.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "muc",
+          "name": "Mục",
+          "avatar": "/images/heroes/muc.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "cid-kageno",
+          "name": "Cid Kageno",
+          "avatar": "/images/heroes/icon_anying.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 2 dạng chuyển thế."
+        },
+        {
+          "heroSlug": "samurai",
+          "name": "Samurai",
+          "avatar": "/images/heroes/samurai.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "lich-king",
+          "name": "Lich King",
+          "avatar": "/images/heroes/lich-king.png",
+          "element": "Zombie Bentu",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR chuẩn meta."
+        },
+        {
+          "heroSlug": "saga",
+          "name": "Saga",
+          "avatar": "/images/heroes/saga.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "description": "Phẩm chất SSR, sở hữu 1 dạng chuyển thế."
+        }
+      ]
+    }
+  ]
 }

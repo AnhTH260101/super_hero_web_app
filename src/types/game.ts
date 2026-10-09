@@ -179,14 +179,24 @@ export interface TierListItem {
   element: string;
   rarity: string;
   role: string;
-  note: string;
+  note?: string;
+  description?: string;
+}
+
+export interface TierGroup {
+  id: string;
+  name: string;
+  color: string;
+  description?: string;
+  heroes: TierListItem[];
 }
 
 export interface TierListData {
-  overall: Record<'S+' | 'S' | 'A' | 'B', TierListItem[]>;
-  pvp: Record<'S+' | 'S' | 'A' | 'B', TierListItem[]>;
-  pve: Record<'S+' | 'S' | 'A' | 'B', TierListItem[]>;
-  boss: Record<'S+' | 'S' | 'A' | 'B', TierListItem[]>;
+  tiers?: TierGroup[];
+  overall?: Record<string, TierListItem[]>;
+  pvp?: Record<string, TierListItem[]>;
+  pve?: Record<string, TierListItem[]>;
+  boss?: Record<string, TierListItem[]>;
 }
 
 export interface Giftcode {
