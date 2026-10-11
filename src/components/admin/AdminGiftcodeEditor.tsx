@@ -24,12 +24,56 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
   const [customToken, setCustomToken] = useState('');
   const [customChannelId, setCustomChannelId] = useState('');
   const [showConfig, setShowConfig] = useState(false);
+  const [isSavingConfig, setIsSavingConfig] = useState(false);
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
+
+  // Load existing config on mount
+  React.useEffect(() => {
+    fetch(`/api/admin/giftcodes?gameSlug=${gameSlug}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.success) {
+          if (data.discordToken) setCustomToken(data.discordToken);
+          if (data.channelId) setCustomChannelId(data.channelId);
+        }
+      })
+      .catch((err) => console.error(err));
+  }, [gameSlug]);
 
   const handleCopy = (code: string) => {
     navigator.clipboard.writeText(code);
     setCopiedCode(code);
     setTimeout(() => setCopiedCode(null), 2000);
+  };
+
+  const handleSaveConfig = async () => {
+    if (!customToken.trim() || !customChannelId.trim()) {
+      alert('Vui lòng nhập đầy đủ Token và Channel ID!');
+      return;
+    }
+    setIsSavingConfig(true);
+    try {
+      const res = await fetch('/api/admin/giftcodes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'save_config',
+          gameSlug,
+          discordToken: customToken.trim(),
+          channelId: customChannelId.trim(),
+        }),
+      });
+      const data = await res.json();
+      if (res.ok && data.success) {
+        setSyncResult({ text: 'Đã lưu cấu hình Discord thành công trên website!', type: 'success' });
+      } else {
+        setSyncResult({ text: data.error || 'Lỗi khi lưu cấu hình', type: 'error' });
+      }
+    } catch (e: any) {
+      setSyncResult({ text: e.message, type: 'error' });
+    } finally {
+      setIsSavingConfig(false);
+    }
   };
 
   const handleSyncDiscord = async () => {
@@ -137,6 +181,20 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
                 className="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-lg text-white font-mono outline-none focus:border-amber-500"
               />
             </div>
+          </div>
+
+          <div className="flex items-center justify-between pt-2 border-t border-slate-800">
+            <span className="text-slate-400 text-[11px]">
+              💡 Thông tin được lưu an toàn trên máy chủ web, bạn chỉ cần nhập 1 lần duy nhất!
+            </span>
+            <button
+              type="button"
+              onClick={handleSaveConfig}
+              disabled={isSavingConfig}
+              className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-lg text-xs transition-all shadow disabled:opacity-50"
+            >
+              {isSavingConfig ? 'Đang lưu...' : 'Lưu Cấu Hình Này'}
+            </button>
           </div>
         </div>
       )}

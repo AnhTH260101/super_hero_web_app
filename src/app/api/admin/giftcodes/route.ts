@@ -93,18 +93,70 @@ function extractGiftcodesFromText(text: string): ParsedGiftcode[] {
   return results;
 }
 
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const gameSlug = searchParams.get('gameSlug') || 'sieu-anh-hung';
+    const configPath = path.join(process.cwd(), 'content', 'games', gameSlug, 'discord_config.json');
+
+    if (fs.existsSync(configPath)) {
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      return NextResponse.json({
+        success: true,
+        discordToken: config.discordToken || '',
+        channelId: config.channelId || '',
+      });
+    }
+
+    return NextResponse.json({
+      success: true,
+      discordToken: process.env.DISCORD_USER_TOKEN || '',
+      channelId: process.env.DISCORD_GIFTCODE_CHANNEL_ID || '',
+    });
+  } catch (error: any) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const gameSlug = body.gameSlug || 'sieu-anh-hung';
-    const token = body.discordToken || process.env.DISCORD_USER_TOKEN;
-    const channelId = body.channelId || process.env.DISCORD_GIFTCODE_CHANNEL_ID;
+    const configPath = path.join(process.cwd(), 'content', 'games', gameSlug, 'discord_config.json');
+
+    // Nếu là action lưu cấu hình Discord
+    if (body.action === 'save_config') {
+      const configData = {
+        discordToken: (body.discordToken || '').trim(),
+        channelId: (body.channelId || '').trim(),
+        updatedAt: new Date().toISOString(),
+      };
+      fs.writeFileSync(configPath, JSON.stringify(configData, null, 2), 'utf8');
+      return NextResponse.json({
+        success: true,
+        message: 'Đã lưu cấu hình Discord thành công trên máy chủ!',
+      });
+    }
+
+    // Đọc cấu hình từ file discord_config.json trước nếu có
+    let savedToken = '';
+    let savedChannelId = '';
+    if (fs.existsSync(configPath)) {
+      try {
+        const cfg = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+        savedToken = cfg.discordToken || '';
+        savedChannelId = cfg.channelId || '';
+      } catch (e) {}
+    }
+
+    const token = body.discordToken?.trim() || savedToken || process.env.DISCORD_USER_TOKEN;
+    const channelId = body.channelId?.trim() || savedChannelId || process.env.DISCORD_GIFTCODE_CHANNEL_ID;
 
     if (!token || !channelId) {
       return NextResponse.json(
         {
           error:
-            'Chưa cấu hình Discord Token hoặc Channel ID. Vui lòng cung cấp trong body hoặc file .env.local',
+            'Chưa cấu hình Discord Token hoặc Channel ID. Vui lòng bấm "⚙️ Cấu Hình Kênh" để lưu Token & Channel ID!',
         },
         { status: 400 }
       );
