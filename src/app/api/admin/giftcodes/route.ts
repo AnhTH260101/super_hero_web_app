@@ -25,54 +25,69 @@ const CODE_REGEX = /(?:code|giftcode|mã\s*quà|mã\s*code|nhập\s*code)?[:\s\-
 function extractGiftcodesFromText(text: string): ParsedGiftcode[] {
   const lines = text.split('\n');
   const results: ParsedGiftcode[] = [];
+  const processedCodes = new Set<string>();
 
-  // Tìm code trong backtick `CODE` hoặc từ khóa
-  const backtickMatches = text.match(/`([A-Za-z0-9_-]{5,25})`/g);
-  const foundCodes = new Set<string>();
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) continue;
 
-  if (backtickMatches) {
-    for (const match of backtickMatches) {
-      const code = match.replace(/`/g, '').trim().toUpperCase();
-      if (code.length >= 5 && !code.includes('HTTP')) {
-        foundCodes.add(code);
+    // Định dạng 1: DoanTriet10cm 30B gift Code : DoanTriet30B (15/10)
+    const codeColonMatch = line.match(/(?:code|mã)\s*[:=]\s*([A-Za-z0-9_-]+)(?:\s*\(([^)]+)\))?/i);
+    if (codeColonMatch) {
+      const code = codeColonMatch[1].trim();
+      const expiration = codeColonMatch[2] ? codeColonMatch[2].trim() : 'Có hạn';
+      const giftMatch = line.match(/(\d+[A-Za-z]+\s*gift)/i);
+      const rewards = giftMatch ? giftMatch[1].trim() : 'Quà tặng sự kiện Discord';
+
+      if (!processedCodes.has(code.toUpperCase())) {
+        processedCodes.add(code.toUpperCase());
+        results.push({
+          code,
+          rewards,
+          expiration,
+          status: 'active',
+          serverNote: 'Tự động quét từ Discord',
+        });
+      }
+      continue;
+    }
+
+    // Định dạng 2: Meliodas0310 (02/10) hoặc MeliodasGo (03/10)
+    const dateSuffixMatch = line.match(/^([A-Za-z0-9_-]{4,25})\s*\(([^)]+)\)$/);
+    if (dateSuffixMatch) {
+      const code = dateSuffixMatch[1].trim();
+      const expiration = dateSuffixMatch[2].trim();
+
+      if (!processedCodes.has(code.toUpperCase())) {
+        processedCodes.add(code.toUpperCase());
+        results.push({
+          code,
+          rewards: 'Quà tặng sự kiện Discord',
+          expiration,
+          status: 'active',
+          serverNote: 'Tự động quét từ Discord',
+        });
+      }
+      continue;
+    }
+
+    // Định dạng 3: Code trong backticks `CODE`
+    const backticks = line.match(/`([A-Za-z0-9_-]{5,25})`/g);
+    if (backticks) {
+      for (const b of backticks) {
+        const code = b.replace(/`/g, '').trim();
+        if (!processedCodes.has(code.toUpperCase())) {
+          processedCodes.add(code.toUpperCase());
+          results.push({
+            code,
+            rewards: 'Quà tặng sự kiện Discord',
+            expiration: 'Có hạn',
+            status: 'active',
+            serverNote: 'Tự động quét từ Discord',
+          });
+        }
       }
     }
-  }
-
-  // Nếu không có backtick, tìm theo regex
-  if (foundCodes.size === 0) {
-    const rawMatches = text.matchAll(/[A-Z0-9]{6,20}/g);
-    for (const m of rawMatches) {
-      const candidate = m[0].toUpperCase();
-      // Loại trừ các từ tiếng Anh hoặc từ không phải mã
-      if (!['DISCORD', 'SERVER', 'UPDATE', 'GIFTCODE', 'ACTIVE', 'ADMIN'].includes(candidate)) {
-        foundCodes.add(candidate);
-      }
-    }
-  }
-
-  for (const code of foundCodes) {
-    // Trích xuất phần thưởng nếu có
-    let rewards = 'Quà tặng sự kiện Discord';
-    const rewardMatch = text.match(/(?:quà|phần thưởng|nhận|rewards?)[:\s\-*]+([^\n.,]+)/i);
-    if (rewardMatch) {
-      rewards = rewardMatch[1].trim();
-    }
-
-    // Trích xuất hạn sử dụng
-    let expiration = 'Có hạn';
-    const expMatch = text.match(/(?:hsd|hạn|hạn dùng|hết hạn|exp|deadline)[:\s\-*]+([^\n.,]+)/i);
-    if (expMatch) {
-      expiration = expMatch[1].trim();
-    }
-
-    results.push({
-      code,
-      rewards,
-      expiration,
-      status: 'active',
-      serverNote: 'Tự động quét từ Discord',
-    });
   }
 
   return results;
