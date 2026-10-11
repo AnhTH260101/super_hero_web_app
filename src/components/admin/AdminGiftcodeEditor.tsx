@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Gift, RefreshCw, CheckCircle2, AlertCircle, Copy, Check, Clock, Sparkles } from 'lucide-react';
+import { Gift, RefreshCw, CheckCircle2, AlertCircle, Copy, Check, Clock, Sparkles, Trash2 } from 'lucide-react';
 import { Giftcode } from '@/types/game';
 
 interface Props {
@@ -25,6 +25,7 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
   const [customChannelId, setCustomChannelId] = useState('');
   const [showConfig, setShowConfig] = useState(false);
   const [isSavingConfig, setIsSavingConfig] = useState(false);
+  const [isCleaning, setIsCleaning] = useState(false);
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
 
   // Load existing config on mount
@@ -73,6 +74,66 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
       setSyncResult({ text: e.message, type: 'error' });
     } finally {
       setIsSavingConfig(false);
+    }
+  };
+
+  // Xóa chủ động 1 code
+  const handleDeleteCode = async (code: string) => {
+    if (!confirm(`Bạn có chắc muốn xóa vĩnh viễn mã Giftcode: ${code}?`)) {
+      return;
+    }
+
+    try {
+      const res = await fetch('/api/admin/giftcodes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'delete',
+          gameSlug,
+          code,
+        }),
+      });
+
+      const data = await res.json();
+      if (res.ok && data.success) {
+        setGiftcodes((prev) => prev.filter((item) => item.code.toUpperCase() !== code.toUpperCase()));
+        setSyncResult({ text: `Đã xóa mã giftcode ${code}`, type: 'success' });
+      } else {
+        alert(data.error || 'Lỗi khi xóa mã');
+      }
+    } catch (e: any) {
+      alert(e.message);
+    }
+  };
+
+  // Tự động dọn dẹp các mã hết hạn
+  const handleCleanExpired = async () => {
+    setIsCleaning(true);
+    setSyncResult(null);
+
+    try {
+      const res = await fetch('/api/admin/giftcodes', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'clean_expired',
+          gameSlug,
+        }),
+      });
+
+      const data = await res.json();
+      if (res.ok && data.success) {
+        if (data.giftcodes) {
+          setGiftcodes(data.giftcodes);
+        }
+        setSyncResult({ text: data.message, type: 'success' });
+      } else {
+        setSyncResult({ text: data.error || 'Lỗi khi dọn dẹp mã hết hạn', type: 'error' });
+      }
+    } catch (e: any) {
+      setSyncResult({ text: e.message, type: 'error' });
+    } finally {
+      setIsCleaning(false);
     }
   };
 
@@ -130,12 +191,22 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
           </div>
         </div>
 
-        <div className="flex items-center gap-2.5">
+        <div className="flex flex-wrap items-center gap-2.5">
           <button
             onClick={() => setShowConfig(!showConfig)}
             className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition-all"
           >
             ⚙️ {showConfig ? 'Đóng Cấu Hình' : 'Cấu Hình Kênh'}
+          </button>
+
+          <button
+            onClick={handleCleanExpired}
+            disabled={isCleaning}
+            className="px-3.5 py-2 rounded-xl bg-rose-950/80 hover:bg-rose-900 border border-rose-800 text-rose-300 text-xs font-bold flex items-center gap-1.5 transition-all disabled:opacity-50"
+            title="Tự động kiểm tra và xóa toàn bộ các mã đã quá hạn sử dụng"
+          >
+            <Trash2 className={`w-3.5 h-3.5 ${isCleaning ? 'animate-spin' : ''}`} />
+            <span>{isCleaning ? 'Đang Dọn...' : 'Tự Động Xóa Hết Hạn'}</span>
           </button>
 
           <button
@@ -228,12 +299,13 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
                 <th className="py-3 px-4">Phần Thưởng</th>
                 <th className="py-3 px-4 w-32">Hạn Dùng</th>
                 <th className="py-3 px-4 w-28 text-center">Trạng Thái</th>
-                <th className="py-3 px-4 w-48">Nguồn / Ghi Chú</th>
+                <th className="py-3 px-4 w-44">Nguồn / Ghi Chú</th>
+                <th className="py-3 px-4 w-20 text-center">Thao Tác</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-800/60">
               {giftcodes.map((item, idx) => (
-                <tr key={item.code} className="hover:bg-slate-800/30 transition-colors">
+                <tr key={item.code} className="hover:bg-slate-800/30 transition-colors group">
                   <td className="py-3.5 px-4 text-center text-slate-500 font-mono">
                     {idx + 1}
                   </td>
@@ -273,6 +345,16 @@ export const AdminGiftcodeEditor: React.FC<Props> = ({
                   </td>
                   <td className="py-3.5 px-4 text-slate-400 text-[11px]">
                     {item.serverNote || 'Không có ghi chú'}
+                  </td>
+                  <td className="py-3.5 px-4 text-center">
+                    <button
+                      type="button"
+                      onClick={() => handleDeleteCode(item.code)}
+                      className="p-1.5 rounded-lg text-slate-500 hover:text-rose-400 hover:bg-rose-950/40 transition-colors opacity-70 group-hover:opacity-100"
+                      title={`Xóa mã ${item.code}`}
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
                   </td>
                 </tr>
               ))}

@@ -93,6 +93,45 @@ function extractGiftcodesFromText(text: string): ParsedGiftcode[] {
   return results;
 }
 
+function isCodeExpired(expirationStr?: string, status?: string): boolean {
+  if (status === 'expired') return true;
+  if (!expirationStr) return false;
+  const str = expirationStr.trim().toLowerCase();
+  if (
+    str.includes('vô thời hạn') ||
+    str.includes('vô hạn') ||
+    str.includes('không') ||
+    str.includes('có hạn')
+  ) {
+    return false;
+  }
+
+  const now = new Date();
+  const currentYear = now.getFullYear();
+
+  // Pattern DD/MM/YYYY hoặc DD/MM/YY
+  const fullDateMatch = str.match(/(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})/);
+  if (fullDateMatch) {
+    const day = parseInt(fullDateMatch[1], 10);
+    const month = parseInt(fullDateMatch[2], 10) - 1;
+    let year = parseInt(fullDateMatch[3], 10);
+    if (year < 100) year += 2000;
+    const expDate = new Date(year, month, day, 23, 59, 59);
+    return now > expDate;
+  }
+
+  // Pattern DD/MM (như 15/10, 02/10)
+  const shortDateMatch = str.match(/(\d{1,2})[\/\-](\d{1,2})/);
+  if (shortDateMatch) {
+    const day = parseInt(shortDateMatch[1], 10);
+    const month = parseInt(shortDateMatch[2], 10) - 1;
+    const expDate = new Date(currentYear, month, day, 23, 59, 59);
+    return now > expDate;
+  }
+
+  return false;
+}
+
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
@@ -123,8 +162,51 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const gameSlug = body.gameSlug || 'sieu-anh-hung';
     const configPath = path.join(process.cwd(), 'content', 'games', gameSlug, 'discord_config.json');
+    const filePath = path.join(process.cwd(), 'content', 'games', gameSlug, 'giftcodes.json');
 
-    // Nếu là action lưu cấu hình Discord
+    // 1. Action: Xóa chủ động 1 mã giftcode cụ thể
+    if (body.action === 'delete') {
+      const codeToDelete = (body.code || '').trim().toUpperCase();
+      if (!codeToDelete) {
+        return NextResponse.json({ error: 'Mã code không hợp lệ' }, { status: 400 });
+      }
+
+      if (fs.existsSync(filePath)) {
+        const list: ParsedGiftcode[] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        const updated = list.filter((item) => item.code.toUpperCase() !== codeToDelete);
+        fs.writeFileSync(filePath, JSON.stringify(updated, null, 2), 'utf8');
+        return NextResponse.json({
+          success: true,
+          message: `Đã xóa mã giftcode: ${codeToDelete}`,
+          giftcodes: updated,
+        });
+      }
+      return NextResponse.json({ success: true, message: 'Đã xóa' });
+    }
+
+    // 2. Action: Tự động dọn dẹp các mã đã hết hạn
+    if (body.action === 'clean_expired') {
+      if (fs.existsSync(filePath)) {
+        const list: ParsedGiftcode[] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        const beforeCount = list.length;
+        const remaining = list.filter((item) => !isCodeExpired(item.expiration, item.status));
+        const removedCount = beforeCount - remaining.length;
+
+        fs.writeFileSync(filePath, JSON.stringify(remaining, null, 2), 'utf8');
+        return NextResponse.json({
+          success: true,
+          message:
+            removedCount > 0
+              ? `Đã tự động xóa ${removedCount} giftcode đã hết hạn!`
+              : 'Không có giftcode nào hết hạn.',
+          removedCount,
+          giftcodes: remaining,
+        });
+      }
+      return NextResponse.json({ success: true, removedCount: 0 });
+    }
+
+    // 3. Action: Lưu cấu hình Discord
     if (body.action === 'save_config') {
       const configData = {
         discordToken: (body.discordToken || '').trim(),
@@ -196,13 +278,6 @@ export async function POST(request: NextRequest) {
     }
 
     // 3. Đọc giftcodes.json hiện tại
-    const filePath = path.join(
-      process.cwd(),
-      'content',
-      'games',
-      gameSlug,
-      'giftcodes.json'
-    );
     let existingGiftcodes: ParsedGiftcode[] = [];
     if (fs.existsSync(filePath)) {
       try {

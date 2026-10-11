@@ -110,7 +110,49 @@ export function getGiftcodes(gameSlug: string): Giftcode[] {
   const codePath = path.join(CONTENT_DIR, gameSlug, 'giftcodes.json');
   if (!fs.existsSync(codePath)) return [];
   try {
-    return JSON.parse(fs.readFileSync(codePath, 'utf-8'));
+    const list: Giftcode[] = JSON.parse(fs.readFileSync(codePath, 'utf-8'));
+    const now = new Date();
+    const currentYear = now.getFullYear();
+
+    // Tự động kiểm tra hạn sử dụng và cập nhật status
+    return list.map((item) => {
+      if (item.status === 'expired') return item;
+      const str = (item.expiration || '').trim().toLowerCase();
+      if (
+        str.includes('vô thời hạn') ||
+        str.includes('vô hạn') ||
+        str.includes('không') ||
+        str.includes('có hạn')
+      ) {
+        return item;
+      }
+
+      // DD/MM/YYYY
+      const fullDate = str.match(/(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})/);
+      if (fullDate) {
+        const day = parseInt(fullDate[1], 10);
+        const month = parseInt(fullDate[2], 10) - 1;
+        let year = parseInt(fullDate[3], 10);
+        if (year < 100) year += 2000;
+        const expDate = new Date(year, month, day, 23, 59, 59);
+        if (now > expDate) {
+          return { ...item, status: 'expired' as const };
+        }
+      }
+
+      // DD/MM
+      const shortDate = str.match(/(\d{1,2})[\/\-](\d{1,2})/);
+      if (shortDate) {
+        const day = parseInt(shortDate[1], 10);
+        const month = parseInt(shortDate[2], 10) - 1;
+        const expDate = new Date(currentYear, month, day, 23, 59, 59);
+        if (now > expDate) {
+          return { ...item, status: 'expired' as const };
+        }
+      }
+
+      return item;
+    });
   } catch {
     return [];
   }
