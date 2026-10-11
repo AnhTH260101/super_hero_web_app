@@ -4,7 +4,7 @@
   "name": "Phượng Hoàng",
   "title": "Vũ trụ nguyên tố • SSR Phượng Hoàng",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/phuong-hoang.png",
+  "avatar": "/images/heroes/icon_heroes/phuong-hoang.png",
   "fullArt": "/images/heroes/full/image_jean.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Chôn vùi",
-      "icon": "/images/heroes/s_minmie.png",
+      "icon": "/images/icon_skill_heroes/s_minmie.png",
       "description": "Dùng ý niệm đánh tan đối phương thành phân tử, tạo 350% sát thương ma pháp cho mục tiêu, đồng thời có 50% tỉ lệ giảm 30 điểm nộ khí của anh hùng phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Tường chắn linh năng",
-      "icon": "/images/heroes/s_jijiudashi.png",
+      "icon": "/images/icon_skill_heroes/s_jijiudashi.png",
       "description": "Tạo 350% sát thương ma pháp cho toàn bộ địch, đồng thời dùng sức mạnh ý niệm tạo một tấm khiên cho toàn bộ phe ta. Khi bị tấn công lần sau sẽ giảm 50% sát thương.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Phượng hoàng niết bàn",
-      "icon": "/images/heroes/s_niepan.png",
+      "icon": "/images/icon_skill_heroes/s_niepan.png",
       "description": "Phượng hoàng chết xong sẽ tái sinh từ tro bụi. Sau khi chết có thể hồi sinh, đồng thời tăng 350% ma công của bản thân, kéo dài 1 hiệp, đồng thời dùng ý niệm làm sạch điểm nộ khí của anh hùng phe địch.",
       "cooldown": null,
       "breakthrough": {
@@ -65,18 +65,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Chôn vùi",
-      "skillIcon": "/images/heroes/s_minmie.png",
+      "skillIcon": "/images/icon_skill_heroes/s_minmie.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Chôn Vùi: \n Chôn Vùi sẽ khiến anh hùng địch nộ khí giảm còn 0.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         }
@@ -90,30 +90,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Tường chắn linh năng",
-      "skillIcon": "/images/heroes/s_jijiudashi.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jijiudashi.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Tường Chắn Linh Năng: \n Tường Chắn Linh Năng sát thương tăng 15%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 1,
           "type": "hero"
         }
@@ -127,24 +127,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Phượng hoàng niết bàn",
-      "skillIcon": "/images/heroes/s_niepan.png",
+      "skillIcon": "/images/icon_skill_heroes/s_niepan.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Phượng Hoàng Niết Bàn: \n Nộ khí phe ta tăng 100.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -158,30 +158,30 @@
       "tierName": "Huyền thoại",
       "auraColor": "amber",
       "skillName": "Kỹ năng 4",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -195,30 +195,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Kỹ năng 5",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -232,30 +232,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -269,30 +269,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 3,
           "type": "hero"
         }
@@ -312,18 +312,18 @@
       "heroes": [
         {
           "name": "Ace",
-          "slug": "",
-          "avatar": "/images/heroes/icon_ace.png"
+          "slug": "ace",
+          "avatar": "/images/heroes/icon_heroes/ace.png"
         },
         {
           "name": "Nemesis",
-          "slug": "",
-          "avatar": "/images/heroes/icon_matt.png"
+          "slug": "nemesis",
+          "avatar": "/images/heroes/icon_heroes/nemesis.png"
         },
         {
           "name": "Wesker",
           "slug": "wesker",
-          "avatar": "/images/heroes/wesker.png"
+          "avatar": "/images/heroes/icon_heroes/wesker.png"
         }
       ]
     },
@@ -334,22 +334,22 @@
         {
           "name": "Sonkoku",
           "slug": "sonkoku",
-          "avatar": "/images/heroes/sonkoku.png"
+          "avatar": "/images/heroes/icon_heroes/sonkoku.png"
         },
         {
           "name": "Ichigo",
           "slug": "ichigo",
-          "avatar": "/images/heroes/ichigo.png"
+          "avatar": "/images/heroes/icon_heroes/ichigo.png"
         },
         {
           "name": "Seya",
           "slug": "seya",
-          "avatar": "/images/heroes/seya.png"
+          "avatar": "/images/heroes/icon_heroes/seya.png"
         },
         {
           "name": "Mabara",
           "slug": "mabara",
-          "avatar": "/images/heroes/mabara.png"
+          "avatar": "/images/heroes/icon_heroes/mabara.png"
         }
       ]
     },
@@ -359,13 +359,13 @@
       "heroes": [
         {
           "name": "Alessa",
-          "slug": "",
-          "avatar": "/images/heroes/icon_aretha.png"
+          "slug": "alessa",
+          "avatar": "/images/heroes/icon_heroes/alessa.png"
         },
         {
           "name": "Tiến sĩ X",
           "slug": "tien-si-x",
-          "avatar": "/images/heroes/tien-si-x.png"
+          "avatar": "/images/heroes/icon_heroes/tien-si-x.png"
         }
       ]
     },
@@ -375,8 +375,8 @@
       "heroes": [
         {
           "name": "Người sói",
-          "slug": "",
-          "avatar": "/images/heroes/icon_wolverine.png"
+          "slug": "nguoi-soi",
+          "avatar": "/images/heroes/icon_heroes/nguoi-soi.png"
         }
       ]
     }

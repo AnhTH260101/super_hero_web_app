@@ -4,7 +4,7 @@
   "name": "CT-Namikaze Minato",
   "title": "Vũ trụ nguyên tố • UR CT-Namikaze Minato",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-namikaze-minato.png",
+  "avatar": "/images/heroes/icon_heroes/ct-namikaze-minato.png",
   "fullArt": "/images/heroes/full/image_Minato.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Phi Lôi Thần-Thánh",
-      "icon": "/images/heroes/s_Minato_s1.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s1.png",
       "description": "Skill phản đòn: 99% tỉ lệ bị tấn công xong phản đòn kẻ tấn công, tạo 350% ST vật lý và 550% ST t.tính Gió, khiến kẻ địch bị cháy hoặc tê (Chắc chắn kích hoạt 1 loại), buff cháy mỗi hiệp tạo 50%-150% ST cháy của tổng lượng ST. Buff tê giảm 20%-35% tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 2 hiệp, 20% tỉ lệ hiệp sau không thể ra tay. Phản đòn mỗi hiệp tối đa phát động 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Phi Lôi Thần Thuật-Thánh",
-      "icon": "/images/heroes/s_Minato_s2.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s2.png",
       "description": "Skill trước hiệp: tạo 350% ST vật lý và 350% ST t.tính Gió lên toàn thể địch, hồi tất cả HP đã mất.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tiên Pháp.Rasengan-Thánh",
-      "icon": "/images/heroes/s_Minato_s3.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s3.png",
       "description": "Giải phóng phong ấn Tứ Xích Dương Trận, triệu hồi Chakra Cửu Vỹ, chuyển tấn công t.tính Gió thành tấn công t.tính Lửa, tấn công 1-3 kẻ địch, tạo 350% ST vật lý và 300% ST t.tính Lửa, bị đánh trúng sẽ tạo Chakra hỗn loạn, làm mục tiêu đứng im 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Thuấn Thân Thuật-Thánh",
-      "icon": "/images/heroes/s_Minato_s6.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s6.png",
       "description": "Skill trước trận: Tăng vĩnh viễn 350% Chính Xác, Tốc Độ và Né cho bản thân. Khiến kẻ địch không thể bắt được bóng của mình, miễn dịch buff bất lợi vĩnh viễn: Đứng Im, Hôn Mê, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Giảm Tốc và Né.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Mode Cửu Vĩ-Thánh",
-      "icon": "/images/heroes/s_Minato_s7.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s7.png",
       "description": "Skill tử trận: Tử trận xong hồi sinh, xóa tất cả buff trọng thương. Hồi tất cả HP, tăng 100% Tốc Độ và Né cho toàn thể đồng đội, mở khóa chế độ Cửu Vỹ, tăng vĩnh viễn 100% Vật & Ma Công, tăng 1000k-1800k Tấn Công t.tính Gió, kéo dài 3 hiệp. Cộng 1 tầng buff Vô Địch cho bản thân, miễn dịch 2 lần tấn công.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Thuật Phân Thân Shuriken-Thánh",
-      "icon": "/images/heroes/s_Minato_s4.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s4.png",
       "description": "Chuyển 50%-150% Tấn Công của tất cả thuộc tính thành Vật Công, tạo ST thực bằng 350% ST vật lý lên toàn thể địch, nếu tỉ lệ chuyển hóa của tấn công thuộc tính trên 120%, sẽ tạo thêm gấp 2 ST lên mục tiêu đó. Nếu tỉ lệ chuyển hóa của tấn công thuộc tính dưới 90%, sẽ tạo thêm gấp 1.5 ST lên mục tiêu đó",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Luân Vũ Hống Xoắn Ốc-Thánh",
-      "icon": "/images/heroes/s_Minato_s5.png",
+      "icon": "/images/icon_skill_heroes/s_Minato_s5.png",
       "description": "Tạo 350% ST vật lý và 950% ST t.tính Gió lên toàn thể địch. Và kèm ST bằng 50% HP lớn nhất. Tốc độ cực nhanh, sát thương bỏ qua phòng ngự của phe địch. Tạo thêm gấp 3 ST lên mục tiêu dãy sau. Nếu trên người kẻ địch có buff Tê hoặc Cháy, sẽ tạo thêm gấp 2 sát thương.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -184,18 +184,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Phi Lôi Thần-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s1.png",
       "skillDesc": "Làm kẻ địch trọng thương, giảm 30% hiệu quả hồi phục, nếu hiệu quả hồi phụ của mục tiêu thấp hơn 50%, sẽ tạo thêm X2 sát thương, và khiến mục tiêu hôn mê 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -209,18 +209,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Phi Lôi Thần Thuật-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s2.png",
       "skillDesc": "Giảm 50% Tốc Độ và Né của 1-4 kẻ địch, kéo dài 2 hiệp, nếu mục tiêu đã bị giảm tốc, sẽ khiến mục tiêu đó hôn mê 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -234,18 +234,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Tiên Pháp.Rasengan-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s3.png",
       "skillDesc": "Giảm 20% tấn công và tấn công toàn thuộc tính của mục tiêu, hút 30% Tốc Độ và Né của mục tiêu, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -259,30 +259,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Thuật Phân Thân Shuriken-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s4.png",
       "skillDesc": "Phạm vi chuyển hóa trở thành 70%-170%, tạo hiệu quả tụt máu lên 1-3 kẻ địch, mỗi hiệp tạo ST thực bằng 100% tấn công t.tính Gió, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Uchiha",
-          "icon": "/images/heroes/uchiha.png",
+          "icon": "/images/heroes/icon_heroes/uchiha.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "amount": 1,
           "type": "hero"
         }
@@ -296,30 +296,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Luân Vũ Hống Xoắn Ốc-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s5.png",
       "skillDesc": "Nếu tỉ lệ HP của mục tiêu cao hơn 80%, sẽ tạo thêm sát thương vật lý lên mục tiêu đó bằng 600% Tốc Độ bản thân, sát thương đó là sát thương thực. (Sát thương không chịu ảnh hưởng cộng bội số)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,30 +333,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Thuấn Thân Thuật-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s6.png",
       "skillDesc": "Thuấn Thân Thuật tăng 79% tỉ lệ giảm thương tổng thể của bản thân, cộng hiệu quả Vô Địch cho bản thân, miễn dịch 3 lần tấn công kế tiếp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "amount": 1,
           "type": "hero"
         }
@@ -370,30 +370,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Mode Cửu Vĩ-Thánh",
-      "skillIcon": "/images/heroes/s_Minato_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Minato_s7.png",
       "skillDesc": "Mê hoặc 1-5 kẻ địch 1 hiệp, hút 20% Tốc Độ và Né của mục tiêu, tăng 30% giới hạn HP của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "amount": 2,
           "type": "hero"
         }
@@ -408,22 +408,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
@@ -439,22 +439,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
@@ -470,28 +470,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Thuật Phân Thân Shuriken-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Minato_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Minato_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -501,22 +501,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -532,22 +532,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
@@ -563,28 +563,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Luân Vũ Hống Xoắn Ốc-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Minato_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Minato_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -594,22 +594,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
@@ -625,22 +625,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Namikaze Minato",
-          "icon": "/images/heroes/namikaze-minato.png",
+          "icon": "/images/heroes/icon_heroes/namikaze-minato.png",
           "slug": "namikaze-minato"
         }
       ],
@@ -670,7 +670,7 @@
     "id": "38100",
     "slug": "namikaze-minato",
     "name": "Namikaze Minato",
-    "avatar": "/images/heroes/namikaze-minato.png",
+    "avatar": "/images/heroes/icon_heroes/namikaze-minato.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -682,12 +682,12 @@
         {
           "name": "Tobirama",
           "slug": "tobirama",
-          "avatar": "/images/heroes/tobirama.png"
+          "avatar": "/images/heroes/icon_heroes/tobirama.png"
         },
         {
           "name": "Hashirama",
           "slug": "hashirama",
-          "avatar": "/images/heroes/hashirama.png"
+          "avatar": "/images/heroes/icon_heroes/hashirama.png"
         }
       ]
     },
@@ -698,7 +698,7 @@
         {
           "name": "saber",
           "slug": "saber",
-          "avatar": "/images/heroes/saber.png"
+          "avatar": "/images/heroes/icon_heroes/saber.png"
         }
       ]
     },
@@ -709,7 +709,7 @@
         {
           "name": "Naruto (Tiên nhân)",
           "slug": "naruto-tien-nhan",
-          "avatar": "/images/heroes/naruto-tien-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/naruto-tien-nhan.png"
         }
       ]
     },
@@ -720,7 +720,7 @@
         {
           "name": "Kula",
           "slug": "kula",
-          "avatar": "/images/heroes/kula.png"
+          "avatar": "/images/heroes/icon_heroes/kula.png"
         }
       ]
     }

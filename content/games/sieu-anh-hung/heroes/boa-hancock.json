@@ -4,7 +4,7 @@
   "name": "Boa Hancock",
   "title": "Vũ trụ nguyên tố • SSR Boa Hancock",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/boa-hancock.png",
+  "avatar": "/images/heroes/icon_heroes/boa-hancock.png",
   "fullArt": "/images/heroes/full/image_nvdi.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Mũi Tên Kẹo",
-      "icon": "/images/heroes/s_nd_tiantian.png",
+      "icon": "/images/icon_skill_heroes/s_nd_tiantian.png",
       "description": "Trêu chọc mục tiêu mặc định hoặc dãy sau địch, tạo e350% sát thương ma pháp và 160% sát thương thuộc tính Đất.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Khí Chất Nữ Đế",
-      "icon": "/images/heroes/s_nd_baqi.png",
+      "icon": "/images/icon_skill_heroes/s_nd_baqi.png",
       "description": "KN bị đánh: Tăng 350% Tấn Công Thuộc Tính, Phòng Ngự Thuộc Tính cho mỗi thành viên phe ta, 2 hiệp, và khi thu hút mục tiêu có 50% tỉ lệ, làm 1 mục tiêu Sợ, 1 hiệp",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Xà Vương",
-      "icon": "/images/heroes/s_nd_shewang.png",
+      "icon": "/images/icon_skill_heroes/s_nd_shewang.png",
       "description": "Chuyển tốc độ thành tấn công thuộc tính Đất, tạo 350% sát thương ma pháp và 130% sát thương thuộc tính Đất lên mục tiêu, giảm 30% Vật Công và Ma Công của tất cả địch, 1 hiệp.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Mỹ Nhân Kế",
-      "icon": "/images/heroes/s_nd_meiren.png",
+      "icon": "/images/icon_skill_heroes/s_nd_meiren.png",
       "description": "KN trước hiệp: Tăng 350% tấn công thuộc tính Đất, giảm 10% tỉ lệ giảm sát thương của toàn thể địch.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Cửu Xà Nữ Đế",
-      "icon": "/images/heroes/s_nd_jiushe.png",
+      "icon": "/images/icon_skill_heroes/s_nd_jiushe.png",
       "description": "KN trước trận: Chuyển 200% phòng ngự thành tấn công thuộc tính Đất, tạo 350% sát thương ma pháp và 550% sát thương thuộc tính Đất lên mục tiêu, tăng 50% vật công, ma công, phòng ngự và tốc độ, 3 hiệp. Tăng 10% giới hạn HP.",
       "cooldown": null,
       "breakthrough": {
@@ -84,7 +84,7 @@
     {
       "slug": "ct-boa-hancock",
       "name": "CT-Boa Hancock",
-      "avatar": "/images/heroes/ct-boa-hancock.png",
+      "avatar": "/images/heroes/icon_heroes/ct-boa-hancock.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Là một vị nữ hải tặc xinh đẹp nhất! Dựa vào nhan sắc và năng lực thực thụ để khống chế người khác!"
@@ -112,18 +112,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Mũi Tên Kẹo",
-      "skillIcon": "/images/heroes/s_nd_tiantian.png",
+      "skillIcon": "/images/icon_skill_heroes/s_nd_tiantian.png",
       "skillDesc": "Nếu Tốc Độ của mục tiêu cao hơn mình, giảm 50% Tốc Độ của hắn, 2 hiệp và ko thể bị xóa; Ngẫu nhiên hóa đá 1 mục tiêu tấn công, 1 hiệp, miễn dịch 1 hiệp từ địch, có thể bị xóa buff khống chế",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -137,24 +137,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Khí Chất Nữ Đế",
-      "skillIcon": "/images/heroes/s_nd_baqi.png",
+      "skillIcon": "/images/icon_skill_heroes/s_nd_baqi.png",
       "skillDesc": "Tỉ lệ Sợ tăng đến 100%, tăng thêm 50% Tốc Độ, 2 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "amount": 1,
           "type": "hero"
         }
@@ -168,24 +168,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Xà Vương",
-      "skillIcon": "/images/heroes/s_nd_shewang.png",
+      "skillIcon": "/images/icon_skill_heroes/s_nd_shewang.png",
       "skillDesc": "Nếu mục tiêu bị Choáng hoặc Sợ, sẽ X2 sát thương thuộc tính, ngẫu nhiên làm 1-2 kẻ địch Đứng Im, 1 hiệp; Nếu trong 1 hiệp mục tiêu từng bị Boa hóa đá, hoặc tồn tại buff Hóa Đá, tạo thêm 500k-1000k sát thương thực lên hắn",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "amount": 1,
           "type": "hero"
         }
@@ -199,30 +199,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Mỹ Nhân Kế",
-      "skillIcon": "/images/heroes/s_nd_meiren.png",
+      "skillIcon": "/images/icon_skill_heroes/s_nd_meiren.png",
       "skillDesc": "Tỉ lệ giảm “Giảm Sát Tổng Thể” của địch tăng đến 30%, hồi 50% HP bản thân; Từ hiệp 2, nếu Luffy Chuyển5 trở lên ra trận và chưa chết, sẽ thả buff Mê Hoặc (Mê Hoặc vô hiệu với Luffy phe địch), khiến 1 mục tiêu thả tấn công thường lên bản thân, Hồi HP tăng đến 80%\n\n",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -236,30 +236,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Cửu Xà Nữ Đế",
-      "skillIcon": "/images/heroes/s_nd_jiushe.png",
+      "skillIcon": "/images/icon_skill_heroes/s_nd_jiushe.png",
       "skillDesc": "Cả đội tăng 10% giới hạn HP, giới hạn HP bản thân tăng đến 30%, và xóa BUFF xấu của cả đội; Bản thân tăng thêm 30% Giảm Thương Tổng Thể, 3 hiệp, và không thể bị xóa.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "amount": 2,
           "type": "hero"
         }
@@ -273,30 +273,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "amount": 1,
           "type": "hero"
         }
@@ -310,30 +310,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "amount": 2,
           "type": "hero"
         }
@@ -348,22 +348,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -379,22 +379,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -410,22 +410,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -441,22 +441,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -472,22 +472,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "slug": "boa-hancock"
         }
       ],
@@ -503,22 +503,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         }
       ],
@@ -534,22 +534,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -565,22 +565,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -609,12 +609,12 @@
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         },
         {
           "name": "Người Hùng Tia Chớp",
           "slug": "nguoi-hung-tia-chop",
-          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+          "avatar": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png"
         }
       ]
     },
@@ -624,13 +624,13 @@
       "heroes": [
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         },
         {
           "name": "Roger",
           "slug": "roger",
-          "avatar": "/images/heroes/roger.png"
+          "avatar": "/images/heroes/icon_heroes/roger.png"
         }
       ]
     },
@@ -641,7 +641,7 @@
         {
           "name": "Mei",
           "slug": "mei",
-          "avatar": "/images/heroes/mei.png"
+          "avatar": "/images/heroes/icon_heroes/mei.png"
         }
       ]
     }

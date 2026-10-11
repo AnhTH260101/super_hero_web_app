@@ -4,7 +4,7 @@
   "name": "CT-Zoro",
   "title": "Zombie Bentu • SSR CT-Zoro",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-zoro.png",
+  "avatar": "/images/heroes/icon_heroes/ct-zoro.png",
   "fullArt": "/images/heroes/full/image_suolong.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Luyện Ngục Trảm-Thánh",
-      "icon": "/images/heroes/e_sl_injure.png",
+      "icon": "/images/icon_weapon_heroes/e_sl_injure.png",
       "description": "Tấn công mục tiêu dãy sau, tạo 350% ST vật lý, tạo thêm 150% ST t.tính Nước, tạo trạng thái yếu lên 3 kẻ địch (HQ không thể xóa)",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Lốc Xoáy-Thánh",
-      "icon": "/images/heroes/e_sl_hurt.png",
+      "icon": "/images/icon_weapon_heroes/e_sl_hurt.png",
       "description": "Khi bị tấn công, sẽ nhân đôi Tấn Công t.tính của bản thân, tăng 350% Tốc Độ và Miễn Giảm ST cho bản thân, hiệu quả không cộng dồn. Mỗi lần thả tăng 50% Phòng Ngự t.tính, Phòng Ngự và Vật Công cho bản thân, tối đa dồn 5 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "3000 Thế Giới-Thánh",
-      "icon": "/images/heroes/e_sl_cure.png",
+      "icon": "/images/icon_weapon_heroes/e_sl_cure.png",
       "description": "Tấn công toàn thể địch, tạo 350% ST vật lý, và tạo 140% ST t.tính Nước, hồi 25% HP cho bản thân.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -65,18 +65,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Luyện Ngục Trảm-Thánh",
-      "skillIcon": "/images/heroes/e_sl_injure.png",
+      "skillIcon": "/images/icon_weapon_heroes/e_sl_injure.png",
       "skillDesc": "Zoro chuyển hòa Ma Công thành tấn công t.tính Nước",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -90,18 +90,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Lốc Xoáy-Thánh",
-      "skillIcon": "/images/heroes/e_sl_hurt.png",
+      "skillIcon": "/images/icon_weapon_heroes/e_sl_hurt.png",
       "skillDesc": "Tốc Độ và miễn giảm ST tăng thêm 10%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -115,18 +115,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "3000 Thế Giới-Thánh",
-      "skillIcon": "/images/heroes/e_sl_cure.png",
+      "skillIcon": "/images/icon_weapon_heroes/e_sl_cure.png",
       "skillDesc": "Tạo x3 ST vật lý đối với kẻ địch đang có trạng thái suy yếu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -140,30 +140,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Kỹ năng 4",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Master Yi",
-          "icon": "/images/heroes/master-yi.png",
+          "icon": "/images/heroes/icon_heroes/master-yi.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -177,30 +177,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Kỹ năng 5",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -214,30 +214,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -251,30 +251,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "amount": 2,
           "type": "hero"
         }
@@ -289,22 +289,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -320,22 +320,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -351,22 +351,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -382,22 +382,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -413,22 +413,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -444,22 +444,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -475,22 +475,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -506,22 +506,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "slug": "zoro"
         }
       ],
@@ -545,12 +545,12 @@
         {
           "name": "Hoàng Phủ Kiếm",
           "slug": "hoang-phu-kiem",
-          "avatar": "/images/heroes/hoang-phu-kiem.png"
+          "avatar": "/images/heroes/icon_heroes/hoang-phu-kiem.png"
         },
         {
           "name": "Heimdall",
           "slug": "heimdall",
-          "avatar": "/images/heroes/heimdall.png"
+          "avatar": "/images/heroes/icon_heroes/heimdall.png"
         }
       ]
     },
@@ -561,12 +561,12 @@
         {
           "name": "Roger",
           "slug": "roger",
-          "avatar": "/images/heroes/roger.png"
+          "avatar": "/images/heroes/icon_heroes/roger.png"
         },
         {
           "name": "Nữ thần Sấm",
           "slug": "nu-than-sam",
-          "avatar": "/images/heroes/nu-than-sam.png"
+          "avatar": "/images/heroes/icon_heroes/nu-than-sam.png"
         }
       ]
     },
@@ -577,7 +577,7 @@
         {
           "name": "Loki",
           "slug": "loki",
-          "avatar": "/images/heroes/loki.png"
+          "avatar": "/images/heroes/icon_heroes/loki.png"
         }
       ]
     }

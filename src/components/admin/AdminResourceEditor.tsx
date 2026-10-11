@@ -1,9 +1,8 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   Plus,
-  Save,
   Trash2,
   Edit2,
   Check,
@@ -15,6 +14,7 @@ import {
   ArrowDown,
   Image as ImageIcon,
   CheckCircle2,
+  RefreshCw,
 } from 'lucide-react';
 import { ResourceItem, ResourceSource, ResourceItemSourceRef } from '@/types/game';
 
@@ -42,32 +42,177 @@ export const AdminResourceEditor: React.FC<Props> = ({
   // Asset Picker Modal State
   const [isAssetPickerOpen, setIsAssetPickerOpen] = useState(false);
   const [pickerSearch, setPickerSearch] = useState('');
-  const [pickerFilter, setPickerFilter] = useState('');
-  const [availableIcons, setAvailableIcons] = useState<{ name: string; url: string }[]>([]);
+  const [pickerFolder, setPickerFolder] = useState('all');
+  const [pickerPage, setPickerPage] = useState(1);
+  const [pickerTotal, setPickerTotal] = useState(0);
+  const [availableIcons, setAvailableIcons] = useState<{
+    name: string;
+    url: string;
+    folder: string;
+    folderLabel: string;
+  }[]>([]);
+  const [categoriesList, setCategoriesList] = useState<{
+    id: string;
+    label: string;
+    count: number;
+  }[]>([]);
   const [isLoadingIcons, setIsLoadingIcons] = useState(false);
 
-  // Saving state
-  const [isSaving, setIsSaving] = useState(false);
-  const [saveMessage, setSaveMessage] = useState<{
-    text: string;
-    type: 'success' | 'error';
-  } | null>(null);
+  // Sources Manager State (Cột 3)
+  const [isSourcesManagerOpen, setIsSourcesManagerOpen] = useState(false);
+  const [availableSourceImages, setAvailableSourceImages] = useState<string[]>([]);
+  const [editingSource, setEditingSource] = useState<ResourceSource | null>(null);
+  const [isCreatingSource, setIsCreatingSource] = useState(false);
+  const [isSyncingSources, setIsSyncingSources] = useState(false);
+
+  // Saving / Auto-save state
+  const [saveStatus, setSaveStatus] = useState<'saved' | 'saving' | 'error'>('saved');
+  const [lastSavedTime, setLastSavedTime] = useState<string | null>(null);
+  const isFirstRender = useRef(true);
+
+  // Auto-save debounced whenever resources or sources changes
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+
+    setSaveStatus('saving');
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch('/api/admin/resources', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            gameSlug,
+            resources,
+            sources,
+          }),
+        });
+        const data = await res.json();
+        if (data.success) {
+          setSaveStatus('saved');
+          const now = new Date();
+          const timeStr = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+          setLastSavedTime(timeStr);
+        } else {
+          setSaveStatus('error');
+        }
+      } catch (err) {
+        console.error('Auto-save error:', err);
+        setSaveStatus('error');
+      }
+    }, 600);
+
+    return () => clearTimeout(timer);
+  }, [resources, sources, gameSlug]);
+
+  // Fetch Sources & Available Images
+  const fetchSourcesData = async () => {
+    try {
+      const res = await fetch(`/api/admin/resource-sources?gameSlug=${gameSlug}`);
+      const data = await res.json();
+      if (data.success) {
+        if (data.sources) setSources(data.sources);
+        if (data.availableSourceImages) setAvailableSourceImages(data.availableSourceImages);
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Sync sources directly from folder
+  const handleSyncSourcesFromFolder = async () => {
+    setIsSyncingSources(true);
+    try {
+      const res = await fetch('/api/admin/resource-sources', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'sync', gameSlug }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSources(data.sources);
+        alert(data.message || 'Đã đồng bộ các ảnh mới trong thư mục sources!');
+      } else {
+        alert(data.error || 'Đồng bộ thất bại');
+      }
+    } catch (err: any) {
+      alert(err.message);
+    } finally {
+      setIsSyncingSources(false);
+    }
+  };
+
+  // Save/Update Single Source
+  const handleSaveSourceModal = async () => {
+    if (!editingSource || !editingSource.name.trim() || !editingSource.icon) {
+      alert('Vui lòng nhập tên và chọn icon cho sự kiện');
+      return;
+    }
+    const cleanSource = {
+      ...editingSource,
+      id: editingSource.id || editingSource.name.toLowerCase().replace(/[^a-z0-9]/g, '-'),
+    };
+    let updatedSources: ResourceSource[];
+    if (isCreatingSource) {
+      updatedSources = [...sources, cleanSource];
+    } else {
+      updatedSources = sources.map((s) => (s.id === cleanSource.id ? cleanSource : s));
+    }
+    setSources(updatedSources);
+    setEditingSource(null);
+    setIsCreatingSource(false);
+
+    try {
+      await fetch('/api/admin/resource-sources', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'save', gameSlug, sources: updatedSources }),
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Delete Source
+  const handleDeleteSource = async (sourceId: string) => {
+    if (confirm('Bạn có chắc muốn xóa nguồn nhận này không?')) {
+      const updated = sources.filter((s) => s.id !== sourceId);
+      setSources(updated);
+      try {
+        await fetch('/api/admin/resource-sources', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'save', gameSlug, sources: updated }),
+        });
+      } catch (err) {
+        console.error(err);
+      }
+    }
+  };
 
   // Load icons for picker
-  useEffect(() => {
-    if (isAssetPickerOpen) {
-      fetchIcons(pickerSearch, pickerFilter);
-    }
-  }, [isAssetPickerOpen, pickerSearch, pickerFilter]);
-
-  const fetchIcons = async (query: string, filterKeyword: string) => {
+  const fetchIcons = async (query: string, folderId: string, page = 1, refresh = false) => {
     setIsLoadingIcons(true);
     try {
-      const activeQuery = filterKeyword || query;
-      const res = await fetch(`/api/admin/resource-icons?search=${encodeURIComponent(activeQuery)}&limit=150`);
+      const params = new URLSearchParams({
+        search: query,
+        folder: folderId || 'all',
+        page: page.toString(),
+        limit: '120',
+      });
+      if (refresh) {
+        params.set('refresh', 'true');
+      }
+      const res = await fetch(`/api/admin/resource-icons?${params.toString()}`);
       const data = await res.json();
       if (data.icons) {
         setAvailableIcons(data.icons);
+        setPickerTotal(data.total || 0);
+      }
+      if (data.categories) {
+        setCategoriesList(data.categories);
       }
     } catch (e) {
       console.error(e);
@@ -75,6 +220,17 @@ export const AdminResourceEditor: React.FC<Props> = ({
       setIsLoadingIcons(false);
     }
   };
+
+  const handleRescanIcons = async () => {
+    await fetchIcons(pickerSearch, pickerFolder, pickerPage, true);
+    alert('Đã quét lại toàn bộ file ảnh asset từ các thư mục public/images!');
+  };
+
+  useEffect(() => {
+    if (isAssetPickerOpen) {
+      fetchIcons(pickerSearch, pickerFolder, pickerPage);
+    }
+  }, [isAssetPickerOpen, pickerSearch, pickerFolder, pickerPage]);
 
   // Filtered resources
   const filteredList = resources.filter((item) => {
@@ -96,33 +252,6 @@ export const AdminResourceEditor: React.FC<Props> = ({
   // Map sources
   const sourceMap = new Map(sources.map((s) => [s.id, s]));
 
-  // Handle Save to API
-  const handleSaveToDisk = async () => {
-    setIsSaving(true);
-    setSaveMessage(null);
-    try {
-      const res = await fetch('/api/admin/resources', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          gameSlug,
-          resources,
-          sources,
-        }),
-      });
-      const data = await res.json();
-      if (data.success) {
-        setSaveMessage({ text: 'Đã lưu toàn bộ dữ liệu tài nguyên lên máy chủ!', type: 'success' });
-      } else {
-        setSaveMessage({ text: data.error || 'Có lỗi xảy ra khi lưu', type: 'error' });
-      }
-    } catch (err: any) {
-      setSaveMessage({ text: err.message, type: 'error' });
-    } finally {
-      setIsSaving(false);
-    }
-  };
-
   // Open Edit Item
   const handleOpenEdit = (item: ResourceItem) => {
     setEditingItem(JSON.parse(JSON.stringify(item)));
@@ -135,7 +264,7 @@ export const AdminResourceEditor: React.FC<Props> = ({
       id: `tai-nguyen-${Date.now()}`,
       name: '',
       category: 'Khác',
-      icon: '/images/resources/game_items/icon_point3.png',
+      icon: '/images/icon_chuyen_sinh/i_b_0_0.png',
       description: [''],
       sources: [],
     });
@@ -203,37 +332,61 @@ export const AdminResourceEditor: React.FC<Props> = ({
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
+          {/* Live Auto-save Indicator */}
+          <div className="flex items-center gap-2 px-3.5 py-2 bg-slate-950/80 border border-slate-800 rounded-xl text-xs font-semibold">
+            {saveStatus === 'saving' && (
+              <>
+                <RefreshCw className="w-3.5 h-3.5 text-amber-400 animate-spin" />
+                <span className="text-amber-400">Đang tự động lưu...</span>
+              </>
+            )}
+            {saveStatus === 'saved' && (
+              <>
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                <span className="text-emerald-400">
+                  Tự động lưu {lastSavedTime ? `lúc ${lastSavedTime}` : 'thành công'}
+                </span>
+              </>
+            )}
+            {saveStatus === 'error' && (
+              <>
+                <X className="w-3.5 h-3.5 text-rose-400" />
+                <span className="text-rose-400">Lỗi tự động lưu! Đang thử lại...</span>
+              </>
+            )}
+          </div>
+
           <button
-            onClick={handleOpenCreate}
-            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 transition-all border border-slate-700 hover:border-amber-500/40"
+            onClick={() => handleRescanIcons()}
+            disabled={isLoadingIcons}
+            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 transition-all border border-slate-700 hover:border-amber-500/40 disabled:opacity-50"
+            title="Quét lại toàn bộ các file ảnh mới thêm vào thư mục public/images"
           >
-            <Plus className="w-4 h-4 text-amber-400" />
-            <span>Thêm Tài Nguyên Mới</span>
+            <RefreshCw className={`w-4 h-4 text-amber-400 ${isLoadingIcons ? 'animate-spin' : ''}`} />
+            <span>{isLoadingIcons ? 'Đang Quét...' : 'Quét Lại Asset Ảnh'}</span>
           </button>
 
           <button
-            onClick={handleSaveToDisk}
-            disabled={isSaving}
-            className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 rounded-xl text-xs font-extrabold flex items-center gap-2 transition-all shadow-lg shadow-amber-500/20 disabled:opacity-50"
+            onClick={() => {
+              setIsSourcesManagerOpen(true);
+              fetchSourcesData();
+            }}
+            className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold flex items-center gap-2 transition-all border border-slate-700 hover:border-amber-500/40"
           >
-            <Save className="w-4 h-4" />
-            <span>{isSaving ? 'Đang lưu...' : 'Lưu Thay Đổi'}</span>
+            <Layers className="w-4 h-4 text-amber-400" />
+            <span>Sự Kiện Cột 3 ({sources.length})</span>
+          </button>
+
+          <button
+            onClick={handleOpenCreate}
+            className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-xl text-xs font-bold flex items-center gap-2 transition-all shadow-md shadow-amber-500/20"
+          >
+            <Plus className="w-4 h-4" />
+            <span>Thêm Tài Nguyên Mới</span>
           </button>
         </div>
       </div>
-
-      {saveMessage && (
-        <div
-          className={`p-3 rounded-xl text-xs font-semibold ${
-            saveMessage.type === 'success'
-              ? 'bg-emerald-500/10 border border-emerald-500/20 text-emerald-400'
-              : 'bg-red-500/10 border border-red-500/20 text-red-400'
-          }`}
-        >
-          {saveMessage.text}
-        </div>
-      )}
 
       {/* Filter and Search Bar */}
       <div className="flex flex-col sm:flex-row gap-3 items-center justify-between bg-slate-900/60 p-3 rounded-xl border border-slate-800">
@@ -335,24 +488,28 @@ export const AdminResourceEditor: React.FC<Props> = ({
                       <div className="flex flex-wrap items-center gap-1.5">
                         {item.sources.map((srcRef, sIdx) => {
                           const src = sourceMap.get(srcRef.sourceId);
-                          if (!src) return null;
+                          const displayName = src ? src.name : srcRef.sourceId;
+                          const iconUrl = src ? src.icon : null;
                           return (
-                            <div
+                            <span
                               key={sIdx}
-                              className="relative"
-                              title={src.name + (srcRef.note ? ` (${srcRef.note})` : '')}
+                              className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-lg bg-slate-950 border border-slate-800 text-[11px] text-slate-200 hover:border-amber-500 transition-colors"
+                              title={displayName + (srcRef.note ? ` (${srcRef.note})` : '')}
                             >
-                              <img
-                                src={src.icon}
-                                alt={src.name}
-                                className="w-8 h-8 rounded border border-slate-700 bg-slate-950 object-contain p-0.5"
-                              />
+                              {iconUrl && (
+                                <img
+                                  src={iconUrl}
+                                  alt={displayName}
+                                  className="w-4 h-4 object-contain"
+                                />
+                              )}
+                              <span className="font-semibold">{displayName}</span>
                               {srcRef.note && (
-                                <span className="absolute -bottom-1 -right-1 text-[8px] bg-red-600 text-white font-bold px-1 rounded-full shadow">
+                                <span className="text-[9px] bg-red-600 text-white font-bold px-1 rounded-full">
                                   {srcRef.note}
                                 </span>
                               )}
-                            </div>
+                            </span>
                           );
                         })}
                       </div>
@@ -480,7 +637,7 @@ export const AdminResourceEditor: React.FC<Props> = ({
                         className="px-3 py-1 bg-amber-500/20 hover:bg-amber-500/30 text-amber-400 rounded-lg font-bold flex items-center gap-1.5 transition-colors border border-amber-500/30"
                       >
                         <ImageIcon className="w-3.5 h-3.5" />
-                        <span>Mở Kho Asset Game (4000+ Icon PNG)</span>
+                        <span>Mở Kho Asset Phân Loại (2000+ Icons)</span>
                       </button>
                     </div>
                   </div>
@@ -545,13 +702,37 @@ export const AdminResourceEditor: React.FC<Props> = ({
 
               {/* Column 3: Activity Asset Picker */}
               <div>
-                <div className="flex items-center justify-between mb-1.5">
-                  <label className="text-slate-400 font-semibold">
-                    Cách Nhận (Cột 3 - Click vào các icon hoạt động bên dưới để chọn/bỏ chọn)
-                  </label>
-                  <span className="text-slate-500 text-[11px]">
-                    Đã chọn {editingItem.sources.length} nguồn
-                  </span>
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                  <div className="flex items-center gap-2">
+                    <label className="text-slate-400 font-semibold">
+                      Cách Nhận (Cột 3)
+                    </label>
+                    <span className="text-slate-500 text-[11px]">
+                      • Đã chọn {editingItem.sources.length} nguồn
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setIsSourcesManagerOpen(true);
+                        fetchSourcesData();
+                      }}
+                      className="px-2.5 py-1 bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 rounded-lg text-[11px] font-bold border border-amber-500/30 transition-all flex items-center gap-1"
+                    >
+                      <Plus className="w-3 h-3" />
+                      <span>Quản lý / Thêm sự kiện</span>
+                    </button>
+                    <button
+                      type="button"
+                      disabled={isSyncingSources}
+                      onClick={handleSyncSourcesFromFolder}
+                      className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-[11px] font-semibold border border-slate-700 transition-all flex items-center gap-1"
+                      title="Tự động quét các ảnh mới trong public/images/resources/sources/"
+                    >
+                      <span>🔄 {isSyncingSources ? 'Đang quét...' : 'Quét ảnh mới (sources/)'}</span>
+                    </button>
+                  </div>
                 </div>
 
                 <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2.5 max-h-56 overflow-y-auto p-3 bg-slate-950 rounded-xl border border-slate-800">
@@ -645,94 +826,125 @@ export const AdminResourceEditor: React.FC<Props> = ({
       {/* Game Asset Picker Modal */}
       {isAssetPickerOpen && (
         <div className="fixed inset-0 z-60 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
-          <div className="bg-slate-900 border border-slate-800 rounded-2xl max-w-4xl w-full p-5 space-y-4 shadow-2xl max-h-[90vh] flex flex-col">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl max-w-5xl w-full p-5 space-y-4 shadow-2xl max-h-[92vh] flex flex-col">
             <div className="flex items-center justify-between border-b border-slate-800 pb-3">
               <div>
                 <h3 className="text-base font-bold text-white flex items-center gap-2">
                   <ImageIcon className="w-5 h-5 text-amber-400" />
-                  <span>Kho Icon Vật Phẩm Trích Xuất Từ Game (4000+ Icons)</span>
+                  <span>Kho Icon Tài Nguyên Phân Loại Theo Game</span>
                 </h3>
                 <p className="text-xs text-slate-400">
-                  Nhấp vào một icon để áp dụng trực tiếp cho vật phẩm này
+                  Chọn thư mục bên dưới và click vào icon để áp dụng cho tài nguyên này
                 </p>
               </div>
-              <button
-                onClick={() => setIsAssetPickerOpen(false)}
-                className="text-slate-400 hover:text-white"
-              >
-                <X className="w-5 h-5" />
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => handleRescanIcons()}
+                  disabled={isLoadingIcons}
+                  className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all border border-slate-700 hover:border-amber-500/40 disabled:opacity-50"
+                  title="Quét lại toàn bộ các file ảnh trong public/images"
+                >
+                  <RefreshCw className={`w-3.5 h-3.5 text-amber-400 ${isLoadingIcons ? 'animate-spin' : ''}`} />
+                  <span>{isLoadingIcons ? 'Đang quét...' : 'Quét Lại Asset'}</span>
+                </button>
+                <button
+                  onClick={() => setIsAssetPickerOpen(false)}
+                  className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800"
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
             </div>
 
             {/* Filter buttons & Search */}
-            <div className="space-y-2">
+            <div className="space-y-3">
               <div className="relative">
                 <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-500" />
                 <input
                   type="text"
-                  placeholder="Gõ từ khóa tìm icon: stone, box, card, point, dragon, fate, qianghua..."
+                  placeholder="Gõ từ khóa tìm tên file icon..."
                   value={pickerSearch}
                   onChange={(e) => {
                     setPickerSearch(e.target.value);
-                    setPickerFilter('');
+                    setPickerPage(1);
                   }}
                   className="w-full pl-9 pr-4 py-2 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white focus:outline-none focus:border-amber-500"
                 />
               </div>
 
-              <div className="flex flex-wrap gap-1.5 text-xs">
-                {[
-                  { label: 'Tất cả', q: '' },
-                  { label: 'Đá Cường Hóa / Rèn', q: 'qianghuashi' },
-                  { label: 'Đá Vận Mệnh (Fate)', q: 'fate_stone' },
-                  { label: 'Đá In / Năng Lượng', q: 'mingyun' },
-                  { label: 'Rương / Hộp', q: 'box' },
-                  { label: 'Thẻ / Phiếu', q: 'card' },
-                  { label: 'Thuốc Thể Lực', q: 'point' },
-                  { label: 'Móng Gắp / Ngọc', q: 'zhuazi' },
-                ].map((f) => (
+              {/* Folder Category Pills */}
+              <div className="flex flex-wrap gap-1.5 text-xs max-h-24 overflow-y-auto p-1 bg-slate-950/60 rounded-xl border border-slate-800/80">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setPickerFolder('all');
+                    setPickerPage(1);
+                  }}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                    pickerFolder === 'all'
+                      ? 'bg-amber-500 text-slate-950 font-bold shadow'
+                      : 'bg-slate-800 text-slate-400 hover:text-white'
+                  }`}
+                >
+                  <span>Tất cả</span>
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                    pickerFolder === 'all' ? 'bg-slate-950/20 text-slate-950 font-extrabold' : 'bg-slate-900 text-slate-400'
+                  }`}>
+                    {categoriesList.reduce((acc, c) => acc + c.count, 0)}
+                  </span>
+                </button>
+
+                {categoriesList.map((cat) => (
                   <button
-                    key={f.label}
+                    key={cat.id}
+                    type="button"
                     onClick={() => {
-                      setPickerFilter(f.q);
-                      setPickerSearch('');
+                      setPickerFolder(cat.id);
+                      setPickerPage(1);
                     }}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all ${
-                      pickerFilter === f.q && !pickerSearch
-                        ? 'bg-amber-500 text-slate-950 font-bold'
+                    className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                      pickerFolder === cat.id
+                        ? 'bg-amber-500 text-slate-950 font-bold shadow'
                         : 'bg-slate-800 text-slate-400 hover:text-white'
                     }`}
                   >
-                    {f.label}
+                    <span>{cat.label}</span>
+                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                      pickerFolder === cat.id ? 'bg-slate-950/20 text-slate-950 font-extrabold' : 'bg-slate-900 text-slate-400'
+                    }`}>
+                      {cat.count}
+                    </span>
                   </button>
                 ))}
               </div>
             </div>
 
             {/* Grid of icons */}
-            <div className="flex-1 overflow-y-auto min-h-[300px] max-h-[460px] p-2 bg-slate-950 rounded-xl border border-slate-800">
+            <div className="flex-1 overflow-y-auto min-h-[320px] max-h-[460px] p-2 bg-slate-950 rounded-xl border border-slate-800">
               {isLoadingIcons ? (
                 <div className="flex items-center justify-center h-48 text-slate-400">
-                  Đang tải icon từ máy chủ...
+                  Đang tải danh sách icon...
                 </div>
               ) : availableIcons.length === 0 ? (
                 <div className="flex items-center justify-center h-48 text-slate-500">
-                  Không tìm thấy icon nào khớp với từ khóa.
+                  Không tìm thấy icon nào trong thư mục này khớp với tìm kiếm.
                 </div>
               ) : (
                 <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2.5">
                   {availableIcons.map((ic) => (
                     <button
-                      key={ic.name}
+                      key={ic.url}
+                      type="button"
                       onClick={() => {
                         if (editingItem) {
                           setEditingItem({ ...editingItem, icon: ic.url });
                         }
                         setIsAssetPickerOpen(false);
                       }}
-                      className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-amber-500 hover:bg-slate-800 flex flex-col items-center gap-1.5 transition-all group"
+                      className="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-amber-500 hover:bg-slate-800 flex flex-col items-center gap-1.5 transition-all group relative"
                     >
-                      <div className="w-12 h-12 flex items-center justify-center">
+                      <div className="w-12 h-12 flex items-center justify-center p-1 bg-slate-950/40 rounded-lg">
                         <img
                           src={ic.url}
                           alt={ic.name}
@@ -740,13 +952,275 @@ export const AdminResourceEditor: React.FC<Props> = ({
                           loading="lazy"
                         />
                       </div>
-                      <span className="text-[9px] font-mono text-slate-400 truncate w-full text-center">
-                        {ic.name.replace('.png', '')}
+                      <span className="text-[9px] font-mono text-slate-300 truncate w-full text-center">
+                        {ic.name.replace(/\.[^/.]+$/, '')}
+                      </span>
+                      <span className="text-[8px] px-1.5 py-0.2 bg-slate-800 text-amber-400/90 rounded border border-slate-700/60 truncate max-w-full">
+                        {ic.folderLabel}
                       </span>
                     </button>
                   ))}
                 </div>
               )}
+            </div>
+
+            {/* Pagination Controls */}
+            {pickerTotal > 120 && (
+              <div className="flex items-center justify-between border-t border-slate-800 pt-3 text-xs text-slate-400">
+                <span>
+                  Hiển thị {availableIcons.length} / {pickerTotal} icon (Trang {pickerPage} / {Math.ceil(pickerTotal / 120)})
+                </span>
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    disabled={pickerPage <= 1 || isLoadingIcons}
+                    onClick={() => setPickerPage((p) => Math.max(1, p - 1))}
+                    className="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-white font-bold transition-all"
+                  >
+                    ← Trang trước
+                  </button>
+                  <button
+                    type="button"
+                    disabled={pickerPage >= Math.ceil(pickerTotal / 120) || isLoadingIcons}
+                    onClick={() => setPickerPage((p) => p + 1)}
+                    className="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-white font-bold transition-all"
+                  >
+                    Trang sau →
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Sources (Cột 3) Management Modal */}
+      {isSourcesManagerOpen && (
+        <div className="fixed inset-0 z-60 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl max-w-4xl w-full p-5 space-y-4 shadow-2xl max-h-[92vh] flex flex-col">
+            {/* Header */}
+            <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+              <div>
+                <h3 className="text-base font-bold text-white flex items-center gap-2">
+                  <Layers className="w-5 h-5 text-amber-400" />
+                  <span>Quản Lý Nguồn Nhận & Sự Kiện (Cột 3)</span>
+                </h3>
+                <p className="text-xs text-slate-400">
+                  Tự do thêm mới sự kiện, đổi icon hoặc tự động đồng bộ ảnh từ thư mục public/images/resources/sources
+                </p>
+              </div>
+              <button
+                onClick={() => {
+                  setIsSourcesManagerOpen(false);
+                  setEditingSource(null);
+                  setIsCreatingSource(false);
+                }}
+                className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Action Bar */}
+            <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-950 p-3 rounded-xl border border-slate-800">
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  disabled={isSyncingSources}
+                  onClick={handleSyncSourcesFromFolder}
+                  className="px-3.5 py-1.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition-all shadow-md shadow-amber-500/20 disabled:opacity-50"
+                >
+                  <span>🔄 {isSyncingSources ? 'Đang đồng bộ...' : 'Tự Động Quét Ảnh Mới (sources/)'}</span>
+                </button>
+                <span className="text-[11px] text-slate-400 hidden sm:inline">
+                  (Quét các file ảnh mới thêm vào thư mục sources/)
+                </span>
+              </div>
+
+              {!editingSource && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsCreatingSource(true);
+                    setEditingSource({
+                      id: `source-${Date.now()}`,
+                      name: '',
+                      icon: availableSourceImages.length > 0 ? `/images/resources/sources/${availableSourceImages[0]}` : '',
+                    });
+                  }}
+                  className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all border border-slate-700 hover:border-amber-500/40"
+                >
+                  <Plus className="w-3.5 h-3.5 text-amber-400" />
+                  <span>+ Thêm Sự Kiện Mới</span>
+                </button>
+              )}
+            </div>
+
+            {/* Inline Form Edit/Add Source */}
+            {editingSource && (
+              <div className="bg-slate-950 p-4 rounded-xl border border-amber-500/30 space-y-3">
+                <div className="flex items-center justify-between border-b border-slate-800/80 pb-2">
+                  <span className="text-xs font-bold text-amber-400">
+                    {isCreatingSource ? '✨ Thêm Nguồn Nhận Mới' : `✏️ Chỉnh Sửa: ${editingSource.name}`}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setEditingSource(null);
+                      setIsCreatingSource(false);
+                    }}
+                    className="text-slate-500 hover:text-slate-300 text-xs"
+                  >
+                    Hủy bỏ
+                  </button>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                  <div>
+                    <label className="block text-slate-400 font-semibold mb-1">
+                      Tên Hoạt Động / Sự Kiện
+                    </label>
+                    <input
+                      type="text"
+                      value={editingSource.name}
+                      onChange={(e) => setEditingSource({ ...editingSource, name: e.target.value })}
+                      placeholder="VD: Đập Trứng Vàng, Vòng Quay 777..."
+                      className="w-full px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-white font-bold outline-none focus:border-amber-500"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-slate-400 font-semibold mb-1">
+                      Mã Định Danh (ID)
+                    </label>
+                    <input
+                      type="text"
+                      value={editingSource.id}
+                      onChange={(e) => setEditingSource({ ...editingSource, id: e.target.value })}
+                      placeholder="VD: dap-trung-vang"
+                      className="w-full px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-white font-mono outline-none focus:border-amber-500"
+                    />
+                  </div>
+                </div>
+
+                {/* Chọn Icon từ thư mục sources/ */}
+                <div>
+                  <label className="block text-slate-400 font-semibold mb-1.5 text-xs">
+                    Chọn Icon Trong Thư Mục `public/images/resources/sources/` (hoặc nhập link)
+                  </label>
+                  <div className="flex items-center gap-2 mb-2">
+                    {editingSource.icon && (
+                      <div className="w-9 h-9 p-0.5 bg-slate-900 rounded-lg border border-slate-700 shrink-0 flex items-center justify-center">
+                        <img src={editingSource.icon} alt="Preview" className="w-full h-full object-contain" />
+                      </div>
+                    )}
+                    <input
+                      type="text"
+                      value={editingSource.icon}
+                      onChange={(e) => setEditingSource({ ...editingSource, icon: e.target.value })}
+                      placeholder="/images/resources/sources/ten-file.png"
+                      className="flex-1 px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-lg text-white font-mono text-xs outline-none focus:border-amber-500"
+                    />
+                  </div>
+
+                  {availableSourceImages.length > 0 && (
+                    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2.5 max-h-56 overflow-y-auto p-2.5 bg-slate-900/60 rounded-xl border border-slate-800">
+                      {availableSourceImages.map((imgName) => {
+                        const iconUrl = `/images/resources/sources/${imgName}`;
+                        const isSelected = editingSource.icon === iconUrl;
+                        const matchedName = sources.find((s) => s.icon.endsWith(imgName))?.name || imgName.replace('.png', '').replace(/-/g, ' ');
+                        return (
+                          <div
+                            key={imgName}
+                            onClick={() => setEditingSource({ ...editingSource, icon: iconUrl })}
+                            className={`p-2 rounded-xl border flex flex-col items-center justify-center cursor-pointer transition-all ${
+                              isSelected
+                                ? 'bg-amber-500/20 border-amber-500 ring-2 ring-amber-500 shadow-md scale-102'
+                                : 'bg-slate-900 border-slate-800 hover:border-slate-600 hover:bg-slate-800/80'
+                            }`}
+                            title={matchedName}
+                          >
+                            <div className="w-12 h-12 flex items-center justify-center p-1 bg-slate-950/60 rounded-lg">
+                              <img src={iconUrl} alt={imgName} className="w-full h-full object-contain" />
+                            </div>
+                            <span className="text-[10px] font-bold text-slate-300 truncate w-full text-center mt-1.5" title={matchedName}>
+                              {matchedName}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex justify-end gap-2 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setEditingSource(null);
+                      setIsCreatingSource(false);
+                    }}
+                    className="px-3 py-1.5 bg-slate-800 text-slate-300 rounded-lg text-xs font-bold hover:bg-slate-700"
+                  >
+                    Hủy
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleSaveSourceModal}
+                    className="px-4 py-1.5 bg-amber-500 text-slate-950 rounded-lg text-xs font-extrabold hover:bg-amber-400 shadow"
+                  >
+                    Lưu Sự Kiện
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Danh sách các sources hiện có */}
+            <div className="flex-1 overflow-y-auto min-h-[280px] max-h-[460px] p-2 bg-slate-950 rounded-xl border border-slate-800">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
+                {sources.map((src) => (
+                  <div
+                    key={src.id}
+                    className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 flex items-center justify-between gap-2 group transition-all"
+                  >
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-10 h-10 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-center p-1 shrink-0">
+                        <img src={src.icon} alt={src.name} className="w-full h-full object-contain" />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="text-xs font-bold text-slate-200 truncate" title={src.name}>
+                          {src.name}
+                        </div>
+                        <div className="text-[9px] font-mono text-slate-500 truncate" title={src.id}>
+                          {src.id}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-1 shrink-0 opacity-80 group-hover:opacity-100">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setEditingSource(src);
+                          setIsCreatingSource(false);
+                        }}
+                        className="p-1 rounded-lg text-slate-400 hover:text-amber-400 hover:bg-slate-800 transition-colors"
+                        title="Chỉnh sửa"
+                      >
+                        <Edit2 className="w-3.5 h-3.5" />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => handleDeleteSource(src.id)}
+                        className="p-1 rounded-lg text-slate-400 hover:text-red-400 hover:bg-slate-800 transition-colors"
+                        title="Xóa"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

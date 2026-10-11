@@ -4,7 +4,7 @@
   "name": "Asamiya Athena",
   "title": "Vũ trụ linh tính • SSR Asamiya Athena",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/asamiya-athena.png",
+  "avatar": "/images/heroes/icon_heroes/asamiya-athena.png",
   "fullArt": "/images/heroes/full/image_Athena.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Song Quyền",
-      "icon": "/images/heroes/s_Athena_skill1.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill1.png",
       "description": "Giảm 30%-50% Ma & Vật Công hoặc tấn công toàn thuộc tính của toàn thể mục tiêu, hiệu quả kéo dài 2 hiệp, tạo 350% ST ma pháp & 250% ST thuộc tính Nước lên 1 mục tiêu.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Lướt Kiếm",
-      "icon": "/images/heroes/s_Athena_skill2.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill2.png",
       "description": "Skill phản đòn: Phản đòn mục tiêu tấn công mình, tạo ST bằng 350% Ma & Vật Công & 300% ST thuộc tính Nước, làm mục tiêu trọng thương, -50% Hồi HP của mục tiêu, mỗi hiệp tối đa thả 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Mũi Tên FANG",
-      "icon": "/images/heroes/s_Athena_skill3.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill3.png",
       "description": "Tạo 350% ST ma pháp & 200% ST thuộc tính Nước lên mục tiêu hàng mặc định, lấy cắp 50% toàn thuộc tính và Ma & Vật Công của mục tiêu (Cộng thuộc tính lấy của mục tiêu cho bản thân), kéo dài 3 hiệp, tối đa dồn 3 tầng.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Sóng Pha Lê",
-      "icon": "/images/heroes/s_Athena_skill6.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill6.png",
       "description": "Skill trước hiệp: Hồi 50% HP đã mất của bản thân, tăng 350% phòng ngự toàn thuộc tính cho mình, và hồi HP bằng 350% Ma Công.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Bạo Phát Tâm Linh",
-      "icon": "/images/heroes/s_Athena_skill7.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill7.png",
       "description": "Skill bị động: Trên trận cứ có 1 nhân vật nam, sẽ khiến bản thân thả TC thường & skill chủ động, tạo thêm ST tụt máu bằng 350% Vật Công lên 1-2 mục tiêu; Tăng 69% giảm thương tổng thể.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Phản Sóng Tâm Linh",
-      "icon": "/images/heroes/s_Athena_skill4.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill4.png",
       "description": "Skill trước trận: Tăng vĩnh viễn 350% Phòng Ngự & Phòng Ngự Thuộc Tính cho bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Siêu Xạ Pha Lê",
-      "icon": "/images/heroes/s_Athena_skill5.png",
+      "icon": "/images/icon_skill_heroes/s_Athena_skill5.png",
       "description": "Tạo 350% ST ma pháp & 900% ST thuộc tính Nước lên toàn thể mục tiêu; Nếu HP hiện tại của mục tiêu cao hơn HP bản thân, tạo thêm ST thực t.tính Nước bằng 10% HP cao nhất của Athena lên mục tiêu đó.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-asamiya-athena",
       "name": "CT-Asamiya Athena",
-      "avatar": "/images/heroes/ct-asamiya-athena.png",
+      "avatar": "/images/heroes/icon_heroes/ct-asamiya-athena.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Là nữ sinh trung học kiêm ca sĩ thần tượng , được nhiều người mến mộ bởi vẻ ngoài đáng yêu và có siêu năng lực cực mạnh, và biết võ cổ truyền Trung Hoa"
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Song Quyền",
-      "skillIcon": "/images/heroes/s_Athena_skill1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill1.png",
       "skillDesc": "Tăng 50% Chính Xác & Né cho tất cả đồng đội",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Lướt Kiếm",
-      "skillIcon": "/images/heroes/s_Athena_skill2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill2.png",
       "skillDesc": "Cứ thả 1 lần Lướt Kiếm, tăng 20% tỉ lệ bạo kích cho mình, tối đa cộng dồn 5 tầng; Giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu bị mù, 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ảo Ảnh",
-          "icon": "/images/heroes/ao-anh.png",
+          "icon": "/images/heroes/icon_heroes/ao-anh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Mũi Tên FANG",
-      "skillIcon": "/images/heroes/s_Athena_skill3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill3.png",
       "skillDesc": "Xóa buff xấu có thể xóa cho tất cả đồng đội; -50% Tốc Độ của mục tiêu, và có 50% tỉ lệ làm mục tiêu hôn mê 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Phản Sóng Tâm Linh",
-      "skillIcon": "/images/heroes/s_Athena_skill4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill4.png",
       "skillDesc": "Cộng 1 tầng buff Vô Địch cho mình, hiệp trước trận có hiệu lực; Và có 50% tỉ lệ cộng 1 tầng buff Vô Địch cho đồng đội",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sói Trắng",
-          "icon": "/images/heroes/soi-trang.png",
+          "icon": "/images/heroes/icon_heroes/soi-trang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Siêu Xạ Pha Lê",
-      "skillIcon": "/images/heroes/s_Athena_skill5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill5.png",
       "skillDesc": "Tạo thêm ST thực t.tính Nước lên mục tiêu tăng đến 30% HP cao nhất của Asamiya Athena, khi HP hiện tại của mục tiêu thấp hơn HP bản thân cũng phát động HQ này; Làm trọng thương 2 mục tiêu, khiến chúng trong 1 hiệp ko thể hồi HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Sóng Pha Lê",
-      "skillIcon": "/images/heroes/s_Athena_skill6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill6.png",
       "skillDesc": "Hồi 100% HP đã mất, tăng thêm 10% điểm tuyệt đối của giảm thương t.tính cho tất cả đồng đội, bản thân bỏ qua Choáng, Chấn Động, Đứng Im, Hóa Đá, Tsukuyomi và Mê Hoặc; Ở hiệp 1 & hiệp chẵn, có 80% tử trận xong hồi đầy HP, hồi sinh xong có 2 tầng buff Vô Địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Bạo Phát Tâm Linh",
-      "skillIcon": "/images/heroes/s_Athena_skill7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Athena_skill7.png",
       "skillDesc": "Có 500k-1500k Vật Công, bản thân tăng 50% bạo kích.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Phản Sóng Tâm Linh",
-      "unlockedSkillIcon": "/images/heroes/s_Athena_skill4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Athena_skill4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Siêu Xạ Pha Lê",
-      "unlockedSkillIcon": "/images/heroes/s_Athena_skill5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Athena_skill5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Asamiya Athena",
-          "icon": "/images/heroes/asamiya-athena.png",
+          "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
           "slug": "asamiya-athena"
         }
       ],
@@ -629,12 +629,12 @@
         {
           "name": "Sakura",
           "slug": "sakura",
-          "avatar": "/images/heroes/sakura.png"
+          "avatar": "/images/heroes/icon_heroes/sakura.png"
         },
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         }
       ]
     },
@@ -645,12 +645,12 @@
         {
           "name": "Chris",
           "slug": "chris",
-          "avatar": "/images/heroes/chris.png"
+          "avatar": "/images/heroes/icon_heroes/chris.png"
         },
         {
           "name": "Shermie",
           "slug": "shermie",
-          "avatar": "/images/heroes/shermie.png"
+          "avatar": "/images/heroes/icon_heroes/shermie.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Shaka",
           "slug": "shaka",
-          "avatar": "/images/heroes/shaka.png"
+          "avatar": "/images/heroes/icon_heroes/shaka.png"
         }
       ]
     },
@@ -672,7 +672,7 @@
         {
           "name": "Erza",
           "slug": "erza",
-          "avatar": "/images/heroes/erza.png"
+          "avatar": "/images/heroes/icon_heroes/erza.png"
         }
       ]
     }

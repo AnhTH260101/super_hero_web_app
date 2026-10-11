@@ -4,7 +4,7 @@
   "name": "Tobirama",
   "title": "Vũ trụ sức mạnh • SSR Tobirama",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/tobirama.png",
+  "avatar": "/images/heroes/icon_heroes/tobirama.png",
   "fullArt": "/images/heroes/full/image_feijian.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Phi Bộc Trảm",
-      "icon": "/images/heroes/s_qianshoufeijian_s1.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s1.png",
       "description": "Tấn công mục tiêu dãy trước, tạo 350% ST ma pháp và 500% ST t.tính Nước; 75% tỉ lệ khiến mục tiêu rơi vào trạng thái Tụt Máu, mỗi hiệp tạo ST tụt máu bằng tổng 80% ST lần này (ST thực), kéo dài 3 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Sóng Nước-Thủ Kiếm",
-      "icon": "/images/heroes/s_qianshoufeijian_s2.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s2.png",
       "description": "Ngẫu nhiên tấn công 1 mục tiêu, tạo 350% ST ma pháp và 300% ST t.tính Nước lên mục tiêu; ngẫu nhiên khiến mục tiêu hôn mê hoặc đóng băng 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thuấn Thân-Hỏa Độn Phù",
-      "icon": "/images/heroes/s_qianshoufeijian_s3.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s3.png",
       "description": "Skill phản đòn: Bị tấn công có 99% tỉ lệ chuyển tấn công t.tính Nước của bản thân thành t.tính Lửa, phản đòn kẻ tấn công, tạo 350% ST ma pháp & 200% ST t.tính Lửa lên mục tiêu, bỏ qua phòng ngự của phe địch, mỗi hiệp tối đa phát động 3 lần. Ngẫu nhiên xóa 2 buff Trọng Thương cho 2 đồng đội, mỗi hiệp tối đa 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Đoạn Ba Trảm",
-      "icon": "/images/heroes/s_qianshoufeijian_s6.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s6.png",
       "description": "Skill trước hiệp: Tấn công mục tiêu dãy trước, tạo 350% ST ma pháp và 800% ST t.tính Nước, hồi tất cả HP đã mất cho bản thân. Có 50% tỉ lệ tăng buff Vô Địch, kéo dài 1 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Khế Ước Biển",
-      "icon": "/images/heroes/s_qianshoufeijian_s7.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s7.png",
       "description": "Skill bị động: Khi chiến đấu sẽ tăng 79% giảm sát tổng thể cho bản thân, và ngẫu nhiên tăng 500k-1500k tấn công t.tính Nước và 150k-450k Ma Công cho bản thân, vĩnh viễn miễn dịch ST t.tính Lửa và buff Cháy, miễn dịch Choáng, Đứng Im, Hỗn Loạn.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Thủy Độn-Thủy Đoạn Ba",
-      "icon": "/images/heroes/s_qianshoufeijian_s4.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s4.png",
       "description": "Skill trước trận: Tấn công toàn thể mục tiêu địch, bỏ qua phòng ngự của mục tiêu, tạo 350% ST ma pháp & 800% ST t.tính Nước.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Phi Lôi Thần-Bạo Phù",
-      "icon": "/images/heroes/s_qianshoufeijian_s5.png",
+      "icon": "/images/icon_skill_heroes/s_qianshoufeijian_s5.png",
       "description": "Tấn công toàn thể mục tiêu địch, tạo 350% Vật & Ma Công và ST thực bằng 800% toàn thuộc tính tấn công, lượng sát thương sẽ có 10% ngẫu nhiên dao động.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-tobirama",
       "name": "CT-Tobirama",
-      "avatar": "/images/heroes/ct-tobirama.png",
+      "avatar": "/images/heroes/icon_heroes/ct-tobirama.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Hokage đệ Nhị của Làng Lá, là em trai của "
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Phi Bộc Trảm",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s1.png",
       "skillDesc": "Ngẫu nhiên làm trọng thương 1 mục tiêu, ngẫu nhiên giảm 40%-90% tỉ lệ hồi HP của mục tiêu, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Sóng Nước-Thủ Kiếm",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s2.png",
       "skillDesc": "Tăng 150% Chính Xác và Bạo Kích cho bản thân, kéo dài 1 hiệp. Và có 50% tỉ lệ ngẫu nhiên tạo thêm X3-5 sát thương ma pháp và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ảo Ảnh",
-          "icon": "/images/heroes/ao-anh.png",
+          "icon": "/images/heroes/icon_heroes/ao-anh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thuấn Thân-Hỏa Độn Phù",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s3.png",
       "skillDesc": "Tăng 150% Né cho bản thân, và giảm 50% Bạo Kích và Né của mục tiêu, có 30% tỉ lệ giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Thủy Độn-Thủy Đoạn Ba",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s4.png",
       "skillDesc": "50% tỉ lệ làm 1 mục tiêu hỗn loạn, kéo dài 1 hiệp; Tăng 150% bạo kích và chính xác cho đồng đội dãy trước.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sói Trắng",
-          "icon": "/images/heroes/soi-trang.png",
+          "icon": "/images/heroes/icon_heroes/soi-trang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Phi Lôi Thần-Bạo Phù",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s5.png",
       "skillDesc": "Tỉ lệ lượng sát thương dao động tăng X1, phạm vi ngẫu nhiên tăng lên 15%; Và có 50% tỉ lệ tạo thêm X3 sát thương.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Đoạn Ba Trảm",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s6.png",
       "skillDesc": "50% tỉ lệ khiến phòng ngự của bản thân tăng X10. Đóng băng 1 mục tiêu, và tạo thêm X3 sát thương t.tính nước cho mục tiêu có phòng ngự t.tính Nước thấp nhất trong phạm vi tấn công. ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Khế Ước Biển",
-      "skillIcon": "/images/heroes/s_qianshoufeijian_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s7.png",
       "skillDesc": "Lượng gia tăng của tấn công t.tính nước tăng ngẫu nhiên 500k-2500k và 150k-750k, và có 50% tỉ lệ tăng 1000k phòng ngự t.tính nước cho 1 đồng đội, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Thủy Độn-Thủy Đoạn Ba",
-      "unlockedSkillIcon": "/images/heroes/s_qianshoufeijian_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Phi Lôi Thần-Bạo Phù",
-      "unlockedSkillIcon": "/images/heroes/s_qianshoufeijian_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_qianshoufeijian_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Tobirama",
-          "icon": "/images/heroes/tobirama.png",
+          "icon": "/images/heroes/icon_heroes/tobirama.png",
           "slug": "tobirama"
         }
       ],
@@ -627,12 +627,12 @@
         {
           "name": "Gaara",
           "slug": "gaara",
-          "avatar": "/images/heroes/gaara.png"
+          "avatar": "/images/heroes/icon_heroes/gaara.png"
         },
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         }
       ]
     },
@@ -643,7 +643,7 @@
         {
           "name": "Hashirama",
           "slug": "hashirama",
-          "avatar": "/images/heroes/hashirama.png"
+          "avatar": "/images/heroes/icon_heroes/hashirama.png"
         }
       ]
     },
@@ -654,7 +654,7 @@
         {
           "name": "Thủy Tinh",
           "slug": "thuy-tinh",
-          "avatar": "/images/heroes/thuy-tinh.png"
+          "avatar": "/images/heroes/icon_heroes/thuy-tinh.png"
         }
       ]
     },
@@ -665,7 +665,7 @@
         {
           "name": "Shermie",
           "slug": "shermie",
-          "avatar": "/images/heroes/shermie.png"
+          "avatar": "/images/heroes/icon_heroes/shermie.png"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "name": "CT-Sakura",
   "title": "Vũ trụ nguyên tố • UR CT-Sakura",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-sakura.png",
+  "avatar": "/images/heroes/icon_heroes/ct-sakura.png",
   "fullArt": "/images/heroes/full/image_chunyeying.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Tuyết Sakura-Thánh",
-      "icon": "/images/heroes/s_cyy_hurt.png",
+      "icon": "/images/icon_skill_heroes/s_cyy_hurt.png",
       "description": "Haruno Sakura tạo 350% ST vật lý lên mục tiêu mặc định, tạo thêm 210% ST t.tính Đất cho bản thân, hồi 30% HP, và tạo X1-4 ST vật lý và ST thuộc tính.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Bách Hào Thuật",
-      "icon": "/images/heroes/s_cyy_cure.png",
+      "icon": "/images/icon_skill_heroes/s_cyy_cure.png",
       "description": "Skill bị đánh, sau khi Haruno Sakura bị tấn công, hồi HP bằng 350% Ma Công cho toàn thể đồng đội, và tăng 350% giảm thương tổng thể cho bản thân",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Động Đất-Thánh",
-      "icon": "/images/heroes/s_cyy_injure.png",
+      "icon": "/images/icon_skill_heroes/s_cyy_injure.png",
       "description": "Haruno Sakura tấn công toàn thể mục tiêu địch, tạo 350% ST vật lý và 180% ST t.tính Đất; \"Trọng thương\" 2 mục tiêu, khiến tỉ lệ hồi HP của mục tiêu giảm 60%, kéo dài 2 hiệp, hiệu quả không thể cộng dồn.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Ốc Sên-Thánh",
-      "icon": "/images/heroes/s_cyy_cure.png",
+      "icon": "/images/icon_skill_heroes/s_cyy_cure.png",
       "description": "Thả trước hiệp, dùng Thông Linh Thuật, triệu hồi ốc sên \"Thấp Cốt Lâm\", tấn công phe địch hoặc trị liệu đồng đội phe ta, và có 50% tỉ lệ bỏ qua hiệu quả Đứng Im\nTấn Công: Haruno Sakura tấn công 3 mục tiêu địch, tạo 350% ST vật lý và 600% tấn công t.tính Đất lên mục tiêu\nTrị liệu: Haruno Sakura tăng năng lực trị liệu của bản thân thông qua \"Ốc Sên\", trị liệu toàn thể đồng đội, lượng hồi HP bằng 350% Ma Công và 600% Tấn Công t.tính Đất\nTăng vĩnh viễn 50% giới hạn HP cho bản thân, và trong 3 hiệp, mỗi hiệp hồi tất cả HP cho bản thân",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Âm Phong Ấn-Thánh",
-      "icon": "/images/heroes/s_cyy_injure.png",
+      "icon": "/images/icon_skill_heroes/s_cyy_injure.png",
       "description": "Tăng vĩnh viễn 50% giới hạn HP cho bản thân, và trong 3 hiệp, mỗi hiệp hồi tất cả HP cho bản thân",
       "cooldown": null,
       "breakthrough": {
@@ -180,18 +180,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Tuyết Sakura-Thánh",
-      "skillIcon": "/images/heroes/s_cyy_hurt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_cyy_hurt.png",
       "skillDesc": "Nếu mục tiêu chưa chết sẽ bị Cháy, mỗi hiệp ngẫu nhiên tạo dmg Cháy gấp 1-4 t.tính ma pháp nhân cho tỉ lệ Vật Công, 2 hiệp, HQ không thể dồn",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         }
@@ -205,18 +205,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Bách Hào Thuật",
-      "skillIcon": "/images/heroes/s_cyy_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_cyy_cure.png",
       "skillDesc": "Ngẫu nhiên xóa 2 trong 3 HQ \"Cháy\", \"Tụt Máu\", \"Trọng Thương\" của đồng đội, tăng Phòng Ngự & Phòng Ngự T.Tính, tăng tỉ lệ bằng tỉ lệ hồi HP & Ma Công",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -230,18 +230,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Động Đất-Thánh",
-      "skillIcon": "/images/heroes/s_cyy_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_cyy_injure.png",
       "skillDesc": "Dmg vật lý tăng gấp đôi, Trọng Thương tăng đến 80% giảm tỉ lệ hồi HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -255,30 +255,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Ốc Sên-Thánh",
-      "skillIcon": "/images/heroes/s_cyy_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_cyy_cure.png",
       "skillDesc": "Năng lực trị liệu +20%, dmg tấn công +50%, nếu thả \"thuật trị liệu\", cả đội sẽ +50% Tốc Độ; Nếu thả \"thuật tấn công\", -50% Tốc Độ phe địch; Nếu \"Uchiha\" hoặc \"Sasuke\" có mặt, bỏ qua buff Đứng Im.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -292,30 +292,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Âm Phong Ấn-Thánh",
-      "skillIcon": "/images/heroes/s_cyy_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_cyy_injure.png",
       "skillDesc": "Liên tục phục hồi đến 5 hiệp, bản thân tăng 50% Vật Công, 5 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "amount": 2,
           "type": "hero"
         }
@@ -329,30 +329,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "amount": 3,
           "type": "hero"
         }
@@ -366,30 +366,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "amount": 3,
           "type": "hero"
         }
@@ -404,22 +404,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -435,22 +435,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -466,22 +466,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -497,22 +497,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -528,22 +528,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -559,22 +559,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -590,22 +590,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -621,22 +621,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Sakura",
-          "icon": "/images/heroes/sakura.png",
+          "icon": "/images/heroes/icon_heroes/sakura.png",
           "slug": "sakura"
         }
       ],
@@ -661,7 +661,7 @@
     "id": "33400",
     "slug": "sakura",
     "name": "Sakura",
-    "avatar": "/images/heroes/sakura.png",
+    "avatar": "/images/heroes/icon_heroes/sakura.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -673,12 +673,12 @@
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         },
         {
           "name": "Sasuke (Susano)",
           "slug": "sasuke-susano",
-          "avatar": "/images/heroes/sasuke-susano.png"
+          "avatar": "/images/heroes/icon_heroes/sasuke-susano.png"
         }
       ]
     },
@@ -689,12 +689,12 @@
         {
           "name": "Gintoki",
           "slug": "gintoki",
-          "avatar": "/images/heroes/gintoki.png"
+          "avatar": "/images/heroes/icon_heroes/gintoki.png"
         },
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         }
       ]
     },
@@ -705,7 +705,7 @@
         {
           "name": "Mei",
           "slug": "mei",
-          "avatar": "/images/heroes/mei.png"
+          "avatar": "/images/heroes/icon_heroes/mei.png"
         }
       ]
     }

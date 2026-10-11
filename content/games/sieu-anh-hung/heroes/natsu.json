@@ -4,7 +4,7 @@
   "name": "Natsu",
   "title": "Vũ trụ nguyên tố • SSR Natsu",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/natsu.png",
+  "avatar": "/images/heroes/icon_heroes/natsu.png",
   "fullArt": "/images/heroes/full/image_Natsu.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Cú Đập Cánh",
-      "icon": "/images/heroes/s_Natsu_yj.png",
+      "icon": "/images/icon_skill_heroes/s_Natsu_yj.png",
       "description": "Tấn công ngẫu nhiên mục tiêu đơn thể, tạo 350% dame ma pháp & 180% dame tt.Lửa",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hỏa Long Trảo",
-      "icon": "/images/heroes/s_Natsu_gz.png",
+      "icon": "/images/icon_skill_heroes/s_Natsu_gz.png",
       "description": "KN phản đòn: Khi bị địch sát thương, có 99% tỉ lệ phản đòn mục tiêu tấn công mình (mỗi hiệp tối đa thả 2 lần), tạo 350% dame vật lý 180% dame tt.Lửa lên mục tiêu, hồi HP đã mất của mình; Nếu Gray đã ra trận, mỗi hiệp phản đòn lần 2 sẽ hồi 50% HP đã mất.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Bộc Hỏa Đao",
-      "icon": "/images/heroes/s_Natsu_hlbyr.png",
+      "icon": "/images/icon_skill_heroes/s_Natsu_hlbyr.png",
       "description": "Tấn công tất cả mục tiêu, tạo 350% dame ma pháp & 250% dame tt.Lửa; Ngẫu nhiên \"Đốt Cháy\" 2 mục tiêu, khiến mục tiêu mỗi hiệp chịu dame \"Đốt Cháy\" bằng 350% điểm Ma Công, 2 hiệp.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Hỏa Long Gầm",
-      "icon": "/images/heroes/s_Natsu_paoxiao.png",
+      "icon": "/images/icon_skill_heroes/s_Natsu_paoxiao.png",
       "description": "KN trước hiệp: Tấn công mục tiêu dãy trước, tạo 350% dame ma pháp & 550% dame tt.Lửa; Nếu Gray đã ra trận, tăng Tấn Công tt.Nước cho Gray tương đương 25% Vật Công&Ma Công, tăng điểm Phòng Ngự hiện tại lên gấp 10 (Có hiệu lực 2 lần).",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Diệt Long Pháp",
-      "icon": "/images/heroes/s_Natsu_mlmf.png",
+      "icon": "/images/icon_skill_heroes/s_Natsu_mlmf.png",
       "description": "KN trước trận: Miễn dịch dame Tấn Công tt.Lửa, tăng 350% Né và tỉ lệ Bạo Kích cho mình.",
       "cooldown": null,
       "breakthrough": {
@@ -84,7 +84,7 @@
     {
       "slug": "ct-natsu",
       "name": "CT-Natsu",
-      "avatar": "/images/heroes/ct-natsu.png",
+      "avatar": "/images/heroes/icon_heroes/ct-natsu.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Là pháp sư đen tối mạnh nhất và tàn ác nhất trong lịch sử, bởi việc mang đến vô vàn những con quỷ vào cuộc sống và sáng tạo ra nhiều loại hắc thuật. "
@@ -97,18 +97,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Cú Đập Cánh",
-      "skillIcon": "/images/heroes/s_Natsu_yj.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Natsu_yj.png",
       "skillDesc": "Tăng 25% Ma Công cho đồng đội, 2 hiệp; Có 80% tỉ lệ làm 1 mục tiêu Sợ, và hồi 50% HP đã mất cho tất cả đồng đội",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -122,24 +122,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hỏa Long Trảo",
-      "skillIcon": "/images/heroes/s_Natsu_gz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Natsu_gz.png",
       "skillDesc": "Giảm 50% Vật Công, Ma Công và điểm Phòng Ngự của mục tiêu, 2 hiệp; Nếu mục tiêu có 1 trong các buff \"Đóng Băng\", \"Băng Phong\" hoặc \"Đốt Cháy\", sẽ X2 dame thuộc tính.  ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -153,24 +153,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Bộc Hỏa Đao",
-      "skillIcon": "/images/heroes/s_Natsu_hlbyr.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Natsu_hlbyr.png",
       "skillDesc": "Đốt Cháy 3 mục tiêu, Châm Biếm mục tiêu có HP thấp nhất; Nếu Gray ở trên trận hoặc ở ô thay thế, sẽ thả \"Băng Quỷ Nộ\" tấn công dãy trước địch, buff cùng lúc khi natsu thả, Châm Biếm thêm mục tiêu có Ma Công max.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -184,30 +184,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Hỏa Long Gầm",
-      "skillIcon": "/images/heroes/s_Natsu_paoxiao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Natsu_paoxiao.png",
       "skillDesc": "Miễn buff \"Hóa Đá\" \"Băng Phong\" 1 hiệp, giảm sát tổng thể tăng đến 40%, 1 hiệp. Nếu Gray ở trên trận or ở ô thay thế, bỏ qua buff \"Đứng Im\" 1 hiệp, giảm sát tổng thể tăng đến 60%, 1 hiệp; Có 50% tỉ lệ làm 1 kẻ địch đứng im 1 hiệp; Nếu tổng HP phe ta thấp hơn của phe địch, sẽ thả \"Long Vương Gầm\" tấn công tất cả địch, tăng gấp 2 dame thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Nữ thần Sấm",
-          "icon": "/images/heroes/nu-than-sam.png",
+          "icon": "/images/heroes/icon_heroes/nu-than-sam.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -221,30 +221,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Diệt Long Pháp",
-      "skillIcon": "/images/heroes/s_Natsu_mlmf.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Natsu_mlmf.png",
       "skillDesc": "Hút tổng Tấn Công Thuộc Tính của tất cả mục tiêu địch cho mình; Nếu Gray đã ra trận, 80% Vật & Ma Công bản thân chuyển thành Tấn Công tt.Lửa.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -258,30 +258,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -295,30 +295,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,22 +333,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -364,22 +364,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -395,22 +395,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "slug": "natsu"
         }
       ],
@@ -426,22 +426,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -457,22 +457,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "slug": "natsu"
         }
       ],
@@ -488,22 +488,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "slug": "natsu"
         }
       ],
@@ -519,22 +519,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -550,22 +550,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "slug": "natsu"
         }
       ],
@@ -593,8 +593,8 @@
       "heroes": [
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         }
       ]
     },
@@ -605,12 +605,12 @@
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         },
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         }
       ]
     },
@@ -621,12 +621,12 @@
         {
           "name": "Monkey D. Luffy",
           "slug": "monkey-d-luffy",
-          "avatar": "/images/heroes/monkey-d-luffy.png"
+          "avatar": "/images/heroes/icon_heroes/monkey-d-luffy.png"
         },
         {
           "name": "Gintoki",
           "slug": "gintoki",
-          "avatar": "/images/heroes/gintoki.png"
+          "avatar": "/images/heroes/icon_heroes/gintoki.png"
         }
       ]
     },
@@ -637,7 +637,7 @@
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         }
       ]
     }

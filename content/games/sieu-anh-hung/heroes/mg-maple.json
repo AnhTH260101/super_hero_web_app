@@ -4,7 +4,7 @@
   "name": "MG -Maple",
   "title": "Vũ trụ linh tính • UR MG -Maple",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/mg-maple.png",
+  "avatar": "/images/heroes/icon_heroes/mg-maple.png",
   "fullArt": "/images/heroes/full/image_meipulu2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Lựu Đạn Cường Liệt",
-      "icon": "/images/heroes/s_meipulu2_s1.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s1.png",
       "description": "Gây ra 350% ST ma pháp và 500% ST thuộc tính Địa và hiệu ứng Chảy Máu cho toàn phe địch (mỗi lượt tạo ra ST bằng 30% HP cao nhất).",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Hoang Tưởng",
-      "icon": "/images/heroes/s_meipulu2_s2.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s2.png",
       "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST ma pháp, hấp thu 50% tấn công kép Ma - Vật hiện tại của người tấn công, biến thành của bản thân, hồi phục toàn bộ HP bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -46,7 +46,7 @@
     },
     {
       "name": "Mạnh Mẽ Xung Kích",
-      "icon": "/images/heroes/s_meipulu2_s3.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s3.png",
       "description": "Kỹ năng phản kích: Gây ra 350% ST ma pháp và Trói Buộc mục tiêu (ST lần này có hiệu lực).",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -61,7 +61,7 @@
     },
     {
       "name": "Phá Hoại Trưởng Thành",
-      "icon": "/images/heroes/s_meipulu2_s6.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s6.png",
       "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Gây ra 350% ST ma pháp và 120% ST thực thuộc tính Địa. Ngẫu nhiên tiêu diệt ngay 1 đơn vị. Tối đa hồi sinh 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -76,7 +76,7 @@
     },
     {
       "name": "MG - Bạo Phát",
-      "icon": "/images/heroes/s_meipulu2_s7.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s7.png",
       "description": "Kỹ năng tiền chiến: Tăng 200% HP/ 79% Giảm Thương, 500% Trúng Đích và Né Tránh cho bản thân, gây ra thêm ST thực bằng 50% HP. Cho bản thân 20% hiệu ứng Mệt Mỏi.",
       "cooldown": null,
       "breakthrough": {
@@ -91,7 +91,7 @@
     },
     {
       "name": "Kẻ Thôn Phệ Bom",
-      "icon": "/images/heroes/s_meipulu2_s4.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s4.png",
       "description": "Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Địa, gây ra thêm ST thực bằng 50% HP.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     },
     {
       "name": "MG - Hủy Diệt",
-      "icon": "/images/heroes/s_meipulu2_s5.png",
+      "icon": "/images/icon_skill_heroes/s_meipulu2_s5.png",
       "description": "Kỹ năng trước lượt đấu: Tiêu diệt ngay ngẫu nhiên 1 người, gây ra 350% ST thực ma pháp, Chọn ngẫu nhiên 1 người phe địch Cấm Thần, duy trì 2 lượt.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -218,18 +218,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Lựu Đạn Cường Liệt",
-      "skillIcon": "/images/heroes/s_meipulu2_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s1.png",
       "skillDesc": "Tăng thêm 1000% ST Phòng Ngự.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -243,30 +243,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hoang Tưởng",
-      "skillIcon": "/images/heroes/s_meipulu2_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s2.png",
       "skillDesc": "Cường hóa thêm hiệu ứng Chảy Máu (tạp ra ST bằng 50% HP cao nhất), có thể kích hoạt 3 lần",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Albedo",
-          "icon": "/images/heroes/albedo.png",
+          "icon": "/images/heroes/icon_heroes/albedo.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 1,
           "type": "hero"
         }
@@ -280,24 +280,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Mạnh Mẽ Xung Kích",
-      "skillIcon": "/images/heroes/s_meipulu2_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s3.png",
       "skillDesc": "Nếu mục tiêu đã bị Trói Buộc thì gây ra thêm gấp 10 ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 1,
           "type": "hero"
         }
@@ -311,30 +311,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Kẻ Thôn Phệ Bom",
-      "skillIcon": "/images/heroes/s_meipulu2_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s4.png",
       "skillDesc": "Cho bản thân 50% cơ hội có hiệu ứng Diệt Chủng, duy trì 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Albedo",
-          "icon": "/images/heroes/albedo.png",
+          "icon": "/images/heroes/icon_heroes/albedo.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 1,
           "type": "hero"
         }
@@ -348,30 +348,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "MG - Hủy Diệt",
-      "skillIcon": "/images/heroes/s_meipulu2_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s5.png",
       "skillDesc": "Gây ra thêm ST bằng 50% HP; có 50% cơ hội số lần Cấm Thần mục tiêu biến thành 2 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 2,
           "type": "hero"
         }
@@ -385,30 +385,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Phá Hoại Trưởng Thành",
-      "skillIcon": "/images/heroes/s_meipulu2_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s6.png",
       "skillDesc": "Số lần hồi sinh tăng thành 4 lần, gây ra gấp 4 lần ST và ST thuộc tính, sau khi hồi sinh, chỉnh thể ST tăng gấp 2 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 1,
           "type": "hero"
         }
@@ -422,30 +422,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "MG - Bạo Phát",
-      "skillIcon": "/images/heroes/s_meipulu2_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_meipulu2_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi/ Trói Buộc, bản thân Vô Địch 1 lượt, khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức. Kỹ năng này kèm theo việc tăng hiệu ứng Mệt Mỏi lên 40%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "amount": 2,
           "type": "hero"
         }
@@ -460,22 +460,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
@@ -491,22 +491,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
@@ -522,28 +522,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Kẻ Thôn Phệ Bom",
-      "unlockedSkillIcon": "/images/heroes/s_meipulu2_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_meipulu2_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -553,22 +553,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -584,22 +584,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
@@ -615,28 +615,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "MG - Hủy Diệt",
-      "unlockedSkillIcon": "/images/heroes/s_meipulu2_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_meipulu2_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -646,22 +646,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
@@ -677,22 +677,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Maple",
-          "icon": "/images/heroes/maple.png",
+          "icon": "/images/heroes/icon_heroes/maple.png",
           "slug": "maple"
         }
       ],
@@ -719,7 +719,7 @@
     "id": "42200",
     "slug": "maple",
     "name": "Maple",
-    "avatar": "/images/heroes/maple.png",
+    "avatar": "/images/heroes/icon_heroes/maple.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -731,12 +731,12 @@
         {
           "name": "Kusajishi Yachiru",
           "slug": "kusajishi-yachiru",
-          "avatar": "/images/heroes/kusajishi-yachiru.png"
+          "avatar": "/images/heroes/icon_heroes/kusajishi-yachiru.png"
         },
         {
           "name": "Kikyo",
           "slug": "kikyo",
-          "avatar": "/images/heroes/kikyo.png"
+          "avatar": "/images/heroes/icon_heroes/kikyo.png"
         }
       ]
     },
@@ -747,7 +747,7 @@
         {
           "name": "Kamado Tanjiro",
           "slug": "kamado-tanjiro",
-          "avatar": "/images/heroes/kamado-tanjiro.png"
+          "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png"
         }
       ]
     },
@@ -758,7 +758,7 @@
         {
           "name": "Albedo",
           "slug": "albedo",
-          "avatar": "/images/heroes/albedo.png"
+          "avatar": "/images/heroes/icon_heroes/albedo.png"
         }
       ]
     },
@@ -769,7 +769,7 @@
         {
           "name": "Broli",
           "slug": "broli",
-          "avatar": "/images/heroes/broli.png"
+          "avatar": "/images/heroes/icon_heroes/broli.png"
         }
       ]
     }

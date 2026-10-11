@@ -4,7 +4,7 @@
   "name": "Blademaster",
   "title": "Vũ trụ nguyên tố • SSR Blademaster",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/blademaster.png",
+  "avatar": "/images/heroes/icon_heroes/blademaster.png",
   "fullArt": "/images/heroes/full/image_jiansheng.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Đao Kiếm Cuồng Vũ",
-      "icon": "/images/heroes/s_jianren.png",
+      "icon": "/images/icon_skill_heroes/s_jianren.png",
       "description": "Xông vào trận hình địch, xoay tròn tấn công toàn bộ địch tạo 350% sát thương vật lí và 80% sát thương thuộc tính gió.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Trị Liệu Bảo Vệ",
-      "icon": "/images/heroes/s_zhiliao.png",
+      "icon": "/images/icon_skill_heroes/s_zhiliao.png",
       "description": "Hiệp này tiến vào giai đoạn Minh Tưởng, miễn dịch sát thương, hồi phục cho bản thân 350% HP, tăng 20% giảm thương, kéo dài 3 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Vô Địch Trảm",
-      "icon": "/images/heroes/s_wudi.png",
+      "icon": "/images/icon_skill_heroes/s_wudi.png",
       "description": "Lao thẳng vào phe địch, tạo 350% sát thương vật lí lên toàn bộ địch, làm choáng mục tiêu mặc định 1 hiệp, tạo thêm 160% sát thương thuộc tính gió",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Phong·Quang Kiếm",
-      "icon": "/images/heroes/s_zhiliao.png",
+      "icon": "/images/icon_skill_heroes/s_zhiliao.png",
       "description": "Tăng effect điểm tuyệt đối tấn công thuộc tính gió",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Địa Ngục Gào Thét",
-      "icon": "/images/heroes/s_wudi.png",
+      "icon": "/images/icon_skill_heroes/s_wudi.png",
       "description": "Kĩ năng trước trận, tăng 350% vật công của bản thân, miễn dịch tấn công thuộc tính lửa (kéo dài 2 hiệp)",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Đao Kiếm Cuồng Vũ",
-      "skillIcon": "/images/heroes/s_jianren.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jianren.png",
       "skillDesc": "Bão Kiếm tăng thêm 20% toàn bộ thuộc tính bản thân. Kéo dài 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,30 +112,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Trị Liệu Bảo Vệ",
-      "skillIcon": "/images/heroes/s_zhiliao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zhiliao.png",
       "skillDesc": "Trị Liệu phục hồi thêm 10% HP bản thân. Xóa hiệu quả debuff lên bản thân",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 1,
           "type": "hero"
         }
@@ -149,24 +149,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Vô Địch Trảm",
-      "skillIcon": "/images/heroes/s_wudi.png",
+      "skillIcon": "/images/icon_skill_heroes/s_wudi.png",
       "skillDesc": "Làm choáng ngẫu nhiên 1-5 tên địch. Vô Địch Trảm tạo thêm sát thương lên kẻ địch đang bị choáng",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 2,
           "type": "hero"
         }
@@ -180,30 +180,30 @@
       "tierName": "Truyền thuyết",
       "auraColor": "amber",
       "skillName": "Phong·Quang Kiếm",
-      "skillIcon": "/images/heroes/s_zhiliao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zhiliao.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 2,
           "type": "hero"
         }
@@ -217,30 +217,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Địa Ngục Gào Thét",
-      "skillIcon": "/images/heroes/s_wudi.png",
+      "skillIcon": "/images/icon_skill_heroes/s_wudi.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 2,
           "type": "hero"
         }
@@ -254,30 +254,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 2,
           "type": "hero"
         }
@@ -291,30 +291,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 3,
           "type": "hero"
         }
@@ -329,22 +329,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -360,22 +360,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -391,22 +391,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         }
       ],
@@ -422,22 +422,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -453,22 +453,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         }
       ],
@@ -484,22 +484,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         }
       ],
@@ -515,22 +515,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -546,22 +546,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "slug": "blademaster"
         }
       ],
@@ -588,12 +588,12 @@
         {
           "name": "Mabara",
           "slug": "mabara",
-          "avatar": "/images/heroes/mabara.png"
+          "avatar": "/images/heroes/icon_heroes/mabara.png"
         },
         {
           "name": "Ichigo",
           "slug": "ichigo",
-          "avatar": "/images/heroes/ichigo.png"
+          "avatar": "/images/heroes/icon_heroes/ichigo.png"
         }
       ]
     },
@@ -604,12 +604,12 @@
         {
           "name": "Hades",
           "slug": "hades",
-          "avatar": "/images/heroes/hades.png"
+          "avatar": "/images/heroes/icon_heroes/hades.png"
         },
         {
           "name": "Thor",
           "slug": "thor",
-          "avatar": "/images/heroes/thor.png"
+          "avatar": "/images/heroes/icon_heroes/thor.png"
         }
       ]
     },
@@ -620,7 +620,7 @@
         {
           "name": "Tề Thiên Đại Thánh",
           "slug": "te-thien-ai-thanh",
-          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+          "avatar": "/images/heroes/icon_heroes/te-thien-ai-thanh.png"
         }
       ]
     }

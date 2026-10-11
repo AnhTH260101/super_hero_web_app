@@ -4,7 +4,7 @@
   "name": "CT - vegetto",
   "title": "Vũ trụ linh tính • SSR CT - vegetto",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_vegettopf.png",
+  "avatar": "/images/heroes/icon_heroes/icon_vegettopf.png",
   "fullArt": "/images/heroes/full/image_vegettopf.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Đạn Năng Lượng",
-      "icon": "/images/heroes/s_vegetto_s1.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s1.png",
       "description": "Gây ra 350% ST vật lý và 100% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,19 +27,18 @@
     },
     {
       "name": "Tự Tại Cực Ý Công",
-      "icon": "/images/heroes/s_vegetto_s2.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s2.png",
       "description": "Kĩ năng cảm tri: Trước khi gặp phải tấn công của phe địch, nhận 1 tầng \"Gợi Đòn\"; Hồi 30% ST max; Nhận hiệu ứng bị động: Tăng kĩ năng trước lượt đấu của phe Ngọc Rồng và hiệu ứng kĩ năng Hồi Sinh: Nếu có Vegito trong trận, được Diệt Ngay thêm 1 kẻ địch; nhận hiệu ứng \"Ổn Định\".\nPhe Ngọc Rồng bao gồm: Cuồng - Broli/ Kakalot/Gohan Dã Thú/Kiếm Hy Vọng/Vegeta.",
       "cooldown": null,
       "breakthrough": {
         "level": 2,
         "title": "Đấu Sĩ·CT - Vegetto",
         "description": "Mỗi lượt tối đa kích hoạt 3 lần; nhận 1 lượt \"Vô Địch\"."
-      },
-      "skinEffect": "Thẻ Phe không nhận Bị Động nữa; bản thân nhận 2 tầng Gợi Đòn, lượng HP max được hồi phục lên tới 100%"
+      }
     },
     {
       "name": "Kamekameha",
-      "icon": "/images/heroes/s_vegetto_s3.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s3.png",
       "description": "Kĩ năng phản kích: Gây ra 350% ST vật lý và 200% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -50,19 +49,18 @@
     },
     {
       "name": "Xóa Sổ",
-      "icon": "/images/heroes/s_vegetto_s6.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s6.png",
       "description": "Kĩ năng Tử Vong: Khi Hồi Sinh sẽ có tăng tỉ lệ không tốn số lần Hồi Sinh dựa theo số người cùng phe Ngọc Rồng có trên trường đấu, mỗi 1 người tăng 10% ; Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra ST thật bằng 350% tấn công ma pháp và 1500% ST thuộc tính Hoả cho toàn phe địch, tối đa Hồi Sinh 3 lần. Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
       "cooldown": null,
       "breakthrough": {
         "level": 6,
         "title": "Linh·CT - Vegetto",
         "description": "Số lượt Hồi Sinh tối đa tăng thành 4. Xác suất không mất lượt sử dụng kỹ năng hồi sinh do mỗi nhân vật cung cấp tăng thành 15%."
-      },
-      "skinEffect": "Không cần có đồng đội cùng phe Ngọc Rồng trên trận, có tỉ lệ 40% được Hồi Sinh không tốn số lượt, sau khi Chuyển Sinh tăng lên 60%"
+      }
     },
     {
       "name": "Cực - Kiếm Khí",
-      "icon": "/images/heroes/s_vegetto_s7.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s7.png",
       "description": "Kĩ năng trước khi chiến đấu: Phục hồi 100% HP max bản thân. Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch",
       "cooldown": null,
       "breakthrough": {
@@ -73,27 +71,25 @@
     },
     {
       "name": "Cực - Chung cực Ma Quang Thiểm",
-      "icon": "/images/heroes/s_vegetto_s4.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s4.png",
       "description": "Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Hỏa cho kẻ địch. Diệt Ngay ngẫu nhiên 1 mục tiêu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
         "level": 4,
         "title": "Thần Thoại·CT - Vegetto",
         "description": "Trước khi Diệt Ngay mục tiêu, xóa 1 lần số lượt Hồi Sinh có thể dùng của mục tiêu"
-      },
-      "skinEffect": "Hồi 100% HP max"
+      }
     },
     {
       "name": "Cực - Kamekameha",
-      "icon": "/images/heroes/s_vegetto_s5.png",
+      "icon": "/images/icon_skill_heroes/s_vegetto_s5.png",
       "description": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng 350% tấn công vật lý và 1500% ST thuộc tính Hỏa cho kẻ địch. Hồi 100% HP max bản thân. Mỗi một đồng đội thuộc phe Ngọc Rồng có trong trận sẽ giúp kĩ năng này gây thêm ST truy kích bằng 10% HP max bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
         "level": 5,
         "title": "Thần·CT - Vegetto",
         "description": "Diệt Ngay ngẫu nhiên 1 mục tiêu. ST truy kích tăng lên đến 20%."
-      },
-      "skinEffect": "Không cần có đồng đội cùng phe Ngọc Rồng cũng có thể trực tiếp Truy Kích với ST bằng 40% HP max, Chuyển Sinh sẽ tăng gấp bội"
+      }
     }
   ],
   "bestSynergies": [
@@ -175,18 +171,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Đạn Năng Lượng",
-      "skillIcon": "/images/heroes/s_vegetto_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s1.png",
       "skillDesc": "Gây thêm gấp 5 lần ST",
       "materials": [
         {
           "name": "Kim Ngũ Hành",
-          "icon": "/images/items/jin.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Bông Tai Potara",
-          "icon": "/images/items/erhuan.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         }
@@ -200,30 +196,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Tự Tại Cực Ý Công",
-      "skillIcon": "/images/heroes/s_vegetto_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s2.png",
       "skillDesc": "Mỗi lượt tối đa kích hoạt 3 lần; nhận 1 lượt \"Vô Địch\".",
       "materials": [
         {
           "name": "Mộc Ngũ Hành",
-          "icon": "/images/items/mu.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Bông Tai Potara",
-          "icon": "/images/items/erhuan.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 1,
           "type": "hero"
         }
@@ -237,24 +233,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Kamekameha",
-      "skillIcon": "/images/heroes/s_vegetto_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s3.png",
       "skillDesc": "Trói Buộc toàn thể phe địch 1 lần.",
       "materials": [
         {
           "name": "Thủy Ngũ Hành",
-          "icon": "/images/items/shui.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Bông Tai Potara",
-          "icon": "/images/items/erhuan.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 1,
           "type": "hero"
         }
@@ -268,30 +264,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Cực - Chung cực Ma Quang Thiểm",
-      "skillIcon": "/images/heroes/s_vegetto_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s4.png",
       "skillDesc": "Trước khi Diệt Ngay mục tiêu, xóa 1 lần số lượt Hồi Sinh có thể dùng của mục tiêu",
       "materials": [
         {
           "name": "Hỏa Ngũ Hành",
-          "icon": "/images/items/huo.png",
+          "icon": "/images/icon_chuyen_sinh/huo.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Bông Tai Potara",
-          "icon": "/images/items/erhuan.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 1,
           "type": "hero"
         }
@@ -305,24 +301,24 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Cực - Kamekameha",
-      "skillIcon": "/images/heroes/s_vegetto_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s5.png",
       "skillDesc": "Diệt Ngay ngẫu nhiên 1 mục tiêu. ST truy kích tăng lên đến 20%.",
       "materials": [
         {
           "name": "Thổ Ngũ Hành",
-          "icon": "/images/items/tu.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Bông Tai Potara",
-          "icon": "/images/items/erhuan.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 2,
           "type": "hero"
         }
@@ -336,18 +332,18 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Xóa Sổ",
-      "skillIcon": "/images/heroes/s_vegetto_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s6.png",
       "skillDesc": "Số lượt Hồi Sinh tối đa tăng thành 4. Xác suất không mất lượt sử dụng kỹ năng hồi sinh do mỗi nhân vật cung cấp tăng thành 15%.",
       "materials": [
         {
           "name": "Linh Tiềm Năng",
-          "icon": "/images/items/wenzhang.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 1,
           "type": "hero"
         }
@@ -361,18 +357,18 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Cực - Kiếm Khí",
-      "skillIcon": "/images/heroes/s_vegetto_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_vegetto_s7.png",
       "skillDesc": "Tăng vĩnh viễn 230% HP max, miễn dịch Trầm Mặc, Hoá Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi. Dựa vào số người cùng phe Ngọc Rồng, Diệt Ngay ngẫu nhiên 1 đơn vị phe địch có số lượt Hồi Sinh tương ứng (nếu có trang bị Skin, cố định diệt 4 lần) và gây ra Truy Kích cho kẻ địch khác với ST bằng 50% HP max bản thân. Nhận \"Thần Ngự\", duy trì 1 lượt ",
       "materials": [
         {
           "name": "Hồn Tiềm Năng",
-          "icon": "/images/items/hun.png",
+          "icon": "/images/icon_chuyen_sinh/hun.png",
           "amount": 1,
           "type": "item"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "amount": 2,
           "type": "hero"
         }
@@ -387,22 +383,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
@@ -418,22 +414,22 @@
       "materials": [
         {
           "name": "Songohan",
-          "icon": "/images/heroes/songohan.png",
+          "icon": "/images/heroes/icon_heroes/songohan.png",
           "slug": "songohan"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
@@ -449,28 +445,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Cực - Chung cực Ma Quang Thiểm",
-      "unlockedSkillIcon": "/images/heroes/s_vegetto_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_vegetto_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -480,22 +476,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -511,22 +507,22 @@
       "materials": [
         {
           "name": "Vegeta",
-          "icon": "/images/heroes/icon_beijita.png",
+          "icon": "/images/heroes/icon_heroes/icon_beijita.png",
           "slug": "vegeta"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
@@ -542,28 +538,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "slug": "songoku"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Cực - Kamekameha",
-      "unlockedSkillIcon": "/images/heroes/s_vegetto_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_vegetto_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -573,22 +569,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
@@ -604,22 +600,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Vegetto",
-          "icon": "/images/heroes/icon_vegetto.png",
+          "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
           "slug": "vegetto"
         }
       ],
@@ -649,12 +645,12 @@
         {
           "name": "Vegeta",
           "slug": "vegeta",
-          "avatar": "/images/heroes/icon_beijita.png"
+          "avatar": "/images/heroes/icon_heroes/icon_beijita.png"
         },
         {
           "name": "Trunks",
           "slug": "trunks",
-          "avatar": "/images/heroes/icon_telankesi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_telankesi.png"
         }
       ]
     },
@@ -665,7 +661,7 @@
         {
           "name": "Songoku",
           "slug": "songoku",
-          "avatar": "/images/heroes/songoku.png"
+          "avatar": "/images/heroes/icon_heroes/songoku.png"
         }
       ]
     },
@@ -676,7 +672,7 @@
         {
           "name": "Thợ Săn - Zoro",
           "slug": "tho-san-zoro",
-          "avatar": "/images/heroes/icon_xsjsuolong.png"
+          "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png"
         }
       ]
     },
@@ -687,7 +683,7 @@
         {
           "name": "Overlord",
           "slug": "overlord",
-          "avatar": "/images/heroes/overlord.png"
+          "avatar": "/images/heroes/icon_heroes/overlord.png"
         }
       ]
     }

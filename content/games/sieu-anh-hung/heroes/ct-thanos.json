@@ -4,7 +4,7 @@
   "name": "CT-Thanos",
   "title": "Vũ trụ nguyên tố • UR CT-Thanos",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-thanos.png",
+  "avatar": "/images/heroes/icon_heroes/ct-thanos.png",
   "fullArt": "/images/heroes/full/image_mieba.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Dồn Lực Mãnh Kích.Thánh",
-      "icon": "/images/heroes/s_Thanos_s1.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s1.png",
       "description": "Skill phản đòn: Sau khi chịu tấn công có 99% tỉ lệ tấn công mục tiêu kẻ địch có HP nhiều nhất và kẻ địch có HP ít nhất, tạo 350% ST Ma Công và 600% ST t.tính Đất lên mục tiêu. Làm trọng thương mục tiêu, trong 1 hiệp không thể hồi máu. Mỗi hiệp tối đa phát động 1 lần",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Long Trời Lở Đất.Thánh",
-      "icon": "/images/heroes/s_Thanos_s2.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s2.png",
       "description": "Dùng sức mạnh hủy diệt trời đất. Tạo 350% ST Ma Công và 400% ST t.tính Đất lên toàn thể phe địch, giảm 50% Tốc Độ của toàn thể phe địch, kéo dài 2 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Lời Nguyền Nữ Thần Chết.Thánh",
-      "icon": "/images/heroes/s_Thanos_s3.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s3.png",
       "description": "Skill trước khi đánh: Trước khi bị tấn công sẽ tăng 50% Né cho bản thân. Tăng 350% phòng ngự tổng thể cho toàn thể đồng đội, tăng lực phòng ngự bằng 200% tấn công t.tính Đất cho bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Nguyên Lực Đá Quý.Thánh",
-      "icon": "/images/heroes/s_Thanos_s6.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s6.png",
       "description": "Skill trước hiệp: Dùng năng lượng nguyên thủy của vũ trụ chuyển hóa tất cả tấn công thành Ma Công, tạo ST thực bằng 350% ST Ma Công lên toàn thể mục tiêu, hồi tất cả HP đã mất. Nếu HP của bản thân đã đầy, thì lần này sẽ hồi HP cho toàn thể đồng đội, hồi tương đương 50% lượng HP đồng đội đã mất.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Đá Infinity.Thánh",
-      "icon": "/images/heroes/s_Thanos_s7.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s7.png",
       "description": "Skill trước trận: Cả vũ trụ đều bó tay với Thanos, vì ông đã có-Găng Tay Infinity! Trang bị găng tay Infinity, tăng vĩnh viễn 800% phòng ngự tổng thể cho bản thân, tăng vĩnh viễn 100% Trúng, Né và Bạo Kích.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Đả Kích Ngai Vàng Nổi.Thánh",
-      "icon": "/images/heroes/s_Thanos_s4.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s4.png",
       "description": "Chuyển hóa tấn công t.tính Đất thành tấn công t.tính Lửa, tạo 350% ST Ma Công và ST thực bằng 900% ST t.tính Lửa lên toàn thể phe địch. Khiến mục tiêu hôn mê 1 hiệp. Nếu HP mục tiêu thấp hơn bản thân, sẽ tạo thêm X3 sát thương",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Đả Kích Hành Tinh.Thánh",
-      "icon": "/images/heroes/s_Thanos_s5.png",
+      "icon": "/images/icon_skill_heroes/s_Thanos_s5.png",
       "description": "Dùng lực vũ trụ của găng tay Infinity tấn công toàn thể địch, tạo 350% ST Ma Công và 1000% ST t.tính Đất, bỏ qua phòng ngự. Tạo thêm X3 sát thương lên kẻ địch có HP ít nhất và kẻ địch có HP nhiều nhất.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -184,18 +184,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Dồn Lực Mãnh Kích.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s1.png",
       "skillDesc": "Làm mục tiêu hôn mê 1 hiệp, và trong 1 hiệp giảm 99% Tốc Độ và Né, nếu mục tiêu có HP nhiều nhất thấp hơn HP hiện tại của mình, trong 1 hiệp giảm thêm 99% tấn công toàn thuộc tính của 2 mục tiêu này",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -209,30 +209,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Long Trời Lở Đất.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s2.png",
       "skillDesc": "Tạo hiệu quả trọng thương lên 1-3 kẻ địch, giảm 80% hiệu quả hồi phục, kéo dài 1 hiệp. Hồi 30% HP cho tất cả đồng đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ma Nhân",
-          "icon": "/images/heroes/ma-nhan.png",
+          "icon": "/images/heroes/icon_heroes/ma-nhan.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 1,
           "type": "hero"
         }
@@ -246,24 +246,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Lời Nguyền Nữ Thần Chết.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s3.png",
       "skillDesc": "Đồng thời hồi 30% HP cho bản thân, nếu HP bản thân dưới 50%, sẽ xóa tất cả hiệu quả trọng thương của bản thân và 1 đồng đội, hồi phục hiệu quả này trở lại bình thường, và trong 2 hiệp miễn dịch trọng thương.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 1,
           "type": "hero"
         }
@@ -277,30 +277,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Đả Kích Ngai Vàng Nổi.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s4.png",
       "skillDesc": "Giảm 33% Vật & Ma Công của 1-4 kẻ địch, kéo dài 2 hiệp. Tăng 33% Vật & Ma Công của đồng đội, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Ma Nhân",
-          "icon": "/images/heroes/ma-nhan.png",
+          "icon": "/images/heroes/icon_heroes/ma-nhan.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 1,
           "type": "hero"
         }
@@ -314,30 +314,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Đả Kích Hành Tinh.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s5.png",
       "skillDesc": "6 loại đá khác nhau tạo 6 hiệu quả khác nhau\nĐá năng lượng: Tăng 200% Vật & Ma Công và tấn công toàn t.tính cho toàn thể đồng đội, kéo dài 1 hiệp.\nĐá thời gian: Có 10% tỉ lệ tạo thêm 1 lần sát thương.\nĐá Không Gian: Tăng 500% Tốc Độ cho toàn thể đồng đội, kéo dài 1 hiệp.\nĐá Linh Hồn: Tạo thêm X5 sát thương lên tất cả mục tiêu.\nĐá Hiện Thực: Tăng 800% phòng ngự tổng thể cho toàn thể đồng đội, kéo dài 1 hiệp.\nĐá Tâm Linh: Mê hoặc 1-3 kẻ địch, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 2,
           "type": "hero"
         }
@@ -351,30 +351,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Nguyên Lực Đá Quý.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s6.png",
       "skillDesc": "Chọn ngẫu nhiên 1 đồng đội, cộng 1 lần hiệu quả Vô Địch cho bản thân và đồng đội, hiệu lực 2 lần. Tăng 200% Né cho toàn thể đồng đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 1,
           "type": "hero"
         }
@@ -388,30 +388,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Đá Infinity.Thánh",
-      "skillIcon": "/images/heroes/s_Thanos_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Thanos_s7.png",
       "skillDesc": "Miễn dịch lâu dài hiệu quả đứng im, hóa đá, choáng, hôn mê, hỗn loạn, chế giễu. Tăng 70% tỉ lệ giảm thương tổng thể. Tăng thêm 100W-180W tấn công t.tính Đất. Kéo dài 2 hiệp. Cộng 1 tầng hiệu quả Vô Địch cho toàn thể đồng đội, có thể ngăn 1 lần sát thương. Tăng 30% giới hạn HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "amount": 2,
           "type": "hero"
         }
@@ -426,22 +426,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
@@ -457,22 +457,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
@@ -488,28 +488,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Đả Kích Ngai Vàng Nổi.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Thanos_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Thanos_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -519,22 +519,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -550,22 +550,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
@@ -581,28 +581,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Đả Kích Hành Tinh.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Thanos_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Thanos_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -612,22 +612,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
@@ -643,22 +643,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Thanos",
-          "icon": "/images/heroes/thanos.png",
+          "icon": "/images/heroes/icon_heroes/thanos.png",
           "slug": "thanos"
         }
       ],
@@ -683,7 +683,7 @@
     "id": "38400",
     "slug": "thanos",
     "name": "Thanos",
-    "avatar": "/images/heroes/thanos.png",
+    "avatar": "/images/heroes/icon_heroes/thanos.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -695,12 +695,12 @@
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         },
         {
           "name": "Kil'jaeden",
           "slug": "kiljaeden",
-          "avatar": "/images/heroes/kiljaeden.png"
+          "avatar": "/images/heroes/icon_heroes/kiljaeden.png"
         }
       ]
     },
@@ -711,7 +711,7 @@
         {
           "name": "Shin",
           "slug": "shin",
-          "avatar": "/images/heroes/shin.png"
+          "avatar": "/images/heroes/icon_heroes/shin.png"
         }
       ]
     },
@@ -722,7 +722,7 @@
         {
           "name": "Kefla",
           "slug": "kefla",
-          "avatar": "/images/heroes/kefla.png"
+          "avatar": "/images/heroes/icon_heroes/kefla.png"
         }
       ]
     },
@@ -733,7 +733,7 @@
         {
           "name": "Frieza",
           "slug": "frieza",
-          "avatar": "/images/heroes/frieza.png"
+          "avatar": "/images/heroes/icon_heroes/frieza.png"
         }
       ]
     }

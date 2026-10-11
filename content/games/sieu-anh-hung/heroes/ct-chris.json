@@ -4,7 +4,7 @@
   "name": "CT-Chris",
   "title": "Zombie Bentu • UR CT-Chris",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-chris.png",
+  "avatar": "/images/heroes/icon_heroes/ct-chris.png",
   "fullArt": "/images/heroes/full/image_Chris.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Trích Nguyệt-Thánh",
-      "icon": "/images/heroes/s_Chris_zyzy.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_zyzy.png",
       "description": "Tấn công 1 mục tiêu dãy trước, tạo 350% ST ma pháp và 250% ST t.tính Lửa.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Đại Xà-Thánh",
-      "icon": "/images/heroes/s_Chris_dst.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_dst.png",
       "description": "Tấn công mục tiêu hàng mặc định, tạo 350% ST ma pháp và 230% ST t.tính Lửa.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Đồ Kính-Thánh",
-      "icon": "/images/heroes/s_Chris_tjzy.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_tjzy.png",
       "description": "Skill phản đòn: 99% tỉ lệ phản đòn lên mục tiêu tấn công mình, tạo 350% ST ma pháp và 250% ST t.tính Lửa lên mục tiêu (Mỗi hiệp tối đa phát động 3 lần).",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Máu Rắn-Thánh",
-      "icon": "/images/heroes/s_Chris_dszx.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_dszx.png",
       "description": "Skill trước khi bị đánh: Tăng 50% Tốc Độ của bản thân, mỗi hiệp miễn dịch 1 lần ST, và tăng 350% giảm thương tổng thể cho bản thân (Nếu đã thức tỉnh thành trạng thái Đại Xà, tỉ lệ giảm thương hiện tại và giảm thương tổng thể đều cao hơn 350%, và bản thân không tăng hiệu quả giảm thương nữa)",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thức Tỉnh.Đại Xà-Thánh",
-      "icon": "/images/heroes/s_Chris_jxds.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_jxds.png",
       "description": "Skill tử trận: Tăng 50% giới hạn HP cho bản thân, và thức tỉnh hóa thành Đại Xà, tăng thêm 350% Vật & Ma Công.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Dạ Ma Thiêu-Thánh",
-      "icon": "/images/heroes/s_Chris_yms.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_yms.png",
       "description": "Skill trước hiệp: Tăng 350% Phòng Ngự & Phòng Ngự thuộc tính cho bản thân, hiệu lực 3 lần",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Power Station",
-      "icon": "/images/heroes/s_Chris_dlhc.png",
+      "icon": "/images/icon_skill_heroes/s_Chris_dlhc.png",
       "description": "Tạo 350% ST ma pháp và 800% ST t.tính Lửa lên toàn thể mục tiêu; Làm 1-3 mục tiêu cháy, mỗi hiệp tạo ST cháy bằng X2 ST ma pháp (Hiệu quả cháy này là ST thực), kéo dài 3 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -184,18 +184,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Trích Nguyệt-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_zyzy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_zyzy.png",
       "skillDesc": "Đốt cháy mục tiêu, mỗi hiệp tạo dmg thực bằng với dmg Ma Pháp, làm trọng thương mục tiêu, giảm 65% tỉ lệ hồi HP của mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 20,
           "type": "item"
         }
@@ -209,18 +209,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Đại Xà-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_dst.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_dst.png",
       "skillDesc": "Giảm 50% Giảm Sát Tổng Thể, Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 20,
           "type": "item"
         }
@@ -234,18 +234,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Đồ Kính-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_tjzy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_tjzy.png",
       "skillDesc": "Mỗi lần phản đòn đều tăng 50% Chính Xác & 10% tỉ lệ Bạo Kích cho mình, tối đa dồn 5 tầng",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 30,
           "type": "item"
         }
@@ -259,30 +259,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Máu Rắn-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_dszx.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_dszx.png",
       "skillDesc": "Tăng đến 5 lần kích hoạt tăng Phòng Ngự, có 50% tỉ lệ khiến 1 đồng đội miễn dịch 1 lần tấn công từ địch (Không gồm bản thân)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "amount": 1,
           "type": "hero"
         }
@@ -296,30 +296,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thức Tỉnh.Đại Xà-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_jxds.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_jxds.png",
       "skillDesc": "Giảm 50%-99% Tốc Độ của 1-3 mục tiêu tấn công, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,30 +333,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Dạ Ma Thiêu-Thánh",
-      "skillIcon": "/images/heroes/s_Chris_yms.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_yms.png",
       "skillDesc": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Tsukuyomi, KN tấn công kèm thêm dmg t.tính Lửa bằng 30%-40% HP bản thân, nếu Chris thức tỉnh thành \"Đại Xà\", đạt Chuyển Sinh 7 sẽ tăng thêm dmg t.tính Lửa bằng 10% giới hạn HP; Trước mỗi hiệp, hồi tất cả HP bản thân đã mất.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "amount": 3,
           "type": "hero"
         }
@@ -370,30 +370,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Power Station",
-      "skillIcon": "/images/heroes/s_Chris_dlhc.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Chris_dlhc.png",
       "skillDesc": "Trong 2 hiệp, hồi tất cả HP cho tất cả đồng đội trừ bản thân, và tăng đến 80% Giảm Thương & Giảm Thương T.Tính cho mình, tăng 10000k Phòng Ngự & Phòng Ngự T.Tính, kéo dài 3 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "amount": 3,
           "type": "hero"
         }
@@ -408,22 +408,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
@@ -439,22 +439,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
@@ -470,28 +470,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Dạ Ma Thiêu-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Chris_yms.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Chris_yms.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -501,22 +501,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -532,22 +532,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
@@ -563,28 +563,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Power Station",
-      "unlockedSkillIcon": "/images/heroes/s_Chris_dlhc.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Chris_dlhc.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -594,22 +594,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
@@ -625,22 +625,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "slug": "chris"
         }
       ],
@@ -668,7 +668,7 @@
     "id": "36200",
     "slug": "chris",
     "name": "Chris",
-    "avatar": "/images/heroes/chris.png",
+    "avatar": "/images/heroes/icon_heroes/chris.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -680,7 +680,7 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     },
@@ -691,12 +691,12 @@
         {
           "name": "Natsu",
           "slug": "natsu",
-          "avatar": "/images/heroes/natsu.png"
+          "avatar": "/images/heroes/icon_heroes/natsu.png"
         },
         {
           "name": "Sanji",
           "slug": "sanji",
-          "avatar": "/images/heroes/sanji.png"
+          "avatar": "/images/heroes/icon_heroes/sanji.png"
         }
       ]
     },
@@ -707,7 +707,7 @@
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         }
       ]
     },
@@ -718,7 +718,7 @@
         {
           "name": "Boa Hancock",
           "slug": "boa-hancock",
-          "avatar": "/images/heroes/boa-hancock.png"
+          "avatar": "/images/heroes/icon_heroes/boa-hancock.png"
         }
       ]
     }

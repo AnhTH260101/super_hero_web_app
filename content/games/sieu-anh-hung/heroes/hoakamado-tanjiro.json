@@ -4,7 +4,7 @@
   "name": "HỏaKamado Tanjiro",
   "title": "Vũ trụ linh tính • UR HỏaKamado Tanjiro",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/hoakamado-tanjiro.png",
+  "avatar": "/images/heroes/icon_heroes/hoakamado-tanjiro.png",
   "fullArt": "/images/heroes/full/image_tanzhilang2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Liệt Nhật Hồng Kính",
-      "icon": "/images/heroes/s_tanzhilang2_s1.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s1.png",
       "description": "Gây ra 350% ST vật lý và 500% ST thuộc tính Hỏa với toàn thể phe địch, ngoài ra còn gây thêm ST bằng 1000% Tốc Độ và Trói Buộc mục tiêu 1 lượt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Viên Vũ Nhất Thiểm",
-      "icon": "/images/heroes/s_tanzhilang2_s2.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s2.png",
       "description": "Kỹ năng trước khi bị đánh: Gây ra ST thực bằng 40% HP bản thân với toàn thể phe địch, 90% Vô Địch 1 lượt, hồi phục toàn bộ HP bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Dương Hoa Đột",
-      "icon": "/images/heroes/s_tanzhilang2_s3.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s3.png",
       "description": "Kỹ năng phản kích: Tất cả tấn công thuộc tính chuyển thành tấn công vật lý, gây ra 350% ST thực, đồng thời giảm toàn bộ tấn công thuộc tính và Phòng Ngự về 0 cho toàn bộ phe địch (ST lần này có tác dụng).",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Hỏa Thần Lạc Vũ - Nhật Vận Chi Long",
-      "icon": "/images/heroes/s_tanzhilang2_s6.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s6.png",
       "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Gây ra 350% ST vật lý và 1200% ST thực thuộc tính Hỏa cho toàn phe địch. Tiêu diệt ngay 1 đơn vị ngẫu nhiên. Tối đa hồi sinh 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Hỏa Thần Lạc Vũ - Huy Huy Ân Quang",
-      "icon": "/images/heroes/s_tanzhilang2_s7.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s7.png",
       "description": "Kỹ năng tiền chiến: Tăng 200% HP/ 79% Giảm Thương, 500% Trúng Đích và Né Tránh cho bản thân, tạo thêm ST thực bằng 60% HP.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Hỏa Thần Lạc Vũ - Viên Vũ",
-      "icon": "/images/heroes/s_tanzhilang2_s4.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s4.png",
       "description": "Gây ra 350% ST vật lý và 1400% ST thực thuộc tính Hỏa với toàn thể phe địch và hồi full HP (bỏ qua Trọng Thương), ngoài ra còn gây thêm ST thực bằng 50% HP.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Hỏa Thần Lạc Vũ - Tà Dương Chuyển Thân",
-      "icon": "/images/heroes/s_tanzhilang2_s5.png",
+      "icon": "/images/icon_skill_heroes/s_tanzhilang2_s5.png",
       "description": "Kỹ năng trước lượt đấu: Ngẫu nhiên Trói Buộc 1 người, tiêu diệt ngay 1 người, gây ra 350% ST thực tấn công vật lý cho toàn bộ phe địch.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Liệt Nhật Hồng Kính",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s1.png",
       "skillDesc": "Gây ra thêm gấp 3 ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Viên Vũ Nhất Thiểm",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s2.png",
       "skillDesc": "Giảm toàn bộ tấn công thuộc tính hoặc tấn công kép Ma - vật về 0 trong 1 lượt, có thể kích hoạt 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Dương Hoa Đột",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s3.png",
       "skillDesc": "Gây ra thêm gấp 4-6 ST và Trói Buộc mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Hỏa Thần Lạc Vũ - Viên Vũ",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s4.png",
       "skillDesc": "Gây ra thêm gấp 5 ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Hỏa Thần Lạc Vũ - Tà Dương Chuyển Thân",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s5.png",
       "skillDesc": "Gây ra thêm gấp 10 ST và ST bằng 50% HP, có 100% cơ hội lại gây ra thêm 1 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Hỏa Thần Lạc Vũ - Nhật Vận Chi Long",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s6.png",
       "skillDesc": "Bỏ qua hiệu ứng Trọng Thương, số lần hồi sinh tăng lên 4 lần, gây ra gấp 4 lần ST và ST thuộc tính cho mục tiêu, sau khi hồi sinh, chỉnh thể ST tăng lên gấp 3.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Hỏa Thần Lạc Vũ - Huy Huy Ân Quang",
-      "skillIcon": "/images/heroes/s_tanzhilang2_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Nhạo/ Tsukuyomi, Vô Địch khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức, khiến phe địch bị Trói Buộc ngẫu nhiên 3-5 người 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Hỏa Thần Lạc Vũ - Viên Vũ",
-      "unlockedSkillIcon": "/images/heroes/s_tanzhilang2_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Hỏa Thần Lạc Vũ - Tà Dương Chuyển Thân",
-      "unlockedSkillIcon": "/images/heroes/s_tanzhilang2_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_tanzhilang2_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kamado Tanjiro",
-          "icon": "/images/heroes/kamado-tanjiro.png",
+          "icon": "/images/heroes/icon_heroes/kamado-tanjiro.png",
           "slug": "kamado-tanjiro"
         }
       ],
@@ -692,7 +692,7 @@
     "id": "42100",
     "slug": "kamado-tanjiro",
     "name": "Kamado Tanjiro",
-    "avatar": "/images/heroes/kamado-tanjiro.png",
+    "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -704,12 +704,12 @@
         {
           "name": "Kikyo",
           "slug": "kikyo",
-          "avatar": "/images/heroes/kikyo.png"
+          "avatar": "/images/heroes/icon_heroes/kikyo.png"
         },
         {
           "name": "Tsunade",
           "slug": "tsunade",
-          "avatar": "/images/heroes/tsunade.png"
+          "avatar": "/images/heroes/icon_heroes/tsunade.png"
         }
       ]
     },
@@ -720,7 +720,7 @@
         {
           "name": "Kenpachi Zaraki",
           "slug": "kenpachi-zaraki",
-          "avatar": "/images/heroes/kenpachi-zaraki.png"
+          "avatar": "/images/heroes/icon_heroes/kenpachi-zaraki.png"
         }
       ]
     },
@@ -731,7 +731,7 @@
         {
           "name": "Kusajishi Yachiru",
           "slug": "kusajishi-yachiru",
-          "avatar": "/images/heroes/kusajishi-yachiru.png"
+          "avatar": "/images/heroes/icon_heroes/kusajishi-yachiru.png"
         }
       ]
     },
@@ -742,7 +742,7 @@
         {
           "name": "Broli",
           "slug": "broli",
-          "avatar": "/images/heroes/broli.png"
+          "avatar": "/images/heroes/icon_heroes/broli.png"
         }
       ]
     }

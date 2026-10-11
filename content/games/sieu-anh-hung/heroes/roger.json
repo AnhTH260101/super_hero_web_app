@@ -4,7 +4,7 @@
   "name": "Roger",
   "title": "Vũ trụ sức mạnh • SSR Roger",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/roger.png",
+  "avatar": "/images/heroes/icon_heroes/roger.png",
   "fullArt": "/images/heroes/full/image_rojer.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Võ Trang Sắc",
-      "icon": "/images/heroes/s_wuzhuangse.png",
+      "icon": "/images/icon_skill_heroes/s_wuzhuangse.png",
       "description": "Mang bá khí của Võ Trang Sắc đưa lên vũ khí, tạo 350% sát thương vật lí cho địch, nếu kẻ địch không thuộc vũ trụ lí tính thì sát thương tăng 100%. Tạo thêm 160% sát thương thuộc tính nước.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Tâm Võng",
-      "icon": "/images/heroes/s_jianwense.png",
+      "icon": "/images/icon_skill_heroes/s_jianwense.png",
       "description": "Kĩ năng trước trận: dùng bá khí nghe nhìn thấy để phán đoán tấn công của đối thủ, toàn đội tăng 20% né tránh, kéo dài 3 hiệp, bản thân tăng vĩnh viễn 350% né tránh.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Bá Vương Sắc",
-      "icon": "/images/heroes/s_bawangse.png",
+      "icon": "/images/icon_skill_heroes/s_bawangse.png",
       "description": "Dùng bá khí Bá Vương Sắc chỉ vương giả mới có để tạo thành 350% sát thương vật lí lên toàn bộ địch, có tỉ lệ nhất định khiến mục tiêu choáng, kéo dài 1 hiệp.Tạo thêm 130% sát thương thuộc tính nước.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Sức Mạnh Vương Giả",
-      "icon": "/images/heroes/s_jianwense.png",
+      "icon": "/images/icon_skill_heroes/s_jianwense.png",
       "description": "Tăng effect tấn công thuộc tính nước điểm tuyệt đối",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Túc Mệnh",
-      "icon": "/images/heroes/s_bawangse.png",
+      "icon": "/images/icon_skill_heroes/s_bawangse.png",
       "description": "Tử vong xong mỗi hiệp phục hồi cho toàn bộ đồng đội 350% HP, kéo dài 2 hiệp, xóa hiệu quả BUFF của xếp trước bên địch",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Võ Trang Sắc",
-      "skillIcon": "/images/heroes/s_wuzhuangse.png",
+      "skillIcon": "/images/icon_skill_heroes/s_wuzhuangse.png",
       "skillDesc": "Kĩ năng\nTăng cường Vũ Trang Sắc: \n Khiến địch rơi vào trạng thái suy nhược, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,30 +112,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Tâm Võng",
-      "skillIcon": "/images/heroes/s_jianwense.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jianwense.png",
       "skillDesc": "Kĩ năng\nTăng cường Mạng Nhện: \n Tăng thêm 15% né tránh.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 1,
           "type": "hero"
         }
@@ -149,24 +149,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Bá Vương Sắc",
-      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bawangse.png",
       "skillDesc": "Kĩ năng\nTăng cường Bá Vương Sắc: \n Tạo thêm 100% sát thương cho kẻ địch đang trong trạng thái suy nhược.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Giáp Thần Lực",
-          "icon": "/images/items/i_b_shenli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_1.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 2,
           "type": "hero"
         }
@@ -180,30 +180,30 @@
       "tierName": "Huyền thoại",
       "auraColor": "amber",
       "skillName": "Sức Mạnh Vương Giả",
-      "skillIcon": "/images/heroes/s_jianwense.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jianwense.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Giáp Thần Lực",
-          "icon": "/images/items/i_b_shenli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_1.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 2,
           "type": "hero"
         }
@@ -217,30 +217,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Túc Mệnh",
-      "skillIcon": "/images/heroes/s_bawangse.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bawangse.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 2,
           "type": "hero"
         }
@@ -254,30 +254,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 2,
           "type": "hero"
         }
@@ -291,30 +291,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "amount": 3,
           "type": "hero"
         }
@@ -329,22 +329,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -360,22 +360,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -391,22 +391,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         }
       ],
@@ -422,22 +422,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -453,22 +453,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         }
       ],
@@ -484,22 +484,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         }
       ],
@@ -515,22 +515,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -546,22 +546,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Roger",
-          "icon": "/images/heroes/roger.png",
+          "icon": "/images/heroes/icon_heroes/roger.png",
           "slug": "roger"
         }
       ],
@@ -585,12 +585,12 @@
         {
           "name": "Vehito",
           "slug": "vehito",
-          "avatar": "/images/heroes/vehito.png"
+          "avatar": "/images/heroes/icon_heroes/vehito.png"
         },
         {
           "name": "Lục Đạo Tiên Nhân",
           "slug": "luc-ao-tien-nhan",
-          "avatar": "/images/heroes/luc-ao-tien-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/luc-ao-tien-nhan.png"
         }
       ]
     },
@@ -601,12 +601,12 @@
         {
           "name": "Mabara",
           "slug": "mabara",
-          "avatar": "/images/heroes/mabara.png"
+          "avatar": "/images/heroes/icon_heroes/mabara.png"
         },
         {
           "name": "Phượng Hoàng",
           "slug": "phuong-hoang",
-          "avatar": "/images/heroes/phuong-hoang.png"
+          "avatar": "/images/heroes/icon_heroes/phuong-hoang.png"
         }
       ]
     },
@@ -616,8 +616,8 @@
       "heroes": [
         {
           "name": "Ace",
-          "slug": "",
-          "avatar": "/images/heroes/icon_ace.png"
+          "slug": "ace",
+          "avatar": "/images/heroes/icon_heroes/ace.png"
         }
       ]
     }

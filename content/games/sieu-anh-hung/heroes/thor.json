@@ -4,7 +4,7 @@
   "name": "Thor",
   "title": "Vũ trụ nguyên tố • SSR Thor",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/thor.png",
+  "avatar": "/images/heroes/icon_heroes/thor.png",
   "fullArt": "/images/heroes/full/image_thor.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Chùy Thor",
-      "icon": "/images/heroes/e_w_zhongwu3.png",
+      "icon": "/images/icon_weapon_heroes/e_w_zhongwu3.png",
       "description": "Triệu hồi tia sét tấn công địch, tạo 350% sát thương ma pháp cho địch, đồng thời có 50% tỉ lệ làm choáng địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Sấm rền",
-      "icon": "/images/heroes/s_loudian.png",
+      "icon": "/images/icon_skill_heroes/s_loudian.png",
       "description": "Triệu hồi lượng lớn tia sét tấn công địch, tạo 350% sát thương ma pháp cho tập thể địch, tạo thêm 50% sát thương cho mục tiêu choáng.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thần",
-      "icon": "/images/heroes/s_shandianfengbao.png",
+      "icon": "/images/icon_skill_heroes/s_shandianfengbao.png",
       "description": "Kĩ năng trước trận. Thor là dũng sĩ mạnh nhất trong thần tộc, cơ thể tính thần của hắn miễn dịch mọi tác dụng phụ, đồng thời tăng thêm 350% phòng ngự của hắn, kéo dài 3 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -65,18 +65,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Chùy Thor",
-      "skillIcon": "/images/heroes/e_w_zhongwu3.png",
+      "skillIcon": "/images/icon_weapon_heroes/e_w_zhongwu3.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Chùy Thor: \nChùy Thor sẽ tăng 15% ma công của Thor.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -90,30 +90,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Sấm rền",
-      "skillIcon": "/images/heroes/s_loudian.png",
+      "skillIcon": "/images/icon_skill_heroes/s_loudian.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Sấm Rền: \n Sấm Rền tăng 100% sát thương cho mục tiêu đang choáng.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 1,
           "type": "hero"
         }
@@ -127,24 +127,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Thần",
-      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shandianfengbao.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Thần: \n Thor vào trạng thái Thần xong, sát thương phải chịu giảm 15%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 2,
           "type": "hero"
         }
@@ -158,30 +158,30 @@
       "tierName": "Huyền thoại",
       "auraColor": "amber",
       "skillName": "Kỹ năng 4",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Giáp Thần Lực",
-          "icon": "/images/items/i_b_shenli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_1.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 2,
           "type": "hero"
         }
@@ -195,30 +195,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Kỹ năng 5",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Giáp Thần Lực",
-          "icon": "/images/items/i_b_shenli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_1.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 2,
           "type": "hero"
         }
@@ -232,30 +232,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 2,
           "type": "hero"
         }
@@ -269,30 +269,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Thor",
-          "icon": "/images/heroes/thor.png",
+          "icon": "/images/heroes/icon_heroes/thor.png",
           "amount": 3,
           "type": "hero"
         }
@@ -312,18 +312,18 @@
       "heroes": [
         {
           "name": "Người Sắt",
-          "slug": "",
-          "avatar": "/images/heroes/icon_ironman.png"
+          "slug": "nguoi-sat",
+          "avatar": "/images/heroes/icon_heroes/nguoi-sat.png"
         },
         {
           "name": "Hulk",
-          "slug": "",
-          "avatar": "/images/heroes/icon_hork.png"
+          "slug": "hulk",
+          "avatar": "/images/heroes/icon_heroes/hulk.png"
         },
         {
           "name": "Đội trưởng",
-          "slug": "",
-          "avatar": "/images/heroes/icon_steve.png"
+          "slug": "oi-truong",
+          "avatar": "/images/heroes/icon_heroes/oi-truong.png"
         }
       ]
     },
@@ -333,18 +333,18 @@
       "heroes": [
         {
           "name": "Kensin",
-          "slug": "",
-          "avatar": "/images/heroes/icon_swordheart.png"
+          "slug": "kensin",
+          "avatar": "/images/heroes/icon_heroes/kensin.png"
         },
         {
           "name": "Kensiro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_northfist.png"
+          "slug": "kensiro",
+          "avatar": "/images/heroes/icon_heroes/kensiro.png"
         },
         {
           "name": "Tiến Sĩ Rocky",
-          "slug": "",
-          "avatar": "/images/heroes/icon_neville.png"
+          "slug": "tien-si-rocky",
+          "avatar": "/images/heroes/icon_heroes/tien-si-rocky.png"
         }
       ]
     },
@@ -354,13 +354,13 @@
       "heroes": [
         {
           "name": "Người Băng",
-          "slug": "",
-          "avatar": "/images/heroes/icon_kuzan.png"
+          "slug": "nguoi-bang",
+          "avatar": "/images/heroes/icon_heroes/nguoi-bang.png"
         },
         {
           "name": "Bé Mai",
-          "slug": "",
-          "avatar": "/images/heroes/icon_kofbeauty.png"
+          "slug": "be-mai",
+          "avatar": "/images/heroes/icon_heroes/be-mai.png"
         }
       ]
     },
@@ -370,8 +370,8 @@
       "heroes": [
         {
           "name": "Cảnh Trưởng Thép",
-          "slug": "",
-          "avatar": "/images/heroes/icon_robocop.png"
+          "slug": "canh-truong-thep",
+          "avatar": "/images/heroes/icon_heroes/canh-truong-thep.png"
         }
       ]
     }

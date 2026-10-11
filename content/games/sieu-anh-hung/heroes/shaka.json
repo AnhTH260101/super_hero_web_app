@@ -4,7 +4,7 @@
   "name": "Shaka",
   "title": "Zombie Bentu • SSR Shaka",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/shaka.png",
+  "avatar": "/images/heroes/icon_heroes/shaka.png",
   "fullArt": "/images/heroes/full/image_shajia.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Vòng Tu La",
-      "icon": "/images/heroes/s_shajia_dyzy.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_dyzy.png",
       "description": "Tạo 350% ST ma pháp & 250% ST thuộc tính Lửa lên mục tiêu đơn thể. Bản thân tăng 50% Tốc Độ.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Thiên Ma",
-      "icon": "/images/heroes/s_shajia_tmxf.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_tmxf.png",
       "description": "Skill trước khi bị đòn: Tăng 350% Tốc Độ & tỉ lệ Bạo Kích cho toàn thể phe ta, hồi 10%-35% HP cả đội",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Mưa Ác Quỷ",
-      "icon": "/images/heroes/s_shajia_xcdy.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_xcdy.png",
       "description": "Tạo 350% ST ma pháp & 200% ST thuộc tính Lửa lên mục tiêu dãy trước hoặc dãy sau.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "TanBuHouRin",
-      "icon": "/images/heroes/s_shajia_twbl.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_twbl.png",
       "description": "Skill trước trận: Bản thân miễn dịch lâu dài buff Hóa Đá, Đứng Im, Choáng & Chấn Động; Giúp 1 đồng đội có 1 cơ hội hồi sinh (Kéo dài cả trận, hiệu lực 1 lần, ko gồm bản thân); Có 50% tỉ lệ cộng 1 tầng buff Vô Địch cho mình (Chỉ hiệp trước trận có hiệu lực)",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thần Mục.Keijo",
-      "icon": "/images/heroes/s_shajia_smax.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_smax.png",
       "description": "Skill trước hiệp: Hồi 50% HP đã mất của bản thân, tăng cho mình & 1-2 đồng đội bằng 600% chỉ số phòng ngự & phòng ngự thuộc tính của bản thân mục tiêu.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Xuyên Lục Đạo",
-      "icon": "/images/heroes/s_shajia_ldlh.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_ldlh.png",
       "description": "Skill tử trận: Sau khi tử trận hồi sinh ngay, và tăng vĩnh viễn 350% Ma Công & Tấn Công T.Tính Lửa",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Vua Bất Động",
-      "icon": "/images/heroes/s_shajia_bdmw.png",
+      "icon": "/images/icon_skill_heroes/s_shajia_bdmw.png",
       "description": "Tạo 350% ST ma pháp & 700% St thuộc tính Lửa lên toàn thể mục tiêu; Hồi HP cho tất cả phe ta; Tịnh Hóa 1-3 mục tiêu, xóa BUFF tăng Vật Công & Tấn Công Thuộc Tính của mục tiêu (Gồm BUFF ko thể xóa; Một số hiệu quả BUFF tăng chỉ số cơ bản ko thể xóa).",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-shaka",
       "name": "CT-Shaka",
-      "avatar": "/images/heroes/ct-shaka.png",
+      "avatar": "/images/heroes/icon_heroes/ct-shaka.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Là một người lĩnh ngộ và thức tỉnh giác quan thứ 8, được ví như \"Người gần gũi với Thần nhất\"."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Vòng Tu La",
-      "skillIcon": "/images/heroes/s_shajia_dyzy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_dyzy.png",
       "skillDesc": "Tăng 80% Tốc Độ của bản thân, xóa hiệu quả Đốt Cháy cho tất cả đồng đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Thiên Ma",
-      "skillIcon": "/images/heroes/s_shajia_tmxf.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_tmxf.png",
       "skillDesc": "Giới hạn hồi HP tăng đến 25%; Giảm 50% chỉ số Ma Công của mục tiêu dãy trước, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ảo Ảnh",
-          "icon": "/images/heroes/ao-anh.png",
+          "icon": "/images/heroes/icon_heroes/ao-anh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Mưa Ác Quỷ",
-      "skillIcon": "/images/heroes/s_shajia_xcdy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_xcdy.png",
       "skillDesc": "Làm 1 mục tiêu trọng thương, khiến mục tiêu không thể hồi HP trong 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "TanBuHouRin",
-      "skillIcon": "/images/heroes/s_shajia_twbl.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_twbl.png",
       "skillDesc": "Tăng thêm 50% Vật Công cho đồng đội có Vật Công cao nhất, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sói Trắng",
-          "icon": "/images/heroes/soi-trang.png",
+          "icon": "/images/heroes/icon_heroes/soi-trang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Vua Bất Động",
-      "skillIcon": "/images/heroes/s_shajia_bdmw.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_bdmw.png",
       "skillDesc": "Cộng 1 buff Vô Địch cho đồng đội có HP thấp nhất, hiệu lực 1 lần; Có 33% tỉ lệ Mê Hoặc hoặc Hóa Đá mục tiêu tấn công",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "TanBuHouRin",
-      "skillIcon": "/images/heroes/s_shajia_twbl.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_twbl.png",
       "skillDesc": "50% tỉ lệ bỏ qua hiệu quả Hỗn Loạn; Tăng vĩnh viễn 50% Tốc Độ; và khiến 1 mục tiêu nhiễm khí địa ngục, khiến hắn trước khi ra tay chịu ST nhiễm khí bằng 10%-30% giới hạn HP của Shaka (ST này là ST thực, hiệp có hiệu lực là hiệp 1 và hiệp có bội số 3), Nếu mục tiêu tử trận, hiệu quả sẽ truyền cho mục tiêu kế tiếp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Thần Mục.Keijo",
-      "skillIcon": "/images/heroes/s_shajia_smax.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shajia_smax.png",
       "skillDesc": "Hồi HP của bản thân tăng đến 100% chỉ số HP đã mất, và tăng 79% giảm thương tổng thể.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Xuyên Lục Đạo",
-      "unlockedSkillIcon": "/images/heroes/s_shajia_ldlh.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shajia_ldlh.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Vua Bất Động",
-      "unlockedSkillIcon": "/images/heroes/s_shajia_bdmw.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shajia_bdmw.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shaka",
-          "icon": "/images/heroes/shaka.png",
+          "icon": "/images/heroes/icon_heroes/shaka.png",
           "slug": "shaka"
         }
       ],
@@ -626,12 +626,12 @@
         {
           "name": "Natsu",
           "slug": "natsu",
-          "avatar": "/images/heroes/natsu.png"
+          "avatar": "/images/heroes/icon_heroes/natsu.png"
         },
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         }
       ]
     },
@@ -642,12 +642,12 @@
         {
           "name": "Shin",
           "slug": "shin",
-          "avatar": "/images/heroes/shin.png"
+          "avatar": "/images/heroes/icon_heroes/shin.png"
         },
         {
           "name": "Kaio",
           "slug": "kaio",
-          "avatar": "/images/heroes/kaio.png"
+          "avatar": "/images/heroes/icon_heroes/kaio.png"
         }
       ]
     },
@@ -658,7 +658,7 @@
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         }
       ]
     },
@@ -669,7 +669,7 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     }

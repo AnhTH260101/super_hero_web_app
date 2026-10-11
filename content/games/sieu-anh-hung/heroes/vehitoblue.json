@@ -4,7 +4,7 @@
   "name": "Vehito.Blue",
   "title": "Zombie Bentu • UR Vehito.Blue",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/vehitoblue.png",
+  "avatar": "/images/heroes/icon_heroes/vehitoblue.png",
   "fullArt": "/images/heroes/full/image_VageteBlue.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Pháo Sáng Blue",
-      "icon": "/images/heroes/s_Vagete_sgd.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_sgd.png",
       "description": "Tạo 350% ST vật lý lên mục tiêu dãy trước, tạo 350% ST ma pháp lên mục tiêu hàng mặc định, mục tiêu bị tấn công sẽ chịu % ST t.tính Gió",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Chắn Bảo Vệ Blue",
-      "icon": "/images/heroes/s_Vagete_pz.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_pz.png",
       "description": "KN bị đòn: Bạo phát nộ trước khi chịu ST, bản thân thêm 1 tầng năng lượng xanh ko thể xóa, tăng 350% toàn thuộc tính cho bản thân mãi mãi, tối đa dồn 5 tầng, hiệp sau có hiệu lực.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Nổ Blue",
-      "icon": "/images/heroes/s_Vagete_dbz.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_dbz.png",
       "description": "Chuyển tấn công t.tính Gió thành t.tính Lửa,  tạo 350% ST vật lý, và % ST thuộc tính Lửa lên toàn thể mục tiêu, tạo X2 ST vật lý lên mục tiêu hàng mặc định.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Nổ Loạn Xạ",
-      "icon": "/images/heroes/s_Vagete_luanshe.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_luanshe.png",
       "description": "KN trước hiệp: Làm nổ tung tạo 350% ST ma pháp lên mục tiêu đối phương, kèm thêm 100% ST vật lý & 550% ST thuộc tính Gió",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Mìn Blue",
-      "icon": "/images/heroes/s_Vagete_zd.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_zd.png",
       "description": "KN tử trận: Xông lên giữa địch xong tự nổ, tạo 350% ST ma pháp, 600% ST thuộc tính Gió cho 1 mục tiêu.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Nổ Năng Lượng.Blue",
-      "icon": "/images/heroes/s_Vagete_nlbf.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_nlbf.png",
       "description": "KN trước trận: Giảm 55% Phòng Ngự và thuộc tính Phòng Ngự của phe địch, lấy điểm cao nhất cộng cho bản thân, +350% Tốc Độ, Vật Công & thuộc tính Tấn Công cho mình, 3 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Kamehameha Sáng",
-      "icon": "/images/heroes/s_Vagete_gpqg.png",
+      "icon": "/images/icon_skill_heroes/s_Vagete_gpqg.png",
       "description": "Thả Kamehameha tấn công tất cả mục tiêu, tạo 350% ST vật lý, và 550% ST thuộc tính Gió.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -196,18 +196,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Pháo Sáng Blue",
-      "skillIcon": "/images/heroes/s_Vagete_sgd.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_sgd.png",
       "skillDesc": "Hồi HP bằng ATK Gió bản thân và Ma Công*75%-200%; làm mục tiêu dãy trước địch tụt HP bằng 75%-200% Vật Công và 10% giới hạn HP (BOSS vô hiệu), 2 hiệp (ko thể xóa)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -221,18 +221,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Chắn Bảo Vệ Blue",
-      "skillIcon": "/images/heroes/s_Vagete_pz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_pz.png",
       "skillDesc": "Tăng thêm 5% toàn thuộc tính; Tăng 100% Phòng Ngự và Phòng Ngự T.Tính, ko thể dồn, hiệp sau có hiệu lực, 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -246,18 +246,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Nổ Blue",
-      "skillIcon": "/images/heroes/s_Vagete_dbz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_dbz.png",
       "skillDesc": "Đốt cháy mục tiêu, mục tiêu bị cháy mỗi hiệp tụt HP bằng 150% Tốc Độ lúc đó cộng 65%-200% Tấn Công Ma Pháp, và giảm 50% Phòng Ngự, 2 hiệp (ko thể xóa).",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -271,30 +271,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Nổ Năng Lượng.Blue",
-      "skillIcon": "/images/heroes/s_Vagete_nlbf.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_nlbf.png",
       "skillDesc": "Tăng 50% giảm sát tổng thể cho mình, 3 hiệp; tăng 50% giới hạn cho mình mãi mãi",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -308,30 +308,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Kamehameha Sáng",
-      "skillIcon": "/images/heroes/s_Vagete_gpqg.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_gpqg.png",
       "skillDesc": "Làm yếu 1-2 kẻ địch, giảm 50% Toàn t.tính, ATK t.tính, Phòng Ngự t.tính của mục tiêu 1 hiệp; Nếu mục tiêu có BUFF giảm sát tổng thể, tạo X3 sát thương vật lý và sát thương t.tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Uchiha",
-          "icon": "/images/heroes/uchiha.png",
+          "icon": "/images/heroes/icon_heroes/uchiha.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "amount": 1,
           "type": "hero"
         }
@@ -345,30 +345,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Nổ Loạn Xạ",
-      "skillIcon": "/images/heroes/s_Vagete_luanshe.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_luanshe.png",
       "skillDesc": "Bỏ qua 1 hiệp Buff Sợ và Đứng Im (Gồm buff ko thể xóa), giảm 40% tỉ lệ giảm sát của địch, 1 hiệp; Hồi tất cả HP bản thân",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Monkey D. Luffy",
-          "icon": "/images/heroes/monkey-d-luffy.png",
+          "icon": "/images/heroes/icon_heroes/monkey-d-luffy.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "amount": 1,
           "type": "hero"
         }
@@ -382,30 +382,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Mìn Blue",
-      "skillIcon": "/images/heroes/s_Vagete_zd.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Vagete_zd.png",
       "skillDesc": "Cứ tăng 1 tầng năng lượng, 1% giới hạn HP bản thân chuyển thành ATK Ma Pháp và ATK thuộc tính Gió, tăng 1-2 mục tiêu tấn công",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "amount": 2,
           "type": "hero"
         }
@@ -420,22 +420,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "slug": "black"
         }
       ],
@@ -451,22 +451,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "slug": "black"
         }
       ],
@@ -482,28 +482,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "slug": "black"
         },
         {
           "name": "Black",
-          "icon": "/images/heroes/black.png",
+          "icon": "/images/heroes/icon_heroes/black.png",
           "slug": "black"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Nổ Năng Lượng.Blue",
-      "unlockedSkillIcon": "/images/heroes/s_Vagete_nlbf.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Vagete_nlbf.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -513,22 +513,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -544,22 +544,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Ma Nhân",
-          "icon": "/images/heroes/ma-nhan.png",
+          "icon": "/images/heroes/icon_heroes/ma-nhan.png",
           "slug": "ma-nhan"
         }
       ],
@@ -575,28 +575,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Boa Hancock",
-          "icon": "/images/heroes/boa-hancock.png",
+          "icon": "/images/heroes/icon_heroes/boa-hancock.png",
           "slug": "boa-hancock"
         },
         {
           "name": "Gray",
-          "icon": "/images/heroes/gray.png",
+          "icon": "/images/heroes/icon_heroes/gray.png",
           "slug": "gray"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Kamehameha Sáng",
-      "unlockedSkillIcon": "/images/heroes/s_Vagete_gpqg.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Vagete_gpqg.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -606,22 +606,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Monkey D. Luffy",
-          "icon": "/images/heroes/monkey-d-luffy.png",
+          "icon": "/images/heroes/icon_heroes/monkey-d-luffy.png",
           "slug": "monkey-d-luffy"
         }
       ],
@@ -637,22 +637,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Natsu",
-          "icon": "/images/heroes/natsu.png",
+          "icon": "/images/heroes/icon_heroes/natsu.png",
           "slug": "natsu"
         }
       ],
@@ -674,7 +674,7 @@
     "id": "34800",
     "slug": "black",
     "name": "Black",
-    "avatar": "/images/heroes/black.png",
+    "avatar": "/images/heroes/icon_heroes/black.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -686,7 +686,7 @@
         {
           "name": "Âu Cơ",
           "slug": "au-co",
-          "avatar": "/images/heroes/au-co.png"
+          "avatar": "/images/heroes/icon_heroes/au-co.png"
         }
       ]
     },
@@ -697,12 +697,12 @@
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         },
         {
           "name": "Vehito",
           "slug": "vehito",
-          "avatar": "/images/heroes/vehito.png"
+          "avatar": "/images/heroes/icon_heroes/vehito.png"
         }
       ]
     },
@@ -712,13 +712,13 @@
       "heroes": [
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         },
         {
           "name": "Kaneki",
           "slug": "kaneki",
-          "avatar": "/images/heroes/kaneki.png"
+          "avatar": "/images/heroes/icon_heroes/kaneki.png"
         }
       ]
     },
@@ -729,7 +729,7 @@
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         }
       ]
     }

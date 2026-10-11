@@ -21,7 +21,7 @@
   },
   {
     "id": "nhai-ba",
-    "name": "Nhái Ba",
+    "name": "Nhái Bá",
     "icon": "/images/resources/sources/nhai-ba.png"
   },
   {
@@ -43,11 +43,6 @@
     "id": "kho-bau-me-cung",
     "name": "Kho Báu Mê Cung",
     "icon": "/images/resources/sources/kho-bau-me-cung.png"
-  },
-  {
-    "id": "farm",
-    "name": "Farm",
-    "icon": "/images/resources/sources/farm.png"
   },
   {
     "id": "tu-bao-bon",
@@ -73,11 +68,6 @@
     "id": "yggdrasil",
     "name": "Yggdrasill",
     "icon": "/images/resources/sources/yggdrasil.png"
-  },
-  {
-    "id": "than-vuc",
-    "name": "Thần Vực",
-    "icon": "/images/resources/sources/than-vuc.png"
   },
   {
     "id": "vua-vu-tru",
@@ -140,28 +130,88 @@
     "icon": "/images/resources/sources/tieu-nap.png"
   },
   {
-    "id": "nap-don",
-    "name": "Sự kiện nạp",
-    "icon": "/images/resources/sources/tieu-nap.png"
-  },
-  {
     "id": "to-chuc-tranh-dau",
-    "name": "Tổ Chức Tranh Đấu",
-    "icon": "/images/resources/sources/quan-hung-tranh-ba.png"
-  },
-  {
-    "id": "than-dien",
-    "name": "Thần Điền",
-    "icon": "/images/resources/sources/than-vuc.png"
-  },
-  {
-    "id": "dau-truong-dinh-cao",
-    "name": "Đấu Trường Đỉnh Cao",
+    "name": "Quần Hùng Tranh Bá",
     "icon": "/images/resources/sources/quan-hung-tranh-ba.png"
   },
   {
     "id": "mong-gap",
     "name": "Móng Gắp",
     "icon": "/images/resources/sources/mong-gap.png"
+  },
+  {
+    "id": "vong-quay-777",
+    "name": "Vòng Quay 777",
+    "icon": "/images/resources/sources/777.png"
+  },
+  {
+    "id": "co-linh-cat",
+    "name": "Cổ Linh Các",
+    "icon": "/images/resources/sources/co-linh-cat.png"
+  },
+  {
+    "id": "dap-trung-vang",
+    "name": "Đập Trứng Vàng",
+    "icon": "/images/resources/sources/dap-trung-vang.png"
+  },
+  {
+    "id": "giai-dau-ban-suc",
+    "name": "Giải Đấu Ban Sức",
+    "icon": "/images/resources/sources/giai-dau-ban-suc.png"
+  },
+  {
+    "id": "ngoc-rong",
+    "name": "Ngọc Rồng",
+    "icon": "/images/resources/sources/ngoc-rong.png"
+  },
+  {
+    "id": "quy-dau-thang",
+    "name": "Quỹ Đầu Tháng",
+    "icon": "/images/resources/sources/quy-dau-thang.png"
+  },
+  {
+    "id": "sieu-phan-nap",
+    "name": "Siêu Phản Nạp",
+    "icon": "/images/resources/sources/sieu-phan-nap.png"
+  },
+  {
+    "id": "than-xa-vu-tru",
+    "name": "Thần Xạ Vũ Trụ",
+    "icon": "/images/resources/sources/than-xa-vu-tru.png"
+  },
+  {
+    "id": "xu-day-troi",
+    "name": "Xu Đầy Trời",
+    "icon": "/images/resources/sources/xu-day-troi.png"
+  },
+  {
+    "id": "kim-tu-thap-mau",
+    "name": "Kim Tự Tháp Máu",
+    "icon": "/images/resources/sources/kim-tu-thap-mau.png"
+  },
+  {
+    "id": "than-dien",
+    "name": "Thần điện",
+    "icon": "/images/resources/sources/than-dien.png"
+  },
+  {
+    "id": "than-vuc-12-cung",
+    "name": "Thần Vực 12 Cung",
+    "icon": "/images/resources/sources/than-vuc-12-cung.png"
+  },
+  {
+    "id": "thap-hoang-tinh-te",
+    "name": "Tháp Hoang Tinh Tế",
+    "icon": "/images/resources/sources/thap-hoang-tinh-te.png"
+  },
+  {
+    "id": "farm",
+    "name": "Farm",
+    "icon": "/images/resources/sources/farm.png"
+  },
+  {
+    "id": "ho-den",
+    "name": "Ho Den",
+    "icon": "/images/resources/sources/ho-den.png"
   }
 ]

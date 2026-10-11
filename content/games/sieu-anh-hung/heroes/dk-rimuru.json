@@ -4,7 +4,7 @@
   "name": "DK - Rimuru",
   "title": "Vũ trụ linh tính • UR DK - Rimuru",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_limulu2.png",
+  "avatar": "/images/heroes/icon_heroes/icon_limulu2.png",
   "fullArt": "/images/heroes/full/image_limulu2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Phun Ma Năng",
-      "icon": "/images/heroes/s_limulu2_s1.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s1.png",
       "description": "Gây ra 350% ST vật lý và 300% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Gọi Gió Gọi Lửa",
-      "icon": "/images/heroes/s_limulu2_s2.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s2.png",
       "description": "Kỹ năng trước khi bị tấn công: tránh né ST bằng thuộc tính của Slime; hồi phục toàn bộ HP bản thân (0 bỏ qua Trọng Thương), gây ra 350% ST ma pháp và 200% ST thuộc tính Hỏa.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Kích Nổ Ma Năng",
-      "icon": "/images/heroes/s_limulu2_s3.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s3.png",
       "description": "Kỹ năng phản kích: Mở Phòng Ngự và Phản Kích, gây ra 350% ST ma pháp và 500% ST thuộc tính Hỏa.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Thần Nộ",
-      "icon": "/images/heroes/s_limulu2_s6.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s6.png",
       "description": "Kỹ năng trước chiến đấu: Rimuru kết nối sức mạnh của Đại Hiền Giả, và tăng vĩnh viễn Hpmax lên 210%, tăng Trúng Địch, và 79% Giảm Thương. Tăng 500% Trúng Đích/ Né Tránh/ Bạo Kích. Gây ra effect& ST thực và tấn công Ma Pháp.Còn Truy Kích ST thực bằng 50% HP max.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Ma Vương Vũ Trang",
-      "icon": "/images/heroes/s_limulu2_s7.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s7.png",
       "description": "Kỹ năng Tử Vọng: Rimuru phóng ra năng lượng của Ma Vương, hồi phục toàn bộ HP (bỏ qua Trọng Thương). Gây ra 350% ST thực vật ký và 1500% ST thực thuộc tính Hỏa, tối đá có thể hồi phục 2 lần. Diệt Ngay ngẫu nhiên một đơn vị.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Điều Khiển Rồng",
-      "icon": "/images/heroes/s_limulu2_s4.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s4.png",
       "description": "Rimuru mở năng lực của Rồng Gió Bão,gây ra 350% ST thực vật lý cho toàn phe địch.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Linh Hồn Khiển Sấm",
-      "icon": "/images/heroes/s_limulu2_s5.png",
+      "icon": "/images/icon_skill_heroes/s_limulu2_s5.png",
       "description": "Kỹ năng trước lượt đấu: Rimuru mượn sức mạnh của gió bão để tăng cường pháp thuật, tăng 500% tấn công ma pháp của bản thân. Gây ra 350% ST thực. 对敌方造成350%的魔法攻击真伤与180%火属性伤害真实伤害，回复自身50%生命值（无视重伤）",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Phun Ma Năng",
-      "skillIcon": "/images/heroes/s_limulu2_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s1.png",
       "skillDesc": "Gây ra thêm gấp 5 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Gọi Gió Gọi Lửa",
-      "skillIcon": "/images/heroes/s_limulu2_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s2.png",
       "skillDesc": "Tối đa kích hoạt được 3 lần, thêm một lần \"Vô Địch\" cho bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Kích Nổ Ma Năng",
-      "skillIcon": "/images/heroes/s_limulu2_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s3.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Điều Khiển Rồng",
-      "skillIcon": "/images/heroes/s_limulu2_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s4.png",
       "skillDesc": "Diệt Ngay ngẫu nhiên 1 đơn vị.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 5,
           "type": "hero"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Linh Hồn Khiển Sấm",
-      "skillIcon": "/images/heroes/s_limulu2_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s5.png",
       "skillDesc": "Truy kích thêm ST thực bằng 50% HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Thần Nộ",
-      "skillIcon": "/images/heroes/s_limulu2_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s6.png",
       "skillDesc": "Vĩnh viễn miễn dịch Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukuyomi và Diệt Ngay ngẫu nhiên 1 đơn vị phe địch, mỗi khi có 1tr lực công thuộc tính Hỏa, thì Diệt Ngay thêm 1 đơn vị phe địch (tối đa Diệt Ngay thêm 3 người), và giúp ST của Truy Kích tăng thêm 10%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Ma Vương Vũ Trang",
-      "skillIcon": "/images/heroes/s_limulu2_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_limulu2_s7.png",
       "skillDesc": "Tối đa có thể Hồi Sinh 4 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Điều Khiển Rồng",
-      "unlockedSkillIcon": "/images/heroes/s_limulu2_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_limulu2_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Linh Hồn Khiển Sấm",
-      "unlockedSkillIcon": "/images/heroes/s_limulu2_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_limulu2_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Rimuru",
-          "icon": "/images/heroes/icon_limulu.png",
+          "icon": "/images/heroes/icon_heroes/icon_limulu.png",
           "slug": "rimuru"
         }
       ],
@@ -689,7 +689,7 @@
     "id": "42900",
     "slug": "rimuru",
     "name": "Rimuru",
-    "avatar": "/images/heroes/icon_limulu.png",
+    "avatar": "/images/heroes/icon_heroes/icon_limulu.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -701,12 +701,12 @@
         {
           "name": "Luffy Gear 4",
           "slug": "luffy-gear-4",
-          "avatar": "/images/heroes/luffy-gear-4.png"
+          "avatar": "/images/heroes/icon_heroes/luffy-gear-4.png"
         },
         {
           "name": "Songoku",
           "slug": "songoku",
-          "avatar": "/images/heroes/songoku.png"
+          "avatar": "/images/heroes/icon_heroes/songoku.png"
         }
       ]
     },
@@ -717,7 +717,7 @@
         {
           "name": "Yatogami Tohka",
           "slug": "yatogami-tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png"
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png"
         }
       ]
     },
@@ -728,7 +728,7 @@
         {
           "name": "Overlord",
           "slug": "overlord",
-          "avatar": "/images/heroes/overlord.png"
+          "avatar": "/images/heroes/icon_heroes/overlord.png"
         }
       ]
     },
@@ -739,7 +739,7 @@
         {
           "name": "Shalltear",
           "slug": "shalltear",
-          "avatar": "/images/heroes/shalltear.png"
+          "avatar": "/images/heroes/icon_heroes/shalltear.png"
         }
       ]
     }

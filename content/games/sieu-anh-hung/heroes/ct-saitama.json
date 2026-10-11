@@ -4,7 +4,7 @@
   "name": "CT-Saitama",
   "title": "Vũ trụ sức mạnh • UR CT-Saitama",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-saitama.png",
+  "avatar": "/images/heroes/icon_heroes/ct-saitama.png",
   "fullArt": "/images/heroes/full/image_yiquanchaoren.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Đấm Thường-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_ptq.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_ptq.png",
       "description": "Ngẫu nhiên tấn công 1 mục tiêu, tạo 350% ST vật lý lên mục tiêu, tạo thêm 250% ST t.tính Đất, nếu mục tiêu chưa chết, làm mục tiêu choáng 1 hiệp. Sau khi trị số phẫn nộ bạo phát: Tăng 50% ST và ảnh hưởng ST thuộc tính.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Lật Bàn-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_xz.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_xz.png",
       "description": "Skill trước trận: Tấn công 1-3 người, tạo 350% ST vật lý, tạo thêm 180% ST t.tính Đất. \nSau khi trị số phẫn nộ bạo phát: Tăng 50% ST và ảnh hưởng ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Ẩu Đả-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_od.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_od.png",
       "description": "Skill phản đòn: Sau khi chịu tấn công, sẽ có 99% tỉ lệ phản đòn mục tiêu tấn công mình, tạo 350% ST vật lý lên mục tiêu, tạo thêm 250% ST t.tính Đất, mỗi hiệp tối đa phát động 2 lần; Sẽ có 50% tỉ lệ tạo buff Hỗn Loạn lên mục tiêu.\nSau khi trị số phẫn nộ bạo phát: Tăng 50% ST và ảnh hưởng ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Khởi Động-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_rsyd.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_rsyd.png",
       "description": "Skill trước hiệp: Tăng 350% Chính Xác, Tốc Độ và Vật Công cho bản thân, kéo dài 1 hiệp, tăng X10 Phòng Ngự của bản thân, hiệu lực 3 lần; Sau khi thả skill, tất cả skill tấn công đều sẽ hồi HP nhất định, lượng hồi tương đương 50%-100% ST tấn công cao nhất (Tỉ lệ hút ngẫu nhiên).",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Nghiêm Túc-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_rzxl.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_rzxl.png",
       "description": "Skill trước khi bị đánh: Tích lũy trị số phẫn nộ, sau khi đạt tối đa sẽ mở loạt skill Nghiêm Túc, tăng tất cả ST skill (buff)",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Liên Hoàn Đấm-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_lxptq.png",
       "description": "Tấn công mục tiêu dãy trước địch, tạo 350% ST vật lý lên mục tiêu, tạo thêm 500% ST t.tính Đất.\nSau khi trị số phẫn nộ bạo phát: Tăng 50% ST và ảnh hưởng ST thuộc tính.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Đấm Thẳng-Thánh",
-      "icon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "icon": "/images/icon_skill_heroes/s_yiquanchaoren_zq.png",
       "description": "Tấn công 1 mục tiêu địch, 50% tỉ lệ đánh trúng khiến mục tiêu tử trận; Nếu không trúng mục tiêu, sẽ tạo 350% ST vật lý lên toàn thể mục tiêu, tạo thêm 600% ST t.tính Đất, gió lốc cắt ngang toàn thể địch, tạo buff tụt máu, mỗi hiệp tạo ST tụt máu lên mục tiêu bằng ST Vật Công cao nhất, kéo dài 2 hiệ.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -196,18 +196,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Đấm Thường-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_ptq.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_ptq.png",
       "skillDesc": "Tạo thêm dmg thật bằng 10%-30% giới hạn HP  lên mục tiêu; HQ Choáng đổi thành Sợ, kéo dài 2 hiệp, làm mục tiêu Đứng Im 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -221,18 +221,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Lật Bàn-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_xz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_xz.png",
       "skillDesc": "Tấn công toàn thể, tỉ lệ phát động gấp 2-3 sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -246,18 +246,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Ẩu Đả-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_od.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_od.png",
       "skillDesc": "Tỉ lệ phát động buff Hỗn Loạn tăng đến 70%, tạo 1000k-1500k sát thương thực lên mục tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -271,30 +271,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Khởi Động-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_rsyd.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_rsyd.png",
       "skillDesc": "Giảm 60% tỉ lệ Hồi HP của mục tiêu, và giảm 20% Tấn Công T.Tính & Vật Công, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Samurai",
-          "icon": "/images/heroes/samurai.png",
+          "icon": "/images/heroes/icon_heroes/samurai.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -308,30 +308,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Nghiêm Túc-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_rzxl.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_rzxl.png",
       "skillDesc": "Tỉ lệ Chính Xác tăng đến 70%, nếu chưa trúng sẽ tạo thêm dmg thực bằng 10%-30% giới hạn HP, dmg tụt máu tăng thêm bằng 500k-1500k dmg thực.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "amount": 2,
           "type": "hero"
         }
@@ -345,30 +345,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Liên Hoàn Đấm-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_lxptq.png",
       "skillDesc": "Bỏ qua Đứng Im, Sợ, Choáng, Đóng Băng, HQ  Tsukuyomi, bản thân hồi HP bằng 300%-600% Ma Công hiện tại.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "amount": 3,
           "type": "hero"
         }
@@ -382,30 +382,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Đấm Thẳng-Thánh",
-      "skillIcon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_zq.png",
       "skillDesc": "Nộ tăng thêm Tốc Độ tăng gấp đôi, bản thân có 50% tỉ lệ tăng gấp 6 Phòng Ngự T.Tính; Có thêm 75% HQ giảm sát tổng thể.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "amount": 3,
           "type": "hero"
         }
@@ -420,22 +420,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
@@ -451,22 +451,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
@@ -482,28 +482,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Liên Hoàn Đấm-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_yiquanchaoren_lxptq.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_lxptq.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -513,22 +513,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -544,22 +544,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
@@ -575,28 +575,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Đấm Thẳng-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_yiquanchaoren_zq.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_yiquanchaoren_zq.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -606,22 +606,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
@@ -637,22 +637,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "slug": "saitama"
         }
       ],
@@ -678,7 +678,7 @@
     "id": "35900",
     "slug": "saitama",
     "name": "Saitama",
-    "avatar": "/images/heroes/saitama.png",
+    "avatar": "/images/heroes/icon_heroes/saitama.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -690,7 +690,7 @@
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         }
       ]
     },
@@ -701,12 +701,12 @@
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         },
         {
           "name": "Gintoki",
           "slug": "gintoki",
-          "avatar": "/images/heroes/gintoki.png"
+          "avatar": "/images/heroes/icon_heroes/gintoki.png"
         }
       ]
     },
@@ -717,12 +717,12 @@
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         },
         {
           "name": "Lý Tiểu Long",
           "slug": "ly-tieu-long",
-          "avatar": "/images/heroes/ly-tieu-long.png"
+          "avatar": "/images/heroes/icon_heroes/ly-tieu-long.png"
         }
       ]
     },
@@ -733,7 +733,7 @@
         {
           "name": "Natsu",
           "slug": "natsu",
-          "avatar": "/images/heroes/natsu.png"
+          "avatar": "/images/heroes/icon_heroes/natsu.png"
         }
       ]
     }

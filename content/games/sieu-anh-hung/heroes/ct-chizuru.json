@@ -4,7 +4,7 @@
   "name": "CT-Chizuru",
   "title": "Vũ trụ linh tính • UR CT-Chizuru",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-chizuru.png",
+  "avatar": "/images/heroes/icon_heroes/ct-chizuru.png",
   "fullArt": "/images/heroes/full/image_shenleqianhe.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Linh Nguyệt.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s1.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s1.png",
       "description": "Tạo 350% ST vật lý và 550% ST t.tính Lửa lên kẻ địch, và ngẫu nhiên khiến mục tiêu đứng im hoặc hóa đá 2 hiệp, hút 20% lực tấn công của mục tiêu cộng cho bản thân.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hồi Thiên.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s2.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s2.png",
       "description": "Skill phản đòn: 99% tỉ lệ sau khi bị tấn công, tạo 350% ST vật lý và 350% ST t.tính Lửa lên 1-5 mục tiêu, khiến mục tiêu đứng im 2 hiệp, tạo x3 sát thương vật lý và t.tính Lửa lên mục tiêu.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Lời Chúc Thần Tốc.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s3.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s3.png",
       "description": "Skill trước trận: Tạo 350% ST vật lý và 350% ST t.tính Lửa lên 1-5 mục tiêu, tăng vĩnh viễn 200% bạo kích, tăng 50% giới hạn HP, 79% tỉ lệ giảm thương tổng thể cho bản thân, vĩnh viễn miễn dịch tấn công t.tính Lửa, tăng 350% phòng ngự và phòng ngự thuộc tính, kéo dài 2 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tam Lại Bố Trận.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s6.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s6.png",
       "description": "Skill trước khi bị đánh: Trong hiệp này, bản thân tăng 850% Chính Xác, Bạo Kích, hồi HP bằng 20% giới hạn HP, 50% tỉ lệ giảm 50% Chính Xác của toàn thể phe địch. Mỗi hiệp có hiệu lực 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thiên Thần Lý.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s7.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s7.png",
       "description": "Skill trước hiệp: Tấn công của tất cả thuộc tính chuyển thành vật công, tạo 350% ST vật lý và 850% ST thực t.tính Lửa lên 1-5 mục tiêu, giảm 30%-40% tỉ lệ giảm thương tổng thể đối với mục tiêu tạo hiệu quả tê, kéo dài 2 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Điềm Trời.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s4.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s4.png",
       "description": "Tạo 350% ST vật lý và 850% ST thực t.tính Lửa, 50% tỉ lệ tăng 50W－100W tấn công thuộc tính cho đồng đội, hiệu lực 1 hiệp. Và có 50% tỉ lệ khiến phe địch đứng im 2 hiệp.\"",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Ngọc Sắt Âm.Thánh",
-      "icon": "/images/heroes/s_shenleqianhe_s5.png",
+      "icon": "/images/icon_skill_heroes/s_shenleqianhe_s5.png",
       "description": "Tấn công tất cả thuộc tính chuyển thành vật công, tạo 350% ST vật lý và 950% ST thực t.tính Lửa lên toàn thể phe địch, giảm 50% vật & ma công của toàn thể phe địch 2 hiệp, ngẫu nhiên khiến mục tiêu đứng im hoặc hóa đá 2 hiệp.\"",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -196,18 +196,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Linh Nguyệt.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s1.png",
       "skillDesc": "Giảm 80% Tốc Độ & Né của mục tiêu, hiệu lực 1 hiệp; Và tăng 200% bạo kích cho bản thân, hiệu lực 2 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -221,30 +221,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hồi Thiên.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s2.png",
       "skillDesc": "Tạo thêm x3 sát thương vật lý & t.tính Lửa đối với kẻ địch có HP dưới 20%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Yagami Iori",
-          "icon": "/images/heroes/yagami-iori.png",
+          "icon": "/images/heroes/icon_heroes/yagami-iori.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 1,
           "type": "hero"
         }
@@ -258,24 +258,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Lời Chúc Thần Tốc.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s3.png",
       "skillDesc": "Tăng vĩnh viễn 50% Tốc Độ cho bản thân. Miễn dịch vĩnh viễn hiệu quả: Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Tăng 200% Né và hiệu quả Vô Địch cho bản thân, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 1,
           "type": "hero"
         }
@@ -289,30 +289,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Điềm Trời.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s4.png",
       "skillDesc": "Giảm giới hạn HP của mục tiêu, lượng giảm sẽ không vượt quá 15% HP lớn nhất hiện tại của mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 1,
           "type": "hero"
         }
@@ -326,30 +326,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Ngọc Sắt Âm.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s5.png",
       "skillDesc": "Tạo thêm x4-x6 sát thương và sát thương thuộc tính lên mục tiêu. Tạo thêm x3 sát thương vật lý và t.tính Lửa lên kẻ địch có HP dưới 20%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 2,
           "type": "hero"
         }
@@ -363,30 +363,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tam Lại Bố Trận.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s6.png",
       "skillDesc": "Tăng vĩnh viễn 100% Vật & Ma Công (Chỉ có hiệu lực 1 lần). Tăng 50% Né cho đồng đội khác, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 1,
           "type": "hero"
         }
@@ -400,30 +400,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Thiên Thần Lý.Thánh",
-      "skillIcon": "/images/heroes/s_shenleqianhe_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s7.png",
       "skillDesc": "Tạo thêm x3 sát thương và sát thương thuộc tính, có 50% tỉ lệ tăng thêm 40% năng lực hồi phục cho cả đội, và giảm 80% Tốc Độ và Né của mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "amount": 2,
           "type": "hero"
         }
@@ -438,22 +438,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
@@ -469,22 +469,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
@@ -500,28 +500,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Điềm Trời.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_shenleqianhe_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -531,22 +531,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -562,22 +562,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
@@ -593,28 +593,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Ngọc Sắt Âm.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_shenleqianhe_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shenleqianhe_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -624,22 +624,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
@@ -655,22 +655,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chizuru",
-          "icon": "/images/heroes/chizuru.png",
+          "icon": "/images/heroes/icon_heroes/chizuru.png",
           "slug": "chizuru"
         }
       ],
@@ -695,7 +695,7 @@
     "id": "39500",
     "slug": "chizuru",
     "name": "Chizuru",
-    "avatar": "/images/heroes/chizuru.png",
+    "avatar": "/images/heroes/icon_heroes/chizuru.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -707,12 +707,12 @@
         {
           "name": "Deadpool",
           "slug": "deadpool",
-          "avatar": "/images/heroes/deadpool.png"
+          "avatar": "/images/heroes/icon_heroes/deadpool.png"
         },
         {
           "name": "Yagami Iori",
           "slug": "yagami-iori",
-          "avatar": "/images/heroes/yagami-iori.png"
+          "avatar": "/images/heroes/icon_heroes/yagami-iori.png"
         }
       ]
     },
@@ -723,7 +723,7 @@
         {
           "name": "Mai Shiranui",
           "slug": "mai-shiranui",
-          "avatar": "/images/heroes/mai-shiranui.png"
+          "avatar": "/images/heroes/icon_heroes/mai-shiranui.png"
         }
       ]
     },
@@ -734,7 +734,7 @@
         {
           "name": "Asamiya Athena",
           "slug": "asamiya-athena",
-          "avatar": "/images/heroes/asamiya-athena.png"
+          "avatar": "/images/heroes/icon_heroes/asamiya-athena.png"
         }
       ]
     },
@@ -745,7 +745,7 @@
         {
           "name": "Saitama",
           "slug": "saitama",
-          "avatar": "/images/heroes/saitama.png"
+          "avatar": "/images/heroes/icon_heroes/saitama.png"
         }
       ]
     }

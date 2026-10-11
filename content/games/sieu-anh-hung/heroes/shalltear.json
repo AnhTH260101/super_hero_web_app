@@ -4,7 +4,7 @@
   "name": "Shalltear",
   "title": "Vũ trụ linh tính • SSR Shalltear",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/shalltear.png",
+  "avatar": "/images/heroes/icon_heroes/shalltear.png",
   "fullArt": "/images/heroes/full/image_xiatiya.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Nụ Hôn Quỷ Hút Máu",
-      "icon": "/images/heroes/s_xiatiya_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s1.png",
       "description": "Gây 350% ST ma pháp và 250% ST thuộc tính Thổ cho ngẫu nhiên 3 ~ 5 kẻ địch, làm mù mục tiêu trong 1 lượt và gây thêm gấp 3 ST và ST thuộc tính.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Cái Ôm Quỷ Hút Máu",
-      "icon": "/images/heroes/s_xiatiya_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s2.png",
       "description": "Gây 350% ST ma pháp và 250% ST thuộc tính Thổ cho toàn bộ kẻ địch, giảm 50% tỉ lệ giảm ST tổng thể của mục tiêu trong 1 lượt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Impure Shockwave Shield",
-      "icon": "/images/heroes/s_xiatiya_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s3.png",
       "description": "Kỹ năng trước khi bị đánh: Phục hồi toàn bộ HP của bản thân (bỏ qua Trọng Thương), gây 350% ST ma pháp và 250% ST thực thuộc tính thổ cho tất cả kẻ địch.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Huyết Trì",
-      "icon": "/images/heroes/s_xiatiya_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s6.png",
       "description": "Kĩ năng tử vong (lần đầu bỏ qua hiệu ứng Trọng Thương): Phục hồi tất cả HP, gây ra 350% ST ma pháp và 800% ST thực thuộc tính Thổ cho tất cả kẻ thù, tiêu diệt một mục tiêu ngẫu nhiên ngay lập tức và có thể hồi sinh tối đa 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Ngọn Thương Thanh Tẩy",
-      "icon": "/images/heroes/s_xiatiya_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s7.png",
       "description": "Kĩ năng tiền chiến: Tăng vĩnh viễn 100% giới hạn HP của bản thân và giảm 79% thương tổn tổng thể, tăng 350% Trúng Đích và Né Tránh của bản thân, gây ST thực bằng 50% lượng HP tối đa của bản thân cho tất cả kẻ địch.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Ma Pháp Tối Thượng - Vermillion Nova",
-      "icon": "/images/heroes/s_xiatiya_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s4.png",
       "description": "Gây 350% ST ma pháp toàn thuộc tính và 800% ST thuộc tính Thổ cộng với ST thực cho tất cả kẻ thù, phục hồi toàn bộ HP của bản thân và giết ngay một mục tiêu ngẫu nhiên.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Ma Pháp Tối Thượng - Thunderstorm",
-      "icon": "/images/heroes/s_xiatiya_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xiatiya_s5.png",
       "description": "Kỹ năng trước lượt đấu: Tất cả các đòn tấn công thuộc tính được chuyển thành ma pháp, gây ra 350% ST ma pháp và 800% ST thực thuộc tính Thổ cho tất cả kẻ thù, phục hồi toàn bộ HP của bản thân, gây thêm ST bằng 800% tốc độ của bản thân và ST thuộc tính cho mục tiêu.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-shalltear",
       "name": "CT-Shalltear",
-      "avatar": "/images/heroes/ct-shalltear.png",
+      "avatar": "/images/heroes/icon_heroes/ct-shalltear.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Shalltear Bloodfallen, là một con quái vật với miệng mọc đầy răng sắc nhọn, tứ chi dài như những con đỉa hút máu. Nhưng nhờ khả năng hội họa tuyệt vời của tác giả và 3D nên mới có hình dáng Lolita đáng yêu, nhưng khi rơi vào trạng thái hưng phấn sẽ hiện nguyên hình."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Nụ Hôn Quỷ Hút Máu",
-      "skillIcon": "/images/heroes/s_xiatiya_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s1.png",
       "skillDesc": "Khiến toàn bộ thuộc tính Tấn Công và Phòng Ngự của mục tiêu về 0, hiệu quả trong vòng 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Cái Ôm Quỷ Hút Máu",
-      "skillIcon": "/images/heroes/s_xiatiya_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s2.png",
       "skillDesc": "Giảm ma pháp mục tiêu về 0, hiệu quả duy trì 1 lượt, tạo thêm gấp 3 ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Impure Shockwave Shield",
-      "skillIcon": "/images/heroes/s_xiatiya_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s3.png",
       "skillDesc": "Tăng 1 lần Vô Địch cho bản thân, gây cho kẻ địch ST thực bằng 40% lượng HP lớn nhất của bản thân, số lần kích hoạt mỗi lượt thành 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Ma Pháp Tối Thượng - Vermillion Nova",
-      "skillIcon": "/images/heroes/s_xiatiya_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s4.png",
       "skillDesc": "Chọn ngẫu nhiên một đồng đội, cho bản thân tăng 1 lần bỏ qua buff Trọng Thương, có hiệu lực 1 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Ma Pháp Tối Thượng - Thunderstorm",
-      "skillIcon": "/images/heroes/s_xiatiya_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s5.png",
       "skillDesc": "75% cơ hội giảm 100% đòn tấn công kép Ma - Vật và tất cả các đòn tấn công thuộc tính của mục tiêu, gây thêm gấp 4-6 lần ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Huyết Trì",
-      "skillIcon": "/images/heroes/s_xiatiya_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s6.png",
       "skillDesc": "Tối đa hồi sinh 3 lần (bỏ qua hiệu ứng Trọng Thương), gây ra gấp 4-6 lần ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Ngọn Thương Thanh Tẩy",
-      "skillIcon": "/images/heroes/s_xiatiya_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiatiya_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo và Tsukuyomi. Tăng 300% vật lý, khiến ngẫu nhiên 1 mục tiêu không thể thi triển kỹ năng tử vong, diệt ngay lập tức.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Ma Pháp Tối Thượng - Vermillion Nova",
-      "unlockedSkillIcon": "/images/heroes/s_xiatiya_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiatiya_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Ma Pháp Tối Thượng - Thunderstorm",
-      "unlockedSkillIcon": "/images/heroes/s_xiatiya_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiatiya_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shalltear",
-          "icon": "/images/heroes/shalltear.png",
+          "icon": "/images/heroes/icon_heroes/shalltear.png",
           "slug": "shalltear"
         }
       ],
@@ -623,12 +623,12 @@
         {
           "name": "Overlord",
           "slug": "overlord",
-          "avatar": "/images/heroes/overlord.png"
+          "avatar": "/images/heroes/icon_heroes/overlord.png"
         },
         {
           "name": "Albedo",
           "slug": "albedo",
-          "avatar": "/images/heroes/albedo.png"
+          "avatar": "/images/heroes/icon_heroes/albedo.png"
         }
       ]
     },
@@ -639,7 +639,7 @@
         {
           "name": "Vlad III",
           "slug": "vlad-iii",
-          "avatar": "/images/heroes/vlad-iii.png"
+          "avatar": "/images/heroes/icon_heroes/vlad-iii.png"
         }
       ]
     },
@@ -650,7 +650,7 @@
         {
           "name": "Kurumi",
           "slug": "kurumi",
-          "avatar": "/images/heroes/kurumi.png"
+          "avatar": "/images/heroes/icon_heroes/kurumi.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Aizen",
           "slug": "aizen",
-          "avatar": "/images/heroes/aizen.png"
+          "avatar": "/images/heroes/icon_heroes/aizen.png"
         }
       ]
     }

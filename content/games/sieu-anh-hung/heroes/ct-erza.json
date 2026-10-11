@@ -4,7 +4,7 @@
   "name": "CT-Erza",
   "title": "Vũ trụ sức mạnh • UR CT-Erza",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-erza.png",
+  "avatar": "/images/heroes/icon_heroes/ct-erza.png",
   "fullArt": "/images/heroes/full/image_ailusha.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Fairy Trảm-Thánh",
-      "icon": "/images/heroes/s_ailusha_ywnz.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_ywnz.png",
       "description": "Tấn công 1 mục tiêu, tạo 350% ST vật lý và 200% ST t.tính Gió lên mục tiêu, nếu Vật Công xảy ra buff bạo kích, sát thương t.tính sẽ tăng X1.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hồn Chiến Cơ-Thánh",
-      "icon": "/images/heroes/s_ailusha_zjzh.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_zjzh.png",
       "description": "Skill trước trận: Tăng 350% toàn thuộc tính cho cả đội, kéo dài 3 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Trăng Sáng-Thánh",
-      "icon": "/images/heroes/s_ailusha_ys.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_ys.png",
       "description": "Tấn công mục tiêu dãy trước địch, tạo 350% ST vật lý và 200% ST t.tính Gió lên mục tiêu.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Requip Magic-Thánh",
-      "icon": "/images/heroes/s_ailusha_hzmf.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_hzmf.png",
       "description": "Skill trước hiệp: Bỏ quả buff Hỗn Loạn, hồi 50% HP bản thân đã mất, ngẫu nhiên biến hình, đổi thành 1 trong 2 loại: \"Thanh Tâm Y\", \"Thiên Luân Khải\", kéo dài 2 hiệp, nghỉ 1 hiệp;\nỞ trạng thái \"Thanh Tâm Y\": Chuyển Phòng Ngự của bản thân thành Vật & Ma Công, mỗi khi Erza cứ chịu ST bằng 1% HP lớn nhất của bản thân (mức sàn), đều tăng 4% Vật & Ma Công, 2% Tấn Công t.tính Gió (Tối đa tăng 400% Vật & Ma Công, 200% Tấn Công t.tính Gió); Erza ở trạng thái \"Thanh Tâm Y\", sẽ bỏ qua 99% Né của mục tiêu.\nỞ trạng thái \"Thiên Luân Khải\": Tăng 20% giới hạn HP cho bản thân, mỗi khi Erza chịu ST bằng 1% HP lớn nhất của bản thân (mức sàn), đều tăng 0.3% giới hạn HP lớn nhất, giới hạn HP tối đa tăng 30%; Erza ở trạng thái \"Thanh Tâm Y\", sẽ giảm tỉ lệ Né của bản thân xuống thấp nhất; Và khi chiến đấu có 99% tỉ lệ phản đòn ST tấn công cho phe địch, ST phản đòn bằng 20% ST bản thân phải chịu, kèm ST thực bằng 350% Phòng Ngự và Ma Công của bản thân, mỗi lần biến hình tối đa phản đòn 6 lần; 50% sát thương bản thân chịu chuyển thành hồi HP cho bản thân",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Nữ Hoàng Magic-Thánh",
-      "icon": "/images/heroes/s_ailusha_mfnw.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_mfnw.png",
       "description": "Skill trước khi bị đánh: Tăng 50% Bạo Kích và Né cho bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Tinh Kiếm-Thánh",
-      "icon": "/images/heroes/s_ailusha_xzj.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_xzj.png",
       "description": "Skill bị đánh: Bị tấn công xong, có 99% tỉ lệ tấn công 1, 3 hoặc 5 mục tiêu, tạo thấp nhất 350% ST vật lý và 550% ST t.tính Gió lên mục tiêu, tấn công càng ít người sát thương càng cao (Tấn công 3 mục tiêu tạo X2 ST vật lý, tấn công 1 mục tiêu tạo X3 ST vật lý), nếu ở trạng thái \"Thanh Tâm Y\", sẽ tăng X1 ST căn cứ ST gốc cơ bản, và hồi HP bằng 1190%-1340% Ma Công hiện tại của bản thân, mỗi hiệp tối đa phát động 2 lần",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Fairy Nộ-Thánh",
-      "icon": "/images/heroes/s_ailusha_ywzn.png",
+      "icon": "/images/icon_skill_heroes/s_ailusha_ywzn.png",
       "description": "Tạo 350% ST vật lý và 800% ST t.tính Gió lên toàn thể địch; Giảm 80% Tốc Độ hiện tại của 1-3 mục tiêu địch, kéo dài 3 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -184,18 +184,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Fairy Trảm-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_ywnz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_ywnz.png",
       "skillDesc": "Tạo thêm dmg t.tính Gió bằng 5%-30% giới hạn HP của Erza (Thẻ bài chuyển sinh càng cao, tỉ lệ cho ra sát thương cao càng cao); và làm mục tiêu đó đứng im 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -209,18 +209,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hồn Chiến Cơ-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_zjzh.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_zjzh.png",
       "skillDesc": "Tăng thêm 100k Vật & Ma Công và 1000k Phòng Ngự & Phòng Ngự T.Tính cho cả đội, kéo dài 3 hiệp, và xóa buff xấu cho cả đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -234,18 +234,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Trăng Sáng-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_ys.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_ys.png",
       "skillDesc": "Làm 1 mục tiêu tụt máu, mỗi hiệp tụt HP bằng 500% Vật Công hiện tại của Erza, kéo dài 3 hiệp, và Erza cứ mất 1% HP (Khi thả \"Trăng Sáng\"), lượng tụt máu tăng 2%, làm 1 mục tiêu sợ 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -259,30 +259,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Requip Magic-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_hzmf.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_hzmf.png",
       "skillDesc": "Làm trọng thương 1 mục tiêu tấn công, giảm 60% tỉ lệ hồi HP của mục tiêu, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "amount": 1,
           "type": "hero"
         }
@@ -296,30 +296,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Nữ Hoàng Magic-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_mfnw.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_mfnw.png",
       "skillDesc": "Làm 1 mục tiêu Hỗn Loạn 1 hiệp; Giảm 50% Né của mục tiêu khác, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,30 +333,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tinh Kiếm-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_xzj.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_xzj.png",
       "skillDesc": "Bỏ qua HQ Đứng Im, Choáng, Sợ, Đóng Băng, Hóa Đá; HQ hồi HP tăng đến 100% HP đã mất, nếu requip thành \"Thanh Tâm\", ngẫu nhiên làm 1 kẻ địch bị mê hoặc, 2 hiệp sau đó có 1 cơ hội hồi đầy HP; Nếu requip thành \"Thiên Luân\", ngẫu nhiên làm 1 mục tiêu sợ, tỉ lệ phản đòn tăng đến 50%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "amount": 3,
           "type": "hero"
         }
@@ -370,30 +370,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Fairy Nộ-Thánh",
-      "skillIcon": "/images/heroes/s_ailusha_ywzn.png",
+      "skillIcon": "/images/icon_skill_heroes/s_ailusha_ywzn.png",
       "skillDesc": "Tăng 80% Chính Xác cho mình, có thêm 69% HQ giảm thương toàn thể, tăng 30% Chính Xác cho tất cả đồng đội; Giảm 60% Né của 1-3 kẻ địch, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "amount": 3,
           "type": "hero"
         }
@@ -408,22 +408,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
@@ -439,22 +439,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
@@ -470,28 +470,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Tinh Kiếm-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_ailusha_xzj.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_ailusha_xzj.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -501,22 +501,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -532,22 +532,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
@@ -563,28 +563,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Fairy Nộ-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_ailusha_ywzn.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_ailusha_ywzn.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -594,22 +594,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
@@ -625,22 +625,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Erza",
-          "icon": "/images/heroes/erza.png",
+          "icon": "/images/heroes/icon_heroes/erza.png",
           "slug": "erza"
         }
       ],
@@ -669,7 +669,7 @@
     "id": "36000",
     "slug": "erza",
     "name": "Erza",
-    "avatar": "/images/heroes/erza.png",
+    "avatar": "/images/heroes/icon_heroes/erza.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -681,12 +681,12 @@
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         },
         {
           "name": "Natsu",
           "slug": "natsu",
-          "avatar": "/images/heroes/natsu.png"
+          "avatar": "/images/heroes/icon_heroes/natsu.png"
         }
       ]
     },
@@ -697,7 +697,7 @@
         {
           "name": "Boa Hancock",
           "slug": "boa-hancock",
-          "avatar": "/images/heroes/boa-hancock.png"
+          "avatar": "/images/heroes/icon_heroes/boa-hancock.png"
         }
       ]
     },
@@ -708,12 +708,12 @@
         {
           "name": "Kurosaki",
           "slug": "kurosaki",
-          "avatar": "/images/heroes/kurosaki.png"
+          "avatar": "/images/heroes/icon_heroes/kurosaki.png"
         },
         {
           "name": "Monkey D. Luffy",
           "slug": "monkey-d-luffy",
-          "avatar": "/images/heroes/monkey-d-luffy.png"
+          "avatar": "/images/heroes/icon_heroes/monkey-d-luffy.png"
         }
       ]
     },
@@ -724,7 +724,7 @@
         {
           "name": "Sakura",
           "slug": "sakura",
-          "avatar": "/images/heroes/sakura.png"
+          "avatar": "/images/heroes/icon_heroes/sakura.png"
         }
       ]
     }

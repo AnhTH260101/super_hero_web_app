@@ -4,7 +4,7 @@
   "name": "Cid Kageno",
   "title": "Vũ trụ linh tính • SSR Cid Kageno",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_anying.png",
+  "avatar": "/images/heroes/icon_heroes/icon_anying.png",
   "fullArt": "/images/heroes/full/image_anying.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Thập Tự Trảm",
-      "icon": "/images/heroes/s_anying_s1.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s1.png",
       "description": "Đối toàn thể phe địch gây ra 350% ST ma pháp + 100% ST thuộc tính Phong",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Kết Giới",
-      "icon": "/images/heroes/s_anying_s2.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s2.png",
       "description": "Kĩ năng trước khi bị đánh: Đối toàn thể phe địch gây ra 350% ST ma pháp + 100% ST thuộc tính Phong. Cho bản thân 1 tầng \"Phóng Ma Lực\": Mỗi tầng \"Phóng Ma Lực\" giúp bản thân tăng 10% Lực Công ma pháp, tối đa chồng đến 1000%.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Phản Trảm",
-      "icon": "/images/heroes/s_anying_s3.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s3.png",
       "description": "Kĩ năng phản kích: Đối toàn thể phe địch gây ra 350% ST ma pháp + 300% ST thuộc tính Phong. Dưới tác dụng của \"Hình thái Shadow\", truy kích thêm ST bằng 50% HP tối đa.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Phóng Ma Lực",
-      "icon": "/images/heroes/s_anying_s6.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s6.png",
       "description": "Kĩ năng Tử Vong: Hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương). Đối toàn thể phe địch gây ra 350% ST ma pháp thực và 1500% ST thực thuộc tính Phong, tối đa có thể Hồi Sinh 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Đao Ảnh",
-      "icon": "/images/heroes/s_anying_s7.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s7.png",
       "description": "Kĩ năng tiền chiến: Biến thân \"Hình thái Shadow\", tăng vĩnh viễn 220% HP tối đa của bản thân, và 79% Giảm Thương toàn thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Ma Lực Rung Động",
-      "icon": "/images/heroes/s_anying_s4.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s4.png",
       "description": "Khống chế ma lực lưu động tạo thành cộng chấn, đối toàn thể phe địch gây ra 350% ST ma pháp thực và 1200% ST thực thuộc tính Phong. Dưới tác dụng của \"Hình thái Shadow\", xóa bỏ ngẫu nhiên lượt Hồi Sinh của 1 người, số lượt Hồi Sinh bị xóa bằng số lượt Hồi Sinh bản thân đã dùng (tối đa 4 lần), và Diệt Ngay đối phương.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Atomic",
-      "icon": "/images/heroes/s_anying_s5.png",
+      "icon": "/images/icon_skill_heroes/s_anying_s5.png",
       "description": "Kĩ năng trước lượt đấu: Lợi dụng thao tác ma lực đến cực hạn, mô phỏng Nổ Hạt Nhân. Đối toàn thể phe địch gây ra 350% ST ma pháp thực và 1800% ST thực thuộc tính Phong. Dưới tác dụng của \"Hình thái Shadow\", nhận hiệu ứng \"Ổn Định\"",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-cid-kageno",
       "name": "CT - Cid Kageno",
-      "avatar": "/images/heroes/icon_anying.png",
+      "avatar": "/images/heroes/icon_heroes/icon_anying.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Bên ngoài chỉ là đứa con trai thứ không bắt măt của gia đình Nam Tước Kagenou, nhưng thực ra là người thành lập, thủ lĩnh tổ chức \"Shadow Garden\", đối đầu với \"Giáo phái Diabolos\""
@@ -114,7 +114,7 @@
     {
       "slug": "shadow",
       "name": "Shadow",
-      "avatar": "/images/heroes/icon_anying2.png",
+      "avatar": "/images/heroes/icon_heroes/icon_anying2.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Shadow chuyển sang tư thế giải phóng ma lực — điều này cho thấy anh ta đang tận hưởng trận chiến lần này rất nhiều."
@@ -127,18 +127,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Thập Tự Trảm",
-      "skillIcon": "/images/heroes/s_anying_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s1.png",
       "skillDesc": "Gây thêm 5 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -152,30 +152,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Kết Giới",
-      "skillIcon": "/images/heroes/s_anying_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s2.png",
       "skillDesc": "Mỗi lượt tối đa gây ra 3 lần. Tự cho bản thân \"Vô Địch\" 1 lượt. Ở \"Hình thái Shadow\", mỗi lần chồng 3 tầng \"Phóng Ma Lực\". Hiệu ứng \"Vô Địch\" đổi thành \"Hộ Giá\".",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 1,
           "type": "hero"
         }
@@ -189,24 +189,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Phản Trảm",
-      "skillIcon": "/images/heroes/s_anying_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s3.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 1,
           "type": "hero"
         }
@@ -220,30 +220,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Ma Lực Rung Động",
-      "skillIcon": "/images/heroes/s_anying_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s4.png",
       "skillDesc": "Giảm phòng ngự toàn thuộc tính của mục tiêu về 0, duy trì 2 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 1,
           "type": "hero"
         }
@@ -257,30 +257,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Atomic",
-      "skillIcon": "/images/heroes/s_anying_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s5.png",
       "skillDesc": "Gây ra thêm 5 lần ST. Dưới \"Hình thái Shadow\", có tỉ lệ gây thêm ST gấp 10 lần.\n",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 2,
           "type": "hero"
         }
@@ -294,30 +294,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Phóng Ma Lực",
-      "skillIcon": "/images/heroes/s_anying_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị. Dưới \"Hình thái Shadow\", có tỉ lệ 30% rút được năng lượng sinh mệnh của đối phương, tăng cho bản thân 1 lần Hồi Sinh.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 1,
           "type": "hero"
         }
@@ -331,30 +331,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Đao Ảnh",
-      "skillIcon": "/images/heroes/s_anying_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_anying_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsunoyomi. Lợi dụng ma lực tổn hại 1 lần số lần Hồi Sinh của 1-2 mục tiêu, và gây ra 1500% ST ma pháp thực và 1800% ST thực thuộc tính Phong.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "amount": 2,
           "type": "hero"
         }
@@ -369,22 +369,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -400,22 +400,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -431,28 +431,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Ma Lực Rung Động",
-      "unlockedSkillIcon": "/images/heroes/s_anying_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_anying_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -462,22 +462,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -493,22 +493,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         }
       ],
@@ -524,28 +524,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Atomic",
-      "unlockedSkillIcon": "/images/heroes/s_anying_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_anying_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -555,22 +555,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -586,22 +586,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Cid Kageno",
-          "icon": "/images/heroes/icon_anying.png",
+          "icon": "/images/heroes/icon_heroes/icon_anying.png",
           "slug": "cid-kageno"
         }
       ],
@@ -632,12 +632,12 @@
         {
           "name": "Frieren",
           "slug": "frieren",
-          "avatar": "/images/heroes/icon_fulilian.png"
+          "avatar": "/images/heroes/icon_heroes/icon_fulilian.png"
         },
         {
           "name": "Inori",
           "slug": "inori",
-          "avatar": "/images/heroes/icon_dieqi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_dieqi.png"
         }
       ]
     },
@@ -648,7 +648,7 @@
         {
           "name": "Pain",
           "slug": "pain",
-          "avatar": "/images/heroes/pain.png"
+          "avatar": "/images/heroes/icon_heroes/pain.png"
         }
       ]
     },
@@ -659,7 +659,7 @@
         {
           "name": "Yatogami Tohka",
           "slug": "yatogami-tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png"
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png"
         }
       ]
     },
@@ -670,7 +670,7 @@
         {
           "name": "Râu Trắng",
           "slug": "rau-trang",
-          "avatar": "/images/heroes/icon_baihuzi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_baihuzi.png"
         }
       ]
     }

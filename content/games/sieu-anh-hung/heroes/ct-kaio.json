@@ -4,7 +4,7 @@
   "name": "CT-Kaio",
   "title": "Zombie Bentu • UR CT-Kaio",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-kaio.png",
+  "avatar": "/images/heroes/icon_heroes/ct-kaio.png",
   "fullArt": "/images/heroes/full/image_zhamasi.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Cắt Đứt-Thần-Thánh",
-      "icon": "/images/heroes/s_zamas_qg.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_qg.png",
       "description": "Tạo 350% ST vật lý lên mục tiêu mặc định, và 200% ST t.tính Lửa, nếu Kaio và Black hợp thể, tạo thêm 350% ST ma pháp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Bất Tử-Thánh",
-      "icon": "/images/heroes/s_zamas_bs.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_bs.png",
       "description": "Skill bị đánh: Sau khi bị tấn công, cộng 1 tầng phủ năng lượng cho bản thân, tăng 350% phòng ngự & phòng ngự thuộc tính cho bản thân, tối đa cộng dồn 5 tầng (Ko thể bị xóa), hiệp sau kích hoạt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Kaio Loạn Trảm-Thánh",
-      "icon": "/images/heroes/s_zamas_lz.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_lz.png",
       "description": "Tấn công mục tiêu hàng mặc định, tạo 350% ST ma pháp, và 180% ST t.tính Lửa, nếu Kaio và Black hợp thể, sẽ tạo thêm 350% ST vật lý",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Phán Đoán-Thần-Thánh",
-      "icon": "/images/heroes/s_zamas_yp.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_yp.png",
       "description": "Skill trước hiệp: Giảm 350% Vật Công, Ma Công & tấn công thuộc tính của mục tiêu mặc định, cộng cho bản thân, nếu Kaio và Black hợp thể, sẽ cộng X2 thuộc tính đã hút được cho bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Miệt Thị-Thần-Thánh",
-      "icon": "/images/heroes/s_zamas_ms.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_ms.png",
       "description": "Skill trước trận: Cộng buff Vô Địch cho bản thân và 1 đồng đội, miễn dịch ST trong giai đoạn trước trận, tăng 350% phòng ngự và phòng ngự thuộc tính cho cả đội, kéo dài 2 hiệp",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Kháng Cự-Thần-Thánh",
-      "icon": "/images/heroes/s_zamas_dk.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_dk.png",
       "description": "Skill tử trận: Hồi sinh, hồi 50% HP cho bản thân, tấn công dãy sau, tạo 350% ST ma pháp, và 500% ST t.tính Lửa; Nếu Kaio và Black hợp thể, sẽ ko thể hồi sinh, mục tiêu tấn công tăng lên toàn thể phe địch.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Diệt Thế Trảm-Thánh",
-      "icon": "/images/heroes/s_zamas_msz.png",
+      "icon": "/images/icon_skill_heroes/s_zamas_msz.png",
       "description": "Tấn công toàn thể mục tiêu, tạo 350% ST ma pháp, và 550% ST t.tính Lửa; Nếu Kaio và Black hợp thể, sẽ tạo thêm 350% ST vật lý.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Cắt Đứt-Thần-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_qg.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_qg.png",
       "skillDesc": "Giảm 20% tỉ lệ giảm thương tổng thể của mục tiêu 2 hiệp (Ko thể bị xóa); Nếu hợp thể với Black, hồi 50% HP đã mất của đồng đội khác, và mục tiêu dãy trước mỗi hiệp chịu ST tụt máu bằng 105%-225% Vật Công và giới hạn HP của mục tiêu (Vô hiệu với BOSS); Tạo 300k-1200k ST thực, nếu hợp thể với Black, ST thực tăng đến 500k-1500k.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 20,
           "type": "item"
         }
@@ -215,18 +215,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Bất Tử-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_bs.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_bs.png",
       "skillDesc": "Mỗi tầng năng lượng tăng thêm 50% phòng ngự và phòng ngự t.tính; Khi chưa hợp thể, tăng 69% miễn thương tổng thể cho bản thân, kéo dài 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -240,18 +240,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Kaio Loạn Trảm-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_lz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_lz.png",
       "skillDesc": "Trọng thương mục tiêu dãy sau, giảm 30% hồi HP của mục tiêu, kéo dài 2 hiệp, và ko thể bị xóa; Nếu Kaio và Black hợp thể, hồi HP của mục tiêu -60%, và hồi HP bằng 155%-500% Ma Công cho bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -265,30 +265,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Phán Đoán-Thần-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_yp.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_yp.png",
       "skillDesc": "Hồi sinh xong tăng 100% Hồi HP, làm 1-2 mục tiêu Đứng Im, kéo dài 1 hiệp, hiệp sau có hiệu lực; Nếu Kaio và Black hợp thể, sẽ làm 2-3 mục tiêu đứng im.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Vehito",
-          "icon": "/images/heroes/vehito.png",
+          "icon": "/images/heroes/icon_heroes/vehito.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -302,30 +302,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Miệt Thị-Thần-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_ms.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_ms.png",
       "skillDesc": "Hóa đá mục tiêu có HP cao nhất, 1 hiệp, Trong 1 hiệp mục tiêu ko thể ra tay tấn công, ko thể bị xóa; Nếu hợp thể với Black, sẽ tạo X4 ST t.tính lên mục tiêu, và bỏ qua phòng ngự & giảm thương của mục tiêu địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "amount": 2,
           "type": "hero"
         }
@@ -339,30 +339,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kháng Cự-Thần-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_dk.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_dk.png",
       "skillDesc": "Bỏ qua HQ Choáng, Sợ và Đứng Im 1 hiệp, tăng 20% HQ Hồi HP cho đồng đội, kéo dài 3 hiệp; Trạng thái chưa hợp thể, hồi thêm tất cả HP đã mất cho bản thân; Nếu Kaio và Black hợp thể, tỉ lệ tăng sẽ là 30%, tỉ lệ hồi HP cho bản thân của Phán Đoán-Thần hồi giảm đến 50%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "amount": 3,
           "type": "hero"
         }
@@ -376,30 +376,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Diệt Thế Trảm-Thánh",
-      "skillIcon": "/images/heroes/s_zamas_msz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zamas_msz.png",
       "skillDesc": "Skill \"Miệt Thị-Thần\": Phạm vi thả HQ Vô Địch của giai đoạn trước trận đấu tăng lên 2 đồng đội.\nSkill \"Bất Tử\": Khi có hơn 3 tầng năng lượng, thả skill \"Bất Tử\", sẽ hợp thể với Black chuyển 5 trở lên của phe ta có mặt trên trận (2 người đều chưa chết), hợp thể xong tất cả trị số sẽ cộng dồn và tăng 20%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "amount": 3,
           "type": "hero"
         }
@@ -414,22 +414,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
@@ -445,22 +445,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
@@ -476,28 +476,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Kháng Cự-Thần-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_zamas_dk.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_zamas_dk.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -507,22 +507,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -538,22 +538,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
@@ -569,28 +569,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Diệt Thế Trảm-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_zamas_msz.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_zamas_msz.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -600,22 +600,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
@@ -631,22 +631,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kaio",
-          "icon": "/images/heroes/kaio.png",
+          "icon": "/images/heroes/icon_heroes/kaio.png",
           "slug": "kaio"
         }
       ],
@@ -676,7 +676,7 @@
     "id": "35200",
     "slug": "kaio",
     "name": "Kaio",
-    "avatar": "/images/heroes/kaio.png",
+    "avatar": "/images/heroes/icon_heroes/kaio.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -688,7 +688,7 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     },
@@ -699,12 +699,12 @@
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         },
         {
           "name": "Vehito",
           "slug": "vehito",
-          "avatar": "/images/heroes/vehito.png"
+          "avatar": "/images/heroes/icon_heroes/vehito.png"
         }
       ]
     },
@@ -715,12 +715,12 @@
         {
           "name": "Ma Nhân",
           "slug": "ma-nhan",
-          "avatar": "/images/heroes/ma-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png"
         },
         {
           "name": "Levi Ackerman",
           "slug": "levi-ackerman",
-          "avatar": "/images/heroes/levi-ackerman.png"
+          "avatar": "/images/heroes/icon_heroes/levi-ackerman.png"
         }
       ]
     },
@@ -731,7 +731,7 @@
         {
           "name": "Búa Khủng",
           "slug": "bua-khung",
-          "avatar": "/images/heroes/bua-khung.png"
+          "avatar": "/images/heroes/icon_heroes/bua-khung.png"
         }
       ]
     }

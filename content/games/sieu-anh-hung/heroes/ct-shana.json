@@ -4,7 +4,7 @@
   "name": "CT-Shana",
   "title": "Vũ trụ linh tính • UR CT-Shana",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-shana.png",
+  "avatar": "/images/heroes/icon_heroes/ct-shana.png",
   "fullArt": "/images/heroes/full/image_xiana.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Chân Hồng",
-      "icon": "/images/heroes/s_xiana_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s1.png",
       "description": "Tạo 350% ST Vật Lý và 500% ST thuộc tính Lửa lên đơn thể phe địch, khiến Vật & Ma Công và tấn công toàn thuộc tính của mục tiêu giảm 100%, hiệu quả kéo dài 1 hiệp, và giảm 50% Tốc Độ của kẻ địch.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Lửa Bay",
-      "icon": "/images/heroes/s_xiana_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s2.png",
       "description": "Skill trước khi bị đánh: Tạo 350% ST Vật Lý và 300% ST thực bằng ST thuộc tính Lửa lên toàn thể phe địch, hồi toàn bộ HP của bản thân (bỏ qua trọng thương), và tăng 200% Trúng, Bạo Kích của bản thân (Có hiệu lực hiệp này).",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thẩm Phán",
-      "icon": "/images/heroes/s_xiana_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s3.png",
       "description": "Skill phản đòn: Tạo 350% ST Vật Lý và 300% ST thuộc tính Lửa lên toàn thể phe địch, hồi toàn bộ HP của bản thân (bỏ qua trọng thương), tạo x3 ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Cánh Lửa",
-      "icon": "/images/heroes/s_xiana_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s6.png",
       "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo 350% ST Vật Lý và 900% ST thực thuộc tính Lửa lên toàn thể phe địch, tạo lên kẻ địch ST thực bằng 30% HP tối đa của bản thân,tạo x3 ST lên kẻ địch có Tốc Độ cao hơn bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Sen Đỏ",
-      "icon": "/images/heroes/s_xiana_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s7.png",
       "description": "Skill trước trận: Tạo 350% ST Vật Lý và ST bằng 800% ST thực thuộc tính Lửa lên toàn thể phe địch, tăng 79% giảm thương tổng thể cho bản thân, tăng 350% tấn công thuộc tính Lửa cho bản thân, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, đốt cháy kẻ địch, mỗi hiệp tạo ST bằng x3 tấn công thuộc tính Lửa, kéo dài 3 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Đoán Tội",
-      "icon": "/images/heroes/s_xiana_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s4.png",
       "description": "Tạo 350% ST Vật Lý và 800% ST thuộc tính Lửa lên toàn thể phe địch, ngẫu nhiên khiến kẻ địch đứng im hoạc hóa đá, kéo dài 2 hiệp, giảm 100% Tốc Độ và Trúng của tất cả kẻ địch, kéo dài 1 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Bàn Tay Lửa",
-      "icon": "/images/heroes/s_xiana_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xiana_s5.png",
       "description": "Tạo 350% ST Vật Lý và 900% ST thuộc tính Lửa lên toàn thể phe địch, giảm 50% Vật Công, Ma Công và tỉ lệ giảm thương tổng thể của mục tiêu, có hiệu lực 1 hiệp, tạo x3 ST và ST thuộc tính.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Chân Hồng",
-      "skillIcon": "/images/heroes/s_xiana_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s1.png",
       "skillDesc": "Gây sát thương gấp 3 lần và sát thương thuộc tính, trói buộc mục tiêu trong 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Lửa Bay",
-      "skillIcon": "/images/heroes/s_xiana_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s2.png",
       "skillDesc": "Tăng một mức độ phòng thủ và phòng thủ thuộc tính nhất định cho bản thân, hiệu lực kéo dài trong 3 lượt rồi biến mất, tối đa cộng dồn 10 lớp, số lần kích hoạt mỗi lượt là 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thẩm Phán",
-      "skillIcon": "/images/heroes/s_xiana_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s3.png",
       "skillDesc": "Giảm 100% tấn công thuộc tính lửa, phòng ngự và né tránh của kẻ địch trong lượt này (có hiệu lực trong lượt này).",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Đoán Tội",
-      "skillIcon": "/images/heroes/s_xiana_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s4.png",
       "skillDesc": "Gây 3 lần sát thương và sát thương thuộc tính, đối với mục tiêu bị hóa đá gây thêm 3 lần sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Bàn Tay Lửa",
-      "skillIcon": "/images/heroes/s_xiana_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s5.png",
       "skillDesc": "Gây 3 lần sát thương và sát thương thuộc tính, gây thêm 3 lần sát thương và sát thương thuộc tính lên mục tiêu bị hóa đá.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Cánh Lửa",
-      "skillIcon": "/images/heroes/s_xiana_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s6.png",
       "skillDesc": "Gây thêm 4-6 lần sát thương và sát thương thuộc tính, và ngẫu nhiên làm mục tiêu bị câm lặng hoặc hóa đá trong 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Sen Đỏ",
-      "skillIcon": "/images/heroes/s_xiana_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiana_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với hiệu ứng câm lặng, hóa đá, choáng, mê man, hỗn loạn, khiêu khích, nguyệt độ, tạo một lớp buff hồi sinh cho bản thân, khi chết sẽ hồi sinh và phục hồi 100% lượng máu, tăng giới hạn máu của bản thân lên 100%, gây 4-6 lần sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Đoán Tội",
-      "unlockedSkillIcon": "/images/heroes/s_xiana_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiana_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Bàn Tay Lửa",
-      "unlockedSkillIcon": "/images/heroes/s_xiana_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiana_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "slug": "shana"
         }
       ],
@@ -693,7 +693,7 @@
     "id": "40700",
     "slug": "shana",
     "name": "Shana",
-    "avatar": "/images/heroes/shana.png",
+    "avatar": "/images/heroes/icon_heroes/shana.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -705,12 +705,12 @@
         {
           "name": "Tachibana",
           "slug": "tachibana",
-          "avatar": "/images/heroes/tachibana.png"
+          "avatar": "/images/heroes/icon_heroes/tachibana.png"
         },
         {
           "name": "Esdese",
           "slug": "esdese",
-          "avatar": "/images/heroes/esdese.png"
+          "avatar": "/images/heroes/icon_heroes/esdese.png"
         }
       ]
     },
@@ -721,7 +721,7 @@
         {
           "name": "saber",
           "slug": "saber",
-          "avatar": "/images/heroes/saber.png"
+          "avatar": "/images/heroes/icon_heroes/saber.png"
         }
       ]
     },
@@ -732,7 +732,7 @@
         {
           "name": "InuYasha",
           "slug": "inuyasha",
-          "avatar": "/images/heroes/inuyasha.png"
+          "avatar": "/images/heroes/icon_heroes/inuyasha.png"
         }
       ]
     },
@@ -743,7 +743,7 @@
         {
           "name": "Erza",
           "slug": "erza",
-          "avatar": "/images/heroes/erza.png"
+          "avatar": "/images/heroes/icon_heroes/erza.png"
         }
       ]
     }

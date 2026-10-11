@@ -4,7 +4,7 @@
   "name": "Batman",
   "title": "Zombie Bentu • SSR Batman",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/batman.png",
+  "avatar": "/images/heroes/icon_heroes/batman.png",
   "fullArt": "/images/heroes/full/image_batman.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Dark Rider",
-      "icon": "/images/heroes/s_bfx_hurt.png",
+      "icon": "/images/icon_skill_heroes/s_bfx_hurt.png",
       "description": "Tốc độ nhanh như gió tạo 1 lần 350% sát thương vật lý cho mục tiêu mặc định, kèm 150% sát thương thuộc tính đất",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Bất Khuất",
-      "icon": "/images/heroes/s_bfx_cure.png",
+      "icon": "/images/icon_skill_heroes/s_bfx_cure.png",
       "description": "Thả trước hiệp, hồi phục 30% điểm HP, tăng 350% tất cả thuộc tính và miễn giảm sát thương cho bản thân, xóa buff giảm thuộc tính, tuột HP, choáng cho bản thân, miễn dịch 1 lần choáng của địch",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Công nghệ Wayne",
-      "icon": "/images/heroes/s_bfx_injure.png",
+      "icon": "/images/icon_skill_heroes/s_bfx_injure.png",
       "description": "Tấn công toàn thể địch, tạo 350% sát thương vật lý, kèm 140% sát thương thuộc tính đất, tạo gấp 2 lần sát thương kẻ địch hàng sau",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Vua Chiến Lược",
-      "icon": "/images/heroes/s_bfx_cure.png",
+      "icon": "/images/icon_skill_heroes/s_bfx_cure.png",
       "description": "Sau khi chịu tấn công, tăng effect điểm tuyệt đối của tấn công thuộc tính đất",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Nguy Cơ Vô Hạn",
-      "icon": "/images/heroes/s_bfx_injure.png",
+      "icon": "/images/icon_skill_heroes/s_bfx_injure.png",
       "description": "Kỹ năng trước trận, tăng 100% điểm phòng ngự cho đồng đội",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Dark Rider",
-      "skillIcon": "/images/heroes/s_bfx_hurt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bfx_hurt.png",
       "skillDesc": "Chuyển hóa gấp 1.5 tấn công ma pháp của bản thân thành tấn công thuộc tính Đất, tăng 50% né tránh cho mình, 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,24 +112,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Bất Khuất",
-      "skillIcon": "/images/heroes/s_bfx_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bfx_cure.png",
       "skillDesc": "Miễn dịch ngẫu nhiên 2 thuộc tính Nước, Đất hoặc Gió, Lửa, 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -143,24 +143,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Công nghệ Wayne",
-      "skillIcon": "/images/heroes/s_bfx_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bfx_injure.png",
       "skillDesc": "Làm choáng mục tiêu hàng sau, X2 tấn công thuộc tính Đất cho bản thân (không gồm phần chuyển hóa ma công), 2 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -174,30 +174,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Vua Chiến Lược",
-      "skillIcon": "/images/heroes/s_bfx_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bfx_cure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Linh Hồn Thù Hận",
-          "icon": "/images/heroes/icon_eling.png",
+          "icon": "/images/heroes/icon_heroes/icon_eling.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Cỗ Máy Chiến Tranh",
-          "icon": "/images/heroes/co-may-chien-tranh.png",
+          "icon": "/images/heroes/icon_heroes/co-may-chien-tranh.png",
           "amount": 1,
           "type": "hero"
         }
@@ -211,30 +211,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Nguy Cơ Vô Hạn",
-      "skillIcon": "/images/heroes/s_bfx_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bfx_injure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "amount": 2,
           "type": "hero"
         }
@@ -248,30 +248,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -285,30 +285,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "amount": 2,
           "type": "hero"
         }
@@ -323,22 +323,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -354,22 +354,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -385,22 +385,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         }
       ],
@@ -416,22 +416,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -447,22 +447,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         }
       ],
@@ -478,22 +478,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         }
       ],
@@ -509,22 +509,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -540,22 +540,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Batman",
-          "icon": "/images/heroes/batman.png",
+          "icon": "/images/heroes/icon_heroes/batman.png",
           "slug": "batman"
         }
       ],
@@ -581,12 +581,12 @@
         {
           "name": "Người Hùng Tia Chớp",
           "slug": "nguoi-hung-tia-chop",
-          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+          "avatar": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png"
         },
         {
           "name": "Superman",
           "slug": "superman",
-          "avatar": "/images/heroes/superman.png"
+          "avatar": "/images/heroes/icon_heroes/superman.png"
         }
       ]
     },
@@ -597,12 +597,12 @@
         {
           "name": "Võ Thánh Quan Vũ",
           "slug": "vo-thanh-quan-vu",
-          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+          "avatar": "/images/heroes/icon_heroes/vo-thanh-quan-vu.png"
         },
         {
           "name": "Constantine",
           "slug": "constantine",
-          "avatar": "/images/heroes/constantine.png"
+          "avatar": "/images/heroes/icon_heroes/constantine.png"
         }
       ]
     },
@@ -613,12 +613,12 @@
         {
           "name": "Hậu Nghệ",
           "slug": "hau-nghe",
-          "avatar": "/images/heroes/hau-nghe.png"
+          "avatar": "/images/heroes/icon_heroes/hau-nghe.png"
         },
         {
           "name": "Người Tí Hon",
           "slug": "nguoi-ti-hon",
-          "avatar": "/images/heroes/nguoi-ti-hon.png"
+          "avatar": "/images/heroes/icon_heroes/nguoi-ti-hon.png"
         }
       ]
     },
@@ -629,7 +629,7 @@
         {
           "name": "Lý Tiểu Long",
           "slug": "ly-tieu-long",
-          "avatar": "/images/heroes/ly-tieu-long.png"
+          "avatar": "/images/heroes/icon_heroes/ly-tieu-long.png"
         }
       ]
     }

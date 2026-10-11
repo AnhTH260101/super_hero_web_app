@@ -4,7 +4,7 @@
   "name": "Venus",
   "title": "Vũ trụ nguyên tố • SSR Venus",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/venus.png",
+  "avatar": "/images/heroes/icon_heroes/venus.png",
   "fullArt": "/images/heroes/full/image_venus.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Chúc Phúc Tình Yêu",
-      "icon": "/images/heroes/s_lingti.png",
+      "icon": "/images/icon_skill_heroes/s_lingti.png",
       "description": "Thần tình yêu phát ra lời chúc phúc tình yêu, tăng 350% thuộc tính cho bản thân, xóa hiệu quả debuff cho bản thân, kéo dài 2 hiệp, hiệu quả không cộng dồn",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Mộng Cảnh Quang Ảnh",
-      "icon": "/images/heroes/s_qianglidianji.png",
+      "icon": "/images/icon_skill_heroes/s_qianglidianji.png",
       "description": "Phóng ra quang ảnh của mình, tạo 350% sát thương ma pháp lên 1 nhân vật xếp sau của địch",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Triệu Hồi Ái Thần",
-      "icon": "/images/heroes/s_zhang.png",
+      "icon": "/images/icon_skill_heroes/s_zhang.png",
       "description": "Triệu hồi một nhóm quang ảnh bay về phía trước của cô ta. Tấn công tất cả địch trực tuyến, tạo 350% sát thương ma công của bản thân",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Gió·Mị Ảnh",
-      "icon": "/images/heroes/s_zhang.png",
+      "icon": "/images/icon_skill_heroes/s_zhang.png",
       "description": "Tăng effect tấn công thuộc tính gió",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Tình Yêu Hộ Vệ",
-      "icon": "/images/heroes/s_zhang.png",
+      "icon": "/images/icon_skill_heroes/s_zhang.png",
       "description": "Tử vong xong phục hồi 350% HP cho toàn bộ đồng đội, thanh tẩy tất cả hiệu quả BUFF của xếp sau bên địch",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Chúc Phúc Tình Yêu",
-      "skillIcon": "/images/heroes/s_lingti.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lingti.png",
       "skillDesc": "Khi dùng kĩ năng hồi phục 20% HP cho bản thân và tăng 30% giảm sát thương (không cộng dồn)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,30 +112,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Mộng Cảnh Quang Ảnh",
-      "skillIcon": "/images/heroes/s_qianglidianji.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qianglidianji.png",
       "skillDesc": "Kẻ địch bị tấn công trong 1 hiệp bị mù (tấn công vô hiệu)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Zeus",
-          "icon": "/images/heroes/zeus.png",
+          "icon": "/images/heroes/icon_heroes/zeus.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -149,24 +149,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Triệu Hồi Ái Thần",
-      "skillIcon": "/images/heroes/s_zhang.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zhang.png",
       "skillDesc": "Mỗi lần dùng kĩ năng sẽ đánh dấu 1 lần lên nhân vật xếp sau tấn công (không thể xóa), nhân vật bị đánh dấu 3 lần phải chết",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "amount": 1,
           "type": "hero"
         }
@@ -180,30 +180,30 @@
       "tierName": "Truyền thuyết",
       "auraColor": "amber",
       "skillName": "Gió·Mị Ảnh",
-      "skillIcon": "/images/heroes/s_zhang.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zhang.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Zeus",
-          "icon": "/images/heroes/zeus.png",
+          "icon": "/images/heroes/icon_heroes/zeus.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -217,30 +217,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Tình Yêu Hộ Vệ",
-      "skillIcon": "/images/heroes/s_zhang.png",
+      "skillIcon": "/images/icon_skill_heroes/s_zhang.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "amount": 1,
           "type": "hero"
         }
@@ -254,30 +254,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "amount": 1,
           "type": "hero"
         }
@@ -291,30 +291,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "amount": 2,
           "type": "hero"
         }
@@ -329,22 +329,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -360,22 +360,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -391,22 +391,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         }
       ],
@@ -422,22 +422,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -453,22 +453,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         }
       ],
@@ -484,22 +484,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         }
       ],
@@ -515,22 +515,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -546,22 +546,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "slug": "venus"
         }
       ],
@@ -587,12 +587,12 @@
         {
           "name": "Zeus",
           "slug": "zeus",
-          "avatar": "/images/heroes/zeus.png"
+          "avatar": "/images/heroes/icon_heroes/zeus.png"
         },
         {
           "name": "Hades",
           "slug": "hades",
-          "avatar": "/images/heroes/hades.png"
+          "avatar": "/images/heroes/icon_heroes/hades.png"
         }
       ]
     },
@@ -603,12 +603,12 @@
         {
           "name": "Athena",
           "slug": "athena",
-          "avatar": "/images/heroes/athena.png"
+          "avatar": "/images/heroes/icon_heroes/athena.png"
         },
         {
           "name": "Poseidon",
           "slug": "poseidon",
-          "avatar": "/images/heroes/poseidon.png"
+          "avatar": "/images/heroes/icon_heroes/poseidon.png"
         }
       ]
     },
@@ -619,7 +619,7 @@
         {
           "name": "Seya",
           "slug": "seya",
-          "avatar": "/images/heroes/seya.png"
+          "avatar": "/images/heroes/icon_heroes/seya.png"
         }
       ]
     }

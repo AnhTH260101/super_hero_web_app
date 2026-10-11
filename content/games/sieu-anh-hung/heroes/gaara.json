@@ -4,7 +4,7 @@
   "name": "Gaara",
   "title": "Vũ trụ linh tính • SSR Gaara",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/gaara.png",
+  "avatar": "/images/heroes/icon_heroes/gaara.png",
   "fullArt": "/images/heroes/full/image_woailuo.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Sa Thời Vũ",
-      "icon": "/images/heroes/s_woailuo_skill1.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill1.png",
       "description": "Tấn công mục tiêu dãy mặc định, tạo 350% ST vật lý & 500% ST thuộc tính Đất; Làm 1 mục tiêu mù, kéo dài 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Pháo Cát",
-      "icon": "/images/heroes/s_woailuo_skill2.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill2.png",
       "description": "Skill phản đòn: 99% tỉ lệ sau khi bị tấn công, tấn công dãy trước hoặc dãy sau, tạo 350% ST vật lý & 300% ST thuộc tính Đất, có 50% tỉ lệ làm mục tiêu trọng thương, -80% năng lực hồi HP. (Mỗi hiệp kích hoạt 1 lần)",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Khiên Cát",
-      "icon": "/images/heroes/s_woailuo_skill3.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill3.png",
       "description": "Skill trước khi bị đòn: 99% tỉ lệ trước khi bị tấn công, bản thân tăng 350% Phòng Ngự & Phòng Ngự Thuộc Tính. (Mỗi hiệp tối đa kích hoạt 1 lần)",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Suối Cát",
-      "icon": "/images/heroes/s_woailuo_skill6.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill6.png",
       "description": "Skill trước hiệp: Tấn công toàn thể mục tiêu, tạo 350% ST vật lý & 800% ST thuộc tính Đất, tạo thêm X3 St thuộc tính lên dãy sau; 200% ST & ST thuộc tính, sẽ trở thành hồi HP, cộng cho bản thân & đồng đội dãy sau.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Áo Giáp Cát",
-      "icon": "/images/heroes/s_woailuo_skill7.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill7.png",
       "description": "Skill trước trận: Bản thân tăng 350% Vật & Ma Công và tấn công toàn thuộc tính; +69% giảm thương tổng thể cho bản thân, có hiệu lực liên tục.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Bão Cát Chôn Thây",
-      "icon": "/images/heroes/s_woailuo_skill4.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill4.png",
       "description": "Tấn công toàn thể mục tiêu, tạo 350% ST vật lý & 800% ST thuộc tính Đất, làm 1-3 người hôn mê 1 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Linh Mai Thuật.Thủ Hạc",
-      "icon": "/images/heroes/s_woailuo_skill5.png",
+      "icon": "/images/icon_skill_heroes/s_woailuo_skill5.png",
       "description": "Tấn công toàn thể mục tiêu, tạo 350% ST vật lý & 900% ST thuộc tính Đất, làm trọng thương 1 mục tiêu, khiến mục tiêu ko thể hồi HP trong 1 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-gaara",
       "name": "CT-Gaara",
-      "avatar": "/images/heroes/ct-gaara.png",
+      "avatar": "/images/heroes/icon_heroes/ct-gaara.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Từng bị phong ấn Shukaku vào người, cậu nắm chức Kazekage Đệ Ngũ của làng Cát"
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Sa Thời Vũ",
-      "skillIcon": "/images/heroes/s_woailuo_skill1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill1.png",
       "skillDesc": "Giảm TC toàn thuộc tính của mục tiêu bị mù còn 0đ, 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Pháo Cát",
-      "skillIcon": "/images/heroes/s_woailuo_skill2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill2.png",
       "skillDesc": "Giảm 80% Tốc Độ của tất cả mục tiêu, Nếu HP hiện tại của mục tiêu bị tấn công cao hơn HP thấp nhất của đồng đội phe ta, ST tấn công & ST thuộc tính tăng X4.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ảo Ảnh",
-          "icon": "/images/heroes/ao-anh.png",
+          "icon": "/images/heroes/icon_heroes/ao-anh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Khiên Cát",
-      "skillIcon": "/images/heroes/s_woailuo_skill3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill3.png",
       "skillDesc": "Mỗi lần thả KN tăng thêm 50% P.Ngự thuộc tính cho mình, tối đa cộng dồn 5 tầng, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Bão Cát Chôn Thây",
-      "skillIcon": "/images/heroes/s_woailuo_skill4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill4.png",
       "skillDesc": "Giảm 50% Tốc Độ của mục tiêu có Tốc Độ cao hơn mình, 2 hiệp; Tạo thêm ST thực bằng X2 ST vật lý của mục tiêu dãy trước.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sói Trắng",
-          "icon": "/images/heroes/soi-trang.png",
+          "icon": "/images/heroes/icon_heroes/soi-trang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Linh Mai Thuật.Thủ Hạc",
-      "skillIcon": "/images/heroes/s_woailuo_skill5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill5.png",
       "skillDesc": "Khiến mục tiêu bị trọng thương, chịu thêm X3 ST và ST thuộc tính (TC lần này, KN khác & trọng thương của người chơi khác tạo ra đều có hiệu quả).",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Suối Cát",
-      "skillIcon": "/images/heroes/s_woailuo_skill6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill6.png",
       "skillDesc": "Thả KN \"Suối Cát\", nếu mục tiêu bị tấn công, có TC t.tính Gió cao nhất trong các dạng TC t.tính khác, sẽ có 80% tỉ lệ -80% Vật & Ma Công và TC toàn thuộc tính của mục tiêu đó, 1 hiệp; Bản thân bỏ qua Đứng Im, Choáng, Chấn Động, Hóa Đá, Hôn Mê; Hồi tất cả HP bản thân đã mất.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Áo Giáp Cát",
-      "skillIcon": "/images/heroes/s_woailuo_skill7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_woailuo_skill7.png",
       "skillDesc": "Hiệu quả giảm thương tổng thể tăng đến 69%-80%, và bản thân tăng 2 hiệu quả trong Chính Xác, Tốc Độ & Né, tỉ lệ tăng là 150%, hiệu lực 5 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Bão Cát Chôn Thây",
-      "unlockedSkillIcon": "/images/heroes/s_woailuo_skill4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_woailuo_skill4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Linh Mai Thuật.Thủ Hạc",
-      "unlockedSkillIcon": "/images/heroes/s_woailuo_skill5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_woailuo_skill5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Gaara",
-          "icon": "/images/heroes/gaara.png",
+          "icon": "/images/heroes/icon_heroes/gaara.png",
           "slug": "gaara"
         }
       ],
@@ -625,12 +625,12 @@
         {
           "name": "Asamiya Athena",
           "slug": "asamiya-athena",
-          "avatar": "/images/heroes/asamiya-athena.png"
+          "avatar": "/images/heroes/icon_heroes/asamiya-athena.png"
         },
         {
           "name": "Shaka",
           "slug": "shaka",
-          "avatar": "/images/heroes/shaka.png"
+          "avatar": "/images/heroes/icon_heroes/shaka.png"
         }
       ]
     },
@@ -641,12 +641,12 @@
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         },
         {
           "name": "Sakura",
           "slug": "sakura",
-          "avatar": "/images/heroes/sakura.png"
+          "avatar": "/images/heroes/icon_heroes/sakura.png"
         }
       ]
     },
@@ -657,7 +657,7 @@
         {
           "name": "Saitama",
           "slug": "saitama",
-          "avatar": "/images/heroes/saitama.png"
+          "avatar": "/images/heroes/icon_heroes/saitama.png"
         }
       ]
     },
@@ -668,7 +668,7 @@
         {
           "name": "Shermie",
           "slug": "shermie",
-          "avatar": "/images/heroes/shermie.png"
+          "avatar": "/images/heroes/icon_heroes/shermie.png"
         }
       ]
     }

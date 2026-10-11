@@ -4,7 +4,7 @@
   "name": "Champa",
   "title": "Vũ trụ linh tính • SSR Champa",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/champa.png",
+  "avatar": "/images/heroes/icon_heroes/champa.png",
   "fullArt": "/images/heroes/full/image_xiangpa.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Cung Cấp Năng Lượng",
-      "icon": "/images/heroes/s_xiangpa_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s1.png",
       "description": "Tạo lên 3~5 kẻ địch bất kì 350% ST Ma Công và 500% ST thuộc tính Đất, giảm 33% Vật & Ma Công và tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 2 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Dịch Chuyển Năng Tượng",
-      "icon": "/images/heroes/s_xiangpa_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s2.png",
       "description": "Skill trước khi bị đánh: Tạo lên toàn thể phe địch 350% ST Ma Công và 300% ST thuộc tính Đất, tăng Phòng Ngự toàn thuộc tính bằng 500% tấn công thuộc tính Đất của bản thân, kéo dài 5 hiệp, có thể cộng dồn 5 lần, và tạo x4-6 ST và ST thuộc tính lên mục tiêu.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Trừng Trị",
-      "icon": "/images/heroes/s_xiangpa_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s3.png",
       "description": "Skill phản đòn: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Công và 200% ST thuộc tính Đất, tạo hiệu quả hỗn loạn hoặc trói buộc lên mục tiêu, tạo x4-6 ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tiếng Vọng Hủy Diệt",
-      "icon": "/images/heroes/s_xiangpa_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s6.png",
       "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thực thuộc tính Đất, tối đa được hồi sinh 2 lần, chọn ngẫu nhiên một mục tiêu để kết liễu. Kết liễu mục tiêu tấn công có HP dưới 20%.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Hộ Vệ Của Thần",
-      "icon": "/images/heroes/s_xiangpa_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s7.png",
       "description": "Skill trước trận: Tạo lên toàn thể phe địch 350% ST Ma Công và ST bằng 800% ST thực thuộc tính Đất, tăng 79% giảm thương tổng thể của bản thân, tăng 100% giới hạn HP của bản thân, tăng 350% tấn công thuộc tính Đất của bản thân, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, tạo x4-6 ST và ST thuộc tính, trói buộc ngẫu nhiên 3 kẻ địch, kéo dài 1 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Gào Thét",
-      "icon": "/images/heroes/s_xiangpa_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s4.png",
       "description": "Tạo lên toàn thể phe địch 350% ST Ma Công và 800% ST thuộc tính Đất, tạo x4-6 ST và ST thuộc tính, tạo hỗn loạn lên tất cả kẻ địch.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Nuốt Chửng",
-      "icon": "/images/heroes/s_xiangpa_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xiangpa_s5.png",
       "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thực thuộc tính Đất, tạo lên toàn thể phe địch ST thực bằng 30% HP tối đa của bản thân và 800% Tốc Độ bản thân, có 50 tỉ lệ khiến mục tiêu bị trói buộc, kéo dài.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-champa",
       "name": "CT-Champa",
-      "avatar": "/images/heroes/ct-champa.png",
+      "avatar": "/images/heroes/icon_heroes/ct-champa.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Thần hủy diệt của Vũ Trụ thứ 6, ông là anh em song sinh với thần hủy diệt của Vũ Trụ thứ 7 - Beerus, thực lực ngang bằng Beerus và đều thích ăn uống như nhau."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Cung Cấp Năng Lượng",
-      "skillIcon": "/images/heroes/s_xiangpa_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s1.png",
       "skillDesc": "Tạo x3 sát thương và sát thương thuộc tính, khiến mục tiêu mù.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Dịch Chuyển Năng Tượng",
-      "skillIcon": "/images/heroes/s_xiangpa_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s2.png",
       "skillDesc": "Giảm 90% Né và Ma Công & Vật Công của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp, số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kefla",
-          "icon": "/images/heroes/kefla.png",
+          "icon": "/images/heroes/icon_heroes/kefla.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Trừng Trị",
-      "skillIcon": "/images/heroes/s_xiangpa_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s3.png",
       "skillDesc": "Nếu mục tiêu bị hỗn loạn, tạo thêm x6 sát thương và sát thương thuộc tính, nếu mục tiêu bị trói buộc, tạo thêm x3 sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Gào Thét",
-      "skillIcon": "/images/heroes/s_xiangpa_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s4.png",
       "skillDesc": "Tạo x3 sát thương và sát thương thuộc tính cho mục tiêu, tạo thêm lên mục tiêu hỗn loạn x3 sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kefla",
-          "icon": "/images/heroes/kefla.png",
+          "icon": "/images/heroes/icon_heroes/kefla.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Nuốt Chửng",
-      "skillIcon": "/images/heroes/s_xiangpa_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s5.png",
       "skillDesc": "Tạo hiệu quả khác nhau dựa theo số người phe địch:\n1.Phe địch có 4~5 người, tạo thêm x5 sát thương lên mục tiêu.\n2.Phe địch có 1~3 người, tạo thêm x7 sát thương lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tiếng Vọng Hủy Diệt",
-      "skillIcon": "/images/heroes/s_xiangpa_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s6.png",
       "skillDesc": "Tối đa được hồi sinh 3 lần (Nếu Beerus có mặt, mỗi lần hồi sinh đều có thể bỏ qua hiệu quả trọng thương), tạo x4-6 sát thương và sát thương thuộc tính lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Hộ Vệ Của Thần",
-      "skillIcon": "/images/heroes/s_xiangpa_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiangpa_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, tăng x2 tất cả sát thương skill và sát thương t.tính của bản thân (Nếu Beerus có mặt, x2 hiệu quả tạo ra sát thương)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Gào Thét",
-      "unlockedSkillIcon": "/images/heroes/s_xiangpa_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiangpa_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Nuốt Chửng",
-      "unlockedSkillIcon": "/images/heroes/s_xiangpa_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiangpa_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Champa",
-          "icon": "/images/heroes/champa.png",
+          "icon": "/images/heroes/icon_heroes/champa.png",
           "slug": "champa"
         }
       ],
@@ -624,12 +624,12 @@
         {
           "name": "Shana",
           "slug": "shana",
-          "avatar": "/images/heroes/shana.png"
+          "avatar": "/images/heroes/icon_heroes/shana.png"
         },
         {
           "name": "Beerus",
           "slug": "beerus",
-          "avatar": "/images/heroes/beerus.png"
+          "avatar": "/images/heroes/icon_heroes/beerus.png"
         }
       ]
     },
@@ -640,7 +640,7 @@
         {
           "name": "Kefla",
           "slug": "kefla",
-          "avatar": "/images/heroes/kefla.png"
+          "avatar": "/images/heroes/icon_heroes/kefla.png"
         }
       ]
     },
@@ -651,7 +651,7 @@
         {
           "name": "Cell",
           "slug": "cell",
-          "avatar": "/images/heroes/cell.png"
+          "avatar": "/images/heroes/icon_heroes/cell.png"
         }
       ]
     },
@@ -662,7 +662,7 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     }

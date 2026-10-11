@@ -4,7 +4,7 @@
   "name": "Sanji",
   "title": "Vũ trụ sức mạnh • SSR Sanji",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/sanji.png",
+  "avatar": "/images/heroes/icon_heroes/sanji.png",
   "fullArt": "/images/heroes/full/image_Sanji.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "SHOOT",
-      "icon": "/images/heroes/s_Sanji_yr.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_yr.png",
       "description": "Ngẫu nhiên tấn công 1 mục tiêu nam, tạo 350% dmg vật lý & 250% dmg t.tính Lửa, tăng 50% HQ hồi HP của cả đội\nChuyển 1, ngẫu nhiên tạo gấp 1-2 sát thương\nChuyển 3, ngẫu nhiên tạo gấp 1-3 sát thương\nChuyển 4, ngẫu nhiên tạo gấp 2-4 sát thương\nChuyển 5, ngẫu nhiên tạo gấp 3-5 sát thương\nChuyển 6, ngẫu nhiên tạo gấp 4-6 sát thương\n(Khi dmg là bội số chẵn, kích hoạt HQ liên kích)",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Tinh Thần Đầu Bếp",
-      "icon": "/images/heroes/s_Sanji_csjs.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_csjs.png",
       "description": "KN trước trận: Tăng 350% giới hạn HP cho đồng đội nam, tăng X2 giới hạn HP cho đồng đội nữ, kéo dài cả trận; Tăng 350% Vật Công & Ma Công cho đồng đội, hiệu quả 3 lần, tối đa 3 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Xay Thịt",
-      "icon": "/images/heroes/s_Sanji_tjjr.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_tjjr.png",
       "description": "Ngẫu nhiên tấn công 1 mục tiêu nam, tạo 350% dmg vật lý & 250% dmg t.tính Lửa; Làm mục tiêu Trọng Thương, giảm 50% Hồi HP\nChuyển 3, ngẫu nhiên tạo gấp 1-4 sát thương\nChuyển 5, ngẫu nhiên tạo gấp 3-5 sát thương\nChuyển 7, ngẫu nhiên tạo gấp 4-6 sát thương\n(Khi dmg là bội số chẵn, kích hoạt HQ liên kích)",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Sứ Giả Hộ Hoa",
-      "icon": "/images/heroes/s_Sanji_hhsz.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_hhsz.png",
       "description": "KN trước hiệp: Cứ có mặt 1 hero nữ, đều tăng 50% Tấn Công Vật Lý & 200% Tốc Độ bản thân, nếu Luffy có mặt ở phe ta, sẽ tăng 80% Vật Công của Luffy.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Hồi Ức Địa Ngục",
-      "icon": "/images/heroes/s_Sanji_dyhy.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_dyhy.png",
       "description": "KN bị đánh: Bị đánh xong có 99% tỉ lệ phản đòn 1 lần, nếu mục tiêu tấn công mình là nam, sẽ tấn công mục tiêu đó; Nếu là nữ, ngẫu nhiên tấn công 1 nhân vật nam, tạo 350% dmg vật lý & 600% dmg t.tính Lửa (mỗi hiệp tối đa kích hoạt 2 lần)",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Kỵ Sĩ Đạo",
-      "icon": "/images/heroes/s_Sanji_qsdjs.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_qsdjs.png",
       "description": "KN trước khi chịu đòn: Chặn tấn công của phái nữ, có 99% tỉ lệ, hồi 50% HP bản thân bằng tất cả dmg tấn công của phái nữ; Khi thả skill này vào hiệp lẻ, có 1 lần cơ hội hồi sinh (Hiệp chẵn không hồi sinh, hiệp trước trận là hiệp lẻ, mỗi hiệp chỉ kích hoạt HQ 1 lần), hồi sinh xong hồi 50% HP bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Quang Phổ Thích",
-      "icon": "/images/heroes/s_Sanji_gpt.png",
+      "icon": "/images/icon_skill_heroes/s_Sanji_gpt.png",
       "description": "Tấn công tất cả hero nam phe địch, tạo 350% dmg vật lý & 800% dmg t.tính Lửa; Làm 1 mục tiêu Sợ trong 2 hiệp, khiến hắn rơi vào trạng thái Cháy, dmg Cháy bằng X2 dmg t.tính Lửa, 2 hiệp; Nếu Zoro bên địch có mặt, tạo thêm 50% dmg lên Zoro.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-sanji",
       "name": "CT-Sanji",
-      "avatar": "/images/heroes/ct-sanji.png",
+      "avatar": "/images/heroes/icon_heroes/ct-sanji.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Sanji là con trai thứ 3 của tộc Vinsmoke, với vai trò là đầu bếp của băng Hải tặc mũ rơm, có biệt danh là \"Chân Đen\", không thích động tay với phụ nữ."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "SHOOT",
-      "skillIcon": "/images/heroes/s_Sanji_yr.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_yr.png",
       "skillDesc": "Khi thả KN \"SHOOT\", có 50% tỉ lệ kích hoạt HQ Liên Kích, thả \"Xay Thịt\" tấn công liên tiếp, có hiệu quả dmg gấp 2 (Nếu \"Xay Thịt\" có HQ liên kích, khi kích hoạt HQ, dmg tăng gấp 2-6), dmg kỹ năng \"Xay Thịt\" bằng \"SHOOT\", không phát động HQ đặc biệt \"Xay Thịt\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,24 +144,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Tinh Thần Đầu Bếp",
-      "skillIcon": "/images/heroes/s_Sanji_csjs.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_csjs.png",
       "skillDesc": "Hiệp trước trận, bản thân tăng giảm sát tổng thể đến 60%, tăng 1000% Phòng Ngự T.Tính cho đồng đội nữ, 2 hiệp, nếu phe ta 1 trong các hero \"Luffy\", \"Boa Hancock\", \"Zoro\" có mặt, bản thân & đồng đội đó tăng 50% Vật & Ma Công (Nếu cả ba đều có mặt, cả ba đều được tăng), 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 1,
           "type": "hero"
         }
@@ -175,24 +175,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Xay Thịt",
-      "skillIcon": "/images/heroes/s_Sanji_tjjr.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_tjjr.png",
       "skillDesc": "Khi thả skill \"Xay Thịt\", có 50% tỉ lệ phát động buff Liên Kích, thả \"SHOOT\" tấn công mục tiêu liên tục, tạo gấp 2-6 lần dmg và dmg t.tính, dmg kỹ năng \"SHOOT\" bằng \"Xay Thịt\", không phát động buff đặc biệt \"SHOOT\".",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 1,
           "type": "hero"
         }
@@ -206,30 +206,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Sứ Giả Hộ Hoa",
-      "skillIcon": "/images/heroes/s_Sanji_hhsz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_hhsz.png",
       "skillDesc": "Tỉ lệ Hồi HP của dmg phải chịu tăng đến 80%; Hồi xong HP tăng đến 100%; Nếu phe ta Boa có mặt, bản thân & Boa sẽ +500% Phòng Ngự Thường",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Zoro",
-          "icon": "/images/heroes/zoro.png",
+          "icon": "/images/heroes/icon_heroes/zoro.png",
           "amount": 1,
           "type": "hero"
         }
@@ -243,30 +243,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Quang Phổ Thích",
-      "skillIcon": "/images/heroes/s_Sanji_gpt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_gpt.png",
       "skillDesc": "Làm choáng 1 hero nữ bên địch, 1 hiệp, và giảm 80% Tốc Độ của tất cả nhân vật nam, 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 2,
           "type": "hero"
         }
@@ -280,30 +280,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỵ Sĩ Đạo",
-      "skillIcon": "/images/heroes/s_Sanji_qsdjs.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_qsdjs.png",
       "skillDesc": "Hồi tất cả HP bản thân, ở 1 hiệp sau bỏ qua Giảm Tốc, Đứng Im, Đóng Băng, nếu hero nữ có mặt, bỏ qua thêm Tsukuyomi, Hỗn Loạn, Choáng, Sợ, bản thân tăng 50% giảm sát tổng thể, cứ 1 hero nữ có mặt, có thêm 10% giảm sát tổng thể.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 1,
           "type": "hero"
         }
@@ -317,30 +317,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Hồi Ức Địa Ngục",
-      "skillIcon": "/images/heroes/s_Sanji_dyhy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Sanji_dyhy.png",
       "skillDesc": "Nếu có đồng đội nữ, sẽ phát động HQ \"Trái Tim\", giúp đồng đội nữ đã mất 50% HP (hồi ít nhất 1000k HP), và bỏ qua buff Trọng Thương",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "amount": 2,
           "type": "hero"
         }
@@ -355,22 +355,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -386,22 +386,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -417,28 +417,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Kỵ Sĩ Đạo",
-      "unlockedSkillIcon": "/images/heroes/s_Sanji_qsdjs.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Sanji_qsdjs.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -448,22 +448,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -479,22 +479,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         }
       ],
@@ -510,28 +510,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Quang Phổ Thích",
-      "unlockedSkillIcon": "/images/heroes/s_Sanji_gpt.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Sanji_gpt.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -541,22 +541,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -572,22 +572,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Sanji",
-          "icon": "/images/heroes/sanji.png",
+          "icon": "/images/heroes/icon_heroes/sanji.png",
           "slug": "sanji"
         }
       ],
@@ -619,7 +619,7 @@
         {
           "name": "Monkey D. Luffy",
           "slug": "monkey-d-luffy",
-          "avatar": "/images/heroes/monkey-d-luffy.png"
+          "avatar": "/images/heroes/icon_heroes/monkey-d-luffy.png"
         }
       ]
     },
@@ -630,12 +630,12 @@
         {
           "name": "Boa Hancock",
           "slug": "boa-hancock",
-          "avatar": "/images/heroes/boa-hancock.png"
+          "avatar": "/images/heroes/icon_heroes/boa-hancock.png"
         },
         {
           "name": "Sakura",
           "slug": "sakura",
-          "avatar": "/images/heroes/sakura.png"
+          "avatar": "/images/heroes/icon_heroes/sakura.png"
         }
       ]
     },
@@ -646,12 +646,12 @@
         {
           "name": "Kaio",
           "slug": "kaio",
-          "avatar": "/images/heroes/kaio.png"
+          "avatar": "/images/heroes/icon_heroes/kaio.png"
         },
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     },
@@ -661,8 +661,8 @@
       "heroes": [
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         }
       ]
     }

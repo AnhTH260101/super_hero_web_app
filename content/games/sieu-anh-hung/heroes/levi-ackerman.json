@@ -4,7 +4,7 @@
   "name": "Levi Ackerman",
   "title": "Zombie Bentu • SSR Levi Ackerman",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/levi-ackerman.png",
+  "avatar": "/images/heroes/icon_heroes/levi-ackerman.png",
   "fullArt": "/images/heroes/full/image_bingzhang.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Xoay Mình",
-      "icon": "/images/heroes/s_bingzhang_hxz.png",
+      "icon": "/images/icon_skill_heroes/s_bingzhang_hxz.png",
       "description": "Gây 350% sát thương vật lý và 180% sát thương t.tính Gió, tạo gấp 3-4 lần sát thương và sát thương t.tính cho BOSS; Mỗi hiệp gây tụt HP bằng ATK Gió và ATK Vật Lý*80%-225%, 2 hiệp",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hoán Đao",
-      "icon": "/images/heroes/s_bingzhang_hrfj.png",
+      "icon": "/images/icon_skill_heroes/s_bingzhang_hrfj.png",
       "description": "Khi chịu sát thương sẽ có 99% tỉ lệ phản công, gây 350% sát thương vật lý và 180% sát thương t.tính Gió lên mục tiêu tấn công mình; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính lên BOSS.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cánh Tự Do",
-      "icon": "/images/heroes/s_bingzhang_zyzy.png",
+      "icon": "/images/icon_skill_heroes/s_bingzhang_zyzy.png",
       "description": "Gây 350% sát thương vật lý và 250% sát thương t.tính Gió lên tất cả mục tiêu; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính cho BOSS.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Cuồng Trảm",
-      "icon": "/images/heroes/s_bingzhang_hrkz.png",
+      "icon": "/images/icon_skill_heroes/s_bingzhang_hrkz.png",
       "description": "KN trước hiệp: Gây 350% sát thương vật lý và % sát thương t.tính Gió lên tất cả mục tiêu; Tạo gấp 3-4 lần sát thương và sát thương thuộc tính cho BOSS.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Tuyệt Mệnh",
-      "icon": "/images/heroes/s_bingzhang_jmcs.png",
+      "icon": "/images/icon_skill_heroes/s_bingzhang_jmcs.png",
       "description": "KN tử trận: Tấn công mục tiêu có HP thấp nhất lúc đó, tạo 350% sát thương vật lý và 1200% sát thương t.tính Gió (Nếu bị choáng, sợ hoặc đứng im, không thể thả KN)",
       "cooldown": null,
       "breakthrough": {
@@ -84,7 +84,7 @@
     {
       "slug": "ct-levi",
       "name": "CT-Levi",
-      "avatar": "/images/heroes/ct-levi.png",
+      "avatar": "/images/heroes/icon_heroes/ct-levi.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Đội trưởng binh đoàn điều tra người khổng lồ, cũng là trưởng lớp binh đoàn tác chiến đặc biệt; Dáng người thấp bé, có danh hiệu \"binh sĩ mạnh nhất nhân loại\""
@@ -97,18 +97,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Xoay Mình",
-      "skillIcon": "/images/heroes/s_bingzhang_hxz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bingzhang_hxz.png",
       "skillDesc": "Mục tiêu chết sẽ kích hoạt buff \"Liên Kích\", thả thêm \"Xoay Mình\" tấn công mục tiêu khác có HP thấp nhất lúc đó (mỗi lần liên kích sát thương tăng 20% điểm cơ bản, tối đa 80%, BOSS vô hiệu)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -122,24 +122,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hoán Đao",
-      "skillIcon": "/images/heroes/s_bingzhang_hrfj.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bingzhang_hrfj.png",
       "skillDesc": "Hồi HP bằng 50% giới hạn HP bản thân cộng với tổng điểm sát thương gấp 2; tăng thêm 100%-300% Phòng Ngự, Phòng Ngự T.Tính và 6%-20% ATK t.tính Gió, tối đa dồn 5 tầng, 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -153,24 +153,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Cánh Tự Do",
-      "skillIcon": "/images/heroes/s_bingzhang_zyzy.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bingzhang_zyzy.png",
       "skillDesc": "Nếu HP mục tiêu cao hơn 85% giới hạn HP, sẽ nhân đôi sát thương mục tiêu phải chịu và sát thương t.tính (BOSS vô hiệu); làm 1-3 kẻ địch sợ, 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -184,30 +184,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Cuồng Trảm",
-      "skillIcon": "/images/heroes/s_bingzhang_hrkz.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bingzhang_hrkz.png",
       "skillDesc": "Nếu mục tiêu có buff Tụt Máu, giảm 50% hồi HP của mục tiêu, kéo dài 1 hiệp; Thả buff \"Bất Khuất\", miễn dịch 2 lần sát thương và sát thương t.tính, xóa buff xấu (có thể xóa) cho mình.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Blademaster",
-          "icon": "/images/heroes/blademaster.png",
+          "icon": "/images/heroes/icon_heroes/blademaster.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -221,30 +221,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Tuyệt Mệnh",
-      "skillIcon": "/images/heroes/s_bingzhang_jmcs.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bingzhang_jmcs.png",
       "skillDesc": "Hồi tất cả HP đồng đội, tăng 100% Tốc Độ, 3 hiệp, và xóa buff xấu (có thể xóa) cho cả đội",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "amount": 2,
           "type": "hero"
         }
@@ -258,30 +258,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "amount": 1,
           "type": "hero"
         }
@@ -295,30 +295,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,22 +333,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -364,22 +364,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -395,22 +395,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         }
       ],
@@ -426,22 +426,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -457,22 +457,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         }
       ],
@@ -488,22 +488,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         }
       ],
@@ -519,22 +519,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -550,22 +550,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Levi Ackerman",
-          "icon": "/images/heroes/levi-ackerman.png",
+          "icon": "/images/heroes/icon_heroes/levi-ackerman.png",
           "slug": "levi-ackerman"
         }
       ],
@@ -593,12 +593,12 @@
         {
           "name": "Âu Cơ",
           "slug": "au-co",
-          "avatar": "/images/heroes/au-co.png"
+          "avatar": "/images/heroes/icon_heroes/au-co.png"
         },
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         }
       ]
     },
@@ -609,12 +609,12 @@
         {
           "name": "Thunderbird",
           "slug": "thunderbird",
-          "avatar": "/images/heroes/thunderbird.png"
+          "avatar": "/images/heroes/icon_heroes/thunderbird.png"
         },
         {
           "name": "Kaneki",
           "slug": "kaneki",
-          "avatar": "/images/heroes/kaneki.png"
+          "avatar": "/images/heroes/icon_heroes/kaneki.png"
         }
       ]
     },
@@ -625,7 +625,7 @@
         {
           "name": "Sesshoumaru",
           "slug": "sesshoumaru",
-          "avatar": "/images/heroes/sesshoumaru.png"
+          "avatar": "/images/heroes/icon_heroes/sesshoumaru.png"
         }
       ]
     }

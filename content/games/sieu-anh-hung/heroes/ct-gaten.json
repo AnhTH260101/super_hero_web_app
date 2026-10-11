@@ -4,7 +4,7 @@
   "name": "CT-Gaten",
   "title": "Vũ trụ nguyên tố • SSR CT-Gaten",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-gaten.png",
+  "avatar": "/images/heroes/icon_heroes/ct-gaten.png",
   "fullArt": "/images/heroes/full/image_gailun.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Thẩm Phán",
-      "icon": "/images/heroes/icon_maze_fire.png",
+      "icon": "/images/icon_skill_buff/icon_maze_fire.png",
       "description": "Xông vào trận hình địch, vung kiếm tạo 350% sát thương vật lí lên toàn bộ địch và 80% sát thương thuộc tính đất.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Dũng Khí",
-      "icon": "/images/heroes/icon_maze_firedfs.png",
+      "icon": "/images/icon_skill_buff/icon_maze_firedfs.png",
       "description": "Trước khi bắt đầu hiệp đấu, tăng cho bản thân 350% tốc độ và giảm thương, tăng thêm 1 tầng hộ thuẫn tăng 50% phòng ngự thuộc tính, có thể miễn dịch tấn công lần sau.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Sức Mạnh Demacia",
-      "icon": "/images/heroes/icon_maze_crit.png",
+      "icon": "/images/icon_skill_buff/icon_maze_crit.png",
       "description": "Tạo 350% sát thương vật lí lên toàn bộ địch, tạo thêm 160% sát thương thuộc tính đất. Ngẫu nhiên tạo thêm 1.5 lần sát thương lên địch có 50% HP trở xuống.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Địa·Kiên Nhẫn",
-      "icon": "/images/heroes/icon_maze_firedfs.png",
+      "icon": "/images/icon_skill_buff/icon_maze_firedfs.png",
       "description": "Tăng effect điểm tuyệt đối tấn công thuộc tính đất.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Đả Kích Chí Mạng",
-      "icon": "/images/heroes/icon_maze_crit.png",
+      "icon": "/images/icon_skill_buff/icon_maze_crit.png",
       "description": "Kĩ năng trước trận, xóa hiệu quả BUFF của tất cả nhân vật xếp trước của địch, tăng 2 lần miễn dịch, kéo dài 1 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -87,24 +87,24 @@
       "tierName": "CT-Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Thẩm Phán",
-      "skillIcon": "/images/heroes/icon_maze_fire.png",
+      "skillIcon": "/images/icon_skill_buff/icon_maze_fire.png",
       "skillDesc": "Thẩm phán giảm 10% phòng ngự của đối phương, có 50% tỉ lệ làm choáng 1 đồng đội của đối phương",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 1,
           "type": "hero"
         }
@@ -118,30 +118,30 @@
       "tierName": "CT-Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Dũng Khí",
-      "skillIcon": "/images/heroes/icon_maze_firedfs.png",
+      "skillIcon": "/images/icon_skill_buff/icon_maze_firedfs.png",
       "skillDesc": "Dũng Khí: tăng 50% toàn bộ thuộc tính bản thân, phục hồi 15% HP cho bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -155,24 +155,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Sức Mạnh Demacia",
-      "skillIcon": "/images/heroes/icon_maze_crit.png",
+      "skillIcon": "/images/icon_skill_buff/icon_maze_crit.png",
       "skillDesc": "Sức Mạnh Demacia có thể trực tiếp giết ngay đồng đội có HP dưới 10% của địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 1,
           "type": "hero"
         }
@@ -186,30 +186,30 @@
       "tierName": "CT-Truyền thuyết",
       "auraColor": "amber",
       "skillName": "Địa·Kiên Nhẫn",
-      "skillIcon": "/images/heroes/icon_maze_firedfs.png",
+      "skillIcon": "/images/icon_skill_buff/icon_maze_firedfs.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Mũ Thần Lực",
-          "icon": "/images/items/i_b_shenli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_4.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -223,30 +223,30 @@
       "tierName": "CT-Thần",
       "auraColor": "red",
       "skillName": "Đả Kích Chí Mạng",
-      "skillIcon": "/images/heroes/icon_maze_crit.png",
+      "skillIcon": "/images/icon_skill_buff/icon_maze_crit.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Giáp Thần Lực",
-          "icon": "/images/items/i_b_shenli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_1.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 1,
           "type": "hero"
         }
@@ -260,30 +260,30 @@
       "tierName": "CT-Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 200,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 2,
           "type": "hero"
         }
@@ -297,30 +297,30 @@
       "tierName": "CT-Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 300,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Gaten",
-          "icon": "/images/heroes/gaten.png",
+          "icon": "/images/heroes/icon_heroes/gaten.png",
           "amount": 2,
           "type": "hero"
         }
@@ -345,12 +345,12 @@
         {
           "name": "Dương Tiễn",
           "slug": "duong-tien",
-          "avatar": "/images/heroes/duong-tien.png"
+          "avatar": "/images/heroes/icon_heroes/duong-tien.png"
         },
         {
           "name": "Ichigo",
           "slug": "ichigo",
-          "avatar": "/images/heroes/ichigo.png"
+          "avatar": "/images/heroes/icon_heroes/ichigo.png"
         }
       ]
     },
@@ -361,12 +361,12 @@
         {
           "name": "Vehito",
           "slug": "vehito",
-          "avatar": "/images/heroes/vehito.png"
+          "avatar": "/images/heroes/icon_heroes/vehito.png"
         },
         {
           "name": "Zeus",
           "slug": "zeus",
-          "avatar": "/images/heroes/zeus.png"
+          "avatar": "/images/heroes/icon_heroes/zeus.png"
         }
       ]
     },
@@ -376,8 +376,8 @@
       "heroes": [
         {
           "name": "Hulk",
-          "slug": "",
-          "avatar": "/images/heroes/icon_hork.png"
+          "slug": "hulk",
+          "avatar": "/images/heroes/icon_heroes/hulk.png"
         }
       ]
     }

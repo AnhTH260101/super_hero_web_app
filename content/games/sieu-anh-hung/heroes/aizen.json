@@ -4,7 +4,7 @@
   "name": "Aizen",
   "title": "Vũ trụ linh tính • SSR Aizen",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/aizen.png",
+  "avatar": "/images/heroes/icon_heroes/aizen.png",
   "fullArt": "/images/heroes/full/image_lanran.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Quỷ Đạo",
-      "icon": "/images/heroes/s_lanran_s1.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s1.png",
       "description": "Tạo 350% ST vật lý và 500% ST t.tính Nước lên 3~5 mục tiêu ngẫu nhiên, giảm 33% Vật & Ma Công và tỉ lệ giảm thương tổng thế của mục tiêu, kéo dài 2 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Pháo Lôi Hống",
-      "icon": "/images/heroes/s_lanran_s2.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s2.png",
       "description": "Skill trước khi bị đánh: Tạo 350% ST vật lý và 300% ST t.tính Nước lên toàn thể phe địch, cho bản thân một tầng hiệu quả, mỗi tầng hiệu quả khiến skill của bản thân tăng 50% ST và ST t.tính tạo ra, hiệu quả kéo dài 3 hiệp sẽ biến mất, tối đa cộng liên tiếp 6 tầng.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Hắc Quan",
-      "icon": "/images/heroes/s_lanran_s3.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s3.png",
       "description": "Skill phản đòn: Chuyển tất cả tấn công t.tính thành Vật Công, tạo 350% ST vật lý và 200% ST t.tính Nước lên 3~5 mục tiêu ngẫu nhiên, khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0 (sinh hiệu quả ST trong lần tấn công này).",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Thôi Miên",
-      "icon": "/images/heroes/s_lanran_s6.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s6.png",
       "description": "Skill tử trận (Lần đầu tử trận bỏ qua hiệu quả Trọng Thương): Hồi toàn bộ HP, tạo 350% ST vật lý và 900% ST thực t.tính Nước lên toàn thể phe địch, chọn ngẫu nhiên 1 mục tiêu để kết liễu. Đồng thời kết liễu mục tiêu tấn công có HP dưới 20%.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Long Chuyển Diệt",
-      "icon": "/images/heroes/s_lanran_s7.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s7.png",
       "description": "Skill trước trận:  Tạo 350% ST vật lý và 800% ST thực t.tính Nước lên toàn thể phe địch, cộng hiệu quả phản đòn cho bản thân, bất kì kẻ địch nào tấn công bản thân cũng có 100% tỉ lệ chịu 80% ST tạo ra và ST thực bằng 20% HP của bản thân, vĩnh viễn tăng 350% tấn công t.tính Nước của bản thân, vĩnh viễn tăng 200% Trúng, Tốc Độ và Bạo Kích.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Khúc Quang",
-      "icon": "/images/heroes/s_lanran_s4.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s4.png",
       "description": "Tạo 350% ST vật lý và 800% ST t.tính Nước lên toàn thể phe địch, tạo thêm x3 ST và ST t.tính lên những kẻ địch có HP dưới 50%.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Đoạn Không",
-      "icon": "/images/heroes/s_lanran_s5.png",
+      "icon": "/images/icon_skill_heroes/s_lanran_s5.png",
       "description": "Skill trước hiệp: Chuyển tất cả tấn công thuộc tính thành Vật Công , tạo 350% ST vật lý và 900% ST thực t.tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân, tạo thêm ST thực lên toàn thể phe địch bằng 30% HP tối đa của bản thân, và có 50% tỉ lệ khiến mục tiêu trọng thương.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-aizen",
       "name": "CT-Aizen",
-      "avatar": "/images/heroes/ct-aizen.png",
+      "avatar": "/images/heroes/icon_heroes/ct-aizen.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Từng đảm nhiệm vị trí đội phó trong đội Số 5 vào 110 trước, vốn là đội trưởng đội số 5 trong 13 đội bảo vệ triều đình ở Thi Hồn Giới và kiêm giáo viên thư pháp mà học viện Linh Thuật đặc biệt mời về, sau này phản bội Thi Hồn Giới chạy trốn đến Hueco Mundo, tạo nên Espada và trở thành kẻ thống trị Hueco Mundo."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Quỷ Đạo",
-      "skillIcon": "/images/heroes/s_lanran_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s1.png",
       "skillDesc": "Làm mục tiêu mù trong hiệp này, giảm 100% Trúng của kẻ địch。",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Pháo Lôi Hống",
-      "skillIcon": "/images/heroes/s_lanran_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s2.png",
       "skillDesc": "Giảm 90% Né và Tốc Độ của toàn bộ kẻ địch, kéo dài 2 hiệp, số lần kích hoạt mỗi hiệp biến thành 3 lần",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Quạ Đen",
-          "icon": "/images/heroes/qua-en.png",
+          "icon": "/images/heroes/icon_heroes/qua-en.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Hắc Quan",
-      "skillIcon": "/images/heroes/s_lanran_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s3.png",
       "skillDesc": "Tạo x4-6 ST và ST t.tính, tạo trói buộc với toàn bộ kẻ địch ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Khúc Quang",
-      "skillIcon": "/images/heroes/s_lanran_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s4.png",
       "skillDesc": "Tạo x6 ST và ST thuộc tính lên mục tiêu có HP trên 50%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Quạ Đen",
-          "icon": "/images/heroes/qua-en.png",
+          "icon": "/images/heroes/icon_heroes/qua-en.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Đoạn Không",
-      "skillIcon": "/images/heroes/s_lanran_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s5.png",
       "skillDesc": "Tạo thành hiệu quả khác nhau dựa theo số người phe địch: \n1.Phe địch có 4~5 người, tạo thêm x5 ST và ST thuộc tính lên mục tiêu.\n2.Phe địch có 1~3 người, tạo thêm x7 ST và ST thuộc tính lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Thôi Miên",
-      "skillIcon": "/images/heroes/s_lanran_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s6.png",
       "skillDesc": "Tối đa được hồi sinh 3 lần. Tạo ST thực lên toàn thể phe địch bằng 30% HP tối đa của bản thân, đồng thời giảm 100% Tốc Độ và Trúng của toàn bộ phe địch, kéo dài 1 hiệp. ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Long Chuyển Diệt",
-      "skillIcon": "/images/heroes/s_lanran_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lanran_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Tăng 79% tỉ lệ giảm thương tổng thể cho bản thân,  tăng x2 tất cả ST skill và ST thuộc tính của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Khúc Quang",
-      "unlockedSkillIcon": "/images/heroes/s_lanran_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_lanran_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Đoạn Không",
-      "unlockedSkillIcon": "/images/heroes/s_lanran_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_lanran_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Aizen",
-          "icon": "/images/heroes/aizen.png",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
           "slug": "aizen"
         }
       ],
@@ -624,12 +624,12 @@
         {
           "name": "Kuchiki Byakuya",
           "slug": "kuchiki-byakuya",
-          "avatar": "/images/heroes/kuchiki-byakuya.png"
+          "avatar": "/images/heroes/icon_heroes/kuchiki-byakuya.png"
         },
         {
           "name": "Grimmjow",
           "slug": "grimmjow",
-          "avatar": "/images/heroes/grimmjow.png"
+          "avatar": "/images/heroes/icon_heroes/grimmjow.png"
         }
       ]
     },
@@ -640,7 +640,7 @@
         {
           "name": "Quạ Đen",
           "slug": "qua-en",
-          "avatar": "/images/heroes/qua-en.png"
+          "avatar": "/images/heroes/icon_heroes/qua-en.png"
         }
       ]
     },
@@ -651,7 +651,7 @@
         {
           "name": "Kurosaki",
           "slug": "kurosaki",
-          "avatar": "/images/heroes/kurosaki.png"
+          "avatar": "/images/heroes/icon_heroes/kurosaki.png"
         }
       ]
     },
@@ -662,7 +662,7 @@
         {
           "name": "Kula",
           "slug": "kula",
-          "avatar": "/images/heroes/kula.png"
+          "avatar": "/images/heroes/icon_heroes/kula.png"
         }
       ]
     }

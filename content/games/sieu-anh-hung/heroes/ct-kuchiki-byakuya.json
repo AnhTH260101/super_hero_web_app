@@ -4,7 +4,7 @@
   "name": "CT-Kuchiki Byakuya",
   "title": "Vũ trụ linh tính • UR CT-Kuchiki Byakuya",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-kuchiki-byakuya.png",
+  "avatar": "/images/heroes/icon_heroes/ct-kuchiki-byakuya.png",
   "fullArt": "/images/heroes/full/image_xiumubaizai.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Bạch Lôi.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s1.png",
       "description": "Skill phản đòn: Sau khi chịu tấn công có 99% tỉ lệ tạo 350% ST ma pháp và ST thực bằng 550% ST t.tính Nước lên kẻ địch đơn thể, khiến mục tiêu trọng thương, giảm 80% hồi HP.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Thương Hỏa Trụy.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s2.png",
       "description": "Tạo 350% ST ma công và 350% ST t.tính Nước lên 3~5 kẻ địch ngẫu nhiên, giảm 30%~60% Tốc Độ của mục tiêu. Kéo dài 2 hiệp, tăng 200% Né, Trúng, Bạo Kích của bản thân.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tiêm Cảnh.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s3.png",
       "description": "Tạo 350% ST ma pháp và 250% ST thực t.tính Nước lên toàn thể phe địch, hồi điểm HP, lượng hồi HP bằng tổng ST tạo ra, 50% tỉ lệ khiến mục tiêu trọng thương, giảm 100% hồi HP",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Nhất Giảo Hoa.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s6.png",
       "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành ma công, tạo 350% ST ma pháp và 850% ST thực t.tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân, tăng cho đồng đội xếp trước 350% phòng ngự của điểm ma công bản thân và phòng ngự toàn t.tính, kéo dài 1 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thiên Bản Anh.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s7.png",
       "description": "Skill tử trận: Hồi sinh sau khi tử trận, hồi tất cả HP. Tạo 350% ST ma công và 850% ST t.tính Nước lên toàn thể phe địch. Được hồi sinh tối đa 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Khang Cảnh.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s4.png",
       "description": "Skill trước trận: Tạo 350% ST ma công và 850% ST thực t.tính Nước lên toàn thể phe địch, giảm 30%~50% Vật & Ma Công của kẻ địch, tăng cho đồng đội 30% Vật & Ma Công và 300% phòng ngự t.tính.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Bạch Đế Kiếm.Thánh",
-      "icon": "/images/heroes/s_xiumubaizai_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xiumubaizai_s5.png",
       "description": "Tạo 350% ST ma pháp và ST thực bằng 850% ST t.tính Nước lên 3~5 kẻ địch ngẫu nhiên, giảm 50% Trúng của mục tiêu, khiến mục tiêu trọng thương, giảm 100% hồi HP, tăng 100% ST và ST t.tính.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Bạch Lôi.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s1.png",
       "skillDesc": "Nếu hiệu quả hồi phục của mục tiêu dưới 50%, sẽ tạo thêm x3 sát thương. Hiệu quả trọng thương biến thành 100%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Thương Hỏa Trụy.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s2.png",
       "skillDesc": "Giảm thêm 50% Vật & Ma Công của mục tiêu, tăng 20% Vật & Ma Công cho đồng đội có Vật & Ma Công thấp nhất",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kurosaki",
-          "icon": "/images/heroes/kurosaki.png",
+          "icon": "/images/heroes/icon_heroes/kurosaki.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Tiêm Cảnh.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s3.png",
       "skillDesc": "Tạo thêm x3 sát thương đối với mục tiêu có HP dưới 30%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Khang Cảnh.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s4.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Tăng 79% tỉ lệ giảm thương tổng thể cho bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kurosaki",
-          "icon": "/images/heroes/kurosaki.png",
+          "icon": "/images/heroes/icon_heroes/kurosaki.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Bạch Đế Kiếm.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s5.png",
       "skillDesc": "Tăng ngẫu nhiên 40W~80W tấn công Ma Công, tạo thêm x3 sát thương lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Nhất Giảo Hoa.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s6.png",
       "skillDesc": "Tạo thêm x4 ST và ST t.tính; Giảm 20%-45% phòng ngự tổng thể và tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Thiên Bản Anh.Thánh",
-      "skillIcon": "/images/heroes/s_xiumubaizai_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s7.png",
       "skillDesc": "Tối đa được hồi sinh 3 lần. Chuyển tất cả tấn công t.tính thành Ma Công và tạo ST thực.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Khang Cảnh.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_xiumubaizai_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Bạch Đế Kiếm.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_xiumubaizai_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xiumubaizai_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kuchiki Byakuya",
-          "icon": "/images/heroes/kuchiki-byakuya.png",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
           "slug": "kuchiki-byakuya"
         }
       ],
@@ -689,7 +689,7 @@
     "id": "39800",
     "slug": "kuchiki-byakuya",
     "name": "Kuchiki Byakuya",
-    "avatar": "/images/heroes/kuchiki-byakuya.png",
+    "avatar": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -701,12 +701,12 @@
         {
           "name": "Jiraiya",
           "slug": "jiraiya",
-          "avatar": "/images/heroes/jiraiya.png"
+          "avatar": "/images/heroes/icon_heroes/jiraiya.png"
         },
         {
           "name": "Kurosaki",
           "slug": "kurosaki",
-          "avatar": "/images/heroes/kurosaki.png"
+          "avatar": "/images/heroes/icon_heroes/kurosaki.png"
         }
       ]
     },
@@ -717,7 +717,7 @@
         {
           "name": "Chris",
           "slug": "chris",
-          "avatar": "/images/heroes/chris.png"
+          "avatar": "/images/heroes/icon_heroes/chris.png"
         }
       ]
     },
@@ -728,7 +728,7 @@
         {
           "name": "Kula",
           "slug": "kula",
-          "avatar": "/images/heroes/kula.png"
+          "avatar": "/images/heroes/icon_heroes/kula.png"
         }
       ]
     },
@@ -739,7 +739,7 @@
         {
           "name": "Gintoki",
           "slug": "gintoki",
-          "avatar": "/images/heroes/gintoki.png"
+          "avatar": "/images/heroes/icon_heroes/gintoki.png"
         }
       ]
     }

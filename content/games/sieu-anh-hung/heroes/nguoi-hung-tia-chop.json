@@ -4,7 +4,7 @@
   "name": "Người Hùng Tia Chớp",
   "title": "Vũ trụ nguyên tố • SSR Người Hùng Tia Chớp",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/nguoi-hung-tia-chop.png",
+  "avatar": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
   "fullArt": "/images/heroes/full/image_flash.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Tia Chớp Đổ Bộ",
-      "icon": "/images/heroes/s_sdx_hurt.png",
+      "icon": "/images/icon_skill_heroes/s_sdx_hurt.png",
       "description": "Suốt trận tập kích bất ngờ, tạo 350% sát thương vật lý trực tiếp lên phe địch, tạo thêm 150% thuộc tính sát thương gió, nếu tốc độ phe địch thấp hơn bản thân, sẽ tạo sát thương gấp 2 lần",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Trảm Sát Cấp Tốc",
-      "icon": "/images/heroes/s_sdx_injure.png",
+      "icon": "/images/icon_skill_heroes/s_sdx_injure.png",
       "description": "Phát tán phân tử trên cơ thể xuyên qua kẻ địch, tạo 350% sát thương vật lý cho toàn thể phe địch, tạo thêm 140% thuộc tính sát thương gió, và hồi phục 30% HP bản thân",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thần Tốc",
-      "icon": "/images/heroes/s_sdx_cure.png",
+      "icon": "/images/icon_skill_heroes/s_sdx_cure.png",
       "description": "Dùng trước hiệp, tăng 350% tốc độ và tấn công vật lý, tăng 40% miễn giảm sát thương bản thân",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Bão Táp",
-      "icon": "/images/heroes/s_sdx_injure.png",
+      "icon": "/images/icon_skill_heroes/s_sdx_injure.png",
       "description": "Sau khi chịu tấn công, tăng mức tuyệt đối effect của thuộc tính tấn công gió",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Sấm Chớp",
-      "icon": "/images/heroes/s_sdx_cure.png",
+      "icon": "/images/icon_skill_heroes/s_sdx_cure.png",
       "description": "Kỹ năng trước trận, làm mù 1 hiệp mục tiêu mặc định phe địch, và giảm 30% thuộc tính phòng ngự lên phe địch, 2 hiệp",
       "cooldown": null,
       "breakthrough": {
@@ -84,7 +84,7 @@
     {
       "slug": "ct-nguoi-hung-tia-chop",
       "name": "CT-Người Hùng Tia Chớp",
-      "avatar": "/images/heroes/ct-nguoi-hung-tia-chop.png",
+      "avatar": "/images/heroes/icon_heroes/ct-nguoi-hung-tia-chop.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Tốt bụng, soái ca, tốc độ vô địch, trở thành siêu anh hùng sau khi bị sét đánh trúng!"
@@ -97,18 +97,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Tia Chớp Đổ Bộ",
-      "skillIcon": "/images/heroes/s_sdx_hurt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sdx_hurt.png",
       "skillDesc": "Tăng 50% né tránh, chấn động trực tiếp lên mục tiêu, hiệu ứng không thể loại bỏ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -122,24 +122,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Trảm Sát Cấp Tốc",
-      "skillIcon": "/images/heroes/s_sdx_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sdx_injure.png",
       "skillDesc": "Chuyển hóa tốc độ bản thân thành công kích thuộc tính gió, làm mù mục tiêu hàng trước",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "amount": 1,
           "type": "hero"
         }
@@ -153,24 +153,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thần Tốc",
-      "skillIcon": "/images/heroes/s_sdx_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sdx_cure.png",
       "skillDesc": "Người Hùng Tia Chớp tăng thêm 20% tốc độ bản thân",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "amount": 1,
           "type": "hero"
         }
@@ -184,30 +184,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Bão Táp",
-      "skillIcon": "/images/heroes/s_sdx_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sdx_injure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Hades",
-          "icon": "/images/heroes/hades.png",
+          "icon": "/images/heroes/icon_heroes/hades.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 1,
           "type": "hero"
         }
@@ -221,30 +221,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Sấm Chớp",
-      "skillIcon": "/images/heroes/s_sdx_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sdx_cure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "amount": 2,
           "type": "hero"
         }
@@ -258,30 +258,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "amount": 1,
           "type": "hero"
         }
@@ -295,30 +295,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,22 +333,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -364,22 +364,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -395,22 +395,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         }
       ],
@@ -426,22 +426,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -457,22 +457,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         }
       ],
@@ -488,22 +488,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         }
       ],
@@ -519,22 +519,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -550,22 +550,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Người Hùng Tia Chớp",
-          "icon": "/images/heroes/nguoi-hung-tia-chop.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png",
           "slug": "nguoi-hung-tia-chop"
         }
       ],
@@ -589,12 +589,12 @@
         {
           "name": "Odin",
           "slug": "odin",
-          "avatar": "/images/heroes/odin.png"
+          "avatar": "/images/heroes/icon_heroes/odin.png"
         },
         {
           "name": "Hoàng Phủ Kiếm",
           "slug": "hoang-phu-kiem",
-          "avatar": "/images/heroes/hoang-phu-kiem.png"
+          "avatar": "/images/heroes/icon_heroes/hoang-phu-kiem.png"
         }
       ]
     },
@@ -605,12 +605,12 @@
         {
           "name": "Na Tra",
           "slug": "na-tra",
-          "avatar": "/images/heroes/na-tra.png"
+          "avatar": "/images/heroes/icon_heroes/na-tra.png"
         },
         {
           "name": "Võ Thánh Quan Vũ",
           "slug": "vo-thanh-quan-vu",
-          "avatar": "/images/heroes/vo-thanh-quan-vu.png"
+          "avatar": "/images/heroes/icon_heroes/vo-thanh-quan-vu.png"
         }
       ]
     },
@@ -621,7 +621,7 @@
         {
           "name": "Nidhogg",
           "slug": "nidhogg",
-          "avatar": "/images/heroes/nidhogg.png"
+          "avatar": "/images/heroes/icon_heroes/nidhogg.png"
         }
       ]
     }

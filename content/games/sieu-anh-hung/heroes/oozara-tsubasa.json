@@ -4,7 +4,7 @@
   "name": "Oozara Tsubasa",
   "title": "Vũ trụ sức mạnh • SSR Oozara Tsubasa",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/oozara-tsubasa.png",
+  "avatar": "/images/heroes/icon_heroes/oozara-tsubasa.png",
   "fullArt": "/images/heroes/full/image_dakongyi.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Dồn Lực Sút Bóng",
-      "icon": "/images/heroes/s_dakongyi_s1.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s1.png",
       "description": "Chuyển hóa tấn công t.tính Gió thành tấn công t.tính Lửa, tạo 350% ST ma pháp và 500% ST t.tính Lửa lên 1 mục tiêu dãy trước, bỏ qua phòng ngự. Nổ tung tạo hiệu quả Cháy lên tất cả mục tiêu xung quanh, mỗi hiệp tạo ST thực bằng 350% tấn công t.tính Gió.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Sút Bóng Cấp Tốc",
-      "icon": "/images/heroes/s_dakongyi_s2.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s2.png",
       "description": "Skill phản đòn: Chuyển hóa tấn công t.tính Gió thành tấn công t.tính Lửa, tạo 350% ST ma pháp và 650% ST t.tính Lửa lên 1 dãy địch ngẫu nhiên. 50% tỉ lệ làm mục tiêu hôn mê, hồi HP cho bản thân, lượng hồi phục tương đương tổng sát thương tạo ra. Mỗi hiệp phát động 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tư Thế Giả",
-      "icon": "/images/heroes/s_dakongyi_s3.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s3.png",
       "description": "Tăng 300% Tốc Độ cho bản thân, kéo dài 2 hiệp, tăng 30% lực tấn công tổng thể cho bản thân. Kéo dài 2 hiệp. Tăng 350% phòng ngự cho toàn thể đồng đội, hồi 20%-35% HP cho toàn thể đồng đội.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tung Cánh Sút Bóng",
-      "icon": "/images/heroes/s_dakongyi_s6.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s6.png",
       "description": "Skill trước hiệp: Tạo 350% ST ma pháp và 800% ST t.tính Gió lên toàn thể kẻ địch. Hồi tất cả HP đã mất. Tạo hiệu quả tụt máu lên phe địch, mỗi hiệp tạo ST thực bằng 350% tấn công t.tính Gió.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Màn Ánh Sáng Nữ Thần",
-      "icon": "/images/heroes/s_dakongyi_s7.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s7.png",
       "description": "Skill trước trận: Tăng 79% tỉ lệ giảm thương tổng thể, tăng vĩnh viễn 800% phòng ngự tổng thể cho bản thân, tăng vĩnh viễn 200% Trúng, Né và bạo kích. Miễn dịch vĩnh viễn hiệu quả Đứng Im, Hóa Đá, Choáng, Trói Buộc, Chế Giễu, Mê Hoặc.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Sút Bóng Uốn Khúc",
-      "icon": "/images/heroes/s_dakongyi_s4.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s4.png",
       "description": "Chuyển hóa tấn công t.tính Gió thành tấn công t.tính Lửa, tạo 350% ST ma pháp và 800% ST t.tính Gió lên 1-5 kẻ địch. Bóng xoay tròn khiến kẻ địch không thể bắt kịp, trong hiệp này sẽ tăng 500% Trúng cho bản thân.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Ngả Người Móc Bóng",
-      "icon": "/images/heroes/s_dakongyi_s5.png",
+      "icon": "/images/icon_skill_heroes/s_dakongyi_s5.png",
       "description": "Chuyển hóa Vật Công thành Ma Công, chuyển hóa tấn công của tất cả thuộc tính thành Ma Công, tạo ST thực bằng 350% ST ma pháp lên toàn thể kẻ địch. Trong bóng có chứa các loại thuộc tính, sau khi bóng phát nổ sẽ có 30% tỉ lệ tạo hiệu quả cháy, tụt máu, mù, bỏng lạnh lên toàn thể kẻ địch. Mỗi hiệp tạo ST thực bằng 350% lực tấn công t.tính Gió",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-oozara-tsubasa",
       "name": "CT-Oozara Tsubasa",
-      "avatar": "/images/heroes/ct-oozara-tsubasa.png",
+      "avatar": "/images/heroes/icon_heroes/ct-oozara-tsubasa.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Có thiên phú bóng đá, hay học hỏi tuyệt kỹ của đối thủ. Khi gặp đối thủ mạnh, nội tâm sẽ trỗi dậy ý chí chiến thắng. Khi đội bóng thụt lùi, anh không hề từ bỏ giải đấu, nỗ lực giành chiến thắng cho đến giây phút cuối cùng. (Thẻ lưu niệm World Cup 2018)"
@@ -119,18 +119,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Dồn Lực Sút Bóng",
-      "skillIcon": "/images/heroes/s_dakongyi_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s1.png",
       "skillDesc": "Khiến mục tiêu trọng thương, hiệu suất hồi máu giảm 80%, kéo dài 2 hiệp. Nếu mục tiêu đã bị trọng thương, sẽ tạo thêm X2 sát thương",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Sút Bóng Cấp Tốc",
-      "skillIcon": "/images/heroes/s_dakongyi_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s2.png",
       "skillDesc": "Sát thương trở thành sát thương thực. Tỉ lệ hôn mê trở thành 100%, trong hiệp này giảm 10%-45% Vật & Ma Công của mục tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Tư Thế Giả",
-      "skillIcon": "/images/heroes/s_dakongyi_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s3.png",
       "skillDesc": "Mê hoặc 2 kẻ địch, kéo dài 2 hiệp. Tỉ lệ hồi máu tăng lên 35%-50%, ngẫu nhiên chọn 2 đồng đội hồi phục hiệu suất hồi HP trở lại bình thường.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần thoại",
       "auraColor": "amber",
       "skillName": "Sút Bóng Uốn Khúc",
-      "skillIcon": "/images/heroes/s_dakongyi_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s4.png",
       "skillDesc": "Làm mục tiêu mù, kéo dài 1 hiệp. Nếu hơn 3 kẻ địch bị trúng hiệu quả, sẽ tạo hiệu quả trói buộc lên toàn thể địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Saitama",
-          "icon": "/images/heroes/saitama.png",
+          "icon": "/images/heroes/icon_heroes/saitama.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Ngả Người Móc Bóng",
-      "skillIcon": "/images/heroes/s_dakongyi_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s5.png",
       "skillDesc": "Tỉ lệ trở thành 60%, kèm thêm sát thương dựa trên tỉ lệ miễn thương của đối phương: Dưới 30% sẽ kèm X2 sát thương, 31%-60% kèm X6 sát thương, 61% trở lên kèm X4 sát thương.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tung Cánh Sút Bóng",
-      "skillIcon": "/images/heroes/s_dakongyi_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s6.png",
       "skillDesc": "Trong hiệp đó giảm 99% phòng ngự tổng thể của 1-4 kẻ địch, và giảm 30% tỉ lệ giảm thương tổng thể của kẻ địch còn lại. (Sát thương lần đó vẫn có hiệu lực)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Màn Ánh Sáng Nữ Thần",
-      "skillIcon": "/images/heroes/s_dakongyi_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_dakongyi_s7.png",
       "skillDesc": "Tăng 50% giới hạn HP, cộng hiệu quả miễn dịch Tsukuyomi, tăng lâu dài 100% Tốc Độ và Né cho cả đội. Giảm lâu dài 25% Tốc Độ và Trúng cho phe địch. Cộng 1 tầng hiệu quả miễn chết cho bản thân: Hồi sinh sau khi tử trận, hồi tất cả HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Sút Bóng Uốn Khúc",
-      "unlockedSkillIcon": "/images/heroes/s_dakongyi_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_dakongyi_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Ngả Người Móc Bóng",
-      "unlockedSkillIcon": "/images/heroes/s_dakongyi_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_dakongyi_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Oozara Tsubasa",
-          "icon": "/images/heroes/oozara-tsubasa.png",
+          "icon": "/images/heroes/icon_heroes/oozara-tsubasa.png",
           "slug": "oozara-tsubasa"
         }
       ],
@@ -626,12 +626,12 @@
         {
           "name": "Saitama",
           "slug": "saitama",
-          "avatar": "/images/heroes/saitama.png"
+          "avatar": "/images/heroes/icon_heroes/saitama.png"
         },
         {
           "name": "Lữ Bố",
           "slug": "lu-bo",
-          "avatar": "/images/heroes/lu-bo.png"
+          "avatar": "/images/heroes/icon_heroes/lu-bo.png"
         }
       ]
     },
@@ -642,7 +642,7 @@
         {
           "name": "Thanos",
           "slug": "thanos",
-          "avatar": "/images/heroes/thanos.png"
+          "avatar": "/images/heroes/icon_heroes/thanos.png"
         }
       ]
     },
@@ -653,7 +653,7 @@
         {
           "name": "Mihawk",
           "slug": "mihawk",
-          "avatar": "/images/heroes/mihawk.png"
+          "avatar": "/images/heroes/icon_heroes/mihawk.png"
         }
       ]
     },
@@ -664,7 +664,7 @@
         {
           "name": "Lý Nguyên Bá",
           "slug": "ly-nguyen-ba",
-          "avatar": "/images/heroes/ly-nguyen-ba.png"
+          "avatar": "/images/heroes/icon_heroes/ly-nguyen-ba.png"
         }
       ]
     }

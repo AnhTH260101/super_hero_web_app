@@ -4,7 +4,7 @@
   "name": "Grimmjow",
   "title": "Vũ trụ nguyên tố • SSR Grimmjow",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/grimmjow.png",
+  "avatar": "/images/heroes/icon_heroes/grimmjow.png",
   "fullArt": "/images/heroes/full/image_gelimuqiao.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Báo Vương",
-      "icon": "/images/heroes/s_gelimuqiao_s1.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s1.png",
       "description": "Skill phản đòn: Dùng Trảm Phách Đao·Báo tấn công kẻ địch, sau khi chịu tấn công sẽ có 99% tỉ lệ phản đòn kẻ tấn công, tạo 350% sát thương vật lý và 500% sát thương t.tính Lửa, 50% tỉ lệ khiến mục tiêu choáng 1 hiệp. Mỗi hiệp phát động 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Trảm Phách Đao·Trảm",
-      "icon": "/images/heroes/s_gelimuqiao_s2.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s2.png",
       "description": "Dùng Trảm Phách Đao tấn công toàn thể kẻ địch, tạo 350% sát thương vật lý và 300% sát thương t.tính Lửa, ngẫu nhiên làm 1-3 mục tiêu đứng im, duy trì 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Trảm Phách Đao·Đoạn",
-      "icon": "/images/heroes/s_gelimuqiao_s3.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s3.png",
       "description": "Tấn công 1-5 kẻ địch, tấn công của tất cả t.tính chuyển thành tấn công t.tính Lửa, tạo 350% sát thương vật lý và 200% sát thương t.tính Lửa, và khiến mục tiêu hóa đá 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Cero",
-      "icon": "/images/heroes/s_gelimuqiao_s6.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s6.png",
       "description": "Skill trước hiệp: Tạo 350% sát thương vật lý và 800% sát thương t.tính Lửa cho toàn thể địch. Hồi tất cả HP đã mất. Cộng 1 tầng hiệu quả Quy Đao cho bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Pantera",
-      "icon": "/images/heroes/s_gelimuqiao_s7.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s7.png",
       "description": "Skill trước khi bị đánh: Tăng 500% phòng ngự và phòng ngự thuộc tính cho bản thân, cộng 1 tầng hiệu quả Quy Đao cho bản thân, nếu bản thân có hơn 10 tầng hiệu quả Quy Đao, sẽ giải phóng Trảm Phách Đao, biến hình trạng thái Quy Đao.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Báo Câu",
-      "icon": "/images/heroes/s_gelimuqiao_s4.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s4.png",
       "description": "Skill trước trận: Tấn công t.tính Gió chuyển thành tấn công t.tính Lửa, tạo 350% sát thương vật lý lên toàn thể địch và sát thương thực bằng 800% sát thương t.tính Lửa, tăng 20% HP.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Gran Rey Cero",
-      "icon": "/images/heroes/s_gelimuqiao_s5.png",
+      "icon": "/images/icon_skill_heroes/s_gelimuqiao_s5.png",
       "description": "Tạo 350% sát thương vật lý và 900% sát thương t.tính Lửa lên toàn thể địch, tạo thêm X2 sát thương. Tạo hiệu quả Cháy, mỗi hiệp tạo sát thương bằng 500% tấn công t.tính Lửa, kéo dài 2 hiệp. Cộng 1 tầng hiệu quả Quy Đao cho bản thân.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-grimmjow",
       "name": "CT-Grimmjow",
-      "avatar": "/images/heroes/ct-grimmjow.png",
+      "avatar": "/images/heroes/icon_heroes/ct-grimmjow.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Grimmjow là Espada thứ 5 trong quân đội của Arrancar Aizen, có vẻ ngoài đẹp trai, tính cách hiếu chiến kiêu ngạo."
@@ -119,18 +119,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Báo Vương",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s1.png",
       "skillDesc": "Giảm 33% tỉ lệ giảm thương tổng thể của mục tiêu, kéo dài 1 hiệp. Choáng 1 hiệp chuyển thành hôn mê 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Trảm Phách Đao·Trảm",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s2.png",
       "skillDesc": "Tăng 400%-600% lực phòng ngự cho toàn thể đồng đội, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Quạ Đen",
-          "icon": "/images/heroes/qua-en.png",
+          "icon": "/images/heroes/icon_heroes/qua-en.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Trảm Phách Đao·Đoạn",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s3.png",
       "skillDesc": "Giảm 33% toàn bộ phòng ngự, bạo kích và né của mục tiêu. Kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần thoại",
       "auraColor": "amber",
       "skillName": "Báo Câu",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s4.png",
       "skillDesc": "Bỏ qua hiệu quả choáng, đứng im, hôn mê, hóa đá, hỗn loạn, chế giễu, Tsukuyomi. Tăng 100% Vật Công cho bản thân, kéo dài 3 hiệp. Tăng 20W-70W tấn công t.tính Lửa và tấn công t.tính Gió, kéo dài 3 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Quạ Đen",
-          "icon": "/images/heroes/qua-en.png",
+          "icon": "/images/heroes/icon_heroes/qua-en.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Cero",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s6.png",
       "skillDesc": "Tạo thêm X3 sát thương lên hàng mục tiêu mặc định, nếu ở trạng thái Quy Đao, sẽ tạo X6 sát thương lên mục tiêu mặc định, sau đó giảm 50% Tốc Độ, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Báo Câu",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s4.png",
       "skillDesc": "Tăng 100% Trúng, Né và Bạo Kích cho bản thân, kéo dài 2 hiệp. Tăng 79% tỉ lệ giảm thương tổng thể. Cộng 1 tầng hiệu quả Vô Địch cho 1 đồng đội và bản thân, miễn dịch 1 lần tấn công.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Pantera",
-      "skillIcon": "/images/heroes/s_gelimuqiao_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s7.png",
       "skillDesc": "Tăng lâu dài 100% Vật & Ma Công (Chỉ hiệu lực 1 lần). Tăng 50% bạo kích cho đồng đội khác, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Báo Câu",
-      "unlockedSkillIcon": "/images/heroes/s_gelimuqiao_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Gran Rey Cero",
-      "unlockedSkillIcon": "/images/heroes/s_gelimuqiao_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_gelimuqiao_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Grimmjow",
-          "icon": "/images/heroes/grimmjow.png",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
           "slug": "grimmjow"
         }
       ],
@@ -627,12 +627,12 @@
         {
           "name": "Frieza",
           "slug": "frieza",
-          "avatar": "/images/heroes/frieza.png"
+          "avatar": "/images/heroes/icon_heroes/frieza.png"
         },
         {
           "name": "Yagami Iori",
           "slug": "yagami-iori",
-          "avatar": "/images/heroes/yagami-iori.png"
+          "avatar": "/images/heroes/icon_heroes/yagami-iori.png"
         }
       ]
     },
@@ -643,7 +643,7 @@
         {
           "name": "Quạ Đen",
           "slug": "qua-en",
-          "avatar": "/images/heroes/qua-en.png"
+          "avatar": "/images/heroes/icon_heroes/qua-en.png"
         }
       ]
     },
@@ -654,7 +654,7 @@
         {
           "name": "Erza",
           "slug": "erza",
-          "avatar": "/images/heroes/erza.png"
+          "avatar": "/images/heroes/icon_heroes/erza.png"
         }
       ]
     },
@@ -665,7 +665,7 @@
         {
           "name": "Lữ Bố",
           "slug": "lu-bo",
-          "avatar": "/images/heroes/lu-bo.png"
+          "avatar": "/images/heroes/icon_heroes/lu-bo.png"
         }
       ]
     }

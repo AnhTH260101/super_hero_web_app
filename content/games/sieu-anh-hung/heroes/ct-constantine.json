@@ -4,7 +4,7 @@
   "name": "CT-Constantine",
   "title": "Zombie Bentu • UR CT-Constantine",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-constantine.png",
+  "avatar": "/images/heroes/icon_heroes/ct-constantine.png",
   "fullArt": "/images/heroes/full/image_kangsitanding.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Lựu Đạn-Thánh",
-      "icon": "/images/heroes/s_kangsi_hurt.png",
+      "icon": "/images/icon_skill_heroes/s_kangsi_hurt.png",
       "description": "Thả lựu đạn tạo 350% sát thương ma pháp và 150% thuộc tính sát thương nước bản thân",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ma Gian Hành Giả-Thánh",
-      "icon": "/images/heroes/s_kangsi_injure.png",
+      "icon": "/images/icon_skill_heroes/s_kangsi_injure.png",
       "description": "Tạo ảo ảnh địa ngục khiến kẻ địch sợ hãi, chuyển hóa 20% HP bị mất thành tấn công ma pháp cho bản thân, tạo 350% sát thương ma pháp lên toàn bộ địch và 140% thuộc tính sát thương nước",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thám Tử Địa Ngục-Thánh",
-      "icon": "/images/heroes/s_kangsi_cure.png",
+      "icon": "/images/icon_skill_heroes/s_kangsi_cure.png",
       "description": "Kỹ năng trước hiệp, tăng 350% tấn công ma pháp và miễn giảm sát thương bản thân, 50% tỷ lệ tăng 1 tầng bảo vệ để miễn dịch tấn công phe địch 1 lần",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Quỷ Săn-Thánh",
-      "icon": "/images/heroes/s_kangsi_injure.png",
+      "icon": "/images/icon_skill_heroes/s_kangsi_injure.png",
       "description": "Sau khi chịu tấn công, tăng điểm tuyệt đối effect của thuộc tính tấn công nước",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Mê Hồn.Nước-Thánh",
-      "icon": "/images/heroes/s_kangsi_cure.png",
+      "icon": "/images/icon_skill_heroes/s_kangsi_cure.png",
       "description": "Kỹ năng trước trận, giảm 350% sức tấn công ma pháp lên toàn thể phe địch",
       "cooldown": null,
       "breakthrough": {
@@ -168,18 +168,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Lựu Đạn-Thánh",
-      "skillIcon": "/images/heroes/s_kangsi_hurt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_kangsi_hurt.png",
       "skillDesc": "Súng Săn hồi phục thêm 30% HP bản thân ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -193,24 +193,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Ma Gian Hành Giả-Thánh",
-      "skillIcon": "/images/heroes/s_kangsi_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_kangsi_injure.png",
       "skillDesc": "Ma Gian Hành Giả tạo hiệu ứng đóng băng, giảm 50% tốc độ toàn bộ phe địch",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "amount": 1,
           "type": "hero"
         }
@@ -224,24 +224,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thám Tử Địa Ngục-Thánh",
-      "skillIcon": "/images/heroes/s_kangsi_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_kangsi_cure.png",
       "skillDesc": "Tăng 50% tất cả thuộc tính cho phe ta, 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "amount": 1,
           "type": "hero"
         }
@@ -255,30 +255,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Quỷ Săn-Thánh",
-      "skillIcon": "/images/heroes/s_kangsi_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_kangsi_injure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Loki",
-          "icon": "/images/heroes/loki.png",
+          "icon": "/images/heroes/icon_heroes/loki.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Người Tí Hon",
-          "icon": "/images/heroes/nguoi-ti-hon.png",
+          "icon": "/images/heroes/icon_heroes/nguoi-ti-hon.png",
           "amount": 1,
           "type": "hero"
         }
@@ -292,30 +292,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Mê Hồn.Nước-Thánh",
-      "skillIcon": "/images/heroes/s_kangsi_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_kangsi_cure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "amount": 2,
           "type": "hero"
         }
@@ -329,30 +329,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "amount": 1,
           "type": "hero"
         }
@@ -366,30 +366,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "amount": 2,
           "type": "hero"
         }
@@ -404,22 +404,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -435,22 +435,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -466,22 +466,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -497,22 +497,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -528,22 +528,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -559,22 +559,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -590,22 +590,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -621,22 +621,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Constantine",
-          "icon": "/images/heroes/constantine.png",
+          "icon": "/images/heroes/icon_heroes/constantine.png",
           "slug": "constantine"
         }
       ],
@@ -657,7 +657,7 @@
     "id": "9800",
     "slug": "constantine",
     "name": "Constantine",
-    "avatar": "/images/heroes/constantine.png",
+    "avatar": "/images/heroes/icon_heroes/constantine.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -669,12 +669,12 @@
         {
           "name": "Dương Tiễn",
           "slug": "duong-tien",
-          "avatar": "/images/heroes/duong-tien.png"
+          "avatar": "/images/heroes/icon_heroes/duong-tien.png"
         },
         {
           "name": "Gaten",
           "slug": "gaten",
-          "avatar": "/images/heroes/gaten.png"
+          "avatar": "/images/heroes/icon_heroes/gaten.png"
         }
       ]
     },
@@ -685,12 +685,12 @@
         {
           "name": "Samurai",
           "slug": "samurai",
-          "avatar": "/images/heroes/samurai.png"
+          "avatar": "/images/heroes/icon_heroes/samurai.png"
         },
         {
           "name": "Na Tra",
           "slug": "na-tra",
-          "avatar": "/images/heroes/na-tra.png"
+          "avatar": "/images/heroes/icon_heroes/na-tra.png"
         }
       ]
     },
@@ -701,7 +701,7 @@
         {
           "name": "Tề Thiên Đại Thánh",
           "slug": "te-thien-ai-thanh",
-          "avatar": "/images/heroes/te-thien-ai-thanh.png"
+          "avatar": "/images/heroes/icon_heroes/te-thien-ai-thanh.png"
         }
       ]
     }

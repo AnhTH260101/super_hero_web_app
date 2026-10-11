@@ -4,7 +4,7 @@
   "name": "CT - Kochou Shinobu",
   "title": "Vũ trụ linh tính • UR CT - Kochou Shinobu",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_hudieren.png",
+  "avatar": "/images/heroes/icon_heroes/icon_hudieren.png",
   "fullArt": "/images/heroes/full/image_hudieren.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Đột Kích",
-      "icon": "/images/heroes/s_hudieren_s1.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s1.png",
       "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Thủy cho toàn phe địch",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hơi Thở Của Côn Trùng",
-      "icon": "/images/heroes/s_hudieren_s2.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s2.png",
       "description": "Kĩ năng trước khi bị đánh:Gây ra 350% ST ma pháp cho toàn phe địch. Bản thân tăng 50% Né Tránh, có thể chồng;",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Báo Động",
-      "icon": "/images/heroes/s_hudieren_s3.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s3.png",
       "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Thủy cho toàn phe địch. Bản thân tăng 50% Né Tránh, có thể chồng.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Điệp Chi Vũ, Phóng",
-      "icon": "/images/heroes/s_hudieren_s6.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s6.png",
       "description": "Kĩ năng tử vong: Bản thân hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra ST thực bằng 350% tấn công ma pháp cho toàn phe địch, tối đa Hồi Sinh 3 lần. Bản thân tăng 50% Né Tránh, có thể chồng.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Điệp Chi Vũ, Trêu",
-      "icon": "/images/heroes/s_hudieren_s7.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s7.png",
       "description": "Kĩ năng tiền chiến: Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Thủy cho toàn phe địch. Bản thân tăng 50% Né Tránh, có thể chồng.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Điệp Chi Vũ",
-      "icon": "/images/heroes/s_hudieren_s4.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s4.png",
       "description": "Gây ra ST thực bằng 350% tấn công ma pháp cho toàn phe địch. Bản thân tăng 50% Né Tránh, có thể chồng.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Thanh Linh Chi Vũ",
-      "icon": "/images/heroes/s_hudieren_s5.png",
+      "icon": "/images/icon_skill_heroes/s_hudieren_s5.png",
       "description": "Kĩ năng trước lượt đánh: Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Thủy cho toàn phe địch. Bản thân hồi 100% HP max.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Đột Kích",
-      "skillIcon": "/images/heroes/s_hudieren_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s1.png",
       "skillDesc": "Thêm 1 tầng \"Trúng Độc\": Mỗi lần thêm Trúng Độc sẽ gây ra ST truy kích bằng 200% tấn công ma pháp của Kochou Shinobu cho mục tiêu trúng độc ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hơi Thở Của Côn Trùng",
-      "skillIcon": "/images/heroes/s_hudieren_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s2.png",
       "skillDesc": "Mỗi lượt tối đa phóng 3 lần. Thêm 1 tầng \"Trúng Độc\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Báo Động",
-      "skillIcon": "/images/heroes/s_hudieren_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s3.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt. Thêm 1 tầng \"Trúng Độc\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Điệp Chi Vũ",
-      "skillIcon": "/images/heroes/s_hudieren_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s4.png",
       "skillDesc": "Thêm 1 tầng \"Trúng Độc\". Nếu mục tiêu có số tầng \"Trúng Độc\" lớn hơn 5 thì xóa 3 tầng Hồi Sinh của mục tiêu, và Diệt Ngay.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shana",
-          "icon": "/images/heroes/shana.png",
+          "icon": "/images/heroes/icon_heroes/shana.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thanh Linh Chi Vũ",
-      "skillIcon": "/images/heroes/s_hudieren_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s5.png",
       "skillDesc": "Thêm 1 tầng \"Trúng Độc\". Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Điệp Chi Vũ, Phóng",
-      "skillIcon": "/images/heroes/s_hudieren_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị. Thêm 1 tầng \"Trúng Độc\".",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Điệp Chi Vũ, Trêu",
-      "skillIcon": "/images/heroes/s_hudieren_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hudieren_s7.png",
       "skillDesc": "Khiến bản thân tăng vĩnh viễn 230% HP max, miễn dịch Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giếu, Tsukuyomi. Diệt Ngay ngẫu nhiên 1 đơn vị phe địch. Thêm 1 tầng \"Trúng Độc\".",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Điệp Chi Vũ",
-      "unlockedSkillIcon": "/images/heroes/s_hudieren_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_hudieren_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Thanh Linh Chi Vũ",
-      "unlockedSkillIcon": "/images/heroes/s_hudieren_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_hudieren_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kochou Shinobu",
-          "icon": "/images/heroes/icon_hudieren.png",
+          "icon": "/images/heroes/icon_heroes/icon_hudieren.png",
           "slug": "kochou-shinobu"
         }
       ],
@@ -689,7 +689,7 @@
     "id": "43800",
     "slug": "kochou-shinobu",
     "name": "Kochou Shinobu",
-    "avatar": "/images/heroes/icon_hudieren.png",
+    "avatar": "/images/heroes/icon_heroes/icon_hudieren.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -701,12 +701,12 @@
         {
           "name": "Thợ Săn - Zoro",
           "slug": "tho-san-zoro",
-          "avatar": "/images/heroes/icon_xsjsuolong.png"
+          "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png"
         },
         {
           "name": "Yatogami Tohka",
           "slug": "yatogami-tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png"
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png"
         }
       ]
     },
@@ -717,7 +717,7 @@
         {
           "name": "Kamado Tanjiro",
           "slug": "kamado-tanjiro",
-          "avatar": "/images/heroes/kamado-tanjiro.png"
+          "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png"
         }
       ]
     },
@@ -728,7 +728,7 @@
         {
           "name": "Pain",
           "slug": "pain",
-          "avatar": "/images/heroes/pain.png"
+          "avatar": "/images/heroes/icon_heroes/pain.png"
         }
       ]
     },
@@ -739,7 +739,7 @@
         {
           "name": "Tsunade",
           "slug": "tsunade",
-          "avatar": "/images/heroes/tsunade.png"
+          "avatar": "/images/heroes/icon_heroes/tsunade.png"
         }
       ]
     }

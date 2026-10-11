@@ -4,7 +4,7 @@
   "name": "Overlord",
   "title": "Vũ trụ linh tính • SSR Overlord",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/overlord.png",
+  "avatar": "/images/heroes/icon_heroes/overlord.png",
   "fullArt": "/images/heroes/full/image_guwang.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Cưỡng Chế CD",
-      "icon": "/images/heroes/s_guwang_s1.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s1.png",
       "description": "Tạo lên 3~5 kẻ địch bất kì 350% ST Ma Công và 500% ST thuộc tính Gió, tạo lên mục tiêu ST thêm và ST thuộc tính bằng 800% Tốc Độ của bản thân.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ức Chi Nhẫn",
-      "icon": "/images/heroes/s_guwang_s2.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s2.png",
       "description": "Tạo lên toàn thể phe địch 350% ST Ma Công và 300% ST thuộc tính Gió, khiển mục tiêu bị mù, giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu, sinh hiệu quả 2 hiệp.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tinh Thần Phòng Bích",
-      "icon": "/images/heroes/s_guwang_s3.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s3.png",
       "description": "Skill trước khi bị đánh: Tạo lên toàn thể phe địch 350% ST Ma Công và 200% ST thực thuộc tính Gió, hồi cho toàn đội HP bằng 800% Ma Công của bản thân, tạo x4-6 ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tham Lam & Vô Dục",
-      "icon": "/images/heroes/s_guwang_s6.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s6.png",
       "description": "Skill trước trận:  tăng 79% tỉ lệ giảm thương tổng thể của bản thân, vĩnh viễn tăng 350% Ma Công, tất cả Phòng Ngự và Né của bản thân, đồng thời tăng cho toàn đội phe ta 100% giới hạn HP.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Gậy Của Gown",
-      "icon": "/images/heroes/s_guwang_s7.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s7.png",
       "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi toàn bộ HP. Tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thực thuộc tính Gió, tối đa được hồi sinh 2 lần, giảm Ma & Vật Công của mục tiêu thành 0.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Vực Sâu Địa Ngục",
-      "icon": "/images/heroes/s_guwang_s4.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s4.png",
       "description": "Tạo lên toàn thể phe địch 350% ST Ma Công và 900% ST thuộc tính Gió, tạo lên phe địch ST thực bằng 30%-60% HP tối đa của bản thân, kết liễu ngẫu nhiên 1 mục tiêu.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Dị Không Gian",
-      "icon": "/images/heroes/s_guwang_s5.png",
+      "icon": "/images/icon_skill_heroes/s_guwang_s5.png",
       "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Ma Công, tạo lên toàn thể phe địch 350% ST Ma Công và 800% ST thực thuộc tính Gió, trong hiệp này giảm 100% tấn công thuộc tính Gió, Phòng Ngự và Né của phe địch (ST sinh hiệu quả trong lần tấn công này), tạo thêm x4-6 ST và ST thuộc tính.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-overlord",
       "name": "CT-Overlord",
-      "avatar": "/images/heroes/ct-overlord.png",
+      "avatar": "/images/heroes/icon_heroes/ct-overlord.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Sống tại tầng 9 lăng tẩm Nazarick, 41 đấng tối cao. Bề ngoài tuy là bộ xương mạnh mẽ, nhưng có tâm hồn như con người."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Cưỡng Chế CD",
-      "skillIcon": "/images/heroes/s_guwang_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s1.png",
       "skillDesc": "Tạo thêm x3 sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Ức Chi Nhẫn",
-      "skillIcon": "/images/heroes/s_guwang_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s2.png",
       "skillDesc": "Tạo thêm x3 sát thương và sát thương thuộc tính, giảm Ma & Vật Công của mục tiêu thành 0.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Tinh Thần Phòng Bích",
-      "skillIcon": "/images/heroes/s_guwang_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s3.png",
       "skillDesc": "Giảm 100% Tốc Độ và Trúng của tất cả kẻ địch, kéo dài 1 hiệp, số lần kích hoạt mỗi hiệp biến thành 2 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Vực Sâu Địa Ngục",
-      "skillIcon": "/images/heroes/s_guwang_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s4.png",
       "skillDesc": "Tạo thêm x4-6 sát thương và sát thương thuộc tính, và có 50% tỉ lệ tạo tiếp 1 lần sát thương.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Dị Không Gian",
-      "skillIcon": "/images/heroes/s_guwang_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s5.png",
       "skillDesc": "Khiến mục tiêu bị mù hoặc trói buộc, tạo lên phe địch sát thương thực bằng 30%-60% HP tối đa của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tham Lam & Vô Dục",
-      "skillIcon": "/images/heroes/s_guwang_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s6.png",
       "skillDesc": "Có 50% tỉ lệ khiến mục tiêu bị trói buộc và trong hiệp hiện tại không thể phát động skill trước khi bị đánh, vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Gậy Của Gown",
-      "skillIcon": "/images/heroes/s_guwang_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_guwang_s7.png",
       "skillDesc": "Tối đa được hồi sinh 3 lần. Khiến mục tiêu bị mù hoặc trói buộc, kết liễu mục tiêu tấn công có HP dưới 20%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Vực Sâu Địa Ngục",
-      "unlockedSkillIcon": "/images/heroes/s_guwang_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_guwang_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Dị Không Gian",
-      "unlockedSkillIcon": "/images/heroes/s_guwang_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_guwang_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Overlord",
-          "icon": "/images/heroes/overlord.png",
+          "icon": "/images/heroes/icon_heroes/overlord.png",
           "slug": "overlord"
         }
       ],
@@ -623,12 +623,12 @@
         {
           "name": "Tornado",
           "slug": "tornado",
-          "avatar": "/images/heroes/tornado.png"
+          "avatar": "/images/heroes/icon_heroes/tornado.png"
         },
         {
           "name": "Akame",
           "slug": "akame",
-          "avatar": "/images/heroes/akame.png"
+          "avatar": "/images/heroes/icon_heroes/akame.png"
         }
       ]
     },
@@ -639,7 +639,7 @@
         {
           "name": "Beerus",
           "slug": "beerus",
-          "avatar": "/images/heroes/beerus.png"
+          "avatar": "/images/heroes/icon_heroes/beerus.png"
         }
       ]
     },
@@ -650,7 +650,7 @@
         {
           "name": "Hisoka",
           "slug": "hisoka",
-          "avatar": "/images/heroes/hisoka.png"
+          "avatar": "/images/heroes/icon_heroes/hisoka.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Tachibana",
           "slug": "tachibana",
-          "avatar": "/images/heroes/tachibana.png"
+          "avatar": "/images/heroes/icon_heroes/tachibana.png"
         }
       ]
     }

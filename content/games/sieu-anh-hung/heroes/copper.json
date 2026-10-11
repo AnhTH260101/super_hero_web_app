@@ -4,7 +4,7 @@
   "name": "Copper",
   "title": "Vũ trụ linh tính • SSR Copper",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/copper.png",
+  "avatar": "/images/heroes/icon_heroes/copper.png",
   "fullArt": "/images/heroes/full/image_chopper.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Anh Đào Tung Bay",
-      "icon": "/images/heroes/s_yinhuafeiwu.png",
+      "icon": "/images/icon_skill_heroes/s_yinhuafeiwu.png",
       "description": "Phục hồi 10% HP cho toàn đội phe ta, đồng thời tạo 350% sát thương ma pháp lên toàn bộ địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Khích Lệ",
-      "icon": "/images/heroes/s_qijiyiliao.png",
+      "icon": "/images/icon_skill_heroes/s_qijiyiliao.png",
       "description": "Kĩ năng trước trận. Giảm 350% sát thương toàn đội phe ta phải chịu, kéo dài 2 hiệp",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cấp Cứu",
-      "icon": "/images/heroes/s_jijiu.png",
+      "icon": "/images/icon_skill_heroes/s_jijiu.png",
       "description": "Thi triển thuật cấp cứu cấp độ bậc thầy lên mục tiêu. Phục hồi HP bằng 350% ma pháp cho đồng đội có % HP còn lại thấp nhất phe ta.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "0.0",
-      "icon": "/images/heroes/s_jijiu.png",
+      "icon": "/images/icon_skill_heroes/s_jijiu.png",
       "description": "增加effect的水属性攻击",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "0.0",
-      "icon": "/images/heroes/s_jijiu.png",
+      "icon": "/images/icon_skill_heroes/s_jijiu.png",
       "description": "被攻击时，减少攻击者10%的物理攻击与10%的魔法攻击，每回合最多生效一次",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Anh Đào Tung Bay",
-      "skillIcon": "/images/heroes/s_yinhuafeiwu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yinhuafeiwu.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Anh Đào Tung Bay: \nAnh Đào Tung Bay sẽ giảm 20% tỉ lệ chính xác của địch, kéo dài 2 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,30 +112,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Khích Lệ",
-      "skillIcon": "/images/heroes/s_qijiyiliao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_qijiyiliao.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Khích Lệ: \n Khích Lệ sẽ tăng tấn công vật lí cho phe ta (lượng tăng và giảm sát thương giống nhau).",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 1,
           "type": "hero"
         }
@@ -149,24 +149,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Cấp Cứu",
-      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jijiu.png",
       "skillDesc": "Kĩ năng\nTăng hiệu quả Cấp Cứu: \n Mục tiêu của Cấp Cứu giảm 50% sát thương phải chịu lần sau",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 2,
           "type": "hero"
         }
@@ -180,30 +180,30 @@
       "tierName": "Huyền thoại",
       "auraColor": "amber",
       "skillName": "0.0",
-      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jijiu.png",
       "skillDesc": "Không có",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 2,
           "type": "hero"
         }
@@ -217,30 +217,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "0.0",
-      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jijiu.png",
       "skillDesc": "Không có",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 2,
           "type": "hero"
         }
@@ -254,30 +254,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 2,
           "type": "hero"
         }
@@ -291,30 +291,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Copper",
-          "icon": "/images/heroes/copper.png",
+          "icon": "/images/heroes/icon_heroes/copper.png",
           "amount": 3,
           "type": "hero"
         }
@@ -335,12 +335,12 @@
         {
           "name": "Roger",
           "slug": "roger",
-          "avatar": "/images/heroes/roger.png"
+          "avatar": "/images/heroes/icon_heroes/roger.png"
         },
         {
           "name": "Luffy",
-          "slug": "",
-          "avatar": "/images/heroes/icon_luffy.png"
+          "slug": "luffy",
+          "avatar": "/images/heroes/icon_heroes/luffy.png"
         }
       ]
     },
@@ -350,13 +350,13 @@
       "heroes": [
         {
           "name": "Ninja Rùa",
-          "slug": "",
-          "avatar": "/images/heroes/icon_davinci.png"
+          "slug": "ninja-rua",
+          "avatar": "/images/heroes/icon_heroes/ninja-rua.png"
         },
         {
           "name": "Phượng Hoàng",
           "slug": "phuong-hoang",
-          "avatar": "/images/heroes/phuong-hoang.png"
+          "avatar": "/images/heroes/icon_heroes/phuong-hoang.png"
         }
       ]
     },
@@ -366,13 +366,13 @@
       "heroes": [
         {
           "name": "Ace",
-          "slug": "",
-          "avatar": "/images/heroes/icon_ace.png"
+          "slug": "ace",
+          "avatar": "/images/heroes/icon_heroes/ace.png"
         },
         {
           "name": "Ichigo",
           "slug": "ichigo",
-          "avatar": "/images/heroes/ichigo.png"
+          "avatar": "/images/heroes/icon_heroes/ichigo.png"
         }
       ]
     }

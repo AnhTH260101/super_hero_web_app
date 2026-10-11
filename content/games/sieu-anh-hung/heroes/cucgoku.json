@@ -4,7 +4,7 @@
   "name": "Cực.Goku",
   "title": "Vũ trụ linh tính • UR Cực.Goku",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/cucgoku.png",
+  "avatar": "/images/heroes/icon_heroes/cucgoku.png",
   "fullArt": "/images/heroes/full/image_shengbaishenwukong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Sóng Xung Kích.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s1.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s1.png",
       "description": "Tạo 350% ST ma pháp và 550% ST t.tính Gió lên 1~5 kẻ địch, hút 30% tỉ lệ hồi HP của kẻ địch cộng cho bản thân. Và làm trọng thương mục tiêu, không thể hồi máu trong vòng 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Tức Thời.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s2.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s2.png",
       "description": "Skill trước khi bị đánh: Tăng 350% Né của bản thân (được cộng dồn 10 lần Né (được công liên tiếp 10 lần)), mỗi lần trước khi bị tấn công sẽ tăng cho bản thân một tầng hiệu quả, mỗi tầng hiệu quả khiến skill của bản thân tăng 30% ST tạo ra, hiệu quả kéo dài 3 hiệp sẽ biến mất, nhiều nhất cộng liên tiếp 10 tầng.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Khí Công Pha.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s3.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s3.png",
       "description": "Skill phản đòn: Chuyển tất cả tấn công t.tính thành ma công, tạo 350% ST ma pháp và 900% ST thực t.tính Gió lên toàn thể phe địch, tạo thêm x4-6 ST lên mục tiêu, 50% tỉ lệ khiến mục tiêu hỗn loạn, kéo dài 2 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Cực Ý Công.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s6.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s6.png",
       "description": "Skill tử trận: Hồi sinh sau khi tử trận, hồi tất cả HP. Tạo 350% ST ma công và 850% ST thực t.tính Gió lên toàn thể phe địch, khiến mục tiêu hỗn loạn, kéo dài 2 hiệp, được hồi sinh tối đa 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Tự Tại Cực Ý Công.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s7.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s7.png",
       "description": "Skill trước trận: Tạo 350% ST ma công và 650% ST thực t.tính Gió lên toàn thể phe địch, vĩnh viễn tăng 800% phòng ngự và t.tính phòng ngự cho bản thân, vĩnh viễn tăng 79% giảm thương tổng thể cho bản thân, tăng 30%~60% Vật & Ma Công của bản thân, kéo dài 2 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Khí Hợp Quyền.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s4.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s4.png",
       "description": "Tạo 350% ST ma pháp và 850% ST t.tính Gió lên 3~5 kẻ địch ngẫu nhiên, và khiến mục tiêu hỗn loạn, kéo dài 2 hiệp, giảm 50% tỉ lệ giảm thương tổng thể của mục tiêu, có hiệu lực trong 1 hiệu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Đạn Sinh Lực.Cực",
-      "icon": "/images/heroes/s_baishenwukong_s5.png",
+      "icon": "/images/icon_skill_heroes/s_baishenwukong_s5.png",
       "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành ma công,tạo 350% ST ma pháp và 950% ST thực t.tính Gió lên toàn thể phe địch, hồi toàn bộ HP đã mất, 50% tỉ lệ tăng 50W－100W tấn công t.tính cho đồng đội, có hiệu lực 2 hiệp",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -196,18 +196,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Sóng Xung Kích.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s1.png",
       "skillDesc": "50% tỉ lệ khiến tấn công toàn thuộc tính của mục tiêu giảm còn 0 điểm, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -221,30 +221,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Tức Thời.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s2.png",
       "skillDesc": "Hồi tối đa 20% HP, nếu bản thân đã mất trên 50% HP, thì tăng 50% tỉ lệ hồi phục của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Frieza",
-          "icon": "/images/heroes/frieza.png",
+          "icon": "/images/heroes/icon_heroes/frieza.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -258,24 +258,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Khí Công Pha.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s3.png",
       "skillDesc": "Cộng hiệu quả hồi HP cho bản thân bằng 200% sát thương tạo ra, và giảm 10%~30% Vật & Ma Công của toàn thể kẻ địch, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -289,30 +289,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Khí Hợp Quyền.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s4.png",
       "skillDesc": "Sát thương trở thành ST thực, tạo thêm x3 ST và ST t.tính cho mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Cell",
-          "icon": "/images/heroes/cell.png",
+          "icon": "/images/heroes/icon_heroes/cell.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -326,30 +326,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Đạn Sinh Lực.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s5.png",
       "skillDesc": "Chọn ngẫu nhiên 1 đồng đội, cộng 1 lần Vô Địch cho bản thân và đồng đội đó, sinh hiệu quả 2 lần. Tạo hiệu quả Hỗn Loạn lên 3~5 kẻ địch ngẫu nhiên.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 2,
           "type": "hero"
         }
@@ -363,30 +363,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Cực Ý Công.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s6.png",
       "skillDesc": "Tất cả tấn công thuộc tính chuyển thành Ma Công và tạo ra sát thương thực, đồng thời chọn ngẫu nhiên một mục tiêu để kết liễu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -400,30 +400,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Tự Tại Cực Ý Công.Cực",
-      "skillIcon": "/images/heroes/s_baishenwukong_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baishenwukong_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Chọn ngẫu nhiên một mục tiêu để kết liễu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 2,
           "type": "hero"
         }
@@ -438,22 +438,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
@@ -469,22 +469,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
@@ -500,28 +500,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Khí Hợp Quyền.Cực",
-      "unlockedSkillIcon": "/images/heroes/s_baishenwukong_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_baishenwukong_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -531,22 +531,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -562,22 +562,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
@@ -593,28 +593,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Đạn Sinh Lực.Cực",
-      "unlockedSkillIcon": "/images/heroes/s_baishenwukong_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_baishenwukong_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -624,22 +624,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
@@ -655,22 +655,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "slug": "shirakami-goku"
         }
       ],
@@ -696,7 +696,7 @@
     "id": "39600",
     "slug": "shirakami-goku",
     "name": "Shirakami Goku",
-    "avatar": "/images/heroes/shirakami-goku.png",
+    "avatar": "/images/heroes/icon_heroes/shirakami-goku.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -708,12 +708,12 @@
         {
           "name": "Chizuru",
           "slug": "chizuru",
-          "avatar": "/images/heroes/chizuru.png"
+          "avatar": "/images/heroes/icon_heroes/chizuru.png"
         },
         {
           "name": "Kefla",
           "slug": "kefla",
-          "avatar": "/images/heroes/kefla.png"
+          "avatar": "/images/heroes/icon_heroes/kefla.png"
         }
       ]
     },
@@ -724,7 +724,7 @@
         {
           "name": "Cell",
           "slug": "cell",
-          "avatar": "/images/heroes/cell.png"
+          "avatar": "/images/heroes/icon_heroes/cell.png"
         }
       ]
     },
@@ -735,7 +735,7 @@
         {
           "name": "Frieza",
           "slug": "frieza",
-          "avatar": "/images/heroes/frieza.png"
+          "avatar": "/images/heroes/icon_heroes/frieza.png"
         }
       ]
     },
@@ -746,7 +746,7 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         }
       ]
     }

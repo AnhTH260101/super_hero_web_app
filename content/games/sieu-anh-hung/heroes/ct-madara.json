@@ -4,7 +4,7 @@
   "name": "CT-Madara",
   "title": "Vũ trụ sức mạnh • UR CT-Madara",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-madara.png",
+  "avatar": "/images/heroes/icon_heroes/ct-madara.png",
   "fullArt": "/images/heroes/full/image_Uchiha_Madara.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Tiên Pháp.Ám Độn Lôi-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s1.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s1.png",
       "description": "Tấn công mục tiêu nhất định, tạo 350% ST ma pháp và 500% ST t.tính Lửa lên mục tiêu; Mục tiêu bị tấn công có 50% tỉ lệ hôn mê 2 hiệp;\nTấn công mục tiêu quá nhiều hoặc quá ít đều hạn chế tăng lượng sát thương;\nTấn công 3 mục tiêu, ST ma pháp và ST thuộc tính tăng gấp 4;\nTấn công 2 hoặc 4 mục tiêu, ST ma pháp và ST thuộc tính tăng gấp 2;\nTấn công 1 hoặc 5 mục tiêu, không tăng ST ma pháp và ST thuộc tính.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Luân Mộ.Biên Ngục-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s2.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s2.png",
       "description": "Skill phản đòn: 99% tỉ lệ sau khi chịu tấn công, thả \"Luân Mộ\", tấn công mục tiêu địch, tạo 350% ST ma pháp & 300% ST t.tính Lửa lên 1-5 mục tiêu; 50% tỉ lệ giảm 50% Chính Xác của mục tiêu, kéo dài 1 hiệp (Mỗi hiệp tối đa phát động 1 lần).",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tiên Pháp.Lam Độn Nha-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s3.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s3.png",
       "description": "Skill trước trận: Tấn công kẻ địch nhất định, tạo 350% ST thực của Vật & Ma Công và 200% ST t.tính Lửa, giảm giới hạn HP của mục tiêu, lượng giảm không vượt quá 10% HP lớn nhất hiện tại của mục tiêu (Hiệu lực vĩnh viễn).",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tengai Shinsei-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s6.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s6.png",
       "description": "Skill trước hiệp: Tấn công dãy trước hoặc dãy sau, và chuyển Ma Công của bản thân thành Vật Công, Tấn Công t.tính Lửa chuyển thành Tấn Công t.tính Đất, tạo 350% ST vật lý và 800% ST t.tính Đất lên mục tiêu; khiến mục tiêu hôn mê hoặc trọng thương 1 hiệp, mục tiêu bị trọng thương sẽ giảm 80% năng lực hồi HP. Và hồi tất cả HP đã mất.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Tsukuyomi Vô Hạn-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s7.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s7.png",
       "description": "Skill trước khi bị đánh: Tăng 79% giảm sát tổng thể của bản thân, và thả Tsukuyomi Vô Hạn lên mỗi mục tiêu trừ bản thân (Bất kể địch hay ta), 50% tỉ lệ khiến mục tiêu bị khống chế 2 hiệp. (Mỗi hiệp tối đa phát động 1 lần)",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Susanoo.Chém Ngang-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s4.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s4.png",
       "description": "Chuyển hóa Ma Công của bản thân thành Vật Công, tấn công toàn thể mục tiêu, tạo 350% ST vật lý và 800% ST t.tính Lửa lên mục tiêu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Thụ thần.Bijyudama-Thánh",
-      "icon": "/images/heroes/s_Uchiha_Madara_s5.png",
+      "icon": "/images/icon_skill_heroes/s_Uchiha_Madara_s5.png",
       "description": "Chuyển tấn công toàn thuộc tính và Vật Công của bản thân thành Ma Công, tấn công toàn thể mục tiêu, trị số sát thương bằng 350% ST thực của Ma Công và 10%-40% giới hạn HP của bản thân, và hiệp sau cộng thêm ST tụt máu tương đương tấn công lần này.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Tiên Pháp.Ám Độn Lôi-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s1.png",
       "skillDesc": "Tỉ lệ hôn mê tăng lên 60%, và giảm 50% Tốc Độ của mục tiêu, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,18 +215,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Luân Mộ.Biên Ngục-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s2.png",
       "skillDesc": "Giảm 80% bạo kích và 30% phòng ngự toàn thuộc tính của mục tiêu, kéo dài 1 hiệp. Nếu mục tiêu ở trạng thái trọng thương, mục tiêu đó sẽ bị mù 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -240,18 +240,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Tiên Pháp.Lam Độn Nha-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s3.png",
       "skillDesc": "Giảm giới hạn HP của mục tiêu tăng đến tối đa 15% HP lớn nhất hiện tại; Hút 10% Vật Công, Ma Công, Phòng Ngự, Tốc Độ, tấn công toàn thuộc tính và phòng ngự toàn thuộc tính của mục tiêu, hiệu lực lâu dài.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -265,30 +265,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Susanoo.Chém Ngang-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s4.png",
       "skillDesc": "80% tỉ lệ chuyển hóa sát thương vật lý thành sát thương thực và tăng thêm X3 sát thương t.tính, tăng 50W-300W phòng ngự và phòng ngự t.tính cho bản thân, hiệu lực 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Hashirama",
-          "icon": "/images/heroes/hashirama.png",
+          "icon": "/images/heroes/icon_heroes/hashirama.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 1,
           "type": "hero"
         }
@@ -302,30 +302,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thụ thần.Bijyudama-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s5.png",
       "skillDesc": "Hút 20% tấn công toàn thuộc tính, Vật Công và Ma Công của mục tiêu, hiệu lực 1 hiệp; Và giảm 50% giảm thương và giảm thương thuộc tính của mục tiêu, hiệu lực 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 2,
           "type": "hero"
         }
@@ -339,30 +339,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Tengai Shinsei-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s6.png",
       "skillDesc": "Bỏ qua hiệu quả đứng im, choáng, mê hoặc, hóa đá, hôn mê,  Tsukuyomi và băng phong; Tăng 500%-800% phòng ngự và phòng ngự thuộc tính cho bản thân, hiệu lực 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 3,
           "type": "hero"
         }
@@ -376,30 +376,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Tsukuyomi Vô Hạn-Thánh",
-      "skillIcon": "/images/heroes/s_Uchiha_Madara_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s7.png",
       "skillDesc": "Tỉ lệ đồng đội bị khống chế giảm còn 30%, tỉ lệ mục tiêu địch bị khống chế tăng lên 60%, và tăng 300% phòng ngự và phòng ngự thuộc tính cho toàn thể đồng đội, hiệu lực 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 3,
           "type": "hero"
         }
@@ -414,22 +414,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
@@ -445,22 +445,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
@@ -476,28 +476,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Susanoo.Chém Ngang-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Uchiha_Madara_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -507,22 +507,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -538,22 +538,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
@@ -569,28 +569,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Thụ thần.Bijyudama-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Uchiha_Madara_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Uchiha_Madara_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -600,22 +600,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
@@ -631,22 +631,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "slug": "madara"
         }
       ],
@@ -676,7 +676,7 @@
     "id": "37900",
     "slug": "madara",
     "name": "Madara",
-    "avatar": "/images/heroes/madara.png",
+    "avatar": "/images/heroes/icon_heroes/madara.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -688,12 +688,12 @@
         {
           "name": "Uchiha",
           "slug": "uchiha",
-          "avatar": "/images/heroes/uchiha.png"
+          "avatar": "/images/heroes/icon_heroes/uchiha.png"
         },
         {
           "name": "Sasuke (Susano)",
           "slug": "sasuke-susano",
-          "avatar": "/images/heroes/sasuke-susano.png"
+          "avatar": "/images/heroes/icon_heroes/sasuke-susano.png"
         }
       ]
     },
@@ -704,7 +704,7 @@
         {
           "name": "Kil'jaeden",
           "slug": "kiljaeden",
-          "avatar": "/images/heroes/kiljaeden.png"
+          "avatar": "/images/heroes/icon_heroes/kiljaeden.png"
         }
       ]
     },
@@ -715,7 +715,7 @@
         {
           "name": "Chris",
           "slug": "chris",
-          "avatar": "/images/heroes/chris.png"
+          "avatar": "/images/heroes/icon_heroes/chris.png"
         }
       ]
     },
@@ -726,7 +726,7 @@
         {
           "name": "Yagami Iori",
           "slug": "yagami-iori",
-          "avatar": "/images/heroes/yagami-iori.png"
+          "avatar": "/images/heroes/icon_heroes/yagami-iori.png"
         }
       ]
     }

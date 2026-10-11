@@ -4,7 +4,7 @@
   "name": "CT-Kikyo",
   "title": "Vũ trụ linh tính • UR CT-Kikyo",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-kikyo.png",
+  "avatar": "/images/heroes/icon_heroes/ct-kikyo.png",
   "fullArt": "/images/heroes/full/image_jiegeng.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Linh Lực Xung Kích",
-      "icon": "/images/heroes/s_jiegeng_s1.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s1.png",
       "description": "Gây 350% ST vật lý và 550% ST thuộc tính Thủy cho ngẫu nhiên 3-5 kẻ địch, Trói Buộc mục tiêu trong 1 lượt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Kết Giới",
-      "icon": "/images/heroes/s_jiegeng_s2.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s2.png",
       "description": "Kỹ năng trước khi bị đánh: Giảm 50% khả năng tấn công kép Ma - Vật và tấn công toàn thuộc tính của phe địch, hồi phục 30% HP bản thân và tăng 1 lần Vô Địch, duy trì 1 lượt.",
       "cooldown": null,
       "breakthrough": {
@@ -46,7 +46,7 @@
     },
     {
       "name": "Giải Phóng Linh Lực",
-      "icon": "/images/heroes/s_jiegeng_s3.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s3.png",
       "description": "Gây 350% ST vật lý và 550% ST thuộc tính Thủy cho toàn bộ phe địch, đồng thời giảm 50% tỉ lệ Giảm Thương chỉnh thể của mục tiêu trong 2 lượt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -61,7 +61,7 @@
     },
     {
       "name": "Phục Sinh - Tử Linh Long",
-      "icon": "/images/heroes/s_jiegeng_s6.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s6.png",
       "description": "Kỹ năng tử vong: Phục hồi toàn bộ HP bản thân, gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy cho toàn bộ phe địch, tạo ra thêm ST thực bằng 30% HP cao nhất của bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -76,7 +76,7 @@
     },
     {
       "name": "Điệp - Thuật Thanh Tẩy",
-      "icon": "/images/heroes/s_jiegeng_s7.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s7.png",
       "description": "Kỹ năng tiền chiến: Triệu hồi Linh Điệp tấn công phe địch, tăng 200% giới hạn HP bản thân và 79% Giảm Thương chỉnh thể, đồng thời giảm 80% khả năng tấn công kép Ma - Vật của phe địch, gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy, tạo ra thêm gấp 5 lần ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -91,7 +91,7 @@
     },
     {
       "name": "Linh Lực - Bạo Tạc",
-      "icon": "/images/heroes/s_jiegeng_s4.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s4.png",
       "description": "Gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy cho toàn bộ phe địch, hồi phục toàn bộ HP và gây thêm ST thực bằng 50% HP tối đa.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     },
     {
       "name": "Mũi Tên Trừ Tà",
-      "icon": "/images/heroes/s_jiegeng_s5.png",
+      "icon": "/images/icon_skill_heroes/s_jiegeng_s5.png",
       "description": "Kỹ năng trước lượt đấu: Phục hồi 50% HP bản thân và khiến mục tiêu Trọng Thương, gây ra 350% ST vật lý và 1200% ST thực thuộc tính Thủy cho toàn bộ phe địch.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -218,18 +218,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Linh Lực Xung Kích",
-      "skillIcon": "/images/heroes/s_jiegeng_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s1.png",
       "skillDesc": "Gây ra thêm gấp 5 lần ST và ST thuộc tính, đồng thời giảm 80% khả năng Né Tránh và Trúng Đích của kẻ địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -243,30 +243,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Kết Giới",
-      "skillIcon": "/images/heroes/s_jiegeng_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s2.png",
       "skillDesc": "Trói Buộc ngẫu nhiên 2-3 mục tiêu, đồng thời khiến chúng không thể phát động kỹ năng trước khi bị đánh ở lượt hiện tại, số lần kích hoạt mỗi lượt biến thành 3 lần.\n",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "InuYasha",
-          "icon": "/images/heroes/inuyasha.png",
+          "icon": "/images/heroes/icon_heroes/inuyasha.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -280,24 +280,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Giải Phóng Linh Lực",
-      "skillIcon": "/images/heroes/s_jiegeng_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s3.png",
       "skillDesc": "Gây ra thêm gấp 5 lần ST và ST thuộc tính đối với mục tiêu có HP ít nhất và nhiều nhất.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -311,30 +311,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Linh Lực - Bạo Tạc",
-      "skillIcon": "/images/heroes/s_jiegeng_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s4.png",
       "skillDesc": "Gây ra thêm gấp 5 lần ST và ST thuộc tính và Diệt Ngay mục tiêu có HP thấp hơn 30%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "InuYasha",
-          "icon": "/images/heroes/inuyasha.png",
+          "icon": "/images/heroes/icon_heroes/inuyasha.png",
           "amount": 5,
           "type": "hero"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -348,30 +348,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Mũi Tên Trừ Tà",
-      "skillIcon": "/images/heroes/s_jiegeng_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s5.png",
       "skillDesc": "Gây ra thêm gấp 10 lần ST và ST thuộc tính, đồng thời có 50% cơ hội lại tạo ra 1 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -385,30 +385,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Phục Sinh - Tử Linh Long",
-      "skillIcon": "/images/heroes/s_jiegeng_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s6.png",
       "skillDesc": "Tối đa có thể hồi sinh 3 lần, Trói Buộc ngẫu nhiên 2-3 mục tiêu, đồng thời khiến chúng không thể phát động kỹ năng trước khi bị đánh ở lượt hiện tại, sau khi hồi sinh, mỗi lần tấn công tạo tăng gấp 3 lần ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -422,30 +422,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Điệp - Thuật Thanh Tẩy",
-      "skillIcon": "/images/heroes/s_jiegeng_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jiegeng_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi, gây ra thêm ST thực bằng 50% HP cao nhất của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -460,22 +460,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
@@ -491,22 +491,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
@@ -522,28 +522,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Linh Lực - Bạo Tạc",
-      "unlockedSkillIcon": "/images/heroes/s_jiegeng_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_jiegeng_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -553,22 +553,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -584,22 +584,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
@@ -615,28 +615,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Mũi Tên Trừ Tà",
-      "unlockedSkillIcon": "/images/heroes/s_jiegeng_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_jiegeng_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -646,22 +646,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
@@ -677,22 +677,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kikyo",
-          "icon": "/images/heroes/kikyo.png",
+          "icon": "/images/heroes/icon_heroes/kikyo.png",
           "slug": "kikyo"
         }
       ],
@@ -718,7 +718,7 @@
     "id": "41900",
     "slug": "kikyo",
     "name": "Kikyo",
-    "avatar": "/images/heroes/kikyo.png",
+    "avatar": "/images/heroes/icon_heroes/kikyo.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -730,12 +730,12 @@
         {
           "name": "Shalltear",
           "slug": "shalltear",
-          "avatar": "/images/heroes/shalltear.png"
+          "avatar": "/images/heroes/icon_heroes/shalltear.png"
         },
         {
           "name": "Số 18",
           "slug": "so-18",
-          "avatar": "/images/heroes/so-18.png"
+          "avatar": "/images/heroes/icon_heroes/so-18.png"
         }
       ]
     },
@@ -746,7 +746,7 @@
         {
           "name": "Tornado",
           "slug": "tornado",
-          "avatar": "/images/heroes/tornado.png"
+          "avatar": "/images/heroes/icon_heroes/tornado.png"
         }
       ]
     },
@@ -757,7 +757,7 @@
         {
           "name": "Piccolo",
           "slug": "piccolo",
-          "avatar": "/images/heroes/piccolo.png"
+          "avatar": "/images/heroes/icon_heroes/piccolo.png"
         }
       ]
     },
@@ -768,7 +768,7 @@
         {
           "name": "InuYasha",
           "slug": "inuyasha",
-          "avatar": "/images/heroes/inuyasha.png"
+          "avatar": "/images/heroes/icon_heroes/inuyasha.png"
         }
       ]
     }

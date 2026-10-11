@@ -4,7 +4,7 @@
   "name": "Broli",
   "title": "Vũ trụ linh tính • SSR Broli",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/broli.png",
+  "avatar": "/images/heroes/icon_heroes/broli.png",
   "fullArt": "/images/heroes/full/image_Buluoli.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Đạn Khí",
-      "icon": "/images/heroes/s_Buluoli_s1.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s1.png",
       "description": "Gây ra gấp 4 lần 350% ST ma pháp và 550% ST thuộc tính Hỏa cho ngẫu nhiên 3-5 kẻ địch, khiến mục tiêu Mù 1 lượt.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Khinh Công",
-      "icon": "/images/heroes/s_Buluoli_s2.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s2.png",
       "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST ma pháp, giảm 90% Trúng Đích và Bạo Kích cho toàn phe địch, hồi phục 100% HP bản thân, đồng thời thêm 1 lần Vô Địch cho mình, duy trì 1 lượt.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Pháo Cannon",
-      "icon": "/images/heroes/s_Buluoli_s3.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s3.png",
       "description": "Kỹ năng phản kích: Tất cả tấn công thuộc tính chuyển thành tấn công ma pháp, gây ra 350% ST thực cho ngẫu nhiên 3-5 kẻ địch, đồng thời hồi full HP (bỏ qua Trọng Thương), tạo ra hiệu ứng Chảy Máu.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Ác Mộng Chấn Động",
-      "icon": "/images/heroes/s_Buluoli_s6.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s6.png",
       "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Hỏa. Ngẫu nhiên tiêu diệt 1 đơn vị. Tối đa hồi sinh 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Giác Tỉnh",
-      "icon": "/images/heroes/s_Buluoli_s7.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s7.png",
       "description": "Kỹ năng trước lượt đấu: Tăng 180% HP/ 79% Giảm Thương, Trúng Đích và Né Tránh của bản thân, gây ra thêm ST thực bằng 50% HP .",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Vực Sâu",
-      "icon": "/images/heroes/s_Buluoli_s4.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s4.png",
       "description": "Gây ra 350% ST ma pháp và 1200% ST thực thuộc tính Hỏa cho toàn thể phe địch, đồng thời hồi full HP (bỏ qua Trọng Thương), gây ra thêm ST thực bằng 50% HP",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Siêu Sao Bạo Tạc",
-      "icon": "/images/heroes/s_Buluoli_s5.png",
+      "icon": "/images/icon_skill_heroes/s_Buluoli_s5.png",
       "description": "Kỹ năng trước lượt đấu: Hồi phục 50% HP, gây ra 350% ST thực của tấn công ma pháp cho toàn phe địch và làm Trọng Thương mục tiêu.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-broli",
       "name": "CT-Broli",
-      "avatar": "/images/heroes/ct-broli.png",
+      "avatar": "/images/heroes/icon_heroes/ct-broli.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Trong truyền thuyết của người Saiyan, cứ mỗi 1000 năm sẽ xuất hiện một Siêu Cấp Chiến Sĩ mạnh nhất toàn vũ trụ, tính cách khát máu, hung bạo và hiếu chiến, có sức chiến đấu vô cùng khủng bố."
@@ -114,7 +114,7 @@
     {
       "slug": "cuonbroli",
       "name": "CuồnBroli",
-      "avatar": "/images/heroes/cuonbroli.png",
+      "avatar": "/images/heroes/icon_heroes/cuonbroli.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Trong truyền thuyết của người Saiyan, cứ mỗi 1000 năm sẽ xuất hiện một Siêu Cấp Chiến Sĩ mạnh nhất toàn vũ trụ, tính cách khát máu, hung bạo và hiếu chiến, có sức chiến đấu vô cùng khủng bố."
@@ -127,18 +127,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Đạn Khí",
-      "skillIcon": "/images/heroes/s_Buluoli_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s1.png",
       "skillDesc": "Khiến tất cả thuộc tính Tấn Công và Phòng Ngự của mục tiêu về 0, duy trì 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -152,30 +152,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Khinh Công",
-      "skillIcon": "/images/heroes/s_Buluoli_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s2.png",
       "skillDesc": "Khiến mục tiêu Chảy Máu và tất cả thuộc tính Tấn Công Phòng Ngự về 0 (lượt này ST khi tấn công có giá trị), mỗi lượt kích hoạt số lần thành 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kefla",
-          "icon": "/images/heroes/kefla.png",
+          "icon": "/images/heroes/icon_heroes/kefla.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 1,
           "type": "hero"
         }
@@ -189,24 +189,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Pháo Cannon",
-      "skillIcon": "/images/heroes/s_Buluoli_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s3.png",
       "skillDesc": "Đối mục tiêu gây ra thêm ST và ST thuộc tính bằng 800% Tốc Độ bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 1,
           "type": "hero"
         }
@@ -220,30 +220,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Vực Sâu",
-      "skillIcon": "/images/heroes/s_Buluoli_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s4.png",
       "skillDesc": "Gây ra thêm gấp 5 lần ST và ST thuộc tính, đồng thời tiêu diệt ngay lập tức mục tiêu có HP ít hơn 30%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kefla",
-          "icon": "/images/heroes/kefla.png",
+          "icon": "/images/heroes/icon_heroes/kefla.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 1,
           "type": "hero"
         }
@@ -257,30 +257,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Siêu Sao Bạo Tạc",
-      "skillIcon": "/images/heroes/s_Buluoli_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s5.png",
       "skillDesc": "Gây ra thêm gấp 10 lần ST và ST thuộc tính, đồng thời có 50% cơ hội lại tạo ra 1 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 2,
           "type": "hero"
         }
@@ -294,30 +294,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Ác Mộng Chấn Động",
-      "skillIcon": "/images/heroes/s_Buluoli_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s6.png",
       "skillDesc": "Tối đa hồi sinh 3 lần (bỏ qua hiệu ứng Trọng Thương), gây ra gấp 4-6 lần ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 1,
           "type": "hero"
         }
@@ -331,30 +331,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Giác Tỉnh",
-      "skillIcon": "/images/heroes/s_Buluoli_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Buluoli_s7.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi, tăng 300% tấn công ma pháp của bản thân, khiến ngẫu nhiên 1 mục tiêu không thể phát động kỹ năng tử vong và tiêu diệt nó ngay lập tức.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "amount": 2,
           "type": "hero"
         }
@@ -369,22 +369,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -400,22 +400,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -431,28 +431,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Vực Sâu",
-      "unlockedSkillIcon": "/images/heroes/s_Buluoli_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Buluoli_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -462,22 +462,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -493,22 +493,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         }
       ],
@@ -524,28 +524,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Siêu Sao Bạo Tạc",
-      "unlockedSkillIcon": "/images/heroes/s_Buluoli_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Buluoli_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -555,22 +555,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -586,22 +586,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Broli",
-          "icon": "/images/heroes/broli.png",
+          "icon": "/images/heroes/icon_heroes/broli.png",
           "slug": "broli"
         }
       ],
@@ -634,12 +634,12 @@
         {
           "name": "Shirakami Goku",
           "slug": "shirakami-goku",
-          "avatar": "/images/heroes/shirakami-goku.png"
+          "avatar": "/images/heroes/icon_heroes/shirakami-goku.png"
         },
         {
           "name": "Frieza",
           "slug": "frieza",
-          "avatar": "/images/heroes/frieza.png"
+          "avatar": "/images/heroes/icon_heroes/frieza.png"
         }
       ]
     },
@@ -650,7 +650,7 @@
         {
           "name": "Piccolo",
           "slug": "piccolo",
-          "avatar": "/images/heroes/piccolo.png"
+          "avatar": "/images/heroes/icon_heroes/piccolo.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Số 18",
           "slug": "so-18",
-          "avatar": "/images/heroes/so-18.png"
+          "avatar": "/images/heroes/icon_heroes/so-18.png"
         }
       ]
     },
@@ -672,7 +672,7 @@
         {
           "name": "Cell",
           "slug": "cell",
-          "avatar": "/images/heroes/cell.png"
+          "avatar": "/images/heroes/icon_heroes/cell.png"
         }
       ]
     }

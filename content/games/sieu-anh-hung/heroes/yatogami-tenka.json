@@ -4,7 +4,7 @@
   "name": "Yatogami Tenka",
   "title": "Vũ trụ linh tính • UR Yatogami Tenka",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_shenshixiang2.png",
+  "avatar": "/images/heroes/icon_heroes/icon_shenshixiang2.png",
   "fullArt": "/images/heroes/full/image_shenshixiang2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Linh Năng Trảm - Chém Vai",
-      "icon": "/images/heroes/s_shenshixiang2_s1.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s1.png",
       "description": "Tenka nhảy đến phe địch, gâu ra 350% ST vật lý và 300% ST thuộc tính Thủy.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Linh Năng Trảm - Cảm Tri",
-      "icon": "/images/heroes/s_shenshixiang2_s2.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s2.png",
       "description": "Khi Tenka bị tấn công sẽ mở ra Khiên Linh Lực hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương) và dẫn đến Nổ Linh Lực, gây ra 350% ST thực vật lý và 300% ST thực thuộc tính Thủy cho toàn phe địch.",
       "cooldown": null,
       "breakthrough": {
@@ -46,7 +46,7 @@
     },
     {
       "name": "Linh Năng Trảm - Phản Kích",
-      "icon": "/images/heroes/s_shenshixiang2_s3.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s3.png",
       "description": "Kĩ năng phản kích: Khi Tenka bị thương sẽ tiến hành phản kích, gây ra 350% ST vật lý và 550% ST thuộc tính Thủy cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -61,7 +61,7 @@
     },
     {
       "name": "Linh Năng Cuồng Bạo",
-      "icon": "/images/heroes/s_shenshixiang2_s6.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s6.png",
       "description": "Kĩ năng Hồi Sinh: Tenka thả ra toàn bộ Linh Lực bản thân, biến tất cả tấn công thuộc tính thành tấn công vật lý, và mất khống chế sức mạnh bản thân. Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), gây ra 350% ST thực vật lý, tối đa có thể Hồi SInh 3 lần. Diệt Ngay 1 đơn vị ngẫu nhiên.",
       "cooldown": null,
       "breakthrough": {
@@ -76,7 +76,7 @@
     },
     {
       "name": "Kiếm Chung Yên",
-      "icon": "/images/heroes/s_shenshixiang2_s7.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s7.png",
       "description": "Kĩ năng trước chiến đấu: Yatogami Tenka phóng ra sức mạnh Tinh Linh, vĩnh viễn tăng lên 230% HP tối đa bản thân và 79% Giảm Thương toàn thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích cho bản thân. Gây ra 350% ST thực vật lý và 1500% ST thực thuộc tính Thủy cho toàn phe địch. Và Truy Kích ST thực bằng 50% HP tối đa bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -91,7 +91,7 @@
     },
     {
       "name": "Linh Năng Trảm - Liên Trảm",
-      "icon": "/images/heroes/s_shenshixiang2_s4.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s4.png",
       "description": "Tenka phóng ra Linh Lực phát động kĩ năng, gây ra 350% ST vật lý và 1200% ST thuộc tính Thủy cho toàn phe địch, hồi phục toàn bộ HP bản thân.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     },
     {
       "name": "Nahema",
-      "icon": "/images/heroes/s_shenshixiang2_s5.png",
+      "icon": "/images/icon_skill_heroes/s_shenshixiang2_s5.png",
       "description": "Kĩ năng trước lượt đấu: Tenka thả ra Linh Lực đã tập hợp, chém ra Kiếm Khí Linh Lực cực lớn, tất cả tấn công thuộc tính bị chuyển thành tấn công vật lý, gây ra 350% ST thực vật lý, hồi phục 100% HP bản thân (bỏ qua Trọng Thương).",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -218,18 +218,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Linh Năng Trảm - Chém Vai",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s1.png",
       "skillDesc": "Tập hợp Linh Lực, khiến toàn bộ Phòng Ngự và Tấn Công thuộc tính của mục tiêu giảm về 0, tạo ra thêm gấp 5 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -243,30 +243,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Linh Năng Trảm - Cảm Tri",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s2.png",
       "skillDesc": "Số lần kích hoạt tối đa thay đổi thành 3, gây thêm ST thực bằng 50% HP, cho bản thân và ngẫu nhiên 1 đồng đội 1 lần Vô Địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 1,
           "type": "hero"
         }
@@ -280,24 +280,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Linh Năng Trảm - Phản Kích",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s3.png",
       "skillDesc": "Trói Buộc mục tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 1,
           "type": "hero"
         }
@@ -311,30 +311,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Linh Năng Trảm - Liên Trảm",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s4.png",
       "skillDesc": "Diệt Ngay ngẫu nhiên 1 đơn vị.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 5,
           "type": "hero"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 1,
           "type": "hero"
         }
@@ -348,30 +348,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Nahema",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s5.png",
       "skillDesc": "Truy kích thêm với ST thực bằng 100% HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -385,30 +385,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Linh Năng Cuồng Bạo",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa thay đổi thành 4, gây thêm gấp 8 lần ST với mục tiêu, sau khi Hồi Sinh thì chỉnh thể  ST của kĩ năng này tăng gấp 6. Kĩ năng này nhận được hiệu ứng \"Ổn Định\" (hệ số Công của kĩ năng này sẽ không gặp hiệu ứng Tăng/ Giảm nữa).",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 1,
           "type": "hero"
         }
@@ -422,30 +422,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kiếm Chung Yên",
-      "skillIcon": "/images/heroes/s_shenshixiang2_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hỗn Loạn, Chế Giễu, Tsukuyomi, ngẫu nhiên Diệt Ngay 1 đơn vị, tăng cho bản thân 25% hiệu ứng Mệt Mỏi.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "amount": 2,
           "type": "hero"
         }
@@ -460,22 +460,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
@@ -491,22 +491,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
@@ -522,28 +522,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Linh Năng Trảm - Liên Trảm",
-      "unlockedSkillIcon": "/images/heroes/s_shenshixiang2_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -553,22 +553,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -584,22 +584,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
@@ -615,28 +615,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Nahema",
-      "unlockedSkillIcon": "/images/heroes/s_shenshixiang2_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shenshixiang2_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -646,22 +646,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
@@ -677,22 +677,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Yatogami Tohka",
-          "icon": "/images/heroes/icon_shenshixiang.png",
+          "icon": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "slug": "yatogami-tohka"
         }
       ],
@@ -721,7 +721,7 @@
     "id": "42700",
     "slug": "yatogami-tohka",
     "name": "Yatogami Tohka",
-    "avatar": "/images/heroes/icon_shenshixiang.png",
+    "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -733,12 +733,12 @@
         {
           "name": "Kenpachi Zaraki",
           "slug": "kenpachi-zaraki",
-          "avatar": "/images/heroes/kenpachi-zaraki.png"
+          "avatar": "/images/heroes/icon_heroes/kenpachi-zaraki.png"
         },
         {
           "name": "Kusajishi Yachiru",
           "slug": "kusajishi-yachiru",
-          "avatar": "/images/heroes/kusajishi-yachiru.png"
+          "avatar": "/images/heroes/icon_heroes/kusajishi-yachiru.png"
         }
       ]
     },
@@ -749,7 +749,7 @@
         {
           "name": "Maple",
           "slug": "maple",
-          "avatar": "/images/heroes/maple.png"
+          "avatar": "/images/heroes/icon_heroes/maple.png"
         }
       ]
     },
@@ -760,7 +760,7 @@
         {
           "name": "Albedo",
           "slug": "albedo",
-          "avatar": "/images/heroes/albedo.png"
+          "avatar": "/images/heroes/icon_heroes/albedo.png"
         }
       ]
     },
@@ -771,7 +771,7 @@
         {
           "name": "Kurumi",
           "slug": "kurumi",
-          "avatar": "/images/heroes/kurumi.png"
+          "avatar": "/images/heroes/icon_heroes/kurumi.png"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "name": "CT-Kula",
   "title": "Vũ trụ sức mạnh • UR CT-Kula",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-kula.png",
+  "avatar": "/images/heroes/icon_heroes/ct-kula.png",
   "fullArt": "/images/heroes/full/image_kula.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Vết Cắn Quạ-Thánh",
-      "icon": "/images/heroes/s_Kula_skill1.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill1.png",
       "description": "Skill trước trận: Tấn công kẻ địch mặc định, tạo 350% ST ma pháp và 500% ST t.tính Nước, tịnh hóa kẻ địch có thể xóa tất cả buff có lợi, 50% tỉ lệ đóng băng kẻ địch 1 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Băng Đá Quý-Thánh",
-      "icon": "/images/heroes/s_Kula_skill2.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill2.png",
       "description": "Tạo sát thương lên 1 hàng mặc định, tạo 350% ST ma pháp và 300% ST t.tính Nước, và có 20% tỉ lệ khiến kẻ địch ra máu. Mỗi hiệp tạo 10% tổng sát thương, kéo dài 3 hiệp. Tạo thêm X2 ST ma pháp và ST t.tính Nước lên kẻ địch đóng băng và trọng thương.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Băng Quan-Thánh",
-      "icon": "/images/heroes/s_Kula_skill3.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill3.png",
       "description": "Skill trước hiệp: Tăng vĩnh viễn 350% giảm thương cho toàn thể phe ta, toàn thể hồi HP bằng 30% giới hạn HP của Kula. Tăng phòng ngự t.tính Lửa cho tất cả thành viên bằng 200% TC t.tính Nước của Kula. Tăng 150% ST bản thân. Miễn dịch Đứng Im, Mê Hoặc, Đóng Băng, Hóa Đá 1 hiệp.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Vỏ Sò Phản Đòn-Thánh",
-      "icon": "/images/heroes/s_Kula_skill6.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill6.png",
       "description": "Skill phản đòn: 99% tỉ lệ phản đòn kẻ địch, tạo 350% ST ma pháp và 500% ST t.tính Nước, và có 50% tỉ lệ khiến kẻ địch giảm 50% tốc độ. Mỗi hiệp tối đa hiệu lực 3 lần. Nếu lúc này bản thân bị bỏng, skill này không hiệu lực.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Đóng Băng Tuyệt Đối-Thánh",
-      "icon": "/images/heroes/s_Kula_skill7.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill7.png",
       "description": "Skill tử trận: Hồi tất cả HP của bản thân, tăng vĩnh viễn 350% ST ma pháp và 200% TC t.tính Nước cho bản thân, giảm vĩnh viễn 30% Vật Công của toàn thể địch. Tăng vĩnh viễn 200% Phòng Ngự, chỉ hiệu lực 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Viền Kim Cương-Thánh",
-      "icon": "/images/heroes/s_Kula_skill4.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill4.png",
       "description": "Tạo 350% ST ma pháp và 800% ST t.tính Nước lên toàn thể địch, 30% tỉ lệ đóng băng kẻ địch 1 hiệp, 20% tỉ lệ khiến kẻ địch trọng thương, giảm 65% năng lực hồi phục của mục tiêu. Tạo thêm X2 ST ma pháp và ST t.tính Nước lên kẻ địch bị đóng băng và trọng thương. Tạo thêm X2 ST ma pháp và ST t.tính Nước lên đơn vị dãy sau.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Kết Giới Băng-Thánh",
-      "icon": "/images/heroes/s_Kula_skill5.png",
+      "icon": "/images/icon_skill_heroes/s_Kula_skill5.png",
       "description": "Tạo 350% ST ma pháp và 800% ST t.tính Nước lên toàn thể địch, 99% tỉ lệ giảm vĩnh viễn 50% tốc độ của phe địch, và có 30% tỉ lệ đóng băng kẻ địch 1 hiệp, tạo thêm X4 ST ma pháp và ST t.tính Nước lên kẻ địch bị đóng băng và trọng thương, tạo thêm X2 ST ma pháp và ST t.tính Nước lên đơn vị dãy trước. Giảm 25% ST của phe địch.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Vết Cắn Quạ-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill1.png",
       "skillDesc": "Tăng X2 tất cả sát thương. Tấn công dãy trước, nếu kẻ địch là mục tiêu mặc định, sẽ X3 sát thương. Hồi HP của tất cả đồng đội, trị số HP bằng ST t.tính Nước đã tạo.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,18 +215,18 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Băng Đá Quý-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill2.png",
       "skillDesc": "Tăng X2 tất cả sát thương, 99% tỉ lệ xuất huyết. 50% tỉ lệ phá giáp phe địch, giảm 99% phòng ngự, kéo dài 2 hiệp. Và có 40% tỉ lệ đóng băng kẻ địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         }
@@ -240,18 +240,18 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Băng Quan-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill3.png",
       "skillDesc": "Tăng 30% Né, Chính Xác, Tốc Độ, Bạo Kích mãi mãi cho bản thân, tăng 100% Ma Công và tấn công t.tính Nước",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 30,
           "type": "item"
         }
@@ -265,30 +265,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Vỏ Sò Phản Đòn-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill6.png",
       "skillDesc": "20% tỉ lệ làm kẻ địch Đứng Im, kéo dài 1 hiệp, tạo thêm X3 ST lên kẻ địch bị trọng thương hoặc đóng băng, và tạo HQ sát thương đóng băng, mỗi hiệp tạo ST bằng 10%-30% HP lớn nhất, kéo dài 3 hiệp, khi bắt đầu hiệp đấu, HQ sát thương đóng băng sẽ chuyển cho 1 kẻ địch khác.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Chris",
-          "icon": "/images/heroes/chris.png",
+          "icon": "/images/heroes/icon_heroes/chris.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 1,
           "type": "hero"
         }
@@ -302,30 +302,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Đóng Băng Tuyệt Đối-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill7.png",
       "skillDesc": "10% tỉ lệ chọn 1 mục tiêu địch, giảm 99% Né, phe địch chịu HQ sát thương đóng băng, mỗi hiệp tạo ST bằng 10%-30% HP lớn nhất của bản thân, kéo dài 3 hiệp, khi bắt đầu hiệp đấu, HQ sát thương đóng băng sẽ chuyển cho 1 kẻ địch khác.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 2,
           "type": "hero"
         }
@@ -339,30 +339,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Viền Kim Cương-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill4.png",
       "skillDesc": "Mỗi lần chịu tấn công, tăng 20% phòng ngự của bản thân, tạo HQ sát thương đóng băng, mỗi hiệp tạo ST bằng 10%-30% HP lớn nhất của bản thân, kéo dài 3 hiệp, khi bắt đầu hiệp đấu, HQ sát thương đóng băng sẽ chuyển cho 1 kẻ địch khác.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 3,
           "type": "hero"
         }
@@ -376,30 +376,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kết Giới Băng-Thánh",
-      "skillIcon": "/images/heroes/s_Kula_skill5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_Kula_skill5.png",
       "skillDesc": "Miễn dịch vĩnh viễn tất cả ST t.tính. Tạo HQ sát thương đóng băng, mỗi hiệp tạo ST bằng 10%-30% HP lớn nhất của bản thân, kéo dài 3 hiệp, khi bắt đầu hiệp đấu, HQ sát thương đóng băng sẽ chuyển cho 1 kẻ địch khác.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 3,
           "type": "hero"
         }
@@ -414,22 +414,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
@@ -445,22 +445,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
@@ -476,28 +476,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Viền Kim Cương-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Kula_skill4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Kula_skill4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -507,22 +507,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -538,22 +538,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
@@ -569,28 +569,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Kết Giới Băng-Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_Kula_skill5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_Kula_skill5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -600,22 +600,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
@@ -631,22 +631,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "slug": "kula"
         }
       ],
@@ -673,7 +673,7 @@
     "id": "37200",
     "slug": "kula",
     "name": "Kula",
-    "avatar": "/images/heroes/kula.png",
+    "avatar": "/images/heroes/icon_heroes/kula.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -685,12 +685,12 @@
         {
           "name": "Chris",
           "slug": "chris",
-          "avatar": "/images/heroes/chris.png"
+          "avatar": "/images/heroes/icon_heroes/chris.png"
         },
         {
           "name": "Shermie",
           "slug": "shermie",
-          "avatar": "/images/heroes/shermie.png"
+          "avatar": "/images/heroes/icon_heroes/shermie.png"
         }
       ]
     },
@@ -701,7 +701,7 @@
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         }
       ]
     },
@@ -712,7 +712,7 @@
         {
           "name": "Mị Nương",
           "slug": "mi-nuong",
-          "avatar": "/images/heroes/mi-nuong.png"
+          "avatar": "/images/heroes/icon_heroes/mi-nuong.png"
         }
       ]
     },
@@ -723,7 +723,7 @@
         {
           "name": "Thủy Tinh",
           "slug": "thuy-tinh",
-          "avatar": "/images/heroes/thuy-tinh.png"
+          "avatar": "/images/heroes/icon_heroes/thuy-tinh.png"
         }
       ]
     }

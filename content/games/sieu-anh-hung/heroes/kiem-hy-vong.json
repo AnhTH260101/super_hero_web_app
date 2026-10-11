@@ -4,7 +4,7 @@
   "name": "Kiếm Hy Vọng",
   "title": "Vũ trụ linh tính • UR Kiếm Hy Vọng",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_telankesi2.png",
+  "avatar": "/images/heroes/icon_heroes/icon_telankesi2.png",
   "fullArt": "/images/heroes/full/image_telankesi2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Lưỡi Kiếm",
-      "icon": "/images/heroes/s_telankesi2_s1.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s1.png",
       "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -31,7 +31,7 @@
     },
     {
       "name": "Siêu Saiyan - Nộ",
-      "icon": "/images/heroes/s_telankesi2_s2.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s2.png",
       "description": "Kĩ năng trước khi bị đánh: Gây ra 350% ST ma pháp và 100% ST thuộc tính Hỏa cho toàn phe địch.Nhận 2 tầng \"Hộ Giá\", duy trì 3 lượt.Hộ Giá: Chắn các ST trực tiếp từ địch 1 lần. (ST truy kích, ST 4 thuộc tính, Diệt Ngay, không thể dùng Hộ Giá chắn);\nHiệu quả bị động (không cần đeo kĩ năng này):\n1: Càng đánh càng mạnh: Khi bản thân còn trên chiến trường, trước khi bắt đầu lượt đấu Broli nhận buff Trói Buộc, cấm kĩ năng trước khi bị đánh của mục tiêu 1 lượt.\n2: Tăng chiến lực: Khi bản thân còn trên chiến trường, trước khi chiến đấu Songoku mới nhận hiệu quả Trói Buộc, cấm kĩ năng trước khi bị đánh của mục tiêu 1 lượt.\n3: Như thầy như bạn: Khi bản thân còn trên chiến trường, trước khi bị đánh Songohan nhận thêm 8 lần ST và hiệu quả \"Ổn Định\".\n4: Thanh Gươm Hy Vọng: Khi Broli/ Songoku/ Songohan còn trên chiến trường, kĩ năng trước khi chiến đấu của Trunks sẽ khiến mục tiêu mất 1 lượt giới hạn kĩ năng trước khi bị đánh.\n5: Trái tim Saiya: Khi 4 người đều còn trên chiến trường, lần Hồi Sinh đầu tiên không mất lượt Hồi Sinh.",
       "cooldown": null,
       "breakthrough": {
@@ -46,7 +46,7 @@
     },
     {
       "name": "Di Chuyển Siêu Tốc",
-      "icon": "/images/heroes/s_telankesi2_s3.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s3.png",
       "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Hỏa cho toàn phe địch",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -61,7 +61,7 @@
     },
     {
       "name": "Thí Thần Nộ Trảm",
-      "icon": "/images/heroes/s_telankesi2_s6.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s6.png",
       "description": "Kĩ năng tử vong: Hồi toàn bộ HP bản thân (bỏ qua Trọng Thương). Gây ra 350% ST ma pháp thực và 1500% ST thực thuộc tính Hỏa cho toàn phe địch, tối đa Hồi Sinh 3 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -76,7 +76,7 @@
     },
     {
       "name": "Hủy Diệt Ma Phong Ba",
-      "icon": "/images/heroes/s_telankesi2_s7.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s7.png",
       "description": "Kĩ năng trước chiến đấu; Vĩnh viễn tăng 240% HP max, và 79% Giảm Thương toàn thể, tăng 500% Trúng Đích, Né Tránh và Bạo Kích của bản thân. Gây ra 350% ST ma pháp thực và 1800% ST thực thuộc tính Hỏa cho toàn phe địch. Ngoài ra truy kích với ST thực bằng 50% HP max của bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -91,7 +91,7 @@
     },
     {
       "name": "Kiếm Trảm Kích",
-      "icon": "/images/heroes/s_telankesi2_s4.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s4.png",
       "description": "Gây ra 350% ST ma pháp và 1200% ST thuộc tính Hỏa cho toàn phe địch. Diệt Ngay ngẫu nhiên 1 người.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     },
     {
       "name": "Shining Slash",
-      "icon": "/images/heroes/s_telankesi2_s5.png",
+      "icon": "/images/icon_skill_heroes/s_telankesi2_s5.png",
       "description": "Kĩ năng trước lượt đấu: Gây ra 350% ST ma pháp thực và 1800% ST thực thuộc tính Hỏa cho toàn phe địch, hồi 50% HP bản thân (bỏ qua Trọng Thương)",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -218,18 +218,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Lưỡi Kiếm",
-      "skillIcon": "/images/heroes/s_telankesi2_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s1.png",
       "skillDesc": "Gây ra thêm gấp 10 lần ST",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -243,30 +243,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Siêu Saiyan - Nộ",
-      "skillIcon": "/images/heroes/s_telankesi2_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s2.png",
       "skillDesc": "Số lần kích hoạt biến thành 3. Truy kích thêm với ST thực bằng 50% HP.  tăng 1 tầng \"Thần Ngự\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -280,24 +280,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Di Chuyển Siêu Tốc",
-      "skillIcon": "/images/heroes/s_telankesi2_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s3.png",
       "skillDesc": "Trầm Mặc mục tiêu 2 lượt",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -311,30 +311,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Kiếm Trảm Kích",
-      "skillIcon": "/images/heroes/s_telankesi2_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s4.png",
       "skillDesc": "Giảm phòng ngự tất cả thuộc tính của mục tiêu về 0, duy trì 2 lượt",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -348,30 +348,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Shining Slash",
-      "skillIcon": "/images/heroes/s_telankesi2_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s5.png",
       "skillDesc": "Gây ra thêm gấp 8 lần ST và hiệu quả \"Ổn Định\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 2,
           "type": "hero"
         }
@@ -385,30 +385,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Thí Thần Nộ Trảm",
-      "skillIcon": "/images/heroes/s_telankesi2_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa biến thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -422,30 +422,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Hủy Diệt Ma Phong Ba",
-      "skillIcon": "/images/heroes/s_telankesi2_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_telankesi2_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Trầm Mặc, Hóa Đá, Hỗn Loạn, Chế Giễu, Tsukuyomi. Cho bản thân 1 lượt Vô Địch, tăng 2 tầng \"Thần Ngự\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "amount": 2,
           "type": "hero"
         }
@@ -460,22 +460,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
@@ -491,22 +491,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
@@ -522,28 +522,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Kiếm Trảm Kích",
-      "unlockedSkillIcon": "/images/heroes/s_telankesi2_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_telankesi2_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -553,22 +553,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -584,22 +584,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
@@ -615,28 +615,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Shining Slash",
-      "unlockedSkillIcon": "/images/heroes/s_telankesi2_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_telankesi2_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -646,22 +646,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
@@ -677,22 +677,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Trunks",
-          "icon": "/images/heroes/icon_telankesi.png",
+          "icon": "/images/heroes/icon_heroes/icon_telankesi.png",
           "slug": "trunks"
         }
       ],
@@ -722,7 +722,7 @@
     "id": "43200",
     "slug": "trunks",
     "name": "Trunks",
-    "avatar": "/images/heroes/icon_telankesi.png",
+    "avatar": "/images/heroes/icon_heroes/icon_telankesi.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -734,12 +734,12 @@
         {
           "name": "Râu Trắng",
           "slug": "rau-trang",
-          "avatar": "/images/heroes/icon_baihuzi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_baihuzi.png"
         },
         {
           "name": "Maple",
           "slug": "maple",
-          "avatar": "/images/heroes/maple.png"
+          "avatar": "/images/heroes/icon_heroes/maple.png"
         }
       ]
     },
@@ -750,7 +750,7 @@
         {
           "name": "Râu Trắng",
           "slug": "rau-trang",
-          "avatar": "/images/heroes/icon_baihuzi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_baihuzi.png"
         }
       ]
     },
@@ -761,7 +761,7 @@
         {
           "name": "Songohan",
           "slug": "songohan",
-          "avatar": "/images/heroes/songohan.png"
+          "avatar": "/images/heroes/icon_heroes/songohan.png"
         }
       ]
     },
@@ -772,7 +772,7 @@
         {
           "name": "Songoku",
           "slug": "songoku",
-          "avatar": "/images/heroes/songoku.png"
+          "avatar": "/images/heroes/icon_heroes/songoku.png"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "name": "Medusa",
   "title": "Zombie Bentu • SSR Medusa",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/medusa.png",
+  "avatar": "/images/heroes/icon_heroes/medusa.png",
   "fullArt": "/images/heroes/full/image_nvwa.png",
   "element": "Zombie Bentu",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Sương mù",
-      "icon": "/images/heroes/s_sgnw_hurt.png",
+      "icon": "/images/icon_skill_heroes/s_sgnw_hurt.png",
       "description": "Đánh mục tiêu mặc định, tạo 350% sát thương Ma Pháp, thêm 160% sát thương Phong. Giảm tốc độ của mục tiêu xuống 0, tăng 50% toàn thuộc tính toàn thể phe ta, kéo dài 2 hiệp.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Sinh sôi nảy nở",
-      "icon": "/images/heroes/s_sgnw_cure.png",
+      "icon": "/images/icon_skill_heroes/s_sgnw_cure.png",
       "description": "Trước trận hồi 20% HP toàn thể phe ta, tăng giảm thương 350%",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cột vá trời",
-      "icon": "/images/heroes/s_sgnw_injure.png",
+      "icon": "/images/icon_skill_heroes/s_sgnw_injure.png",
       "description": "Tạo 350% sát thương Ma Pháp cho toàn thể địch, gây choáng hơn 3 mục tiêu ngẫu nhiên, thêm 130% sát thương Phong.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Vạn thọ vô cương",
-      "icon": "/images/heroes/s_sgnw_cure.png",
+      "icon": "/images/icon_skill_heroes/s_sgnw_cure.png",
       "description": "Tăng 350% phòng ngự bản thân, nếu là Anh Hùng Cổ thì tăng 50% mọi thuộc tính.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thần Sáng Thế",
-      "icon": "/images/heroes/s_sgnw_injure.png",
+      "icon": "/images/icon_skill_heroes/s_sgnw_injure.png",
       "description": "Sau khi chết loại bỏ giảm thuộc tính, chảy máu, choáng cho phe ta, hồi 100% HP cả đội",
       "cooldown": null,
       "breakthrough": {
@@ -84,7 +84,7 @@
     {
       "slug": "ct-medusa",
       "name": "CT-Medusa",
-      "avatar": "/images/heroes/ct-medusa.png",
+      "avatar": "/images/heroes/icon_heroes/ct-medusa.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Medusa tạo thân thể cho người, vậy ai tạo thân thể cho bà?"
@@ -97,18 +97,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Sương mù",
-      "skillIcon": "/images/heroes/s_sgnw_hurt.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sgnw_hurt.png",
       "skillDesc": "Sương mù tạo sát thương X2, tăng 10% thuộc tính cho đồng đội",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -122,24 +122,24 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Sinh sôi nảy nở",
-      "skillIcon": "/images/heroes/s_sgnw_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sgnw_cure.png",
       "skillDesc": "Tăng 20% giảm thương toàn phe ta, 2 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -153,24 +153,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Cột vá trời",
-      "skillIcon": "/images/heroes/s_sgnw_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sgnw_injure.png",
       "skillDesc": "Xóa tất cả buff tốt của địch, làm mục tiêu rơi vào trạng thái Yếu, 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -184,30 +184,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Vạn thọ vô cương",
-      "skillIcon": "/images/heroes/s_sgnw_cure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sgnw_cure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Venus",
-          "icon": "/images/heroes/venus.png",
+          "icon": "/images/heroes/icon_heroes/venus.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Loki",
-          "icon": "/images/heroes/loki.png",
+          "icon": "/images/heroes/icon_heroes/loki.png",
           "amount": 1,
           "type": "hero"
         }
@@ -221,30 +221,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thần Sáng Thế",
-      "skillIcon": "/images/heroes/s_sgnw_injure.png",
+      "skillIcon": "/images/icon_skill_heroes/s_sgnw_injure.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -258,30 +258,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "amount": 1,
           "type": "hero"
         }
@@ -295,30 +295,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "amount": 2,
           "type": "hero"
         }
@@ -333,22 +333,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -364,22 +364,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -395,22 +395,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         }
       ],
@@ -426,22 +426,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -457,22 +457,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         }
       ],
@@ -488,22 +488,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         }
       ],
@@ -519,22 +519,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -550,22 +550,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Medusa",
-          "icon": "/images/heroes/medusa.png",
+          "icon": "/images/heroes/icon_heroes/medusa.png",
           "slug": "medusa"
         }
       ],
@@ -593,12 +593,12 @@
         {
           "name": "Người Hùng Tia Chớp",
           "slug": "nguoi-hung-tia-chop",
-          "avatar": "/images/heroes/nguoi-hung-tia-chop.png"
+          "avatar": "/images/heroes/icon_heroes/nguoi-hung-tia-chop.png"
         },
         {
           "name": "Constantine",
           "slug": "constantine",
-          "avatar": "/images/heroes/constantine.png"
+          "avatar": "/images/heroes/icon_heroes/constantine.png"
         }
       ]
     },
@@ -608,8 +608,8 @@
       "heroes": [
         {
           "name": "Zoro",
-          "slug": "",
-          "avatar": "/images/heroes/icon_suolong.png"
+          "slug": "zoro",
+          "avatar": "/images/heroes/icon_heroes/zoro.png"
         }
       ]
     },
@@ -620,7 +620,7 @@
         {
           "name": "Mị Nương",
           "slug": "mi-nuong",
-          "avatar": "/images/heroes/mi-nuong.png"
+          "avatar": "/images/heroes/icon_heroes/mi-nuong.png"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "name": "CT-Mai Shiranui",
   "title": "Vũ trụ nguyên tố • UR CT-Mai Shiranui",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-mai-shiranui.png",
+  "avatar": "/images/heroes/icon_heroes/ct-mai-shiranui.png",
   "fullArt": "/images/heroes/full/image_buzhihuowu.png",
   "element": "Vũ trụ nguyên tố",
   "isAfterlifeForm": true,
@@ -16,13 +16,13 @@
   "skills": [
     {
       "name": "Quạt Bướm Hoa.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s1.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s1.png",
       "description": "Ném 2 cây quạt rực lửa tạo 350% ST Ma Công & 550% ST t.tính Lửa lên 1 dãy địch mặc định, mục tiêu mặc định chịu thêm X2 sát thương. 50% tỉ lệ khiến kẻ địch cháy, mỗi hiệp tạo sát thương bằng X3 tấn công t.tính Lửa, kéo dài 2 hiệp. Nếu mục tiêu đã cháy, sẽ tạo thêm X2 sát thương.",
       "cooldown": "4 hiệp"
     },
     {
       "name": "Vũ Điệu Hạc Đỏ.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s2.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s2.png",
       "description": "Tạo 350% ST Ma Công và 350% ST t.tính Lửa lên kẻ địch mặc định dãy trước hoặc dãy sau. 20% tỉ lệ tạo hiệu quả trọng thương lên kẻ địch, giảm 65% năng lực hồi phục của mục tiêu, kéo dài 2 hiệp. 50% tỉ lệ khiến kẻ địch cháy.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -33,7 +33,7 @@
     },
     {
       "name": "Nhẫn Phong Siêu Tất Sát.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s3.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s3.png",
       "description": "Skill phản đòn: Sau khi bị tấn công có 99% tỉ lệ phản đòn kẻ tấn công, tạo 350% ST Ma Công và ST thực bằng 250% ST t.tính Lửa. Khiến mục tiêu cháy, nếu mục tiêu đã bị cháy, sẽ hồi 30% HP. Mỗi hiệp phát động 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -44,7 +44,7 @@
     },
     {
       "name": "Long Viêm Vũ.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s6.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s6.png",
       "description": "Skill trước hiệp: Chuyển Vật Công thành Ma Công, chuyển tấn công của tất cả t.tính thành Ma Công, tạo ST thực bằng 350% ST Ma Công lên 1-5 kẻ địch. Và hồi tất cả HP đã mất. Tăng 200% HP, Né, bạo kích cho bản thân, kéo dài 1 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -55,7 +55,7 @@
     },
     {
       "name": "ShiRanui Giáng Lâm.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s7.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s7.png",
       "description": "Skill tử trận: Tử trận xong hồi sinh, hồi tất cả HP. Mê hoặc 1-5 phái nam. Tăng vĩnh viễn 350% ST ma pháp và 80W-110W tấn công t.tính Lửa cho bản thân. Trong hiệp này giảm 100% Vật & Ma Công và Công & Phòng toàn thuộc tính của toàn thể phe địch. Mỗi cuộc đối chiến chỉ được phát động 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -66,7 +66,7 @@
     },
     {
       "name": "Sóc Bay·Anh Đào Núi.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s4.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s4.png",
       "description": "Skill trước trận: Tạo 350% ST Ma Công và ST thực bằng 850% ST t.tính Lửa lên toàn thể kẻ địch. Tăng cho toàn thể phe ta phòng ngự toàn thuộc tính bằng 500% tấn công t.tính Lửa của bản thân, kéo dài 5 hiệp. 50% tỉ lệ làm kẻ địch cháy 2 hiệp, tạo thêm X3 sát thương lên kẻ địch bị cháy hoặc trọng thương.",
       "cooldown": null,
       "breakthrough": {
@@ -77,7 +77,7 @@
     },
     {
       "name": "ShiRanui·Cửu Vỹ Hồ.Thánh",
-      "icon": "/images/heroes/s_buzhihuowu_s5.png",
+      "icon": "/images/icon_skill_heroes/s_buzhihuowu_s5.png",
       "description": "Tạo 350% ST Ma Công và 950% ST t.tính Lửa lên toàn thể kẻ địch. Có 50% tỉ lệ làm kẻ địch hôn mê 1 hiệp, tạo hiệu quả cháy lên toàn thể phe địch. Xóa tất cả hiệu quả cháy của phe ta. Tạo thêm X3 sát thương lên kẻ địch có hiệu quả cháy hoặc trọng thương.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -179,18 +179,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Quạt Bướm Hoa.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s1.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         }
@@ -204,30 +204,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Vũ Điệu Hạc Đỏ.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s2.png",
       "skillDesc": "Tỉ lệ trọng thương tăng đến 80%, khiến mục tiêu ko thể hồi máu, giảm 30% Trúng của mục tiêu. Nếu mục tiêu đã bị đốt cháy, sẽ giảm 30% Né.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         }
@@ -241,24 +241,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Nhẫn Phong Siêu Tất Sát.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s3.png",
       "skillDesc": "80% tỉ lệ làm mục tiêu hôn mê, nếu mục tiêu phản đòn đã bị cháy, hiệu quả hồi máu của bản thân sẽ tăng 30%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         }
@@ -272,30 +272,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Sóc Bay·Anh Đào Núi.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s4.png",
       "skillDesc": "Cộng vĩnh viễn 600% phòng ngự và phòng ngự t.tính cho bản thân. Tăng vĩnh viễn 79% giảm thương tổng thể. Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hôn Mê, Hóa Đá, Choáng, Hỗn Loạn, Tsukuyomi, Chế Giễu, Mê Hoặc, Cháy.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         }
@@ -309,30 +309,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "ShiRanui·Cửu Vỹ Hồ.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s5.png",
       "skillDesc": "Trước khi tấn công tăng thêm 500k-1500k tấn công t.tính Lửa và 200k-800k Ma Công, mê hoặc 1-5 phái nam. Tạo thêm x2 ST lên phái nam. ST tạo cho phái nam biến thành ST thực.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 2,
           "type": "hero"
         }
@@ -346,30 +346,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Long Viêm Vũ.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s6.png",
       "skillDesc": "Tạo ST lên toàn thể kẻ địch. Làm tan chảy hộ giáp của kẻ địch: Trị số hộ giáp của 1-5 kẻ địch giảm còn 1. Cộng 1 tầng hiệu quả Vô Địch",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 1,
           "type": "hero"
         }
@@ -383,30 +383,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "ShiRanui Giáng Lâm.Thánh",
-      "skillIcon": "/images/heroes/s_buzhihuowu_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s7.png",
       "skillDesc": "Khi tử trận, tạo ST thực bằng 30% HP lớn nhất của bản thân lên toàn thể địch, chọn 1 mục tiêu ngẫu nhiên để kết liễu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "amount": 2,
           "type": "hero"
         }
@@ -421,22 +421,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
@@ -452,22 +452,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
@@ -483,28 +483,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Sóc Bay·Anh Đào Núi.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_buzhihuowu_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -514,22 +514,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         }
       ],
@@ -545,22 +545,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
@@ -576,28 +576,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "ShiRanui·Cửu Vỹ Hồ.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_buzhihuowu_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_buzhihuowu_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -607,22 +607,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
@@ -638,22 +638,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Mai Shiranui",
-          "icon": "/images/heroes/mai-shiranui.png",
+          "icon": "/images/heroes/icon_heroes/mai-shiranui.png",
           "slug": "mai-shiranui"
         }
       ],
@@ -681,7 +681,7 @@
     "id": "38500",
     "slug": "mai-shiranui",
     "name": "Mai Shiranui",
-    "avatar": "/images/heroes/mai-shiranui.png",
+    "avatar": "/images/heroes/icon_heroes/mai-shiranui.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -693,12 +693,12 @@
         {
           "name": "saber",
           "slug": "saber",
-          "avatar": "/images/heroes/saber.png"
+          "avatar": "/images/heroes/icon_heroes/saber.png"
         },
         {
           "name": "Namikaze Minato",
           "slug": "namikaze-minato",
-          "avatar": "/images/heroes/namikaze-minato.png"
+          "avatar": "/images/heroes/icon_heroes/namikaze-minato.png"
         }
       ]
     },
@@ -709,7 +709,7 @@
         {
           "name": "Kula",
           "slug": "kula",
-          "avatar": "/images/heroes/kula.png"
+          "avatar": "/images/heroes/icon_heroes/kula.png"
         }
       ]
     },
@@ -720,7 +720,7 @@
         {
           "name": "Yagami Iori",
           "slug": "yagami-iori",
-          "avatar": "/images/heroes/yagami-iori.png"
+          "avatar": "/images/heroes/icon_heroes/yagami-iori.png"
         }
       ]
     },
@@ -731,7 +731,7 @@
         {
           "name": "Chris",
           "slug": "chris",
-          "avatar": "/images/heroes/chris.png"
+          "avatar": "/images/heroes/icon_heroes/chris.png"
         }
       ]
     }

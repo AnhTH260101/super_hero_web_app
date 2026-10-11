@@ -4,7 +4,7 @@
   "name": "CT - Thợ Săn - Zoro",
   "title": "Vũ trụ linh tính • UR CT - Thợ Săn - Zoro",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_xsjsuolong.png",
+  "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
   "fullArt": "/images/heroes/full/image_xsjsuolong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Santoryu Ogi - Quỷ Trảm",
-      "icon": "/images/heroes/s_xsjsuolong_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s1.png",
       "description": "Gây ra 350% ST vật lý và 100% ST thuộc tính Phong cho toàn phe địch. Nhận được 1 tầng \"Chiến Ý\"",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Vòi Rồng",
-      "icon": "/images/heroes/s_xsjsuolong_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s2.png",
       "description": "Kĩ năng trước khi bị đánh: Tăng 500% Lực Phòng toàn thuộc tính của bản thân; Gây ra 350% ST vật lý và 100% ST thuộc tính Phong cho toàn phe địch. Nhận 1 tầng \"Chiến Ý'. Bị động: Mỗi tầng \"Chiến Ý\" tăng 20% chỉnh thể ST từ tất cả các kĩ năng của bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Sanjuuroku Phượng Hoàng Phiền Não",
-      "icon": "/images/heroes/s_xsjsuolong_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s3.png",
       "description": "Kĩ năng phản kích: Gây ra 350% ST vật lý và 200% ST thuộc tính Phong cho toàn phe địch. Nhận 2 tầng \"Chiến Ý\"",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Santoryu Ogi - Vòi Rồng",
-      "icon": "/images/heroes/s_xsjsuolong_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s6.png",
       "description": "Kĩ năng tử vong: Hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra ST thực bằng 350% vật lý cho toàn phe địch. Tối đa Hồi Sinh 3 lần. Nhận 1 tầng \"Chiến Ý\".",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Cư Hợp Kiếm Khí",
-      "icon": "/images/heroes/s_xsjsuolong_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s7.png",
       "description": "Kĩ năng trước chiến đấu: Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Phong cho toàn phe địch. Nhận 1 tầng \"Chiến Ý\".",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Hyakuhachi Pound Ho",
-      "icon": "/images/heroes/s_xsjsuolong_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s4.png",
       "description": "Gây ra ST thực bằng 350% tấn công vật lý cho toàn phe địch. Nhận 1 tầng \"Chiến Ý\". Diệt Ngay ngẫu nhiên 1 đơn vị phe địch.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Santoryu Ogi - Bẫy Hổ",
-      "icon": "/images/heroes/s_xsjsuolong_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xsjsuolong_s5.png",
       "description": "Kĩ năng trước lượt đấu: Gây ra ST thực bằng 350% tấn công vật lý và 1800% ST thuộc tính Phong cho toàn phe địch. Nhận 1 tầng \"Chiến Ý\".",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -196,18 +196,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Santoryu Ogi - Quỷ Trảm",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s1.png",
       "skillDesc": "Gây ra thêm 5 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -221,30 +221,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Vòi Rồng",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s2.png",
       "skillDesc": "Mỗi lượt tối đa xảy ra 3 lần. Hồi 50% HP max bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Monkey D. Luffy",
-          "icon": "/images/heroes/monkey-d-luffy.png",
+          "icon": "/images/heroes/icon_heroes/monkey-d-luffy.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 1,
           "type": "hero"
         }
@@ -258,24 +258,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Sanjuuroku Phượng Hoàng Phiền Não",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s3.png",
       "skillDesc": "Giảm Lực Phòng và Lực Phòng Nguyên Tố của mục tiêu về 0, duy trì 2 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 1,
           "type": "hero"
         }
@@ -289,30 +289,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Hyakuhachi Pound Ho",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s4.png",
       "skillDesc": "Nếu \"Chiến Ý\" của bản thân chưa đủ 6 tầng, thì nhận 6 tầng \"Chiến Ý\".",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Mihawk",
-          "icon": "/images/heroes/mihawk.png",
+          "icon": "/images/heroes/icon_heroes/mihawk.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 1,
           "type": "hero"
         }
@@ -326,30 +326,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Santoryu Ogi - Bẫy Hổ",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s5.png",
       "skillDesc": "Hồi 100% HP max bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 2,
           "type": "hero"
         }
@@ -363,30 +363,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Santoryu Ogi - Vòi Rồng",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị.Dùng 6 tầng \"Chiến Ý\" nhận 1 lần Hồi Sinh miễn phí.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 1,
           "type": "hero"
         }
@@ -400,30 +400,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Cư Hợp Kiếm Khí",
-      "skillIcon": "/images/heroes/s_xsjsuolong_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s7.png",
       "skillDesc": "Tăng vĩnh viễn 230% HP max của bản thân. Miễn hiệu ứng Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukoyomi. Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "amount": 2,
           "type": "hero"
         }
@@ -438,22 +438,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
@@ -469,22 +469,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
@@ -500,28 +500,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Hyakuhachi Pound Ho",
-      "unlockedSkillIcon": "/images/heroes/s_xsjsuolong_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -531,22 +531,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -562,22 +562,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
@@ -593,28 +593,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Santoryu Ogi - Bẫy Hổ",
-      "unlockedSkillIcon": "/images/heroes/s_xsjsuolong_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xsjsuolong_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -624,22 +624,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
@@ -655,22 +655,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Thợ Săn - Zoro",
-          "icon": "/images/heroes/icon_xsjsuolong.png",
+          "icon": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
           "slug": "tho-san-zoro"
         }
       ],
@@ -696,7 +696,7 @@
     "id": "43700",
     "slug": "tho-san-zoro",
     "name": "Thợ Săn - Zoro",
-    "avatar": "/images/heroes/icon_xsjsuolong.png",
+    "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -708,12 +708,12 @@
         {
           "name": "Yatogami Tohka",
           "slug": "yatogami-tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png"
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png"
         },
         {
           "name": "Kamado Tanjiro",
           "slug": "kamado-tanjiro",
-          "avatar": "/images/heroes/kamado-tanjiro.png"
+          "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png"
         }
       ]
     },
@@ -724,7 +724,7 @@
         {
           "name": "Râu Trắng",
           "slug": "rau-trang",
-          "avatar": "/images/heroes/icon_baihuzi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_baihuzi.png"
         }
       ]
     },
@@ -735,7 +735,7 @@
         {
           "name": "Luffy Gear 4",
           "slug": "luffy-gear-4",
-          "avatar": "/images/heroes/luffy-gear-4.png"
+          "avatar": "/images/heroes/icon_heroes/luffy-gear-4.png"
         }
       ]
     },
@@ -746,7 +746,7 @@
         {
           "name": "Mihawk",
           "slug": "mihawk",
-          "avatar": "/images/heroes/mihawk.png"
+          "avatar": "/images/heroes/icon_heroes/mihawk.png"
         }
       ]
     }

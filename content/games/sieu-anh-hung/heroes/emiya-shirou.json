@@ -4,7 +4,7 @@
   "name": "Emiya Shirou",
   "title": "Vũ trụ linh tính • SSR Emiya Shirou",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/emiya-shirou.png",
+  "avatar": "/images/heroes/icon_heroes/emiya-shirou.png",
   "fullArt": "/images/heroes/full/image_weigongshilang.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Thiên Lý Nhãn",
-      "icon": "/images/heroes/s_weigongshilang_s1.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s1.png",
       "description": "Tạo lên 1~5 kẻ địch bất kì 350% ST Vật Lý và 500% ST thuộc tính Đất, tạo x2-10 ST và ST thuộc tính (Số người có mặt càng ít ST càng cao).",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Chiếu Ảnh",
-      "icon": "/images/heroes/s_weigongshilang_s2.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s2.png",
       "description": "Skill trước khi bị đánh: Tất cả tấn công thuộc tính chuyển thành Vật Công,Tạo lên toàn thể phe địch 350% ST Vật Lý và 300% ST thuộc tính Đất, tạo lên phe địch ST thực bằng 30% HP tối đa của bản thân, và tạo x4-6 ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cố Hữu Kết Giới",
-      "icon": "/images/heroes/s_weigongshilang_s3.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s3.png",
       "description": "Skill phản đòn: Tạo lên toàn thể phe địch 350% ST Vật Lý và 300% ST thuộc tính Đất, hồi toàn bộ HP bản thân (Bỏ qua trọng thương), khiến mục tiêu hỗn loạn hoặc trói buộc, tạo x4-6 ST và ST thuộc tính.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Hoại Ảo Khí",
-      "icon": "/images/heroes/s_weigongshilang_s6.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s6.png",
       "description": "Skill trước hiệp: Tất cả tấn công thuộc tính chuyển thành Vật Công, tạo lên 3~5 kẻ địch bất kì 350% ST Vật Lý và 900% ST thực thuộc tính Đất, trong hiệp này giảm 100% tấn công thuộc tính Đất, Phòng Ngự và Né của phe địch (ST sinh hiệu quả trong lần tấn công này), tạo thêm x4-6 ST và ST thuộc tính.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Vô Hạn Kiếm Chế",
-      "icon": "/images/heroes/s_weigongshilang_s7.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s7.png",
       "description": "Skill trước trận: Tạo lên toàn thể phe địch 350% ST Vật Lý và 800% ST thực thuộc tính Đất, vĩnh viễn tăng 350% tấn công thuộc tính Đất của bản thân, vĩnh viễn tăng 200% Trúng, Né và Bạo Kích, tạo x4-6 ST và ST thuộc tính, tăng 100% giới hạn HP của bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Tâm Nhãn",
-      "icon": "/images/heroes/s_weigongshilang_s4.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s4.png",
       "description": "Tạo lên toàn thể phe địch 350% ST Vật Lý và 800% ST thuộc tính Đất, giảm 90% Né, Trúng và Bạo Kích của tất cả kẻ địch, hiệu quả kéo dài 2 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Hạc Dực Tam Liên",
-      "icon": "/images/heroes/s_weigongshilang_s5.png",
+      "icon": "/images/icon_skill_heroes/s_weigongshilang_s5.png",
       "description": "Tạo lên toàn thể phe địch 350% ST Vật Lý và 900% ST thuộc tính Đất, tạo lên toàn thể phe địch ST thực bằng 30% HP tối đa của bản thân, tạo x3 ST và ST thuộc tính.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-emiya-shirou",
       "name": "CT-Emiya Shirou",
-      "avatar": "/images/heroes/ct-emiya-shirou.png",
+      "avatar": "/images/heroes/icon_heroes/ct-emiya-shirou.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Giỏi đánh giáp lá cà và cung thuật, cũng giỏi về đấu ma thuật và làm việc nhà, bản thể là phong thái của Emiya Shirou sau khi trở thành người bảo vệ."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Thiên Lý Nhãn",
-      "skillIcon": "/images/heroes/s_weigongshilang_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s1.png",
       "skillDesc": "50% tỉ lệ khiến tấn công toàn t.tính của mục tiêu giảm còn 0 điểm, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Chiếu Ảnh",
-      "skillIcon": "/images/heroes/s_weigongshilang_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s2.png",
       "skillDesc": "Tăng 200% Trúng, Bạo Kích cho bản thân (Hiệp này sinh hiệu quả), số lần mỗi hiệp kích hoạt đổi thành 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Gilgamesh",
-          "icon": "/images/heroes/gilgamesh.png",
+          "icon": "/images/heroes/icon_heroes/gilgamesh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Cố Hữu Kết Giới",
-      "skillIcon": "/images/heroes/s_weigongshilang_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s3.png",
       "skillDesc": "Nếu mục tiêu đã bị hỗn loạn, tạo thêm x3 sát thương và sát thương thuộc tính, với mục tiêu chưa bị hỗn loạn thì tạo thêm x6 sát thương và sát thương thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Tâm Nhãn",
-      "skillIcon": "/images/heroes/s_weigongshilang_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s4.png",
       "skillDesc": "Nếu HP bản thân dưới 50%, chọn ngẫu nhiên một mục tiêu để kết liễu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Gilgamesh",
-          "icon": "/images/heroes/gilgamesh.png",
+          "icon": "/images/heroes/icon_heroes/gilgamesh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Hạc Dực Tam Liên",
-      "skillIcon": "/images/heroes/s_weigongshilang_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s5.png",
       "skillDesc": "Tạo hiệu quả khác nhau dựa theo số người phe địch:\n1.Phe địch có 4~5 người, tạo thêm x5 sát thương lên mục tiêu.\n2.Phe địch có 1~3 người, tạo thêm x7 sát thương lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Hoại Ảo Khí",
-      "skillIcon": "/images/heroes/s_weigongshilang_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s6.png",
       "skillDesc": "Khiến mục tiêu bị hỗn loạn hoặc trói buộc, giảm tấn công thuộc tính của mục tiêu thành 0.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Vô Hạn Kiếm Chế",
-      "skillIcon": "/images/heroes/s_weigongshilang_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_weigongshilang_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi, khiến mục tiêu trọng thương, cộng dồn 1 tầng buff hồi sinh cho bản thân, khi tử trận, sẽ hồi sinh, hồi 100% HP, tăng x2-4 tất cả sát thương skill và sát thương thuộc tính của bản thân.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Tâm Nhãn",
-      "unlockedSkillIcon": "/images/heroes/s_weigongshilang_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_weigongshilang_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Hạc Dực Tam Liên",
-      "unlockedSkillIcon": "/images/heroes/s_weigongshilang_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_weigongshilang_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Emiya Shirou",
-          "icon": "/images/heroes/emiya-shirou.png",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
           "slug": "emiya-shirou"
         }
       ],
@@ -622,12 +622,12 @@
         {
           "name": "Tornado",
           "slug": "tornado",
-          "avatar": "/images/heroes/tornado.png"
+          "avatar": "/images/heroes/icon_heroes/tornado.png"
         },
         {
           "name": "Gilgamesh",
           "slug": "gilgamesh",
-          "avatar": "/images/heroes/gilgamesh.png"
+          "avatar": "/images/heroes/icon_heroes/gilgamesh.png"
         }
       ]
     },
@@ -638,7 +638,7 @@
         {
           "name": "Kefla",
           "slug": "kefla",
-          "avatar": "/images/heroes/kefla.png"
+          "avatar": "/images/heroes/icon_heroes/kefla.png"
         }
       ]
     },
@@ -649,7 +649,7 @@
         {
           "name": "InuYasha",
           "slug": "inuyasha",
-          "avatar": "/images/heroes/inuyasha.png"
+          "avatar": "/images/heroes/icon_heroes/inuyasha.png"
         }
       ]
     },
@@ -660,7 +660,7 @@
         {
           "name": "Asamiya Athena",
           "slug": "asamiya-athena",
-          "avatar": "/images/heroes/asamiya-athena.png"
+          "avatar": "/images/heroes/icon_heroes/asamiya-athena.png"
         }
       ]
     }

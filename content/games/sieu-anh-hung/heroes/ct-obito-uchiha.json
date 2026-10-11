@@ -4,7 +4,7 @@
   "name": "CT-Obito Uchiha",
   "title": "Vũ trụ linh tính • UR CT-Obito Uchiha",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/ct-obito-uchiha.png",
+  "avatar": "/images/heroes/icon_heroes/ct-obito-uchiha.png",
   "fullArt": "/images/heroes/full/image_yuzhibodaitu.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Xích.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s1.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s1.png",
       "description": "Tạo 350% ST ma công và 550% ST t.tính Lửa lên 3~5 kẻ địch ngẫu nhiên, giảm 33% tỉ lệ giảm thương tổng thể, kéo dài 2 hiệp, tạo x3 ST và ST t.tính.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Cấm Thuật.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s2.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s2.png",
       "description": "Tạo 350% ST ma công và 350% ST t.tính Lửa lên 3~5 kẻ địch ngẫu nhiên, 50% tỉ lệ Tsukuyomi kẻ địch, kéo dài 2 hiệp, giảm 50% Trúng, Né, Bạo Kích của mục tiêu.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thủ Kiếm Thần Uy.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s3.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s3.png",
       "description": "Skill trước khi bị đánh: Tạo 350% ST ma công và ST thực bằng 250% ST t.tính Lửa lên toàn thể phe địch, 50% tỉ lệ Tsukuyomi kẻ địch, kéo dài 2 hiệp, hồi 30% trị số HP cho bản thân. Mỗi hiệp kích hoạt 2 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Bạo Phong Loạn Vũ.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s6.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s6.png",
       "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành ma công, tạo 350% ST ma pháp và 850% ST thực t.tính Lửa lên toàn thể phe địch, khiến mục tiêu bị Tsukuyomi hoặc choáng, kéo dài 2 hiệp, tạo hiệu quả cháy lên tất cả mục tiêu, mỗi hiệp tạo ST thực bằng 350% tấn công t.tính Lửa và 30% HP bản thân, kéo dài 2 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Tả Luân Nhãn.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s7.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s7.png",
       "description": "Skill tử trận: Hồi tất cả HP. Tạo 350% ST ma công và 850% ST thực t.tính Lửa lên toàn thể phe địch, được hồi sinh tối đa 2 lần, khiến mục tiêu trọng thương, kéo dài 2 hiệp (có hiệu lực trong hiệp này).",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Hỏa Viêm Trận.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s4.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s4.png",
       "description": "Skill trước trận: Tạo 350% ST ma công và ST thực bằng 850% ST t.tính Lửa lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể cho bản thân và 800% phòng ngự toàn thuộc tính của bản thân, vĩnh viễn tăng 350% tấn công t.tính Lửa cho bản thân, vĩnh viễn tăng 200% Né và Tốc Độ.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Thuật Hoa Phụng Tiên.Thánh",
-      "icon": "/images/heroes/s_yuzhibodaitu_s5.png",
+      "icon": "/images/icon_skill_heroes/s_yuzhibodaitu_s5.png",
       "description": "Tạo 350% ST ma công và 950% ST t.tính Lửa lên toàn thể phe địch, trước khi tấn công, tăng 100W~180W tấn công t.tính Lửa và 50W~80W tấn công ma pháp, kéo dài 2 hiệp, khiến mục tiêu bị Tsukuyomi hoặc choáng, kéo dài 2 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Xích.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s1.png",
       "skillDesc": "Nếu mục tiêu đã bị Tsukuyomi khiến tấn công và phòng ngự toàn thuộc tính của mục tiêu giảm còn 0, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Cấm Thuật.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s2.png",
       "skillDesc": "Tạo x3 ST và ST thuộc tính, nếu mục tiêu đã bị Tsukuyomi thì tạo thêm x3 ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thủ Kiếm Thần Uy.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s3.png",
       "skillDesc": "Trong hiệp này giảm 100% tấn công t.tính Lửa, Phòng Ngự và Né của kẻ địch (Sinh hiệu quả ST trong lần tấn công này), số lần kích hoạt mỗi hiệp biến thành 3 lần. ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Hỏa Viêm Trận.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s4.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Tạo hiệu quả cháy cho tất cả các mục tiêu (30% trị số HP của bản thân)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thuật Hoa Phụng Tiên.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s5.png",
       "skillDesc": "Tạo hiệu quả Cháy với tất cả các mục tiêu (30% HP của bản thân), tạo x3 sát thương và sát thương t.tính",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Bạo Phong Loạn Vũ.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s6.png",
       "skillDesc": "Tạo x3 sát thương lên mục tiêu, tạo thêm x6 sát thương lên tất cả kẻ địch có HP dưới 30%",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Tả Luân Nhãn.Thánh",
-      "skillIcon": "/images/heroes/s_yuzhibodaitu_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s7.png",
       "skillDesc": "Tối đa được hồi sinh 3 lần. Kết liễu mục tiêu tấn công có HP dưới 20%, có 50% tỉ lệ trói buộc kẻ địch, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Hỏa Viêm Trận.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_yuzhibodaitu_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Thuật Hoa Phụng Tiên.Thánh",
-      "unlockedSkillIcon": "/images/heroes/s_yuzhibodaitu_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_yuzhibodaitu_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Uchiha Obito",
-          "icon": "/images/heroes/uchiha-obito.png",
+          "icon": "/images/heroes/icon_heroes/uchiha-obito.png",
           "slug": "uchiha-obito"
         }
       ],
@@ -691,7 +691,7 @@
     "id": "40000",
     "slug": "uchiha-obito",
     "name": "Uchiha Obito",
-    "avatar": "/images/heroes/uchiha-obito.png",
+    "avatar": "/images/heroes/icon_heroes/uchiha-obito.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -703,12 +703,12 @@
         {
           "name": "Vlad III",
           "slug": "vlad-iii",
-          "avatar": "/images/heroes/vlad-iii.png"
+          "avatar": "/images/heroes/icon_heroes/vlad-iii.png"
         },
         {
           "name": "Namikaze Minato",
           "slug": "namikaze-minato",
-          "avatar": "/images/heroes/namikaze-minato.png"
+          "avatar": "/images/heroes/icon_heroes/namikaze-minato.png"
         }
       ]
     },
@@ -719,7 +719,7 @@
         {
           "name": "Madara",
           "slug": "madara",
-          "avatar": "/images/heroes/madara.png"
+          "avatar": "/images/heroes/icon_heroes/madara.png"
         }
       ]
     },
@@ -730,7 +730,7 @@
         {
           "name": "Hashirama",
           "slug": "hashirama",
-          "avatar": "/images/heroes/hashirama.png"
+          "avatar": "/images/heroes/icon_heroes/hashirama.png"
         }
       ]
     },
@@ -741,7 +741,7 @@
         {
           "name": "Hatake",
           "slug": "hatake",
-          "avatar": "/images/heroes/hatake.png"
+          "avatar": "/images/heroes/icon_heroes/hatake.png"
         }
       ]
     }

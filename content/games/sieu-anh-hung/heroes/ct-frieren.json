@@ -4,7 +4,7 @@
   "name": "CT - Frieren",
   "title": "Vũ trụ linh tính • UR CT - Frieren",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_fulilian.png",
+  "avatar": "/images/heroes/icon_heroes/icon_fulilian.png",
   "fullArt": "/images/heroes/full/image_fulilian.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Ma pháp tạo lửa",
-      "icon": "/images/heroes/s_fulilian_s1.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s1.png",
       "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Hoả cho toàn phe địch",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ma pháp phòng ngự",
-      "icon": "/images/heroes/s_fulilian_s2.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s2.png",
       "description": "Kỹ năng trước khi chiến đấu: Gây ra 350% ST ma pháp và 100% ST thuộc tính Hoả cho toàn phe địch. \"Phân Giải\" mục tiêu: Mỗi tầng \"phân giải\" khiến lực công ma pháp của kẻ địch bị giảm 10%, tối đa chồng đến 100%",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Ma pháp phân giải",
-      "icon": "/images/heroes/s_fulilian_s3.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s3.png",
       "description": "Kỹ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Hoả cho toàn phe địch. Mục tiêu mỗi một tầng \"phân giải\" sẽ truy kích thêm mục tiêu với ST bằng 10% HP max.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Lực hút hố đen",
-      "icon": "/images/heroes/s_fulilian_s6.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s6.png",
       "description": "Kỹ năng Tử vong: Hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương). Gây ra 350% ST ma pháp và 1500% ST thuộc tính Hoả cho toàn phe địch, tối đa có thể Hồi Sinh 3 lần",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Ma pháp tán ma",
-      "icon": "/images/heroes/s_fulilian_s7.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s7.png",
       "description": "Kỹ năng tiền chiến: Vĩnh viễn tăng 220% HP tối đa của bản thân, giảm thương chỉnh thể 79%, tăng 500% Trúng Đíchm Né Tránh và Bạo Kích cho bản thân. Gây ra 350% ST ma pháp và 1800% ST thuộc tính Hoả cho toàn phe địch. Truy kích với ST thực bằng 50% HP của bản thân",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Địa ngục nghiệp hỏa",
-      "icon": "/images/heroes/s_fulilian_s4.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s4.png",
       "description": "Gây ra 350% ST ma pháp và 1200% ST thuộc tính Hoả cho toàn phe địch. Diệt Ngay ngẫu nhiên 1 kẻ địch",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Sấm sét phá diệt",
-      "icon": "/images/heroes/s_fulilian_s5.png",
+      "icon": "/images/icon_skill_heroes/s_fulilian_s5.png",
       "description": "Kỹ năng trước lượt đấu: Gây ra 350% ST ma pháp và 1800% ST thuộc tính Hoả cho toàn phe địch, hồi 50% HP cho bản thân (bỏ qua Trọng Thương)",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Ma pháp tạo lửa",
-      "skillIcon": "/images/heroes/s_fulilian_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s1.png",
       "skillDesc": "Gây ra thêm 10% ST ma pháp thuộc tính Hoả",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Ma pháp phòng ngự",
-      "skillIcon": "/images/heroes/s_fulilian_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s2.png",
       "skillDesc": "Mỗi lượt tối đa kích hoạt 3 lần, cho bản thân \"Vô Địch\" 1 lượt ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Ma pháp phân giải",
-      "skillIcon": "/images/heroes/s_fulilian_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s3.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Địa ngục nghiệp hỏa",
-      "skillIcon": "/images/heroes/s_fulilian_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s4.png",
       "skillDesc": "Giảm toàn bộ phòng ngự thuộc tính của mục tiêu về 0, duy trì 2 lượt ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Esdese",
-          "icon": "/images/heroes/esdese.png",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Sấm sét phá diệt",
-      "skillIcon": "/images/heroes/s_fulilian_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s5.png",
       "skillDesc": "Gây ra thêm gấp 8 lần ST và hiệu ứng \"Ổn Định\"",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Lực hút hố đen",
-      "skillIcon": "/images/heroes/s_fulilian_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s6.png",
       "skillDesc": "Số lần Hồi Sinh tăng thành 4. Diệt Ngay ngẫu nhiên 1 đơn vị. Nếu lực công ma pháp của mục tiêu thấp hơn Frieren thì ST chỉnh thể tăng đến gấp 10 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Ma pháp tán ma",
-      "skillIcon": "/images/heroes/s_fulilian_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_fulilian_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch Trần Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giễu, Tsukoyumi. Mỗi khi mục tiêu có 3 tầng \" Phân giải \" thì xóa 1 lượt Hồi Sinh của mục tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Địa ngục nghiệp hỏa",
-      "unlockedSkillIcon": "/images/heroes/s_fulilian_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_fulilian_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Sấm sét phá diệt",
-      "unlockedSkillIcon": "/images/heroes/s_fulilian_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_fulilian_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Frieren",
-          "icon": "/images/heroes/icon_fulilian.png",
+          "icon": "/images/heroes/icon_heroes/icon_fulilian.png",
           "slug": "frieren"
         }
       ],
@@ -691,7 +691,7 @@
     "id": "43300",
     "slug": "frieren",
     "name": "Frieren",
-    "avatar": "/images/heroes/icon_fulilian.png",
+    "avatar": "/images/heroes/icon_heroes/icon_fulilian.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -703,12 +703,12 @@
         {
           "name": "Pain",
           "slug": "pain",
-          "avatar": "/images/heroes/pain.png"
+          "avatar": "/images/heroes/icon_heroes/pain.png"
         },
         {
           "name": "Satoru Gojo",
           "slug": "satoru-gojo",
-          "avatar": "/images/heroes/satoru-gojo.png"
+          "avatar": "/images/heroes/icon_heroes/satoru-gojo.png"
         }
       ]
     },
@@ -719,7 +719,7 @@
         {
           "name": "Maple",
           "slug": "maple",
-          "avatar": "/images/heroes/maple.png"
+          "avatar": "/images/heroes/icon_heroes/maple.png"
         }
       ]
     },
@@ -730,7 +730,7 @@
         {
           "name": "Yatogami Tohka",
           "slug": "yatogami-tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png"
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png"
         }
       ]
     },
@@ -741,7 +741,7 @@
         {
           "name": "Inori",
           "slug": "inori",
-          "avatar": "/images/heroes/icon_dieqi.png"
+          "avatar": "/images/heroes/icon_heroes/icon_dieqi.png"
         }
       ]
     }

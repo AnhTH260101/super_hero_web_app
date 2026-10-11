@@ -4,7 +4,7 @@
   "name": "Kurumi",
   "title": "Vũ trụ linh tính • SSR Kurumi",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/kurumi.png",
+  "avatar": "/images/heroes/icon_heroes/kurumi.png",
   "fullArt": "/images/heroes/full/image_shiqikuangsan.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Thời Gian",
-      "icon": "/images/heroes/s_shiqikuangsan_s1.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s1.png",
       "description": "Skill phản đòn: Tạo 350% ST Ma Công và 500% ST thuộc tính Lửa lên 1~5 kẻ địch ngẫu nhiên, tạo x4-6 ST và ST thuộc tính, có 50% tỉ lệ ngẫu nhiên kết liễu 1 mục tiêu.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ảnh Tử",
-      "icon": "/images/heroes/s_shiqikuangsan_s2.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s2.png",
       "description": "Tạo 350% ST Ma Công và 300% ST thuộc tính Lửa lên 3~5 kẻ địch, nếu HP bản thân thấp hơn 50%, tạo x6 ST và ST thuộc tính lên mục tiêu.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Thực Thời Chi Thành",
-      "icon": "/images/heroes/s_shiqikuangsan_s3.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s3.png",
       "description": "Tạo 350% ST Ma Công và 200% ST thực thuộc tính Lửa lên toàn thể phe địch, có 50% tỉ lệ trói buộc mục tiêu 1 hiệp, tạo x3 ST và ST thuộc tính.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Đạn 12",
-      "icon": "/images/heroes/s_shiqikuangsan_s6.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s6.png",
       "description": "Skill trước hiệp: Tấn công của tất cả thuộc tính chuyển thành Ma Công, tạo 350% ST Ma Pháp và 800% ST thực thuộc tính Lửa lên toàn thể phe địch, khiến mục tiêu mê hoặc hoặc trói buộc, tạo lên mục tiêu ST thuộc tính và ST thêm bằng 800% Tốc Độ của bản thân.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Thiên Sứ Thời Gian",
-      "icon": "/images/heroes/s_shiqikuangsan_s7.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s7.png",
       "description": "Skill tử trận (Lần đầu bỏ qua hiệu quả trọng thương): Hồi sinh sau khi tử trận, hồi tất cả HP. Tạo 350% ST Ma Công và 800% ST thuộc tính Lửa lên toàn thể phe địch. Tối đa được hồi sinh 2 lần. Tăng 100% Vật & Ma Công của bản thân, kéo dài 2 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Nhiếp Cáo Thiên Pho",
-      "icon": "/images/heroes/s_shiqikuangsan_s4.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s4.png",
       "description": "Skill trước trận: Tạo 350% ST Ma Công và ST thực bằng 800% ST thuộc tính Lửa lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể của bản thân, vĩnh viễn tăng 350% tấn công t.tính Lửa cho bản thân, mê hoặc 1~5 kẻ địch 3 hiệp, vĩnh viễn tăng 200% Né và Tốc Độ cho bản thân.",
       "cooldown": null,
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Đạn 6",
-      "icon": "/images/heroes/s_shiqikuangsan_s5.png",
+      "icon": "/images/icon_skill_heroes/s_shiqikuangsan_s5.png",
       "description": "Tạo 350% ST Ma Pháp và 900% ST thực thuộc tính Lửa lên 3~5 kẻ địch ngẫu nhiên, có 50% tỉ lệ kết liễu ngẫu nhiên 2 mục tiêu hoặc kết liễu ngẫu nhiên 1 mục tiêu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-kurumi",
       "name": "CT-Kurumi",
-      "avatar": "/images/heroes/ct-kurumi.png",
+      "avatar": "/images/heroes/icon_heroes/ct-kurumi.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Là một trong số những tinh linh ở nhân gian, từ lân giới cô có thể dùng ý chí của mình tồn tại ở hiện thân đặc biệt khác, thậm chí sẽ cố ý giết người."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Thời Gian",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s1.png",
       "skillDesc": "Giảm 50% Tốc Độ của phe địch,giảm 30%~40% Phòng Ngự toàn thuộc tính của mục tiêu, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Ảnh Tử",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s2.png",
       "skillDesc": "Kết liễu mục tiêu tấn công có HP dưới 20%.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Thực Thời Chi Thành",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s3.png",
       "skillDesc": "Tạo ST thực bằng 30% HP lớn nhất lên toàn thể địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Nhiếp Cáo Thiên Pho",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s4.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Tăng 800% Phòng Ngự tổng thể và 100% Vật Công Ma Công của toàn thể đồng đội, kéo dài 2 hiệp, giúp bản thân hồi phục toàn bộ HP sau mỗi lần hành động.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Kula",
-          "icon": "/images/heroes/kula.png",
+          "icon": "/images/heroes/icon_heroes/kula.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Đạn 6",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s5.png",
       "skillDesc": "Chọn ngẫu nhiên 1 đồng đội, cộng cho bản thân và đồng đội đó 1 lần bỏ qua buff Trọng Thương, hiệu lực 1 lần. Trong hiệp này giảm 100% tấn công thuộc tính Lửa, Phòng Ngự của phe địch (ST tấn công lần này có hiệu lực), kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Đạn 12",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s6.png",
       "skillDesc": "Có 50% tỉ lệ khiến Vật Công, Ma Công và tấn công toàn t.tính của mục tiêu giảm 100%, tạo thêm x4-6 ST và ST thuộc tính lên mục tiêu.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Thiên Sứ Thời Gian",
-      "skillIcon": "/images/heroes/s_shiqikuangsan_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s7.png",
       "skillDesc": "Sau khi hồi sinh tăng  50% khả năng hồi phục toàn đội, sau khi hồi sinh, mỗi khi tấn công, tất cả skill tăng x2-4 ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Nhiếp Cáo Thiên Pho",
-      "unlockedSkillIcon": "/images/heroes/s_shiqikuangsan_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Đạn 6",
-      "unlockedSkillIcon": "/images/heroes/s_shiqikuangsan_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_shiqikuangsan_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Kurumi",
-          "icon": "/images/heroes/kurumi.png",
+          "icon": "/images/heroes/icon_heroes/kurumi.png",
           "slug": "kurumi"
         }
       ],
@@ -623,12 +623,12 @@
         {
           "name": "Aizen",
           "slug": "aizen",
-          "avatar": "/images/heroes/aizen.png"
+          "avatar": "/images/heroes/icon_heroes/aizen.png"
         },
         {
           "name": "Esdese",
           "slug": "esdese",
-          "avatar": "/images/heroes/esdese.png"
+          "avatar": "/images/heroes/icon_heroes/esdese.png"
         }
       ]
     },
@@ -639,7 +639,7 @@
         {
           "name": "Kula",
           "slug": "kula",
-          "avatar": "/images/heroes/kula.png"
+          "avatar": "/images/heroes/icon_heroes/kula.png"
         }
       ]
     },
@@ -650,7 +650,7 @@
         {
           "name": "Gray",
           "slug": "gray",
-          "avatar": "/images/heroes/gray.png"
+          "avatar": "/images/heroes/icon_heroes/gray.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Erza",
           "slug": "erza",
-          "avatar": "/images/heroes/erza.png"
+          "avatar": "/images/heroes/icon_heroes/erza.png"
         }
       ]
     }

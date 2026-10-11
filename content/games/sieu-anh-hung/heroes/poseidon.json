@@ -4,7 +4,7 @@
   "name": "Poseidon",
   "title": "Vũ trụ linh tính • SSR Poseidon",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/poseidon.png",
+  "avatar": "/images/heroes/icon_heroes/poseidon.png",
   "fullArt": "/images/heroes/full/image_bosaidong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Hải Long Xung Kích",
-      "icon": "/images/heroes/s_baoyu.png",
+      "icon": "/images/icon_skill_heroes/s_baoyu.png",
       "description": "Tấn công kẻ địch có ma công cao nhất, tạo 350% sát thương ma pháp. Đồng thời tạo thêm 100% sát thương thuộc tính Thủy.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Phòng Ngự Tuyệt Đối",
-      "icon": "/images/heroes/s_shandianfengbao.png",
+      "icon": "/images/icon_skill_heroes/s_shandianfengbao.png",
       "description": "Trong hiệp này giảm thương 350% cho đồng đội có HP thấp nhất, không chịu sát thường ngoài thuộc tính địa, có hiệu quả 2 lần.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Phẫn Nộ Thần Biển",
-      "icon": "/images/heroes/s_quntidaji.png",
+      "icon": "/images/icon_skill_heroes/s_quntidaji.png",
       "description": "Kỹ năng trước trận, tạo 350% sát thương ma pháp cho toàn bộ phe địch, giảm 20% tấn công của kẻ địch có ma công cao nhất, đồng thời tăng 20% ma công cho bản thân, duy trì 5 hiệp, còn tạo thêm 100% sát thương thuộc tính Thủy.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Nước·Hải Thần",
-      "icon": "/images/heroes/s_hanbingzhiqiang.png",
+      "icon": "/images/icon_skill_heroes/s_hanbingzhiqiang.png",
       "description": "Tăng effect tấn công thuộc tính nước",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Quy Linh Bí Ấn",
-      "icon": "/images/heroes/s_jijiu.png",
+      "icon": "/images/icon_skill_heroes/s_jijiu.png",
       "description": "Tử vong xong tạo hiệu quả suy yếu lên toàn bộ địch, tăng 30% ma công của nhân vật có điểm ma công cao nhất phe ta",
       "cooldown": null,
       "breakthrough": {
@@ -87,18 +87,18 @@
       "tierName": "Dũng sĩ",
       "auraColor": "emerald",
       "skillName": "Hải Long Xung Kích",
-      "skillIcon": "/images/heroes/s_baoyu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_baoyu.png",
       "skillDesc": "Kĩ năng Tăng cường Hải Long Xung Kích：có thể xóa tất cả BUFF có lợi của đối phương",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         }
@@ -112,30 +112,30 @@
       "tierName": "Đấu sĩ",
       "auraColor": "cyan",
       "skillName": "Phòng Ngự Tuyệt Đối",
-      "skillIcon": "/images/heroes/s_shandianfengbao.png",
+      "skillIcon": "/images/icon_skill_heroes/s_shandianfengbao.png",
       "skillDesc": "Kĩ năng Tăng cường Phòng Ngự Tuyệt Đối：phục hồi thêm 30% HP, có hiệu quả trong 3 hiệp đầu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 1,
           "type": "hero"
         }
@@ -149,24 +149,24 @@
       "tierName": "Anh hùng",
       "auraColor": "purple",
       "skillName": "Phẫn Nộ Thần Biển",
-      "skillIcon": "/images/heroes/s_quntidaji.png",
+      "skillIcon": "/images/icon_skill_heroes/s_quntidaji.png",
       "skillDesc": "Kĩ năng Tăng cường Thần Biển Phẫn Nộ：giảm điểm tấn công tăng lên 30%, tăng điểm ma công đến 30%, kéo dài suốt trận.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 2,
           "type": "hero"
         }
@@ -180,30 +180,30 @@
       "tierName": "Truyền thuyết",
       "auraColor": "amber",
       "skillName": "Nước·Hải Thần",
-      "skillIcon": "/images/heroes/s_hanbingzhiqiang.png",
+      "skillIcon": "/images/icon_skill_heroes/s_hanbingzhiqiang.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 2,
           "type": "hero"
         }
@@ -217,30 +217,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Quy Linh Bí Ấn",
-      "skillIcon": "/images/heroes/s_jijiu.png",
+      "skillIcon": "/images/icon_skill_heroes/s_jijiu.png",
       "skillDesc": "Không",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 2,
           "type": "hero"
         }
@@ -254,30 +254,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Kỹ năng 6",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Giáp Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijia.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Kiếm Linh Phách",
-          "icon": "/images/items/i_c_lingpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhijian.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 2,
           "type": "hero"
         }
@@ -291,30 +291,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kỹ năng 7",
-      "skillIcon": "/images/heroes/default_hero.png",
+      "skillIcon": "/images/heroes/icon_heroes/default_hero.png",
       "skillDesc": "",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "amount": 3,
           "type": "hero"
         }
@@ -329,22 +329,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -360,22 +360,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -391,22 +391,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         }
       ],
@@ -422,22 +422,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -453,22 +453,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         }
       ],
@@ -484,22 +484,22 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         }
       ],
@@ -515,22 +515,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -546,22 +546,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Poseidon",
-          "icon": "/images/heroes/poseidon.png",
+          "icon": "/images/heroes/icon_heroes/poseidon.png",
           "slug": "poseidon"
         }
       ],
@@ -585,12 +585,12 @@
         {
           "name": "Hades",
           "slug": "hades",
-          "avatar": "/images/heroes/hades.png"
+          "avatar": "/images/heroes/icon_heroes/hades.png"
         },
         {
           "name": "Athena",
           "slug": "athena",
-          "avatar": "/images/heroes/athena.png"
+          "avatar": "/images/heroes/icon_heroes/athena.png"
         }
       ]
     },
@@ -601,12 +601,12 @@
         {
           "name": "Seya",
           "slug": "seya",
-          "avatar": "/images/heroes/seya.png"
+          "avatar": "/images/heroes/icon_heroes/seya.png"
         },
         {
           "name": "Zeus",
           "slug": "zeus",
-          "avatar": "/images/heroes/zeus.png"
+          "avatar": "/images/heroes/icon_heroes/zeus.png"
         }
       ]
     },
@@ -617,7 +617,7 @@
         {
           "name": "Copper",
           "slug": "copper",
-          "avatar": "/images/heroes/copper.png"
+          "avatar": "/images/heroes/icon_heroes/copper.png"
         }
       ]
     }

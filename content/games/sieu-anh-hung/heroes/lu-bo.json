@@ -4,7 +4,7 @@
   "name": "Lữ Bố",
   "title": "Vũ trụ sức mạnh • SSR Lữ Bố",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/lu-bo.png",
+  "avatar": "/images/heroes/icon_heroes/lu-bo.png",
   "fullArt": "/images/heroes/full/image_lvbu.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Quỷ Thần Dẫn",
-      "icon": "/images/heroes/s_lvbu_skill1.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill1.png",
       "description": "Skill trước trận: Thả lực quỷ thần, giảm 350% Vật Công, Ma Công, Phòng Ngự và Tốc Độ của mục tiêu địch, kéo dài 1-5 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Lở Đất",
-      "icon": "/images/heroes/s_lvbu_skill2.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill2.png",
       "description": "Tấn công 3-5 mục tiêu, tạo 350% ST vật lý và 300% ST t.tính Đất lên mục tiêu, tấn công càng ít mục tiêu, ST tạo ra càng cao, tối đa tạo X3 ST.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Liệt Băng Trảm",
-      "icon": "/images/heroes/s_lvbu_skill3.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill3.png",
       "description": "Skill phản đòn: 99% tỉ lệ sau khi chịu tấn công, tấn công toàn thể địch, tạo 350% ST vật lý và 200% ST t.tính Đất lên mục tiêu, mỗi hiệp tối đa phản đòn 1 lần.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Quỷ Ảnh Bích",
-      "icon": "/images/heroes/s_lvbu_skill6.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill6.png",
       "description": "Skill trước hiệp: Nhận buff Vô Địch, miễn dịch 1 lần ST tấn công, hồi tất cả HP cho bản thân, tăng phòng ngự và phòng ngự toàn thuộc tính của 350% Ma Công của bản thân Lữ Bố, kéo dài 1 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Quỷ Thần Thể",
-      "icon": "/images/heroes/s_lvbu_skill7.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill7.png",
       "description": "Skill bị động: Bản thân tăng vĩnh viễn 350% Né, Chính Xác và Bạo Kích, 800% Phòng Ngự & Phòng Ngự Thuộc Tính, 69% giảm thương tổng thể.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Thần Vũ Bạo",
-      "icon": "/images/heroes/s_lvbu_skill4.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill4.png",
       "description": "Tấn công toàn thể mục tiêu địch, tạo 350% ST vật lý và 800% ST t.tính Đất, và có 60% tỉ lệ khiến mục tiêu dãy trước hôn mê hoặc hỗn loạn 1 hiệp.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Thiên Hạ Vô Song",
-      "icon": "/images/heroes/s_lvbu_skill5.png",
+      "icon": "/images/icon_skill_heroes/s_lvbu_skill5.png",
       "description": "Tấn công toàn thể mục tiêu tạo 350% ST vật lý và 800% ST t.tính Đất, tạo thêm X4 ST thực và ST thuộc tính lên 1 trong số mục tiêu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-lu-bo",
       "name": "CT-Lữ Bố",
-      "avatar": "/images/heroes/ct-lu-bo.png",
+      "avatar": "/images/heroes/icon_heroes/ct-lu-bo.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Mãnh tướng Tam Quốc, có danh hiệu là \"phi tướng\", \"quỷ thần\", tay cầm Phương Thiên Trượng"
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Quỷ Thần Dẫn",
-      "skillIcon": "/images/heroes/s_lvbu_skill1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill1.png",
       "skillDesc": "Giảm phạm vi thuộc tính của mục tiêu, tăng tấn công toàn t.tính và phòng ngự toàn t.tính, 50% tỉ lệ làm mục tiêu sợ 1 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Lở Đất",
-      "skillIcon": "/images/heroes/s_lvbu_skill2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill2.png",
       "skillDesc": "Khiến mục tiêu bị tấn công giảm 80% Tốc Độ, kéo dài 2 hiệp",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Ảo Ảnh",
-          "icon": "/images/heroes/ao-anh.png",
+          "icon": "/images/heroes/icon_heroes/ao-anh.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Liệt Băng Trảm",
-      "skillIcon": "/images/heroes/s_lvbu_skill3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill3.png",
       "skillDesc": "Số lần phản đòn tăng lên 2 lần, có 80% tỉ lệ trọng thương 1 mục tiêu, khiến mục tiêu ko thể hồi máu 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Truyền Thuyết",
       "auraColor": "amber",
       "skillName": "Thần Vũ Bạo",
-      "skillIcon": "/images/heroes/s_lvbu_skill4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill4.png",
       "skillDesc": "Tỉ lệ hôn mê hoặc hỗn loạn của mục tiêu dãy trước tăng lên 70%, tăng sĩ khí cho dãy sau phe ta, tăng 50% tấn công toàn t.tính và Vật & Ma Công, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Sói Trắng",
-          "icon": "/images/heroes/soi-trang.png",
+          "icon": "/images/heroes/icon_heroes/soi-trang.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Thiên Hạ Vô Song",
-      "skillIcon": "/images/heroes/s_lvbu_skill5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill5.png",
       "skillDesc": "Tạo thêm X4 sát thương và sát thương t.tính lên 1-3 mục tiêu; Giảm 40% giảm thương tổng thể của mục tiêu khác, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Quỷ Ảnh Bích",
-      "skillIcon": "/images/heroes/s_lvbu_skill6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill6.png",
       "skillDesc": "Khiến bản thân bỏ qua đóng băng, hóa đá, hỗn loạn và hôn mê; Nếu phe ta có đồng đội nữ (Chưa chết), sẽ nhận được sĩ khí, được 500k-1000k Vật Công.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Quỷ Thần Thể",
-      "skillIcon": "/images/heroes/s_lvbu_skill7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_lvbu_skill7.png",
       "skillDesc": "Bản thân tăng 300% Vật Công, giảm thương tổng thể tăng lên 79%, khi tấn công phe địch, có 80% tỉ lệ giảm 80% tấn công toàn thuộc tính của chúng, kéo dài 1 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijia.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Kiếm Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhijian.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Thần Vũ Bạo",
-      "unlockedSkillIcon": "/images/heroes/s_lvbu_skill4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_lvbu_skill4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Thiên Hạ Vô Song",
-      "unlockedSkillIcon": "/images/heroes/s_lvbu_skill5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_lvbu_skill5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Lữ Bố",
-          "icon": "/images/heroes/lu-bo.png",
+          "icon": "/images/heroes/icon_heroes/lu-bo.png",
           "slug": "lu-bo"
         }
       ],
@@ -625,12 +625,12 @@
         {
           "name": "Sanji",
           "slug": "sanji",
-          "avatar": "/images/heroes/sanji.png"
+          "avatar": "/images/heroes/icon_heroes/sanji.png"
         },
         {
           "name": "Kil'jaeden",
           "slug": "kiljaeden",
-          "avatar": "/images/heroes/kiljaeden.png"
+          "avatar": "/images/heroes/icon_heroes/kiljaeden.png"
         }
       ]
     },
@@ -641,12 +641,12 @@
         {
           "name": "Black",
           "slug": "black",
-          "avatar": "/images/heroes/black.png"
+          "avatar": "/images/heroes/icon_heroes/black.png"
         },
         {
           "name": "Saitama",
           "slug": "saitama",
-          "avatar": "/images/heroes/saitama.png"
+          "avatar": "/images/heroes/icon_heroes/saitama.png"
         }
       ]
     },
@@ -657,7 +657,7 @@
         {
           "name": "Erza",
           "slug": "erza",
-          "avatar": "/images/heroes/erza.png"
+          "avatar": "/images/heroes/icon_heroes/erza.png"
         }
       ]
     },
@@ -668,7 +668,7 @@
         {
           "name": "Mihawk",
           "slug": "mihawk",
-          "avatar": "/images/heroes/mihawk.png"
+          "avatar": "/images/heroes/icon_heroes/mihawk.png"
         }
       ]
     }

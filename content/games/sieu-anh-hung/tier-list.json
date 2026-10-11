@@ -9,7 +9,7 @@
         {
           "heroSlug": "nagato",
           "name": "Nagato",
-          "avatar": "/images/heroes/nagato.png",
+          "avatar": "/images/heroes/icon_heroes/nagato.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -18,7 +18,7 @@
         {
           "heroSlug": "ct-shalltear",
           "name": "CT-Shalltear",
-          "avatar": "/images/heroes/ct-shalltear.png",
+          "avatar": "/images/heroes/icon_heroes/ct-shalltear.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -27,7 +27,7 @@
         {
           "heroSlug": "ct-vegetto",
           "name": "CT - vegetto",
-          "avatar": "/images/heroes/icon_vegettopf.png",
+          "avatar": "/images/heroes/icon_heroes/icon_vegettopf.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -45,7 +45,7 @@
         {
           "heroSlug": "shadow",
           "name": "Shadow",
-          "avatar": "/images/heroes/icon_anying2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_anying2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -54,7 +54,7 @@
         {
           "heroSlug": "kiem-hy-vong",
           "name": "Kiếm Hy Vọng",
-          "avatar": "/images/heroes/icon_telankesi2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_telankesi2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -63,7 +63,7 @@
         {
           "heroSlug": "vegetto",
           "name": "Vegetto",
-          "avatar": "/images/heroes/icon_vegetto.png",
+          "avatar": "/images/heroes/icon_heroes/icon_vegetto.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -72,7 +72,7 @@
         {
           "heroSlug": "quy-than-zoro",
           "name": "Quỷ Thần - Zoro",
-          "avatar": "/images/heroes/icon_xsjsuolong2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -81,7 +81,7 @@
         {
           "heroSlug": "ct-vegeta",
           "name": "CT - Vegeta",
-          "avatar": "/images/heroes/icon_beijita.png",
+          "avatar": "/images/heroes/icon_heroes/icon_beijita.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -90,7 +90,7 @@
         {
           "heroSlug": "yatogami-tohka",
           "name": "Yatogami Tohka",
-          "avatar": "/images/heroes/icon_shenshixiang.png",
+          "avatar": "/images/heroes/icon_heroes/icon_shenshixiang.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -99,7 +99,7 @@
         {
           "heroSlug": "mg-maple",
           "name": "MG -Maple",
-          "avatar": "/images/heroes/mg-maple.png",
+          "avatar": "/images/heroes/icon_heroes/mg-maple.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -108,7 +108,7 @@
         {
           "heroSlug": "edward-newgate",
           "name": "Edward Newgate",
-          "avatar": "/images/heroes/icon_baihuzi2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_baihuzi2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -117,7 +117,7 @@
         {
           "heroSlug": "cuonbroli",
           "name": "CuồnBroli",
-          "avatar": "/images/heroes/cuonbroli.png",
+          "avatar": "/images/heroes/icon_heroes/cuonbroli.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -126,7 +126,7 @@
         {
           "heroSlug": "luc-ao-sasuke",
           "name": "Lục Đạo Sasuke",
-          "avatar": "/images/heroes/icon_xzuozhu2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_xzuozhu2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -143,7 +143,7 @@
         {
           "heroSlug": "hoakamado-tanjiro",
           "name": "HỏaKamado Tanjiro",
-          "avatar": "/images/heroes/hoakamado-tanjiro.png",
+          "avatar": "/images/heroes/icon_heroes/hoakamado-tanjiro.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -152,7 +152,7 @@
         {
           "heroSlug": "bikini-frieren",
           "name": "Bikini - Frieren",
-          "avatar": "/images/heroes/icon_fulilian2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_fulilian2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -161,7 +161,7 @@
         {
           "heroSlug": "phu-thuy-elaina",
           "name": "Phù Thủy - Elaina",
-          "avatar": "/images/heroes/icon_yileina2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_yileina2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -170,7 +170,7 @@
         {
           "heroSlug": "kanae",
           "name": "Kanae",
-          "avatar": "/images/heroes/icon_hudieren2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_hudieren2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -187,7 +187,7 @@
         {
           "heroSlug": "songohan-kong",
           "name": "Songohan Kong",
-          "avatar": "/images/heroes/songohan-kong.png",
+          "avatar": "/images/heroes/icon_heroes/songohan-kong.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -196,7 +196,7 @@
         {
           "heroSlug": "luffy-nika",
           "name": "Luffy - Nika",
-          "avatar": "/images/heroes/luffy-nika.png",
+          "avatar": "/images/heroes/icon_heroes/luffy-nika.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -205,7 +205,7 @@
         {
           "heroSlug": "dk-rimuru",
           "name": "DK - Rimuru",
-          "avatar": "/images/heroes/icon_limulu2.png",
+          "avatar": "/images/heroes/icon_heroes/icon_limulu2.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -214,7 +214,7 @@
         {
           "heroSlug": "giacsatoru-gojo",
           "name": "GiácSatoru Gojo",
-          "avatar": "/images/heroes/giacsatoru-gojo.png",
+          "avatar": "/images/heroes/icon_heroes/giacsatoru-gojo.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -223,7 +223,7 @@
         {
           "heroSlug": "chu-nguyen-sasuke",
           "name": "Chú Nguyền Sasuke",
-          "avatar": "/images/heroes/icon_xzuozhu.png",
+          "avatar": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -232,7 +232,7 @@
         {
           "heroSlug": "ct-meliodas",
           "name": "CT - Meliodas",
-          "avatar": "/images/heroes/icon_mlads.png",
+          "avatar": "/images/heroes/icon_heroes/icon_mlads.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -249,7 +249,7 @@
         {
           "heroSlug": "ct-kikyo",
           "name": "CT-Kikyo",
-          "avatar": "/images/heroes/ct-kikyo.png",
+          "avatar": "/images/heroes/icon_heroes/ct-kikyo.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -258,7 +258,7 @@
         {
           "heroSlug": "luffy-snakeman",
           "name": "Luffy Snakeman",
-          "avatar": "/images/heroes/luffy-snakeman.png",
+          "avatar": "/images/heroes/icon_heroes/luffy-snakeman.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -275,7 +275,7 @@
         {
           "heroSlug": "kakarot",
           "name": "Kakarot",
-          "avatar": "/images/heroes/kakarot.png",
+          "avatar": "/images/heroes/icon_heroes/kakarot.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -284,7 +284,7 @@
         {
           "heroSlug": "hac-vu-chi-da-inori",
           "name": "Hắc Vũ Chi Dạ - Inori",
-          "avatar": "/images/heroes/icon_dieqipifu.png",
+          "avatar": "/images/heroes/icon_heroes/icon_dieqipifu.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -293,7 +293,7 @@
         {
           "heroSlug": "ct-inori",
           "name": "CT - Inori",
-          "avatar": "/images/heroes/icon_dieqi.png",
+          "avatar": "/images/heroes/icon_heroes/icon_dieqi.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",
@@ -302,7 +302,7 @@
         {
           "heroSlug": "songoku-sieu-xayda-3",
           "name": "Songoku Siêu Xayda 3",
-          "avatar": "/images/heroes/icon_XWukong3.png",
+          "avatar": "/images/heroes/icon_heroes/icon_XWukong3.png",
           "element": "Vũ trụ linh tính",
           "rarity": "SSR",
           "role": "Tanker",
@@ -311,7 +311,7 @@
         {
           "heroSlug": "ct-piccolo",
           "name": "CT-Piccolo",
-          "avatar": "/images/heroes/ct-piccolo.png",
+          "avatar": "/images/heroes/icon_heroes/ct-piccolo.png",
           "element": "Vũ trụ linh tính",
           "rarity": "UR",
           "role": "Tanker",

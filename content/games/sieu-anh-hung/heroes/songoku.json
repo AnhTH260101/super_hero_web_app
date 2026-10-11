@@ -4,7 +4,7 @@
   "name": "Songoku",
   "title": "Vũ trụ linh tính • SSR Songoku",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_XWukong.png",
+  "avatar": "/images/heroes/icon_heroes/icon_XWukong.png",
   "fullArt": "/images/heroes/full/image_XWukong.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Gậy Như Ý Đập",
-      "icon": "/images/heroes/s_XWukong_s1.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s1.png",
       "description": "Tạo thành 350% ST vật lý và 300% ST thuộc tính Hỏa cho toàn bộ phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Haki",
-      "icon": "/images/heroes/s_XWukong_s2.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s2.png",
       "description": "Kỹ năng trước khi bị đánh: Gây ra 350% ST vật lý cho toàn phe địch, khôi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), giảm 100% tỉ lệ Trúng Đích của mục tiêu.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Như Ý Liên Kích",
-      "icon": "/images/heroes/s_XWukong_s3.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s3.png",
       "description": "Kỹ năng phản kích: Gây ra 350% ST vật lý và 500% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Ul Omen",
-      "icon": "/images/heroes/s_XWukong_s6.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s6.png",
       "description": "Kỹ năng tử vong: Hồi phục toàn bộ HP. Tối đa có thể phục sinh 2 lần. Diệt ngay ngẫu nhiên 1 kẻ địch.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Quy Phái Khí Công",
-      "icon": "/images/heroes/s_XWukong_s7.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s7.png",
       "description": "Kỹ năng trước khi chiến đấu: Đề cao 230% HP/ 79% Giảm Thương, 500% Trúng Địch và Né Tránh của bản thân,Diệt Ngay ngẫu nhiên 1 kẻ địch. Gây ra ST bằng 30% HP tối đa bản thân cho toàn phe địch.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Đằng Vân Như Ý Bổng",
-      "icon": "/images/heroes/s_XWukong_s4.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s4.png",
       "description": "Hồi phục toàn bộ HP của bản thân (bỏ qua Trọng Thương), gây ra 350% ST vật lý và 850% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Vượn Khổng Lồ Saiyan",
-      "icon": "/images/heroes/s_XWukong_s5.png",
+      "icon": "/images/icon_skill_heroes/s_XWukong_s5.png",
       "description": "Kỹ năng trước lượt đấu: Cho Trúng Đích của bản thân tăng lên tới 100, nhận 1 tầng \"Ngộ\", gây ra 350% ST vật lý và ST thực bằng Số tầng \"Ngộ\" x 10% HP tối đa. \"Ngộ\" được chồng tối đa 10 tầng.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "kakarot",
       "name": "Kakarot",
-      "avatar": "/images/heroes/kakarot.png",
+      "avatar": "/images/heroes/icon_heroes/kakarot.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Người Saiyan đến từ hành tinh Vegeta, lúc bé được đưa đến Trái Đất với thân phận là \"Chiến Sĩ Hạ Cấp\", và được nhà võ thuật Songohan nhận nuôi. Bởi vì mất khống chế biến thành King Kong đạp chết Songohan nên sau đó sống một mình trong núi sâu. Sau khi quen Bulma thì bước lên hành trình đi tìm Ngọc Rồng. Có ước mơ không ngừng trở nên mạnh mẽ,luôn khắc khổ tu luyện để có được sức mạnh lớn hơn."
@@ -152,18 +152,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Gậy Như Ý Đập",
-      "skillIcon": "/images/heroes/s_XWukong_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s1.png",
       "skillDesc": "Khiến khả năng Né Tránh của tất cả kẻ địch về 0, giảm 100% tốc độ của tất cả kẻ địch, duy trì 1 lượt",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -177,30 +177,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Haki",
-      "skillIcon": "/images/heroes/s_XWukong_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s2.png",
       "skillDesc": "Có thể sử dụng 3 lần. Cho bản thân 1 lượt Vô Địch",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -214,24 +214,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Như Ý Liên Kích",
-      "skillIcon": "/images/heroes/s_XWukong_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s3.png",
       "skillDesc": "Trầm Mặc mục  tiêu",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -245,30 +245,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Đằng Vân Như Ý Bổng",
-      "skillIcon": "/images/heroes/s_XWukong_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s4.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 2,
           "type": "hero"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -282,30 +282,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Vượn Khổng Lồ Saiyan",
-      "skillIcon": "/images/heroes/s_XWukong_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s5.png",
       "skillDesc": "Nếu bản thân có 3 tầng \"Không\" thì sẽ có thêm gấp bội ST HP tối đa",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 2,
           "type": "hero"
         }
@@ -319,30 +319,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Ul Omen",
-      "skillIcon": "/images/heroes/s_XWukong_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s6.png",
       "skillDesc": "Số lần Hồi Sinh tăng đến 3, khi hồi sinh thông qua kĩ năng này, nhận được hiệu quả 1 tầng \"Không\", KHÔNG: có hiệu quả cho ra 20% được Quyển Trục Thần",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 1,
           "type": "hero"
         }
@@ -356,30 +356,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Quy Phái Khí Công",
-      "skillIcon": "/images/heroes/s_XWukong_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_XWukong_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch Trầm Mặc/ Hóa Đá/ Chóng Mặt/ Hôn Mê/ Hỗn Loạn/ Chế Giễu/ Tsukuyomi; bản thân Vô Địch 1 lượt, giảm HP tối đa của phe địch giảm thành 50% của HP tối đa hiện giờ.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/songoku.png",
+          "icon": "/images/heroes/icon_heroes/songoku.png",
           "amount": 2,
           "type": "hero"
         }
@@ -394,22 +394,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -425,22 +425,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -456,28 +456,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Đằng Vân Như Ý Bổng",
-      "unlockedSkillIcon": "/images/heroes/s_XWukong_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_XWukong_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -487,22 +487,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -518,22 +518,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         }
       ],
@@ -549,28 +549,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Vượn Khổng Lồ Saiyan",
-      "unlockedSkillIcon": "/images/heroes/s_XWukong_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_XWukong_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -580,22 +580,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -611,22 +611,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Songoku",
-          "icon": "/images/heroes/ct-songoku.png",
+          "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
           "slug": "songoku"
         }
       ],
@@ -655,12 +655,12 @@
         {
           "name": "Broli",
           "slug": "broli",
-          "avatar": "/images/heroes/broli.png"
+          "avatar": "/images/heroes/icon_heroes/broli.png"
         },
         {
           "name": "Shirakami Goku",
           "slug": "shirakami-goku",
-          "avatar": "/images/heroes/shirakami-goku.png"
+          "avatar": "/images/heroes/icon_heroes/shirakami-goku.png"
         }
       ]
     },
@@ -671,7 +671,7 @@
         {
           "name": "Piccolo",
           "slug": "piccolo",
-          "avatar": "/images/heroes/piccolo.png"
+          "avatar": "/images/heroes/icon_heroes/piccolo.png"
         }
       ]
     },
@@ -682,7 +682,7 @@
         {
           "name": "Luffy Gear 4",
           "slug": "luffy-gear-4",
-          "avatar": "/images/heroes/luffy-gear-4.png"
+          "avatar": "/images/heroes/icon_heroes/luffy-gear-4.png"
         }
       ]
     },
@@ -693,7 +693,7 @@
         {
           "name": "Kamado Tanjiro",
           "slug": "kamado-tanjiro",
-          "avatar": "/images/heroes/kamado-tanjiro.png"
+          "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png"
         }
       ]
     }

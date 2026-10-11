@@ -4,7 +4,7 @@
   "name": "Piccolo",
   "title": "Vũ trụ linh tính • SSR Piccolo",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/piccolo.png",
+  "avatar": "/images/heroes/icon_heroes/piccolo.png",
   "fullArt": "/images/heroes/full/image_bike.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": false,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Laze Ma Thuật",
-      "icon": "/images/heroes/s_bike_s1.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s1.png",
       "description": "Gây ra 350% ST vật lý và 450% ST thuộc tính Phong với toàn bộ phe địch, giảm 80% khả năng Né Tránh và Trúng Đích của mục tiêu, duy trì 2 lượt.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ma Khẩu Pháo",
-      "icon": "/images/heroes/s_bike_s2.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s2.png",
       "description": "Kỹ năng phản kích: Gây ra 350% ST vật lý và 450% ST thuộc tính Phong với toàn bộ phe địch, hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), làm mục tiêu bị Hỗn Loạn hoặc Trói Buộc.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Rào Chắn Ma Lực",
-      "icon": "/images/heroes/s_bike_s3.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s3.png",
       "description": "Kỹ năng trước khi bị đánh: Hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương), hồi phục HP toàn đội bằng 350% Tốc Độ bản thân, ngoài ra còn thêm 1 lần Vô Địch cho bản thân, duy trì 1 lượt.",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Ma Lực Ba Tối Thượng",
-      "icon": "/images/heroes/s_bike_s6.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s6.png",
       "description": "Kỹ năng tiền chiến: Tất cả các đòn tấn công thuộc tính đều chuyển thành tấn công vật lý, gây ra 350% ST vật lý và 1200% ST thực thuộc tính Phong với toàn bộ phe địch, tăng 79% khả năng Giảm Thương chỉnh thể của bản thân, tăng 500% khả năng tấn công vật lý của bản thân, vĩnh viễn tăng lên 200% khả năng Né Tránh và Tốc Độ của bản thân, đồng thời tăng 200% giới hạn HP của toàn đội.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Kết Giới Ma Thần",
-      "icon": "/images/heroes/s_bike_s7.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s7.png",
       "description": "Kỹ năng tử vong (bỏ qua Trọng Thương): Hồi phục toàn bộ HP, gây ra 350% ST vật lý và 900% ST thực thuộc tính Phong với toàn bộ phe địch, tiêu diệt ngay 1 mục tiêu ngẫu nhiên.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Ma Thiểm Quang Tối Thượng",
-      "icon": "/images/heroes/s_bike_s4.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s4.png",
       "description": "Tất cả các đòn tấn công thuộc tính đều chuyển thành tấn công vật lý, gây ra 350% ST vật lý và 900% ST thực thuộc tính Phong với toàn bộ phe địch, ngoài ra còn gây ra ST thực bằng 50% HP cao nhất của bản thân.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Ma Quán Quang Sát Pháo",
-      "icon": "/images/heroes/s_bike_s5.png",
+      "icon": "/images/icon_skill_heroes/s_bike_s5.png",
       "description": "Kỹ năng trước lượt đấu: Tất cả các đòn tấn công thuộc tính đều chuyển thành tấn công vật lý, gây ra 350% ST vật lý và 800% ST thực thuộc tính Phong với toàn bộ phe địch, hồi phục toàn bộ HP bản thân (bỏ qua Trọng Thương).",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -106,7 +106,7 @@
     {
       "slug": "ct-piccolo",
       "name": "CT-Piccolo",
-      "avatar": "/images/heroes/ct-piccolo.png",
+      "avatar": "/images/heroes/icon_heroes/ct-piccolo.png",
       "rarity": "UR",
       "role": "Tanker",
       "overview": "Người hành tinh Namek, ban đầu là Đại Ma Vương độc ác có ý đồ xưng bá toàn thế giới, sau đó cải tà quy chính. Tính cách điềm tĩnh, trí tuệ, là chiến sĩ có trí thông minh cao hiếm thấy."
@@ -119,18 +119,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Laze Ma Thuật",
-      "skillIcon": "/images/heroes/s_bike_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s1.png",
       "skillDesc": "Trong số các mục tiêu, gây ST gấp 3 lần và ST thuộc tính đối với kẻ địch có HP ít nhất và nhiều nhất.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -144,30 +144,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Ma Khẩu Pháo",
-      "skillIcon": "/images/heroes/s_bike_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s2.png",
       "skillDesc": "Gây thêm gấp 3 ST và ST thuộc tính với mục tiêu đã bị Hỗn Loạn, gây gấp 6 ST và ST thuộc tính với mục tiêu chưa bị Hỗn Loạn.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -181,24 +181,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Rào Chắn Ma Lực",
-      "skillIcon": "/images/heroes/s_bike_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s3.png",
       "skillDesc": "Giảm đòn tấn công toàn thuộc tính hoặc đòn tấn công kép Ma - Vật của mục tiêu xuống 0, duy trì 1 lượt, số lần kích hoạt mỗi lượt biến thành 3 lần.\n",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -212,30 +212,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Ma Thiểm Quang Tối Thượng",
-      "skillIcon": "/images/heroes/s_bike_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s4.png",
       "skillDesc": "Tạo ra hiệu quả bất đồng tùy vào số lượng người của đối phương:\n1. Phe địch có 4-5 người, gây ra thêm gấp 5 ST.\n2. Phe địch có 1-3 người, gây ra thêm gấp 7 ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Shirakami Goku",
-          "icon": "/images/heroes/shirakami-goku.png",
+          "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -249,30 +249,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Ma Quán Quang Sát Pháo",
-      "skillIcon": "/images/heroes/s_bike_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s5.png",
       "skillDesc": "Gây thêm gấp 4-6 lần ST và ST thuộc tính, đồng thời có 50% cơ hội lại tạo ra 1 lần ST.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -286,30 +286,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Ma Lực Ba Tối Thượng",
-      "skillIcon": "/images/heroes/s_bike_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s6.png",
       "skillDesc": "Miễn nhiễm vĩnh viễn với các hiệu ứng Trầm Mặc, Hóa Đá, Chóng Mặt, Hôn Mê, Hỗn Loạn, Chế Nhạo, Tsukuyomi, ngẫu nhiên Trói Buộc 3-5 mục tiêu và khiến cho mục tiêu không thể phát động kỹ năng trước khi bị đánh ở lượt này.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 1,
           "type": "hero"
         }
@@ -323,30 +323,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Kết Giới Ma Thần",
-      "skillIcon": "/images/heroes/s_bike_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_bike_s7.png",
       "skillDesc": "Giảm đòn tấn công toàn thuộc tính hoặc đòn tấn công kép Ma - Vật của mục tiêu xuống 0, duy trì 1 lượt. Tối đa có thể hồi sinh 3 lần, sau khi hồi sinh tất cả các kỹ năng mỗi khi tấn công sẽ tăng gấp 3 lần ST và ST thuộc tính.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "amount": 2,
           "type": "hero"
         }
@@ -361,22 +361,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -392,22 +392,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -423,28 +423,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Ma Thiểm Quang Tối Thượng",
-      "unlockedSkillIcon": "/images/heroes/s_bike_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_bike_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -454,22 +454,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         }
       ],
@@ -485,22 +485,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         }
       ],
@@ -516,28 +516,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Ma Quán Quang Sát Pháo",
-      "unlockedSkillIcon": "/images/heroes/s_bike_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_bike_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -547,22 +547,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -578,22 +578,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Piccolo",
-          "icon": "/images/heroes/piccolo.png",
+          "icon": "/images/heroes/icon_heroes/piccolo.png",
           "slug": "piccolo"
         }
       ],
@@ -623,12 +623,12 @@
         {
           "name": "Số 18",
           "slug": "so-18",
-          "avatar": "/images/heroes/so-18.png"
+          "avatar": "/images/heroes/icon_heroes/so-18.png"
         },
         {
           "name": "Shirakami Goku",
           "slug": "shirakami-goku",
-          "avatar": "/images/heroes/shirakami-goku.png"
+          "avatar": "/images/heroes/icon_heroes/shirakami-goku.png"
         }
       ]
     },
@@ -639,7 +639,7 @@
         {
           "name": "Shalltear",
           "slug": "shalltear",
-          "avatar": "/images/heroes/shalltear.png"
+          "avatar": "/images/heroes/icon_heroes/shalltear.png"
         }
       ]
     },
@@ -650,7 +650,7 @@
         {
           "name": "Beerus",
           "slug": "beerus",
-          "avatar": "/images/heroes/beerus.png"
+          "avatar": "/images/heroes/icon_heroes/beerus.png"
         }
       ]
     },
@@ -661,7 +661,7 @@
         {
           "name": "Cell",
           "slug": "cell",
-          "avatar": "/images/heroes/cell.png"
+          "avatar": "/images/heroes/icon_heroes/cell.png"
         }
       ]
     }

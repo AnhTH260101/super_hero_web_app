@@ -4,7 +4,7 @@
   "name": "Vlad III·Ma",
   "title": "Vũ trụ linh tính • UR Vlad III·Ma",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/vlad-iiima.png",
+  "avatar": "/images/heroes/icon_heroes/vlad-iiima.png",
   "fullArt": "/images/heroes/full/image_feiladesanshi.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Máu tươi.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s1.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s1.png",
       "description": "Tạo 350% ST vật lý và 550% ST t.tính Nước lên 3~5 kẻ địch ngẫu nhiên, 50% tỉ lệ tấn công toàn thể mục tiêu và khiến mục tiêu bị trói buộc, kéo dài 2 hiệp, hồi HP bằng 20% giới hạn HP.",
       "cooldown": "4 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Hút máu.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s2.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s2.png",
       "description": "Skill trước khi bị đánh: Tạo 350% ST vật lý và 350% ST thuộc tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương), tăng 200% Né và Tốc Độ cho toàn thể phe ta, kéo dài 2 hiệp.",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cuồng hóa.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s3.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s3.png",
       "description": "Skill phản đòn: Tạo 350% ST vật lý và 250% ST thuộc tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân (bỏ qua Trọng Thương), 50% tỉ lệ khiến mục tiêu bị trói buộc, kéo dài 2 hiệp, tạo hiệu quả Tụt Máu với tất cả các mục tiêu (30% HP của bản thân).",
       "cooldown": null,
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Vương Quỷ nhuốm máu.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s6.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s6.png",
       "description": "Skill trước hiệp: Chuyển tất cả tấn công t.tính thành vật công, tạo 350% ST vật lý và 950% ST thực t.tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân.(bỏ qua Trọng Thương), trước khi tấn công, tăng thêm 100W~180W tấn công t.tính Nước và 50W~80W tấn công vật lý, kéo dài 2 hiệp.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Truyền máu tươi.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s7.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s7.png",
       "description": "Skill trước trận: Tạo 350% ST ma công và 850% ST thực t.tính Nước lên toàn thể phe địch, tăng 79% tỉ lệ giảm thương tổng thể cho bản thân và 800% phòng ngự toàn thuộc tính của bản thân, khiến mục tiêu trọng thương, giảm 100% hồi HP, tăng vĩnh viễn 200% Trúng, Tốc Độ, Bạo Kích, tạo thêm x4-6 ST và ST t.tính.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Tiếp tục chiến.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s4.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s4.png",
       "description": "Tạo 350% ST vật lý và 850% ST thuộc tính Nước lên toàn thể phe địch, giảm 100% phòng ngự t.tính Nước và phòng ngự t.tính Lửa, tạo x4-6 ST và ST t.tính, hồi 40%~60% HP toàn đội.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Cúp Thánh Đen.Ma",
-      "icon": "/images/heroes/s_foladesanshi_s5.png",
+      "icon": "/images/icon_skill_heroes/s_foladesanshi_s5.png",
       "description": "Tạo 350% ST vật lý và 950% ST thuộc tính Nước lên toàn thể phe địch, hồi toàn bộ HP cho bản thân.(bỏ qua Trọng Thương), tạo cho kẻ địch ST thực bằng 30% HP tối đa của bản thân, có 50% tỉ lệ chọn ngẫu nhiên 1 mục tiêu để kết liễu.",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Máu tươi.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s1.png",
       "skillDesc": "Đánh trọng thương mục tiêu, khiến mục tiêu không thể hồi máu 1 hiệp; và có 50% tỉ lệ tạo thêm ST và ST thuộc tính bằng 800% Tốc Độ của bản thân",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Hút máu.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s2.png",
       "skillDesc": "Làm mục tiêu mù hoặc giảm100% Ma & Vật công, kéo dài 2 hiệp, tạo thêm ST thực của ST và ST thuộc tính bằng 800% Tốc Độ của bản thân. Số lần mỗi hiệp kích hoạt đổi thành 3 lần",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "saber",
-          "icon": "/images/heroes/saber.png",
+          "icon": "/images/heroes/icon_heroes/saber.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Cuồng hóa.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s3.png",
       "skillDesc": "Trong hiệp này giảm 99% Phòng Ngự tổng thể của 1~4 kẻ địch, đồng thời giảm 30% tỉ lệ giảm thương tổn thể cho các kẻ địch còn lại. (Sinh hiệu quả ST trong lần tấn công này)",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Tiếp tục chiến.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s4.png",
       "skillDesc": "Cộng 1 hiệu quả vô địch cho đồng đội có HP thấp nhất, sinh hiệu quả 1 lần; đồng thời tăng 50% toàn t.tính cho tất cả nhân vật phe ta, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "saber",
-          "icon": "/images/heroes/saber.png",
+          "icon": "/images/heroes/icon_heroes/saber.png",
           "amount": 1,
           "type": "hero"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Cúp Thánh Đen.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s5.png",
       "skillDesc": "Tạo x3 sát thương lên mục tiêu, tạo thêm x6 sát thương lên tất cả những kẻ địch có Tốc Độ thấp hơn bản thân, đồng thời khiến mục tiêu bị trói buộc, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Vương Quỷ nhuốm máu.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s6.png",
       "skillDesc": "Tạo thêm x4-6 ST và ST t.tính; đồng thời tạo hiệu quả tụt máu lên tất cả mục tiêu, mỗi hiệp tạo 850% ST thực của tấn công t.tính Nước và 30% trị số HP của bản thân, kéo dài 2 hiệp.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Truyền máu tươi.Ma",
-      "skillIcon": "/images/heroes/s_foladesanshi_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_foladesanshi_s7.png",
       "skillDesc": "Vĩnh viễn miễn dịch hiệu quả Đứng Im, Hóa Đá, Choáng, Hôn Mê, Hỗn Loạn, Chế Giễu, Tsukuyomi. Chọn ngẫu nhiên một mục tiêu để kết liễu, cộng thêm 1 tầng buff hồi sinh cho bản thân, khi bản thân chết sẽ được hồi sinh, hồi 100% HP.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Tiếp tục chiến.Ma",
-      "unlockedSkillIcon": "/images/heroes/s_foladesanshi_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_foladesanshi_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Cúp Thánh Đen.Ma",
-      "unlockedSkillIcon": "/images/heroes/s_foladesanshi_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_foladesanshi_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Vlad III",
-          "icon": "/images/heroes/vlad-iii.png",
+          "icon": "/images/heroes/icon_heroes/vlad-iii.png",
           "slug": "vlad-iii"
         }
       ],
@@ -694,7 +694,7 @@
     "id": "39900",
     "slug": "vlad-iii",
     "name": "Vlad III",
-    "avatar": "/images/heroes/vlad-iii.png",
+    "avatar": "/images/heroes/icon_heroes/vlad-iii.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -706,12 +706,12 @@
         {
           "name": "Kuchiki Byakuya",
           "slug": "kuchiki-byakuya",
-          "avatar": "/images/heroes/kuchiki-byakuya.png"
+          "avatar": "/images/heroes/icon_heroes/kuchiki-byakuya.png"
         },
         {
           "name": "Laxus Dreyar",
           "slug": "laxus-dreyar",
-          "avatar": "/images/heroes/laxus-dreyar.png"
+          "avatar": "/images/heroes/icon_heroes/laxus-dreyar.png"
         }
       ]
     },
@@ -722,7 +722,7 @@
         {
           "name": "saber",
           "slug": "saber",
-          "avatar": "/images/heroes/saber.png"
+          "avatar": "/images/heroes/icon_heroes/saber.png"
         }
       ]
     },
@@ -733,7 +733,7 @@
         {
           "name": "Shermie",
           "slug": "shermie",
-          "avatar": "/images/heroes/shermie.png"
+          "avatar": "/images/heroes/icon_heroes/shermie.png"
         }
       ]
     },
@@ -744,7 +744,7 @@
         {
           "name": "Kaio",
           "slug": "kaio",
-          "avatar": "/images/heroes/kaio.png"
+          "avatar": "/images/heroes/icon_heroes/kaio.png"
         }
       ]
     }

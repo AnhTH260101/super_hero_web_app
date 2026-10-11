@@ -4,7 +4,7 @@
   "name": "CT - Chú Nguyền Sasuke",
   "title": "Vũ trụ linh tính • UR CT - Chú Nguyền Sasuke",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_xzuozhu.png",
+  "avatar": "/images/heroes/icon_heroes/icon_xzuozhu.png",
   "fullArt": "/images/heroes/full/image_xzuozhu2.png",
   "element": "Vũ trụ linh tính",
   "isAfterlifeForm": true,
@@ -16,7 +16,7 @@
   "skills": [
     {
       "name": "Ném Kunai",
-      "icon": "/images/heroes/s_xzuozhu_s1.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s1.png",
       "description": "Gây ra 350% ST ma pháp và 100% ST thuộc tính Hỏa cho toàn phe địch",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -27,7 +27,7 @@
     },
     {
       "name": "Sharingan",
-      "icon": "/images/heroes/s_xzuozhu_s2.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s2.png",
       "description": "Kĩ năng cảm tri: Trước khi bị kẻ địch tấn công, bản thân hồi 50% HP max; tăng 200% Né Tránh, tấn công ma pháp tăng 150%",
       "cooldown": null,
       "breakthrough": {
@@ -38,7 +38,7 @@
     },
     {
       "name": "Cường Hóa Đánh Nhanh",
-      "icon": "/images/heroes/s_xzuozhu_s3.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s3.png",
       "description": "Kĩ năng phản kích: Gây ra 350% ST ma pháp và 200% ST thuộc tính Hỏa cho toàn phe địch",
       "cooldown": "3 hiệp",
       "breakthrough": {
@@ -49,7 +49,7 @@
     },
     {
       "name": "Gokakyu no Jutsu",
-      "icon": "/images/heroes/s_xzuozhu_s6.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s6.png",
       "description": "Kĩ năng tử vong: Bản thân hồi toàn bộ HP (bỏ qua Trọng Thương). Gây ra ST thực bằng 350% tấn công ma pháp và 1500% ST thuộc tính Hỏa cho toàn phe địch, tối đa Hồi Sinh 3 lần. Diệt Ngay 1 đơn vị địch.",
       "cooldown": null,
       "breakthrough": {
@@ -60,7 +60,7 @@
     },
     {
       "name": "Chú Nguyền - Chidori",
-      "icon": "/images/heroes/s_xzuozhu_s7.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s7.png",
       "description": "Kĩ năng tiền chiến: Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Hỏa cho toàn phe địch.",
       "cooldown": null,
       "breakthrough": {
@@ -71,7 +71,7 @@
     },
     {
       "name": "Hosenka no Jutsu",
-      "icon": "/images/heroes/s_xzuozhu_s4.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s4.png",
       "description": "Gây ra ST thực bằng 350% tấn công ma pháp và 1800% ST thuộc tính Hỏa cho toàn phe địch",
       "cooldown": "2 hiệp",
       "breakthrough": {
@@ -82,7 +82,7 @@
     },
     {
       "name": "Chidori",
-      "icon": "/images/heroes/s_xzuozhu_s5.png",
+      "icon": "/images/icon_skill_heroes/s_xzuozhu_s5.png",
       "description": "Kĩ năng trước lượt đánh: Gây ra ST thực bằng 350% tấn công ma pháp và 1500% ST thuộc tính Hỏa cho toàn phe địch. Bản thân hồi 100% HP max.",
       "cooldown": "1 hiệp",
       "breakthrough": {
@@ -190,18 +190,18 @@
       "tierName": "Dũng Sĩ",
       "auraColor": "emerald",
       "skillName": "Ném Kunai",
-      "skillIcon": "/images/heroes/s_xzuozhu_s1.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s1.png",
       "skillDesc": "Gây ra thêm ST truy kích bằng 50% HP max bản thân cho tối đa 3 mục tiêu ngẫu nhiên phe địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_4.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
           "amount": 10,
           "type": "item"
         }
@@ -215,30 +215,30 @@
       "tierName": "Đấu Sĩ",
       "auraColor": "cyan",
       "skillName": "Sharingan",
-      "skillIcon": "/images/heroes/s_xzuozhu_s2.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s2.png",
       "skillDesc": "Gây ra thêm 1 tầng Gợi Đòn, mỗi lượt tối đa khởi động 3 lần.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 60,
           "type": "item"
         },
         {
           "name": "Giáp Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_1.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
           "amount": 10,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -252,24 +252,24 @@
       "tierName": "Anh Hùng",
       "auraColor": "purple",
       "skillName": "Cường Hóa Đánh Nhanh",
-      "skillIcon": "/images/heroes/s_xzuozhu_s3.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s3.png",
       "skillDesc": "Trói Buộc mục tiêu 1 lượt.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 90,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -283,30 +283,30 @@
       "tierName": "Thần Thoại",
       "auraColor": "amber",
       "skillName": "Hosenka no Jutsu",
-      "skillIcon": "/images/heroes/s_xzuozhu_s4.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s4.png",
       "skillDesc": "Mỗi tích đủ 350k lực công cơ bản thuộc tính Hỏa thì kĩ năng này sẽ ST tăng cấp bội cho toàn đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 120,
           "type": "item"
         },
         {
           "name": "Đá Thần Lực",
-          "icon": "/images/items/i_b_shenli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
           "amount": 15,
           "type": "item"
         },
         {
           "name": "Madara",
-          "icon": "/images/heroes/madara.png",
+          "icon": "/images/heroes/icon_heroes/madara.png",
           "amount": 3,
           "type": "hero"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -320,30 +320,30 @@
       "tierName": "Thần",
       "auraColor": "red",
       "skillName": "Chidori",
-      "skillIcon": "/images/heroes/s_xzuozhu_s5.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s5.png",
       "skillDesc": "Diệt Ngay ngẫu nhiên 1 mục tiêu phe địch.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh",
-          "icon": "/images/items/i_b_0_0.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Lực",
-          "icon": "/images/items/i_b_yuanli_2.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Kiếm Thần Lực",
-          "icon": "/images/items/i_b_shenli_3.png",
+          "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
           "amount": 20,
           "type": "item"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -357,30 +357,30 @@
       "tierName": "Linh",
       "auraColor": "rose",
       "skillName": "Gokakyu no Jutsu",
-      "skillIcon": "/images/heroes/s_xzuozhu_s6.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s6.png",
       "skillDesc": "Số lần Hồi Sinh tối đa tăng thành 4. Mỗi tích đủ 350k lực công cơ bản thuộc tính Hỏa thì có thêm 10% (tối đa 30%) tỉ lệ không tốn số lượt Hồi Sinh. ",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 100,
           "type": "item"
         },
         {
           "name": "Đá Linh Phách",
-          "icon": "/images/items/i_c_lingpozhishi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Mũ Linh Phách",
-          "icon": "/images/items/i_c_lingpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
           "amount": 30,
           "type": "item"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 1,
           "type": "hero"
         }
@@ -394,30 +394,30 @@
       "tierName": "Hồn",
       "auraColor": "violet",
       "skillName": "Chú Nguyền - Chidori",
-      "skillIcon": "/images/heroes/s_xzuozhu_s7.png",
+      "skillIcon": "/images/icon_skill_heroes/s_xzuozhu_s7.png",
       "skillDesc": "Khiến bản thân tăng vĩnh viễn 230% HP max, miễn dịch Trầm Mặc, Hóa Đá, Choáng, Hỗn Loạn, Chế Giếu, Tsukuyomi. Mỗi tích đủ 350k lực công cơ bản thuộc tính Hỏa thì kĩ năng này sẽ ST tăng cấp bội cho toàn đội.",
       "materials": [
         {
           "name": "Đá Chuyển Sinh Cao Cấp",
-          "icon": "/images/items/i_c_gaojizhuansheng.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
           "amount": 150,
           "type": "item"
         },
         {
           "name": "Đá Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhihsi.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Mũ Nguyên Phách",
-          "icon": "/images/items/i_c_yuanpozhikui.png",
+          "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
           "amount": 40,
           "type": "item"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "amount": 2,
           "type": "hero"
         }
@@ -432,22 +432,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
@@ -463,22 +463,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
@@ -494,28 +494,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
       "statBonus": "+360 Công, +356 Thủ, +158 HP, +324 Tốc",
       "unlockedSkill": "Hosenka no Jutsu",
-      "unlockedSkillIcon": "/images/heroes/s_xzuozhu_s4.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xzuozhu_s4.png",
       "tierLabel": "Đỏ ++",
       "frame": "/images/card_layers/card_q_bgRed2.png",
       "nameplateColor": "bg-red-950 border-amber-400"
@@ -525,22 +525,22 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/sonkoku.png",
+          "icon": "/images/heroes/icon_heroes/sonkoku.png",
           "slug": "sonkoku"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         }
       ],
@@ -556,22 +556,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
@@ -587,28 +587,28 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/veheta.png",
+          "icon": "/images/heroes/icon_heroes/veheta.png",
           "slug": "veheta"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
       "unlockedSkill": "Chidori",
-      "unlockedSkillIcon": "/images/heroes/s_xzuozhu_s5.png",
+      "unlockedSkillIcon": "/images/icon_skill_heroes/s_xzuozhu_s5.png",
       "tierLabel": "Vàng ++",
       "frame": "/images/card_layers/card_q_bgGolden2.png",
       "nameplateColor": "bg-black border-amber-400"
@@ -618,22 +618,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/ichigo.png",
+          "icon": "/images/heroes/icon_heroes/ichigo.png",
           "slug": "ichigo"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/mabara.png",
+          "icon": "/images/heroes/icon_heroes/mabara.png",
           "slug": "mabara"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
@@ -649,22 +649,22 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/seya.png",
           "slug": "seya"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/phuong-hoang.png",
+          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
           "slug": "phuong-hoang"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/yasuke.png",
+          "icon": "/images/heroes/icon_heroes/yasuke.png",
           "slug": "yasuke"
         },
         {
           "name": "Chú Nguyền Sasuke",
-          "icon": "/images/heroes/icon_xzuozhu.png",
+          "icon": "/images/heroes/icon_heroes/icon_xzuozhu.png",
           "slug": "chu-nguyen-sasuke"
         }
       ],
@@ -689,7 +689,7 @@
     "id": "43900",
     "slug": "chu-nguyen-sasuke",
     "name": "Chú Nguyền Sasuke",
-    "avatar": "/images/heroes/icon_xzuozhu.png",
+    "avatar": "/images/heroes/icon_heroes/icon_xzuozhu.png",
     "rarity": "SSR",
     "role": "Tanker"
   },
@@ -701,12 +701,12 @@
         {
           "name": "Kochou Shinobu",
           "slug": "kochou-shinobu",
-          "avatar": "/images/heroes/icon_hudieren.png"
+          "avatar": "/images/heroes/icon_heroes/icon_hudieren.png"
         },
         {
           "name": "Thợ Săn - Zoro",
           "slug": "tho-san-zoro",
-          "avatar": "/images/heroes/icon_xsjsuolong.png"
+          "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png"
         }
       ]
     },
@@ -717,7 +717,7 @@
         {
           "name": "Elaina",
           "slug": "elaina",
-          "avatar": "/images/heroes/icon_yileina.png"
+          "avatar": "/images/heroes/icon_heroes/icon_yileina.png"
         }
       ]
     },
@@ -728,7 +728,7 @@
         {
           "name": "Pain",
           "slug": "pain",
-          "avatar": "/images/heroes/pain.png"
+          "avatar": "/images/heroes/icon_heroes/pain.png"
         }
       ]
     },
@@ -739,7 +739,7 @@
         {
           "name": "Naruto (Tiên nhân)",
           "slug": "naruto-tien-nhan",
-          "avatar": "/images/heroes/naruto-tien-nhan.png"
+          "avatar": "/images/heroes/icon_heroes/naruto-tien-nhan.png"
         }
       ]
     }
