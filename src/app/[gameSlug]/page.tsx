@@ -4,7 +4,7 @@ import { getGameMeta, getGameHeroes, getGiftcodes, getTierList } from '@/lib/gam
 import { Header } from '@/components/layout/Header';
 import { ScopedSearchBar } from '@/components/search/ScopedSearchBar';
 import { MonetizationBanner } from '@/components/monetization/MonetizationBanner';
-import { Shield, Swords, Gift, Trophy, ArrowRight, Sparkles, Users } from 'lucide-react';
+import { Shield, Swords, Gift, Trophy, ArrowRight, Sparkles } from 'lucide-react';
 
 interface Props {
   params: Promise<{ gameSlug: string }>;
@@ -41,7 +41,7 @@ export default async function GameHubPage({ params }: Props) {
         />
 
         {/* Quick Nav Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
           <Link
             href={`/${gameSlug}/heroes`}
             className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-amber-500/50 flex items-center justify-between group transition-all"
@@ -76,24 +76,6 @@ export default async function GameHubPage({ params }: Props) {
               </div>
             </div>
             <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-red-400 group-hover:translate-x-1 transition-all" />
-          </Link>
-
-          <Link
-            href={`/${gameSlug}/lineups`}
-            className="p-5 rounded-2xl bg-slate-900 border border-slate-800 hover:border-indigo-500/50 flex items-center justify-between group transition-all"
-          >
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 group-hover:scale-105 transition-transform">
-                <Users className="w-6 h-6" />
-              </div>
-              <div>
-                <h4 className="font-bold text-slate-100 text-sm group-hover:text-indigo-400 transition-colors">
-                  Đội Hình Meta
-                </h4>
-                <p className="text-xs text-slate-400">Chiến thuật tiêu biểu</p>
-              </div>
-            </div>
-            <ArrowRight className="w-4 h-4 text-slate-500 group-hover:text-indigo-400 group-hover:translate-x-1 transition-all" />
           </Link>
 
           <Link

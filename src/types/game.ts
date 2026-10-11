@@ -207,21 +207,6 @@ export interface Giftcode {
   serverNote?: string;
 }
 
-export interface MetaLineup {
-  id: string;
-  name: string;
-  archetype: 'Dồn Sát Thương' | 'Khống Chế Bền Bỉ' | 'Phản Sát Thương' | 'F2P Nông Dân';
-  description: string;
-  heroes: {
-    heroSlug: string;
-    name: string;
-    avatar: string;
-    position: 'Tiền Tuyến' | 'Hậu Phương';
-  }[];
-  strengths: string[];
-  weaknesses: string[];
-}
-
 export interface ResourceSource {
   id: string;
   name: string;

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { GameMeta, Hero, TierListData, Giftcode, MetaLineup } from '@/types/game';
+import { GameMeta, Hero, TierListData, Giftcode } from '@/types/game';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/games');
 
@@ -153,16 +153,6 @@ export function getGiftcodes(gameSlug: string): Giftcode[] {
 
       return item;
     });
-  } catch {
-    return [];
-  }
-}
-
-export function getMetaLineups(gameSlug: string): MetaLineup[] {
-  const lineupPath = path.join(CONTENT_DIR, gameSlug, 'lineups.json');
-  if (!fs.existsSync(lineupPath)) return [];
-  try {
-    return JSON.parse(fs.readFileSync(lineupPath, 'utf-8'));
   } catch {
     return [];
   }
