@@ -48,20 +48,6 @@ export default async function GiftcodesPage({ params }: Props) {
         <div className="my-8">
           <GiftcodeList giftcodes={giftcodes} />
         </div>
-
-        {/* How to redeem */}
-        <div className="mt-12 p-6 rounded-2xl bg-slate-900 border border-slate-800">
-          <h3 className="font-bold text-base text-white mb-3">
-            📖 Hướng Dẫn Cách Nhập Giftcode Trong Game
-          </h3>
-          <ol className="list-decimal list-inside space-y-2 text-xs text-slate-300 leading-relaxed">
-            <li>Đăng nhập vào game <strong>{game.name}</strong> và hoàn thành màn hướng dẫn tân thủ.</li>
-            <li>Tại giao diện sảnh chính, nhấp vào <strong>Ảnh đại diện Avatar</strong> góc trên bên trái màn hình.</li>
-            <li>Chọn mục <strong>Cài đặt hệ thống (Settings)</strong> → nhấp vào nút <strong>Đổi Mã Quà / Giftcode</strong>.</li>
-            <li>Dán mã vừa sao chép ở trên vào ô nhập và bấm <strong>Xác nhận</strong>.</li>
-            <li>Kiểm tra phần thưởng gửi về <strong>Hộp Thư</strong> trong game để nhận quà.</li>
-          </ol>
-        </div>
       </main>
     </div>
   );
