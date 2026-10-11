@@ -16,16 +16,19 @@ import {
   Archive,
   Trophy,
   Sparkles,
+  Gift,
 } from 'lucide-react';
-import { Hero, TierGroup, ResourceItem, ResourceSource } from '@/types/game';
+import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode } from '@/types/game';
 import { AdminTierListEditor } from './AdminTierListEditor';
 import { AdminResourceEditor } from './AdminResourceEditor';
+import { AdminGiftcodeEditor } from './AdminGiftcodeEditor';
 
 interface AdminDashboardProps {
   initialHeroes: Hero[];
   initialTiers?: TierGroup[];
   initialResources?: ResourceItem[];
   initialSources?: ResourceSource[];
+  initialGiftcodes?: Giftcode[];
   gameSlug: string;
 }
 
@@ -34,11 +37,12 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   initialTiers = [],
   initialResources = [],
   initialSources = [],
+  initialGiftcodes = [],
   gameSlug,
 }) => {
   const [adminToken, setAdminToken] = useState('admin123');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'trash'>('active');
+  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'giftcodes' | 'trash'>('active');
 
   const [heroes, setHeroes] = useState<Hero[]>(initialHeroes);
   const [trashHeroes, setTrashHeroes] = useState<Hero[]>([]);
@@ -308,6 +312,21 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
           <button
             onClick={() => {
+              setCurrentTab('giftcodes');
+              setSelectedSlugs([]);
+            }}
+            className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+              currentTab === 'giftcodes'
+                ? 'bg-emerald-500 text-slate-950 shadow-md'
+                : 'text-slate-400 hover:text-white hover:bg-slate-900'
+            }`}
+          >
+            <Gift className="w-4 h-4" />
+            <span>Giftcode Discord ({initialGiftcodes.length})</span>
+          </button>
+
+          <button
+            onClick={() => {
               setCurrentTab('trash');
               setSelectedSlugs([]);
               fetchTrash();
@@ -351,6 +370,11 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           <AdminResourceEditor
             initialResources={initialResources}
             initialSources={initialSources}
+            gameSlug={gameSlug}
+          />
+        ) : currentTab === 'giftcodes' ? (
+          <AdminGiftcodeEditor
+            initialGiftcodes={initialGiftcodes}
             gameSlug={gameSlug}
           />
         ) : (
