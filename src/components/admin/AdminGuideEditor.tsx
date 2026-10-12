@@ -102,11 +102,27 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [isResourceModalOpen, setIsResourceModalOpen] = useState(false);
   const [targetBlockIdForResource, setTargetBlockIdForResource] = useState<string | null>(null);
   const [resourceSearchTerm, setResourceSearchTerm] = useState('');
+  const [resourceModalTab, setResourceModalTab] = useState<'game-assets' | 'configured-resources'>('game-assets');
+  const [assetPickerFolder, setAssetPickerFolder] = useState('all');
+  const [assetPickerPage, setAssetPickerPage] = useState(1);
+  const [assetPickerTotal, setAssetPickerTotal] = useState(0);
+  const [assetPickerIcons, setAssetPickerIcons] = useState<{
+    name: string;
+    url: string;
+    folder: string;
+    folderLabel: string;
+  }[]>([]);
+  const [assetCategoriesList, setAssetCategoriesList] = useState<{
+    id: string;
+    label: string;
+    count: number;
+  }[]>([]);
+  const [isLoadingAssetIcons, setIsLoadingAssetIcons] = useState(false);
 
   // Modal State: Image Gallery Picker & Upload
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   const [targetBlockIdForImage, setTargetBlockIdForImage] = useState<string | null>(null);
-  const [mediaPickerMode, setMediaPickerMode] = useState<'block' | 'guide-thumbnail' | 'activity-banner'>('block');
+  const [mediaPickerMode, setMediaPickerMode] = useState<'block' | 'guide-thumbnail' | 'activity-banner' | 'resource-upload'>('block');
   const [mediaFiles, setMediaFiles] = useState<{ name: string; url: string; size: number }[]>([]);
   const [loadingMedia, setLoadingMedia] = useState(false);
   const [uploadingImage, setUploadingImage] = useState(false);
@@ -213,6 +229,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
           setActivityForm((prev) => ({ ...prev, banner: data.file.url }));
           setIsImageModalOpen(false);
           showToast('Đã đặt banner hoạt động thành công!', 'success');
+        } else if (mediaPickerMode === 'resource-upload' && targetBlockIdForResource && activeGuide) {
+          const cleanName = data.file.name
+            .replace(/\.[^/.]+$/, '')
+            .replace(/[_\-]/g, ' ')
+            .replace(/\b\w/g, (l: string) => l.toUpperCase());
+          handleAddResourceToBlock({
+            id: `item-${Date.now()}`,
+            name: cleanName,
+            icon: data.file.url,
+            note: 'Tài nguyên mới tải lên',
+          });
+          setIsResourceModalOpen(false);
+          showToast(`Đã thêm vật phẩm vừa tải lên: ${cleanName}`, 'success');
         }
       } else {
         showToast(data.error || 'Upload thất bại', 'error');
@@ -223,6 +252,67 @@ export const AdminGuideEditor: React.FC<Props> = ({
       setUploadingImage(false);
       if (fileInputRef.current) fileInputRef.current.value = '';
     }
+  };
+
+  // Tải danh sách icon asset từ kho game (toàn bộ các folder)
+  const fetchAssetIcons = async (query: string, folderId: string, page = 1, refresh = false) => {
+    setIsLoadingAssetIcons(true);
+    try {
+      const params = new URLSearchParams({
+        gameSlug,
+        search: query,
+        folder: folderId || 'all',
+        page: page.toString(),
+        limit: '120',
+      });
+      if (refresh) {
+        params.set('refresh', 'true');
+      }
+      const res = await fetch(`/api/admin/resource-icons?${params.toString()}`, {
+        cache: 'no-store',
+      });
+      const data = await res.json();
+      if (data.icons) {
+        setAssetPickerIcons(data.icons);
+        setAssetPickerTotal(data.total || 0);
+      }
+      if (data.categories) {
+        setAssetCategoriesList(data.categories);
+      }
+      if (refresh) {
+        showToast('Đã làm mới toàn bộ kho asset icon game!', 'success');
+      }
+    } catch (e) {
+      console.error(e);
+      showToast('Lỗi khi tải kho icon game', 'error');
+    } finally {
+      setIsLoadingAssetIcons(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isResourceModalOpen && resourceModalTab === 'game-assets') {
+      const timer = setTimeout(() => {
+        fetchAssetIcons(resourceSearchTerm, assetPickerFolder, assetPickerPage);
+      }, 200);
+      return () => clearTimeout(timer);
+    }
+  }, [isResourceModalOpen, resourceModalTab, resourceSearchTerm, assetPickerFolder, assetPickerPage, gameSlug]);
+
+  const handleAddAssetIconToBlock = (iconItem: { name: string; url: string; folderLabel: string }) => {
+    const cleanName = iconItem.name
+      .replace(/\.[^/.]+$/, '')
+      .replace(/[_\-]/g, ' ')
+      .replace(/\b\w/g, (l) => l.toUpperCase());
+
+    const itemObj = {
+      id: `item-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+      name: cleanName,
+      icon: iconItem.url,
+      note: iconItem.folderLabel || 'Phần thưởng',
+    };
+
+    handleAddResourceToBlock(itemObj);
   };
 
   // Lọc danh sách bài viết
@@ -561,7 +651,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
   };
 
   // Thêm resource vào block
-  const handleAddResourceToBlock = (resItem: ResourceItem) => {
+  const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string }) => {
     if (!activeGuide || !targetBlockIdForResource) return;
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForResource) as GuideResourcesBlock;
     if (!block || block.type !== 'resources') return;
@@ -570,7 +660,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
       id: resItem.id,
       name: resItem.name,
       icon: resItem.icon,
-      note: 'Phần thưởng nổi bật',
+      note: resItem.note || 'Phần thưởng nổi bật',
     };
 
     handleUpdateBlock(targetBlockIdForResource, {
@@ -1506,14 +1596,24 @@ export const AdminGuideEditor: React.FC<Props> = ({
                             className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 p-1 object-contain shrink-0"
                           />
                           <div className="flex-1 space-y-1">
-                            <div className="flex items-center justify-between">
-                              <span className="font-bold text-xs text-white line-clamp-1">{item.name}</span>
+                            <div className="flex items-center justify-between gap-1">
+                              <input
+                                type="text"
+                                value={item.name}
+                                onChange={(e) => {
+                                  const updated = [...block.items];
+                                  updated[rIdx] = { ...updated[rIdx], name: e.target.value };
+                                  handleUpdateBlock(block.id, { items: updated });
+                                }}
+                                placeholder="Tên vật phẩm..."
+                                className="font-bold text-xs text-white bg-transparent border-b border-transparent hover:border-slate-700 focus:border-emerald-500 focus:outline-none w-full"
+                              />
                               <button
                                 onClick={() => {
                                   const updated = block.items.filter((_, idx) => idx !== rIdx);
                                   handleUpdateBlock(block.id, { items: updated });
                                 }}
-                                className="text-slate-500 hover:text-red-400"
+                                className="text-slate-500 hover:text-red-400 p-0.5 shrink-0"
                                 title="Xóa vật phẩm"
                               >
                                 <Trash2 className="w-3.5 h-3.5" />
@@ -1677,15 +1777,21 @@ export const AdminGuideEditor: React.FC<Props> = ({
         </div>
       )}
 
-      {/* MODAL 2: CHỌN VẬT PHẨM TỪ KHO */}
+      {/* MODAL 2: KHO TÀI NGUYÊN & VẬT PHẨM GAME (EXPANDED ASSET PICKER) */}
       {isResourceModalOpen && (
         <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
-          <div className="w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[85vh]">
+          <div className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[90vh]">
+            {/* Modal Header */}
             <div className="flex items-center justify-between pb-4 border-b border-slate-800">
-              <h3 className="text-base font-black text-white flex items-center gap-2">
-                <Sparkles className="w-5 h-5 text-emerald-400" />
-                <span>Chọn Vật Phẩm & Phần Thưởng</span>
-              </h3>
+              <div>
+                <h3 className="text-base font-black text-white flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-emerald-400" />
+                  <span>Kho Tài Nguyên & Vật Phẩm Game</span>
+                </h3>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Chọn từ kho toàn bộ icon tài nguyên game (vật phẩm, đá, vũ khí, pet, huy hiệu, ảnh tải lên...) hoặc danh sách đã cấu hình.
+                </p>
+              </div>
               <button
                 onClick={() => setIsResourceModalOpen(false)}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-white"
@@ -1694,58 +1800,289 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </button>
             </div>
 
-            <div className="py-3 flex items-center gap-2">
-              <div className="relative flex-1">
-                <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm vật phẩm..."
-                  value={resourceSearchTerm}
-                  onChange={(e) => setResourceSearchTerm(e.target.value)}
-                  className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-emerald-500"
-                />
-              </div>
+            {/* Tab Switcher: Kho Toàn Bộ Asset vs Vật Phẩm Đã Cấu Hình */}
+            <div className="flex items-center gap-2 pt-3 pb-2 border-b border-slate-800/80">
+              <button
+                type="button"
+                onClick={() => {
+                  setResourceModalTab('game-assets');
+                  setResourceSearchTerm('');
+                }}
+                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 border ${
+                  resourceModalTab === 'game-assets'
+                    ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-lg shadow-emerald-500/20'
+                    : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
+                }`}
+              >
+                <Layers className="w-4 h-4" />
+                <span>Kho Toàn Bộ Icon & Asset Game</span>
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                    resourceModalTab === 'game-assets'
+                      ? 'bg-slate-950/20 text-slate-950 font-black'
+                      : 'bg-slate-900 text-slate-400'
+                  }`}
+                >
+                  {assetPickerTotal}
+                </span>
+              </button>
 
               <button
                 type="button"
-                onClick={handleReloadResources}
-                disabled={loadingResources}
-                className="px-3.5 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
-                title="Tải lại danh sách vật phẩm mới nhất từ hệ thống"
+                onClick={() => {
+                  setResourceModalTab('configured-resources');
+                  setResourceSearchTerm('');
+                }}
+                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 border ${
+                  resourceModalTab === 'configured-resources'
+                    ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-lg shadow-emerald-500/20'
+                    : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
+                }`}
               >
-                <RotateCw className={`w-3.5 h-3.5 ${loadingResources ? 'animate-spin' : ''}`} />
-                <span>{loadingResources ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+                <Check className="w-4 h-4" />
+                <span>Vật Phẩm Đã Cấu Hình (resources.json)</span>
+                <span
+                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                    resourceModalTab === 'configured-resources'
+                      ? 'bg-slate-950/20 text-slate-950 font-black'
+                      : 'bg-slate-900 text-slate-400'
+                  }`}
+                >
+                  {resourcesList.length}
+                </span>
               </button>
             </div>
 
-            <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 gap-2.5 p-1">
-              {modalResources.map((res) => (
-                <button
-                  key={res.id}
-                  onClick={() => {
-                    handleAddResourceToBlock(res);
-                  }}
-                  className="p-2.5 rounded-2xl bg-slate-950 hover:bg-slate-800 border border-slate-800/80 hover:border-emerald-500/50 flex items-center gap-2.5 text-left transition-all group"
-                >
-                  <img
-                    src={res.icon}
-                    alt={res.name}
-                    className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 p-1 object-contain shrink-0 group-hover:scale-105 transition-transform"
-                  />
-                  <div className="truncate">
-                    <div className="font-bold text-xs text-white group-hover:text-emerald-400 truncate">
-                      {res.name}
-                    </div>
-                    <div className="text-[10px] text-slate-500 truncate">{res.category || 'Vật phẩm'}</div>
+            {/* TAB 1: KHO TOÀN BỘ ASSET GAME */}
+            {resourceModalTab === 'game-assets' && (
+              <div className="flex-1 flex flex-col min-h-0 space-y-3 pt-3">
+                {/* Search & Actions Toolbar */}
+                <div className="flex flex-col sm:flex-row items-center gap-2">
+                  <div className="relative flex-1 w-full">
+                    <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                    <input
+                      type="text"
+                      placeholder="Tìm kiếm theo tên icon, từ khóa..."
+                      value={resourceSearchTerm}
+                      onChange={(e) => {
+                        setResourceSearchTerm(e.target.value);
+                        setAssetPickerPage(1);
+                      }}
+                      className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-emerald-500"
+                    />
                   </div>
-                </button>
-              ))}
-            </div>
+
+                  <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
+                    <button
+                      type="button"
+                      onClick={() => fetchAssetIcons(resourceSearchTerm, assetPickerFolder, assetPickerPage, true)}
+                      disabled={isLoadingAssetIcons}
+                      className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-bold flex items-center gap-1.5 transition-all shadow"
+                      title="Quét và tải lại toàn bộ asset mới nhất từ ổ đĩa"
+                    >
+                      <RotateCw className={`w-3.5 h-3.5 ${isLoadingAssetIcons ? 'animate-spin' : ''}`} />
+                      <span>{isLoadingAssetIcons ? 'Đang Quét...' : 'Tải Lại Asset Mới'}</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setMediaPickerMode('resource-upload');
+                        fileInputRef.current?.click();
+                      }}
+                      disabled={uploadingImage}
+                      className="px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow"
+                    >
+                      <Upload className="w-4 h-4" />
+                      <span>{uploadingImage ? 'Đang Tải...' : 'Tải Ảnh Mới Lên'}</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Folder Categories Chips */}
+                <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-slate-800 shrink-0">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setAssetPickerFolder('all');
+                      setAssetPickerPage(1);
+                    }}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 ${
+                      assetPickerFolder === 'all'
+                        ? 'bg-emerald-500 text-slate-950 font-bold shadow'
+                        : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                    }`}
+                  >
+                    <span>Tất Cả Thư Mục</span>
+                    <span
+                      className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                        assetPickerFolder === 'all'
+                          ? 'bg-slate-950/20 text-slate-950 font-extrabold'
+                          : 'bg-slate-900 text-slate-400'
+                      }`}
+                    >
+                      {assetPickerTotal}
+                    </span>
+                  </button>
+
+                  {assetCategoriesList.map((cat) => (
+                    <button
+                      key={cat.id}
+                      type="button"
+                      onClick={() => {
+                        setAssetPickerFolder(cat.id);
+                        setAssetPickerPage(1);
+                      }}
+                      className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 ${
+                        assetPickerFolder === cat.id
+                          ? 'bg-emerald-500 text-slate-950 font-bold shadow'
+                          : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                      }`}
+                    >
+                      <span>{cat.label}</span>
+                      <span
+                        className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                          assetPickerFolder === cat.id
+                            ? 'bg-slate-950/20 text-slate-950 font-extrabold'
+                            : 'bg-slate-900 text-slate-400'
+                        }`}
+                      >
+                        {cat.count}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+
+                {/* Grid of Icons */}
+                <div className="flex-1 overflow-y-auto min-h-[300px] max-h-[440px] p-2 bg-slate-950 rounded-2xl border border-slate-800">
+                  {isLoadingAssetIcons ? (
+                    <div className="flex flex-col items-center justify-center h-56 text-slate-400 space-y-2">
+                      <RotateCw className="w-6 h-6 animate-spin text-emerald-400" />
+                      <span className="text-xs">Đang tải danh sách icon từ kho game...</span>
+                    </div>
+                  ) : assetPickerIcons.length === 0 ? (
+                    <div className="flex flex-col items-center justify-center h-56 text-slate-500 space-y-1">
+                      <Sparkles className="w-8 h-8 opacity-40 text-slate-500" />
+                      <span className="text-xs font-semibold text-slate-400">Không tìm thấy icon nào phù hợp</span>
+                      <span className="text-[11px] text-slate-500">Thử tìm với từ khóa khác hoặc chọn thư mục khác.</span>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2.5">
+                      {assetPickerIcons.map((ic) => (
+                        <button
+                          key={ic.url}
+                          type="button"
+                          onClick={() => handleAddAssetIconToBlock(ic)}
+                          className="p-2 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500 hover:bg-slate-800/90 flex flex-col items-center gap-1.5 transition-all group relative text-center"
+                          title={`Click để thêm ${ic.name} vào bài viết`}
+                        >
+                          <div className="w-12 h-12 flex items-center justify-center p-1 bg-slate-950/60 rounded-xl border border-slate-800/80">
+                            <img
+                              src={ic.url}
+                              alt={ic.name}
+                              className="w-full h-full object-contain group-hover:scale-110 transition-transform"
+                              loading="lazy"
+                              onError={(e) => {
+                                (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                              }}
+                            />
+                          </div>
+                          <span className="text-[9px] font-mono text-slate-300 truncate w-full">
+                            {ic.name.replace(/\.[^/.]+$/, '')}
+                          </span>
+                          <span className="text-[8px] px-1.5 py-0.2 bg-slate-800 text-emerald-400 rounded border border-slate-700/60 truncate max-w-full">
+                            {ic.folderLabel}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                {/* Pagination Controls */}
+                {assetPickerTotal > 120 && (
+                  <div className="flex items-center justify-between border-t border-slate-800 pt-2 text-xs text-slate-400 shrink-0">
+                    <span>
+                      Hiển thị {assetPickerIcons.length} / {assetPickerTotal} icon (Trang {assetPickerPage} / {Math.ceil(assetPickerTotal / 120)})
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        disabled={assetPickerPage <= 1 || isLoadingAssetIcons}
+                        onClick={() => setAssetPickerPage((p) => Math.max(1, p - 1))}
+                        className="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-white font-bold transition-all text-xs"
+                      >
+                        ← Trang trước
+                      </button>
+                      <button
+                        type="button"
+                        disabled={assetPickerPage >= Math.ceil(assetPickerTotal / 120) || isLoadingAssetIcons}
+                        onClick={() => setAssetPickerPage((p) => p + 1)}
+                        className="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 disabled:opacity-40 text-white font-bold transition-all text-xs"
+                      >
+                        Trang sau →
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* TAB 2: VẬT PHẨM ĐÃ CẤU HÌNH (resources.json) */}
+            {resourceModalTab === 'configured-resources' && (
+              <div className="flex-1 flex flex-col min-h-0 space-y-3 pt-3">
+                <div className="flex items-center gap-2">
+                  <div className="relative flex-1">
+                    <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                    <input
+                      type="text"
+                      placeholder="Tìm kiếm vật phẩm đã cấu hình..."
+                      value={resourceSearchTerm}
+                      onChange={(e) => setResourceSearchTerm(e.target.value)}
+                      className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-emerald-500"
+                    />
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={handleReloadResources}
+                    disabled={loadingResources}
+                    className="px-3.5 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                    title="Tải lại danh sách vật phẩm mới nhất từ resources.json"
+                  >
+                    <RotateCw className={`w-3.5 h-3.5 ${loadingResources ? 'animate-spin' : ''}`} />
+                    <span>{loadingResources ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+                  </button>
+                </div>
+
+                <div className="flex-1 overflow-y-auto min-h-[300px] max-h-[440px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 p-1 bg-slate-950 rounded-2xl border border-slate-800">
+                  {modalResources.map((res) => (
+                    <button
+                      key={res.id}
+                      onClick={() => handleAddResourceToBlock(res)}
+                      className="p-2.5 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-800/80 hover:border-emerald-500/50 flex items-center gap-2.5 text-left transition-all group"
+                    >
+                      <img
+                        src={res.icon}
+                        alt={res.name}
+                        className="w-10 h-10 rounded-xl bg-slate-950 border border-slate-800 p-1 object-contain shrink-0 group-hover:scale-105 transition-transform"
+                      />
+                      <div className="truncate">
+                        <div className="font-bold text-xs text-white group-hover:text-emerald-400 truncate">
+                          {res.name}
+                        </div>
+                        <div className="text-[10px] text-slate-500 truncate">{res.category || 'Vật phẩm'}</div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="pt-4 border-t border-slate-800 flex justify-end">
               <button
                 onClick={() => setIsResourceModalOpen(false)}
-                className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold"
+                className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold hover:bg-slate-700"
               >
                 Đóng
               </button>
