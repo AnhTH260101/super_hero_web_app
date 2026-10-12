@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-    "share": "npx cloudflared tunnel --url http://localhost:3000",
+    "share": "node scripts/share.mjs",
     "lint": "eslint"
   },
   "dependencies": {
