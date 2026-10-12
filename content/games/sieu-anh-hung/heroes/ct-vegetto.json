@@ -105,61 +105,61 @@
   "afterlifeMaterials": [
     {
       "name": "Vegetto",
-      "icon": "/images/heroes/icon_vegetto.png",
+      "icon": "/images/heroes/icon_heroes/icon_vegetto.png",
       "amount": 7,
       "type": "hero"
     },
     {
       "name": "Shirakami Goku",
-      "icon": "/images/heroes/shirakami-goku.png",
+      "icon": "/images/heroes/icon_heroes/shirakami-goku.png",
       "amount": 6,
       "type": "hero"
     },
     {
       "name": "Bông Tai Potara",
-      "icon": "/images/items/erhuan.png",
+      "icon": "/images/icon_weapon_heroes/e_botalaerhuan.png",
       "amount": 5,
       "type": "item"
     },
     {
       "name": "Kim Ngũ Hành",
-      "icon": "/images/items/jin.png",
+      "icon": "/images/icon_elemental_stone/gem_phsc_2_1.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Mộc Ngũ Hành",
-      "icon": "/images/items/mu.png",
+      "icon": "/images/icon_elemental_stone/gem_feng_1_1.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Thủy Ngũ Hành",
-      "icon": "/images/items/shui.png",
+      "icon": "/images/icon_elemental_stone/gem_shui_1_1.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Hỏa Ngũ Hành",
-      "icon": "/images/items/huo.png",
+      "icon": "/images/icon_chuyen_sinh/huo.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Thổ Ngũ Hành",
-      "icon": "/images/items/tu.png",
+      "icon": "/images/icon_elemental_stone/gem_di_1_1.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Linh Tiềm Năng",
-      "icon": "/images/items/wenzhang.png",
+      "icon": "/images/icon_chuyen_sinh/hun.png",
       "amount": 1,
       "type": "item"
     },
     {
       "name": "Hồn Tiềm Năng",
-      "icon": "/images/items/hun.png",
+      "icon": "/images/icon_chuyen_sinh/hun.png",
       "amount": 1,
       "type": "item"
     }

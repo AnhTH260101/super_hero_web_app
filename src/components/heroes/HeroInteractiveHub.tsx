@@ -10,6 +10,22 @@ interface HeroInteractiveHubProps {
   gameSlug: string;
 }
 
+function getSafeMaterialIcon(icon?: string, type?: string): string {
+  if (!icon) return '/images/icon_chuyen_sinh/i_b_0_0.png';
+  if (icon.startsWith('/images/items/')) {
+    const filename = icon.split('/').pop() || '';
+    if (filename.startsWith('i_b_') || filename.startsWith('i_c_') || filename === 'huo.png' || filename === 'hun.png') {
+      return `/images/icon_chuyen_sinh/${filename}`;
+    }
+    return `/images/resources/game_items/${filename}`;
+  }
+  if (icon.startsWith('/images/heroes/') && !icon.includes('/icon_heroes/') && !icon.includes('/full/')) {
+    const filename = icon.split('/').pop() || '';
+    return `/images/heroes/icon_heroes/${filename}`;
+  }
+  return icon;
+}
+
 export function HeroInteractiveHub({ hero, gameSlug }: HeroInteractiveHubProps) {
   // Cấp chuyển sinh (1 - 7, mặc định 1)
   const [breakLevel, setBreakLevel] = useState<number>(1);
@@ -133,8 +149,14 @@ export function HeroInteractiveHub({ hero, gameSlug }: HeroInteractiveHubProps) 
                           )}
 
                           <img
-                            src={mat.icon}
+                            src={getSafeMaterialIcon(mat.icon, mat.type)}
                             alt={mat.name}
+                            onError={(e) => {
+                              const target = e.currentTarget;
+                              if (!target.src.includes('i_b_0_0.png')) {
+                                target.src = '/images/icon_chuyen_sinh/i_b_0_0.png';
+                              }
+                            }}
                             className={`w-full h-full object-contain p-1.5 transition-transform group-hover:scale-110 ${
                               mat.type === 'hero' ? 'rounded-xl' : ''
                             }`}
