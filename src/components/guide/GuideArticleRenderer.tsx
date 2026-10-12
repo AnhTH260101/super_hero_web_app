@@ -26,6 +26,7 @@ import {
   GuideResourcesBlock,
   GuideTableBlock,
   GuideHeroSourceBlock,
+  GuideResourceCardBlock,
 } from '@/types/game';
 
 interface Props {
@@ -489,6 +490,152 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                   {(!b.rows || b.rows.length === 0) && (
                     <div className="p-8 text-center text-xs text-slate-500">
                       Bảng hiện chưa có dữ liệu nào.
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          }
+
+          if (block.type === 'resource-card') {
+            const b = block as GuideResourceCardBlock;
+            return (
+              <div key={b.id || idx} className="space-y-4 pt-2">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+                    <Sparkles className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
+                      <span>{b.title || 'Chi Tiết Vật Phẩm & Tướng'}</span>
+                    </h3>
+                    {b.description && (
+                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="space-y-3">
+                  {b.cards?.map((card, cIdx) => (
+                    <div
+                      key={card.id || cIdx}
+                      className="border border-slate-600 bg-white text-slate-900 rounded-md overflow-hidden shadow-md transition-all hover:shadow-xl"
+                    >
+                      {/* Header Bar: Nền slate tối căn giữa */}
+                      <div className="bg-[#464c53] text-white text-center font-bold text-sm sm:text-base py-1.5 px-3 border-b border-slate-600 tracking-wide select-none flex items-center justify-center gap-2">
+                        {card.heroSlug ? (
+                          <Link
+                            href={`/${gameSlug}/heroes/${card.heroSlug}`}
+                            className="hover:text-amber-400 hover:underline transition-colors"
+                          >
+                            {card.name}
+                          </Link>
+                        ) : (
+                          <span>{card.name}</span>
+                        )}
+                        {card.rarity && (
+                          <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-500 text-slate-950 font-black">
+                            {card.rarity}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* 3-Column Body */}
+                      <div className="flex flex-col sm:flex-row min-h-[90px] divide-y sm:divide-y-0 sm:divide-x divide-slate-400">
+                        {/* Cột 1: Icon / Tướng */}
+                        <div className="w-full sm:w-24 md:w-28 shrink-0 flex flex-col items-center justify-center p-2.5 bg-slate-50">
+                          {card.heroSlug ? (
+                            <Link
+                              href={`/${gameSlug}/heroes/${card.heroSlug}`}
+                              className="relative group block"
+                              title={`Xem chi tiết tướng ${card.name}`}
+                            >
+                              <div className="w-16 h-16 sm:w-18 sm:h-18 rounded-xl overflow-hidden border border-slate-300 shadow-sm bg-white p-0.5 group-hover:border-amber-500 transition-all">
+                                <img
+                                  src={card.icon}
+                                  alt={card.name}
+                                  className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform"
+                                  onError={(e) => {
+                                    (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                                  }}
+                                />
+                              </div>
+                            </Link>
+                          ) : (
+                            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden border border-slate-300 shadow-sm flex items-center justify-center bg-white p-1">
+                              <img
+                                src={card.icon}
+                                alt={card.name}
+                                className="w-full h-full object-contain drop-shadow-sm"
+                                onError={(e) => {
+                                  (e.target as HTMLElement).style.opacity = '0.4';
+                                }}
+                              />
+                            </div>
+                          )}
+                        </div>
+
+                        {/* Cột 2: Công dụng / Mô tả dạng gạch đầu dòng */}
+                        <div className="w-full sm:w-64 md:w-72 lg:w-80 shrink-0 p-2 sm:p-3 text-xs sm:text-[13px] leading-relaxed flex items-center bg-white">
+                          <ul className="space-y-1 list-disc list-outside pl-4 text-slate-800 font-medium w-full">
+                            {card.description && card.description.length > 0 ? (
+                              card.description.map((bullet, bIdx) => (
+                                <li key={bIdx} className="break-words">
+                                  {bullet}
+                                </li>
+                              ))
+                            ) : (
+                              <li className="text-slate-400 italic">Chưa có mô tả công dụng</li>
+                            )}
+                          </ul>
+                        </div>
+
+                        {/* Cột 3: Cách nhận / Nguồn nhận */}
+                        <div className="flex-1 min-w-0 p-2 sm:p-2.5 bg-slate-50 flex flex-col justify-center">
+                          <div className="text-[11px] sm:text-xs font-bold text-slate-700 mb-1.5 underline decoration-slate-300">
+                            Cách nhận:
+                          </div>
+
+                          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                            {card.sources && card.sources.length > 0 ? (
+                              card.sources.map((src, sIdx) => (
+                                <div
+                                  key={sIdx}
+                                  className="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white border border-slate-300 shadow-xs hover:border-amber-500 hover:shadow-sm transition-all text-slate-800"
+                                  title={(src.name || src.sourceId) + (src.note ? ` (${src.note})` : '')}
+                                >
+                                  {src.icon && (
+                                    <img
+                                      src={src.icon}
+                                      alt={src.name || src.sourceId}
+                                      className="w-5 h-5 sm:w-6 sm:h-6 object-contain shrink-0 drop-shadow-xs"
+                                      onError={(e) => {
+                                        (e.target as HTMLElement).style.display = 'none';
+                                      }}
+                                    />
+                                  )}
+                                  <span className="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">
+                                    {src.name || src.sourceId}
+                                  </span>
+                                  {src.note && (
+                                    <span className="text-[10px] font-extrabold text-red-600 bg-red-50 border border-red-200 px-1 py-0.2 rounded shadow-2xs">
+                                      {src.note}
+                                    </span>
+                                  )}
+                                </div>
+                              ))
+                            ) : (
+                              <span className="text-xs text-slate-400 italic">Đang cập nhật nguồn nhận...</span>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+
+                  {(!b.cards || b.cards.length === 0) && (
+                    <div className="p-4 rounded-xl border border-dashed border-slate-700 text-center text-xs text-slate-500">
+                      Chưa có thẻ chi tiết nào trong khối này.
                     </div>
                   )}
                 </div>

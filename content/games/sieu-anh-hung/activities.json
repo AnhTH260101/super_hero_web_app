@@ -33,10 +33,10 @@
     "enabled": true
   },
   {
-    "id": "act-1791794836174",
+    "id": "act-1791795875041",
     "slug": "xuat-chinh",
-    "name": "Xuất Chinh",
-    "shortDesc": "Hoạt động farm xu",
+    "name": "Xuất chinh",
+    "shortDesc": "",
     "icon": "Swords",
     "badge": "Mới",
     "color": "amber",

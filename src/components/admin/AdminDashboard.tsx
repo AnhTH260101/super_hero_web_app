@@ -407,6 +407,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             initialActivities={initialActivities}
             allHeroes={heroes}
             allResources={initialResources}
+            initialSources={initialSources}
             gameSlug={gameSlug}
           />
         ) : (

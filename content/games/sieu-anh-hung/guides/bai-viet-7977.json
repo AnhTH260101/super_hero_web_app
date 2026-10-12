@@ -1,0 +1,19 @@
+{
+  "id": "guide-1791794857976",
+  "slug": "bai-viet-7977",
+  "title": "Cách chơi xuất chinh",
+  "category": "xuat-chinh",
+  "schedule": "",
+  "description": "Hoạt động kiếm xu cực nhiều",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791794857977-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Nhập nội dung hướng dẫn chi tiết tại đây...",
+      "variant": "normal"
+    }
+  ],
+  "updatedAt": "2026-10-12T09:04:09.767Z"
+}

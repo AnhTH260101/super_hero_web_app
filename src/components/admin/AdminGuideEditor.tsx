@@ -56,6 +56,10 @@ import {
   GameActivity,
   GuideHeroSourceBlock,
   GuideHeroSourceItem,
+  ResourceSource,
+  GuideResourceCardBlock,
+  GuideResourceCardItem,
+  GuideResourceCardSourceRef,
 } from '@/types/game';
 
 interface Props {
@@ -63,6 +67,7 @@ interface Props {
   initialActivities?: GameActivity[];
   allHeroes: Hero[];
   allResources: ResourceItem[];
+  initialSources?: ResourceSource[];
   gameSlug: string;
 }
 
@@ -71,6 +76,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
   initialActivities = [],
   allHeroes,
   allResources,
+  initialSources = [],
   gameSlug,
 }) => {
   const [guides, setGuides] = useState<GuideArticle[]>(initialGuides);
@@ -143,6 +149,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [uploadingImage, setUploadingImage] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Modal State: Thẻ Chi Tiết 3 Cột (Vật phẩm & Tướng) + Nguồn Nhận
+  const [sourcesList, setSourcesList] = useState<ResourceSource[]>(initialSources);
+  const [loadingSources, setLoadingSources] = useState(false);
+  const [isSyncingSources, setIsSyncingSources] = useState(false);
+  const [targetCardModalForResource, setTargetCardModalForResource] = useState(false);
+  const [editingCardModal, setEditingCardModal] = useState<{
+    blockId: string;
+    cardIndex: number | null; // null là thêm mới
+    data: GuideResourceCardItem;
+  } | null>(null);
+  const [cardHeroSearch, setCardHeroSearch] = useState('');
+  const [isCardHeroPickerOpen, setIsCardHeroPickerOpen] = useState(false);
+
   const showToast = (text: string, type: 'success' | 'error' = 'success') => {
     setToastMessage({ text, type });
     setTimeout(() => setToastMessage(null), 3500);
@@ -203,6 +222,53 @@ export const AdminGuideEditor: React.FC<Props> = ({
       showToast('Lỗi máy chủ khi tải lại kho tướng', 'error');
     } finally {
       setLoadingHeroes(false);
+    }
+  };
+
+  // Tải danh sách nguồn nhận sự kiện (Cột 3)
+  const fetchSourcesData = async () => {
+    setLoadingSources(true);
+    try {
+      const res = await fetch(`/api/admin/resource-sources?gameSlug=${gameSlug}&t=${Date.now()}`, {
+        cache: 'no-store',
+      });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.sources)) {
+        setSourcesList(data.sources);
+      }
+    } catch {
+      // ignore
+    } finally {
+      setLoadingSources(false);
+    }
+  };
+
+  useEffect(() => {
+    if (sourcesList.length === 0) {
+      fetchSourcesData();
+    }
+  }, [gameSlug]);
+
+  // Đồng bộ nhanh icon sự kiện từ thư mục public/images/resources/sources
+  const handleSyncSourcesFromFolder = async () => {
+    setIsSyncingSources(true);
+    try {
+      const res = await fetch('/api/admin/resource-sources', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'sync', gameSlug }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSourcesList(data.sources);
+        showToast(data.message || 'Đã đồng bộ ảnh sự kiện mới!', 'success');
+      } else {
+        showToast(data.error || 'Đồng bộ thất bại', 'error');
+      }
+    } catch (err: any) {
+      showToast(err.message, 'error');
+    } finally {
+      setIsSyncingSources(false);
     }
   };
 
@@ -633,6 +699,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
           },
         ],
       };
+    } else if (type === 'resource-card') {
+      newBlock = {
+        id: blockId,
+        type: 'resource-card',
+        title: 'Chi Tiết Vật Phẩm & Tướng Nhận Được',
+        description: 'Công dụng chi tiết và danh sách các sự kiện / cách nhận',
+        cards: [],
+      };
     } else {
       newBlock = {
         id: blockId,
@@ -647,6 +721,104 @@ export const AdminGuideEditor: React.FC<Props> = ({
       ...activeGuide,
       blocks: [...activeGuide.blocks, newBlock],
     });
+  };
+
+  // --- QUẢN LÝ THẺ TRONG KHỐI THẺ CHI TIẾT 3 CỘT (RESOURCE-CARD) ---
+  const handleOpenAddCard = (blockId: string) => {
+    setEditingCardModal({
+      blockId,
+      cardIndex: null,
+      data: {
+        id: `card-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+        itemType: 'item',
+        name: '',
+        icon: '',
+        heroSlug: '',
+        rarity: '',
+        description: [''],
+        sources: [],
+      },
+    });
+    setCardHeroSearch('');
+    setIsCardHeroPickerOpen(false);
+  };
+
+  const handleOpenEditCard = (blockId: string, cardIndex: number, card: GuideResourceCardItem) => {
+    setEditingCardModal({
+      blockId,
+      cardIndex,
+      data: {
+        ...card,
+        description: card.description && card.description.length > 0 ? [...card.description] : [''],
+        sources: card.sources ? [...card.sources] : [],
+      },
+    });
+    setCardHeroSearch('');
+    setIsCardHeroPickerOpen(false);
+  };
+
+  const handleSaveCardModal = () => {
+    if (!editingCardModal || !activeGuide) return;
+    const { blockId, cardIndex, data } = editingCardModal;
+    if (!data.name.trim()) {
+      showToast('Vui lòng nhập tên thẻ (Tên vật phẩm hoặc tướng)', 'error');
+      return;
+    }
+    if (!data.icon.trim()) {
+      showToast('Vui lòng chọn hoặc nhập Icon / Avatar cho thẻ', 'error');
+      return;
+    }
+
+    const cleanCard: GuideResourceCardItem = {
+      ...data,
+      name: data.name.trim(),
+      description: data.description.filter((d) => d.trim() !== ''),
+    };
+    if (cleanCard.description.length === 0) {
+      cleanCard.description = ['Chưa có mô tả công dụng'];
+    }
+
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideResourceCardBlock;
+    if (!block || block.type !== 'resource-card') return;
+
+    let nextCards: GuideResourceCardItem[];
+    if (cardIndex === null) {
+      nextCards = [...(block.cards || []), cleanCard];
+      showToast(`Đã thêm thẻ ${cleanCard.name}`, 'success');
+    } else {
+      nextCards = [...block.cards];
+      nextCards[cardIndex] = cleanCard;
+      showToast(`Đã cập nhật thẻ ${cleanCard.name}`, 'success');
+    }
+
+    handleUpdateBlock(blockId, { cards: nextCards });
+    setEditingCardModal(null);
+  };
+
+  const handleDeleteCard = (blockId: string, cardIndex: number) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideResourceCardBlock;
+    if (!block || block.type !== 'resource-card') return;
+
+    const nextCards = block.cards.filter((_, idx) => idx !== cardIndex);
+    handleUpdateBlock(blockId, { cards: nextCards });
+    showToast('Đã xóa thẻ khỏi khối', 'success');
+  };
+
+  const handleMoveCard = (blockId: string, cardIndex: number, direction: 'up' | 'down') => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideResourceCardBlock;
+    if (!block || block.type !== 'resource-card') return;
+
+    const nextCards = [...block.cards];
+    const targetIdx = direction === 'up' ? cardIndex - 1 : cardIndex + 1;
+    if (targetIdx < 0 || targetIdx >= nextCards.length) return;
+
+    const temp = nextCards[cardIndex];
+    nextCards[cardIndex] = nextCards[targetIdx];
+    nextCards[targetIdx] = temp;
+
+    handleUpdateBlock(blockId, { cards: nextCards });
   };
 
   const handleRemoveBlock = (blockId: string) => {
@@ -743,8 +915,24 @@ export const AdminGuideEditor: React.FC<Props> = ({
     return [];
   };
 
-  // Thêm resource vào block (hoặc cập nhật ô trong Table)
+  // Thêm resource vào block (hoặc cập nhật ô trong Table hoặc Thẻ Chi Tiết)
   const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string }) => {
+    // Nếu đang chọn icon cho thẻ chi tiết 3 cột (editingCardModal)
+    if (targetCardModalForResource && editingCardModal) {
+      setEditingCardModal({
+        ...editingCardModal,
+        data: {
+          ...editingCardModal.data,
+          name: editingCardModal.data.name || resItem.name,
+          icon: resItem.icon,
+        },
+      });
+      setIsResourceModalOpen(false);
+      setTargetCardModalForResource(false);
+      showToast(`Đã chọn icon ${resItem.name}`, 'success');
+      return;
+    }
+
     if (!activeGuide) return;
 
     // Nếu đang chọn tài nguyên cho một ô trong Bảng Biểu (Table)
@@ -1639,6 +1827,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
                           : block.type === 'table'
                           ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20'
+                          : block.type === 'resource-card'
+                          ? 'bg-amber-500/15 text-amber-300 border border-amber-500/30'
                           : 'bg-indigo-500/10 text-indigo-400 border border-indigo-500/20'
                       }`}
                     >
@@ -1652,6 +1842,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         ? 'Vật Phẩm / Thưởng'
                         : block.type === 'table'
                         ? 'Bảng Biểu (Table)'
+                        : block.type === 'resource-card'
+                        ? 'Thẻ Chi Tiết (3 Cột)'
                         : 'Văn Bản / Mẹo'}
                     </span>
                     <input
@@ -2442,6 +2634,182 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     </div>
                   </div>
                 )}
+
+                {/* KHỐI 7: THẺ CHI TIẾT 3 CỘT (TÀI NGUYÊN & TƯỚNG) */}
+                {block.type === 'resource-card' && (
+                  <div className="space-y-4">
+                    {/* Mô tả phụ của khối */}
+                    <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
+                      <input
+                        type="text"
+                        value={block.description || ''}
+                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                        placeholder="Mô tả danh sách (VD: Chi tiết công dụng vật phẩm & cách nhận từ hoạt động)..."
+                        className="w-full sm:flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
+                      />
+
+                      <button
+                        type="button"
+                        onClick={() => handleOpenAddCard(block.id)}
+                        className="w-full sm:w-auto px-4 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 shrink-0 shadow-md transition-all"
+                      >
+                        <Plus className="w-4 h-4" />
+                        <span>+ Thêm Thẻ Chi Tiết Mới</span>
+                      </button>
+                    </div>
+
+                    {/* Danh sách các thẻ hiện có trong khối */}
+                    <div className="space-y-3">
+                      {block.cards?.map((card, cIdx) => (
+                        <div
+                          key={card.id || cIdx}
+                          className="border border-slate-700 bg-slate-950/80 rounded-xl overflow-hidden shadow-lg group hover:border-amber-500/50 transition-all"
+                        >
+                          {/* Thanh Header Thẻ (Giống Bách Khoa Tài Nguyên) */}
+                          <div className="bg-[#464c53] text-white py-1.5 px-3 border-b border-slate-600 flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-black/40 text-amber-300">
+                                #{cIdx + 1}
+                              </span>
+                              <span className="font-bold text-xs sm:text-sm tracking-wide">
+                                {card.name || 'Thẻ chưa đặt tên'}
+                              </span>
+                              {card.itemType === 'hero' && (
+                                <span className="text-[10px] px-1.5 py-0.2 rounded bg-purple-500/80 text-white font-extrabold uppercase">
+                                  Tướng {card.rarity ? `(${card.rarity})` : ''}
+                                </span>
+                              )}
+                              {card.itemType === 'item' && (
+                                <span className="text-[10px] px-1.5 py-0.2 rounded bg-emerald-500/80 text-slate-950 font-extrabold uppercase">
+                                  Vật Phẩm
+                                </span>
+                              )}
+                            </div>
+
+                            <div className="flex items-center gap-1">
+                              <button
+                                type="button"
+                                onClick={() => handleMoveCard(block.id, cIdx, 'up')}
+                                disabled={cIdx === 0}
+                                className="p-1 text-slate-300 hover:text-white disabled:opacity-30"
+                                title="Di chuyển lên"
+                              >
+                                <ArrowUp className="w-3.5 h-3.5" />
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleMoveCard(block.id, cIdx, 'down')}
+                                disabled={cIdx === (block.cards?.length || 0) - 1}
+                                className="p-1 text-slate-300 hover:text-white disabled:opacity-30"
+                                title="Di chuyển xuống"
+                              >
+                                <ArrowDown className="w-3.5 h-3.5" />
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleOpenEditCard(block.id, cIdx, card)}
+                                className="px-2 py-1 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 rounded text-[11px] font-bold flex items-center gap-1 transition-colors border border-amber-500/30"
+                                title="Chỉnh sửa thẻ"
+                              >
+                                <Edit2 className="w-3 h-3" />
+                                <span>Sửa</span>
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleDeleteCard(block.id, cIdx)}
+                                className="p-1 text-red-400 hover:text-red-300 ml-1"
+                                title="Xóa thẻ"
+                              >
+                                <Trash2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                          </div>
+
+                          {/* 3 Cột Nội Dung Preview */}
+                          <div className="flex flex-col sm:flex-row min-h-[80px] divide-y sm:divide-y-0 sm:divide-x divide-slate-800 bg-slate-900/40 text-xs">
+                            {/* Cột 1: Icon / Tướng */}
+                            <div className="w-full sm:w-24 shrink-0 flex items-center justify-center p-2.5 bg-slate-950/50">
+                              <div className="relative w-14 h-14 rounded-xl overflow-hidden border border-slate-700 bg-slate-900 flex items-center justify-center p-0.5">
+                                <img
+                                  src={card.icon}
+                                  alt={card.name}
+                                  className="w-full h-full object-contain"
+                                  onError={(e) => {
+                                    (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                                  }}
+                                />
+                                {card.rarity && card.itemType === 'hero' && (
+                                  <span className="absolute -top-1 -right-1 text-[8px] font-black px-1 rounded bg-amber-500 text-slate-950 shadow">
+                                    {card.rarity}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+
+                            {/* Cột 2: Công Dụng Bullet Points */}
+                            <div className="w-full sm:w-72 shrink-0 p-2.5 flex items-center bg-slate-950/30">
+                              <ul className="space-y-1 list-disc list-outside pl-4 text-slate-300 font-medium w-full text-[11px]">
+                                {card.description && card.description.length > 0 ? (
+                                  card.description.map((bullet, bIdx) => (
+                                    <li key={bIdx} className="break-words">
+                                      {bullet}
+                                    </li>
+                                  ))
+                                ) : (
+                                  <li className="text-slate-500 italic">Chưa có dòng mô tả công dụng</li>
+                                )}
+                              </ul>
+                            </div>
+
+                            {/* Cột 3: Cách Nhận (Icon Hoạt Động) */}
+                            <div className="flex-1 min-w-0 p-2.5 flex flex-col justify-center bg-slate-950/20">
+                              <div className="text-[10px] font-bold text-slate-400 mb-1.5 uppercase">
+                                Cách nhận ({card.sources?.length || 0} nguồn):
+                              </div>
+                              <div className="flex flex-wrap items-center gap-1.5">
+                                {card.sources && card.sources.length > 0 ? (
+                                  card.sources.map((src, sIdx) => (
+                                    <div
+                                      key={sIdx}
+                                      className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-lg bg-slate-900 border border-slate-700/80 text-[11px] text-slate-200"
+                                    >
+                                      {src.icon && (
+                                        <img
+                                          src={src.icon}
+                                          alt={src.name || src.sourceId}
+                                          className="w-4 h-4 object-contain shrink-0"
+                                          onError={(e) => {
+                                            (e.target as HTMLElement).style.display = 'none';
+                                          }}
+                                        />
+                                      )}
+                                      <span className="font-semibold">{src.name || src.sourceId}</span>
+                                      {src.note && (
+                                        <span className="text-[9px] font-bold text-amber-400 bg-amber-500/10 px-1 py-0.2 rounded border border-amber-500/20">
+                                          {src.note}
+                                        </span>
+                                      )}
+                                    </div>
+                                  ))
+                                ) : (
+                                  <span className="text-[11px] text-slate-500 italic">
+                                    Chưa chọn nguồn nhận nào
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+
+                      {(!block.cards || block.cards.length === 0) && (
+                        <div className="p-8 rounded-2xl bg-slate-950/50 border border-dashed border-slate-800 text-center text-xs text-slate-500">
+                          Chưa có thẻ chi tiết nào trong khối. Nhấp &quot;+ Thêm Thẻ Chi Tiết Mới&quot; ở trên để bắt đầu tạo thẻ.
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
 
@@ -2500,6 +2868,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
               >
                 <TableIcon className="w-4 h-4" />
                 <span>+ Khối Bảng Biểu (Table)</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleAddBlock('resource-card')}
+                className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shadow-sm"
+              >
+                <Layers className="w-4 h-4" />
+                <span>+ Khối Thẻ Chi Tiết (3 Cột)</span>
               </button>
             </div>
           </div>
@@ -3314,6 +3691,488 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 className="px-5 py-2 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 text-xs font-black shadow-lg"
               >
                 {editingActivityIndex !== null ? 'Cập Nhật' : 'Tạo Hoạt Động'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL: CHỈNH SỬA / THÊM THẺ CHI TIẾT 3 CỘT (VẬT PHẨM & TƯỚNG) */}
+      {editingCardModal && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl max-w-4xl w-full p-6 space-y-5 shadow-2xl max-h-[92vh] overflow-y-auto">
+            {/* Modal Header */}
+            <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+                  <Edit2 className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="text-base font-black text-white">
+                    {editingCardModal.cardIndex !== null
+                      ? `Chỉnh Sửa Thẻ: ${editingCardModal.data.name || 'Chi Tiết'}`
+                      : 'Thêm Thẻ Chi Tiết Mới (3 Cột)'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    Cột 1: Vật phẩm hoặc Tướng | Cột 2: Công dụng | Cột 3: Nguồn nhận
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setEditingCardModal(null)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Content Form */}
+            <div className="space-y-4 text-xs">
+              {/* Tên Thẻ (Hiển thị Header thanh xám) */}
+              <div>
+                <label className="block text-slate-400 font-bold mb-1.5">
+                  Tên Thẻ (Hiển thị căn giữa trên thanh xám) <span className="text-red-400">*</span>
+                </label>
+                <input
+                  type="text"
+                  value={editingCardModal.data.name}
+                  onChange={(e) =>
+                    setEditingCardModal({
+                      ...editingCardModal,
+                      data: { ...editingCardModal.data, name: e.target.value },
+                    })
+                  }
+                  placeholder="VD: Đá Rèn Cao Cấp, Thể Lực 100, Goku Siêu Xayda..."
+                  className="w-full px-3.5 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white font-bold text-sm focus:border-amber-500 outline-none"
+                />
+              </div>
+
+              {/* CỘT 1: CHỌN ĐỐI TƯỢNG (VẬT PHẨM HOẶC TƯỚNG) */}
+              <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-amber-400">Cột 1:</span>
+                    <span className="font-semibold text-white">Chọn Loại Đối Tượng (Icon Vật Phẩm hoặc Tướng):</span>
+                  </div>
+
+                  {/* Switch Tabs Loại: Vật Phẩm vs Tướng */}
+                  <div className="flex items-center gap-1 bg-slate-900 p-1 rounded-xl border border-slate-800">
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setEditingCardModal({
+                          ...editingCardModal,
+                          data: { ...editingCardModal.data, itemType: 'item', heroSlug: undefined, rarity: undefined },
+                        })
+                      }
+                      className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
+                        editingCardModal.data.itemType !== 'hero'
+                          ? 'bg-amber-500 text-slate-950 shadow-md'
+                          : 'text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      📦 Vật Phẩm / Asset
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setEditingCardModal({
+                          ...editingCardModal,
+                          data: { ...editingCardModal.data, itemType: 'hero' },
+                        });
+                        setIsCardHeroPickerOpen(true);
+                      }}
+                      className={`px-3 py-1 rounded-lg text-xs font-bold transition-all ${
+                        editingCardModal.data.itemType === 'hero'
+                          ? 'bg-purple-500 text-white shadow-md'
+                          : 'text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      🦸 Tướng ({heroesList.length})
+                    </button>
+                  </div>
+                </div>
+
+                {/* Giao diện khi chọn Vật Phẩm */}
+                {editingCardModal.data.itemType !== 'hero' ? (
+                  <div className="flex flex-col sm:flex-row items-center gap-3 pt-1">
+                    <div className="w-16 h-16 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shrink-0 p-1">
+                      {editingCardModal.data.icon ? (
+                        <img
+                          src={editingCardModal.data.icon}
+                          alt="Preview"
+                          className="w-full h-full object-contain"
+                          onError={(e) => {
+                            (e.target as HTMLElement).style.opacity = '0.3';
+                          }}
+                        />
+                      ) : (
+                        <span className="text-[10px] text-slate-500">Chưa có icon</span>
+                      )}
+                    </div>
+
+                    <div className="flex-1 w-full space-y-2">
+                      <input
+                        type="text"
+                        value={editingCardModal.data.icon}
+                        onChange={(e) =>
+                          setEditingCardModal({
+                            ...editingCardModal,
+                            data: { ...editingCardModal.data, icon: e.target.value },
+                          })
+                        }
+                        placeholder="URL icon vật phẩm (VD: /images/resources/...)"
+                        className="w-full px-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-white font-mono text-xs focus:border-amber-500 outline-none"
+                      />
+
+                      <div className="flex flex-wrap items-center gap-2">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setTargetCardModalForResource(true);
+                            setTargetBlockIdForResource(null);
+                            setTargetTableCellForResource(null);
+                            setIsResourceModalOpen(true);
+                          }}
+                          className="px-3 py-1.5 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 rounded-xl font-bold flex items-center gap-1.5 transition-colors border border-amber-500/30 text-xs"
+                        >
+                          <ImageIcon className="w-3.5 h-3.5" />
+                          <span>Mở Kho Asset Phân Loại (2000+ Icons)</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  /* Giao diện khi chọn Tướng */
+                  <div className="space-y-3 pt-1">
+                    <div className="flex flex-col sm:flex-row items-center gap-3">
+                      <div className="relative w-16 h-16 rounded-2xl bg-slate-900 border border-purple-500/50 flex items-center justify-center shrink-0 p-0.5 overflow-hidden">
+                        {editingCardModal.data.icon ? (
+                          <img
+                            src={editingCardModal.data.icon}
+                            alt="Preview Hero"
+                            className="w-full h-full object-cover rounded-xl"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                            }}
+                          />
+                        ) : (
+                          <span className="text-[10px] text-slate-500">Chưa chọn tướng</span>
+                        )}
+                        {editingCardModal.data.rarity && (
+                          <span className="absolute top-0.5 right-0.5 px-1 py-0.2 text-[8px] font-black rounded bg-amber-500 text-slate-950">
+                            {editingCardModal.data.rarity}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="flex-1 w-full space-y-1.5">
+                        <div className="flex items-center justify-between">
+                          <span className="text-white font-bold text-xs">
+                            {editingCardModal.data.heroSlug
+                              ? `Tướng đã chọn: ${editingCardModal.data.name}`
+                              : 'Chưa chọn tướng nào từ kho'}
+                          </span>
+                          <button
+                            type="button"
+                            onClick={() => setIsCardHeroPickerOpen(!isCardHeroPickerOpen)}
+                            className="px-3 py-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 rounded-xl font-bold flex items-center gap-1.5 transition-colors border border-purple-500/30 text-xs"
+                          >
+                            <Users className="w-3.5 h-3.5" />
+                            <span>{isCardHeroPickerOpen ? 'Đóng kho tướng' : 'Đổi / Chọn Tướng Từ Kho'}</span>
+                          </button>
+                        </div>
+                        <input
+                          type="text"
+                          value={editingCardModal.data.icon}
+                          onChange={(e) =>
+                            setEditingCardModal({
+                              ...editingCardModal,
+                              data: { ...editingCardModal.data, icon: e.target.value },
+                            })
+                          }
+                          placeholder="Đường dẫn avatar tướng..."
+                          className="w-full px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-white font-mono text-xs focus:border-purple-500 outline-none"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Sub-picker danh sách tướng (khi mở) */}
+                    {isCardHeroPickerOpen && (
+                      <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
+                        <div className="relative">
+                          <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
+                          <input
+                            type="text"
+                            value={cardHeroSearch}
+                            onChange={(e) => setCardHeroSearch(e.target.value)}
+                            placeholder="Tìm kiếm tướng theo tên, hệ, độ hiếm..."
+                            className="w-full pl-9 pr-3 py-1.5 bg-slate-950 border border-slate-800 rounded-xl text-white text-xs focus:border-purple-500 outline-none"
+                          />
+                        </div>
+
+                        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 max-h-48 overflow-y-auto p-1">
+                          {heroesList
+                            .filter((h) => {
+                              const term = cardHeroSearch.trim().toLowerCase();
+                              return (
+                                !term ||
+                                h.name.toLowerCase().includes(term) ||
+                                h.slug.toLowerCase().includes(term) ||
+                                (h.rarity && h.rarity.toLowerCase().includes(term))
+                              );
+                            })
+                            .slice(0, 48)
+                            .map((hero) => {
+                              const isSelected = editingCardModal.data.heroSlug === hero.slug;
+                              return (
+                                <button
+                                  key={hero.slug}
+                                  type="button"
+                                  onClick={() => {
+                                    setEditingCardModal({
+                                      ...editingCardModal,
+                                      data: {
+                                        ...editingCardModal.data,
+                                        name: hero.name,
+                                        icon: hero.avatar,
+                                        heroSlug: hero.slug,
+                                        rarity: hero.rarity || 'SSR',
+                                        itemType: 'hero',
+                                      },
+                                    });
+                                    setIsCardHeroPickerOpen(false);
+                                  }}
+                                  className={`p-1.5 rounded-xl border flex flex-col items-center gap-1 transition-all ${
+                                    isSelected
+                                      ? 'bg-purple-500/20 border-purple-500 ring-2 ring-purple-500/40'
+                                      : 'bg-slate-950 border-slate-800 hover:border-purple-500/40'
+                                  }`}
+                                >
+                                  <img
+                                    src={hero.avatar}
+                                    alt={hero.name}
+                                    className="w-10 h-10 rounded-lg object-cover"
+                                    onError={(e) => {
+                                      (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                                    }}
+                                  />
+                                  <span className="text-[10px] font-bold text-white truncate w-full text-center">
+                                    {hero.name}
+                                  </span>
+                                </button>
+                              );
+                            })}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              {/* CỘT 2: CÔNG DỤNG (BULLET POINTS) */}
+              <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-amber-400">Cột 2:</span>
+                    <span className="font-semibold text-white">Công Dụng (Mô tả chi tiết dạng gạch đầu dòng):</span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setEditingCardModal({
+                        ...editingCardModal,
+                        data: {
+                          ...editingCardModal.data,
+                          description: [...editingCardModal.data.description, ''],
+                        },
+                      })
+                    }
+                    className="text-amber-400 hover:text-amber-300 font-bold flex items-center gap-1 text-xs"
+                  >
+                    <Plus className="w-3.5 h-3.5" />
+                    <span>+ Thêm dòng</span>
+                  </button>
+                </div>
+
+                <div className="space-y-2">
+                  {editingCardModal.data.description.map((desc, dIdx) => (
+                    <div key={dIdx} className="flex items-center gap-2">
+                      <span className="text-slate-500 font-bold">•</span>
+                      <input
+                        type="text"
+                        value={desc}
+                        onChange={(e) => {
+                          const newDescs = [...editingCardModal.data.description];
+                          newDescs[dIdx] = e.target.value;
+                          setEditingCardModal({
+                            ...editingCardModal,
+                            data: { ...editingCardModal.data, description: newDescs },
+                          });
+                        }}
+                        className="flex-1 px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-white outline-none focus:border-amber-500 text-xs"
+                        placeholder="VD: Dùng để nâng cấp trang bị, tăng vĩnh viễn 10% lực chiến..."
+                      />
+                      {editingCardModal.data.description.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const newDescs = editingCardModal.data.description.filter((_, i) => i !== dIdx);
+                            setEditingCardModal({
+                              ...editingCardModal,
+                              data: { ...editingCardModal.data, description: newDescs },
+                            });
+                          }}
+                          className="text-red-400 hover:text-red-300 p-1.5"
+                          title="Xóa dòng này"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* CỘT 3: CÁCH NHẬN (NGUỒN NHẬN / SỰ KIỆN) */}
+              <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-amber-400">Cột 3:</span>
+                    <span className="font-semibold text-white">Cách Nhận (Chọn các icon sự kiện & ghi chú điều kiện):</span>
+                    <span className="text-slate-500 text-[11px]">
+                      • Đã chọn {editingCardModal.data.sources.length} nguồn
+                    </span>
+                  </div>
+
+                  <button
+                    type="button"
+                    disabled={isSyncingSources}
+                    onClick={handleSyncSourcesFromFolder}
+                    className="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-[11px] font-semibold border border-slate-700 transition-all flex items-center gap-1 self-start sm:self-auto"
+                    title="Tự động quét các icon sự kiện mới trong public/images/resources/sources/"
+                  >
+                    <span>🔄 {isSyncingSources ? 'Đang quét...' : 'Quét ảnh mới (sources/)'}</span>
+                  </button>
+                </div>
+
+                {/* Grid chọn nguồn nhận */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 max-h-52 overflow-y-auto p-2 bg-slate-900 rounded-xl border border-slate-800">
+                  {sourcesList.map((src) => {
+                    const isSelected = editingCardModal.data.sources.some((s) => s.sourceId === src.id);
+                    return (
+                      <div
+                        key={src.id}
+                        onClick={() => {
+                          let nextSources: GuideResourceCardSourceRef[];
+                          if (isSelected) {
+                            nextSources = editingCardModal.data.sources.filter((s) => s.sourceId !== src.id);
+                          } else {
+                            nextSources = [
+                              ...editingCardModal.data.sources,
+                              { sourceId: src.id, name: src.name, icon: src.icon, note: '' },
+                            ];
+                          }
+                          setEditingCardModal({
+                            ...editingCardModal,
+                            data: { ...editingCardModal.data, sources: nextSources },
+                          });
+                        }}
+                        className={`p-2 rounded-xl border cursor-pointer transition-all flex items-center gap-2 select-none ${
+                          isSelected
+                            ? 'bg-amber-500/20 border-amber-500/80 text-white shadow-sm ring-1 ring-amber-500/50'
+                            : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white hover:border-slate-700'
+                        }`}
+                      >
+                        <div className="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700/80 p-0.5 shrink-0 flex items-center justify-center">
+                          <img
+                            src={src.icon}
+                            alt={src.name}
+                            className="w-full h-full object-contain"
+                            onError={(e) => {
+                              (e.target as HTMLElement).style.display = 'none';
+                            }}
+                          />
+                        </div>
+                        <span className="text-[11px] font-bold truncate flex-1">{src.name}</span>
+                        {isSelected && <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />}
+                      </div>
+                    );
+                  })}
+                </div>
+
+                {/* Danh sách các nguồn đã chọn để nhập ghi chú điều kiện */}
+                {editingCardModal.data.sources.length > 0 && (
+                  <div className="pt-2 space-y-2 border-t border-slate-800/80">
+                    <span className="text-[11px] font-bold text-slate-400 block">
+                      Ghi chú điều kiện / số lượng cho các nguồn đã chọn:
+                    </span>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {editingCardModal.data.sources.map((sRef, sIdx) => {
+                        const srcMeta = sourcesList.find((s) => s.id === sRef.sourceId);
+                        const displayName = sRef.name || srcMeta?.name || sRef.sourceId;
+                        return (
+                          <div
+                            key={sRef.sourceId || sIdx}
+                            className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2"
+                          >
+                            <span className="text-xs font-bold text-white truncate w-32 shrink-0">
+                              {displayName}
+                            </span>
+                            <input
+                              type="text"
+                              value={sRef.note || ''}
+                              onChange={(e) => {
+                                const updated = [...editingCardModal.data.sources];
+                                updated[sIdx] = { ...updated[sIdx], note: e.target.value };
+                                setEditingCardModal({
+                                  ...editingCardModal,
+                                  data: { ...editingCardModal.data, sources: updated },
+                                });
+                              }}
+                              placeholder="Ghi chú: x50, Top 1-10, Mốc 5000đ..."
+                              className="flex-1 px-2.5 py-1 bg-slate-950 border border-slate-800 rounded-lg text-[11px] text-amber-300 font-semibold focus:border-amber-500 outline-none"
+                            />
+                            <button
+                              type="button"
+                              onClick={() => {
+                                const updated = editingCardModal.data.sources.filter((_, i) => i !== sIdx);
+                                setEditingCardModal({
+                                  ...editingCardModal,
+                                  data: { ...editingCardModal.data, sources: updated },
+                                });
+                              }}
+                              className="text-slate-500 hover:text-red-400 p-1 shrink-0"
+                              title="Gỡ nguồn này"
+                            >
+                              <X className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Modal Actions */}
+            <div className="pt-4 border-t border-slate-800 flex items-center justify-end gap-3">
+              <button
+                type="button"
+                onClick={() => setEditingCardModal(null)}
+                className="px-5 py-2.5 rounded-xl bg-slate-800 text-slate-300 text-xs font-bold hover:bg-slate-700 transition-colors"
+              >
+                Hủy Bỏ
+              </button>
+              <button
+                type="button"
+                onClick={handleSaveCardModal}
+                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 text-slate-950 text-xs font-black shadow-lg shadow-amber-500/20 transition-all flex items-center gap-1.5"
+              >
+                <Check className="w-4 h-4" />
+                <span>{editingCardModal.cardIndex !== null ? 'Cập Nhật Thẻ' : 'Thêm Thẻ Vào Khối'}</span>
               </button>
             </div>
           </div>

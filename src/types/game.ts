@@ -335,13 +335,40 @@ export interface GuideTableBlock {
   rows: GuideTableRow[];
 }
 
+export interface GuideResourceCardSourceRef {
+  sourceId: string;
+  name?: string;
+  icon?: string;
+  note?: string;
+}
+
+export interface GuideResourceCardItem {
+  id: string;
+  itemType: 'item' | 'hero';
+  name: string;
+  icon: string;
+  heroSlug?: string;
+  rarity?: string;
+  description: string[];
+  sources: GuideResourceCardSourceRef[];
+}
+
+export interface GuideResourceCardBlock {
+  id: string;
+  type: 'resource-card';
+  title?: string;
+  description?: string;
+  cards: GuideResourceCardItem[];
+}
+
 export type GuideBlock =
   | GuideTextBlock
   | GuideHeroRosterBlock
   | GuideGalleryBlock
   | GuideResourcesBlock
   | GuideTableBlock
-  | GuideHeroSourceBlock;
+  | GuideHeroSourceBlock
+  | GuideResourceCardBlock;
 
 export interface GuideArticle {
   id: string;
