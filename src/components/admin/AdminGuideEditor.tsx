@@ -111,6 +111,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
     blockId: string;
     rowId: string;
     columnId: string;
+    itemIndex?: number;
   } | null>(null);
   const [resourceSearchTerm, setResourceSearchTerm] = useState('');
   const [resourceModalTab, setResourceModalTab] = useState<'game-assets' | 'configured-resources'>('game-assets');
@@ -602,13 +603,20 @@ export const AdminGuideEditor: React.FC<Props> = ({
           {
             id: `row-${Date.now()}-1`,
             cells: {
-              'col-1': { text: 'Mốc 1' },
+              'col-1': { text: 'Mốc 1: 50.000 VNĐ' },
               'col-2': {
-                resource: {
-                  name: 'Ngọc Lục Bảo',
-                  icon: '/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png',
-                  quantity: 'x20',
-                },
+                resources: [
+                  {
+                    name: 'Ngọc Lục Bảo',
+                    icon: '/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png',
+                    quantity: 'x20',
+                  },
+                  {
+                    name: 'Kim Cương',
+                    icon: '/games/sieu-anh-hung/tai-nguyen-anh/cuong_hoa_thach.png',
+                    quantity: 'x500',
+                  },
+                ],
               },
             },
           },
@@ -687,36 +695,61 @@ export const AdminGuideEditor: React.FC<Props> = ({
     showToast(`Đã thêm tướng ${hero.name}`, 'success');
   };
 
+  // Helper: Lấy danh sách tài nguyên trong ô của bảng
+  const getCellResources = (cell?: GuideTableCell): GuideTableCellResource[] => {
+    if (!cell) return [];
+    if (Array.isArray(cell.resources) && cell.resources.length > 0) return cell.resources;
+    if (cell.resource && cell.resource.name) return [cell.resource];
+    return [];
+  };
+
   // Thêm resource vào block (hoặc cập nhật ô trong Table)
   const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string }) => {
     if (!activeGuide) return;
 
     // Nếu đang chọn tài nguyên cho một ô trong Bảng Biểu (Table)
     if (targetTableCellForResource) {
-      const { blockId, rowId, columnId } = targetTableCellForResource;
+      const { blockId, rowId, columnId, itemIndex } = targetTableCellForResource;
       const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
       if (block && block.type === 'table') {
         const nextRows = block.rows.map((row) => {
           if (row.id !== rowId) return row;
           const currentCell = row.cells[columnId] || {};
-          const currentRes = currentCell.resource;
+          const currentList = getCellResources(currentCell);
+
+          let nextList: GuideTableCellResource[];
+          if (itemIndex !== undefined && itemIndex >= 0 && itemIndex < currentList.length) {
+            nextList = [...currentList];
+            nextList[itemIndex] = {
+              ...nextList[itemIndex],
+              name: resItem.name,
+              icon: resItem.icon,
+            };
+          } else {
+            nextList = [
+              ...currentList,
+              {
+                name: resItem.name,
+                icon: resItem.icon,
+                quantity: '',
+              },
+            ];
+          }
+
           return {
             ...row,
             cells: {
               ...row.cells,
               [columnId]: {
                 ...currentCell,
-                resource: {
-                  name: resItem.name,
-                  icon: resItem.icon,
-                  quantity: currentRes?.quantity || '',
-                },
+                resources: nextList,
+                resource: nextList[0] || undefined,
               },
             },
           };
         });
         handleUpdateBlock(blockId, { rows: nextRows });
-        showToast(`Đã chọn vật phẩm ${resItem.name} cho bảng`, 'success');
+        showToast(`Đã thêm vật phẩm ${resItem.name} vào ô`, 'success');
         setIsResourceModalOpen(false);
         setTargetTableCellForResource(null);
         return;
@@ -851,10 +884,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
     handleUpdateBlock(blockId, { rows: nextRows });
   };
 
-  const handleUpdateTableCellResource = (
+  const handleUpdateTableCellResourceItem = (
     blockId: string,
     rowId: string,
     colId: string,
+    itemIdx: number,
     fields: Partial<GuideTableCellResource>
   ) => {
     if (!activeGuide) return;
@@ -864,17 +898,55 @@ export const AdminGuideEditor: React.FC<Props> = ({
     const nextRows = block.rows.map((r) => {
       if (r.id !== rowId) return r;
       const currentCell = r.cells[colId] || {};
-      const currentRes = currentCell.resource || { name: '', icon: '', quantity: '' };
+      const currentList = getCellResources(currentCell);
+      if (itemIdx < 0 || itemIdx >= currentList.length) return r;
+
+      const nextList = [...currentList];
+      nextList[itemIdx] = {
+        ...nextList[itemIdx],
+        ...fields,
+      };
+
       return {
         ...r,
         cells: {
           ...r.cells,
           [colId]: {
             ...currentCell,
-            resource: {
-              ...currentRes,
-              ...fields,
-            },
+            resources: nextList,
+            resource: nextList[0] || undefined,
+          },
+        },
+      };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
+  const handleRemoveTableCellResourceItem = (
+    blockId: string,
+    rowId: string,
+    colId: string,
+    itemIdx: number
+  ) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      const currentCell = r.cells[colId] || {};
+      const currentList = getCellResources(currentCell);
+      const nextList = currentList.filter((_, idx) => idx !== itemIdx);
+
+      return {
+        ...r,
+        cells: {
+          ...r.cells,
+          [colId]: {
+            ...currentCell,
+            resources: nextList,
+            resource: nextList[0] || undefined,
           },
         },
       };
@@ -893,6 +965,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
       const nextCells = { ...r.cells };
       if (nextCells[colId]) {
         delete nextCells[colId].resource;
+        delete nextCells[colId].resources;
       }
       return { ...r, cells: nextCells };
     });
@@ -2041,91 +2114,126 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                           className="w-full px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
                                         />
                                       ) : (
-                                        <div>
-                                          {cell.resource?.icon ? (
-                                            <div className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2">
-                                              <button
-                                                type="button"
-                                                onClick={() => {
-                                                  setTargetTableCellForResource({
-                                                    blockId: block.id,
-                                                    rowId: row.id,
-                                                    columnId: col.id,
-                                                  });
-                                                  setTargetBlockIdForResource(null);
-                                                  setIsResourceModalOpen(true);
-                                                }}
-                                                className="w-9 h-9 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 hover:border-teal-400 transition-all shrink-0 flex items-center justify-center group/ico relative"
-                                                title="Click để đổi icon tài nguyên"
-                                              >
-                                                <img
-                                                  src={cell.resource.icon}
-                                                  alt={cell.resource.name || 'icon'}
-                                                  className="w-full h-full object-contain"
-                                                  onError={(e) => {
-                                                    (e.target as HTMLImageElement).src =
-                                                      '/images/heroes/icon_heroes/default.png';
+                                        <div className="space-y-2 py-1">
+                                          {(() => {
+                                            const cellItems = getCellResources(cell);
+                                            return (
+                                              <>
+                                                {cellItems.map((item, itemIdx) => (
+                                                  <div
+                                                    key={itemIdx}
+                                                    className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2"
+                                                  >
+                                                    <button
+                                                      type="button"
+                                                      onClick={() => {
+                                                        setTargetTableCellForResource({
+                                                          blockId: block.id,
+                                                          rowId: row.id,
+                                                          columnId: col.id,
+                                                          itemIndex: itemIdx,
+                                                        });
+                                                        setTargetBlockIdForResource(null);
+                                                        setIsResourceModalOpen(true);
+                                                      }}
+                                                      className="w-9 h-9 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 hover:border-teal-400 transition-all shrink-0 flex items-center justify-center group/ico relative"
+                                                      title="Click để đổi icon vật phẩm"
+                                                    >
+                                                      {item.icon ? (
+                                                        <img
+                                                          src={item.icon}
+                                                          alt={item.name || 'icon'}
+                                                          className="w-full h-full object-contain"
+                                                          onError={(e) => {
+                                                            (e.target as HTMLImageElement).src =
+                                                              '/images/heroes/icon_heroes/default.png';
+                                                          }}
+                                                        />
+                                                      ) : (
+                                                        <Sparkles className="w-4 h-4 text-slate-500" />
+                                                      )}
+                                                      <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover/ico:opacity-100 flex items-center justify-center transition-opacity">
+                                                        <Edit2 className="w-3 h-3 text-white" />
+                                                      </div>
+                                                    </button>
+
+                                                    <div className="flex-1 min-w-0 space-y-1">
+                                                      <input
+                                                        type="text"
+                                                        value={item.name || ''}
+                                                        onChange={(e) =>
+                                                          handleUpdateTableCellResourceItem(
+                                                            block.id,
+                                                            row.id,
+                                                            col.id,
+                                                            itemIdx,
+                                                            { name: e.target.value }
+                                                          )
+                                                        }
+                                                        placeholder="Tên vật phẩm..."
+                                                        className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px] font-bold text-white focus:outline-none"
+                                                      />
+                                                      <input
+                                                        type="text"
+                                                        value={item.quantity || ''}
+                                                        onChange={(e) =>
+                                                          handleUpdateTableCellResourceItem(
+                                                            block.id,
+                                                            row.id,
+                                                            col.id,
+                                                            itemIdx,
+                                                            { quantity: e.target.value }
+                                                          )
+                                                        }
+                                                        placeholder="Số lượng (x20, *5...)"
+                                                        className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[10px] font-mono text-amber-300 focus:outline-none"
+                                                      />
+                                                    </div>
+
+                                                    <button
+                                                      type="button"
+                                                      onClick={() =>
+                                                        handleRemoveTableCellResourceItem(
+                                                          block.id,
+                                                          row.id,
+                                                          col.id,
+                                                          itemIdx
+                                                        )
+                                                      }
+                                                      className="text-slate-500 hover:text-red-400 p-1 shrink-0"
+                                                      title="Xóa vật phẩm này"
+                                                    >
+                                                      <X className="w-3.5 h-3.5" />
+                                                    </button>
+                                                  </div>
+                                                ))}
+
+                                                {/* Nút thêm vật phẩm vào ô này */}
+                                                <button
+                                                  type="button"
+                                                  onClick={() => {
+                                                    setTargetTableCellForResource({
+                                                      blockId: block.id,
+                                                      rowId: row.id,
+                                                      columnId: col.id,
+                                                    });
+                                                    setTargetBlockIdForResource(null);
+                                                    setIsResourceModalOpen(true);
                                                   }}
-                                                />
-                                                <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover/ico:opacity-100 flex items-center justify-center transition-opacity">
-                                                  <Edit2 className="w-3 h-3 text-white" />
-                                                </div>
-                                              </button>
-
-                                              <div className="flex-1 min-w-0 space-y-1">
-                                                <input
-                                                  type="text"
-                                                  value={cell.resource.name || ''}
-                                                  onChange={(e) =>
-                                                    handleUpdateTableCellResource(block.id, row.id, col.id, {
-                                                      name: e.target.value,
-                                                    })
-                                                  }
-                                                  placeholder="Tên vật phẩm..."
-                                                  className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px] font-bold text-white focus:outline-none"
-                                                />
-                                                <input
-                                                  type="text"
-                                                  value={cell.resource.quantity || ''}
-                                                  onChange={(e) =>
-                                                    handleUpdateTableCellResource(block.id, row.id, col.id, {
-                                                      quantity: e.target.value,
-                                                    })
-                                                  }
-                                                  placeholder="Số lượng (VD: x20, *5, 100k...)"
-                                                  className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[10px] font-mono text-amber-300 focus:outline-none"
-                                                />
-                                              </div>
-
-                                              <button
-                                                type="button"
-                                                onClick={() =>
-                                                  handleClearTableCellResource(block.id, row.id, col.id)
-                                                }
-                                                className="text-slate-500 hover:text-red-400 p-1 shrink-0"
-                                                title="Xóa tài nguyên khỏi ô này"
-                                              >
-                                                <X className="w-3.5 h-3.5" />
-                                              </button>
-                                            </div>
-                                          ) : (
-                                            <button
-                                              type="button"
-                                              onClick={() => {
-                                                setTargetTableCellForResource({
-                                                  blockId: block.id,
-                                                  rowId: row.id,
-                                                  columnId: col.id,
-                                                });
-                                                setTargetBlockIdForResource(null);
-                                                setIsResourceModalOpen(true);
-                                              }}
-                                              className="w-full py-2 px-3 rounded-xl border border-dashed border-slate-800 hover:border-teal-500/60 bg-slate-900/50 hover:bg-slate-900 text-[11px] text-slate-400 hover:text-teal-300 font-bold flex items-center justify-center gap-1.5 transition-all"
-                                            >
-                                              <Plus className="w-3.5 h-3.5" />
-                                              <span>Chọn Tài Nguyên</span>
-                                            </button>
-                                          )}
+                                                  className={`w-full py-1.5 px-2.5 rounded-xl border border-dashed border-slate-800 hover:border-teal-500/60 bg-slate-900/50 hover:bg-slate-900 text-[11px] text-slate-400 hover:text-teal-300 font-bold flex items-center justify-center gap-1.5 transition-all ${
+                                                    cellItems.length > 0 ? 'mt-1.5' : 'py-2.5'
+                                                  }`}
+                                                >
+                                                  <Plus className="w-3.5 h-3.5" />
+                                                  <span>
+                                                    {cellItems.length > 0
+                                                      ? '+ Thêm Vật Phẩm Khác'
+                                                      : 'Chọn Tài Nguyên / Vật Phẩm'}
+                                                  </span>
+                                                </button>
+                                              </>
+                                            );
+                                          })()}
                                         </div>
                                       )}
                                     </td>

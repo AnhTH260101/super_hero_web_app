@@ -300,6 +300,7 @@ export interface GuideTableCellResource {
 export interface GuideTableCell {
   text?: string;
   resource?: GuideTableCellResource;
+  resources?: GuideTableCellResource[];
 }
 
 export interface GuideTableRow {

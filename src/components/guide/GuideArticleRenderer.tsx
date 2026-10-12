@@ -345,45 +345,63 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                                   </span>
                                 ) : (
                                   <div>
-                                    {cell?.resource ? (
-                                      <div className="flex items-center gap-3">
-                                        {cell.resource.icon && (
-                                          <div
-                                            className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700/80 p-1 shrink-0 flex items-center justify-center shadow cursor-zoom-in hover:scale-105 transition-transform"
-                                            onClick={() =>
-                                              cell.resource?.icon &&
-                                              setLightboxImage({
-                                                url: cell.resource.icon,
-                                                caption: cell.resource.name,
-                                              })
-                                            }
-                                            title="Bấm để phóng to"
-                                          >
-                                            <img
-                                              src={cell.resource.icon}
-                                              alt={cell.resource.name}
-                                              className="w-full h-full object-contain"
-                                              onError={(e) => {
-                                                (e.target as HTMLImageElement).src =
-                                                  '/images/heroes/icon_heroes/default.png';
-                                              }}
-                                            />
-                                          </div>
-                                        )}
-                                        <div className="min-w-0">
-                                          <div className="font-bold text-xs sm:text-sm text-white truncate">
-                                            {cell.resource.name || 'Vật phẩm'}
-                                          </div>
-                                          {cell.resource.quantity && (
-                                            <div className="inline-block mt-0.5 text-[10px] sm:text-[11px] font-black font-mono px-2 py-0.5 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm">
-                                              {cell.resource.quantity}
+                                    {(() => {
+                                      const items =
+                                        cell?.resources && cell.resources.length > 0
+                                          ? cell.resources
+                                          : cell?.resource?.name || cell?.resource?.icon
+                                          ? [cell.resource]
+                                          : [];
+
+                                      if (items.length === 0) {
+                                        return <span className="text-slate-600 text-xs italic">—</span>;
+                                      }
+
+                                      return (
+                                        <div className="flex flex-wrap items-center gap-2 py-1">
+                                          {items.map((item, iIdx) => (
+                                            <div
+                                              key={iIdx}
+                                              className="flex items-center gap-2 px-2.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 shadow-sm hover:border-slate-700 transition-colors"
+                                            >
+                                              {item.icon && (
+                                                <div
+                                                  className="w-7 h-7 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 shrink-0 flex items-center justify-center cursor-zoom-in hover:scale-105 transition-transform"
+                                                  onClick={() =>
+                                                    item.icon &&
+                                                    setLightboxImage({
+                                                      url: item.icon,
+                                                      caption: item.name,
+                                                    })
+                                                  }
+                                                  title="Bấm để phóng to"
+                                                >
+                                                  <img
+                                                    src={item.icon}
+                                                    alt={item.name}
+                                                    className="w-full h-full object-contain"
+                                                    onError={(e) => {
+                                                      (e.target as HTMLImageElement).src =
+                                                        '/images/heroes/icon_heroes/default.png';
+                                                    }}
+                                                  />
+                                                </div>
+                                              )}
+                                              <div className="flex items-center gap-1.5 min-w-0">
+                                                <span className="font-bold text-xs text-white whitespace-nowrap">
+                                                  {item.name || 'Vật phẩm'}
+                                                </span>
+                                                {item.quantity && (
+                                                  <span className="text-[10px] font-black font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 whitespace-nowrap shadow-sm">
+                                                    {item.quantity}
+                                                  </span>
+                                                )}
+                                              </div>
                                             </div>
-                                          )}
+                                          ))}
                                         </div>
-                                      </div>
-                                    ) : (
-                                      <span className="text-slate-600 text-xs italic">—</span>
-                                    )}
+                                      );
+                                    })()}
                                   </div>
                                 )}
                               </td>
