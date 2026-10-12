@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import {
   Flame,
@@ -13,6 +13,8 @@ import {
   Lightbulb,
   Swords,
   ChevronRight,
+  ZoomIn,
+  X,
 } from 'lucide-react';
 import {
   GuideArticle,
@@ -29,6 +31,7 @@ interface Props {
 }
 
 export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => {
+  const [lightboxImage, setLightboxImage] = useState<{ url: string; caption?: string } | null>(null);
   return (
     <article className="rounded-3xl bg-slate-900 border border-slate-800 p-6 sm:p-8 space-y-8 shadow-2xl">
       {/* Header bài viết */}
@@ -191,28 +194,37 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                 )}
 
                 <div
-                  className={`grid gap-4 ${
+                  className={`grid gap-5 items-start ${
                     b.layout === 'single'
                       ? 'grid-cols-1'
                       : b.layout === 'grid-3'
-                      ? 'grid-cols-1 sm:grid-cols-3'
-                      : 'grid-cols-1 sm:grid-cols-2'
+                      ? 'grid-cols-1 md:grid-cols-3'
+                      : 'grid-cols-1 md:grid-cols-2'
                   }`}
                 >
                   {b.images?.map((img, i) => (
                     <div
                       key={i}
-                      className="rounded-2xl bg-slate-950 border border-slate-800 overflow-hidden shadow-lg group"
+                      className="rounded-2xl bg-slate-950 border border-slate-800 overflow-hidden shadow-lg group flex flex-col"
                     >
-                      <div className="relative aspect-video bg-slate-900 overflow-hidden">
+                      <div
+                        className="relative bg-slate-950/80 p-1 sm:p-2 overflow-hidden flex items-center justify-center cursor-zoom-in group/img"
+                        onClick={() => setLightboxImage(img)}
+                        title="Bấm để xem ảnh phóng to đầy đủ"
+                      >
                         <img
                           src={img.url}
                           alt={img.caption || 'Hình ảnh thực chiến'}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                          className="w-full h-auto max-h-[550px] object-contain rounded-xl transition-transform duration-200 group-hover/img:scale-[1.01]"
+                          loading="lazy"
                         />
+                        <div className="absolute bottom-3 right-3 px-2 py-1 rounded-lg bg-slate-950/80 border border-slate-700/80 text-[11px] text-slate-300 flex items-center gap-1 opacity-0 group-hover/img:opacity-100 transition-opacity pointer-events-none shadow">
+                          <ZoomIn className="w-3.5 h-3.5 text-amber-400" />
+                          <span>Phóng to</span>
+                        </div>
                       </div>
                       {img.caption && (
-                        <div className="p-3 text-xs text-slate-300 font-medium text-center bg-slate-950/80">
+                        <div className="p-3 text-xs text-slate-300 font-medium text-center bg-slate-950/90 border-t border-slate-800/80">
                           {img.caption}
                         </div>
                       )}
@@ -270,6 +282,40 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
           return null;
         })}
       </div>
+
+      {/* Lightbox Modal Xem Ảnh Đầy Đủ Không Bị Khuất */}
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md flex flex-col items-center justify-center p-4 sm:p-8"
+          onClick={() => setLightboxImage(null)}
+        >
+          <div className="absolute top-4 right-4 flex items-center gap-2">
+            <button
+              onClick={() => setLightboxImage(null)}
+              className="p-2.5 rounded-full bg-slate-800/80 hover:bg-slate-700 text-white transition-all shadow-lg"
+              title="Đóng xem ảnh"
+            >
+              <X className="w-6 h-6" />
+            </button>
+          </div>
+
+          <div
+            className="max-w-6xl max-h-[90vh] flex flex-col items-center justify-center space-y-3"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={lightboxImage.url}
+              alt={lightboxImage.caption || 'Phóng to ảnh'}
+              className="max-w-full max-h-[82vh] w-auto h-auto object-contain rounded-2xl shadow-2xl border border-slate-800"
+            />
+            {lightboxImage.caption && (
+              <p className="text-xs sm:text-sm font-semibold text-slate-200 text-center bg-slate-900/90 px-4 py-2 rounded-xl border border-slate-800 shadow">
+                {lightboxImage.caption}
+              </p>
+            )}
+          </div>
+        </div>
+      )}
     </article>
   );
 };

@@ -1,81 +1,179 @@
 {
-  "id": "guide-boss-the-gioi",
+  "id": "guide-boss-bang-hoi",
   "slug": "boss-the-gioi",
-  "title": "Boss Thế Giới (World Boss)",
+  "title": "Boss Thế giới",
   "category": "boss",
-  "schedule": "12:00 & 20:00 Hàng Ngày",
-  "description": "Hoạt động quy mô toàn server diễn ra vào các khung giờ cố định trưa và tối. Toàn bộ người chơi tập trung gây sát thương lớn nhất có thể trước khi Boss bị tiêu diệt.",
-  "thumbnail": "/images/icon_boss/boss_icon_1.png",
+  "schedule": "Mỗi ngày: 13:00-13:15 & 20:00-20:15",
+  "description": "Boss hàng ngày. Farm xu",
+  "thumbnail": "/images/icon_boss/boss_icon_2.png",
   "blocks": [
     {
       "id": "block-text-1",
       "type": "text",
-      "title": "Cơ Chế Khiêu Chiến & Thời Gian Mở",
-      "content": "Boss Thế Giới xuất hiện đúng 12:00 và 20:00 mỗi ngày. Mỗi đợt khiêu chiến kéo dài tối đa 30 phút hoặc kết thúc sớm hơn nếu Boss bị hạ gục.\n- Toàn bộ người chơi trong server đều có thể tham gia không giới hạn lượt đánh (có thời gian hồi sinh lượt).\n- Sát thương gây ra được tích lũy vào Bảng Xếp Hạng Server theo thời gian thực.",
+      "title": "Thưởng đánh boss tính theo hạng gây sát thương",
+      "content": "- Tham gia đánh boss: 666 xu",
       "variant": "normal"
     },
     {
       "id": "block-hero-1",
       "type": "hero-roster",
-      "title": "Đội Hình Đề Xuất Tối Ưu Sát Thương Đơn Thể",
-      "description": "Ưu tiên các tướng dồn sát thương bạo kích, bỏ qua kháng cự hoặc tăng sát thương theo % máu.",
+      "title": "Tướng Đề Xuất Khiêu Chiến Boss cho vip 0 -> vip 2",
+      "description": "Các tướng khuyên dùng để đạt sát thương tối ưu. Lưu ý: Pet kurama +100% dame tt hoả",
       "heroes": [
         {
-          "heroSlug": "superman",
-          "name": "Superman",
-          "avatar": "/images/heroes/icon_heroes/superman.png",
-          "element": "Vũ trụ nguyên tố",
-          "rarity": "SSR",
-          "role": "Tanker / Sát Thương",
-          "note": "Kỹ năng Phóng Tia gây sát thương vật lý và lửa cực mạnh kèm giảm nộ của Boss."
+          "heroSlug": "ct-beerus",
+          "name": "CT-Beerus",
+          "avatar": "/images/heroes/icon_heroes/ct-beerus.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu : Vàng 7\nSkill: 2,3,5\nCho tank boss để lấy kĩ năng trước khi bị đánh"
         },
         {
-          "heroSlug": "son-tinh",
-          "name": "Sơn Tinh",
-          "avatar": "/images/heroes/icon_heroes/son-tinh.png",
-          "element": "Hỗn loạn",
-          "rarity": "SSR",
-          "role": "Sát Thương Chủ Lực",
-          "note": "Khả năng dồn dame đơn mục tiêu vượt trội khi Boss còn trên 50% máu."
+          "heroSlug": "ct-tornado",
+          "name": "CT-Tornado",
+          "avatar": "/images/heroes/icon_heroes/ct-tornado.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu : Đỏ 6\nSkill: 2,3,4"
         },
         {
-          "heroSlug": "sakura",
-          "name": "Sakura",
-          "avatar": "/images/heroes/icon_heroes/sakura.png",
-          "element": "Thực vật nguyên tố",
-          "rarity": "SSR",
-          "role": "Hỗ Trợ / Hồi Máu",
-          "note": "Duy trì khả năng sống sót cho đội hình qua các lượt nộ liên hoàn của Boss."
+          "heroSlug": "ct-albedo",
+          "name": "CT-Albedo",
+          "avatar": "/images/heroes/icon_heroes/ct-albedo.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu: Đỏ 6\nSkill: 1,3,4"
+        },
+        {
+          "heroSlug": "ct-tachibana",
+          "name": "CT-Tachibana",
+          "avatar": "/images/heroes/icon_heroes/ct-tachibana.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu tối thiểu: Đỏ 4\nSkill: 2,3,4"
+        },
+        {
+          "heroSlug": "ct-so-18",
+          "name": "CT-Số 18",
+          "avatar": "/images/heroes/icon_heroes/ct-so-18.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 7\nSkill: 3,4,5\nĐứng trước kích kỹ năng trước khi bị đánh"
+        },
+        {
+          "heroSlug": "ct-aizen",
+          "name": "CT-Aizen",
+          "avatar": "/images/heroes/icon_heroes/ct-aizen.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu : Vàng 7 \nSkill: 2,3,5\nnếu bị titan tấn công aizen sẽ + thêm 20% đame thuộc tính lên titan"
+        },
+        {
+          "heroSlug": "ct-chizuru",
+          "name": "CT-Chizuru",
+          "avatar": "/images/heroes/icon_heroes/ct-chizuru.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu: Vàng 7\nSkill: 2,3,5"
+        },
+        {
+          "heroSlug": "ct-obito-uchiha",
+          "name": "CT-Obito Uchiha",
+          "avatar": "/images/heroes/icon_heroes/ct-obito-uchiha.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu: Đỏ 6\nSkill: 2,3,4"
+        },
+        {
+          "heroSlug": "ct-akame",
+          "name": "CT-Akame",
+          "avatar": "/images/heroes/icon_heroes/ct-akame.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "",
+          "note": "Yêu cầu: Vàng 6\nSkill: 1,3,4"
         }
       ]
     },
     {
-      "id": "block-text-2",
-      "type": "text",
-      "title": "Mẹo Leo Top Sát Thương & Canh Last Hit",
-      "content": "1. Buff Cổ Vũ: Sử dụng Vàng hoặc Kim Cương để mua buff Cổ Vũ Công trước khi vào đánh để tăng đến 100% Sức Tấn Công.\n2. Bỏ qua Animation: Sử dụng tính năng Tăng Tốc hoặc Bỏ Qua để hoàn thành lượt đánh nhanh nhất, tối đa số lượt có thể tham chiến.\n3. Canh đòn kết liễu: Khi Boss còn dưới 2% máu, canh thời gian nộ để nhận thưởng Last Hit cực khủng.",
-      "variant": "strategy"
-    },
-    {
-      "id": "block-res-1",
-      "type": "resources",
-      "title": "Phần Thưởng Đua Top & Tham Gia",
-      "description": "Bao gồm phần thưởng rương hoàng kim, tinh hoa quý hiếm và mảnh tướng đặc biệt.",
-      "items": [
+      "id": "block-1791778423482",
+      "type": "hero-roster",
+      "title": "Tướng Đề Xuất Khiêu Chiến Boss cho vip 2 trở lên",
+      "description": "Các tướng khuyên dùng để đạt sát thương tối ưu",
+      "heroes": [
         {
-          "id": "tai-nguyen-1791731665780",
-          "name": "Tinh hoa - Pháp bảo",
-          "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
-          "note": "Thưởng Top 1-10 sát thương server"
+          "heroSlug": "nagato",
+          "name": "Nagato",
+          "avatar": "/images/heroes/icon_heroes/nagato.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 5\nSkill: 1,2,5\nBuild càng nhiều thuộc tính càng tốt"
         },
         {
-          "id": "tai-nguyen-1791731533648",
-          "name": "Tinh hoa - Đá lò",
-          "icon": "/images/resources/items/tinh-hoa-da-lo.png",
-          "note": "Thưởng tham gia đánh Boss tích lũy"
+          "heroSlug": "hoakamado-tanjiro",
+          "name": "HỏaKamado Tanjiro",
+          "avatar": "/images/heroes/icon_heroes/hoakamado-tanjiro.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 5\nSkill: 2,3,5"
+        },
+        {
+          "heroSlug": "ct-vegeta",
+          "name": "CT - Vegeta",
+          "avatar": "/images/heroes/icon_heroes/icon_beijita.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu:Vàng 6, Đi cùng Kakalot.\nSkill: 2,3,4\n"
+        },
+        {
+          "heroSlug": "mg-maple",
+          "name": "MG -Maple",
+          "avatar": "/images/heroes/icon_heroes/mg-maple.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 5\nSkill: 2,3,5"
+        },
+        {
+          "heroSlug": "cuonbroli",
+          "name": "CuồnBroli",
+          "avatar": "/images/heroes/icon_heroes/cuonbroli.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 5\nSkill:  2,3,5"
+        },
+        {
+          "heroSlug": "hac-vu-chi-da-inori",
+          "name": "Hắc Vũ Chi Dạ - Inori",
+          "avatar": "/images/heroes/icon_heroes/icon_dieqipifu.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 5, huy hiệu\nSkill: 2,3,5"
+        },
+        {
+          "heroSlug": "chu-nguyen-sasuke",
+          "name": "Chú Nguyền Sasuke",
+          "avatar": "/images/heroes/icon_heroes/icon_xzuozhu.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Yêu cầu: Vàng 7\nSkill: 1,2,5"
         }
       ]
     }
   ],
-  "updatedAt": "2026-10-12T11:00:00.000Z"
+  "updatedAt": "2026-10-12T05:28:26.841Z"
 }

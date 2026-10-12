@@ -936,11 +936,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           key={iIdx}
                           className="rounded-2xl bg-slate-950 border border-slate-800 overflow-hidden relative group"
                         >
-                          <div className="aspect-video bg-slate-900 relative">
+                          <div className="bg-slate-900 relative p-2 min-h-44 flex items-center justify-center">
                             <img
                               src={img.url}
                               alt={img.caption || 'Guide illustration'}
-                              className="w-full h-full object-cover"
+                              className="w-full h-auto max-h-64 object-contain rounded-lg"
                             />
                             <button
                               onClick={() => {
@@ -1301,11 +1301,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     }}
                     className="group rounded-2xl bg-slate-950 border border-slate-800 hover:border-blue-500 overflow-hidden text-left transition-all flex flex-col"
                   >
-                    <div className="aspect-square bg-slate-900 w-full overflow-hidden relative">
+                    <div className="aspect-square bg-slate-900 w-full overflow-hidden relative p-1.5 flex items-center justify-center">
                       <img
                         src={f.url}
                         alt={f.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform"
                       />
                     </div>
                     <div className="p-2">
