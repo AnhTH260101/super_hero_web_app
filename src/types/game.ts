@@ -311,6 +311,7 @@ export interface GameActivity {
   icon?: string;
   badge?: string;
   color?: string; // 'red' | 'amber' | 'blue' | 'purple' | 'emerald'
+  banner?: string; // Ảnh banner tùy chọn cho hoạt động
   order?: number;
   enabled?: boolean;
 }

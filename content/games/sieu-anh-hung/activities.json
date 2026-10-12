@@ -20,5 +20,16 @@
     "color": "blue",
     "order": 3,
     "enabled": true
+  },
+  {
+    "id": "act-1791785007719",
+    "slug": "nap-the",
+    "name": "Nạp thẻ",
+    "shortDesc": "",
+    "icon": "Crown",
+    "badge": "Mới",
+    "color": "amber",
+    "order": 3,
+    "enabled": true
   }
 ]

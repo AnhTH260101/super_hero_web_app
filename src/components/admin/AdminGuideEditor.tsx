@@ -101,6 +101,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
   // Modal State: Image Gallery Picker & Upload
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   const [targetBlockIdForImage, setTargetBlockIdForImage] = useState<string | null>(null);
+  const [mediaPickerMode, setMediaPickerMode] = useState<'block' | 'guide-thumbnail' | 'activity-banner'>('block');
   const [mediaFiles, setMediaFiles] = useState<{ name: string; url: string; size: number }[]>([]);
   const [loadingMedia, setLoadingMedia] = useState(false);
   const [uploadingImage, setUploadingImage] = useState(false);
@@ -154,9 +155,17 @@ export const AdminGuideEditor: React.FC<Props> = ({
         showToast(`Đã tải ảnh lên thành công: ${data.file.name}`, 'success');
         await fetchMediaFiles();
 
-        // Tự động thêm ảnh vừa upload vào block đang mở (nếu có)
-        if (targetBlockIdForImage && activeGuide) {
+        // Tự động gán ảnh vừa upload theo chế độ chọn
+        if (mediaPickerMode === 'block' && targetBlockIdForImage && activeGuide) {
           addImageToBlock(targetBlockIdForImage, data.file.url);
+        } else if (mediaPickerMode === 'guide-thumbnail' && activeGuide) {
+          setActiveGuide({ ...activeGuide, thumbnail: data.file.url });
+          setIsImageModalOpen(false);
+          showToast('Đã đặt ảnh đại diện bài viết thành công!', 'success');
+        } else if (mediaPickerMode === 'activity-banner') {
+          setActivityForm((prev) => ({ ...prev, banner: data.file.url }));
+          setIsImageModalOpen(false);
+          showToast('Đã đặt banner hoạt động thành công!', 'success');
         }
       } else {
         showToast(data.error || 'Upload thất bại', 'error');
@@ -312,6 +321,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
       icon: 'Swords',
       badge: 'Mới',
       color: 'amber',
+      banner: '',
       enabled: true,
       order: activities.length + 1,
     });
@@ -320,7 +330,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
 
   const handleOpenEditActivity = (act: GameActivity, index: number) => {
     setEditingActivityIndex(index);
-    setActivityForm({ ...act });
+    setActivityForm({ ...act, banner: act.banner || '' });
     setIsActivityModalOpen(true);
   };
 
@@ -339,6 +349,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
       icon: activityForm.icon || 'Swords',
       badge: activityForm.badge?.trim() || '',
       color: activityForm.color || 'amber',
+      banner: activityForm.banner?.trim() || '',
       order: activityForm.order ?? (activities.length + 1),
       enabled: activityForm.enabled !== false,
     };
@@ -384,6 +395,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
     // Cập nhật lại thứ tự order
     const ordered = nextActivities.map((a, i) => ({ ...a, order: i + 1 }));
     handleSaveActivitiesList(ordered);
+  };
+
+  // Trích xuất tự động ảnh thumbnail từ block Gallery
+  const handleExtractThumbnailFromGallery = () => {
+    if (!activeGuide) return;
+    for (const b of activeGuide.blocks) {
+      if (b.type === 'gallery' && b.images && b.images.length > 0) {
+        setActiveGuide({ ...activeGuide, thumbnail: b.images[0].url });
+        showToast('Đã lấy ảnh đầu tiên trong Album Gallery làm ảnh đại diện!', 'success');
+        return;
+      }
+    }
+    showToast('Chưa có khối ảnh Gallery nào có ảnh trong bài viết để lấy', 'error');
   };
 
   // Quản lý Blocks trong Active Guide
@@ -970,6 +994,110 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500 resize-none leading-relaxed"
               />
             </div>
+
+            {/* Ảnh Đại Diện / Banner (Thumbnail) */}
+            <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-3">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <div>
+                  <div className="text-xs font-bold text-white flex items-center gap-2">
+                    <ImageIcon className="w-4 h-4 text-amber-400" />
+                    <span>Ảnh Đại Diện / Banner Bài Viết (Thumbnail)</span>
+                  </div>
+                  <p className="text-[11px] text-slate-400 mt-0.5">
+                    Hiển thị trên thẻ bài viết mục Thông Tin Chung, Hub Hoạt Động và đầu bài viết.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-2 flex-wrap">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMediaPickerMode('guide-thumbnail');
+                      setIsImageModalOpen(true);
+                    }}
+                    className="px-3 py-1.5 rounded-xl bg-blue-500/20 hover:bg-blue-500/30 text-blue-400 border border-blue-500/30 text-xs font-bold flex items-center gap-1.5 transition-all"
+                  >
+                    <FolderOpen className="w-3.5 h-3.5" />
+                    <span>Chọn Từ Thư Viện Ảnh</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={handleExtractThumbnailFromGallery}
+                    className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold flex items-center gap-1.5 transition-all"
+                    title="Tự động lấy ảnh đầu tiên trong khối Gallery của bài"
+                  >
+                    <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                    <span>Lấy Từ Gallery</span>
+                  </button>
+
+                  {activeGuide.thumbnail && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveGuide({ ...activeGuide, thumbnail: '' });
+                        showToast('Đã xóa ảnh bìa riêng (sẽ dùng banner mặc định của hoạt động)', 'success');
+                      }}
+                      className="px-3 py-1.5 rounded-xl bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 text-xs font-bold flex items-center gap-1.5 transition-all"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                      <span>Xóa Ảnh / Dùng Mặc Định</span>
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              {/* Preview Khung Ảnh */}
+              <div className="flex flex-col sm:flex-row items-center gap-4 pt-1">
+                <div className="w-full sm:w-64 h-36 rounded-xl overflow-hidden bg-slate-900 border border-slate-800 flex items-center justify-center shrink-0 relative group">
+                  {activeGuide.thumbnail ? (
+                    <>
+                      <img
+                        src={activeGuide.thumbnail}
+                        alt="Thumbnail preview"
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-2 transition-opacity">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setMediaPickerMode('guide-thumbnail');
+                            setIsImageModalOpen(true);
+                          }}
+                          className="px-2.5 py-1 rounded-lg bg-blue-500 text-slate-950 text-[11px] font-bold"
+                        >
+                          Đổi Ảnh
+                        </button>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="text-center p-3 text-slate-500">
+                      <ImageIcon className="w-8 h-8 mx-auto mb-1 opacity-50" />
+                      <div className="text-[11px] font-medium">Chưa có ảnh bìa riêng</div>
+                      <div className="text-[9px] text-slate-400 mt-0.5">
+                        Sẽ tự động lấy từ Gallery hoặc banner biểu tượng của hoạt động
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex-1 w-full space-y-2">
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold text-slate-400">Đường dẫn URL / Path của ảnh</label>
+                    <input
+                      type="text"
+                      value={activeGuide.thumbnail || ''}
+                      onChange={(e) => setActiveGuide({ ...activeGuide, thumbnail: e.target.value })}
+                      placeholder="VD: /games/sieu-anh-hung/tai-nguyen-anh/boss_banner.jpg hoặc https://..."
+                      className="w-full px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500 font-mono"
+                    />
+                  </div>
+                  <p className="text-[10px] text-slate-400 leading-relaxed">
+                    💡 <strong>Cơ chế tự động thông minh:</strong> Nếu bạn để trống, hệ thống sẽ tự động ưu tiên lấy ảnh đầu tiên trong Album Gallery. Nếu bài không có album, hệ thống sẽ sử dụng banner biểu tượng chủ đề của chuyên mục hoạt động ({activeGuide.category}).
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Danh Sách Khối Nội Dung (Blocks) */}
@@ -1211,6 +1339,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         <button
                           type="button"
                           onClick={() => {
+                            setMediaPickerMode('block');
                             setTargetBlockIdForImage(block.id);
                             setIsImageModalOpen(true);
                           }}
@@ -1223,6 +1352,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         <button
                           type="button"
                           onClick={() => {
+                            setMediaPickerMode('block');
                             setTargetBlockIdForImage(block.id);
                             fileInputRef.current?.click();
                           }}
@@ -1563,7 +1693,13 @@ export const AdminGuideEditor: React.FC<Props> = ({
               <div>
                 <h3 className="text-base font-black text-white flex items-center gap-2">
                   <FolderOpen className="w-5 h-5 text-blue-400" />
-                  <span>Thư Viện Ảnh (public/games/{gameSlug}/tai-nguyen-anh)</span>
+                  <span>
+                    {mediaPickerMode === 'guide-thumbnail'
+                      ? 'Chọn Ảnh Đại Diện / Banner Bài Viết'
+                      : mediaPickerMode === 'activity-banner'
+                      ? 'Chọn Ảnh Banner Hoạt Động'
+                      : `Thư Viện Ảnh (public/games/${gameSlug}/tai-nguyen-anh)`}
+                  </span>
                 </h3>
                 <p className="text-[11px] text-slate-400 mt-0.5">
                   Chọn ảnh chụp có sẵn hoặc tải ảnh mới trực tiếp vào folder.
@@ -1608,8 +1744,16 @@ export const AdminGuideEditor: React.FC<Props> = ({
                   <button
                     key={f.name}
                     onClick={() => {
-                      if (targetBlockIdForImage) {
+                      if (mediaPickerMode === 'block' && targetBlockIdForImage) {
                         addImageToBlock(targetBlockIdForImage, f.url);
+                        setIsImageModalOpen(false);
+                      } else if (mediaPickerMode === 'guide-thumbnail' && activeGuide) {
+                        setActiveGuide({ ...activeGuide, thumbnail: f.url });
+                        showToast('Đã đặt ảnh đại diện bài viết thành công!', 'success');
+                        setIsImageModalOpen(false);
+                      } else if (mediaPickerMode === 'activity-banner') {
+                        setActivityForm((prev) => ({ ...prev, banner: f.url }));
+                        showToast('Đã đặt banner hoạt động thành công!', 'success');
                         setIsImageModalOpen(false);
                       }
                     }}
@@ -1781,6 +1925,51 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       <span>{c.label}</span>
                     </button>
                   ))}
+                </div>
+              </div>
+
+              {/* Ảnh Banner Hoạt Động (Tùy chọn) */}
+              <div className="space-y-1.5 pt-2 border-t border-slate-800">
+                <div className="flex items-center justify-between">
+                  <label className="text-xs font-bold text-slate-400">Ảnh Banner Hoạt Động (Tùy chọn)</label>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMediaPickerMode('activity-banner');
+                      setIsImageModalOpen(true);
+                    }}
+                    className="text-xs text-blue-400 hover:underline font-bold flex items-center gap-1"
+                  >
+                    <FolderOpen className="w-3.5 h-3.5" />
+                    <span>Chọn từ Thư Viện</span>
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="w-20 h-12 rounded-xl bg-slate-950 border border-slate-800 overflow-hidden flex items-center justify-center shrink-0">
+                    {activityForm.banner ? (
+                      <img src={activityForm.banner} alt="Banner" className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="text-[9px] text-slate-600 text-center px-1">Chưa có banner</span>
+                    )}
+                  </div>
+                  <input
+                    type="text"
+                    value={activityForm.banner || ''}
+                    onChange={(e) => setActivityForm({ ...activityForm, banner: e.target.value })}
+                    placeholder="URL banner (VD: /games/... hoặc https://...)"
+                    className="flex-1 px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-blue-500 font-mono"
+                  />
+                  {activityForm.banner && (
+                    <button
+                      type="button"
+                      onClick={() => setActivityForm({ ...activityForm, banner: '' })}
+                      className="p-2 text-red-400 hover:text-white"
+                      title="Xóa banner"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
                 </div>
               </div>
 

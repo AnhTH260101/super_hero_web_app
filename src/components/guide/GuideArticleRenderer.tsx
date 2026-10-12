@@ -72,6 +72,24 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
             {article.description}
           </p>
         )}
+
+        {/* Ảnh Banner / Thumbnail Đầu Bài Viết (nếu có) */}
+        {article.thumbnail && (
+          <div className="pt-2">
+            <div className="w-full max-h-[460px] rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 flex items-center justify-center relative group shadow-lg">
+              <img
+                src={article.thumbnail}
+                alt={article.title}
+                onClick={() => setLightboxImage({ url: article.thumbnail!, caption: article.title })}
+                className="w-full h-auto max-h-[460px] object-contain cursor-zoom-in hover:opacity-95 transition-all"
+              />
+              <div className="absolute bottom-2 right-2 px-2.5 py-1 rounded-lg bg-black/70 backdrop-blur-md text-[11px] text-slate-300 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1 font-medium">
+                <ZoomIn className="w-3.5 h-3.5 text-amber-400" />
+                <span>Bấm để phóng to</span>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Danh sách các khối Blocks */}

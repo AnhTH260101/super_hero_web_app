@@ -321,7 +321,7 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
           {filteredGuides.map((guide) => {
             const act = activityMap.get(guide.category);
 
-            // Tìm cover image
+            // Tìm cover image (1. Thumbnail riêng -> 2. Ảnh đầu trong Gallery -> 3. Banner của Hoạt động -> 4. Biểu tượng gradient)
             let coverImg = guide.thumbnail;
             if (!coverImg && guide.blocks) {
               for (const b of guide.blocks) {
@@ -330,6 +330,9 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
                   break;
                 }
               }
+            }
+            if (!coverImg && act?.banner) {
+              coverImg = act.banner;
             }
 
             // Tìm heroes trong các block hero-roster
