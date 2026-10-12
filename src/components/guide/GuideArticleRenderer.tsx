@@ -25,6 +25,7 @@ import {
   GuideGalleryBlock,
   GuideResourcesBlock,
   GuideTableBlock,
+  GuideHeroSourceBlock,
 } from '@/types/game';
 
 interface Props {
@@ -289,6 +290,79 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                         {item.note && (
                           <div className="text-[11px] text-emerald-400 font-medium truncate mt-0.5">
                             {item.note}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            );
+          }
+
+          if (block.type === 'hero-source') {
+            const b = block as GuideHeroSourceBlock;
+            return (
+              <div key={b.id || idx} className="space-y-4">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400">
+                    <Sparkles className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-black text-white">
+                      {b.title || 'Nguồn Tướng Nhận Được'}
+                    </h3>
+                    {b.description && (
+                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {b.heroes?.map((hero, hIdx) => (
+                    <div
+                      key={hero.heroSlug || hIdx}
+                      className="p-3.5 rounded-2xl bg-slate-950 border border-slate-800/80 hover:border-purple-500/50 transition-all flex items-start gap-3.5 group"
+                    >
+                      <Link
+                        href={`/${gameSlug}/heroes/${hero.heroSlug}`}
+                        className="relative shrink-0 block"
+                        title={`Xem chi tiết ${hero.name}`}
+                      >
+                        <img
+                          src={hero.avatar}
+                          alt={hero.name}
+                          className="w-14 h-14 rounded-2xl border border-slate-700 object-cover group-hover:scale-105 transition-transform"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                          }}
+                        />
+                        {hero.rarity && (
+                          <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 text-[9px] font-black rounded-md bg-amber-500 text-slate-950 shadow">
+                            {hero.rarity}
+                          </span>
+                        )}
+                      </Link>
+
+                      <div className="min-w-0 flex-1 space-y-1.5">
+                        <div className="flex items-center justify-between gap-1">
+                          <Link
+                            href={`/${gameSlug}/heroes/${hero.heroSlug}`}
+                            className="font-extrabold text-xs sm:text-sm text-white group-hover:text-purple-300 transition-colors truncate"
+                          >
+                            {hero.name}
+                          </Link>
+                          {hero.element && (
+                            <span className="text-[10px] text-slate-400 shrink-0 font-medium">
+                              {hero.element}
+                            </span>
+                          )}
+                        </div>
+
+                        {hero.sourceNote && (
+                          <div className="text-[11px] text-amber-300 font-bold bg-amber-500/10 border border-amber-500/20 px-2 py-1 rounded-xl flex items-center gap-1.5">
+                            <span className="text-amber-400 shrink-0">🎁</span>
+                            <span className="truncate">{hero.sourceNote}</span>
                           </div>
                         )}
                       </div>

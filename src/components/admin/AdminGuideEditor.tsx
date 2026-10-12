@@ -54,6 +54,8 @@ import {
   GuideResourceItem,
   GuideImageItem,
   GameActivity,
+  GuideHeroSourceBlock,
+  GuideHeroSourceItem,
 } from '@/types/game';
 
 interface Props {
@@ -582,6 +584,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
         description: 'Các tướng khuyên dùng để đạt sát thương tối ưu',
         heroes: [],
       };
+    } else if (type === 'hero-source') {
+      newBlock = {
+        id: blockId,
+        type: 'hero-source',
+        title: 'Nguồn Tướng Nhận Được',
+        description: 'Danh sách các tướng có thể thu thập hoặc đổi thưởng từ hoạt động này',
+        heroes: [],
+      };
     } else if (type === 'gallery') {
       newBlock = {
         id: blockId,
@@ -671,31 +681,58 @@ export const AdminGuideEditor: React.FC<Props> = ({
   // Thêm hoặc gỡ tướng khỏi block (Toggle)
   const handleAddHeroToBlock = (hero: Hero) => {
     if (!activeGuide || !targetBlockIdForHero) return;
-    const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero) as GuideHeroRosterBlock;
-    if (!block || block.type !== 'hero-roster') return;
+    const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero);
+    if (!block) return;
 
-    // Nếu đã có -> gỡ bỏ
-    if (block.heroes.some((h) => h.heroSlug === hero.slug)) {
-      const updated = block.heroes.filter((h) => h.heroSlug !== hero.slug);
-      handleUpdateBlock(targetBlockIdForHero, { heroes: updated });
-      showToast(`Đã gỡ tướng ${hero.name}`, 'success');
-      return;
+    if (block.type === 'hero-roster') {
+      const rosterBlock = block as GuideHeroRosterBlock;
+      // Nếu đã có -> gỡ bỏ
+      if (rosterBlock.heroes.some((h) => h.heroSlug === hero.slug)) {
+        const updated = rosterBlock.heroes.filter((h) => h.heroSlug !== hero.slug);
+        handleUpdateBlock(targetBlockIdForHero, { heroes: updated });
+        showToast(`Đã gỡ tướng ${hero.name}`, 'success');
+        return;
+      }
+
+      const newHeroItem: GuideHeroItem = {
+        heroSlug: hero.slug,
+        name: hero.name,
+        avatar: hero.avatar,
+        element: hero.element,
+        rarity: hero.rarity,
+        role: hero.role || 'Sát Thương',
+        note: 'Nhập ghi chú kỹ năng / cách vận hành...',
+      };
+
+      handleUpdateBlock(targetBlockIdForHero, {
+        heroes: [...rosterBlock.heroes, newHeroItem],
+      });
+      showToast(`Đã thêm tướng ${hero.name}`, 'success');
+    } else if (block.type === 'hero-source') {
+      const sourceBlock = block as GuideHeroSourceBlock;
+      // Nếu đã có -> gỡ bỏ
+      if (sourceBlock.heroes.some((h) => h.heroSlug === hero.slug)) {
+        const updated = sourceBlock.heroes.filter((h) => h.heroSlug !== hero.slug);
+        handleUpdateBlock(targetBlockIdForHero, { heroes: updated });
+        showToast(`Đã gỡ tướng ${hero.name}`, 'success');
+        return;
+      }
+
+      const newSourceHeroItem: GuideHeroSourceItem = {
+        heroSlug: hero.slug,
+        name: hero.name,
+        avatar: hero.avatar,
+        element: hero.element,
+        rarity: hero.rarity,
+        role: hero.role || 'Sát Thương',
+        sourceNote: 'Đổi xu hoạt động / Mở rương sự kiện...',
+      };
+
+      handleUpdateBlock(targetBlockIdForHero, {
+        heroes: [...sourceBlock.heroes, newSourceHeroItem],
+      });
+      showToast(`Đã thêm nguồn tướng ${hero.name}`, 'success');
     }
-
-    const newHeroItem: GuideHeroItem = {
-      heroSlug: hero.slug,
-      name: hero.name,
-      avatar: hero.avatar,
-      element: hero.element,
-      rarity: hero.rarity,
-      role: hero.role || 'Sát Thương',
-      note: 'Nhập ghi chú kỹ năng / cách vận hành...',
-    };
-
-    handleUpdateBlock(targetBlockIdForHero, {
-      heroes: [...block.heroes, newHeroItem],
-    });
-    showToast(`Đã thêm tướng ${hero.name}`, 'success');
   };
 
   // Helper: Lấy danh sách tài nguyên trong ô của bảng
@@ -1021,8 +1058,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const currentBlockAddedSlugs = useMemo(() => {
     if (!activeGuide || !targetBlockIdForHero) return new Set<string>();
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero);
-    if (!block || block.type !== 'hero-roster') return new Set<string>();
-    return new Set(block.heroes.map((h) => h.heroSlug));
+    if (!block) return new Set<string>();
+    if (block.type === 'hero-roster' || block.type === 'hero-source') {
+      return new Set(block.heroes.map((h) => h.heroSlug));
+    }
+    return new Set<string>();
   }, [activeGuide, targetBlockIdForHero]);
 
   // Lọc resource trong Modal (Dùng resourcesList để live-reload)
@@ -1591,17 +1631,21 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                         block.type === 'hero-roster'
                           ? 'bg-amber-500/10 text-amber-400 border border-amber-500/20'
+                          : block.type === 'hero-source'
+                          ? 'bg-purple-500/10 text-purple-300 border border-purple-500/20'
                           : block.type === 'gallery'
                           ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
                           : block.type === 'resources'
                           ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
                           : block.type === 'table'
                           ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20'
-                          : 'bg-purple-500/10 text-purple-400 border border-purple-500/20'
+                          : 'bg-indigo-500/10 text-indigo-400 border border-indigo-500/20'
                       }`}
                     >
                       {block.type === 'hero-roster'
                         ? 'Đội Hình Tướng'
+                        : block.type === 'hero-source'
+                        ? 'Nguồn Tướng'
                         : block.type === 'gallery'
                         ? 'Thư Viện Ảnh'
                         : block.type === 'resources'
@@ -1969,6 +2013,98 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     {block.items.length === 0 && (
                       <div className="p-6 rounded-2xl bg-slate-950/60 border border-dashed border-slate-800 text-center text-xs text-slate-500">
                         Chưa có vật phẩm nào. Bấm &quot;+ Thêm Vật Phẩm / Thưởng&quot; để chọn từ danh mục tài nguyên đã cào.
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* KHỐI: NGUỒN TƯỚNG (HERO-SOURCE) */}
+                {block.type === 'hero-source' && (
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between gap-3">
+                      <input
+                        type="text"
+                        value={block.description || ''}
+                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                        placeholder="Mô tả nguồn tướng: Cách nhận, mốc điểm, sự kiện mở bán..."
+                        className="w-full sm:w-2/3 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-purple-500"
+                      />
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setTargetBlockIdForHero(block.id);
+                          setHeroSearchTerm('');
+                          setIsHeroModalOpen(true);
+                        }}
+                        className="px-3.5 py-1.5 rounded-xl bg-purple-500 hover:bg-purple-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shrink-0 shadow"
+                      >
+                        <Plus className="w-4 h-4" />
+                        <span>Thêm Nguồn Tướng</span>
+                      </button>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {block.heroes.map((hero, hIdx) => (
+                        <div
+                          key={hero.heroSlug || hIdx}
+                          className="p-3 rounded-2xl bg-slate-950 border border-slate-800 flex items-start gap-3 relative group hover:border-purple-500/40 transition-all"
+                        >
+                          <img
+                            src={hero.avatar}
+                            alt={hero.name}
+                            className="w-12 h-12 rounded-xl border border-slate-700 object-cover shrink-0"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                            }}
+                          />
+                          <div className="flex-1 space-y-1.5 min-w-0">
+                            <div className="flex items-center justify-between gap-1">
+                              <span className="font-extrabold text-white text-xs truncate">
+                                {hero.name}
+                              </span>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const updated = block.heroes.filter((_, idx) => idx !== hIdx);
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                className="text-slate-500 hover:text-red-400 p-0.5 shrink-0"
+                                title="Xóa tướng khỏi nguồn nhận"
+                              >
+                                <Trash2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+
+                            <div className="flex items-center gap-2 text-[10px] text-slate-400">
+                              {hero.rarity && (
+                                <span className="text-amber-400 font-mono font-bold">
+                                  {hero.rarity}
+                                </span>
+                              )}
+                              {hero.element && <span>• {hero.element}</span>}
+                              {hero.role && <span>• {hero.role}</span>}
+                            </div>
+
+                            <input
+                              type="text"
+                              value={hero.sourceNote || ''}
+                              onChange={(e) => {
+                                const updated = [...block.heroes];
+                                updated[hIdx] = { ...updated[hIdx], sourceNote: e.target.value };
+                                handleUpdateBlock(block.id, { heroes: updated });
+                              }}
+                              placeholder="Nguồn nhận: Đổi 5000 Xu, Mở Rương, Top 1-3..."
+                              className="w-full px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-amber-300 font-semibold focus:outline-none focus:border-purple-500"
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+
+                    {block.heroes.length === 0 && (
+                      <div className="p-6 rounded-2xl bg-slate-950/60 border border-dashed border-slate-800 text-center text-xs text-slate-500">
+                        Chưa có tướng nào được thêm. Bấm &quot;+ Thêm Nguồn Tướng&quot; ở trên để chọn tướng từ kho và điền cách nhận.
                       </div>
                     )}
                   </div>
@@ -2346,6 +2482,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
               >
                 <Sparkles className="w-4 h-4" />
                 <span>+ Khối Trang Bị / Thưởng</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleAddBlock('hero-source')}
+                className="px-3.5 py-2 rounded-xl bg-purple-500/10 hover:bg-purple-500/20 text-purple-300 border border-purple-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shadow-sm"
+              >
+                <Crown className="w-4 h-4" />
+                <span>+ Khối Nguồn Tướng</span>
               </button>
 
               <button

@@ -229,7 +229,7 @@ export interface ResourceItem {
   sources: ResourceItemSourceRef[];
 }
 
-export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources';
+export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources' | 'table' | 'hero-source';
 
 export interface GuideTextBlock {
   id: string;
@@ -255,6 +255,24 @@ export interface GuideHeroRosterBlock {
   title?: string;
   description?: string;
   heroes: GuideHeroItem[];
+}
+
+export interface GuideHeroSourceItem {
+  heroSlug: string;
+  name: string;
+  avatar: string;
+  rarity?: string;
+  element?: string;
+  role?: string;
+  sourceNote?: string;
+}
+
+export interface GuideHeroSourceBlock {
+  id: string;
+  type: 'hero-source';
+  title?: string;
+  description?: string;
+  heroes: GuideHeroSourceItem[];
 }
 
 export interface GuideImageItem {
@@ -322,7 +340,8 @@ export type GuideBlock =
   | GuideHeroRosterBlock
   | GuideGalleryBlock
   | GuideResourcesBlock
-  | GuideTableBlock;
+  | GuideTableBlock
+  | GuideHeroSourceBlock;
 
 export interface GuideArticle {
   id: string;
