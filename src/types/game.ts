@@ -285,11 +285,43 @@ export interface GuideResourcesBlock {
   items: GuideResourceItem[];
 }
 
+export interface GuideTableColumn {
+  id: string;
+  label: string;
+  type: 'text' | 'resource';
+}
+
+export interface GuideTableCellResource {
+  name: string;
+  icon?: string;
+  quantity?: string;
+}
+
+export interface GuideTableCell {
+  text?: string;
+  resource?: GuideTableCellResource;
+}
+
+export interface GuideTableRow {
+  id: string;
+  cells: Record<string, GuideTableCell>;
+}
+
+export interface GuideTableBlock {
+  id: string;
+  type: 'table';
+  title?: string;
+  description?: string;
+  columns: GuideTableColumn[];
+  rows: GuideTableRow[];
+}
+
 export type GuideBlock =
   | GuideTextBlock
   | GuideHeroRosterBlock
   | GuideGalleryBlock
-  | GuideResourcesBlock;
+  | GuideResourcesBlock
+  | GuideTableBlock;
 
 export interface GuideArticle {
   id: string;

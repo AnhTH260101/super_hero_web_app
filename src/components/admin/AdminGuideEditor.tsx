@@ -34,6 +34,7 @@ import {
   ToggleLeft,
   ToggleRight,
   RotateCw,
+  Table as TableIcon,
 } from 'lucide-react';
 import {
   Hero,
@@ -44,6 +45,11 @@ import {
   GuideHeroRosterBlock,
   GuideGalleryBlock,
   GuideResourcesBlock,
+  GuideTableBlock,
+  GuideTableColumn,
+  GuideTableRow,
+  GuideTableCell,
+  GuideTableCellResource,
   GuideHeroItem,
   GuideResourceItem,
   GuideImageItem,
@@ -101,6 +107,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [loadingResources, setLoadingResources] = useState(false);
   const [isResourceModalOpen, setIsResourceModalOpen] = useState(false);
   const [targetBlockIdForResource, setTargetBlockIdForResource] = useState<string | null>(null);
+  const [targetTableCellForResource, setTargetTableCellForResource] = useState<{
+    blockId: string;
+    rowId: string;
+    columnId: string;
+  } | null>(null);
   const [resourceSearchTerm, setResourceSearchTerm] = useState('');
   const [resourceModalTab, setResourceModalTab] = useState<'game-assets' | 'configured-resources'>('game-assets');
   const [assetPickerFolder, setAssetPickerFolder] = useState('all');
@@ -229,7 +240,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
           setActivityForm((prev) => ({ ...prev, banner: data.file.url }));
           setIsImageModalOpen(false);
           showToast('Đã đặt banner hoạt động thành công!', 'success');
-        } else if (mediaPickerMode === 'resource-upload' && targetBlockIdForResource && activeGuide) {
+        } else if (mediaPickerMode === 'resource-upload' && (targetBlockIdForResource || targetTableCellForResource) && activeGuide) {
           const cleanName = data.file.name
             .replace(/\.[^/.]+$/, '')
             .replace(/[_\-]/g, ' ')
@@ -577,6 +588,32 @@ export const AdminGuideEditor: React.FC<Props> = ({
         layout: 'grid-2',
         images: [],
       };
+    } else if (type === 'table') {
+      newBlock = {
+        id: blockId,
+        type: 'table',
+        title: 'Bảng Phần Thưởng & Mốc Nạp',
+        description: 'Chi tiết các mốc tham gia và phần thưởng tương ứng',
+        columns: [
+          { id: 'col-1', label: 'Mốc Nạp', type: 'text' },
+          { id: 'col-2', label: 'Vật Phẩm Thưởng', type: 'resource' },
+        ],
+        rows: [
+          {
+            id: `row-${Date.now()}-1`,
+            cells: {
+              'col-1': { text: 'Mốc 1' },
+              'col-2': {
+                resource: {
+                  name: 'Ngọc Lục Bảo',
+                  icon: '/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png',
+                  quantity: 'x20',
+                },
+              },
+            },
+          },
+        ],
+      };
     } else {
       newBlock = {
         id: blockId,
@@ -650,9 +687,43 @@ export const AdminGuideEditor: React.FC<Props> = ({
     showToast(`Đã thêm tướng ${hero.name}`, 'success');
   };
 
-  // Thêm resource vào block
+  // Thêm resource vào block (hoặc cập nhật ô trong Table)
   const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string }) => {
-    if (!activeGuide || !targetBlockIdForResource) return;
+    if (!activeGuide) return;
+
+    // Nếu đang chọn tài nguyên cho một ô trong Bảng Biểu (Table)
+    if (targetTableCellForResource) {
+      const { blockId, rowId, columnId } = targetTableCellForResource;
+      const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+      if (block && block.type === 'table') {
+        const nextRows = block.rows.map((row) => {
+          if (row.id !== rowId) return row;
+          const currentCell = row.cells[columnId] || {};
+          const currentRes = currentCell.resource;
+          return {
+            ...row,
+            cells: {
+              ...row.cells,
+              [columnId]: {
+                ...currentCell,
+                resource: {
+                  name: resItem.name,
+                  icon: resItem.icon,
+                  quantity: currentRes?.quantity || '',
+                },
+              },
+            },
+          };
+        });
+        handleUpdateBlock(blockId, { rows: nextRows });
+        showToast(`Đã chọn vật phẩm ${resItem.name} cho bảng`, 'success');
+        setIsResourceModalOpen(false);
+        setTargetTableCellForResource(null);
+        return;
+      }
+    }
+
+    if (!targetBlockIdForResource) return;
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForResource) as GuideResourcesBlock;
     if (!block || block.type !== 'resources') return;
 
@@ -667,6 +738,166 @@ export const AdminGuideEditor: React.FC<Props> = ({
       items: [...block.items, newResItem],
     });
     showToast(`Đã thêm vật phẩm ${resItem.name}`, 'success');
+  };
+
+  // --- QUẢN LÝ KHỐI BẢNG BIỂU (TABLE BLOCK) ---
+  const handleAddTableColumn = (blockId: string, type: 'text' | 'resource') => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const colId = `col-${Date.now()}`;
+    const newCol: GuideTableColumn = {
+      id: colId,
+      label: type === 'text' ? `Cột ${block.columns.length + 1}` : `Phần Thưởng ${block.columns.length + 1}`,
+      type,
+    };
+
+    handleUpdateBlock(blockId, {
+      columns: [...block.columns, newCol],
+    });
+    showToast(`Đã thêm cột ${newCol.label}`, 'success');
+  };
+
+  const handleUpdateTableColumn = (blockId: string, colId: string, fields: Partial<GuideTableColumn>) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextCols = block.columns.map((c) => (c.id === colId ? { ...c, ...fields } : c));
+    handleUpdateBlock(blockId, { columns: nextCols });
+  };
+
+  const handleRemoveTableColumn = (blockId: string, colId: string) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+    if (block.columns.length <= 1) {
+      showToast('Bảng cần có ít nhất 1 cột', 'error');
+      return;
+    }
+
+    const nextCols = block.columns.filter((c) => c.id !== colId);
+    const nextRows = block.rows.map((r) => {
+      const nextCells = { ...r.cells };
+      delete nextCells[colId];
+      return { ...r, cells: nextCells };
+    });
+
+    handleUpdateBlock(blockId, { columns: nextCols, rows: nextRows });
+    showToast('Đã xóa cột', 'success');
+  };
+
+  const handleAddTableRow = (blockId: string) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const newRow: GuideTableRow = {
+      id: `row-${Date.now()}`,
+      cells: {},
+    };
+
+    handleUpdateBlock(blockId, {
+      rows: [...block.rows, newRow],
+    });
+  };
+
+  const handleRemoveTableRow = (blockId: string, rowId: string) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    handleUpdateBlock(blockId, {
+      rows: block.rows.filter((r) => r.id !== rowId),
+    });
+  };
+
+  const handleMoveTableRow = (blockId: string, rowIndex: number, direction: 'up' | 'down') => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const targetIdx = direction === 'up' ? rowIndex - 1 : rowIndex + 1;
+    if (targetIdx < 0 || targetIdx >= block.rows.length) return;
+
+    const nextRows = [...block.rows];
+    const temp = nextRows[rowIndex];
+    nextRows[rowIndex] = nextRows[targetIdx];
+    nextRows[targetIdx] = temp;
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
+  const handleUpdateTableCellText = (blockId: string, rowId: string, colId: string, text: string) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      return {
+        ...r,
+        cells: {
+          ...r.cells,
+          [colId]: {
+            ...r.cells[colId],
+            text,
+          },
+        },
+      };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
+  const handleUpdateTableCellResource = (
+    blockId: string,
+    rowId: string,
+    colId: string,
+    fields: Partial<GuideTableCellResource>
+  ) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      const currentCell = r.cells[colId] || {};
+      const currentRes = currentCell.resource || { name: '', icon: '', quantity: '' };
+      return {
+        ...r,
+        cells: {
+          ...r.cells,
+          [colId]: {
+            ...currentCell,
+            resource: {
+              ...currentRes,
+              ...fields,
+            },
+          },
+        },
+      };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
+  const handleClearTableCellResource = (blockId: string, rowId: string, colId: string) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      const nextCells = { ...r.cells };
+      if (nextCells[colId]) {
+        delete nextCells[colId].resource;
+      }
+      return { ...r, cells: nextCells };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
   };
 
   // Thêm ảnh vào block
@@ -1268,6 +1499,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           ? 'bg-blue-500/10 text-blue-400 border border-blue-500/20'
                           : block.type === 'resources'
                           ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
+                          : block.type === 'table'
+                          ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20'
                           : 'bg-purple-500/10 text-purple-400 border border-purple-500/20'
                       }`}
                     >
@@ -1277,6 +1510,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         ? 'Thư Viện Ảnh'
                         : block.type === 'resources'
                         ? 'Vật Phẩm / Thưởng'
+                        : block.type === 'table'
+                        ? 'Bảng Biểu (Table)'
                         : 'Văn Bản / Mẹo'}
                     </span>
                     <input
@@ -1642,11 +1877,309 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     )}
                   </div>
                 )}
+
+                {/* KHỐI 5: BẢNG BIỂU (TABLE) */}
+                {block.type === 'table' && (
+                  <div className="space-y-4">
+                    {/* Mô tả bảng */}
+                    <div className="space-y-1">
+                      <label className="text-[11px] font-bold text-slate-400">Mô tả hoặc ghi chú phụ của bảng (tùy chọn):</label>
+                      <input
+                        type="text"
+                        value={block.description || ''}
+                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                        placeholder="VD: Chi tiết các mốc điều kiện và phần thưởng tương ứng..."
+                        className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
+                      />
+                    </div>
+
+                    {/* Quản lý các Cột */}
+                    <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2 border-b border-slate-800">
+                        <div className="flex items-center gap-2">
+                          <TableIcon className="w-4 h-4 text-teal-400" />
+                          <span className="text-xs font-bold text-slate-200">
+                            Cấu Hình Các Cột ({block.columns.length} Cột):
+                          </span>
+                          <span className="text-[10px] text-slate-400">
+                            (Cột Text cho chữ/mốc nạp, Cột Tài Nguyên cho chọn Icon + Tên + Số lượng)
+                          </span>
+                        </div>
+
+                        <div className="flex items-center gap-2">
+                          <button
+                            type="button"
+                            onClick={() => handleAddTableColumn(block.id, 'text')}
+                            className="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-[11px] font-bold flex items-center gap-1 border border-slate-700"
+                          >
+                            <Plus className="w-3 h-3 text-teal-400" />
+                            <span>+ Cột Text</span>
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleAddTableColumn(block.id, 'resource')}
+                            className="px-2.5 py-1 rounded-lg bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 text-[11px] font-bold flex items-center gap-1 border border-teal-500/40"
+                          >
+                            <Sparkles className="w-3 h-3 text-teal-400" />
+                            <span>+ Cột Tài Nguyên</span>
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Danh sách cấu hình từng cột */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
+                        {block.columns.map((col, cIdx) => (
+                          <div
+                            key={col.id}
+                            className="p-2.5 rounded-xl bg-slate-900 border border-slate-800/90 space-y-2 relative"
+                          >
+                            <div className="flex items-center justify-between">
+                              <span className="text-[10px] font-mono font-bold text-slate-400 bg-slate-950 px-1.5 py-0.5 rounded border border-slate-800">
+                                Cột #{cIdx + 1}
+                              </span>
+                              <div className="flex items-center gap-1">
+                                <select
+                                  value={col.type}
+                                  onChange={(e) =>
+                                    handleUpdateTableColumn(block.id, col.id, {
+                                      type: e.target.value as 'text' | 'resource',
+                                    })
+                                  }
+                                  className="bg-slate-950 text-[10px] text-teal-300 font-bold px-2 py-0.5 rounded border border-slate-800 focus:outline-none"
+                                >
+                                  <option value="text">Văn bản (Text)</option>
+                                  <option value="resource">Tài nguyên (Icon/SL)</option>
+                                </select>
+                                <button
+                                  type="button"
+                                  onClick={() => handleRemoveTableColumn(block.id, col.id)}
+                                  className="text-slate-500 hover:text-red-400 p-0.5"
+                                  title="Xóa cột này"
+                                >
+                                  <Trash2 className="w-3.5 h-3.5" />
+                                </button>
+                              </div>
+                            </div>
+                            <input
+                              type="text"
+                              value={col.label}
+                              onChange={(e) =>
+                                handleUpdateTableColumn(block.id, col.id, { label: e.target.value })
+                              }
+                              placeholder="Tiêu đề cột..."
+                              className="w-full px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-xs font-bold text-white focus:outline-none focus:border-teal-500"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Bảng Dữ Liệu Các Dòng (Rows Editor) */}
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs font-bold text-slate-300">
+                          Dữ Liệu Bảng ({block.rows.length} Dòng):
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => handleAddTableRow(block.id)}
+                          className="px-3 py-1.5 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 text-xs font-black flex items-center gap-1.5 shadow transition-all"
+                        >
+                          <Plus className="w-3.5 h-3.5" />
+                          <span>+ Thêm Dòng Mới</span>
+                        </button>
+                      </div>
+
+                      {/* Khung Table cuộn ngang */}
+                      <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-950">
+                        <table className="w-full text-left border-collapse text-xs">
+                          <thead>
+                            <tr className="border-b border-slate-800 bg-slate-900/90 text-slate-400 font-bold">
+                              <th className="py-2.5 px-3 w-12 text-center">#</th>
+                              {block.columns.map((col) => (
+                                <th key={col.id} className="py-2.5 px-3 min-w-[200px]">
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="text-white font-extrabold">{col.label}</span>
+                                    <span
+                                      className={`text-[9px] px-1.5 py-0.2 rounded font-mono ${
+                                        col.type === 'resource'
+                                          ? 'bg-teal-500/20 text-teal-300'
+                                          : 'bg-slate-800 text-slate-400'
+                                      }`}
+                                    >
+                                      {col.type === 'resource' ? 'Tài Nguyên' : 'Text'}
+                                    </span>
+                                  </div>
+                                </th>
+                              ))}
+                              <th className="py-2.5 px-3 w-20 text-center">Thao tác</th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-slate-800/60">
+                            {block.rows.map((row, rIdx) => (
+                              <tr key={row.id} className="hover:bg-slate-900/40 transition-colors">
+                                <td className="py-2.5 px-3 text-center text-slate-500 font-mono font-bold">
+                                  {rIdx + 1}
+                                </td>
+                                {block.columns.map((col) => {
+                                  const cell = row.cells[col.id] || {};
+                                  return (
+                                    <td key={col.id} className="py-2.5 px-3 align-middle">
+                                      {col.type === 'text' ? (
+                                        <input
+                                          type="text"
+                                          value={cell.text || ''}
+                                          onChange={(e) =>
+                                            handleUpdateTableCellText(
+                                              block.id,
+                                              row.id,
+                                              col.id,
+                                              e.target.value
+                                            )
+                                          }
+                                          placeholder="Nhập nội dung..."
+                                          className="w-full px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
+                                        />
+                                      ) : (
+                                        <div>
+                                          {cell.resource?.icon ? (
+                                            <div className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2">
+                                              <button
+                                                type="button"
+                                                onClick={() => {
+                                                  setTargetTableCellForResource({
+                                                    blockId: block.id,
+                                                    rowId: row.id,
+                                                    columnId: col.id,
+                                                  });
+                                                  setTargetBlockIdForResource(null);
+                                                  setIsResourceModalOpen(true);
+                                                }}
+                                                className="w-9 h-9 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 hover:border-teal-400 transition-all shrink-0 flex items-center justify-center group/ico relative"
+                                                title="Click để đổi icon tài nguyên"
+                                              >
+                                                <img
+                                                  src={cell.resource.icon}
+                                                  alt={cell.resource.name || 'icon'}
+                                                  className="w-full h-full object-contain"
+                                                  onError={(e) => {
+                                                    (e.target as HTMLImageElement).src =
+                                                      '/images/heroes/icon_heroes/default.png';
+                                                  }}
+                                                />
+                                                <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover/ico:opacity-100 flex items-center justify-center transition-opacity">
+                                                  <Edit2 className="w-3 h-3 text-white" />
+                                                </div>
+                                              </button>
+
+                                              <div className="flex-1 min-w-0 space-y-1">
+                                                <input
+                                                  type="text"
+                                                  value={cell.resource.name || ''}
+                                                  onChange={(e) =>
+                                                    handleUpdateTableCellResource(block.id, row.id, col.id, {
+                                                      name: e.target.value,
+                                                    })
+                                                  }
+                                                  placeholder="Tên vật phẩm..."
+                                                  className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px] font-bold text-white focus:outline-none"
+                                                />
+                                                <input
+                                                  type="text"
+                                                  value={cell.resource.quantity || ''}
+                                                  onChange={(e) =>
+                                                    handleUpdateTableCellResource(block.id, row.id, col.id, {
+                                                      quantity: e.target.value,
+                                                    })
+                                                  }
+                                                  placeholder="Số lượng (VD: x20, *5, 100k...)"
+                                                  className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[10px] font-mono text-amber-300 focus:outline-none"
+                                                />
+                                              </div>
+
+                                              <button
+                                                type="button"
+                                                onClick={() =>
+                                                  handleClearTableCellResource(block.id, row.id, col.id)
+                                                }
+                                                className="text-slate-500 hover:text-red-400 p-1 shrink-0"
+                                                title="Xóa tài nguyên khỏi ô này"
+                                              >
+                                                <X className="w-3.5 h-3.5" />
+                                              </button>
+                                            </div>
+                                          ) : (
+                                            <button
+                                              type="button"
+                                              onClick={() => {
+                                                setTargetTableCellForResource({
+                                                  blockId: block.id,
+                                                  rowId: row.id,
+                                                  columnId: col.id,
+                                                });
+                                                setTargetBlockIdForResource(null);
+                                                setIsResourceModalOpen(true);
+                                              }}
+                                              className="w-full py-2 px-3 rounded-xl border border-dashed border-slate-800 hover:border-teal-500/60 bg-slate-900/50 hover:bg-slate-900 text-[11px] text-slate-400 hover:text-teal-300 font-bold flex items-center justify-center gap-1.5 transition-all"
+                                            >
+                                              <Plus className="w-3.5 h-3.5" />
+                                              <span>Chọn Tài Nguyên</span>
+                                            </button>
+                                          )}
+                                        </div>
+                                      )}
+                                    </td>
+                                  );
+                                })}
+                                <td className="py-2.5 px-3 text-center align-middle">
+                                  <div className="flex items-center justify-center gap-1">
+                                    <button
+                                      type="button"
+                                      onClick={() => handleMoveTableRow(block.id, rIdx, 'up')}
+                                      disabled={rIdx === 0}
+                                      className="p-1 rounded bg-slate-900 text-slate-400 hover:text-white disabled:opacity-30"
+                                      title="Dòng lên"
+                                    >
+                                      <ArrowUp className="w-3 h-3" />
+                                    </button>
+                                    <button
+                                      type="button"
+                                      onClick={() => handleMoveTableRow(block.id, rIdx, 'down')}
+                                      disabled={rIdx === block.rows.length - 1}
+                                      className="p-1 rounded bg-slate-900 text-slate-400 hover:text-white disabled:opacity-30"
+                                      title="Dòng xuống"
+                                    >
+                                      <ArrowDown className="w-3 h-3" />
+                                    </button>
+                                    <button
+                                      type="button"
+                                      onClick={() => handleRemoveTableRow(block.id, row.id)}
+                                      className="p-1 rounded bg-red-500/10 text-red-400 hover:bg-red-500/20"
+                                      title="Xóa dòng"
+                                    >
+                                      <Trash2 className="w-3 h-3" />
+                                    </button>
+                                  </div>
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+
+                        {block.rows.length === 0 && (
+                          <div className="p-8 text-center text-xs text-slate-500">
+                            Bảng hiện chưa có dòng nào. Bấm &quot;+ Thêm Dòng Mới&quot; để tạo dòng dữ liệu.
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
 
             {/* Thanh nút thêm Block mới */}
-            <div className="p-6 rounded-3xl bg-slate-900/60 border border-dashed border-slate-800 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <div className="p-6 rounded-3xl bg-slate-900/60 border border-dashed border-slate-800 flex flex-wrap items-center justify-center gap-3">
               <span className="text-xs font-bold text-slate-400 mr-2">Thêm khối mới vào bài viết:</span>
               <button
                 type="button"
@@ -1682,6 +2215,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
               >
                 <Sparkles className="w-4 h-4" />
                 <span>+ Khối Trang Bị / Thưởng</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => handleAddBlock('table')}
+                className="px-3.5 py-2 rounded-xl bg-teal-500/10 hover:bg-teal-500/20 text-teal-300 border border-teal-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shadow-sm"
+              >
+                <TableIcon className="w-4 h-4" />
+                <span>+ Khối Bảng Biểu (Table)</span>
               </button>
             </div>
           </div>
@@ -1793,7 +2335,10 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 </p>
               </div>
               <button
-                onClick={() => setIsResourceModalOpen(false)}
+                onClick={() => {
+                  setIsResourceModalOpen(false);
+                  setTargetTableCellForResource(null);
+                }}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-white"
               >
                 <X className="w-5 h-5" />
@@ -2081,7 +2626,10 @@ export const AdminGuideEditor: React.FC<Props> = ({
 
             <div className="pt-4 border-t border-slate-800 flex justify-end">
               <button
-                onClick={() => setIsResourceModalOpen(false)}
+                onClick={() => {
+                  setIsResourceModalOpen(false);
+                  setTargetTableCellForResource(null);
+                }}
                 className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold hover:bg-slate-700"
               >
                 Đóng

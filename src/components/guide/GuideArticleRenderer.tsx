@@ -15,6 +15,7 @@ import {
   ChevronRight,
   ZoomIn,
   X,
+  Table as TableIcon,
 } from 'lucide-react';
 import {
   GuideArticle,
@@ -23,6 +24,7 @@ import {
   GuideHeroRosterBlock,
   GuideGalleryBlock,
   GuideResourcesBlock,
+  GuideTableBlock,
 } from '@/types/game';
 
 interface Props {
@@ -292,6 +294,111 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       </div>
                     </div>
                   ))}
+                </div>
+              </div>
+            );
+          }
+
+          if (block.type === 'table') {
+            const b = block as GuideTableBlock;
+            return (
+              <div key={b.id || idx} className="space-y-4 pt-2">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 shrink-0">
+                    <TableIcon className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
+                      <span>{b.title || 'Bảng Biểu Chi Tiết'}</span>
+                    </h3>
+                    {b.description && (
+                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-950/70 shadow-xl">
+                  <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                    <thead>
+                      <tr className="border-b border-slate-800 bg-slate-900/90 text-slate-300 font-extrabold uppercase tracking-wider text-[11px]">
+                        <th className="py-3 px-3.5 w-12 text-center text-slate-500 font-mono">#</th>
+                        {b.columns?.map((col) => (
+                          <th key={col.id} className="py-3 px-4 min-w-[150px]">
+                            {col.label}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-800/60">
+                      {b.rows?.map((row, rIdx) => (
+                        <tr key={row.id || rIdx} className="hover:bg-slate-900/40 transition-colors">
+                          <td className="py-3 px-3.5 text-center text-slate-500 font-mono font-bold">
+                            {rIdx + 1}
+                          </td>
+                          {b.columns?.map((col) => {
+                            const cell = row.cells?.[col.id];
+                            return (
+                              <td key={col.id} className="py-3 px-4 align-middle">
+                                {col.type === 'text' ? (
+                                  <span className="font-semibold text-slate-200 whitespace-pre-wrap">
+                                    {cell?.text || '—'}
+                                  </span>
+                                ) : (
+                                  <div>
+                                    {cell?.resource ? (
+                                      <div className="flex items-center gap-3">
+                                        {cell.resource.icon && (
+                                          <div
+                                            className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700/80 p-1 shrink-0 flex items-center justify-center shadow cursor-zoom-in hover:scale-105 transition-transform"
+                                            onClick={() =>
+                                              cell.resource?.icon &&
+                                              setLightboxImage({
+                                                url: cell.resource.icon,
+                                                caption: cell.resource.name,
+                                              })
+                                            }
+                                            title="Bấm để phóng to"
+                                          >
+                                            <img
+                                              src={cell.resource.icon}
+                                              alt={cell.resource.name}
+                                              className="w-full h-full object-contain"
+                                              onError={(e) => {
+                                                (e.target as HTMLImageElement).src =
+                                                  '/images/heroes/icon_heroes/default.png';
+                                              }}
+                                            />
+                                          </div>
+                                        )}
+                                        <div className="min-w-0">
+                                          <div className="font-bold text-xs sm:text-sm text-white truncate">
+                                            {cell.resource.name || 'Vật phẩm'}
+                                          </div>
+                                          {cell.resource.quantity && (
+                                            <div className="inline-block mt-0.5 text-[10px] sm:text-[11px] font-black font-mono px-2 py-0.5 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm">
+                                              {cell.resource.quantity}
+                                            </div>
+                                          )}
+                                        </div>
+                                      </div>
+                                    ) : (
+                                      <span className="text-slate-600 text-xs italic">—</span>
+                                    )}
+                                  </div>
+                                )}
+                              </td>
+                            );
+                          })}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+
+                  {(!b.rows || b.rows.length === 0) && (
+                    <div className="p-8 text-center text-xs text-slate-500">
+                      Bảng hiện chưa có dữ liệu nào.
+                    </div>
+                  )}
                 </div>
               </div>
             );
