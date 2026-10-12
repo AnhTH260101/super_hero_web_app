@@ -7,6 +7,7 @@ import {
   getGameResourceSources,
   getGiftcodes,
   getGameGuides,
+  getGameActivities,
 } from '@/lib/games';
 import { AdminDashboard } from '@/components/admin/AdminDashboard';
 
@@ -21,6 +22,7 @@ export default async function AdminPage() {
   const sources = getGameResourceSources(gameSlug);
   const giftcodes = getGiftcodes(gameSlug);
   const guides = getGameGuides(gameSlug);
+  const activities = getGameActivities(gameSlug);
 
   return (
     <AdminDashboard
@@ -30,6 +32,7 @@ export default async function AdminPage() {
       initialSources={sources}
       initialGiftcodes={giftcodes}
       initialGuides={guides}
+      initialActivities={activities}
       gameSlug={gameSlug}
     />
   );

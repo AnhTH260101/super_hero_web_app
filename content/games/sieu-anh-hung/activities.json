@@ -1,0 +1,46 @@
+[
+  {
+    "id": "act-boss",
+    "slug": "boss",
+    "name": "Săn Boss",
+    "shortDesc": "Boss Thế Giới & Khiêu Chiến",
+    "icon": "Swords",
+    "badge": "Hot",
+    "color": "red",
+    "order": 1,
+    "enabled": true
+  },
+  {
+    "id": "act-leo-thap",
+    "slug": "leo-thap",
+    "name": "Leo Tháp",
+    "shortDesc": "Thí Luyện Vượt Tầng Nhận Quà",
+    "icon": "Flame",
+    "badge": "Hàng Ngày",
+    "color": "amber",
+    "order": 2,
+    "enabled": true
+  },
+  {
+    "id": "act-dau-truong",
+    "slug": "dau-truong",
+    "name": "Đấu Trường",
+    "shortDesc": "Leo Rank PvP Đỉnh Phong",
+    "icon": "Trophy",
+    "badge": "PvP",
+    "color": "blue",
+    "order": 3,
+    "enabled": true
+  },
+  {
+    "id": "act-pho-ban",
+    "slug": "pho-ban",
+    "name": "Phó Bản",
+    "shortDesc": "Phó Bản Nguyên Liệu & Vàng",
+    "icon": "Sparkles",
+    "badge": "Mỗi Ngày",
+    "color": "purple",
+    "order": 4,
+    "enabled": true
+  }
+]

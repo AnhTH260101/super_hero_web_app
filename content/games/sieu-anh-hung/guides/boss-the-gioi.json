@@ -173,7 +173,31 @@
           "note": "Yêu cầu: Vàng 7\nSkill: 1,2,5"
         }
       ]
+    },
+    {
+      "id": "block-1791783278025",
+      "type": "gallery",
+      "title": "Hình Ảnh Thực Chiến",
+      "layout": "grid-3",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2025-06-08-20-08-38-987_com_kaiqigu_cjyxyn_kvsdk_1791783059812.webp",
+          "caption": "Điểm thuộc tính trên 1tr sẽ đc như hình ( + 50% dame tt gió bạch trạch ) đỏ1 chs cx rất mạnh nhg  chỉ = 1/2 dame trên hình "
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2025-05-24-06-51-56-838_com_zing_zalo-edit_1791783054389.webp",
+          "caption": "điểm thuộc tính trên 1tr ( pet kurama +100% dame tt hoả ) dame sẽ to hơn trên hình chx có pet "
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2025-02-12-20-40-17-412_com_miui_mediaviewer-edit_1791783048261.webp",
+          "caption": "dame thuộc tính cố định lên titan  nếu bị titan tấn công aizen sẽ + thêm 20% đame thuộc tính lên titan"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/IMG_20250708_195231_1791783040764.webp",
+          "caption": "để đc dame như hình cần trên 1tr điểm thuộc tính gió ( trên hình là 1tr3 điểm ) "
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-10-12T05:28:26.841Z"
+  "updatedAt": "2026-10-12T05:36:34.663Z"
 }

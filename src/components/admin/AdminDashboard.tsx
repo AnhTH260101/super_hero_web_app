@@ -19,7 +19,7 @@ import {
   Gift,
   FileText,
 } from 'lucide-react';
-import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode, GuideArticle } from '@/types/game';
+import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode, GuideArticle, GameActivity } from '@/types/game';
 import { AdminTierListEditor } from './AdminTierListEditor';
 import { AdminResourceEditor } from './AdminResourceEditor';
 import { AdminGiftcodeEditor } from './AdminGiftcodeEditor';
@@ -32,6 +32,7 @@ interface AdminDashboardProps {
   initialSources?: ResourceSource[];
   initialGiftcodes?: Giftcode[];
   initialGuides?: GuideArticle[];
+  initialActivities?: GameActivity[];
   gameSlug: string;
 }
 
@@ -42,6 +43,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   initialSources = [],
   initialGiftcodes = [],
   initialGuides = [],
+  initialActivities = [],
   gameSlug,
 }) => {
   const [adminToken, setAdminToken] = useState('admin123');
@@ -399,6 +401,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
         ) : currentTab === 'guides' ? (
           <AdminGuideEditor
             initialGuides={initialGuides}
+            initialActivities={initialActivities}
             allHeroes={heroes}
             allResources={initialResources}
             gameSlug={gameSlug}

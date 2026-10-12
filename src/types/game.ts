@@ -295,11 +295,24 @@ export interface GuideArticle {
   id: string;
   slug: string;
   title: string;
-  category: 'boss' | 'event' | 'daily' | 'dungeon';
+  category: string; // Khớp với slug của GameActivity hoặc loại hoạt động
   schedule?: string;
   description: string;
   thumbnail?: string;
   blocks: GuideBlock[];
   updatedAt: string;
 }
+
+export interface GameActivity {
+  id: string;
+  slug: string;
+  name: string;
+  shortDesc: string;
+  icon?: string;
+  badge?: string;
+  color?: string; // 'red' | 'amber' | 'blue' | 'purple' | 'emerald'
+  order?: number;
+  enabled?: boolean;
+}
+
 

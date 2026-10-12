@@ -25,6 +25,14 @@ import {
   FolderOpen,
   Info,
   Calendar,
+  Settings,
+  Swords,
+  Trophy,
+  Shield,
+  Crown,
+  Target,
+  ToggleLeft,
+  ToggleRight,
 } from 'lucide-react';
 import {
   Hero,
@@ -38,10 +46,12 @@ import {
   GuideHeroItem,
   GuideResourceItem,
   GuideImageItem,
+  GameActivity,
 } from '@/types/game';
 
 interface Props {
   initialGuides: GuideArticle[];
+  initialActivities?: GameActivity[];
   allHeroes: Hero[];
   allResources: ResourceItem[];
   gameSlug: string;
@@ -49,11 +59,28 @@ interface Props {
 
 export const AdminGuideEditor: React.FC<Props> = ({
   initialGuides,
+  initialActivities = [],
   allHeroes,
   allResources,
   gameSlug,
 }) => {
   const [guides, setGuides] = useState<GuideArticle[]>(initialGuides);
+  const [activities, setActivities] = useState<GameActivity[]>(initialActivities);
+  const [activeSubTab, setActiveSubTab] = useState<'guides' | 'activities'>('guides');
+
+  // Quản lý Activity Form / Modal
+  const [isActivityModalOpen, setIsActivityModalOpen] = useState(false);
+  const [editingActivityIndex, setEditingActivityIndex] = useState<number | null>(null);
+  const [activityForm, setActivityForm] = useState<Partial<GameActivity>>({
+    name: '',
+    slug: '',
+    shortDesc: '',
+    icon: 'Swords',
+    badge: '',
+    color: 'amber',
+    enabled: true,
+  });
+
   const [activeGuide, setActiveGuide] = useState<GuideArticle | null>(null);
   const [isCreatingNew, setIsCreatingNew] = useState(false);
   const [searchFilter, setSearchFilter] = useState('');
@@ -256,6 +283,109 @@ export const AdminGuideEditor: React.FC<Props> = ({
     }
   };
 
+  // --- QUẢN LÝ CẤU HÌNH HOẠT ĐỘNG (ACTIVITIES) ---
+  const handleSaveActivitiesList = async (newList: GameActivity[]) => {
+    try {
+      const res = await fetch('/api/admin/activities', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ gameSlug, activities: newList }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setActivities(newList);
+        showToast('Đã lưu cấu hình hoạt động thành công!', 'success');
+      } else {
+        showToast(data.error || 'Lỗi khi lưu hoạt động', 'error');
+      }
+    } catch {
+      showToast('Lỗi máy chủ khi lưu hoạt động', 'error');
+    }
+  };
+
+  const handleOpenAddActivity = () => {
+    setEditingActivityIndex(null);
+    setActivityForm({
+      name: '',
+      slug: '',
+      shortDesc: '',
+      icon: 'Swords',
+      badge: 'Mới',
+      color: 'amber',
+      enabled: true,
+      order: activities.length + 1,
+    });
+    setIsActivityModalOpen(true);
+  };
+
+  const handleOpenEditActivity = (act: GameActivity, index: number) => {
+    setEditingActivityIndex(index);
+    setActivityForm({ ...act });
+    setIsActivityModalOpen(true);
+  };
+
+  const handleSubmitActivityForm = () => {
+    if (!activityForm.name?.trim() || !activityForm.slug?.trim()) {
+      showToast('Vui lòng nhập tên và slug hoạt động', 'error');
+      return;
+    }
+
+    const safeSlug = activityForm.slug.trim().toLowerCase().replace(/[^a-z0-9\-]/g, '-');
+    const updatedItem: GameActivity = {
+      id: activityForm.id || `act-${Date.now()}`,
+      slug: safeSlug,
+      name: activityForm.name.trim(),
+      shortDesc: activityForm.shortDesc?.trim() || '',
+      icon: activityForm.icon || 'Swords',
+      badge: activityForm.badge?.trim() || '',
+      color: activityForm.color || 'amber',
+      order: activityForm.order ?? (activities.length + 1),
+      enabled: activityForm.enabled !== false,
+    };
+
+    let nextActivities: GameActivity[];
+    if (editingActivityIndex !== null && editingActivityIndex >= 0) {
+      nextActivities = [...activities];
+      nextActivities[editingActivityIndex] = updatedItem;
+    } else {
+      nextActivities = [...activities, updatedItem];
+    }
+
+    handleSaveActivitiesList(nextActivities);
+    setIsActivityModalOpen(false);
+  };
+
+  const handleToggleActivity = (index: number) => {
+    const nextActivities = [...activities];
+    nextActivities[index] = {
+      ...nextActivities[index],
+      enabled: !nextActivities[index].enabled,
+    };
+    handleSaveActivitiesList(nextActivities);
+  };
+
+  const handleDeleteActivity = (index: number) => {
+    const act = activities[index];
+    if (!window.confirm(`Bạn có chắc muốn xóa hoạt động "${act.name}"?`)) return;
+
+    const nextActivities = activities.filter((_, i) => i !== index);
+    handleSaveActivitiesList(nextActivities);
+  };
+
+  const handleMoveActivity = (index: number, direction: 'up' | 'down') => {
+    const targetIdx = direction === 'up' ? index - 1 : index + 1;
+    if (targetIdx < 0 || targetIdx >= activities.length) return;
+
+    const nextActivities = [...activities];
+    const temp = nextActivities[index];
+    nextActivities[index] = nextActivities[targetIdx];
+    nextActivities[targetIdx] = temp;
+
+    // Cập nhật lại thứ tự order
+    const ordered = nextActivities.map((a, i) => ({ ...a, order: i + 1 }));
+    handleSaveActivitiesList(ordered);
+  };
+
   // Quản lý Blocks trong Active Guide
   const handleAddBlock = (type: GuideBlock['type']) => {
     if (!activeGuide) return;
@@ -436,10 +566,10 @@ export const AdminGuideEditor: React.FC<Props> = ({
         <div>
           <h2 className="text-xl font-black text-white flex items-center gap-2">
             <FileText className="w-6 h-6 text-amber-500" />
-            <span>Quản Lý Sự Kiện & Bài Viết Hướng Dẫn</span>
+            <span>Quản Lý Sự Kiện & Hoạt Động Game</span>
           </h2>
           <p className="text-xs text-slate-400 mt-1">
-            Xây dựng bài viết bằng các khối Block trực quan (Tướng, Hình ảnh, Mẹo, Vật phẩm) không cần code.
+            Cấu hình danh mục hoạt động trên Navbar/Website và biên tập bài viết bằng các khối Block trực quan.
           </p>
         </div>
 
@@ -453,7 +583,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
             </button>
           )}
 
-          {!activeGuide ? (
+          {!activeGuide && activeSubTab === 'guides' && (
             <button
               onClick={handleStartCreate}
               className="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs flex items-center gap-2 shadow-lg shadow-amber-500/20 transition-all"
@@ -461,7 +591,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
               <Plus className="w-4 h-4" />
               <span>Tạo Bài Viết Mới</span>
             </button>
-          ) : (
+          )}
+
+          {!activeGuide && activeSubTab === 'activities' && (
+            <button
+              onClick={handleOpenAddActivity}
+              className="px-4 py-2.5 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 font-black text-xs flex items-center gap-2 shadow-lg shadow-blue-500/20 transition-all"
+            >
+              <Plus className="w-4 h-4" />
+              <span>Thêm Hoạt Động Mới</span>
+            </button>
+          )}
+
+          {activeGuide && (
             <button
               onClick={handleSaveGuide}
               disabled={saving}
@@ -474,8 +616,172 @@ export const AdminGuideEditor: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* VIEW 1: DANH SÁCH BÀI VIẾT (KHI CHƯA CHỌN BÀI) */}
+      {/* SUB TABS & DANH SÁCH (KHI KHÔNG SỬA BÀI VIẾT) */}
       {!activeGuide ? (
+        <div className="space-y-4">
+          {/* Sub Tabs Switcher */}
+          <div className="flex items-center gap-3 border-b border-slate-800 pb-2">
+            <button
+              onClick={() => setActiveSubTab('guides')}
+              className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+                activeSubTab === 'guides'
+                  ? 'bg-amber-500 text-slate-950 shadow-md'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              }`}
+            >
+              <FileText className="w-4 h-4" />
+              <span>Bài Viết Hướng Dẫn ({guides.length})</span>
+            </button>
+
+            <button
+              onClick={() => setActiveSubTab('activities')}
+              className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+                activeSubTab === 'activities'
+                  ? 'bg-blue-500 text-white shadow-md'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-900'
+              }`}
+            >
+              <Settings className="w-4 h-4" />
+              <span>Cấu Hình Hoạt Động ({activities.length})</span>
+            </button>
+          </div>
+
+          {/* VIEW: QUẢN LÝ CẤU HÌNH HOẠT ĐỘNG (ACTIVITIES) */}
+          {activeSubTab === 'activities' ? (
+            <div className="space-y-4">
+          <div className="flex items-center justify-between p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
+            <div>
+              <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                <span>Danh Sách Hoạt Động Đang Quản Lý ({activities.length})</span>
+              </h3>
+              <p className="text-xs text-slate-400 mt-0.5">
+                Các hoạt động đang bật sẽ tự động xuất hiện trên Dropdown menu thanh điều hướng và trang Hub.
+              </p>
+            </div>
+            <button
+              onClick={handleOpenAddActivity}
+              className="px-3.5 py-1.5 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow"
+            >
+              <Plus className="w-4 h-4" />
+              <span>+ Thêm Hoạt Động</span>
+            </button>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {activities.map((act, index) => (
+              <div
+                key={act.slug}
+                className={`p-5 rounded-3xl bg-slate-900 border transition-all flex flex-col justify-between ${
+                  act.enabled !== false ? 'border-slate-800 hover:border-blue-500/50' : 'border-slate-800/40 opacity-60'
+                }`}
+              >
+                <div className="space-y-3">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex items-center gap-3">
+                      <div className="w-12 h-12 rounded-2xl bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400">
+                        {act.icon === 'Flame' ? (
+                          <Flame className="w-6 h-6 text-amber-400" />
+                        ) : act.icon === 'Trophy' ? (
+                          <Trophy className="w-6 h-6 text-blue-400" />
+                        ) : act.icon === 'Sparkles' ? (
+                          <Sparkles className="w-6 h-6 text-purple-400" />
+                        ) : act.icon === 'Shield' ? (
+                          <Shield className="w-6 h-6 text-emerald-400" />
+                        ) : act.icon === 'Crown' ? (
+                          <Crown className="w-6 h-6 text-yellow-400" />
+                        ) : act.icon === 'Target' ? (
+                          <Target className="w-6 h-6 text-red-400" />
+                        ) : act.icon?.startsWith('/') ? (
+                          <img src={act.icon} alt="" className="w-6 h-6 object-contain" />
+                        ) : (
+                          <Swords className="w-6 h-6 text-red-400" />
+                        )}
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h4 className="font-extrabold text-base text-white">{act.name}</h4>
+                          {act.badge && (
+                            <span className="text-[10px] font-bold px-2 py-0.2 rounded-full bg-slate-800 text-amber-400 border border-slate-700">
+                              {act.badge}
+                            </span>
+                          )}
+                        </div>
+                        <div className="text-[11px] font-mono text-slate-400">/{act.slug}</div>
+                      </div>
+                    </div>
+
+                    {/* Toggle Switch Enabled */}
+                    <button
+                      onClick={() => handleToggleActivity(index)}
+                      className={`text-xs font-bold px-2.5 py-1 rounded-xl flex items-center gap-1 transition-all ${
+                        act.enabled !== false
+                          ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30'
+                          : 'bg-slate-800 text-slate-500 border border-slate-700'
+                      }`}
+                      title={act.enabled !== false ? 'Bấm để tạm ẩn' : 'Bấm để hiển thị'}
+                    >
+                      {act.enabled !== false ? <ToggleRight className="w-4 h-4" /> : <ToggleLeft className="w-4 h-4" />}
+                      <span>{act.enabled !== false ? 'Đang Bật' : 'Tạm Ẩn'}</span>
+                    </button>
+                  </div>
+
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {act.shortDesc || 'Chưa có mô tả tóm tắt.'}
+                  </p>
+                </div>
+
+                <div className="flex items-center justify-between pt-4 mt-4 border-t border-slate-800/80">
+                  <div className="flex items-center gap-1">
+                    <button
+                      onClick={() => handleMoveActivity(index, 'up')}
+                      disabled={index === 0}
+                      className="p-1.5 rounded-lg bg-slate-800 text-slate-400 hover:text-white disabled:opacity-30"
+                      title="Chuyển lên"
+                    >
+                      <ArrowUp className="w-3.5 h-3.5" />
+                    </button>
+                    <button
+                      onClick={() => handleMoveActivity(index, 'down')}
+                      disabled={index === activities.length - 1}
+                      className="p-1.5 rounded-lg bg-slate-800 text-slate-400 hover:text-white disabled:opacity-30"
+                      title="Chuyển xuống"
+                    >
+                      <ArrowDown className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <a
+                      href={`/${gameSlug}/daily/${act.slug}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800"
+                      title="Xem trang hoạt động"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                    <button
+                      onClick={() => handleOpenEditActivity(act, index)}
+                      className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-400 text-xs font-bold flex items-center gap-1"
+                    >
+                      <Edit2 className="w-3.5 h-3.5" />
+                      <span>Sửa</span>
+                    </button>
+                    <button
+                      onClick={() => handleDeleteActivity(index)}
+                      className="p-1.5 rounded-lg text-red-400 hover:bg-red-500/10"
+                      title="Xóa hoạt động"
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        /* VIEW 1: DANH SÁCH BÀI VIẾT (KHI ĐANG Ở TAB GUIDES) */
         <div className="space-y-4">
           {/* Filters Bar */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 p-4 rounded-2xl bg-slate-900/60 border border-slate-800">
@@ -491,23 +797,27 @@ export const AdminGuideEditor: React.FC<Props> = ({
             </div>
 
             <div className="flex items-center gap-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
-              {[
-                { id: 'all', label: 'Tất cả' },
-                { id: 'boss', label: 'Săn Boss' },
-                { id: 'daily', label: 'Hàng Ngày' },
-                { id: 'event', label: 'Sự Kiện' },
-                { id: 'dungeon', label: 'Phó Bản' },
-              ].map((cat) => (
+              <button
+                onClick={() => setCategoryFilter('all')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
+                  categoryFilter === 'all'
+                    ? 'bg-amber-500 text-slate-950 shadow-md'
+                    : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                }`}
+              >
+                Tất cả ({guides.length})
+              </button>
+              {activities.map((cat) => (
                 <button
-                  key={cat.id}
-                  onClick={() => setCategoryFilter(cat.id)}
+                  key={cat.slug}
+                  onClick={() => setCategoryFilter(cat.slug)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
-                    categoryFilter === cat.id
+                    categoryFilter === cat.slug
                       ? 'bg-amber-500 text-slate-950 shadow-md'
                       : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
                   }`}
                 >
-                  {cat.label}
+                  {cat.name}
                 </button>
               ))}
             </div>
@@ -587,8 +897,10 @@ export const AdminGuideEditor: React.FC<Props> = ({
             ))}
           </div>
         </div>
-      ) : (
-        /* VIEW 2: VISUAL BLOCK EDITOR (CHỈNH SỬA / TẠO BÀI VIẾT) */
+      )}
+    </div>
+  ) : (
+    /* VIEW 2: VISUAL BLOCK EDITOR (CHỈNH SỬA / TẠO BÀI VIẾT) */
         <div className="space-y-6">
           {/* Form Thông Tin Chung */}
           <div className="p-6 rounded-3xl bg-slate-900 border border-slate-800 space-y-4">
@@ -624,13 +936,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 <label className="text-xs font-bold text-slate-400">Chuyên Mục</label>
                 <select
                   value={activeGuide.category}
-                  onChange={(e) => setActiveGuide({ ...activeGuide, category: e.target.value as any })}
+                  onChange={(e) => setActiveGuide({ ...activeGuide, category: e.target.value })}
                   className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500 font-bold"
                 >
-                  <option value="boss">Săn Boss (Boss)</option>
-                  <option value="daily">Hàng Ngày (Daily)</option>
-                  <option value="event">Sự Kiện Đặc Biệt (Event)</option>
-                  <option value="dungeon">Phó Bản (Dungeon)</option>
+                  {activities.map((act) => (
+                    <option key={act.slug} value={act.slug}>
+                      {act.name} ({act.slug})
+                    </option>
+                  ))}
+                  <option value="other">Khác / Tự Do</option>
                 </select>
               </div>
 
@@ -1327,6 +1641,178 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold"
               >
                 Đóng
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL 4: THÊM / CHỈNH SỬA HOẠT ĐỘNG (ACTIVITY MODAL) */}
+      {isActivityModalOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
+          <div className="w-full max-w-lg bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col space-y-4">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <h3 className="text-base font-black text-white flex items-center gap-2">
+                <Settings className="w-5 h-5 text-blue-400" />
+                <span>
+                  {editingActivityIndex !== null ? 'Chỉnh Sửa Hoạt Động' : 'Thêm Hoạt Động Mới'}
+                </span>
+              </h3>
+              <button
+                onClick={() => setIsActivityModalOpen(false)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            <div className="space-y-3.5">
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-400">Tên Hoạt Động *</label>
+                <input
+                  type="text"
+                  value={activityForm.name || ''}
+                  onChange={(e) => {
+                    const name = e.target.value;
+                    const autoSlug =
+                      editingActivityIndex === null
+                        ? name
+                            .toLowerCase()
+                            .normalize('NFD')
+                            .replace(/[\u0300-\u036f]/g, '')
+                            .replace(/[đĐ]/g, 'd')
+                            .replace(/[^a-z0-9]+/g, '-')
+                            .replace(/^-+|-+$/g, '')
+                        : activityForm.slug;
+                    setActivityForm({ ...activityForm, name, slug: autoSlug });
+                  }}
+                  placeholder="VD: Leo Tháp Thí Luyện"
+                  className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-blue-500 font-bold"
+                />
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-400">Slug (Đường Dẫn URL) *</label>
+                  <input
+                    type="text"
+                    value={activityForm.slug || ''}
+                    onChange={(e) => setActivityForm({ ...activityForm, slug: e.target.value })}
+                    placeholder="VD: leo-thap"
+                    className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-blue-500 font-mono"
+                  />
+                </div>
+
+                <div className="space-y-1">
+                  <label className="text-xs font-bold text-slate-400">Badge Nhãn (Tùy chọn)</label>
+                  <input
+                    type="text"
+                    value={activityForm.badge || ''}
+                    onChange={(e) => setActivityForm({ ...activityForm, badge: e.target.value })}
+                    placeholder="VD: Hot, Mỗi Ngày, PvP"
+                    className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-blue-500"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-1">
+                <label className="text-xs font-bold text-slate-400">Mô Tả Ngắn Tóm Tắt</label>
+                <input
+                  type="text"
+                  value={activityForm.shortDesc || ''}
+                  onChange={(e) => setActivityForm({ ...activityForm, shortDesc: e.target.value })}
+                  placeholder="VD: Thí luyện vượt 100 tầng nhận rương thần thoại"
+                  className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              {/* Chọn Icon */}
+              <div className="space-y-1.5">
+                <label className="text-xs font-bold text-slate-400">Biểu Tượng Icon</label>
+                <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
+                  {[
+                    { id: 'Swords', label: 'Swords', icon: <Swords className="w-4 h-4 text-red-400" /> },
+                    { id: 'Flame', label: 'Flame', icon: <Flame className="w-4 h-4 text-amber-400" /> },
+                    { id: 'Trophy', label: 'Trophy', icon: <Trophy className="w-4 h-4 text-blue-400" /> },
+                    { id: 'Sparkles', label: 'Sparkles', icon: <Sparkles className="w-4 h-4 text-purple-400" /> },
+                    { id: 'Shield', label: 'Shield', icon: <Shield className="w-4 h-4 text-emerald-400" /> },
+                    { id: 'Crown', label: 'Crown', icon: <Crown className="w-4 h-4 text-yellow-400" /> },
+                    { id: 'Target', label: 'Target', icon: <Target className="w-4 h-4 text-rose-400" /> },
+                  ].map((ic) => (
+                    <button
+                      key={ic.id}
+                      type="button"
+                      onClick={() => setActivityForm({ ...activityForm, icon: ic.id })}
+                      className={`p-2.5 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all ${
+                        activityForm.icon === ic.id
+                          ? 'bg-blue-500/20 border-blue-500 shadow-md'
+                          : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      {ic.icon}
+                      <span className="text-[9px]">{ic.id}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Chọn Màu Sắc */}
+              <div className="space-y-1.5">
+                <label className="text-xs font-bold text-slate-400">Tông Màu Chủ Đạo</label>
+                <div className="flex items-center gap-2">
+                  {[
+                    { id: 'red', label: 'Đỏ', bg: 'bg-red-500' },
+                    { id: 'amber', label: 'Vàng Cam', bg: 'bg-amber-500' },
+                    { id: 'blue', label: 'Xanh Lam', bg: 'bg-blue-500' },
+                    { id: 'purple', label: 'Tím', bg: 'bg-purple-500' },
+                    { id: 'emerald', label: 'Xanh Lá', bg: 'bg-emerald-500' },
+                  ].map((c) => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      onClick={() => setActivityForm({ ...activityForm, color: c.id })}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold flex items-center gap-1.5 border transition-all ${
+                        activityForm.color === c.id
+                          ? 'border-white text-white bg-slate-800'
+                          : 'border-slate-800 text-slate-400 hover:text-white bg-slate-950'
+                      }`}
+                    >
+                      <span className={`w-2.5 h-2.5 rounded-full ${c.bg}`}></span>
+                      <span>{c.label}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Checkbox Trạng Thái */}
+              <div className="pt-2 flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  id="actEnabled"
+                  checked={activityForm.enabled !== false}
+                  onChange={(e) => setActivityForm({ ...activityForm, enabled: e.target.checked })}
+                  className="rounded bg-slate-950 border-slate-700 text-blue-500 focus:ring-0"
+                />
+                <label htmlFor="actEnabled" className="text-xs font-bold text-slate-300 cursor-pointer">
+                  Kích hoạt và hiển thị trên Menu Dropdown / Hub Website
+                </label>
+              </div>
+            </div>
+
+            <div className="pt-3 border-t border-slate-800 flex items-center justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => setIsActivityModalOpen(false)}
+                className="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 text-xs font-bold hover:bg-slate-700"
+              >
+                Hủy
+              </button>
+              <button
+                type="button"
+                onClick={handleSubmitActivityForm}
+                className="px-5 py-2 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 text-xs font-black shadow-lg"
+              >
+                {editingActivityIndex !== null ? 'Cập Nhật' : 'Tạo Hoạt Động'}
               </button>
             </div>
           </div>

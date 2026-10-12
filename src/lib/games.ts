@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { GameMeta, Hero, TierListData, Giftcode, GuideArticle } from '@/types/game';
+import { GameMeta, Hero, TierListData, Giftcode, GuideArticle, GameActivity } from '@/types/game';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/games');
 
@@ -208,4 +208,21 @@ export function getGuideBySlug(gameSlug: string, guideSlug: string): GuideArticl
   const allGuides = getGameGuides(gameSlug);
   return allGuides.find(g => g.slug === guideSlug || g.id === guideSlug) || null;
 }
+
+export function getGameActivities(gameSlug: string): GameActivity[] {
+  const actPath = path.join(CONTENT_DIR, gameSlug, 'activities.json');
+  if (!fs.existsSync(actPath)) return [];
+  try {
+    const list: GameActivity[] = JSON.parse(fs.readFileSync(actPath, 'utf-8'));
+    return list.sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+  } catch {
+    return [];
+  }
+}
+
+export function getActivityBySlug(gameSlug: string, activitySlug: string): GameActivity | null {
+  const list = getGameActivities(gameSlug);
+  return list.find(a => a.slug === activitySlug || a.id === activitySlug) || null;
+}
+
 
