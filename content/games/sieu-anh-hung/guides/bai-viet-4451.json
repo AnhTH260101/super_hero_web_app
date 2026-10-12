@@ -1,0 +1,117 @@
+{
+  "id": "guide-1791785014451",
+  "slug": "bai-viet-4451",
+  "title": "Nạp vip",
+  "category": "nap-the",
+  "schedule": "",
+  "description": "Thông tin giá nạp cấp vip và quà hàng ngày.",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791785014451-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Tổng quan tài nguyên khi nạp thẻ.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1791785151767",
+      "type": "gallery",
+      "title": "Bảng mốc nạp VIP",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1004747575913653_1791785169924.jpeg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "block-1791785207486",
+      "type": "gallery",
+      "title": "Thưởng VIP hàng ngày",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_08_45_1791785511013.png",
+          "caption": "Vip 1"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_01_1791785537121.png",
+          "caption": "Vip 2"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_10_1791785550478.png",
+          "caption": "Vip 3"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_19_1791785562571.png",
+          "caption": "Vip 4"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_28_1791785574210.png",
+          "caption": "Vip 5"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_36_1791785584703.png",
+          "caption": "Vip 6"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_46_1791785595376.png",
+          "caption": "Vip 7"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_09_55_1791785626856.png",
+          "caption": "Vip 8"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_01_1791785645251.png",
+          "caption": "Vip 9"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_12_1791785664399.png",
+          "caption": "Vip 10"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_23_1791785683147.png",
+          "caption": "Vip 11"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_31_1791785703674.png",
+          "caption": "Vip 12"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_39_1791785727596.png",
+          "caption": "Vip 13"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_50_1791785766288.png",
+          "caption": "Vip 14"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_10_57_1791785778329.png",
+          "caption": "Vip 15"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-12_at_13_11_07_1791785799488.png",
+          "caption": "Vip 16: Xu + Rương đá in SS"
+        }
+      ]
+    },
+    {
+      "id": "block-1791786097386",
+      "type": "text",
+      "title": "Thưởng tuần dựa trên tổng nạp",
+      "content": "Thưởn dựa trên tổng nạp mỗi tuần",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1791786177324",
+      "type": "resources",
+      "title": "Trang Bị & Phần Thưởng",
+      "description": "Các vật phẩm nhận được khi tham gia",
+      "items": []
+    }
+  ],
+  "updatedAt": "2026-10-12T06:43:31.642Z"
+}

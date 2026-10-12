@@ -33,6 +33,7 @@ import {
   Target,
   ToggleLeft,
   ToggleRight,
+  RotateCw,
 } from 'lucide-react';
 import {
   Hero,
@@ -89,11 +90,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [toastMessage, setToastMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
 
   // Modal State: Hero Picker
+  const [heroesList, setHeroesList] = useState<Hero[]>(allHeroes);
+  const [loadingHeroes, setLoadingHeroes] = useState(false);
   const [isHeroModalOpen, setIsHeroModalOpen] = useState(false);
   const [targetBlockIdForHero, setTargetBlockIdForHero] = useState<string | null>(null);
   const [heroSearchTerm, setHeroSearchTerm] = useState('');
 
   // Modal State: Resource Picker
+  const [resourcesList, setResourcesList] = useState<ResourceItem[]>(allResources);
+  const [loadingResources, setLoadingResources] = useState(false);
   const [isResourceModalOpen, setIsResourceModalOpen] = useState(false);
   const [targetBlockIdForResource, setTargetBlockIdForResource] = useState<string | null>(null);
   const [resourceSearchTerm, setResourceSearchTerm] = useState('');
@@ -125,6 +130,48 @@ export const AdminGuideEditor: React.FC<Props> = ({
       showToast('Lỗi khi tải danh sách ảnh', 'error');
     } finally {
       setLoadingMedia(false);
+    }
+  };
+
+  // Tải lại danh sách vật phẩm mới nhất từ hệ thống (Zero Hard-Reload)
+  const handleReloadResources = async () => {
+    setLoadingResources(true);
+    try {
+      const res = await fetch(`/api/admin/resources?gameSlug=${gameSlug}&t=${Date.now()}`, {
+        cache: 'no-store',
+      });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.resources)) {
+        setResourcesList(data.resources);
+        showToast(`Đã tải lại: ${data.resources.length} vật phẩm mới nhất!`, 'success');
+      } else {
+        showToast(data.error || 'Lỗi khi tải lại danh sách vật phẩm', 'error');
+      }
+    } catch {
+      showToast('Lỗi máy chủ khi tải lại vật phẩm', 'error');
+    } finally {
+      setLoadingResources(false);
+    }
+  };
+
+  // Tải lại kho tướng mới nhất từ hệ thống (Zero Hard-Reload)
+  const handleReloadHeroes = async () => {
+    setLoadingHeroes(true);
+    try {
+      const res = await fetch(`/api/admin/heroes?gameSlug=${gameSlug}&t=${Date.now()}`, {
+        cache: 'no-store',
+      });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.heroes)) {
+        setHeroesList(data.heroes);
+        showToast(`Đã tải lại: ${data.heroes.length} tướng mới nhất!`, 'success');
+      } else {
+        showToast(data.error || 'Lỗi khi tải lại kho tướng', 'error');
+      }
+    } catch {
+      showToast('Lỗi máy chủ khi tải lại kho tướng', 'error');
+    } finally {
+      setLoadingHeroes(false);
     }
   };
 
@@ -549,25 +596,25 @@ export const AdminGuideEditor: React.FC<Props> = ({
     showToast('Đã chèn ảnh vào bài viết', 'success');
   };
 
-  // Lọc tướng trong Modal
+  // Lọc tướng trong Modal (Dùng heroesList để live-reload)
   const modalHeroes = useMemo(() => {
     const term = heroSearchTerm.trim().toLowerCase();
-    return allHeroes.filter(
+    return heroesList.filter(
       (h) =>
         term === '' ||
         h.name.toLowerCase().includes(term) ||
         h.slug.toLowerCase().includes(term) ||
         h.element.toLowerCase().includes(term)
     );
-  }, [allHeroes, heroSearchTerm]);
+  }, [heroesList, heroSearchTerm]);
 
-  // Lọc resource trong Modal
+  // Lọc resource trong Modal (Dùng resourcesList để live-reload)
   const modalResources = useMemo(() => {
     const term = resourceSearchTerm.trim().toLowerCase();
-    return allResources.filter(
+    return resourcesList.filter(
       (r) => term === '' || r.name.toLowerCase().includes(term) || r.category?.toLowerCase().includes(term)
     );
-  }, [allResources, resourceSearchTerm]);
+  }, [resourcesList, resourceSearchTerm]);
 
   return (
     <div className="space-y-6">
@@ -1567,8 +1614,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </button>
             </div>
 
-            <div className="py-3">
-              <div className="relative">
+            <div className="py-3 flex items-center gap-2">
+              <div className="relative flex-1">
                 <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
@@ -1578,6 +1625,17 @@ export const AdminGuideEditor: React.FC<Props> = ({
                   className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
                 />
               </div>
+
+              <button
+                type="button"
+                onClick={handleReloadHeroes}
+                disabled={loadingHeroes}
+                className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                title="Tải lại kho tướng mới nhất từ hệ thống"
+              >
+                <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
+                <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+              </button>
             </div>
 
             <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 gap-2.5 p-1">
@@ -1636,8 +1694,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </button>
             </div>
 
-            <div className="py-3">
-              <div className="relative">
+            <div className="py-3 flex items-center gap-2">
+              <div className="relative flex-1">
                 <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
                   type="text"
@@ -1647,6 +1705,17 @@ export const AdminGuideEditor: React.FC<Props> = ({
                   className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-emerald-500"
                 />
               </div>
+
+              <button
+                type="button"
+                onClick={handleReloadResources}
+                disabled={loadingResources}
+                className="px-3.5 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                title="Tải lại danh sách vật phẩm mới nhất từ hệ thống"
+              >
+                <RotateCw className={`w-3.5 h-3.5 ${loadingResources ? 'animate-spin' : ''}`} />
+                <span>{loadingResources ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+              </button>
             </div>
 
             <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 gap-2.5 p-1">
@@ -1717,14 +1786,26 @@ export const AdminGuideEditor: React.FC<Props> = ({
               <div className="text-xs text-slate-400">
                 Tìm thấy <strong className="text-white">{mediaFiles.length}</strong> hình ảnh
               </div>
-              <button
-                onClick={() => fileInputRef.current?.click()}
-                disabled={uploadingImage}
-                className="px-3.5 py-1.5 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow"
-              >
-                <Upload className="w-4 h-4" />
-                <span>{uploadingImage ? 'Đang Tải...' : 'Tải Ảnh Mới Lên'}</span>
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={fetchMediaFiles}
+                  disabled={loadingMedia}
+                  className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-bold flex items-center gap-1.5 transition-all"
+                  title="Quét lại folder ảnh trên ổ đĩa"
+                >
+                  <RotateCw className={`w-3.5 h-3.5 ${loadingMedia ? 'animate-spin' : ''}`} />
+                  <span>{loadingMedia ? 'Đang Quét...' : 'Tải Lại Thư Viện'}</span>
+                </button>
+                <button
+                  onClick={() => fileInputRef.current?.click()}
+                  disabled={uploadingImage}
+                  className="px-3.5 py-1.5 rounded-xl bg-blue-500 hover:bg-blue-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow"
+                >
+                  <Upload className="w-4 h-4" />
+                  <span>{uploadingImage ? 'Đang Tải...' : 'Tải Ảnh Mới Lên'}</span>
+                </button>
+              </div>
             </div>
 
             <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 p-1">
