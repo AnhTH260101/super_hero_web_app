@@ -53,16 +53,22 @@ export const Header: React.FC<HeaderProps> = ({ currentGame, allGames = [], acti
     <header className="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link href="/" className="flex items-center gap-2 text-xl font-bold bg-gradient-to-r from-red-500 to-amber-500 bg-clip-text text-transparent">
+          <Link
+            href={currentGame ? `/${currentGame.slug}/thong-tin-chung` : '/'}
+            className="flex items-center gap-2 text-xl font-bold bg-gradient-to-r from-red-500 to-amber-500 bg-clip-text text-transparent"
+          >
             <Gamepad2 className="w-7 h-7 text-red-500" />
             <span>GameWiki Portal</span>
           </Link>
 
           {currentGame && (
-            <div className="hidden md:flex items-center gap-2 pl-4 border-l border-slate-800">
+            <Link
+              href={`/${currentGame.slug}/thong-tin-chung`}
+              className="hidden md:flex items-center gap-2 pl-4 border-l border-slate-800 hover:opacity-80 transition-opacity"
+            >
               <span className="text-xl">{currentGame.logo}</span>
               <span className="text-sm font-semibold text-slate-200">{currentGame.name}</span>
-            </div>
+            </Link>
           )}
         </div>
 
