@@ -99,19 +99,214 @@
       ]
     },
     {
-      "id": "block-1791786097386",
-      "type": "text",
-      "title": "Thưởng tuần dựa trên tổng nạp",
-      "content": "Thưởn dựa trên tổng nạp mỗi tuần",
-      "variant": "normal"
-    },
-    {
-      "id": "block-1791786177324",
-      "type": "resources",
-      "title": "Trang Bị & Phần Thưởng",
-      "description": "Các vật phẩm nhận được khi tham gia",
-      "items": []
+      "id": "block-1791789752011",
+      "type": "table",
+      "title": "Bảng Phần Thưởng & Mốc Nạp",
+      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Mốc Nạp",
+          "type": "text"
+        },
+        {
+          "id": "col-2",
+          "label": "Vật Phẩm Thưởng",
+          "type": "resource"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1791789752011-1",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 1: 500k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png",
+                  "quantity": "x20"
+                },
+                {
+                  "name": "Vé Xuất Chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "x2"
+                }
+              ],
+              "resource": {
+                "name": "Ngọc Lục Bảo",
+                "icon": "/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png",
+                "quantity": "x20"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791789804070",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 2: 1000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "45"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "5"
+                }
+              ],
+              "resource": {
+                "name": "Ngọc Lục Bảo",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "45"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791789877285",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 3: 2000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "88"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "5"
+                }
+              ],
+              "resource": {
+                "name": "Ngọc Lục Bảo",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "88"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791789918265",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 4: 4000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "99"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "10"
+                }
+              ],
+              "resource": {
+                "name": "Ngọc Lục Bảo",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "99"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791790026927",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 5: 6000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "222"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "15"
+                }
+              ],
+              "resource": {
+                "name": "Ngọc Lục Bảo",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "222"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791790115226",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 6: 8000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngoc Luc Bao",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "333"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "20"
+                }
+              ],
+              "resource": {
+                "name": "Ngoc Luc Bao",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "333"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791790160197",
+          "cells": {
+            "col-1": {
+              "text": "Mốc 7: 15000k VNĐ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngoc Luc Bao",
+                  "icon": "/images/resources/items/ngoc-luc-bao.png",
+                  "quantity": "555"
+                },
+                {
+                  "name": "Vé xuất chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "30"
+                }
+              ],
+              "resource": {
+                "name": "Ngoc Luc Bao",
+                "icon": "/images/resources/items/ngoc-luc-bao.png",
+                "quantity": "555"
+              }
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-10-12T06:43:31.642Z"
+  "updatedAt": "2026-10-12T07:30:11.448Z"
 }
