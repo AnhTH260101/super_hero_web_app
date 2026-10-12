@@ -69,6 +69,9 @@ export const Header: React.FC<HeaderProps> = ({ currentGame, allGames = [], acti
         {/* Navigation Links for current game */}
         {currentGame ? (
           <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-300">
+            <Link href={`/${currentGame.slug}/thong-tin-chung`} className="hover:text-amber-400 transition-colors">
+              Thông Tin Chung
+            </Link>
             <Link href={`/${currentGame.slug}/heroes`} className="hover:text-amber-400 transition-colors">
               Kho Tướng
             </Link>

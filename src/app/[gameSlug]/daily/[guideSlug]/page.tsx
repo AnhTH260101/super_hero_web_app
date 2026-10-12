@@ -127,13 +127,22 @@ export default async function GuideOrActivityPage({ params }: Props) {
       <main className="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-8">
         {/* Navigation Top */}
         <div className="flex items-center justify-between">
-          <Link
-            href={`/${gameSlug}/daily`}
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400 hover:text-amber-400 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Về Danh Sách Hoạt Động</span>
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              href={`/${gameSlug}/thong-tin-chung`}
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400 hover:text-amber-400 transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              <span>Thông Tin Chung</span>
+            </Link>
+            <span className="text-slate-700">/</span>
+            <Link
+              href={`/${gameSlug}/daily`}
+              className="text-xs font-semibold text-slate-400 hover:text-amber-400 transition-colors"
+            >
+              <span>Hoạt Động</span>
+            </Link>
+          </div>
 
           <Link
             href={`/admin/${gameSlug}`}

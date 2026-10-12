@@ -15,6 +15,7 @@ import {
   Crown,
   Target,
   Settings,
+  BookOpen,
 } from 'lucide-react';
 
 interface Props {
@@ -83,6 +84,13 @@ export default async function DailyActivitiesHubPage({ params }: Props) {
           </div>
 
           <div className="flex items-center gap-2.5 shrink-0">
+            <Link
+              href={`/${gameSlug}/thong-tin-chung`}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold transition-all shadow"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span>Tra Cứu Thông Tin</span>
+            </Link>
             <Link
               href={`/admin/${gameSlug}`}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-800 text-xs font-bold transition-all shadow"
