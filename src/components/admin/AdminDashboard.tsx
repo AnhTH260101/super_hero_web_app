@@ -261,7 +261,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
               <span>Xem trang Người Dùng</span>
             </Link>
             <button
-              onClick={() => setIsAuthenticated(false)}
+              onClick={async () => {
+                await fetch('/api/admin/auth', { method: 'DELETE' });
+                window.location.href = '/admin/login';
+              }}
               className="px-4 py-2 rounded-xl bg-red-950/60 hover:bg-red-900 border border-red-800 text-xs font-semibold text-red-300"
             >
               Đăng xuất
