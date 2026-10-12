@@ -154,12 +154,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [loadingSources, setLoadingSources] = useState(false);
   const [isSyncingSources, setIsSyncingSources] = useState(false);
   const [targetCardModalForResource, setTargetCardModalForResource] = useState(false);
+  const [targetCardModalForHero, setTargetCardModalForHero] = useState(false);
   const [editingCardModal, setEditingCardModal] = useState<{
     blockId: string;
     cardIndex: number | null; // null là thêm mới
     data: GuideResourceCardItem;
   } | null>(null);
   const [cardHeroSearch, setCardHeroSearch] = useState('');
+  const [cardHeroCategoryFilter, setCardHeroCategoryFilter] = useState<'all' | 'tier-sp' | 'SSR' | 'UR' | 'afterlife' | 'base'>('all');
   const [isCardHeroPickerOpen, setIsCardHeroPickerOpen] = useState(false);
 
   const showToast = (text: string, type: 'success' | 'error' = 'success') => {
@@ -850,8 +852,27 @@ export const AdminGuideEditor: React.FC<Props> = ({
     });
   };
 
-  // Thêm hoặc gỡ tướng khỏi block (Toggle)
+  // Thêm hoặc gỡ tướng khỏi block (Toggle hoặc gán cho thẻ)
   const handleAddHeroToBlock = (hero: Hero) => {
+    // Nếu đang chọn tướng cho thẻ chi tiết 3 cột (editingCardModal)
+    if (targetCardModalForHero && editingCardModal) {
+      setEditingCardModal({
+        ...editingCardModal,
+        data: {
+          ...editingCardModal.data,
+          name: hero.name,
+          icon: hero.avatar,
+          heroSlug: hero.slug,
+          rarity: hero.rarity || 'SSR',
+          itemType: 'hero',
+        },
+      });
+      setIsHeroModalOpen(false);
+      setTargetCardModalForHero(false);
+      showToast(`Đã chọn tướng ${hero.name}`, 'success');
+      return;
+    }
+
     if (!activeGuide || !targetBlockIdForHero) return;
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero);
     if (!block) return;
@@ -1244,6 +1265,9 @@ export const AdminGuideEditor: React.FC<Props> = ({
 
   // Danh sách slug các tướng đã có trong block hiện tại
   const currentBlockAddedSlugs = useMemo(() => {
+    if (targetCardModalForHero && editingCardModal) {
+      return new Set(editingCardModal.data.heroSlug ? [editingCardModal.data.heroSlug] : []);
+    }
     if (!activeGuide || !targetBlockIdForHero) return new Set<string>();
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero);
     if (!block) return new Set<string>();
@@ -1251,7 +1275,32 @@ export const AdminGuideEditor: React.FC<Props> = ({
       return new Set(block.heroes.map((h) => h.heroSlug));
     }
     return new Set<string>();
-  }, [activeGuide, targetBlockIdForHero]);
+  }, [activeGuide, targetBlockIdForHero, targetCardModalForHero, editingCardModal]);
+
+  // Bộ lọc toàn bộ tướng cho khối Thẻ Chi Tiết (3 Cột) - Không bị slice giới hạn
+  const cardFilteredHeroes = useMemo(() => {
+    const term = cardHeroSearch.trim().toLowerCase();
+    return heroesList.filter((h) => {
+      const matchSearch =
+        term === '' ||
+        h.name.toLowerCase().includes(term) ||
+        h.slug.toLowerCase().includes(term) ||
+        (h.id && h.id.includes(term)) ||
+        (h.element && h.element.toLowerCase().includes(term)) ||
+        (h.role && h.role.toLowerCase().includes(term)) ||
+        (h.rarity && h.rarity.toLowerCase().includes(term));
+
+      if (!matchSearch) return false;
+
+      if (cardHeroCategoryFilter === 'tier-sp') return h.tier === 'S+';
+      if (cardHeroCategoryFilter === 'SSR') return h.rarity === 'SSR';
+      if (cardHeroCategoryFilter === 'UR') return h.rarity === 'UR';
+      if (cardHeroCategoryFilter === 'afterlife') return Boolean(h.isAfterlifeForm);
+      if (cardHeroCategoryFilter === 'base') return !h.isAfterlifeForm && !h.isSkinForm;
+
+      return true;
+    });
+  }, [heroesList, cardHeroSearch, cardHeroCategoryFilter]);
 
   // Lọc resource trong Modal (Dùng resourcesList để live-reload)
   const modalResources = useMemo(() => {
@@ -3868,20 +3917,36 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       </div>
 
                       <div className="flex-1 w-full space-y-1.5">
-                        <div className="flex items-center justify-between">
+                        <div className="flex flex-wrap items-center justify-between gap-2">
                           <span className="text-white font-bold text-xs">
                             {editingCardModal.data.heroSlug
                               ? `Tướng đã chọn: ${editingCardModal.data.name}`
                               : 'Chưa chọn tướng nào từ kho'}
                           </span>
-                          <button
-                            type="button"
-                            onClick={() => setIsCardHeroPickerOpen(!isCardHeroPickerOpen)}
-                            className="px-3 py-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 rounded-xl font-bold flex items-center gap-1.5 transition-colors border border-purple-500/30 text-xs"
-                          >
-                            <Users className="w-3.5 h-3.5" />
-                            <span>{isCardHeroPickerOpen ? 'Đóng kho tướng' : 'Đổi / Chọn Tướng Từ Kho'}</span>
-                          </button>
+                          <div className="flex items-center gap-2">
+                            <button
+                              type="button"
+                              onClick={() => setIsCardHeroPickerOpen(!isCardHeroPickerOpen)}
+                              className="px-3 py-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 rounded-xl font-bold flex items-center gap-1.5 transition-colors border border-purple-500/30 text-xs"
+                            >
+                              <Users className="w-3.5 h-3.5" />
+                              <span>{isCardHeroPickerOpen ? 'Đóng kho nhanh' : 'Chọn Nhanh Tại Đây'}</span>
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                setTargetCardModalForHero(true);
+                                setHeroSearchTerm('');
+                                setHeroCategoryFilter('all');
+                                setIsHeroModalOpen(true);
+                              }}
+                              className="px-3 py-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-xl font-bold flex items-center gap-1.5 transition-all text-xs shadow-md"
+                              title="Mở toàn màn hình kho 325 tướng"
+                            >
+                              <Sparkles className="w-3.5 h-3.5" />
+                              <span>Mở Kho Tướng Đầy Đủ ({heroesList.length})</span>
+                            </button>
+                          </div>
                         </div>
                         <input
                           type="text"
@@ -3898,33 +3963,69 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       </div>
                     </div>
 
-                    {/* Sub-picker danh sách tướng (khi mở) */}
+                    {/* Sub-picker danh sách tướng ĐẦY ĐỦ (325 tướng, có bộ lọc & reload) */}
                     {isCardHeroPickerOpen && (
                       <div className="p-3 bg-slate-900 rounded-2xl border border-slate-800 space-y-3">
-                        <div className="relative">
-                          <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
-                          <input
-                            type="text"
-                            value={cardHeroSearch}
-                            onChange={(e) => setCardHeroSearch(e.target.value)}
-                            placeholder="Tìm kiếm tướng theo tên, hệ, độ hiếm..."
-                            className="w-full pl-9 pr-3 py-1.5 bg-slate-950 border border-slate-800 rounded-xl text-white text-xs focus:border-purple-500 outline-none"
-                          />
+                        <div className="flex items-center gap-2">
+                          <div className="relative flex-1">
+                            <Search className="w-4 h-4 text-slate-500 absolute left-3 top-2.5" />
+                            <input
+                              type="text"
+                              value={cardHeroSearch}
+                              onChange={(e) => setCardHeroSearch(e.target.value)}
+                              placeholder="Tìm kiếm theo tên tướng, slug, hệ, vai trò..."
+                              className="w-full pl-9 pr-3 py-1.5 bg-slate-950 border border-slate-800 rounded-xl text-white text-xs focus:border-purple-500 outline-none"
+                            />
+                          </div>
+
+                          <button
+                            type="button"
+                            onClick={handleReloadHeroes}
+                            disabled={loadingHeroes}
+                            className="px-3 py-1.5 rounded-xl bg-purple-500/15 hover:bg-purple-500/25 text-purple-300 border border-purple-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                            title="Tải lại kho tướng mới nhất từ hệ thống"
+                          >
+                            <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
+                            <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Asset'}</span>
+                          </button>
                         </div>
 
-                        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 max-h-48 overflow-y-auto p-1">
-                          {heroesList
-                            .filter((h) => {
-                              const term = cardHeroSearch.trim().toLowerCase();
-                              return (
-                                !term ||
-                                h.name.toLowerCase().includes(term) ||
-                                h.slug.toLowerCase().includes(term) ||
-                                (h.rarity && h.rarity.toLowerCase().includes(term))
-                              );
-                            })
-                            .slice(0, 48)
-                            .map((hero) => {
+                        {/* Tabs phân loại độ hiếm & hình thái */}
+                        <div className="flex flex-wrap items-center gap-1.5 text-xs">
+                          {[
+                            { id: 'all', label: `Tất Cả (${heroesList.length})` },
+                            { id: 'tier-sp', label: `Tier S+ (${heroesList.filter((h) => h.tier === 'S+').length})` },
+                            { id: 'afterlife', label: `Chuyển Thế (${heroesList.filter((h) => h.isAfterlifeForm).length})` },
+                            { id: 'base', label: `Mặc Định (${heroesList.filter((h) => !h.isAfterlifeForm && !h.isSkinForm).length})` },
+                            { id: 'SSR', label: `SSR (${heroesList.filter((h) => h.rarity === 'SSR').length})` },
+                            { id: 'UR', label: `UR (${heroesList.filter((h) => h.rarity === 'UR').length})` },
+                          ].map((tab) => (
+                            <button
+                              key={tab.id}
+                              type="button"
+                              onClick={() => setCardHeroCategoryFilter(tab.id as any)}
+                              className={`px-2 py-0.5 rounded-lg font-bold text-[11px] transition-all ${
+                                cardHeroCategoryFilter === tab.id
+                                  ? 'bg-purple-500 text-white shadow-sm'
+                                  : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                              }`}
+                            >
+                              {tab.label}
+                            </button>
+                          ))}
+                          <span className="text-[11px] text-slate-400 ml-auto">
+                            Hiển thị: <strong className="text-purple-400">{cardFilteredHeroes.length}</strong> / {heroesList.length} tướng
+                          </span>
+                        </div>
+
+                        {/* Grid toàn bộ tướng không bị giới hạn slice */}
+                        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 max-h-72 overflow-y-auto p-1 bg-slate-950/60 rounded-xl border border-slate-800">
+                          {cardFilteredHeroes.length === 0 ? (
+                            <div className="col-span-full py-8 text-center text-xs text-slate-500">
+                              Không tìm thấy tướng nào phù hợp với bộ lọc & từ khóa.
+                            </div>
+                          ) : (
+                            cardFilteredHeroes.map((hero) => {
                               const isSelected = editingCardModal.data.heroSlug === hero.slug;
                               return (
                                 <button
@@ -3946,24 +4047,37 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                   }}
                                   className={`p-1.5 rounded-xl border flex flex-col items-center gap-1 transition-all ${
                                     isSelected
-                                      ? 'bg-purple-500/20 border-purple-500 ring-2 ring-purple-500/40'
+                                      ? 'bg-purple-500/25 border-purple-500 ring-2 ring-purple-500/50'
                                       : 'bg-slate-950 border-slate-800 hover:border-purple-500/40'
                                   }`}
                                 >
-                                  <img
-                                    src={hero.avatar}
-                                    alt={hero.name}
-                                    className="w-10 h-10 rounded-lg object-cover"
-                                    onError={(e) => {
-                                      (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                                    }}
-                                  />
+                                  <div className="relative">
+                                    <img
+                                      src={hero.avatar}
+                                      alt={hero.name}
+                                      className="w-11 h-11 rounded-lg object-cover"
+                                      onError={(e) => {
+                                        (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                                      }}
+                                    />
+                                    {hero.rarity && (
+                                      <span className="absolute -top-1 -right-1 px-1 py-0.2 text-[8px] font-black rounded bg-amber-500 text-slate-950">
+                                        {hero.rarity}
+                                      </span>
+                                    )}
+                                  </div>
                                   <span className="text-[10px] font-bold text-white truncate w-full text-center">
                                     {hero.name}
                                   </span>
+                                  {hero.element && (
+                                    <span className="text-[9px] text-slate-400 truncate">
+                                      {hero.element}
+                                    </span>
+                                  )}
                                 </button>
                               );
-                            })}
+                            })
+                          )}
                         </div>
                       </div>
                     )}
