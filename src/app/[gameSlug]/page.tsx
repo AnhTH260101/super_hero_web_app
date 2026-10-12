@@ -70,7 +70,7 @@ export default async function GameHubPage({ params }: Props) {
               </div>
               <div>
                 <h4 className="font-bold text-slate-100 text-sm group-hover:text-red-400 transition-colors">
-                  Bảng Xếp Hạng
+                  Tier List
                 </h4>
                 <p className="text-xs text-slate-400">Meta Tier S+ / S</p>
               </div>

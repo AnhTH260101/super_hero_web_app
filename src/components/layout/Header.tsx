@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({ currentGame, allGames = [] }) =>
               Kho Tướng
             </Link>
             <Link href={`/${currentGame.slug}/tier-list`} className="hover:text-amber-400 transition-colors">
-              Bảng Xếp Hạng (Tier List)
+              Tier List
             </Link>
             <Link href={`/${currentGame.slug}/resources`} className="hover:text-amber-400 transition-colors">
               Tài Nguyên
