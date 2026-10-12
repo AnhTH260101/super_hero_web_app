@@ -101,6 +101,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [isHeroModalOpen, setIsHeroModalOpen] = useState(false);
   const [targetBlockIdForHero, setTargetBlockIdForHero] = useState<string | null>(null);
   const [heroSearchTerm, setHeroSearchTerm] = useState('');
+  const [heroCategoryFilter, setHeroCategoryFilter] = useState<'all' | 'tier-sp' | 'SSR' | 'UR' | 'afterlife' | 'base'>('all');
 
   // Modal State: Resource Picker
   const [resourcesList, setResourcesList] = useState<ResourceItem[]>(allResources);
@@ -667,15 +668,17 @@ export const AdminGuideEditor: React.FC<Props> = ({
     });
   };
 
-  // Thêm tướng vào block
+  // Thêm hoặc gỡ tướng khỏi block (Toggle)
   const handleAddHeroToBlock = (hero: Hero) => {
     if (!activeGuide || !targetBlockIdForHero) return;
     const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero) as GuideHeroRosterBlock;
     if (!block || block.type !== 'hero-roster') return;
 
-    // Tránh trùng tướng trong cùng block
+    // Nếu đã có -> gỡ bỏ
     if (block.heroes.some((h) => h.heroSlug === hero.slug)) {
-      showToast('Tướng này đã có trong danh sách', 'error');
+      const updated = block.heroes.filter((h) => h.heroSlug !== hero.slug);
+      handleUpdateBlock(targetBlockIdForHero, { heroes: updated });
+      showToast(`Đã gỡ tướng ${hero.name}`, 'success');
       return;
     }
 
@@ -993,14 +996,34 @@ export const AdminGuideEditor: React.FC<Props> = ({
   // Lọc tướng trong Modal (Dùng heroesList để live-reload)
   const modalHeroes = useMemo(() => {
     const term = heroSearchTerm.trim().toLowerCase();
-    return heroesList.filter(
-      (h) =>
+    return heroesList.filter((h) => {
+      const matchSearch =
         term === '' ||
         h.name.toLowerCase().includes(term) ||
         h.slug.toLowerCase().includes(term) ||
-        h.element.toLowerCase().includes(term)
-    );
-  }, [heroesList, heroSearchTerm]);
+        (h.id && h.id.includes(term)) ||
+        (h.element && h.element.toLowerCase().includes(term)) ||
+        (h.role && h.role.toLowerCase().includes(term));
+
+      if (!matchSearch) return false;
+
+      if (heroCategoryFilter === 'tier-sp') return h.tier === 'S+';
+      if (heroCategoryFilter === 'SSR') return h.rarity === 'SSR';
+      if (heroCategoryFilter === 'UR') return h.rarity === 'UR';
+      if (heroCategoryFilter === 'afterlife') return Boolean(h.isAfterlifeForm);
+      if (heroCategoryFilter === 'base') return !h.isAfterlifeForm && !h.isSkinForm;
+
+      return true;
+    });
+  }, [heroesList, heroSearchTerm, heroCategoryFilter]);
+
+  // Danh sách slug các tướng đã có trong block hiện tại
+  const currentBlockAddedSlugs = useMemo(() => {
+    if (!activeGuide || !targetBlockIdForHero) return new Set<string>();
+    const block = activeGuide.blocks.find((b) => b.id === targetBlockIdForHero);
+    if (!block || block.type !== 'hero-roster') return new Set<string>();
+    return new Set(block.heroes.map((h) => h.heroSlug));
+  }, [activeGuide, targetBlockIdForHero]);
 
   // Lọc resource trong Modal (Dùng resourcesList để live-reload)
   const modalResources = useMemo(() => {
@@ -2350,13 +2373,23 @@ export const AdminGuideEditor: React.FC<Props> = ({
       {/* MODAL 1: CHỌN TƯỚNG TỪ KHO */}
       {isHeroModalOpen && (
         <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
-          <div className="w-full max-w-2xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[85vh]">
-            <div className="flex items-center justify-between pb-4 border-b border-slate-800">
-              <h3 className="text-base font-black text-white flex items-center gap-2">
-                <Users className="w-5 h-5 text-amber-400" />
-                <span>Chọn Tướng Đưa Vào Bài Viết</span>
-              </h3>
+          <div className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[85vh]">
+            {/* Header Modal */}
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div>
+                <h3 className="text-base font-black text-white flex items-center gap-2">
+                  <Users className="w-5 h-5 text-amber-400" />
+                  <span>Kho Tướng Đề Xuất Cho Bài Viết</span>
+                  <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 font-black border border-amber-500/20">
+                    {heroesList.length} tướng
+                  </span>
+                </h3>
+                <p className="text-xs text-slate-400 mt-0.5">
+                  Nhấp vào thẻ tướng để thêm vào hoặc gỡ bỏ khỏi khối đội hình.
+                </p>
+              </div>
               <button
+                type="button"
                 onClick={() => setIsHeroModalOpen(false)}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-white"
               >
@@ -2364,63 +2397,123 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </button>
             </div>
 
-            <div className="py-3 flex items-center gap-2">
-              <div className="relative flex-1">
-                <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm theo tên, hệ nguyên tố..."
-                  value={heroSearchTerm}
-                  onChange={(e) => setHeroSearchTerm(e.target.value)}
-                  className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
-                />
+            {/* Toolbar: Tìm kiếm & Tải lại & Bộ lọc */}
+            <div className="pt-3 pb-2 space-y-2.5">
+              <div className="flex items-center gap-2">
+                <div className="relative flex-1">
+                  <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                  <input
+                    type="text"
+                    placeholder="Tìm kiếm theo tên, slug, hệ nguyên tố, vai trò..."
+                    value={heroSearchTerm}
+                    onChange={(e) => setHeroSearchTerm(e.target.value)}
+                    className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
+                  />
+                </div>
+
+                <button
+                  type="button"
+                  onClick={handleReloadHeroes}
+                  disabled={loadingHeroes}
+                  className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                  title="Tải lại kho tướng mới nhất từ hệ thống"
+                >
+                  <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
+                  <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+                </button>
               </div>
 
+              {/* Tabs lọc theo phân loại */}
+              <div className="flex flex-wrap items-center gap-1.5 text-xs">
+                {[
+                  { id: 'all', label: `Tất Cả (${heroesList.length})` },
+                  { id: 'tier-sp', label: `Tier S+ (${heroesList.filter((h) => h.tier === 'S+').length})` },
+                  { id: 'afterlife', label: `Chuyển Thế (${heroesList.filter((h) => h.isAfterlifeForm).length})` },
+                  { id: 'base', label: `Mặc Định (${heroesList.filter((h) => !h.isAfterlifeForm && !h.isSkinForm).length})` },
+                  { id: 'SSR', label: `SSR (${heroesList.filter((h) => h.rarity === 'SSR').length})` },
+                  { id: 'UR', label: `UR (${heroesList.filter((h) => h.rarity === 'UR').length})` },
+                ].map((tab) => (
+                  <button
+                    key={tab.id}
+                    type="button"
+                    onClick={() => setHeroCategoryFilter(tab.id as any)}
+                    className={`px-2.5 py-1 rounded-lg font-bold text-[11px] transition-all ${
+                      heroCategoryFilter === tab.id
+                        ? 'bg-amber-500 text-slate-950 shadow-sm'
+                        : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+                <span className="text-[11px] text-slate-400 ml-auto">
+                  Hiển thị: <strong className="text-amber-400">{modalHeroes.length}</strong> / {heroesList.length} tướng
+                </span>
+              </div>
+            </div>
+
+            {/* Grid hiển thị TOÀN BỘ tướng (cuộn mượt mà, không giới hạn) */}
+            <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 p-1 max-h-[50vh]">
+              {modalHeroes.length === 0 ? (
+                <div className="col-span-full py-12 text-center text-xs text-slate-500">
+                  Không tìm thấy tướng nào phù hợp với bộ lọc & từ khóa.
+                </div>
+              ) : (
+                modalHeroes.map((hero) => {
+                  const isAdded = currentBlockAddedSlugs.has(hero.slug);
+                  return (
+                    <button
+                      key={hero.slug}
+                      type="button"
+                      onClick={() => handleAddHeroToBlock(hero)}
+                      className={`p-2.5 rounded-2xl border text-left transition-all flex items-center gap-2.5 group ${
+                        isAdded
+                          ? 'bg-amber-500/15 border-amber-500/80 shadow-md ring-1 ring-amber-500/50'
+                          : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800/80 hover:border-slate-700'
+                      }`}
+                    >
+                      <img
+                        src={hero.avatar}
+                        alt={hero.name}
+                        className="w-10 h-10 rounded-xl border border-slate-700 object-cover shrink-0 group-hover:scale-105 transition-transform"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                        }}
+                      />
+                      <div className="min-w-0 flex-1">
+                        <div className="font-extrabold text-xs truncate text-white group-hover:text-amber-400">
+                          {hero.name}
+                        </div>
+                        <div className="flex items-center justify-between text-[10px] text-slate-400 mt-0.5">
+                          <span className="truncate">{hero.element}</span>
+                          {isAdded ? (
+                            <span className="px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-bold text-[9px] shrink-0">
+                              ✓ Đã thêm
+                            </span>
+                          ) : (
+                            <span className="text-amber-500/70 text-[9px] font-mono shrink-0">
+                              {hero.rarity}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </button>
+                  );
+                })
+              )}
+            </div>
+
+            {/* Footer Modal */}
+            <div className="pt-3 border-t border-slate-800 flex items-center justify-between">
+              <span className="text-[11px] text-slate-400">
+                Nhấp vào thẻ tướng để thêm hoặc gỡ bỏ. Thay đổi được áp dụng ngay lập tức.
+              </span>
               <button
                 type="button"
-                onClick={handleReloadHeroes}
-                disabled={loadingHeroes}
-                className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
-                title="Tải lại kho tướng mới nhất từ hệ thống"
-              >
-                <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
-                <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
-              </button>
-            </div>
-
-            <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 gap-2.5 p-1">
-              {modalHeroes.slice(0, 48).map((hero) => (
-                <button
-                  key={hero.slug}
-                  onClick={() => {
-                    handleAddHeroToBlock(hero);
-                  }}
-                  className="p-2.5 rounded-2xl bg-slate-950 hover:bg-slate-800 border border-slate-800/80 hover:border-amber-500/50 flex items-center gap-2.5 text-left transition-all group"
-                >
-                  <img
-                    src={hero.avatar}
-                    alt={hero.name}
-                    className="w-10 h-10 rounded-xl border border-slate-700 object-cover shrink-0 group-hover:scale-105 transition-transform"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                    }}
-                  />
-                  <div className="truncate">
-                    <div className="font-extrabold text-xs text-white group-hover:text-amber-400 truncate">
-                      {hero.name}
-                    </div>
-                    <div className="text-[10px] text-slate-400 truncate">{hero.element}</div>
-                  </div>
-                </button>
-              ))}
-            </div>
-
-            <div className="pt-4 border-t border-slate-800 flex justify-end">
-              <button
                 onClick={() => setIsHeroModalOpen(false)}
-                className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold"
+                className="px-5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-black transition-all"
               >
-                Đóng
+                Hoàn Tất
               </button>
             </div>
           </div>
