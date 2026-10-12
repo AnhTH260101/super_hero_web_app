@@ -69,16 +69,6 @@ export default async function GuideOrActivityPage({ params }: Props) {
                 </div>
               </div>
             </div>
-
-            <div className="flex items-center gap-2.5 shrink-0">
-              <Link
-                href={`/admin/${gameSlug}`}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-800 text-xs font-bold transition-all shadow"
-              >
-                <Settings className="w-4 h-4" />
-                <span>Quản Trị Bài Viết</span>
-              </Link>
-            </div>
           </div>
 
           <MonetizationBanner
@@ -98,17 +88,10 @@ export default async function GuideOrActivityPage({ params }: Props) {
               ))}
             </div>
           ) : (
-            <div className="p-12 rounded-3xl bg-slate-900/50 border border-dashed border-slate-800 text-center space-y-4">
+            <div className="p-12 rounded-3xl bg-slate-900/50 border border-dashed border-slate-800 text-center space-y-2">
               <p className="text-sm text-slate-400">
-                Chưa có bài viết hướng dẫn nào cho hoạt động <strong>{activity.name}</strong>. Bạn có thể tự tạo bài viết bằng công cụ Block CMS trong trang Quản Trị.
+                Nội dung hướng dẫn cho hoạt động <strong>{activity.name}</strong> đang được cập nhật.
               </p>
-              <Link
-                href={`/admin/${gameSlug}`}
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs shadow-lg transition-all"
-              >
-                <Plus className="w-4 h-4" />
-                <span>Tạo Bài Viết Cho Hoạt Động Này</span>
-              </Link>
             </div>
           )}
         </main>
@@ -143,14 +126,6 @@ export default async function GuideOrActivityPage({ params }: Props) {
               <span>Hoạt Động</span>
             </Link>
           </div>
-
-          <Link
-            href={`/admin/${gameSlug}`}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-800 text-xs font-bold transition-all"
-          >
-            <Settings className="w-3.5 h-3.5" />
-            <span>Chỉnh Sửa Bài Này</span>
-          </Link>
         </div>
 
         <MonetizationBanner

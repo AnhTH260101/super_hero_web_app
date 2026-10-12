@@ -91,13 +91,6 @@ export default async function DailyActivitiesHubPage({ params }: Props) {
               <BookOpen className="w-4 h-4" />
               <span>Tra Cứu Thông Tin</span>
             </Link>
-            <Link
-              href={`/admin/${gameSlug}`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-800 text-xs font-bold transition-all shadow"
-            >
-              <Settings className="w-4 h-4" />
-              <span>Cấu Hình Hoạt Động</span>
-            </Link>
           </div>
         </div>
 

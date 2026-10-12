@@ -150,12 +150,6 @@ export const Header: React.FC<HeaderProps> = ({ currentGame, allGames = [], acti
         ) : null}
 
         <div className="flex items-center gap-3">
-          <Link
-            href="/admin/sieu-anh-hung"
-            className="text-xs px-2.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-amber-400 border border-slate-700 transition-colors font-medium flex items-center gap-1"
-          >
-            <span>⚙️ Quản Trị</span>
-          </Link>
 
           {currentGame?.affiliateLinks?.pcEmulator && (
             <a

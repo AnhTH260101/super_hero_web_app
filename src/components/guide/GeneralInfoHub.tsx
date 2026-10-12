@@ -491,12 +491,6 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
             >
               Xóa Bộ Lọc Tìm Kiếm
             </button>
-            <Link
-              href={`/admin/${game.slug}`}
-              className="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 text-xs font-bold hover:text-white hover:bg-slate-700 border border-slate-700 transition-colors"
-            >
-              Viết Bài Mới Tại Admin
-            </Link>
           </div>
         </div>
       )}
