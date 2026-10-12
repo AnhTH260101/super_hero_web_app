@@ -17,11 +17,13 @@ import {
   Trophy,
   Sparkles,
   Gift,
+  FileText,
 } from 'lucide-react';
-import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode } from '@/types/game';
+import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode, GuideArticle } from '@/types/game';
 import { AdminTierListEditor } from './AdminTierListEditor';
 import { AdminResourceEditor } from './AdminResourceEditor';
 import { AdminGiftcodeEditor } from './AdminGiftcodeEditor';
+import { AdminGuideEditor } from './AdminGuideEditor';
 
 interface AdminDashboardProps {
   initialHeroes: Hero[];
@@ -29,6 +31,7 @@ interface AdminDashboardProps {
   initialResources?: ResourceItem[];
   initialSources?: ResourceSource[];
   initialGiftcodes?: Giftcode[];
+  initialGuides?: GuideArticle[];
   gameSlug: string;
 }
 
@@ -38,11 +41,12 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   initialResources = [],
   initialSources = [],
   initialGiftcodes = [],
+  initialGuides = [],
   gameSlug,
 }) => {
   const [adminToken, setAdminToken] = useState('admin123');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'giftcodes' | 'trash'>('active');
+  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'giftcodes' | 'guides' | 'trash'>('active');
 
   const [heroes, setHeroes] = useState<Hero[]>(initialHeroes);
   const [trashHeroes, setTrashHeroes] = useState<Hero[]>([]);
@@ -327,6 +331,21 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
           <button
             onClick={() => {
+              setCurrentTab('guides');
+              setSelectedSlugs([]);
+            }}
+            className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+              currentTab === 'guides'
+                ? 'bg-purple-500 text-white shadow-md'
+                : 'text-slate-400 hover:text-white hover:bg-slate-900'
+            }`}
+          >
+            <FileText className="w-4 h-4" />
+            <span>Sự Kiện & Bài Viết ({initialGuides.length})</span>
+          </button>
+
+          <button
+            onClick={() => {
               setCurrentTab('trash');
               setSelectedSlugs([]);
               fetchTrash();
@@ -375,6 +394,13 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
         ) : currentTab === 'giftcodes' ? (
           <AdminGiftcodeEditor
             initialGiftcodes={initialGiftcodes}
+            gameSlug={gameSlug}
+          />
+        ) : currentTab === 'guides' ? (
+          <AdminGuideEditor
+            initialGuides={initialGuides}
+            allHeroes={heroes}
+            allResources={initialResources}
             gameSlug={gameSlug}
           />
         ) : (

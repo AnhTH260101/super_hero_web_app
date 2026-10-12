@@ -228,3 +228,78 @@ export interface ResourceItem {
   description: string[];
   sources: ResourceItemSourceRef[];
 }
+
+export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources';
+
+export interface GuideTextBlock {
+  id: string;
+  type: 'text';
+  title?: string;
+  content: string;
+  variant?: 'normal' | 'tip' | 'warning' | 'strategy';
+}
+
+export interface GuideHeroItem {
+  heroSlug: string;
+  name: string;
+  avatar: string;
+  element?: string;
+  rarity?: string;
+  role?: string;
+  note?: string;
+}
+
+export interface GuideHeroRosterBlock {
+  id: string;
+  type: 'hero-roster';
+  title?: string;
+  description?: string;
+  heroes: GuideHeroItem[];
+}
+
+export interface GuideImageItem {
+  url: string;
+  caption?: string;
+}
+
+export interface GuideGalleryBlock {
+  id: string;
+  type: 'gallery';
+  title?: string;
+  layout: 'single' | 'grid-2' | 'grid-3';
+  images: GuideImageItem[];
+}
+
+export interface GuideResourceItem {
+  id: string;
+  name: string;
+  icon: string;
+  note?: string;
+}
+
+export interface GuideResourcesBlock {
+  id: string;
+  type: 'resources';
+  title?: string;
+  description?: string;
+  items: GuideResourceItem[];
+}
+
+export type GuideBlock =
+  | GuideTextBlock
+  | GuideHeroRosterBlock
+  | GuideGalleryBlock
+  | GuideResourcesBlock;
+
+export interface GuideArticle {
+  id: string;
+  slug: string;
+  title: string;
+  category: 'boss' | 'event' | 'daily' | 'dungeon';
+  schedule?: string;
+  description: string;
+  thumbnail?: string;
+  blocks: GuideBlock[];
+  updatedAt: string;
+}
+

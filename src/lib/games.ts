@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { GameMeta, Hero, TierListData, Giftcode } from '@/types/game';
+import { GameMeta, Hero, TierListData, Giftcode, GuideArticle } from '@/types/game';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/games');
 
@@ -177,3 +177,35 @@ export function getGameResourceSources(gameSlug: string): import('@/types/game')
     return [];
   }
 }
+
+export function getGameGuides(gameSlug: string): GuideArticle[] {
+  const guidesDir = path.join(CONTENT_DIR, gameSlug, 'guides');
+  if (!fs.existsSync(guidesDir)) return [];
+  const files = fs.readdirSync(guidesDir).filter(f => f.endsWith('.json'));
+  const articles: GuideArticle[] = [];
+  for (const file of files) {
+    try {
+      const raw = fs.readFileSync(path.join(guidesDir, file), 'utf-8');
+      const article: GuideArticle = JSON.parse(raw);
+      articles.push(article);
+    } catch (err) {
+      console.error(`Error reading guide ${file}:`, err);
+    }
+  }
+  // Sắp xếp theo ngày cập nhật mới nhất
+  return articles.sort((a, b) => new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime());
+}
+
+export function getGuideBySlug(gameSlug: string, guideSlug: string): GuideArticle | null {
+  const guidePath = path.join(CONTENT_DIR, gameSlug, 'guides', `${guideSlug}.json`);
+  if (fs.existsSync(guidePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(guidePath, 'utf-8'));
+    } catch {
+      return null;
+    }
+  }
+  const allGuides = getGameGuides(gameSlug);
+  return allGuides.find(g => g.slug === guideSlug || g.id === guideSlug) || null;
+}
+

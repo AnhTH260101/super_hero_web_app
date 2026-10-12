@@ -1,5 +1,13 @@
 import { notFound } from 'next/navigation';
-import { getGameMeta, getGameHeroes, getTierList, getGameResources, getGameResourceSources, getGiftcodes } from '@/lib/games';
+import {
+  getGameMeta,
+  getGameHeroes,
+  getTierList,
+  getGameResources,
+  getGameResourceSources,
+  getGiftcodes,
+  getGameGuides,
+} from '@/lib/games';
 import { AdminDashboard } from '@/components/admin/AdminDashboard';
 
 export default async function AdminPage() {
@@ -12,6 +20,7 @@ export default async function AdminPage() {
   const resources = getGameResources(gameSlug);
   const sources = getGameResourceSources(gameSlug);
   const giftcodes = getGiftcodes(gameSlug);
+  const guides = getGameGuides(gameSlug);
 
   return (
     <AdminDashboard
@@ -20,6 +29,7 @@ export default async function AdminPage() {
       initialResources={resources}
       initialSources={sources}
       initialGiftcodes={giftcodes}
+      initialGuides={guides}
       gameSlug={gameSlug}
     />
   );

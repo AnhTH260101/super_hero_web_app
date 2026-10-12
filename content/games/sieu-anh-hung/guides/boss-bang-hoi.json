@@ -1,0 +1,59 @@
+{
+  "id": "guide-boss-bang-hoi",
+  "slug": "boss-bang-hoi",
+  "title": "Boss Bang Hội (Guild Boss)",
+  "category": "boss",
+  "schedule": "Mỗi Ngày (2-3 Lượt Khiêu Chiến)",
+  "description": "Thành viên trong Bang cùng nhau tích lũy sát thương để hạ gục Boss bang qua từng cấp độ. Khi boss bị hạ, toàn bộ thành viên đều nhận quà qua thư.",
+  "thumbnail": "/images/icon_boss/boss_icon_2.png",
+  "blocks": [
+    {
+      "id": "block-text-1",
+      "type": "text",
+      "title": "Quy Tắc Đánh Boss Bang Hội",
+      "content": "Boss Bang mở mỗi ngày cho tất cả thành viên trong Bang Hội. Mỗi thành viên có 2-3 lượt khiêu chiến miễn phí.\n- Sát thương tích lũy qua từng đợt để hạ gục cấp độ Boss hiện tại.\n- Sau khi Boss bị tiêu diệt, Bang Chủ hoặc Phó Bang Chủ có thể mở Boss cấp tiếp theo khó hơn nhưng thưởng nhiều hơn.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-hero-1",
+      "type": "hero-roster",
+      "title": "Tướng Đề Xuất Khiêu Chiến Boss Bang",
+      "description": "Tập trung các tướng có khả năng duy trì sát thương liên tục và kháng hiệu ứng khống chế từ Boss.",
+      "heroes": [
+        {
+          "heroSlug": "laxus-dreyar",
+          "name": "Laxus Dreyar",
+          "avatar": "/images/heroes/icon_heroes/laxus-dreyar.png",
+          "element": "Lôi điện",
+          "rarity": "SSR",
+          "role": "Sát Thương / Tê Liệt",
+          "note": "Khả năng sốc sát thương sấm sét và tăng tỉ lệ chí mạng cho bản thân."
+        },
+        {
+          "heroSlug": "superman",
+          "name": "Superman",
+          "avatar": "/images/heroes/icon_heroes/superman.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker / Sát Thương",
+          "note": "Hấp thu sát thương tuyến đầu bảo vệ đội hình chủ lực."
+        }
+      ]
+    },
+    {
+      "id": "block-res-1",
+      "type": "resources",
+      "title": "Phần Thưởng Bang Hội",
+      "description": "Cống hiến bang hội và tiền tệ mua đồ trong Tiệm Bang.",
+      "items": [
+        {
+          "id": "tai-nguyen-1791731665780",
+          "name": "Tinh hoa - Pháp bảo",
+          "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+          "note": "Rương thưởng cấp độ Boss Bang"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-12T11:00:00.000Z"
+}

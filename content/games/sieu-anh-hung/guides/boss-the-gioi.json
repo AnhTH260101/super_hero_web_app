@@ -1,0 +1,81 @@
+{
+  "id": "guide-boss-the-gioi",
+  "slug": "boss-the-gioi",
+  "title": "Boss Thế Giới (World Boss)",
+  "category": "boss",
+  "schedule": "12:00 & 20:00 Hàng Ngày",
+  "description": "Hoạt động quy mô toàn server diễn ra vào các khung giờ cố định trưa và tối. Toàn bộ người chơi tập trung gây sát thương lớn nhất có thể trước khi Boss bị tiêu diệt.",
+  "thumbnail": "/images/icon_boss/boss_icon_1.png",
+  "blocks": [
+    {
+      "id": "block-text-1",
+      "type": "text",
+      "title": "Cơ Chế Khiêu Chiến & Thời Gian Mở",
+      "content": "Boss Thế Giới xuất hiện đúng 12:00 và 20:00 mỗi ngày. Mỗi đợt khiêu chiến kéo dài tối đa 30 phút hoặc kết thúc sớm hơn nếu Boss bị hạ gục.\n- Toàn bộ người chơi trong server đều có thể tham gia không giới hạn lượt đánh (có thời gian hồi sinh lượt).\n- Sát thương gây ra được tích lũy vào Bảng Xếp Hạng Server theo thời gian thực.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-hero-1",
+      "type": "hero-roster",
+      "title": "Đội Hình Đề Xuất Tối Ưu Sát Thương Đơn Thể",
+      "description": "Ưu tiên các tướng dồn sát thương bạo kích, bỏ qua kháng cự hoặc tăng sát thương theo % máu.",
+      "heroes": [
+        {
+          "heroSlug": "superman",
+          "name": "Superman",
+          "avatar": "/images/heroes/icon_heroes/superman.png",
+          "element": "Vũ trụ nguyên tố",
+          "rarity": "SSR",
+          "role": "Tanker / Sát Thương",
+          "note": "Kỹ năng Phóng Tia gây sát thương vật lý và lửa cực mạnh kèm giảm nộ của Boss."
+        },
+        {
+          "heroSlug": "son-tinh",
+          "name": "Sơn Tinh",
+          "avatar": "/images/heroes/icon_heroes/son-tinh.png",
+          "element": "Hỗn loạn",
+          "rarity": "SSR",
+          "role": "Sát Thương Chủ Lực",
+          "note": "Khả năng dồn dame đơn mục tiêu vượt trội khi Boss còn trên 50% máu."
+        },
+        {
+          "heroSlug": "sakura",
+          "name": "Sakura",
+          "avatar": "/images/heroes/icon_heroes/sakura.png",
+          "element": "Thực vật nguyên tố",
+          "rarity": "SSR",
+          "role": "Hỗ Trợ / Hồi Máu",
+          "note": "Duy trì khả năng sống sót cho đội hình qua các lượt nộ liên hoàn của Boss."
+        }
+      ]
+    },
+    {
+      "id": "block-text-2",
+      "type": "text",
+      "title": "Mẹo Leo Top Sát Thương & Canh Last Hit",
+      "content": "1. Buff Cổ Vũ: Sử dụng Vàng hoặc Kim Cương để mua buff Cổ Vũ Công trước khi vào đánh để tăng đến 100% Sức Tấn Công.\n2. Bỏ qua Animation: Sử dụng tính năng Tăng Tốc hoặc Bỏ Qua để hoàn thành lượt đánh nhanh nhất, tối đa số lượt có thể tham chiến.\n3. Canh đòn kết liễu: Khi Boss còn dưới 2% máu, canh thời gian nộ để nhận thưởng Last Hit cực khủng.",
+      "variant": "strategy"
+    },
+    {
+      "id": "block-res-1",
+      "type": "resources",
+      "title": "Phần Thưởng Đua Top & Tham Gia",
+      "description": "Bao gồm phần thưởng rương hoàng kim, tinh hoa quý hiếm và mảnh tướng đặc biệt.",
+      "items": [
+        {
+          "id": "tai-nguyen-1791731665780",
+          "name": "Tinh hoa - Pháp bảo",
+          "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+          "note": "Thưởng Top 1-10 sát thương server"
+        },
+        {
+          "id": "tai-nguyen-1791731533648",
+          "name": "Tinh hoa - Đá lò",
+          "icon": "/images/resources/items/tinh-hoa-da-lo.png",
+          "note": "Thưởng tham gia đánh Boss tích lũy"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-12T11:00:00.000Z"
+}
