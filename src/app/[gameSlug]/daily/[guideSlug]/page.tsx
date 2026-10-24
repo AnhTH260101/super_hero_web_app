@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getGameMeta, getGuideBySlug, getActivityBySlug, getGameGuides } from '@/lib/games';
+import { getGameMeta, getGuideBySlug, getActivityBySlug, getGameGuides, getGameActivities } from '@/lib/games';
 import { Header } from '@/components/layout/Header';
 import { MonetizationBanner } from '@/components/monetization/MonetizationBanner';
 import { GuideArticleRenderer } from '@/components/guide/GuideArticleRenderer';
@@ -17,7 +17,7 @@ function renderActivityIcon(iconName?: string) {
   if (iconName === 'Sparkles') return <Sparkles className="w-7 h-7" />;
   if (iconName === 'Shield') return <Shield className="w-7 h-7" />;
   if (iconName?.startsWith('/') || iconName?.startsWith('http')) {
-    return <img src={iconName} alt="" className="w-7 h-7 object-contain" />;
+    return <img src={iconName} alt="" className="w-full h-full object-cover" />;
   }
   return <Calendar className="w-7 h-7" />;
 }
@@ -31,6 +31,7 @@ export default async function GuideOrActivityPage({ params }: Props) {
   const activity = getActivityBySlug(gameSlug, guideSlug);
   if (activity) {
     const allGuides = getGameGuides(gameSlug);
+    const activities = getGameActivities(gameSlug);
     const activityGuides = allGuides.filter(
       (g) => g.category === activity.slug || g.slug === activity.slug
     );
@@ -51,7 +52,7 @@ export default async function GuideOrActivityPage({ params }: Props) {
                 <span>Về Tất Cả Hoạt Động</span>
               </Link>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 shrink-0 overflow-hidden">
                   {renderActivityIcon(activity.icon)}
                 </div>
                 <div>
@@ -84,6 +85,7 @@ export default async function GuideOrActivityPage({ params }: Props) {
                   key={guide.slug}
                   article={guide}
                   gameSlug={gameSlug}
+                  activities={activities}
                 />
               ))}
             </div>
@@ -134,7 +136,11 @@ export default async function GuideOrActivityPage({ params }: Props) {
         />
 
         {/* Render Bài Viết */}
-        <GuideArticleRenderer article={article} gameSlug={gameSlug} />
+        <GuideArticleRenderer
+          article={article}
+          gameSlug={gameSlug}
+          activities={getGameActivities(gameSlug)}
+        />
       </main>
     </div>
   );

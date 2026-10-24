@@ -31,7 +31,7 @@ function renderActivityIcon(iconName?: string) {
   if (iconName === 'Crown') return <Crown className="w-6 h-6" />;
   if (iconName === 'Target') return <Target className="w-6 h-6" />;
   if (iconName?.startsWith('/') || iconName?.startsWith('http')) {
-    return <img src={iconName} alt="" className="w-6 h-6 object-contain" />;
+    return <img src={iconName} alt="" className="w-full h-full object-cover" />;
   }
   return <Calendar className="w-6 h-6" />;
 }
@@ -112,7 +112,7 @@ export default async function DailyActivitiesHubPage({ params }: Props) {
                 <div className="space-y-4">
                   <div className="flex items-start justify-between gap-3">
                     <div
-                      className={`w-14 h-14 rounded-2xl border flex items-center justify-center transition-transform group-hover:scale-110 ${getActivityColorClass(
+                      className={`w-14 h-14 rounded-2xl border flex items-center justify-center transition-transform group-hover:scale-110 overflow-hidden ${getActivityColorClass(
                         act.color
                       )}`}
                     >

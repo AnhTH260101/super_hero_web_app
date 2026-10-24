@@ -104,28 +104,28 @@
   ],
   "afterlifeForms": [
     {
-      "slug": "ct-kurosaki",
-      "name": "CT-Kurosaki",
-      "avatar": "/images/heroes/icon_heroes/ct-kurosaki.png",
+      "slug": "ct-kurosaki-thanh",
+      "name": "CT-Kurosaki (Thánh)",
+      "avatar": "/images/heroes/icon_heroes/icon_Ichig.png",
       "rarity": "UR",
       "role": "Tanker",
-      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
+      "overview": "Dạng thức tỉnh Thánh/Thủy Giải của Kurosaki với kỹ năng Vạn Giải mở rộng, mang khả năng miễn thương và phản đòn toàn năng."
+    },
+    {
+      "slug": "ct-kurosaki-mugetsu",
+      "name": "CT-Kurosaki (Mugetsu)",
+      "avatar": "/images/heroes/icon_heroes/icon_Ichig1.png",
+      "rarity": "UR",
+      "role": "Tanker",
+      "overview": "Dạng Vô Nguyệt (Mugetsu) tối thượng của Kurosaki, giải phóng toàn bộ linh áp, sở hữu Vách Thứ Nguyên, Linh Áp Bạo Phát và Bleach.Liên Vũ."
     },
     {
       "slug": "ct-kurosaki",
-      "name": "CT-Kurosaki",
-      "avatar": "/images/heroes/icon_heroes/ct-kurosaki.png",
+      "name": "CT-Kurosaki (Hư Hóa)",
+      "avatar": "/images/heroes/icon_heroes/icon_Ichig2.png",
       "rarity": "UR",
       "role": "Tanker",
-      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
-    },
-    {
-      "slug": "ct-kurosaki",
-      "name": "CT-Kurosaki",
-      "avatar": "/images/heroes/icon_heroes/ct-kurosaki.png",
-      "rarity": "UR",
-      "role": "Tanker",
-      "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!"
+      "overview": "Dạng Hư Hóa (Vasto Lorde) mặt nạ sọc đỏ uy mãnh của Kurosaki, giải phóng Lực Vương Hư, Hư Vô Trảm và Vương Hư.Sáng."
     }
   ],
   "breakthroughSimData": [

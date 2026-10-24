@@ -1,0 +1,179 @@
+{
+  "id": "guide-1791866615154",
+  "slug": "bai-viet-5154",
+  "title": "Kiếm xu",
+  "category": "kiem-xu",
+  "schedule": "",
+  "description": "Những cách kiếm xu",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791866615154-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Nhập nội dung hướng dẫn chi tiết tại đây...",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1791866728207",
+      "type": "gallery",
+      "title": "Nhiệm vụ hàng ngày",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_11_45_17_1791866772935.png",
+          "caption": "300 xu"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_11_47_13_1791866844917.png",
+          "caption": "300 xu"
+        }
+      ]
+    },
+    {
+      "id": "block-1791866905627",
+      "type": "gallery",
+      "title": "Đấu trường",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_11_48_16_1791866941919.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "block-1791866953689",
+      "type": "table",
+      "title": "Bảng Phần Thưởng & Mốc Nạp",
+      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Hạng",
+          "type": "text"
+        },
+        {
+          "id": "col-2",
+          "label": "Vật Phẩm Thưởng",
+          "type": "resource"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1791866988330",
+          "cells": {
+            "col-1": {
+              "text": "1"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Xu",
+                  "icon": "/images/resources/items/xu.png",
+                  "quantity": "x2000"
+                }
+              ],
+              "resource": {
+                "name": "Xu",
+                "icon": "/images/resources/items/xu.png",
+                "quantity": "x2000"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791867012950",
+          "cells": {
+            "col-1": {
+              "text": "2"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Xu",
+                  "icon": "/images/resources/items/xu.png",
+                  "quantity": "x1000"
+                }
+              ],
+              "resource": {
+                "name": "Xu",
+                "icon": "/images/resources/items/xu.png",
+                "quantity": "x1000"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-1791867081112",
+      "type": "gallery",
+      "title": "Tháp hoang tinh tế (reset theo tuần)",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_11_51_15_1791867100377.png",
+          "caption": "Thành tựu tuần 500 xu + 1 thẻ xanh"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_11_53_09_1791867200852.png",
+          "caption": "Thưởng khoang 200 xu"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_12_02_57_1791867788974.png",
+          "caption": "Thưởng cự li tổng: 1500 xu"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_12_04_36_1791867886905.png",
+          "caption": "Chạy tàu đôi khi được 900 xu"
+        }
+      ]
+    },
+    {
+      "id": "block-1791868007489",
+      "type": "gallery",
+      "title": "Thần vực 12 cung (Khê khó nuốt)",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_12_06_36_1791868025886.png",
+          "caption": "Chiếm ô may mắn cố định: 100 xu. Ô may mắn ngẫu nhiên: 200 xu. Kích sát boss: 500 xu"
+        }
+      ]
+    },
+    {
+      "id": "block-1791868219960",
+      "type": "gallery",
+      "title": "Quà vip hàng ngày",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_12_09_43_1791868236871.png",
+          "caption": "Tùy theo cấp độ vip [[nap-the|Nạp thẻ]] "
+        }
+      ]
+    },
+    {
+      "id": "block-1792432384461",
+      "type": "gallery",
+      "title": "Cổ linh các",
+      "layout": "grid-3",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-20_at_00_53_58_1792432451426.png",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-20_at_00_52_21_1792432461016.png",
+          "caption": "Vip 7 trở lên không nạp thì đại khái được 8k xu"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-20_at_00_55_22_1792432532399.png",
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-19T17:56:24.010Z"
+}

@@ -16,6 +16,11 @@ import {
   ZoomIn,
   X,
   Table as TableIcon,
+  Link2,
+  ArrowUpRight,
+  ExternalLink,
+  Calendar,
+  Route,
 } from 'lucide-react';
 import {
   GuideArticle,
@@ -25,16 +30,24 @@ import {
   GuideGalleryBlock,
   GuideResourcesBlock,
   GuideTableBlock,
+  GuideTableCellResource,
   GuideHeroSourceBlock,
   GuideResourceCardBlock,
+  GuideStepFlowBlock,
+  GuideCalculatorBlock,
+  GameActivity,
 } from '@/types/game';
+import { RichTextWithTags } from './RichTextWithTags';
+import { LayeredIcon } from './LayeredIcon';
+import { CashflowCalculator } from './CashflowCalculator';
 
 interface Props {
   article: GuideArticle;
   gameSlug: string;
+  activities?: GameActivity[];
 }
 
-export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => {
+export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug, activities = [] }) => {
   const [lightboxImage, setLightboxImage] = useState<{ url: string; caption?: string } | null>(null);
   return (
     <article className="rounded-3xl bg-slate-900 border border-slate-800 p-6 sm:p-8 space-y-8 shadow-2xl">
@@ -73,8 +86,39 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
 
         {article.description && (
           <p className="text-sm text-slate-300 leading-relaxed font-sans max-w-4xl">
-            {article.description}
+            <RichTextWithTags text={article.description} gameSlug={gameSlug} activities={activities} />
           </p>
+        )}
+
+        {article.relatedActivities && article.relatedActivities.length > 0 && (
+          <div className="flex items-center gap-2 flex-wrap pt-2">
+            <span className="text-xs font-bold text-slate-400 flex items-center gap-1.5">
+              <Link2 className="w-3.5 h-3.5 text-amber-400" />
+              <span>Hoạt động liên quan:</span>
+            </span>
+            {article.relatedActivities.map((actSlug) => {
+              const act = activities.find((a) => a.slug === actSlug);
+              return (
+                <Link
+                  key={actSlug}
+                  href={`/${gameSlug}/daily/${actSlug}`}
+                  className="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 hover:border-amber-500/60 text-amber-300 hover:text-amber-200 text-xs font-bold transition-all shadow-xs group"
+                >
+                  {act?.icon?.startsWith('/') ? (
+                    <img
+                      src={act.icon}
+                      alt=""
+                      className="w-4 h-4 object-cover rounded shrink-0"
+                    />
+                  ) : (
+                    <Calendar className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                  )}
+                  <span>{act?.name || actSlug}</span>
+                  <ArrowUpRight className="w-3 h-3 text-amber-400/70 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" />
+                </Link>
+              );
+            })}
+          </div>
         )}
 
         {/* Ảnh Banner / Thumbnail Đầu Bài Viết (nếu có) */}
@@ -130,7 +174,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                 )}
 
                 <div className="text-xs sm:text-sm text-slate-300 leading-relaxed whitespace-pre-line">
-                  {b.content}
+                  <RichTextWithTags text={b.content} gameSlug={gameSlug} activities={activities} />
                 </div>
               </div>
             );
@@ -149,32 +193,34 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       {b.title || 'Đội Hình Đề Xuất'}
                     </h3>
                     {b.description && (
-                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                      <p className="text-xs text-slate-400 mt-0.5">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
                     )}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {b.heroes?.map((hero) => (
+                  {b.heroes?.map((hero, hIdx) => (
                     <Link
-                      key={hero.heroSlug}
+                      key={`${hero.heroSlug || 'hero'}-${hIdx}`}
                       href={`/${gameSlug}/heroes/${hero.heroSlug}`}
                       className="p-3.5 rounded-2xl bg-slate-950 border border-slate-800 hover:border-amber-500/60 flex items-start gap-3.5 group transition-all"
                     >
                       <div className="relative shrink-0">
-                        <img
+                        <LayeredIcon
                           src={hero.avatar}
                           alt={hero.name}
-                          className="w-14 h-14 rounded-2xl border border-slate-700 object-cover group-hover:scale-105 transition-transform"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                          }}
-                        />
-                        {hero.rarity && (
-                          <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 text-[9px] font-black rounded-md bg-amber-500 text-slate-950 shadow">
-                            {hero.rarity}
-                          </span>
-                        )}
+                          layers={hero.layers}
+                          className="w-14 h-14 rounded-2xl border border-slate-700 overflow-hidden group-hover:scale-105 transition-transform"
+                          imgClassName="w-full h-full object-cover"
+                        >
+                          {hero.rarity && (
+                            <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 text-[9px] font-black rounded-md bg-amber-500 text-slate-950 shadow">
+                              {hero.rarity}
+                            </span>
+                          )}
+                        </LayeredIcon>
                       </div>
 
                       <div className="flex-1 min-w-0 space-y-1">
@@ -247,7 +293,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       </div>
                       {img.caption && (
                         <div className="p-3 text-xs text-slate-300 font-medium text-center bg-slate-950/90 border-t border-slate-800/80">
-                          {img.caption}
+                          <RichTextWithTags text={img.caption} gameSlug={gameSlug} activities={activities} />
                         </div>
                       )}
                     </div>
@@ -268,25 +314,32 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       {b.title || 'Phần Thưởng Nổi Bật'}
                     </h3>
                     {b.description && (
-                      <p className="text-xs text-slate-400">{b.description}</p>
+                      <p className="text-xs text-slate-400">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
                     )}
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                   {b.items?.map((item, rIdx) => (
-                    <div
+                    <Link
                       key={rIdx}
-                      className="p-3 rounded-2xl bg-slate-950 border border-slate-800/80 flex items-center gap-3"
+                      href={`/${gameSlug}/resources`}
+                      className="p-3 rounded-2xl bg-slate-950 border border-slate-800/80 hover:border-emerald-500/50 flex items-center gap-3 transition-all hover:bg-slate-900 group"
+                      title="Xem trong Kho Tài Nguyên Game"
                     >
-                      <img
+                      <LayeredIcon
                         src={item.icon}
                         alt={item.name}
-                        className="w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 p-1 object-contain shrink-0"
+                        layers={item.layers}
+                        className="w-12 h-12 rounded-xl bg-slate-900 border border-slate-800 p-1 overflow-hidden shrink-0 group-hover:scale-105 transition-transform"
+                        imgClassName="w-full h-full object-contain"
                       />
                       <div className="min-w-0 flex-1">
-                        <div className="font-bold text-xs sm:text-sm text-white truncate">
-                          {item.name}
+                        <div className="font-bold text-xs sm:text-sm text-white group-hover:text-emerald-300 transition-colors truncate flex items-center justify-between">
+                          <span>{item.name}</span>
+                          <ArrowUpRight className="w-3.5 h-3.5 text-slate-500 group-hover:text-emerald-400 opacity-60 group-hover:opacity-100 transition-opacity" />
                         </div>
                         {item.note && (
                           <div className="text-[11px] text-emerald-400 font-medium truncate mt-0.5">
@@ -294,7 +347,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                           </div>
                         )}
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>
@@ -314,7 +367,9 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       {b.title || 'Nguồn Tướng Nhận Được'}
                     </h3>
                     {b.description && (
-                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                      <p className="text-xs text-slate-400 mt-0.5">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
                     )}
                   </div>
                 </div>
@@ -322,7 +377,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                   {b.heroes?.map((hero, hIdx) => (
                     <div
-                      key={hero.heroSlug || hIdx}
+                      key={`${hero.heroSlug || 'hero'}-${hIdx}`}
                       className="p-3.5 rounded-2xl bg-slate-950 border border-slate-800/80 hover:border-purple-500/50 transition-all flex items-start gap-3.5 group"
                     >
                       <Link
@@ -330,19 +385,19 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                         className="relative shrink-0 block"
                         title={`Xem chi tiết ${hero.name}`}
                       >
-                        <img
+                        <LayeredIcon
                           src={hero.avatar}
                           alt={hero.name}
-                          className="w-14 h-14 rounded-2xl border border-slate-700 object-cover group-hover:scale-105 transition-transform"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                          }}
-                        />
-                        {hero.rarity && (
-                          <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 text-[9px] font-black rounded-md bg-amber-500 text-slate-950 shadow">
-                            {hero.rarity}
-                          </span>
-                        )}
+                          layers={hero.layers}
+                          className="w-14 h-14 rounded-2xl border border-slate-700 overflow-hidden group-hover:scale-105 transition-transform"
+                          imgClassName="w-full h-full object-cover"
+                        >
+                          {hero.rarity && (
+                            <span className="absolute -top-1.5 -right-1.5 px-1.5 py-0.2 text-[9px] font-black rounded-md bg-amber-500 text-slate-950 shadow">
+                              {hero.rarity}
+                            </span>
+                          )}
+                        </LayeredIcon>
                       </Link>
 
                       <div className="min-w-0 flex-1 space-y-1.5">
@@ -361,9 +416,9 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                         </div>
 
                         {hero.sourceNote && (
-                          <div className="text-[11px] text-amber-300 font-bold bg-amber-500/10 border border-amber-500/20 px-2 py-1 rounded-xl flex items-center gap-1.5">
+                          <div className="text-[11px] text-amber-300 font-bold bg-amber-500/10 border border-amber-500/20 px-2 py-1 rounded-xl flex items-center gap-1.5 flex-wrap">
                             <span className="text-amber-400 shrink-0">🎁</span>
-                            <span className="truncate">{hero.sourceNote}</span>
+                            <RichTextWithTags text={hero.sourceNote} gameSlug={gameSlug} activities={activities} />
                           </div>
                         )}
                       </div>
@@ -378,8 +433,8 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
             const b = block as GuideTableBlock;
             return (
               <div key={b.id || idx} className="space-y-4 pt-2">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-2xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 shrink-0">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-teal-500/10 border border-teal-500/30 flex items-center justify-center text-teal-400 shrink-0 mt-0.5">
                     <TableIcon className="w-5 h-5" />
                   </div>
                   <div>
@@ -387,7 +442,9 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       <span>{b.title || 'Bảng Biểu Chi Tiết'}</span>
                     </h3>
                     {b.description && (
-                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                      <p className="text-xs text-slate-400 mt-1 whitespace-pre-line leading-relaxed">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
                     )}
                   </div>
                 </div>
@@ -416,17 +473,44 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                               <td key={col.id} className="py-3 px-4 align-middle">
                                 {col.type === 'text' ? (
                                   <span className="font-semibold text-slate-200 whitespace-pre-wrap">
-                                    {cell?.text || '—'}
+                                    <RichTextWithTags text={cell?.text} gameSlug={gameSlug} activities={activities} />
+                                    {!cell?.text && '—'}
                                   </span>
                                 ) : (
                                   <div>
                                     {(() => {
-                                      const items =
-                                        cell?.resources && cell.resources.length > 0
+                                      const items: GuideTableCellResource[] = [
+                                        ...(Array.isArray(cell?.resources) && cell.resources.length > 0
                                           ? cell.resources
                                           : cell?.resource?.name || cell?.resource?.icon
                                           ? [cell.resource]
-                                          : [];
+                                          : []),
+                                        ...(Array.isArray(cell?.heroes) && cell.heroes.length > 0
+                                          ? cell.heroes.map((h) => ({
+                                              name: h.name,
+                                              icon: h.avatar,
+                                              quantity: h.note,
+                                              heroSlug: h.heroSlug,
+                                              rarity: h.rarity,
+                                              element: h.element,
+                                              itemType: 'hero' as const,
+                                              layers: h.layers,
+                                            }))
+                                          : cell?.hero?.name || cell?.hero?.avatar
+                                          ? [
+                                              {
+                                                name: cell.hero.name,
+                                                icon: cell.hero.avatar,
+                                                quantity: cell.hero.note,
+                                                heroSlug: cell.hero.heroSlug,
+                                                rarity: cell.hero.rarity,
+                                                element: cell.hero.element,
+                                                itemType: 'hero' as const,
+                                                layers: cell.hero.layers,
+                                              },
+                                            ]
+                                          : []),
+                                      ];
 
                                       if (items.length === 0) {
                                         return <span className="text-slate-600 text-xs italic">—</span>;
@@ -434,46 +518,107 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
 
                                       return (
                                         <div className="flex flex-wrap items-center gap-2 py-1">
-                                          {items.map((item, iIdx) => (
-                                            <div
-                                              key={iIdx}
-                                              className="flex items-center gap-2 px-2.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 shadow-sm hover:border-slate-700 transition-colors"
-                                            >
-                                              {item.icon && (
+                                          {items.map((item, iIdx) => {
+                                            const isHero = item.itemType === 'hero' || Boolean(item.heroSlug) || Boolean(item.rarity);
+                                            if (isHero) {
+                                              const rarityColor =
+                                                item.rarity === 'UR'
+                                                  ? 'border-red-500/50 bg-red-950/20 text-red-300'
+                                                  : item.rarity === 'SSR'
+                                                  ? 'border-amber-500/50 bg-amber-950/20 text-amber-300'
+                                                  : 'border-slate-700 bg-slate-900 text-slate-300';
+
+                                              return (
                                                 <div
-                                                  className="w-7 h-7 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 shrink-0 flex items-center justify-center cursor-zoom-in hover:scale-105 transition-transform"
-                                                  onClick={() =>
-                                                    item.icon &&
-                                                    setLightboxImage({
-                                                      url: item.icon,
-                                                      caption: item.name,
-                                                    })
-                                                  }
-                                                  title="Bấm để phóng to"
+                                                  key={iIdx}
+                                                  className={`flex items-center gap-2 px-2.5 py-1.5 rounded-xl border shadow-sm transition-all ${rarityColor}`}
                                                 >
-                                                  <img
+                                                  {item.icon && (
+                                                    <LayeredIcon
+                                                      src={item.icon}
+                                                      alt={item.name}
+                                                      layers={item.layers}
+                                                      className="w-8 h-8 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 shrink-0 overflow-hidden cursor-zoom-in hover:scale-105 transition-transform"
+                                                      imgClassName="w-full h-full object-contain"
+                                                      onClick={() =>
+                                                        item.icon &&
+                                                        setLightboxImage({
+                                                          url: item.icon,
+                                                          caption: item.name,
+                                                        })
+                                                      }
+                                                      title="Bấm để xem ảnh tướng"
+                                                    />
+                                                  )}
+                                                  <div className="flex flex-col min-w-0">
+                                                    <div className="flex items-center gap-1.5">
+                                                      {item.heroSlug ? (
+                                                        <Link
+                                                          href={`/${gameSlug}/heroes/${item.heroSlug}`}
+                                                          className="font-black text-xs text-white hover:text-amber-400 transition-colors whitespace-nowrap flex items-center gap-0.5 group/link"
+                                                          title={`Xem chi tiết tướng ${item.name}`}
+                                                        >
+                                                          <span>{item.name || 'Tướng'}</span>
+                                                          <ArrowUpRight className="w-3 h-3 opacity-0 group-hover/link:opacity-100 text-amber-400 transition-opacity" />
+                                                        </Link>
+                                                      ) : (
+                                                        <span className="font-black text-xs text-white whitespace-nowrap">
+                                                          {item.name || 'Tướng'}
+                                                        </span>
+                                                      )}
+                                                      {item.rarity && (
+                                                        <span className="text-[9px] font-black px-1 rounded bg-black/40 text-amber-400 font-mono">
+                                                          {item.rarity}
+                                                        </span>
+                                                      )}
+                                                    </div>
+                                                    {item.quantity && (
+                                                      <span className="text-[10px] font-bold text-amber-400 font-mono mt-0.5">
+                                                        {item.quantity}
+                                                      </span>
+                                                    )}
+                                                  </div>
+                                                </div>
+                                              );
+                                            }
+
+                                            return (
+                                              <Link
+                                                key={iIdx}
+                                                href={`/${gameSlug}/resources`}
+                                                className="flex items-center gap-2 px-2.5 py-1.5 rounded-xl bg-slate-900 border border-slate-800 shadow-sm hover:border-emerald-500/50 hover:bg-slate-850 transition-all group"
+                                                title="Xem trong Kho Tài Nguyên Game"
+                                              >
+                                                {item.icon && (
+                                                  <LayeredIcon
                                                     src={item.icon}
                                                     alt={item.name}
-                                                    className="w-full h-full object-contain"
-                                                    onError={(e) => {
-                                                      (e.target as HTMLImageElement).src =
-                                                        '/images/heroes/icon_heroes/default.png';
-                                                    }}
+                                                    layers={item.layers}
+                                                    className="w-7 h-7 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 shrink-0 overflow-hidden cursor-zoom-in hover:scale-105 transition-transform"
+                                                    imgClassName="w-full h-full object-contain"
+                                                    onClick={() =>
+                                                      item.icon &&
+                                                      setLightboxImage({
+                                                        url: item.icon,
+                                                        caption: item.name,
+                                                      })
+                                                    }
+                                                    title="Bấm để phóng to"
                                                   />
-                                                </div>
-                                              )}
-                                              <div className="flex items-center gap-1.5 min-w-0">
-                                                <span className="font-bold text-xs text-white whitespace-nowrap">
-                                                  {item.name || 'Vật phẩm'}
-                                                </span>
-                                                {item.quantity && (
-                                                  <span className="text-[10px] font-black font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 whitespace-nowrap shadow-sm">
-                                                    {item.quantity}
-                                                  </span>
                                                 )}
-                                              </div>
-                                            </div>
-                                          ))}
+                                                <div className="flex items-center gap-1.5 min-w-0">
+                                                  <span className="font-bold text-xs text-white whitespace-nowrap">
+                                                    {item.name || 'Vật phẩm'}
+                                                  </span>
+                                                  {item.quantity && (
+                                                    <span className="text-[10px] font-black font-mono px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 whitespace-nowrap shadow-sm">
+                                                      {item.quantity}
+                                                    </span>
+                                                  )}
+                                                </div>
+                                              </Link>
+                                            );
+                                          })}
                                         </div>
                                       );
                                     })()}
@@ -510,7 +655,9 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                       <span>{b.title || 'Chi Tiết Vật Phẩm & Tướng'}</span>
                     </h3>
                     {b.description && (
-                      <p className="text-xs text-slate-400 mt-0.5">{b.description}</p>
+                      <p className="text-xs text-slate-400 mt-0.5">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
                     )}
                   </div>
                 </div>
@@ -526,12 +673,21 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                         {card.heroSlug ? (
                           <Link
                             href={`/${gameSlug}/heroes/${card.heroSlug}`}
-                            className="hover:text-amber-400 hover:underline transition-colors"
+                            className="hover:text-amber-400 hover:underline transition-colors flex items-center gap-1"
+                            title={`Xem chi tiết tướng ${card.name}`}
                           >
-                            {card.name}
+                            <span>{card.name}</span>
+                            <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
                           </Link>
                         ) : (
-                          <span>{card.name}</span>
+                          <Link
+                            href={`/${gameSlug}/resources`}
+                            className="hover:text-amber-400 hover:underline transition-colors flex items-center gap-1"
+                            title={`Xem trong Kho Tài Nguyên: ${card.name}`}
+                          >
+                            <span>{card.name}</span>
+                            <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
+                          </Link>
                         )}
                         {card.rarity && (
                           <span className="text-[10px] px-1.5 py-0.2 rounded bg-amber-500 text-slate-950 font-black">
@@ -550,28 +706,30 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                               className="relative group block"
                               title={`Xem chi tiết tướng ${card.name}`}
                             >
-                              <div className="w-16 h-16 sm:w-18 sm:h-18 rounded-xl overflow-hidden border border-slate-300 shadow-sm bg-white p-0.5 group-hover:border-amber-500 transition-all">
-                                <img
+                              <div className="w-16 h-16 sm:w-18 sm:h-18 rounded-xl overflow-hidden border border-slate-300 shadow-sm bg-white p-0.5 group-hover:border-amber-500 transition-all flex items-center justify-center">
+                                <LayeredIcon
                                   src={card.icon}
                                   alt={card.name}
-                                  className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform"
-                                  onError={(e) => {
-                                    (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                                  }}
+                                  layers={card.layers}
+                                  className="w-full h-full rounded-lg overflow-hidden group-hover:scale-105 transition-transform"
+                                  imgClassName="w-full h-full object-cover"
                                 />
                               </div>
                             </Link>
                           ) : (
-                            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden border border-slate-300 shadow-sm flex items-center justify-center bg-white p-1">
-                              <img
+                            <Link
+                              href={`/${gameSlug}/resources`}
+                              className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden border border-slate-300 shadow-sm flex items-center justify-center bg-white p-1 hover:border-emerald-500 transition-all group"
+                              title={`Xem trong Kho Tài Nguyên: ${card.name}`}
+                            >
+                              <LayeredIcon
                                 src={card.icon}
                                 alt={card.name}
-                                className="w-full h-full object-contain drop-shadow-sm"
-                                onError={(e) => {
-                                  (e.target as HTMLElement).style.opacity = '0.4';
-                                }}
+                                layers={card.layers}
+                                className="w-full h-full overflow-hidden group-hover:scale-105 transition-transform"
+                                imgClassName="w-full h-full object-contain drop-shadow-sm"
                               />
-                            </div>
+                            </Link>
                           )}
                         </div>
 
@@ -581,7 +739,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                             {card.description && card.description.length > 0 ? (
                               card.description.map((bullet, bIdx) => (
                                 <li key={bIdx} className="break-words">
-                                  {bullet}
+                                  <RichTextWithTags text={bullet} gameSlug={gameSlug} activities={activities} />
                                 </li>
                               ))
                             ) : (
@@ -598,32 +756,57 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
 
                           <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                             {card.sources && card.sources.length > 0 ? (
-                              card.sources.map((src, sIdx) => (
-                                <div
-                                  key={sIdx}
-                                  className="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white border border-slate-300 shadow-xs hover:border-amber-500 hover:shadow-sm transition-all text-slate-800"
-                                  title={(src.name || src.sourceId) + (src.note ? ` (${src.note})` : '')}
-                                >
-                                  {src.icon && (
-                                    <img
-                                      src={src.icon}
-                                      alt={src.name || src.sourceId}
-                                      className="w-5 h-5 sm:w-6 sm:h-6 object-contain shrink-0 drop-shadow-xs"
-                                      onError={(e) => {
-                                        (e.target as HTMLElement).style.display = 'none';
-                                      }}
-                                    />
-                                  )}
-                                  <span className="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight">
-                                    {src.name || src.sourceId}
-                                  </span>
-                                  {src.note && (
-                                    <span className="text-[10px] font-extrabold text-red-600 bg-red-50 border border-red-200 px-1 py-0.2 rounded shadow-2xs">
-                                      {src.note}
+                              card.sources.map((src, sIdx) => {
+                                const isClickable = !!src.sourceId;
+                                const content = (
+                                  <>
+                                    {src.icon && (
+                                      <img
+                                        src={src.icon}
+                                        alt={src.name || src.sourceId}
+                                        className="w-5 h-5 sm:w-6 sm:h-6 object-contain shrink-0 drop-shadow-xs group-hover:scale-105 transition-transform"
+                                        onError={(e) => {
+                                          (e.target as HTMLElement).style.display = 'none';
+                                        }}
+                                      />
+                                    )}
+                                    <span className="text-[11px] sm:text-xs font-bold text-slate-800 leading-tight group-hover:text-amber-600 transition-colors">
+                                      {src.name || src.sourceId}
                                     </span>
-                                  )}
-                                </div>
-                              ))
+                                    {src.note && (
+                                      <span className="text-[10px] font-extrabold text-red-600 bg-red-50 border border-red-200 px-1 py-0.2 rounded shadow-2xs">
+                                        {src.note}
+                                      </span>
+                                    )}
+                                    {isClickable && (
+                                      <ArrowUpRight className="w-3 h-3 text-slate-400 group-hover:text-amber-500 opacity-60 group-hover:opacity-100 transition-opacity ml-0.5 shrink-0" />
+                                    )}
+                                  </>
+                                );
+
+                                if (isClickable) {
+                                  return (
+                                    <Link
+                                      key={sIdx}
+                                      href={`/${gameSlug}/daily/${src.sourceId}`}
+                                      className="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white border border-slate-300 shadow-xs hover:border-amber-500 hover:shadow-sm transition-all text-slate-800 group"
+                                      title={`Xem chi tiết hoạt động: ${src.name || src.sourceId}${src.note ? ` (${src.note})` : ''}`}
+                                    >
+                                      {content}
+                                    </Link>
+                                  );
+                                }
+
+                                return (
+                                  <div
+                                    key={sIdx}
+                                    className="inline-flex items-center gap-1.5 px-2 py-1 rounded-lg bg-white border border-slate-300 shadow-xs text-slate-800"
+                                    title={(src.name || src.sourceId) + (src.note ? ` (${src.note})` : '')}
+                                  >
+                                    {content}
+                                  </div>
+                                );
+                              })
                             ) : (
                               <span className="text-xs text-slate-400 italic">Đang cập nhật nguồn nhận...</span>
                             )}
@@ -639,6 +822,96 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
                     </div>
                   )}
                 </div>
+              </div>
+            );
+          }
+
+          if (block.type === 'step-flow') {
+            const b = block as GuideStepFlowBlock;
+            return (
+              <div key={b.id || idx} className="space-y-4 pt-2">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+                    <Route className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
+                      <span>{b.title || 'Đường Line Thao Tác (Step by Step)'}</span>
+                    </h3>
+                    {b.description && (
+                      <p className="text-xs text-slate-400 mt-0.5">
+                        <RichTextWithTags text={b.description} gameSlug={gameSlug} activities={activities} />
+                      </p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="p-4 sm:p-6 rounded-2xl bg-slate-950/80 border border-slate-800 shadow-xl overflow-x-auto">
+                  <div className="flex flex-wrap md:flex-nowrap items-center justify-center md:justify-start gap-2.5 sm:gap-4 py-2 min-w-full md:min-w-max">
+                    {b.steps?.map((step, sIdx) => {
+                      const isLast = sIdx === (b.steps?.length || 0) - 1;
+                      return (
+                        <React.Fragment key={step.id || sIdx}>
+                          <div className="flex flex-col items-center gap-2 group/step">
+                            <div className="px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-[10px] font-black text-amber-400 uppercase tracking-wider">
+                              Bước {sIdx + 1}
+                            </div>
+
+                            <div
+                              onClick={() => setLightboxImage({ url: step.image, caption: step.name || `Bước ${sIdx + 1}` })}
+                              className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-slate-900 border-2 border-slate-700/80 hover:border-amber-500 shadow-md flex items-center justify-center p-2 cursor-zoom-in transition-all group-hover/step:scale-105 group-hover/step:shadow-amber-500/10"
+                              title="Bấm để xem ảnh phóng to"
+                            >
+                              <img
+                                src={step.image}
+                                alt={step.name || `Bước ${sIdx + 1}`}
+                                className="w-full h-full object-contain drop-shadow"
+                                onError={(e) => {
+                                  (e.target as HTMLElement).style.opacity = '0.5';
+                                }}
+                              />
+                              <div className="absolute inset-0 bg-black/40 opacity-0 group-hover/step:opacity-100 rounded-2xl flex items-center justify-center transition-opacity pointer-events-none">
+                                <ZoomIn className="w-5 h-5 text-amber-400" />
+                              </div>
+                            </div>
+
+                            <div className="text-center max-w-[120px]">
+                              <div className="text-xs font-bold text-white group-hover/step:text-amber-400 transition-colors break-words">
+                                {step.name || `Bước ${sIdx + 1}`}
+                              </div>
+                              {step.description && (
+                                <div className="text-[10px] text-slate-400 mt-0.5 break-words line-clamp-2">
+                                  {step.description}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+
+                          {!isLast && (
+                            <div className="flex items-center justify-center px-1 text-amber-400/80 shrink-0">
+                              <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6 animate-pulse" />
+                            </div>
+                          )}
+                        </React.Fragment>
+                      );
+                    })}
+
+                    {(!b.steps || b.steps.length === 0) && (
+                      <div className="w-full text-center text-xs text-slate-500 py-4">
+                        Chưa có bước thao tác nào trong khối này.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
+          }
+
+          if (block.type === 'calculator') {
+            const b = block as GuideCalculatorBlock;
+            return (
+              <div key={b.id || idx} className="space-y-4">
+                <CashflowCalculator defaultCapital={b.defaultCapital || 72.5} />
               </div>
             );
           }
@@ -674,7 +947,7 @@ export const GuideArticleRenderer: React.FC<Props> = ({ article, gameSlug }) => 
             />
             {lightboxImage.caption && (
               <p className="text-xs sm:text-sm font-semibold text-slate-200 text-center bg-slate-900/90 px-4 py-2 rounded-xl border border-slate-800 shadow">
-                {lightboxImage.caption}
+                <RichTextWithTags text={lightboxImage.caption} gameSlug={gameSlug} activities={activities} />
               </p>
             )}
           </div>

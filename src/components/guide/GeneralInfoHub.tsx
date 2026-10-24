@@ -19,7 +19,7 @@ import {
   FileText,
   SlidersHorizontal,
 } from 'lucide-react';
-import { GameMeta, GameActivity, GuideArticle } from '@/types/game';
+import { GameMeta, GameActivity, GuideArticle, GuideBlock } from '@/types/game';
 import { MonetizationBanner } from '@/components/monetization/MonetizationBanner';
 
 interface Props {
@@ -37,7 +37,7 @@ function renderActivityIcon(iconName?: string) {
   if (iconName === 'Crown') return <Crown className="w-4 h-4" />;
   if (iconName === 'Target') return <Target className="w-4 h-4" />;
   if (iconName?.startsWith('/') || iconName?.startsWith('http')) {
-    return <img src={iconName} alt="" className="w-4 h-4 object-contain" />;
+    return <img src={iconName} alt="" className="w-full h-full object-cover" />;
   }
   return <Swords className="w-4 h-4" />;
 }
@@ -49,6 +49,117 @@ function getActivityBadgeStyle(color?: string) {
   if (color === 'purple') return 'bg-purple-500/15 border-purple-500/30 text-purple-400';
   if (color === 'emerald') return 'bg-emerald-500/15 border-emerald-500/30 text-emerald-400';
   return 'bg-amber-500/15 border-amber-500/30 text-amber-400';
+}
+
+function normalizeSearchText(str: string): string {
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[đĐ]/g, 'd')
+    .trim();
+}
+
+function matchText(target: string | undefined | null, term: string, normTerm: string): boolean {
+  if (!target) return false;
+  const lower = target.toLowerCase();
+  if (lower.includes(term)) return true;
+  return normalizeSearchText(target).includes(normTerm);
+}
+
+function checkBlockMatches(block: GuideBlock, term: string, normTerm: string): boolean {
+  if (!block) return false;
+
+  if (block.type === 'text') {
+    return matchText(block.title, term, normTerm) || matchText(block.content, term, normTerm);
+  }
+
+  if (block.type === 'table') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    if (block.columns?.some((c) => matchText(c.label, term, normTerm))) return true;
+    return Boolean(
+      block.rows?.some((row) =>
+        Object.values(row.cells || {}).some((cell) => {
+          if (matchText(cell.text, term, normTerm)) return true;
+          if (matchText(cell.resource?.name, term, normTerm)) return true;
+          if (cell.resources?.some((r) => matchText(r.name, term, normTerm) || matchText(r.quantity, term, normTerm))) return true;
+          if (matchText(cell.hero?.name, term, normTerm) || matchText(cell.hero?.note, term, normTerm)) return true;
+          if (cell.heroes?.some((h) => matchText(h.name, term, normTerm) || matchText(h.note, term, normTerm))) return true;
+          return false;
+        })
+      )
+    );
+  }
+
+  if (block.type === 'step-flow') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    return Boolean(
+      block.steps?.some(
+        (s) =>
+          matchText(s.name, term, normTerm) ||
+          matchText(s.description, term, normTerm) ||
+          matchText(s.sourceId, term, normTerm)
+      )
+    );
+  }
+
+  if (block.type === 'resource-card') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    return Boolean(
+      block.cards?.some(
+        (c) =>
+          matchText(c.name, term, normTerm) ||
+          c.description?.some((d) => matchText(d, term, normTerm)) ||
+          c.sources?.some((s) => matchText(s.name, term, normTerm) || matchText(s.note, term, normTerm) || matchText(s.sourceId, term, normTerm))
+      )
+    );
+  }
+
+  if (block.type === 'hero-roster') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    return Boolean(
+      block.heroes?.some(
+        (h) =>
+          matchText(h.name, term, normTerm) ||
+          matchText(h.role, term, normTerm) ||
+          matchText(h.note, term, normTerm) ||
+          matchText(h.element, term, normTerm)
+      )
+    );
+  }
+
+  if (block.type === 'hero-source') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    return Boolean(
+      block.heroes?.some(
+        (h) =>
+          matchText(h.name, term, normTerm) ||
+          matchText(h.sourceNote, term, normTerm) ||
+          matchText(h.role, term, normTerm) ||
+          matchText(h.element, term, normTerm)
+      )
+    );
+  }
+
+  if (block.type === 'resources') {
+    if (matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm)) return true;
+    return Boolean(
+      block.items?.some((i) => matchText(i.name, term, normTerm) || matchText(i.note, term, normTerm))
+    );
+  }
+
+  if (block.type === 'gallery') {
+    if (matchText(block.title, term, normTerm)) return true;
+    return Boolean(
+      block.images?.some((img) => matchText(img.caption, term, normTerm))
+    );
+  }
+
+  if (block.type === 'calculator') {
+    return matchText(block.title, term, normTerm) || matchText(block.description, term, normTerm);
+  }
+
+  return false;
 }
 
 export function GeneralInfoHub({ game, activities, guides }: Props) {
@@ -76,55 +187,26 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
         if (!searchTerm.trim()) return true;
 
         const term = searchTerm.toLowerCase().trim();
+        const normTerm = normalizeSearchText(searchTerm);
         const act = activityMap.get(guide.category);
 
-        // 1. Tìm trong tiêu đề, mô tả, slug, category
+        // 1. Tìm trong tiêu đề, mô tả, slug, category, tags, tên hoạt động
         if (
-          guide.title?.toLowerCase().includes(term) ||
-          guide.description?.toLowerCase().includes(term) ||
-          guide.slug?.toLowerCase().includes(term) ||
-          guide.category?.toLowerCase().includes(term) ||
-          act?.name?.toLowerCase().includes(term)
+          matchText(guide.title, term, normTerm) ||
+          matchText(guide.description, term, normTerm) ||
+          matchText(guide.slug, term, normTerm) ||
+          matchText(guide.category, term, normTerm) ||
+          matchText(act?.name, term, normTerm) ||
+          guide.tags?.some((t) => matchText(t, term, normTerm))
         ) {
           return true;
         }
 
-        // 2. Tìm trong các block nội dung
+        // 2. Quét sâu vào tất cả các block nội dung bài viết
         if (guide.blocks && Array.isArray(guide.blocks)) {
           for (const block of guide.blocks) {
-            if (block.type === 'text') {
-              if (
-                block.title?.toLowerCase().includes(term) ||
-                block.content?.toLowerCase().includes(term)
-              ) {
-                return true;
-              }
-            } else if (block.type === 'hero-roster') {
-              if (block.title?.toLowerCase().includes(term)) return true;
-              if (
-                block.heroes?.some(
-                  (h) =>
-                    h.name?.toLowerCase().includes(term) ||
-                    h.role?.toLowerCase().includes(term) ||
-                    h.note?.toLowerCase().includes(term)
-                )
-              ) {
-                return true;
-              }
-            } else if (block.type === 'resources') {
-              if (
-                block.title?.toLowerCase().includes(term) ||
-                block.items?.some((i) => i.name?.toLowerCase().includes(term))
-              ) {
-                return true;
-              }
-            } else if (block.type === 'gallery') {
-              if (
-                block.title?.toLowerCase().includes(term) ||
-                block.images?.some((img) => img.caption?.toLowerCase().includes(term))
-              ) {
-                return true;
-              }
+            if (checkBlockMatches(block, term, normTerm)) {
+              return true;
             }
           }
         }
@@ -199,6 +281,40 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
         gameName={game.name}
         affiliateUrl={game.affiliateLinks?.pcEmulator}
       />
+
+      {/* Featured Strategy Tool Spotlight */}
+      <Link
+        href={`/${game.slug}/toi-uu-100-van-xu`}
+        className="block p-5 sm:p-6 rounded-3xl bg-gradient-to-r from-amber-950/40 via-rose-950/30 to-slate-900 border border-amber-500/30 hover:border-amber-400 transition-all shadow-xl group"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-start sm:items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400 shrink-0 group-hover:scale-105 transition-transform shadow-lg">
+              <Flame className="w-6 h-6 text-rose-500" />
+            </div>
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                  HOT STRATEGY
+                </span>
+                <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                  LIVE CALCULATOR
+                </span>
+              </div>
+              <h3 className="text-base sm:text-lg font-black text-white group-hover:text-amber-400 transition-colors mt-1">
+                Cẩm Nang Tối Ưu Dòng Tiền: Cán Mốc 100 Vạn Xu Với Vốn Tối Thiểu (~72.5v)
+              </h3>
+              <p className="text-xs text-slate-300 mt-0.5">
+                Kế hoạch khép kín gom 200 mảnh Pain/Cid, ăn trọn 40% hoàn Bàn Cờ Lửa và nổ Jackpot 5 vạn Mê Cung kèm công cụ tính toán tương tác.
+              </p>
+            </div>
+          </div>
+          <div className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-amber-500 text-slate-950 text-xs font-black shrink-0 group-hover:bg-amber-400 transition-colors shadow">
+            <span>Khám Phá Ngay</span>
+            <ArrowRight className="w-4 h-4" />
+          </div>
+        </div>
+      </Link>
 
       {/* Search & Filter Controls */}
       <div className="space-y-4">
@@ -277,7 +393,9 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
                     : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white hover:border-slate-700'
                 }`}
               >
-                <span className="shrink-0">{renderActivityIcon(act.icon)}</span>
+                <span className="w-4 h-4 shrink-0 flex items-center justify-center overflow-hidden rounded">
+                  {renderActivityIcon(act.icon)}
+                </span>
                 <span>{act.name}</span>
                 <span
                   className={`text-[10px] px-1.5 py-0.5 rounded-full ${
@@ -366,7 +484,9 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
                       />
                     ) : (
                       <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-slate-700 group-hover:text-amber-500/60 transition-colors">
-                        {renderActivityIcon(act?.icon)}
+                        <div className="w-12 h-12 rounded-2xl overflow-hidden flex items-center justify-center">
+                          {renderActivityIcon(act?.icon)}
+                        </div>
                         <span className="text-xs font-semibold text-slate-500 mt-2">
                           {act?.name || 'Cẩm Nang Game'}
                         </span>
@@ -382,7 +502,9 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
                           act?.color
                         )}`}
                       >
-                        {renderActivityIcon(act?.icon)}
+                        <span className="w-3.5 h-3.5 shrink-0 flex items-center justify-center overflow-hidden rounded">
+                          {renderActivityIcon(act?.icon)}
+                        </span>
                         <span>{act?.name || guide.category}</span>
                       </span>
                     </div>
@@ -416,9 +538,9 @@ export function GeneralInfoHub({ game, activities, guides }: Props) {
                           <span>Tướng Đề Cử ({featuredHeroes.length}):</span>
                         </div>
                         <div className="flex items-center gap-2 flex-wrap">
-                          {featuredHeroes.slice(0, 6).map((hero) => (
+                          {featuredHeroes.slice(0, 6).map((hero, hIdx) => (
                             <div
-                              key={hero.heroSlug}
+                              key={`${hero.heroSlug || 'hero'}-${hIdx}`}
                               className="relative group/hero"
                               title={hero.name}
                             >

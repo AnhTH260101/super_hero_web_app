@@ -214,6 +214,33 @@ export interface ResourceSource {
   note?: string;
 }
 
+export interface ItemCategory {
+  id: string;
+  name: string;
+  icon?: string;
+  color?: string;
+}
+
+export interface GameItem {
+  id: string;
+  all_ids?: string[];
+  name: string;
+  story: string;
+  quality?: number;
+  quality_name?: string;
+  quality_color?: string;
+  category: string;
+  icon: string;
+  icon_raw?: string;
+  overlay?: string;
+  shade_raw?: string;
+  is_use?: number;
+  is_show?: number;
+  is_featured?: number;
+  stack?: number;
+  sources?: string[];
+}
+
 export interface ResourceItemSourceRef {
   sourceId: string;
   note?: string;
@@ -229,7 +256,7 @@ export interface ResourceItem {
   sources: ResourceItemSourceRef[];
 }
 
-export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources' | 'table' | 'hero-source';
+export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources' | 'table' | 'hero-source' | 'resource-card' | 'step-flow';
 
 export interface GuideTextBlock {
   id: string;
@@ -247,6 +274,7 @@ export interface GuideHeroItem {
   rarity?: string;
   role?: string;
   note?: string;
+  layers?: string[];
 }
 
 export interface GuideHeroRosterBlock {
@@ -265,6 +293,7 @@ export interface GuideHeroSourceItem {
   element?: string;
   role?: string;
   sourceNote?: string;
+  layers?: string[];
 }
 
 export interface GuideHeroSourceBlock {
@@ -293,6 +322,7 @@ export interface GuideResourceItem {
   name: string;
   icon: string;
   note?: string;
+  layers?: string[];
 }
 
 export interface GuideResourcesBlock {
@@ -306,19 +336,36 @@ export interface GuideResourcesBlock {
 export interface GuideTableColumn {
   id: string;
   label: string;
-  type: 'text' | 'resource';
+  type: 'text' | 'resource' | 'hero';
 }
 
 export interface GuideTableCellResource {
   name: string;
   icon?: string;
   quantity?: string;
+  layers?: string[];
+  heroSlug?: string;
+  rarity?: string;
+  element?: string;
+  itemType?: 'item' | 'hero';
+}
+
+export interface GuideTableCellHero {
+  heroSlug?: string;
+  name: string;
+  avatar?: string;
+  rarity?: string;
+  element?: string;
+  note?: string;
+  layers?: string[];
 }
 
 export interface GuideTableCell {
   text?: string;
   resource?: GuideTableCellResource;
   resources?: GuideTableCellResource[];
+  hero?: GuideTableCellHero;
+  heroes?: GuideTableCellHero[];
 }
 
 export interface GuideTableRow {
@@ -351,6 +398,7 @@ export interface GuideResourceCardItem {
   rarity?: string;
   description: string[];
   sources: GuideResourceCardSourceRef[];
+  layers?: string[];
 }
 
 export interface GuideResourceCardBlock {
@@ -361,6 +409,31 @@ export interface GuideResourceCardBlock {
   cards: GuideResourceCardItem[];
 }
 
+export interface GuideStepFlowItem {
+  id: string;
+  sourceId?: string;
+  image: string;
+  name?: string;
+  description?: string;
+}
+
+export interface GuideStepFlowBlock {
+  id: string;
+  type: 'step-flow';
+  title?: string;
+  description?: string;
+  steps: GuideStepFlowItem[];
+}
+
+export interface GuideCalculatorBlock {
+  id: string;
+  type: 'calculator';
+  title?: string;
+  description?: string;
+  calculatorType?: 'cashflow-100v' | string;
+  defaultCapital?: number;
+}
+
 export type GuideBlock =
   | GuideTextBlock
   | GuideHeroRosterBlock
@@ -368,7 +441,9 @@ export type GuideBlock =
   | GuideResourcesBlock
   | GuideTableBlock
   | GuideHeroSourceBlock
-  | GuideResourceCardBlock;
+  | GuideResourceCardBlock
+  | GuideStepFlowBlock
+  | GuideCalculatorBlock;
 
 export interface GuideArticle {
   id: string;
@@ -378,6 +453,8 @@ export interface GuideArticle {
   schedule?: string;
   description: string;
   thumbnail?: string;
+  relatedActivities?: string[];
+  tags?: string[];
   blocks: GuideBlock[];
   updatedAt: string;
 }

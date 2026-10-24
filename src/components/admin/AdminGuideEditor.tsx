@@ -35,7 +35,15 @@ import {
   ToggleRight,
   RotateCw,
   Table as TableIcon,
+  Link2,
+  Tag,
+  ArrowUpRight,
+  Eye,
+  Route,
+  ChevronRight,
 } from 'lucide-react';
+import { RichTextWithTags } from '../guide/RichTextWithTags';
+import { LayeredIcon, PRESET_LAYERS, normalizeLayerPath } from '../guide/LayeredIcon';
 import {
   Hero,
   ResourceItem,
@@ -50,6 +58,7 @@ import {
   GuideTableRow,
   GuideTableCell,
   GuideTableCellResource,
+  GuideTableCellHero,
   GuideHeroItem,
   GuideResourceItem,
   GuideImageItem,
@@ -60,6 +69,8 @@ import {
   GuideResourceCardBlock,
   GuideResourceCardItem,
   GuideResourceCardSourceRef,
+  GuideStepFlowBlock,
+  GuideStepFlowItem,
 } from '@/types/game';
 
 interface Props {
@@ -103,6 +114,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [saving, setSaving] = useState(false);
   const [toastMessage, setToastMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
 
+  // --- AUTO-SAVE SYSTEM (TỰ ĐỘNG LƯU BÀI VIẾT LIÊN TỤC) ---
+  const [autoSaveStatus, setAutoSaveStatus] = useState<'idle' | 'unsaved' | 'saving' | 'saved' | 'error'>('idle');
+  const [lastAutoSavedTime, setLastAutoSavedTime] = useState<Date | null>(null);
+  const autoSaveTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const activeGuideRef = useRef<GuideArticle | null>(activeGuide);
+  const previousSlugRef = useRef<string | null>(null);
+  const isRestoringDraftRef = useRef<boolean>(false);
+  const DRAFT_KEY = useMemo(() => `admin_guide_draft_${gameSlug}`, [gameSlug]);
+
   // Modal State: Hero Picker
   const [heroesList, setHeroesList] = useState<Hero[]>(allHeroes);
   const [loadingHeroes, setLoadingHeroes] = useState(false);
@@ -110,6 +130,51 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [targetBlockIdForHero, setTargetBlockIdForHero] = useState<string | null>(null);
   const [heroSearchTerm, setHeroSearchTerm] = useState('');
   const [heroCategoryFilter, setHeroCategoryFilter] = useState<'all' | 'tier-sp' | 'SSR' | 'UR' | 'afterlife' | 'base'>('all');
+
+  // Universal Tag Picker Modal (Hỗ trợ chèn link cho MỌI khối văn bản & trường nhập liệu)
+  const [tagPickerModal, setTagPickerModal] = useState<{
+    isOpen: boolean;
+    title?: string;
+    onSelect: (tagText: string) => void;
+  } | null>(null);
+  const [tagModalSearch, setTagModalSearch] = useState('');
+  const [tagModalTab, setTagModalTab] = useState<'activities' | 'heroes' | 'resources'>('activities');
+
+  const openTagPicker = (
+    onSelect: (tagText: string) => void,
+    title = 'Chèn liên kết nội dung',
+    initialTab: 'activities' | 'heroes' | 'resources' = 'activities'
+  ) => {
+    setTagModalSearch('');
+    setTagModalTab(initialTab);
+    setTagPickerModal({ isOpen: true, title, onSelect });
+  };
+
+  const appendTag = (currentText: string | undefined, tag: string) => {
+    const cur = currentText || '';
+    const spacer = cur && !cur.endsWith(' ') && !cur.endsWith('\n') ? ' ' : '';
+    return cur + spacer + tag + ' ';
+  };
+
+  const TagInsertButton: React.FC<{
+    onInsert: (tag: string) => void;
+    title?: string;
+    size?: 'sm' | 'xs';
+    showLabel?: boolean;
+    className?: string;
+  }> = ({ onInsert, title, size = 'sm', showLabel = true, className = '' }) => (
+    <button
+      type="button"
+      onClick={() => openTagPicker(onInsert, title)}
+      className={`inline-flex items-center gap-1 rounded-lg bg-slate-900 hover:bg-amber-500/10 border border-slate-800 hover:border-amber-500/40 text-slate-400 hover:text-amber-300 transition-all font-semibold shrink-0 ${
+        size === 'xs' ? 'px-1.5 py-0.5 text-[10px]' : 'px-2 py-1 text-xs'
+      } ${className}`}
+      title="Chèn liên kết (Hoạt động / Tướng / Tài nguyên)"
+    >
+      <Link2 className={size === 'xs' ? 'w-3 h-3 text-amber-400' : 'w-3.5 h-3.5 text-amber-400'} />
+      {showLabel && <span>Chèn Link</span>}
+    </button>
+  );
 
   // Modal State: Resource Picker
   const [resourcesList, setResourcesList] = useState<ResourceItem[]>(allResources);
@@ -122,8 +187,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
     columnId: string;
     itemIndex?: number;
   } | null>(null);
+  const [targetTableCellForHero, setTargetTableCellForHero] = useState<{
+    blockId: string;
+    rowId: string;
+    columnId: string;
+    itemIndex?: number;
+  } | null>(null);
   const [resourceSearchTerm, setResourceSearchTerm] = useState('');
-  const [resourceModalTab, setResourceModalTab] = useState<'game-assets' | 'configured-resources'>('game-assets');
+  const [resourceModalTab, setResourceModalTab] = useState<'game-assets' | 'heroes' | 'configured-resources'>('game-assets');
   const [assetPickerFolder, setAssetPickerFolder] = useState('all');
   const [assetPickerPage, setAssetPickerPage] = useState(1);
   const [assetPickerTotal, setAssetPickerTotal] = useState(0);
@@ -163,6 +234,35 @@ export const AdminGuideEditor: React.FC<Props> = ({
   const [cardHeroSearch, setCardHeroSearch] = useState('');
   const [cardHeroCategoryFilter, setCardHeroCategoryFilter] = useState<'all' | 'tier-sp' | 'SSR' | 'UR' | 'afterlife' | 'base'>('all');
   const [isCardHeroPickerOpen, setIsCardHeroPickerOpen] = useState(false);
+
+  // State cho bộ chọn Icon Hoạt Động (images/resources/sources)
+  const [sourceImagesList, setSourceImagesList] = useState<string[]>([]);
+  const [loadingSourceImages, setLoadingSourceImages] = useState(false);
+  const [sourceIconSearch, setSourceIconSearch] = useState('');
+  const [activityIconTab, setActivityIconTab] = useState<'source-images' | 'vector'>('source-images');
+  const [uploadingSourceIcon, setUploadingSourceIcon] = useState(false);
+  const sourceIconFileInputRef = useRef<HTMLInputElement>(null);
+
+  // Layer Management State
+  const [autoAttachShardLayer, setAutoAttachShardLayer] = useState(false);
+  const [layerModal, setLayerModal] = useState<{
+    isOpen: boolean;
+    title: string;
+    baseIcon: string;
+    layers: string[];
+    onSave: (newLayers: string[]) => void;
+  } | null>(null);
+
+  // Step Flow Picker State
+  const [targetBlockIdForStepFlow, setTargetBlockIdForStepFlow] = useState<string | null>(null);
+  const [isStepFlowPickerOpen, setIsStepFlowPickerOpen] = useState(false);
+  const [stepFlowSearchTerm, setStepFlowSearchTerm] = useState('');
+
+  const filteredSourceImages = useMemo(() => {
+    if (!sourceIconSearch.trim()) return sourceImagesList;
+    const q = sourceIconSearch.toLowerCase().trim();
+    return sourceImagesList.filter((img) => img.toLowerCase().includes(q));
+  }, [sourceImagesList, sourceIconSearch]);
 
   const showToast = (text: string, type: 'success' | 'error' = 'success') => {
     setToastMessage({ text, type });
@@ -227,7 +327,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
     }
   };
 
-  // Tải danh sách nguồn nhận sự kiện (Cột 3)
+  // Tải danh sách nguồn nhận sự kiện (Cột 3) và ảnh từ images/resources/sources
   const fetchSourcesData = async () => {
     setLoadingSources(true);
     try {
@@ -235,8 +335,13 @@ export const AdminGuideEditor: React.FC<Props> = ({
         cache: 'no-store',
       });
       const data = await res.json();
-      if (data.success && Array.isArray(data.sources)) {
-        setSourcesList(data.sources);
+      if (data.success) {
+        if (Array.isArray(data.sources)) {
+          setSourcesList(data.sources);
+        }
+        if (Array.isArray(data.availableSourceImages)) {
+          setSourceImagesList(data.availableSourceImages);
+        }
       }
     } catch {
       // ignore
@@ -245,8 +350,71 @@ export const AdminGuideEditor: React.FC<Props> = ({
     }
   };
 
+  // Tải lại toàn bộ icon từ images/resources/sources (Quy chuẩn Asset Live-Reload Rule)
+  const handleReloadSourceImages = async (showToastFeedback = false) => {
+    setLoadingSourceImages(true);
+    try {
+      const res = await fetch(`/api/admin/resource-sources?gameSlug=${gameSlug}&t=${Date.now()}`, {
+        cache: 'no-store',
+      });
+      const data = await res.json();
+      if (data.success && Array.isArray(data.availableSourceImages)) {
+        setSourceImagesList(data.availableSourceImages);
+        if (Array.isArray(data.sources)) {
+          setSourcesList(data.sources);
+        }
+        if (showToastFeedback) {
+          showToast(`Đã tải lại: ${data.availableSourceImages.length} icon từ images/resources/sources!`, 'success');
+        }
+      } else {
+        if (showToastFeedback) {
+          showToast(data.error || 'Lỗi khi tải lại danh sách icon', 'error');
+        }
+      }
+    } catch {
+      if (showToastFeedback) {
+        showToast('Lỗi máy chủ khi tải lại icon nguồn', 'error');
+      }
+    } finally {
+      setLoadingSourceImages(false);
+    }
+  };
+
+  // Tải lên ảnh mới trực tiếp vào images/resources/sources
+  const handleUploadSourceIcon = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    setUploadingSourceIcon(true);
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('gameSlug', gameSlug);
+
+      const res = await fetch('/api/admin/resource-sources', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await res.json();
+      if (data.success && data.url) {
+        showToast(`Đã tải ảnh ${data.fileName} vào images/resources/sources!`, 'success');
+        await handleReloadSourceImages(false);
+        setActivityForm((prev) => ({ ...prev, icon: data.url }));
+      } else {
+        showToast(data.error || 'Lỗi khi tải lên icon', 'error');
+      }
+    } catch {
+      showToast('Lỗi máy chủ khi tải lên icon', 'error');
+    } finally {
+      setUploadingSourceIcon(false);
+      if (sourceIconFileInputRef.current) {
+        sourceIconFileInputRef.current.value = '';
+      }
+    }
+  };
+
   useEffect(() => {
-    if (sourcesList.length === 0) {
+    if (sourcesList.length === 0 || sourceImagesList.length === 0) {
       fetchSourcesData();
     }
   }, [gameSlug]);
@@ -388,11 +556,12 @@ export const AdminGuideEditor: React.FC<Props> = ({
       .replace(/[_\-]/g, ' ')
       .replace(/\b\w/g, (l) => l.toUpperCase());
 
-    const itemObj = {
+    const itemObj: GuideResourceItem = {
       id: `item-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
       name: cleanName,
       icon: iconItem.url,
       note: iconItem.folderLabel || 'Phần thưởng',
+      layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined,
     };
 
     handleAddResourceToBlock(itemObj);
@@ -413,8 +582,180 @@ export const AdminGuideEditor: React.FC<Props> = ({
     });
   }, [guides, searchFilter, categoryFilter]);
 
-  // Tạo bài viết mới
-  const handleStartCreate = () => {
+  // --- HỆ THỐNG TỰ ĐỘNG LƯU BÀI VIẾT (AUTO-SAVE) ---
+  // Khôi phục bản nháp dở dang từ LocalStorage khi khởi tạo
+  useEffect(() => {
+    try {
+      const savedRaw = localStorage.getItem(DRAFT_KEY);
+      if (savedRaw) {
+        const parsed = JSON.parse(savedRaw);
+        if (parsed?.guide && !activeGuide) {
+          isRestoringDraftRef.current = true;
+          setActiveGuide(parsed.guide);
+          setIsCreatingNew(Boolean(parsed.isCreatingNew));
+          previousSlugRef.current = parsed.guide.slug;
+          setAutoSaveStatus('saved');
+          if (parsed.savedAt) {
+            setLastAutoSavedTime(new Date(parsed.savedAt));
+          }
+          showToast('Đã tự động khôi phục nội dung bài viết đang soạn thảo!', 'success');
+          setTimeout(() => {
+            isRestoringDraftRef.current = false;
+          }, 600);
+        }
+      }
+    } catch (e) {
+      console.warn('Lỗi đọc draft:', e);
+    }
+  }, [DRAFT_KEY]);
+
+  // Luôn cập nhật ref của activeGuide
+  useEffect(() => {
+    activeGuideRef.current = activeGuide;
+  }, [activeGuide]);
+
+  // Hàm thực hiện lưu bài viết lên server (Dùng cho cả Auto-Save và Lưu thủ công)
+  const performServerSave = async (guideToSave: GuideArticle, isAuto = false): Promise<boolean> => {
+    if (!guideToSave) return false;
+    if (!isAuto) setSaving(true);
+    setAutoSaveStatus('saving');
+
+    try {
+      const res = await fetch('/api/admin/guides', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          gameSlug,
+          article: guideToSave,
+          previousSlug: previousSlugRef.current || undefined,
+        }),
+      });
+      const data = await res.json();
+
+      if (data.success && data.article) {
+        const savedTime = new Date();
+        setAutoSaveStatus('saved');
+        setLastAutoSavedTime(savedTime);
+        previousSlugRef.current = data.article.slug;
+
+        // Lưu bản mới nhất vào localStorage
+        try {
+          localStorage.setItem(
+            DRAFT_KEY,
+            JSON.stringify({
+              guide: data.article,
+              isCreatingNew: false,
+              savedAt: savedTime.getTime(),
+            })
+          );
+        } catch {}
+
+        // Cập nhật danh sách bài viết hiển thị
+        setGuides((prev) => {
+          const index = prev.findIndex((g) => g.slug === data.article.slug || g.id === data.article.id);
+          if (index >= 0) {
+            const next = [...prev];
+            next[index] = data.article;
+            return next;
+          }
+          return [data.article, ...prev];
+        });
+
+        if (!isAuto) {
+          showToast('Đã lưu bài viết thành công!', 'success');
+          setIsCreatingNew(false);
+        }
+        return true;
+      } else {
+        setAutoSaveStatus('error');
+        if (!isAuto) {
+          showToast(data.error || 'Lỗi khi lưu bài viết', 'error');
+        }
+        return false;
+      }
+    } catch (e) {
+      console.error('Lỗi khi lưu bài viết:', e);
+      setAutoSaveStatus('error');
+      if (!isAuto) {
+        showToast('Lỗi máy chủ khi lưu bài viết', 'error');
+      }
+      return false;
+    } finally {
+      if (!isAuto) setSaving(false);
+    }
+  };
+
+  // Continuous Auto-Save: Lưu tức thì vào LocalStorage và Debounce 1.2s gửi Server
+  useEffect(() => {
+    if (!activeGuide) {
+      if (autoSaveTimerRef.current) {
+        clearTimeout(autoSaveTimerRef.current);
+      }
+      return;
+    }
+
+    if (isRestoringDraftRef.current) {
+      return;
+    }
+
+    // 1. Lưu tức thì vào LocalStorage (Bảo vệ 100% dữ liệu trước F5, reload, crash)
+    try {
+      localStorage.setItem(
+        DRAFT_KEY,
+        JSON.stringify({
+          guide: activeGuide,
+          isCreatingNew,
+          savedAt: Date.now(),
+        })
+      );
+    } catch (e) {
+      console.warn('Lỗi lưu localStorage:', e);
+    }
+
+    // 2. Đánh dấu trạng thái đang chỉnh sửa
+    setAutoSaveStatus('unsaved');
+
+    // 3. Debounce 1.2s tự động đẩy lên Server
+    if (autoSaveTimerRef.current) {
+      clearTimeout(autoSaveTimerRef.current);
+    }
+
+    autoSaveTimerRef.current = setTimeout(() => {
+      performServerSave(activeGuide, true);
+    }, 1200);
+
+    return () => {
+      if (autoSaveTimerRef.current) {
+        clearTimeout(autoSaveTimerRef.current);
+      }
+    };
+  }, [activeGuide, isCreatingNew, DRAFT_KEY]);
+
+  // Bảo vệ khi người dùng đóng tab / F5 trình duyệt
+  useEffect(() => {
+    const handleBeforeUnload = () => {
+      if (activeGuideRef.current) {
+        try {
+          localStorage.setItem(
+            DRAFT_KEY,
+            JSON.stringify({
+              guide: activeGuideRef.current,
+              isCreatingNew,
+              savedAt: Date.now(),
+            })
+          );
+        } catch {}
+      }
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [isCreatingNew, DRAFT_KEY]);
+
+  // Tạo bài viết mới (Flush bài cũ nếu có, khởi tạo và lưu ngay)
+  const handleStartCreate = async () => {
+    if (activeGuide && autoSaveStatus === 'unsaved') {
+      await performServerSave(activeGuide, true);
+    }
     const newGuide: GuideArticle = {
       id: `guide-${Date.now()}`,
       slug: `bai-viet-${Date.now().toString().slice(-4)}`,
@@ -434,58 +775,55 @@ export const AdminGuideEditor: React.FC<Props> = ({
       ],
       updatedAt: new Date().toISOString(),
     };
+    previousSlugRef.current = newGuide.slug;
     setActiveGuide(newGuide);
     setIsCreatingNew(true);
+    // Tự động lưu khởi tạo ngay lập tức
+    await performServerSave(newGuide, true);
   };
 
-  // Chọn bài để sửa
-  const handleSelectGuide = (guide: GuideArticle) => {
-    setActiveGuide(JSON.parse(JSON.stringify(guide)));
+  // Chọn bài để sửa (Flush bài cũ nếu có)
+  const handleSelectGuide = async (guide: GuideArticle) => {
+    if (activeGuide && autoSaveStatus === 'unsaved') {
+      await performServerSave(activeGuide, true);
+    }
+    const cloned = JSON.parse(JSON.stringify(guide));
+    previousSlugRef.current = cloned.slug;
+    setActiveGuide(cloned);
     setIsCreatingNew(false);
+    setAutoSaveStatus('saved');
+    setLastAutoSavedTime(new Date(cloned.updatedAt || Date.now()));
+    try {
+      localStorage.setItem(
+        DRAFT_KEY,
+        JSON.stringify({
+          guide: cloned,
+          isCreatingNew: false,
+          savedAt: Date.now(),
+        })
+      );
+    } catch {}
   };
 
-  // Lưu bài viết
+  // Quay lại danh sách bài viết (Tự động flush lưu trước khi thoát)
+  const handleBackToList = async () => {
+    if (activeGuide) {
+      if (autoSaveTimerRef.current) {
+        clearTimeout(autoSaveTimerRef.current);
+      }
+      await performServerSave(activeGuide, true);
+      try {
+        localStorage.removeItem(DRAFT_KEY);
+      } catch {}
+    }
+    setActiveGuide(null);
+    setAutoSaveStatus('idle');
+  };
+
+  // Lưu bài viết thủ công (nút phụ trợ ép lưu ngay)
   const handleSaveGuide = async () => {
     if (!activeGuide) return;
-    if (!activeGuide.title.trim()) {
-      showToast('Vui lòng nhập tiêu đề bài viết', 'error');
-      return;
-    }
-    if (!activeGuide.slug.trim()) {
-      showToast('Vui lòng nhập slug bài viết', 'error');
-      return;
-    }
-
-    setSaving(true);
-    try {
-      const res = await fetch('/api/admin/guides', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ gameSlug, article: activeGuide }),
-      });
-      const data = await res.json();
-
-      if (data.success && data.article) {
-        setGuides((prev) => {
-          const index = prev.findIndex((g) => g.slug === data.article.slug || g.id === data.article.id);
-          if (index >= 0) {
-            const next = [...prev];
-            next[index] = data.article;
-            return next;
-          }
-          return [data.article, ...prev];
-        });
-        setActiveGuide(data.article);
-        setIsCreatingNew(false);
-        showToast('Đã lưu bài viết thành công!', 'success');
-      } else {
-        showToast(data.error || 'Lỗi khi lưu bài viết', 'error');
-      }
-    } catch {
-      showToast('Lỗi máy chủ khi lưu bài viết', 'error');
-    } finally {
-      setSaving(false);
-    }
+    await performServerSave(activeGuide, false);
   };
 
   // Xóa bài viết
@@ -502,6 +840,9 @@ export const AdminGuideEditor: React.FC<Props> = ({
         setGuides((prev) => prev.filter((g) => g.slug !== slug));
         if (activeGuide?.slug === slug) {
           setActiveGuide(null);
+          try {
+            localStorage.removeItem(DRAFT_KEY);
+          } catch {}
         }
         showToast('Đã xóa bài viết thành công!', 'success');
       } else {
@@ -538,20 +879,34 @@ export const AdminGuideEditor: React.FC<Props> = ({
       name: '',
       slug: '',
       shortDesc: '',
-      icon: 'Swords',
+      icon: '/images/resources/sources/hoat-dong.png',
       badge: 'Mới',
       color: 'amber',
       banner: '',
       enabled: true,
       order: activities.length + 1,
     });
+    setActivityIconTab('source-images');
+    setSourceIconSearch('');
     setIsActivityModalOpen(true);
+    if (sourceImagesList.length === 0) {
+      handleReloadSourceImages(false);
+    }
   };
 
   const handleOpenEditActivity = (act: GameActivity, index: number) => {
     setEditingActivityIndex(index);
     setActivityForm({ ...act, banner: act.banner || '' });
+    if (act.icon?.startsWith('/') || act.icon?.startsWith('http')) {
+      setActivityIconTab('source-images');
+    } else {
+      setActivityIconTab('vector');
+    }
+    setSourceIconSearch('');
     setIsActivityModalOpen(true);
+    if (sourceImagesList.length === 0) {
+      handleReloadSourceImages(false);
+    }
   };
 
   const handleSubmitActivityForm = () => {
@@ -709,6 +1064,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
         description: 'Công dụng chi tiết và danh sách các sự kiện / cách nhận',
         cards: [],
       };
+    } else if (type === 'step-flow') {
+      newBlock = {
+        id: blockId,
+        type: 'step-flow',
+        title: 'Cách Ghép Đá Vận Mệnh',
+        description: 'Quy trình thao tác từng bước để đến tính năng',
+        steps: [],
+      };
     } else {
       newBlock = {
         id: blockId,
@@ -852,8 +1215,78 @@ export const AdminGuideEditor: React.FC<Props> = ({
     });
   };
 
+  // Helper: Lấy danh sách tướng trong ô của bảng
+  const getCellHeroes = (cell?: GuideTableCell): GuideTableCellHero[] => {
+    if (!cell) return [];
+    if (Array.isArray(cell.heroes) && cell.heroes.length > 0) return cell.heroes;
+    if (cell.hero && (cell.hero.name || cell.hero.avatar)) return [cell.hero];
+    return [];
+  };
+
   // Thêm hoặc gỡ tướng khỏi block (Toggle hoặc gán cho thẻ)
   const handleAddHeroToBlock = (hero: Hero) => {
+    // Nếu đang chọn tướng cho một ô trong Bảng Biểu (Table)
+    const targetCellForHero = targetTableCellForHero || targetTableCellForResource;
+    if (targetCellForHero) {
+      const { blockId, rowId, columnId, itemIndex } = targetCellForHero;
+      const block = activeGuide?.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+      if (block && block.type === 'table') {
+        const nextRows = block.rows.map((row) => {
+          if (row.id !== rowId) return row;
+          const currentCell = row.cells[columnId] || {};
+          const currentList = getCellResources(currentCell);
+
+          let nextList: GuideTableCellResource[];
+          if (itemIndex !== undefined && itemIndex >= 0 && itemIndex < currentList.length) {
+            nextList = [...currentList];
+            nextList[itemIndex] = {
+              ...nextList[itemIndex],
+              name: hero.name,
+              icon: hero.avatar,
+              heroSlug: hero.slug,
+              rarity: hero.rarity,
+              element: hero.element,
+              itemType: 'hero',
+              layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : nextList[itemIndex].layers,
+            };
+          } else {
+            nextList = [
+              ...currentList,
+              {
+                name: hero.name,
+                icon: hero.avatar,
+                quantity: '',
+                heroSlug: hero.slug,
+                rarity: hero.rarity,
+                element: hero.element,
+                itemType: 'hero',
+                layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined,
+              },
+            ];
+          }
+
+          return {
+            ...row,
+            cells: {
+              ...row.cells,
+              [columnId]: {
+                ...currentCell,
+                resources: nextList,
+                resource: nextList[0] || undefined,
+              },
+            },
+          };
+        });
+        handleUpdateBlock(blockId, { rows: nextRows });
+        showToast(`Đã thêm tướng ${hero.name} vào ô`, 'success');
+        setIsHeroModalOpen(false);
+        setIsResourceModalOpen(false);
+        setTargetTableCellForHero(null);
+        setTargetTableCellForResource(null);
+        return;
+      }
+    }
+
     // Nếu đang chọn tướng cho thẻ chi tiết 3 cột (editingCardModal)
     if (targetCardModalForHero && editingCardModal) {
       setEditingCardModal({
@@ -865,6 +1298,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
           heroSlug: hero.slug,
           rarity: hero.rarity || 'SSR',
           itemType: 'hero',
+          layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : editingCardModal.data.layers,
         },
       });
       setIsHeroModalOpen(false);
@@ -895,6 +1329,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
         rarity: hero.rarity,
         role: hero.role || 'Sát Thương',
         note: 'Nhập ghi chú kỹ năng / cách vận hành...',
+        layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined,
       };
 
       handleUpdateBlock(targetBlockIdForHero, {
@@ -919,6 +1354,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
         rarity: hero.rarity,
         role: hero.role || 'Sát Thương',
         sourceNote: 'Đổi xu hoạt động / Mở rương sự kiện...',
+        layers: autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined,
       };
 
       handleUpdateBlock(targetBlockIdForHero, {
@@ -928,16 +1364,46 @@ export const AdminGuideEditor: React.FC<Props> = ({
     }
   };
 
-  // Helper: Lấy danh sách tài nguyên trong ô của bảng
+  // Helper: Lấy danh sách tài nguyên & tướng trong ô của bảng (Gộp chung)
   const getCellResources = (cell?: GuideTableCell): GuideTableCellResource[] => {
     if (!cell) return [];
-    if (Array.isArray(cell.resources) && cell.resources.length > 0) return cell.resources;
-    if (cell.resource && cell.resource.name) return [cell.resource];
-    return [];
+    const list: GuideTableCellResource[] = [];
+    if (Array.isArray(cell.resources) && cell.resources.length > 0) {
+      list.push(...cell.resources);
+    } else if (cell.resource && (cell.resource.name || cell.resource.icon)) {
+      list.push(cell.resource);
+    }
+    // Gộp dữ liệu tướng từ các bài viết cũ vào chung danh sách
+    if (Array.isArray(cell.heroes) && cell.heroes.length > 0) {
+      list.push(
+        ...cell.heroes.map((h) => ({
+          name: h.name,
+          icon: h.avatar,
+          quantity: h.note,
+          heroSlug: h.heroSlug,
+          rarity: h.rarity,
+          element: h.element,
+          itemType: 'hero' as const,
+          layers: h.layers,
+        }))
+      );
+    } else if (cell.hero && (cell.hero.name || cell.hero.avatar)) {
+      list.push({
+        name: cell.hero.name,
+        icon: cell.hero.avatar,
+        quantity: cell.hero.note,
+        heroSlug: cell.hero.heroSlug,
+        rarity: cell.hero.rarity,
+        element: cell.hero.element,
+        itemType: 'hero' as const,
+        layers: cell.hero.layers,
+      });
+    }
+    return list;
   };
 
   // Thêm resource vào block (hoặc cập nhật ô trong Table hoặc Thẻ Chi Tiết)
-  const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string }) => {
+  const handleAddResourceToBlock = (resItem: { id: string; name: string; icon: string; note?: string; layers?: string[] }) => {
     // Nếu đang chọn icon cho thẻ chi tiết 3 cột (editingCardModal)
     if (targetCardModalForResource && editingCardModal) {
       setEditingCardModal({
@@ -946,6 +1412,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
           ...editingCardModal.data,
           name: editingCardModal.data.name || resItem.name,
           icon: resItem.icon,
+          layers: resItem.layers ?? (autoAttachShardLayer ? ['game_items/public_shade_2.png'] : editingCardModal.data.layers),
         },
       });
       setIsResourceModalOpen(false);
@@ -973,6 +1440,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
               ...nextList[itemIndex],
               name: resItem.name,
               icon: resItem.icon,
+              layers: resItem.layers ?? (autoAttachShardLayer ? ['game_items/public_shade_2.png'] : nextList[itemIndex].layers),
             };
           } else {
             nextList = [
@@ -981,6 +1449,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 name: resItem.name,
                 icon: resItem.icon,
                 quantity: '',
+                layers: resItem.layers ?? (autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined),
               },
             ];
           }
@@ -1014,6 +1483,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
       name: resItem.name,
       icon: resItem.icon,
       note: resItem.note || 'Phần thưởng nổi bật',
+      layers: resItem.layers ?? (autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined),
     };
 
     handleUpdateBlock(targetBlockIdForResource, {
@@ -1023,16 +1493,20 @@ export const AdminGuideEditor: React.FC<Props> = ({
   };
 
   // --- QUẢN LÝ KHỐI BẢNG BIỂU (TABLE BLOCK) ---
-  const handleAddTableColumn = (blockId: string, type: 'text' | 'resource') => {
+  const handleAddTableColumn = (blockId: string, type: 'text' | 'resource' | 'hero') => {
     if (!activeGuide) return;
     const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
     if (!block || block.type !== 'table') return;
 
     const colId = `col-${Date.now()}`;
+    const label =
+      type === 'text'
+        ? `Cột ${block.columns.length + 1}`
+        : `Phần Thưởng ${block.columns.length + 1}`;
     const newCol: GuideTableColumn = {
       id: colId,
-      label: type === 'text' ? `Cột ${block.columns.length + 1}` : `Phần Thưởng ${block.columns.length + 1}`,
-      type,
+      label,
+      type: type === 'hero' ? 'resource' : type,
     };
 
     handleUpdateBlock(blockId, {
@@ -1222,6 +1696,77 @@ export const AdminGuideEditor: React.FC<Props> = ({
     handleUpdateBlock(blockId, { rows: nextRows });
   };
 
+  const handleUpdateTableCellHeroItem = (
+    blockId: string,
+    rowId: string,
+    colId: string,
+    itemIdx: number,
+    fields: Partial<GuideTableCellHero>
+  ) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      const currentCell = r.cells[colId] || {};
+      const currentList = getCellHeroes(currentCell);
+      if (itemIdx < 0 || itemIdx >= currentList.length) return r;
+
+      const nextList = [...currentList];
+      nextList[itemIdx] = {
+        ...nextList[itemIdx],
+        ...fields,
+      };
+
+      return {
+        ...r,
+        cells: {
+          ...r.cells,
+          [colId]: {
+            ...currentCell,
+            heroes: nextList,
+            hero: nextList[0] || undefined,
+          },
+        },
+      };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
+  const handleRemoveTableCellHeroItem = (
+    blockId: string,
+    rowId: string,
+    colId: string,
+    itemIdx: number
+  ) => {
+    if (!activeGuide) return;
+    const block = activeGuide.blocks.find((b) => b.id === blockId) as GuideTableBlock;
+    if (!block || block.type !== 'table') return;
+
+    const nextRows = block.rows.map((r) => {
+      if (r.id !== rowId) return r;
+      const currentCell = r.cells[colId] || {};
+      const currentList = getCellHeroes(currentCell);
+      const nextList = currentList.filter((_, idx) => idx !== itemIdx);
+
+      return {
+        ...r,
+        cells: {
+          ...r.cells,
+          [colId]: {
+            ...currentCell,
+            heroes: nextList,
+            hero: nextList[0] || undefined,
+          },
+        },
+      };
+    });
+
+    handleUpdateBlock(blockId, { rows: nextRows });
+  };
+
   // Thêm ảnh vào block
   const addImageToBlock = (blockId: string, url: string) => {
     if (!activeGuide) return;
@@ -1341,7 +1886,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
         <div className="flex items-center gap-2.5">
           {activeGuide && (
             <button
-              onClick={() => setActiveGuide(null)}
+              onClick={handleBackToList}
               className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition-all"
             >
               ← Danh Sách Bài Viết
@@ -1369,14 +1914,46 @@ export const AdminGuideEditor: React.FC<Props> = ({
           )}
 
           {activeGuide && (
-            <button
-              onClick={handleSaveGuide}
-              disabled={saving}
-              className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-black text-xs flex items-center gap-2 shadow-lg shadow-emerald-500/20 transition-all disabled:opacity-50"
-            >
-              <Save className="w-4 h-4" />
-              <span>{saving ? 'Đang Lưu...' : 'Lưu Bài Viết'}</span>
-            </button>
+            <div className="flex items-center gap-2">
+              {/* Badge Trạng Thái Tự Động Lưu */}
+              {autoSaveStatus === 'saving' && (
+                <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold animate-pulse">
+                  <RotateCw className="w-3.5 h-3.5 animate-spin text-amber-400" />
+                  <span>Đang tự động lưu...</span>
+                </div>
+              )}
+              {autoSaveStatus === 'saved' && (
+                <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-bold">
+                  <Check className="w-3.5 h-3.5 text-emerald-400" />
+                  <span>
+                    Đã tự động lưu {lastAutoSavedTime ? `${lastAutoSavedTime.getHours().toString().padStart(2, '0')}:${lastAutoSavedTime.getMinutes().toString().padStart(2, '0')}:${lastAutoSavedTime.getSeconds().toString().padStart(2, '0')}` : ''}
+                  </span>
+                </div>
+              )}
+              {autoSaveStatus === 'unsaved' && (
+                <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-blue-500/10 border border-blue-500/30 text-blue-300 text-xs font-bold">
+                  <span className="w-2 h-2 rounded-full bg-blue-400 animate-ping" />
+                  <span>Đang chỉnh sửa (tự lưu sau 1s)</span>
+                </div>
+              )}
+              {autoSaveStatus === 'error' && (
+                <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs font-bold">
+                  <ShieldAlert className="w-3.5 h-3.5 text-rose-400" />
+                  <span>Lỗi máy chủ (Đã lưu nháp an toàn trên máy)</span>
+                </div>
+              )}
+
+              {/* Nút lưu thủ công phụ trợ (ép lưu ngay) */}
+              <button
+                onClick={handleSaveGuide}
+                disabled={saving || autoSaveStatus === 'saving'}
+                title="Bấm để ép lưu ngay lập tức (Hệ thống đã tự động lưu liên tục)"
+                className="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs font-bold flex items-center gap-1.5 transition-all disabled:opacity-50"
+              >
+                <Save className="w-3.5 h-3.5 text-amber-400" />
+                <span>Lưu Ngay</span>
+              </button>
+            </div>
           )}
         </div>
       </div>
@@ -1443,7 +2020,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 <div className="space-y-3">
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 rounded-2xl bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400">
+                      <div className="w-12 h-12 rounded-2xl bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400 overflow-hidden shrink-0">
                         {act.icon === 'Flame' ? (
                           <Flame className="w-6 h-6 text-amber-400" />
                         ) : act.icon === 'Trophy' ? (
@@ -1457,7 +2034,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         ) : act.icon === 'Target' ? (
                           <Target className="w-6 h-6 text-red-400" />
                         ) : act.icon?.startsWith('/') ? (
-                          <img src={act.icon} alt="" className="w-6 h-6 object-contain" />
+                          <img src={act.icon} alt="" className="w-full h-full object-cover" />
                         ) : (
                           <Swords className="w-6 h-6 text-red-400" />
                         )}
@@ -1726,14 +2303,65 @@ export const AdminGuideEditor: React.FC<Props> = ({
             </div>
 
             <div className="space-y-1">
-              <label className="text-xs font-bold text-slate-400">Mô Tả Tóm Tắt</label>
+              <div className="flex items-center justify-between">
+                <label className="text-xs font-bold text-slate-400">Mô Tả Tóm Tắt</label>
+                <TagInsertButton
+                  onInsert={(tag) =>
+                    setActiveGuide({
+                      ...activeGuide,
+                      description: appendTag(activeGuide.description, tag),
+                    })
+                  }
+                  title="Chèn liên kết vào Mô Tả Tóm Tắt"
+                />
+              </div>
               <textarea
                 value={activeGuide.description}
                 onChange={(e) => setActiveGuide({ ...activeGuide, description: e.target.value })}
                 rows={2}
-                placeholder="Tóm tắt ngắn gọn nội dung và mục tiêu bài viết..."
+                placeholder="Tóm tắt ngắn gọn nội dung và mục tiêu bài viết... (Hỗ trợ tag [[slug]], [[hero:slug]], [[resources]])"
                 className="w-full px-3.5 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500 resize-none leading-relaxed"
               />
+            </div>
+
+            {/* Hoạt Động & Tính Năng Liên Quan (Tags bài viết) */}
+            <div className="space-y-1.5 p-4 rounded-2xl bg-slate-950 border border-slate-800">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                <label className="text-xs font-bold text-slate-300 flex items-center gap-1.5">
+                  <Link2 className="w-4 h-4 text-amber-400" />
+                  <span>Hoạt Động & Tính Năng Liên Quan (Tags Bài Viết)</span>
+                </label>
+                <span className="text-[10px] text-slate-500">
+                  Chọn các hoạt động liên quan để hiển thị nút nhảy trang nhanh đầu bài viết
+                </span>
+              </div>
+              <div className="flex flex-wrap gap-1.5 pt-1">
+                {activities.map((act) => {
+                  const isSelected = activeGuide.relatedActivities?.includes(act.slug);
+                  return (
+                    <button
+                      key={act.slug}
+                      type="button"
+                      onClick={() => {
+                        const current = activeGuide.relatedActivities || [];
+                        const updated = isSelected
+                          ? current.filter((s) => s !== act.slug)
+                          : [...current, act.slug];
+                        setActiveGuide({ ...activeGuide, relatedActivities: updated });
+                      }}
+                      className={`px-2.5 py-1 rounded-xl text-xs flex items-center gap-1.5 transition-all border ${
+                        isSelected
+                          ? 'bg-amber-500 text-slate-950 border-amber-400 font-bold shadow-sm'
+                          : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white hover:border-slate-700'
+                      }`}
+                    >
+                      {isSelected && <Check className="w-3 h-3" />}
+                      <span>{act.name}</span>
+                      <span className="text-[10px] opacity-60 font-mono">({act.slug})</span>
+                    </button>
+                  );
+                })}
+              </div>
             </div>
 
             {/* Ảnh Đại Diện / Banner (Thumbnail) */}
@@ -1878,6 +2506,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           ? 'bg-teal-500/10 text-teal-400 border border-teal-500/20'
                           : block.type === 'resource-card'
                           ? 'bg-amber-500/15 text-amber-300 border border-amber-500/30'
+                          : block.type === 'step-flow'
+                          ? 'bg-orange-500/15 text-orange-300 border border-orange-500/30'
                           : 'bg-indigo-500/10 text-indigo-400 border border-indigo-500/20'
                       }`}
                     >
@@ -1893,6 +2523,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         ? 'Bảng Biểu (Table)'
                         : block.type === 'resource-card'
                         ? 'Thẻ Chi Tiết (3 Cột)'
+                        : block.type === 'step-flow'
+                        ? 'Đường Line (Step Flow)'
                         : 'Văn Bản / Mẹo'}
                     </span>
                     <input
@@ -1959,32 +2591,112 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       </div>
                     </div>
 
+                    {/* Quick Link Insert Toolbar */}
+                    <div className="flex flex-wrap items-center gap-2 pt-1 border-t border-slate-800/60">
+                      <span className="text-[11px] font-medium text-slate-400 flex items-center gap-1">
+                        <Link2 className="w-3 h-3 text-amber-400" /> Chèn liên kết:
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          openTagPicker(
+                            (tag) => handleUpdateBlock(block.id, { content: appendTag(block.content, tag) }),
+                            'Chèn Link Hoạt Động Vào Khối Văn Bản',
+                            'activities'
+                          )
+                        }
+                        className="px-2.5 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:text-white"
+                      >
+                        <Tag className="w-3 h-3 text-amber-400" />
+                        <span>Hoạt Động / Bài Viết</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          openTagPicker(
+                            (tag) => handleUpdateBlock(block.id, { content: appendTag(block.content, tag) }),
+                            'Chèn Link Tướng Vào Khối Văn Bản',
+                            'heroes'
+                          )
+                        }
+                        className="px-2.5 py-1 rounded-lg text-xs font-medium transition-all flex items-center gap-1.5 bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:text-white"
+                      >
+                        <Users className="w-3 h-3 text-sky-400" />
+                        <span>Tướng</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          handleUpdateBlock(block.id, {
+                            content: appendTag(block.content, '[[resources|Kho Tài Nguyên]]'),
+                          });
+                          showToast('Đã chèn thẻ liên kết Kho Tài Nguyên', 'success');
+                        }}
+                        className="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:text-white transition-all flex items-center gap-1.5"
+                      >
+                        <span>💎 Kho Tài Nguyên</span>
+                      </button>
+                    </div>
+
                     <textarea
                       value={block.content}
                       onChange={(e) => handleUpdateBlock(block.id, { content: e.target.value })}
                       rows={4}
-                      placeholder="Nhập nội dung hướng dẫn, các gạch đầu dòng..."
+                      placeholder="Nhập nội dung hướng dẫn. Hỗ trợ tag: [[slug-hoat-dong|Tên]], [[hero:slug-tuong|Tên]], [[resources|Kho Tài Nguyên]]..."
                       className="w-full p-3 rounded-2xl bg-slate-950 border border-slate-800 text-xs text-slate-200 focus:outline-none focus:border-amber-500 leading-relaxed font-sans resize-y"
                     />
+
+                    {/* Syntax Hint & Live Preview */}
+                    <div className="flex flex-col gap-2">
+                      <div className="text-[11px] text-slate-500 flex flex-wrap items-center gap-x-2 gap-y-1">
+                        <span className="font-semibold text-slate-400">💡 Cú pháp:</span>
+                        <span>Hoạt động: <code className="text-amber-400/90 bg-slate-950 px-1 py-0.5 rounded">[[slug|Tên]]</code></span>
+                        <span>• Tướng: <code className="text-sky-400 bg-slate-950 px-1 py-0.5 rounded">[[hero:slug|Tên]]</code></span>
+                        <span>• Tài nguyên: <code className="text-emerald-400 bg-slate-950 px-1 py-0.5 rounded">[[resources|Tên]]</code></span>
+                        <span>• Web: <code className="text-slate-300 bg-slate-950 px-1 py-0.5 rounded">[Tên](url)</code></span>
+                      </div>
+
+                      {Boolean(block.content && (block.content.includes('[[') || block.content.includes(']('))) && (
+                        <div className="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80 text-xs">
+                          <div className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1.5 flex items-center gap-1.5">
+                            <Eye className="w-3 h-3 text-amber-400" /> Xem trước liên kết:
+                          </div>
+                          <div className="text-slate-300 leading-relaxed">
+                            <RichTextWithTags text={block.content} gameSlug={gameSlug} activities={activities} />
+                          </div>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 )}
 
                 {/* BLOCK 2: ĐỘI HÌNH TƯỚNG (HERO ROSTER) */}
                 {block.type === 'hero-roster' && (
                   <div className="space-y-4">
-                    <div className="flex items-center justify-between">
-                      <input
-                        type="text"
-                        value={block.description || ''}
-                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
-                        placeholder="Mô tả tiêu chí chọn tướng (VD: Dồn dame đơn mục tiêu, buff bạo kích...)"
-                        className="w-full sm:w-2/3 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
-                      />
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 flex-1">
+                        <input
+                          type="text"
+                          value={block.description || ''}
+                          onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                          placeholder="Mô tả tiêu chí chọn tướng (VD: Dồn dame đơn mục tiêu, buff bạo kích...)"
+                          className="flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
+                        />
+                        <TagInsertButton
+                          onInsert={(tag) =>
+                            handleUpdateBlock(block.id, {
+                              description: appendTag(block.description, tag),
+                            })
+                          }
+                          title="Chèn liên kết vào Mô Tả Đội Hình Tướng"
+                        />
+                      </div>
 
                       <button
                         onClick={() => {
                           setTargetBlockIdForHero(block.id);
                           setHeroSearchTerm('');
+                          setResourceModalTab('heroes');
                           setIsHeroModalOpen(true);
                         }}
                         className="px-3.5 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shrink-0"
@@ -1998,20 +2710,63 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                       {block.heroes.map((hero, hIdx) => (
                         <div
-                          key={hero.heroSlug}
+                          key={`${hero.heroSlug || 'hero'}-${hIdx}`}
                           className="p-3 rounded-2xl bg-slate-950 border border-slate-800 flex items-start gap-3 relative group"
                         >
-                          <img
-                            src={hero.avatar}
-                            alt={hero.name}
-                            className="w-12 h-12 rounded-xl border border-slate-700 object-cover shrink-0"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                            }}
-                          />
-                          <div className="flex-1 space-y-1.5">
+                          <div className="flex flex-col items-center gap-1 shrink-0">
+                            <LayeredIcon
+                              src={hero.avatar}
+                              alt={hero.name}
+                              layers={hero.layers}
+                              className="w-12 h-12 rounded-xl border border-slate-700 object-cover"
+                              fallbackSrc="/images/heroes/icon_heroes/default.png"
+                            />
+                            <div className="flex items-center gap-1">
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const hasShard = hero.layers?.includes('game_items/public_shade_2.png');
+                                  const nextLayers = hasShard
+                                    ? (hero.layers || []).filter((l) => l !== 'game_items/public_shade_2.png')
+                                    : [...(hero.layers || []), 'game_items/public_shade_2.png'];
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], layers: nextLayers.length > 0 ? nextLayers : undefined };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                className={`text-[9px] px-1.5 py-0.5 rounded border transition-all ${
+                                  hero.layers?.includes('game_items/public_shade_2.png')
+                                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 font-bold'
+                                    : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white'
+                                }`}
+                                title="Bật/tắt layer Mảnh (game_items/public_shade_2.png)"
+                              >
+                                {hero.layers?.includes('game_items/public_shade_2.png') ? '★ Mảnh' : 'Mảnh?'}
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  setLayerModal({
+                                    isOpen: true,
+                                    title: `Quản Lý Layer - Tướng ${hero.name}`,
+                                    baseIcon: hero.avatar,
+                                    layers: hero.layers || [],
+                                    onSave: (newLayers) => {
+                                      const updated = [...block.heroes];
+                                      updated[hIdx] = { ...updated[hIdx], layers: newLayers.length > 0 ? newLayers : undefined };
+                                      handleUpdateBlock(block.id, { heroes: updated });
+                                    },
+                                  });
+                                }}
+                                className="p-0.5 rounded text-slate-500 hover:text-amber-400 bg-slate-900 border border-slate-800"
+                                title="Quản lý chi tiết các layer chồng"
+                              >
+                                <Layers className="w-3 h-3" />
+                              </button>
+                            </div>
+                          </div>
+                          <div className="flex-1 space-y-1.5 min-w-0">
                             <div className="flex items-center justify-between">
-                              <span className="font-extrabold text-white text-xs">{hero.name}</span>
+                              <span className="font-extrabold text-white text-xs truncate">{hero.name}</span>
                               <button
                                 onClick={() => {
                                   const updated = block.heroes.filter((_, idx) => idx !== hIdx);
@@ -2036,17 +2791,30 @@ export const AdminGuideEditor: React.FC<Props> = ({
                               className="w-full px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-[11px] text-amber-400 font-semibold focus:outline-none"
                             />
 
-                            <textarea
-                              value={hero.note || ''}
-                              onChange={(e) => {
-                                const updated = [...block.heroes];
-                                updated[hIdx] = { ...updated[hIdx], note: e.target.value };
-                                handleUpdateBlock(block.id, { heroes: updated });
-                              }}
-                              rows={2}
-                              placeholder="Lý do chọn / mẹo chiến đấu..."
-                              className="w-full px-2 py-1 rounded bg-slate-900 border border-slate-800 text-[10px] text-slate-300 focus:outline-none resize-none leading-relaxed"
-                            />
+                            <div className="relative">
+                              <textarea
+                                value={hero.note || ''}
+                                onChange={(e) => {
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], note: e.target.value };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                rows={2}
+                                placeholder="Lý do chọn / mẹo chiến đấu..."
+                                className="w-full px-2 py-1 pr-6 rounded bg-slate-900 border border-slate-800 text-[10px] text-slate-300 focus:outline-none resize-none leading-relaxed"
+                              />
+                              <TagInsertButton
+                                onInsert={(tag) => {
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], note: appendTag(updated[hIdx].note, tag) };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                size="xs"
+                                showLabel={false}
+                                className="absolute top-1 right-1"
+                                title="Chèn liên kết vào ghi chú tướng"
+                              />
+                            </div>
                           </div>
                         </div>
                       ))}
@@ -2151,17 +2919,29 @@ export const AdminGuideEditor: React.FC<Props> = ({
                             </button>
                           </div>
                           <div className="p-2.5">
-                            <input
-                              type="text"
-                              value={img.caption || ''}
-                              onChange={(e) => {
-                                const updated = [...block.images];
-                                updated[iIdx] = { ...updated[iIdx], caption: e.target.value };
-                                handleUpdateBlock(block.id, { images: updated });
-                              }}
-                              placeholder="Nhập chú thích ảnh minh họa..."
-                              className="w-full px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300 focus:outline-none"
-                            />
+                            <div className="flex items-center gap-1.5">
+                              <input
+                                type="text"
+                                value={img.caption || ''}
+                                onChange={(e) => {
+                                  const updated = [...block.images];
+                                  updated[iIdx] = { ...updated[iIdx], caption: e.target.value };
+                                  handleUpdateBlock(block.id, { images: updated });
+                                }}
+                                placeholder="Nhập chú thích ảnh minh họa..."
+                                className="flex-1 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300 focus:outline-none"
+                              />
+                              <TagInsertButton
+                                onInsert={(tag) => {
+                                  const updated = [...block.images];
+                                  updated[iIdx] = { ...updated[iIdx], caption: appendTag(updated[iIdx].caption, tag) };
+                                  handleUpdateBlock(block.id, { images: updated });
+                                }}
+                                size="xs"
+                                showLabel={false}
+                                title="Chèn liên kết vào chú thích ảnh"
+                              />
+                            </div>
                           </div>
                         </div>
                       ))}
@@ -2178,14 +2958,24 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 {/* BLOCK 4: VẬT PHẨM & TÀI NGUYÊN (RESOURCES) */}
                 {block.type === 'resources' && (
                   <div className="space-y-4">
-                    <div className="flex items-center justify-between">
-                      <input
-                        type="text"
-                        value={block.description || ''}
-                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
-                        placeholder="Mô tả danh mục phần thưởng..."
-                        className="w-full sm:w-2/3 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
-                      />
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 flex-1">
+                        <input
+                          type="text"
+                          value={block.description || ''}
+                          onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                          placeholder="Mô tả danh mục phần thưởng..."
+                          className="flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
+                        />
+                        <TagInsertButton
+                          onInsert={(tag) =>
+                            handleUpdateBlock(block.id, {
+                              description: appendTag(block.description, tag),
+                            })
+                          }
+                          title="Chèn liên kết vào Mô Tả Phần Thưởng"
+                        />
+                      </div>
 
                       <button
                         onClick={() => {
@@ -2206,12 +2996,57 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           key={rIdx}
                           className="p-3 rounded-2xl bg-slate-950 border border-slate-800 flex items-center gap-3"
                         >
-                          <img
-                            src={item.icon}
-                            alt={item.name}
-                            className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 p-1 object-contain shrink-0"
-                          />
-                          <div className="flex-1 space-y-1">
+                          <div className="flex flex-col items-center gap-1 shrink-0">
+                            <LayeredIcon
+                              src={item.icon}
+                              alt={item.name}
+                              layers={item.layers}
+                              className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 p-1 object-contain"
+                            />
+                            <div className="flex items-center gap-1">
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const hasShard = item.layers?.includes('game_items/public_shade_2.png');
+                                  const nextLayers = hasShard
+                                    ? (item.layers || []).filter((l) => l !== 'game_items/public_shade_2.png')
+                                    : [...(item.layers || []), 'game_items/public_shade_2.png'];
+                                  const updated = [...block.items];
+                                  updated[rIdx] = { ...updated[rIdx], layers: nextLayers.length > 0 ? nextLayers : undefined };
+                                  handleUpdateBlock(block.id, { items: updated });
+                                }}
+                                className={`text-[8px] px-1 py-0.2 rounded border transition-all ${
+                                  item.layers?.includes('game_items/public_shade_2.png')
+                                    ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50 font-bold'
+                                    : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white'
+                                }`}
+                                title="Bật/tắt layer Mảnh (game_items/public_shade_2.png)"
+                              >
+                                {item.layers?.includes('game_items/public_shade_2.png') ? '★ Mảnh' : 'Mảnh?'}
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  setLayerModal({
+                                    isOpen: true,
+                                    title: `Quản Lý Layer - ${item.name}`,
+                                    baseIcon: item.icon,
+                                    layers: item.layers || [],
+                                    onSave: (newLayers) => {
+                                      const updated = [...block.items];
+                                      updated[rIdx] = { ...updated[rIdx], layers: newLayers.length > 0 ? newLayers : undefined };
+                                      handleUpdateBlock(block.id, { items: updated });
+                                    },
+                                  });
+                                }}
+                                className="p-0.5 rounded text-slate-500 hover:text-emerald-400 bg-slate-900 border border-slate-800"
+                                title="Quản lý chi tiết các layer chồng"
+                              >
+                                <Layers className="w-2.5 h-2.5" />
+                              </button>
+                            </div>
+                          </div>
+                          <div className="flex-1 space-y-1 min-w-0">
                             <div className="flex items-center justify-between gap-1">
                               <input
                                 type="text"
@@ -2262,20 +3097,31 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 {/* KHỐI: NGUỒN TƯỚNG (HERO-SOURCE) */}
                 {block.type === 'hero-source' && (
                   <div className="space-y-4">
-                    <div className="flex items-center justify-between gap-3">
-                      <input
-                        type="text"
-                        value={block.description || ''}
-                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
-                        placeholder="Mô tả nguồn tướng: Cách nhận, mốc điểm, sự kiện mở bán..."
-                        className="w-full sm:w-2/3 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-purple-500"
-                      />
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 flex-1">
+                        <input
+                          type="text"
+                          value={block.description || ''}
+                          onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                          placeholder="Mô tả nguồn tướng: Cách nhận, mốc điểm, sự kiện mở bán..."
+                          className="flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-purple-500"
+                        />
+                        <TagInsertButton
+                          onInsert={(tag) =>
+                            handleUpdateBlock(block.id, {
+                              description: appendTag(block.description, tag),
+                            })
+                          }
+                          title="Chèn liên kết vào Mô Tả Nguồn Tướng"
+                        />
+                      </div>
 
                       <button
                         type="button"
                         onClick={() => {
                           setTargetBlockIdForHero(block.id);
                           setHeroSearchTerm('');
+                          setResourceModalTab('heroes');
                           setIsHeroModalOpen(true);
                         }}
                         className="px-3.5 py-1.5 rounded-xl bg-purple-500 hover:bg-purple-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shrink-0 shadow"
@@ -2288,17 +3134,60 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                       {block.heroes.map((hero, hIdx) => (
                         <div
-                          key={hero.heroSlug || hIdx}
+                          key={`${hero.heroSlug || 'hero'}-${hIdx}`}
                           className="p-3 rounded-2xl bg-slate-950 border border-slate-800 flex items-start gap-3 relative group hover:border-purple-500/40 transition-all"
                         >
-                          <img
-                            src={hero.avatar}
-                            alt={hero.name}
-                            className="w-12 h-12 rounded-xl border border-slate-700 object-cover shrink-0"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                            }}
-                          />
+                          <div className="flex flex-col items-center gap-1 shrink-0">
+                            <LayeredIcon
+                              src={hero.avatar}
+                              alt={hero.name}
+                              layers={hero.layers}
+                              className="w-12 h-12 rounded-xl border border-slate-700 object-cover"
+                              fallbackSrc="/images/heroes/icon_heroes/default.png"
+                            />
+                            <div className="flex items-center gap-1">
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  const hasShard = hero.layers?.includes('game_items/public_shade_2.png');
+                                  const nextLayers = hasShard
+                                    ? (hero.layers || []).filter((l) => l !== 'game_items/public_shade_2.png')
+                                    : [...(hero.layers || []), 'game_items/public_shade_2.png'];
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], layers: nextLayers.length > 0 ? nextLayers : undefined };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                className={`text-[9px] px-1.5 py-0.5 rounded border transition-all ${
+                                  hero.layers?.includes('game_items/public_shade_2.png')
+                                    ? 'bg-purple-500/20 text-purple-300 border-purple-500/50 font-bold'
+                                    : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white'
+                                }`}
+                                title="Bật/tắt layer Mảnh (game_items/public_shade_2.png)"
+                              >
+                                {hero.layers?.includes('game_items/public_shade_2.png') ? '★ Mảnh' : 'Mảnh?'}
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  setLayerModal({
+                                    isOpen: true,
+                                    title: `Quản Lý Layer - Nguồn Tướng ${hero.name}`,
+                                    baseIcon: hero.avatar,
+                                    layers: hero.layers || [],
+                                    onSave: (newLayers) => {
+                                      const updated = [...block.heroes];
+                                      updated[hIdx] = { ...updated[hIdx], layers: newLayers.length > 0 ? newLayers : undefined };
+                                      handleUpdateBlock(block.id, { heroes: updated });
+                                    },
+                                  });
+                                }}
+                                className="p-0.5 rounded text-slate-500 hover:text-purple-400 bg-slate-900 border border-slate-800"
+                                title="Quản lý chi tiết các layer chồng"
+                              >
+                                <Layers className="w-3 h-3" />
+                              </button>
+                            </div>
+                          </div>
                           <div className="flex-1 space-y-1.5 min-w-0">
                             <div className="flex items-center justify-between gap-1">
                               <span className="font-extrabold text-white text-xs truncate">
@@ -2327,17 +3216,29 @@ export const AdminGuideEditor: React.FC<Props> = ({
                               {hero.role && <span>• {hero.role}</span>}
                             </div>
 
-                            <input
-                              type="text"
-                              value={hero.sourceNote || ''}
-                              onChange={(e) => {
-                                const updated = [...block.heroes];
-                                updated[hIdx] = { ...updated[hIdx], sourceNote: e.target.value };
-                                handleUpdateBlock(block.id, { heroes: updated });
-                              }}
-                              placeholder="Nguồn nhận: Đổi 5000 Xu, Mở Rương, Top 1-3..."
-                              className="w-full px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-amber-300 font-semibold focus:outline-none focus:border-purple-500"
-                            />
+                            <div className="flex items-center gap-1.5">
+                              <input
+                                type="text"
+                                value={hero.sourceNote || ''}
+                                onChange={(e) => {
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], sourceNote: e.target.value };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                placeholder="Nguồn nhận: Đổi 5000 Xu, Mở Rương, Top 1-3..."
+                                className="flex-1 px-2 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[11px] text-amber-300 font-semibold focus:outline-none focus:border-purple-500"
+                              />
+                              <TagInsertButton
+                                onInsert={(tag) => {
+                                  const updated = [...block.heroes];
+                                  updated[hIdx] = { ...updated[hIdx], sourceNote: appendTag(updated[hIdx].sourceNote, tag) };
+                                  handleUpdateBlock(block.id, { heroes: updated });
+                                }}
+                                size="xs"
+                                showLabel={false}
+                                title="Chèn liên kết vào nguồn nhận tướng"
+                              />
+                            </div>
                           </div>
                         </div>
                       ))}
@@ -2356,7 +3257,17 @@ export const AdminGuideEditor: React.FC<Props> = ({
                   <div className="space-y-4">
                     {/* Mô tả bảng */}
                     <div className="space-y-1">
-                      <label className="text-[11px] font-bold text-slate-400">Mô tả hoặc ghi chú phụ của bảng (tùy chọn):</label>
+                      <div className="flex items-center justify-between">
+                        <label className="text-[11px] font-bold text-slate-400">Mô tả hoặc ghi chú phụ của bảng (tùy chọn):</label>
+                        <TagInsertButton
+                          onInsert={(tag) =>
+                            handleUpdateBlock(block.id, {
+                              description: appendTag(block.description, tag),
+                            })
+                          }
+                          title="Chèn liên kết vào Mô Tả Bảng Biểu"
+                        />
+                      </div>
                       <input
                         type="text"
                         value={block.description || ''}
@@ -2375,7 +3286,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                             Cấu Hình Các Cột ({block.columns.length} Cột):
                           </span>
                           <span className="text-[10px] text-slate-400">
-                            (Cột Text cho chữ/mốc nạp, Cột Tài Nguyên cho chọn Icon + Tên + Số lượng)
+                            (Cột Text cho chữ/mốc nạp, Cột Phần Thưởng cho chọn Icon + Tên + Số lượng / Tướng)
                           </span>
                         </div>
 
@@ -2391,10 +3302,12 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           <button
                             type="button"
                             onClick={() => handleAddTableColumn(block.id, 'resource')}
-                            className="px-2.5 py-1 rounded-lg bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 text-[11px] font-bold flex items-center gap-1 border border-teal-500/40"
+                            className="px-3 py-1 rounded-lg bg-gradient-to-r from-teal-500/20 to-amber-500/20 hover:from-teal-500/30 hover:to-amber-500/30 text-teal-300 text-[11px] font-bold flex items-center gap-1.5 border border-teal-500/40 shadow-sm"
+                            title="Thêm cột chứa cả Vật phẩm và Tướng"
                           >
                             <Sparkles className="w-3 h-3 text-teal-400" />
-                            <span>+ Cột Tài Nguyên</span>
+                            <Users className="w-3 h-3 text-amber-400" />
+                            <span>+ Cột Phần Thưởng (Vật Phẩm / Tướng)</span>
                           </button>
                         </div>
                       </div>
@@ -2412,7 +3325,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                               </span>
                               <div className="flex items-center gap-1">
                                 <select
-                                  value={col.type}
+                                  value={col.type === 'hero' ? 'resource' : col.type}
                                   onChange={(e) =>
                                     handleUpdateTableColumn(block.id, col.id, {
                                       type: e.target.value as 'text' | 'resource',
@@ -2421,7 +3334,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                   className="bg-slate-950 text-[10px] text-teal-300 font-bold px-2 py-0.5 rounded border border-slate-800 focus:outline-none"
                                 >
                                   <option value="text">Văn bản (Text)</option>
-                                  <option value="resource">Tài nguyên (Icon/SL)</option>
+                                  <option value="resource">Phần Thưởng (Vật Phẩm & Tướng)</option>
                                 </select>
                                 <button
                                   type="button"
@@ -2475,12 +3388,12 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                     <span className="text-white font-extrabold">{col.label}</span>
                                     <span
                                       className={`text-[9px] px-1.5 py-0.2 rounded font-mono ${
-                                        col.type === 'resource'
-                                          ? 'bg-teal-500/20 text-teal-300'
-                                          : 'bg-slate-800 text-slate-400'
+                                        col.type === 'text'
+                                          ? 'bg-slate-800 text-slate-400'
+                                          : 'bg-gradient-to-r from-teal-500/20 to-amber-500/20 text-teal-300 border border-teal-500/30'
                                       }`}
                                     >
-                                      {col.type === 'resource' ? 'Tài Nguyên' : 'Text'}
+                                      {col.type === 'text' ? 'Text' : 'Vật Phẩm / Tướng'}
                                     </span>
                                   </div>
                                 </th>
@@ -2499,116 +3412,195 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                   return (
                                     <td key={col.id} className="py-2.5 px-3 align-middle">
                                       {col.type === 'text' ? (
-                                        <input
-                                          type="text"
-                                          value={cell.text || ''}
-                                          onChange={(e) =>
-                                            handleUpdateTableCellText(
-                                              block.id,
-                                              row.id,
-                                              col.id,
-                                              e.target.value
-                                            )
-                                          }
-                                          placeholder="Nhập nội dung..."
-                                          className="w-full px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
-                                        />
+                                        <div className="flex items-center gap-1.5">
+                                          <input
+                                            type="text"
+                                            value={cell.text || ''}
+                                            onChange={(e) =>
+                                              handleUpdateTableCellText(
+                                                block.id,
+                                                row.id,
+                                                col.id,
+                                                e.target.value
+                                              )
+                                            }
+                                            placeholder="Nhập nội dung..."
+                                            className="flex-1 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-teal-500"
+                                          />
+                                          <TagInsertButton
+                                            onInsert={(tag) =>
+                                              handleUpdateTableCellText(
+                                                block.id,
+                                                row.id,
+                                                col.id,
+                                                appendTag(cell.text, tag)
+                                              )
+                                            }
+                                            size="xs"
+                                            showLabel={false}
+                                            title="Chèn liên kết vào ô bảng"
+                                          />
+                                        </div>
                                       ) : (
                                         <div className="space-y-2 py-1">
                                           {(() => {
                                             const cellItems = getCellResources(cell);
                                             return (
                                               <>
-                                                {cellItems.map((item, itemIdx) => (
-                                                  <div
-                                                    key={itemIdx}
-                                                    className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2"
-                                                  >
-                                                    <button
-                                                      type="button"
-                                                      onClick={() => {
-                                                        setTargetTableCellForResource({
-                                                          blockId: block.id,
-                                                          rowId: row.id,
-                                                          columnId: col.id,
-                                                          itemIndex: itemIdx,
-                                                        });
-                                                        setTargetBlockIdForResource(null);
-                                                        setIsResourceModalOpen(true);
-                                                      }}
-                                                      className="w-9 h-9 rounded-lg bg-slate-950 border border-slate-700/80 p-0.5 hover:border-teal-400 transition-all shrink-0 flex items-center justify-center group/ico relative"
-                                                      title="Click để đổi icon vật phẩm"
+                                                {cellItems.map((item, itemIdx) => {
+                                                  const isHero = item.itemType === 'hero' || Boolean(item.heroSlug) || Boolean(item.rarity);
+                                                  return (
+                                                    <div
+                                                      key={itemIdx}
+                                                      className="p-2 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2 group hover:border-slate-700 transition-colors"
                                                     >
-                                                      {item.icon ? (
-                                                        <img
-                                                          src={item.icon}
-                                                          alt={item.name || 'icon'}
-                                                          className="w-full h-full object-contain"
-                                                          onError={(e) => {
-                                                            (e.target as HTMLImageElement).src =
-                                                              '/images/heroes/icon_heroes/default.png';
+                                                      <div className="flex flex-col items-center gap-1 shrink-0">
+                                                        <button
+                                                          type="button"
+                                                          onClick={() => {
+                                                            setTargetTableCellForResource({
+                                                              blockId: block.id,
+                                                              rowId: row.id,
+                                                              columnId: col.id,
+                                                              itemIndex: itemIdx,
+                                                            });
+                                                            setTargetTableCellForHero(null);
+                                                            setTargetBlockIdForResource(null);
+                                                            setTargetBlockIdForHero(null);
+                                                            setResourceModalTab(isHero ? 'heroes' : 'game-assets');
+                                                            setIsResourceModalOpen(true);
                                                           }}
-                                                        />
-                                                      ) : (
-                                                        <Sparkles className="w-4 h-4 text-slate-500" />
-                                                      )}
-                                                      <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover/ico:opacity-100 flex items-center justify-center transition-opacity">
-                                                        <Edit2 className="w-3 h-3 text-white" />
+                                                          className={`w-9 h-9 rounded-lg bg-slate-950 border p-0.5 transition-all shrink-0 flex items-center justify-center group/ico relative overflow-hidden ${
+                                                            isHero ? 'border-amber-500/40 hover:border-amber-400' : 'border-slate-700/80 hover:border-teal-400'
+                                                          }`}
+                                                          title="Click để đổi icon / tướng"
+                                                        >
+                                                          {item.icon ? (
+                                                            <LayeredIcon
+                                                              src={item.icon}
+                                                              alt={item.name || 'icon'}
+                                                              layers={item.layers}
+                                                              className="w-full h-full object-contain"
+                                                              fallbackSrc="/images/heroes/icon_heroes/default.png"
+                                                            />
+                                                          ) : isHero ? (
+                                                            <Users className="w-4 h-4 text-amber-400" />
+                                                          ) : (
+                                                            <Sparkles className="w-4 h-4 text-slate-500" />
+                                                          )}
+                                                          <div className="absolute inset-0 bg-black/60 rounded-lg opacity-0 group-hover/ico:opacity-100 flex items-center justify-center transition-opacity">
+                                                            <Edit2 className="w-3 h-3 text-white" />
+                                                          </div>
+                                                        </button>
+                                                        <div className="flex items-center gap-0.5">
+                                                          <button
+                                                            type="button"
+                                                            onClick={() => {
+                                                              const hasShard = item.layers?.includes('game_items/public_shade_2.png');
+                                                              const nextLayers = hasShard
+                                                                ? (item.layers || []).filter((l) => l !== 'game_items/public_shade_2.png')
+                                                                : [...(item.layers || []), 'game_items/public_shade_2.png'];
+                                                              handleUpdateTableCellResourceItem(block.id, row.id, col.id, itemIdx, {
+                                                                layers: nextLayers.length > 0 ? nextLayers : undefined,
+                                                              });
+                                                            }}
+                                                            className={`text-[8px] px-1 rounded border transition-all ${
+                                                              item.layers?.includes('game_items/public_shade_2.png')
+                                                                ? 'bg-amber-500/20 text-amber-300 border-amber-500/50 font-bold'
+                                                                : 'bg-slate-950 text-slate-500 border-slate-800 hover:text-slate-300'
+                                                            }`}
+                                                            title="Bật/tắt layer Mảnh"
+                                                          >
+                                                            M
+                                                          </button>
+                                                          <button
+                                                            type="button"
+                                                            onClick={() => {
+                                                              setLayerModal({
+                                                                isOpen: true,
+                                                                title: `Quản Lý Layer - ${item.name || 'Ô bảng'}`,
+                                                                baseIcon: item.icon || '',
+                                                                layers: item.layers || [],
+                                                                onSave: (newLayers) => {
+                                                                  handleUpdateTableCellResourceItem(block.id, row.id, col.id, itemIdx, {
+                                                                    layers: newLayers.length > 0 ? newLayers : undefined,
+                                                                  });
+                                                                },
+                                                              });
+                                                            }}
+                                                            className="p-0.5 rounded text-slate-500 hover:text-teal-400 bg-slate-950 border border-slate-800"
+                                                            title="Quản lý chi tiết các layer chồng"
+                                                          >
+                                                            <Layers className="w-2.5 h-2.5" />
+                                                          </button>
+                                                        </div>
                                                       </div>
-                                                    </button>
 
-                                                    <div className="flex-1 min-w-0 space-y-1">
-                                                      <input
-                                                        type="text"
-                                                        value={item.name || ''}
-                                                        onChange={(e) =>
-                                                          handleUpdateTableCellResourceItem(
+                                                      <div className="flex-1 min-w-0 space-y-1">
+                                                        <div className="flex items-center gap-1.5">
+                                                          <input
+                                                            type="text"
+                                                            value={item.name || ''}
+                                                            onChange={(e) =>
+                                                              handleUpdateTableCellResourceItem(
+                                                                block.id,
+                                                                row.id,
+                                                                col.id,
+                                                                itemIdx,
+                                                                { name: e.target.value }
+                                                              )
+                                                            }
+                                                            placeholder={isHero ? "Tên tướng..." : "Tên vật phẩm..."}
+                                                            className="flex-1 px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px] font-bold text-white focus:outline-none"
+                                                          />
+                                                          {item.rarity && (
+                                                            <span className="text-[9px] font-black px-1 rounded bg-black/40 text-amber-400 font-mono shrink-0">
+                                                              {item.rarity}
+                                                            </span>
+                                                          )}
+                                                          {item.itemType === 'hero' && (
+                                                            <span className="text-[8px] font-bold px-1 rounded bg-purple-500/20 text-purple-300 font-mono shrink-0">
+                                                              Tướng
+                                                            </span>
+                                                          )}
+                                                        </div>
+                                                        <input
+                                                          type="text"
+                                                          value={item.quantity || ''}
+                                                          onChange={(e) =>
+                                                            handleUpdateTableCellResourceItem(
+                                                              block.id,
+                                                              row.id,
+                                                              col.id,
+                                                              itemIdx,
+                                                              { quantity: e.target.value }
+                                                            )
+                                                          }
+                                                          placeholder="Số lượng / Ghi chú (VD: x1, Mảnh x50, CS2 Đỏ+...)"
+                                                          className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[10px] font-mono text-amber-300 focus:outline-none"
+                                                        />
+                                                      </div>
+
+                                                      <button
+                                                        type="button"
+                                                        onClick={() =>
+                                                          handleRemoveTableCellResourceItem(
                                                             block.id,
                                                             row.id,
                                                             col.id,
-                                                            itemIdx,
-                                                            { name: e.target.value }
+                                                            itemIdx
                                                           )
                                                         }
-                                                        placeholder="Tên vật phẩm..."
-                                                        className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px] font-bold text-white focus:outline-none"
-                                                      />
-                                                      <input
-                                                        type="text"
-                                                        value={item.quantity || ''}
-                                                        onChange={(e) =>
-                                                          handleUpdateTableCellResourceItem(
-                                                            block.id,
-                                                            row.id,
-                                                            col.id,
-                                                            itemIdx,
-                                                            { quantity: e.target.value }
-                                                          )
-                                                        }
-                                                        placeholder="Số lượng (x20, *5...)"
-                                                        className="w-full px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[10px] font-mono text-amber-300 focus:outline-none"
-                                                      />
+                                                        className="text-slate-500 hover:text-red-400 p-1 shrink-0"
+                                                        title="Xóa mục này"
+                                                      >
+                                                        <Trash2 className="w-3.5 h-3.5" />
+                                                      </button>
                                                     </div>
+                                                  );
+                                                })}
 
-                                                    <button
-                                                      type="button"
-                                                      onClick={() =>
-                                                        handleRemoveTableCellResourceItem(
-                                                          block.id,
-                                                          row.id,
-                                                          col.id,
-                                                          itemIdx
-                                                        )
-                                                      }
-                                                      className="text-slate-500 hover:text-red-400 p-1 shrink-0"
-                                                      title="Xóa vật phẩm này"
-                                                    >
-                                                      <X className="w-3.5 h-3.5" />
-                                                    </button>
-                                                  </div>
-                                                ))}
-
-                                                {/* Nút thêm vật phẩm vào ô này */}
+                                                {/* Nút thêm vật phẩm / tướng vào ô này */}
                                                 <button
                                                   type="button"
                                                   onClick={() => {
@@ -2617,25 +3609,28 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                                       rowId: row.id,
                                                       columnId: col.id,
                                                     });
+                                                    setTargetTableCellForHero(null);
                                                     setTargetBlockIdForResource(null);
+                                                    setTargetBlockIdForHero(null);
+                                                    setResourceModalTab('game-assets');
                                                     setIsResourceModalOpen(true);
                                                   }}
                                                   className={`w-full py-1.5 px-2.5 rounded-xl border border-dashed border-slate-800 hover:border-teal-500/60 bg-slate-900/50 hover:bg-slate-900 text-[11px] text-slate-400 hover:text-teal-300 font-bold flex items-center justify-center gap-1.5 transition-all ${
                                                     cellItems.length > 0 ? 'mt-1.5' : 'py-2.5'
                                                   }`}
                                                 >
-                                                  <Plus className="w-3.5 h-3.5" />
+                                                  <Plus className="w-3.5 h-3.5 text-teal-400" />
                                                   <span>
                                                     {cellItems.length > 0
-                                                      ? '+ Thêm Vật Phẩm Khác'
-                                                      : 'Chọn Tài Nguyên / Vật Phẩm'}
+                                                      ? '+ Thêm Vật Phẩm / Tướng'
+                                                      : '+ Chọn Vật Phẩm / Tướng'}
                                                   </span>
                                                 </button>
                                               </>
                                             );
                                           })()}
                                         </div>
-                                      )}
+                                                                            )}
                                     </td>
                                   );
                                 })}
@@ -2688,14 +3683,24 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 {block.type === 'resource-card' && (
                   <div className="space-y-4">
                     {/* Mô tả phụ của khối */}
-                    <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
-                      <input
-                        type="text"
-                        value={block.description || ''}
-                        onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
-                        placeholder="Mô tả danh sách (VD: Chi tiết công dụng vật phẩm & cách nhận từ hoạt động)..."
-                        className="w-full sm:flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
-                      />
+                    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                      <div className="flex items-center gap-2 flex-1">
+                        <input
+                          type="text"
+                          value={block.description || ''}
+                          onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                          placeholder="Mô tả danh sách (VD: Chi tiết công dụng vật phẩm & cách nhận từ hoạt động)..."
+                          className="flex-1 px-3 py-1.5 rounded-xl bg-slate-950 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
+                        />
+                        <TagInsertButton
+                          onInsert={(tag) =>
+                            handleUpdateBlock(block.id, {
+                              description: appendTag(block.description, tag),
+                            })
+                          }
+                          title="Chèn liên kết vào Mô Tả Thẻ Chi Tiết"
+                        />
+                      </div>
 
                       <button
                         type="button"
@@ -2779,16 +3784,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
                             {/* Cột 1: Icon / Tướng */}
                             <div className="w-full sm:w-24 shrink-0 flex items-center justify-center p-2.5 bg-slate-950/50">
                               <div className="relative w-14 h-14 rounded-xl overflow-hidden border border-slate-700 bg-slate-900 flex items-center justify-center p-0.5">
-                                <img
+                                <LayeredIcon
                                   src={card.icon}
                                   alt={card.name}
+                                  layers={card.layers}
                                   className="w-full h-full object-contain"
-                                  onError={(e) => {
-                                    (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                                  }}
+                                  fallbackSrc="/images/heroes/icon_heroes/default.png"
                                 />
                                 {card.rarity && card.itemType === 'hero' && (
-                                  <span className="absolute -top-1 -right-1 text-[8px] font-black px-1 rounded bg-amber-500 text-slate-950 shadow">
+                                  <span className="absolute -top-1 -right-1 text-[8px] font-black px-1 rounded bg-amber-500 text-slate-950 shadow z-20">
                                     {card.rarity}
                                   </span>
                                 )}
@@ -2854,6 +3858,149 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       {(!block.cards || block.cards.length === 0) && (
                         <div className="p-8 rounded-2xl bg-slate-950/50 border border-dashed border-slate-800 text-center text-xs text-slate-500">
                           Chưa có thẻ chi tiết nào trong khối. Nhấp &quot;+ Thêm Thẻ Chi Tiết Mới&quot; ở trên để bắt đầu tạo thẻ.
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* STEP-FLOW BLOCK: ĐƯỜNG LINE THAO TÁC STEP BY STEP */}
+                {block.type === 'step-flow' && (
+                  <div className="space-y-4 pt-2">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 bg-slate-950 p-3 rounded-2xl border border-slate-800">
+                      <div className="flex-1 min-w-0">
+                        <label className="text-[11px] font-bold text-slate-400 block mb-1">
+                          Mô tả / Hướng dẫn phụ (tùy chọn):
+                        </label>
+                        <input
+                          type="text"
+                          value={block.description || ''}
+                          onChange={(e) => handleUpdateBlock(block.id, { description: e.target.value })}
+                          placeholder="Nhập mô tả quy trình thực hiện..."
+                          className="w-full px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
+                        />
+                      </div>
+
+                      <div className="flex items-center gap-2 shrink-0">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setTargetBlockIdForStepFlow(block.id);
+                            setStepFlowSearchTerm('');
+                            setIsStepFlowPickerOpen(true);
+                          }}
+                          className="px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-black flex items-center gap-1.5 transition-all shadow-sm"
+                        >
+                          <Plus className="w-4 h-4" />
+                          <span>+ Thêm Bước (Chọn Ảnh Source)</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Step Cards List */}
+                    <div className="space-y-3">
+                      {block.steps?.map((step, sIdx) => (
+                        <div
+                          key={step.id || sIdx}
+                          className="p-3 rounded-2xl bg-slate-950 border border-slate-800 flex flex-col sm:flex-row items-center gap-3.5 group hover:border-amber-500/50 transition-all"
+                        >
+                          <div className="flex items-center gap-2 shrink-0">
+                            <span className="w-7 h-7 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono font-bold text-xs flex items-center justify-center">
+                              #{sIdx + 1}
+                            </span>
+                            <div className="w-14 h-14 rounded-xl bg-slate-900 border border-slate-700 p-1 flex items-center justify-center shrink-0">
+                              <img
+                                src={step.image}
+                                alt={step.name || `Bước ${sIdx + 1}`}
+                                className="w-full h-full object-contain"
+                              />
+                            </div>
+                          </div>
+
+                          <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-2 w-full">
+                            <div>
+                              <label className="text-[10px] font-bold text-slate-400 block mb-0.5">Tên bước:</label>
+                              <input
+                                type="text"
+                                value={step.name || ''}
+                                onChange={(e) => {
+                                  const updatedSteps = [...block.steps];
+                                  updatedSteps[sIdx] = { ...updatedSteps[sIdx], name: e.target.value };
+                                  handleUpdateBlock(block.id, { steps: updatedSteps });
+                                }}
+                                placeholder="Tên thao tác..."
+                                className="w-full px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-xs text-white font-bold focus:outline-none focus:border-amber-500"
+                              />
+                            </div>
+
+                            <div>
+                              <label className="text-[10px] font-bold text-slate-400 block mb-0.5">Ghi chú thao tác:</label>
+                              <input
+                                type="text"
+                                value={step.description || ''}
+                                onChange={(e) => {
+                                  const updatedSteps = [...block.steps];
+                                  updatedSteps[sIdx] = { ...updatedSteps[sIdx], description: e.target.value };
+                                  handleUpdateBlock(block.id, { steps: updatedSteps });
+                                }}
+                                placeholder="Ghi chú thêm (không bắt buộc)..."
+                                className="w-full px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-xs text-slate-300 focus:outline-none focus:border-amber-500"
+                              />
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-1 shrink-0 self-end sm:self-center">
+                            <button
+                              type="button"
+                              disabled={sIdx === 0}
+                              onClick={() => {
+                                if (sIdx === 0) return;
+                                const updatedSteps = [...block.steps];
+                                const temp = updatedSteps[sIdx - 1];
+                                updatedSteps[sIdx - 1] = updatedSteps[sIdx];
+                                updatedSteps[sIdx] = temp;
+                                handleUpdateBlock(block.id, { steps: updatedSteps });
+                              }}
+                              className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white disabled:opacity-30 disabled:pointer-events-none"
+                              title="Di chuyển lên"
+                            >
+                              <ArrowUp className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              type="button"
+                              disabled={sIdx === block.steps.length - 1}
+                              onClick={() => {
+                                if (sIdx === block.steps.length - 1) return;
+                                const updatedSteps = [...block.steps];
+                                const temp = updatedSteps[sIdx + 1];
+                                updatedSteps[sIdx + 1] = updatedSteps[sIdx];
+                                updatedSteps[sIdx] = temp;
+                                handleUpdateBlock(block.id, { steps: updatedSteps });
+                              }}
+                              className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-white disabled:opacity-30 disabled:pointer-events-none"
+                              title="Di chuyển xuống"
+                            >
+                              <ArrowDown className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => {
+                                const updatedSteps = block.steps.filter((_, i) => i !== sIdx);
+                                handleUpdateBlock(block.id, { steps: updatedSteps });
+                                showToast('Đã xóa bước thao tác', 'success');
+                              }}
+                              className="p-1.5 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400 hover:bg-rose-500 hover:text-white transition-all ml-1"
+                              title="Xóa bước này"
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      ))}
+
+                      {(!block.steps || block.steps.length === 0) && (
+                        <div className="p-8 rounded-2xl bg-slate-950/50 border border-dashed border-slate-800 text-center text-xs text-slate-500">
+                          Chưa có bước nào trong quy trình. Nhấp &quot;+ Thêm Bước (Chọn Ảnh Source)&quot; ở trên để bắt đầu tạo sơ đồ flow.
                         </div>
                       )}
                     </div>
@@ -2927,6 +4074,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 <Layers className="w-4 h-4" />
                 <span>+ Khối Thẻ Chi Tiết (3 Cột)</span>
               </button>
+
+              <button
+                type="button"
+                onClick={() => handleAddBlock('step-flow')}
+                className="px-3.5 py-2 rounded-xl bg-orange-500/10 hover:bg-orange-500/20 text-orange-300 border border-orange-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shadow-sm"
+              >
+                <Route className="w-4 h-4" />
+                <span>+ Khối Step Flow (Line Thao Tác)</span>
+              </button>
             </div>
           </div>
         </div>
@@ -2941,158 +4097,8 @@ export const AdminGuideEditor: React.FC<Props> = ({
         className="hidden"
       />
 
-      {/* MODAL 1: CHỌN TƯỚNG TỪ KHO */}
-      {isHeroModalOpen && (
-        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
-          <div className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[85vh]">
-            {/* Header Modal */}
-            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
-              <div>
-                <h3 className="text-base font-black text-white flex items-center gap-2">
-                  <Users className="w-5 h-5 text-amber-400" />
-                  <span>Kho Tướng Đề Xuất Cho Bài Viết</span>
-                  <span className="text-xs px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 font-black border border-amber-500/20">
-                    {heroesList.length} tướng
-                  </span>
-                </h3>
-                <p className="text-xs text-slate-400 mt-0.5">
-                  Nhấp vào thẻ tướng để thêm vào hoặc gỡ bỏ khỏi khối đội hình.
-                </p>
-              </div>
-              <button
-                type="button"
-                onClick={() => setIsHeroModalOpen(false)}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-white"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
-
-            {/* Toolbar: Tìm kiếm & Tải lại & Bộ lọc */}
-            <div className="pt-3 pb-2 space-y-2.5">
-              <div className="flex items-center gap-2">
-                <div className="relative flex-1">
-                  <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
-                  <input
-                    type="text"
-                    placeholder="Tìm kiếm theo tên, slug, hệ nguyên tố, vai trò..."
-                    value={heroSearchTerm}
-                    onChange={(e) => setHeroSearchTerm(e.target.value)}
-                    className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
-                  />
-                </div>
-
-                <button
-                  type="button"
-                  onClick={handleReloadHeroes}
-                  disabled={loadingHeroes}
-                  className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
-                  title="Tải lại kho tướng mới nhất từ hệ thống"
-                >
-                  <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
-                  <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
-                </button>
-              </div>
-
-              {/* Tabs lọc theo phân loại */}
-              <div className="flex flex-wrap items-center gap-1.5 text-xs">
-                {[
-                  { id: 'all', label: `Tất Cả (${heroesList.length})` },
-                  { id: 'tier-sp', label: `Tier S+ (${heroesList.filter((h) => h.tier === 'S+').length})` },
-                  { id: 'afterlife', label: `Chuyển Thế (${heroesList.filter((h) => h.isAfterlifeForm).length})` },
-                  { id: 'base', label: `Mặc Định (${heroesList.filter((h) => !h.isAfterlifeForm && !h.isSkinForm).length})` },
-                  { id: 'SSR', label: `SSR (${heroesList.filter((h) => h.rarity === 'SSR').length})` },
-                  { id: 'UR', label: `UR (${heroesList.filter((h) => h.rarity === 'UR').length})` },
-                ].map((tab) => (
-                  <button
-                    key={tab.id}
-                    type="button"
-                    onClick={() => setHeroCategoryFilter(tab.id as any)}
-                    className={`px-2.5 py-1 rounded-lg font-bold text-[11px] transition-all ${
-                      heroCategoryFilter === tab.id
-                        ? 'bg-amber-500 text-slate-950 shadow-sm'
-                        : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
-                    }`}
-                  >
-                    {tab.label}
-                  </button>
-                ))}
-                <span className="text-[11px] text-slate-400 ml-auto">
-                  Hiển thị: <strong className="text-amber-400">{modalHeroes.length}</strong> / {heroesList.length} tướng
-                </span>
-              </div>
-            </div>
-
-            {/* Grid hiển thị TOÀN BỘ tướng (cuộn mượt mà, không giới hạn) */}
-            <div className="flex-1 overflow-y-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 p-1 max-h-[50vh]">
-              {modalHeroes.length === 0 ? (
-                <div className="col-span-full py-12 text-center text-xs text-slate-500">
-                  Không tìm thấy tướng nào phù hợp với bộ lọc & từ khóa.
-                </div>
-              ) : (
-                modalHeroes.map((hero) => {
-                  const isAdded = currentBlockAddedSlugs.has(hero.slug);
-                  return (
-                    <button
-                      key={hero.slug}
-                      type="button"
-                      onClick={() => handleAddHeroToBlock(hero)}
-                      className={`p-2.5 rounded-2xl border text-left transition-all flex items-center gap-2.5 group ${
-                        isAdded
-                          ? 'bg-amber-500/15 border-amber-500/80 shadow-md ring-1 ring-amber-500/50'
-                          : 'bg-slate-950 hover:bg-slate-800/80 border-slate-800/80 hover:border-slate-700'
-                      }`}
-                    >
-                      <img
-                        src={hero.avatar}
-                        alt={hero.name}
-                        className="w-10 h-10 rounded-xl border border-slate-700 object-cover shrink-0 group-hover:scale-105 transition-transform"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                        }}
-                      />
-                      <div className="min-w-0 flex-1">
-                        <div className="font-extrabold text-xs truncate text-white group-hover:text-amber-400">
-                          {hero.name}
-                        </div>
-                        <div className="flex items-center justify-between text-[10px] text-slate-400 mt-0.5">
-                          <span className="truncate">{hero.element}</span>
-                          {isAdded ? (
-                            <span className="px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-bold text-[9px] shrink-0">
-                              ✓ Đã thêm
-                            </span>
-                          ) : (
-                            <span className="text-amber-500/70 text-[9px] font-mono shrink-0">
-                              {hero.rarity}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    </button>
-                  );
-                })
-              )}
-            </div>
-
-            {/* Footer Modal */}
-            <div className="pt-3 border-t border-slate-800 flex items-center justify-between">
-              <span className="text-[11px] text-slate-400">
-                Nhấp vào thẻ tướng để thêm hoặc gỡ bỏ. Thay đổi được áp dụng ngay lập tức.
-              </span>
-              <button
-                type="button"
-                onClick={() => setIsHeroModalOpen(false)}
-                className="px-5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-black transition-all"
-              >
-                Hoàn Tất
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* MODAL 2: KHO TÀI NGUYÊN & VẬT PHẨM GAME (EXPANDED ASSET PICKER) */}
-      {isResourceModalOpen && (
+      {/* UNIFIED MODAL: CHỌN ĐỐI TƯỢNG GAME (VẬT PHẨM, ASSET & TƯỚNG) */}
+      {(isResourceModalOpen || isHeroModalOpen) && (
         <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
           <div className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col max-h-[90vh]">
             {/* Modal Header */}
@@ -3100,16 +4106,28 @@ export const AdminGuideEditor: React.FC<Props> = ({
               <div>
                 <h3 className="text-base font-black text-white flex items-center gap-2">
                   <Sparkles className="w-5 h-5 text-emerald-400" />
-                  <span>Kho Tài Nguyên & Vật Phẩm Game</span>
+                  <span>
+                    {targetTableCellForResource || targetTableCellForHero
+                      ? 'Chọn Đối Tượng Game (Vật Phẩm / Tướng) Cho Ô Bảng Biểu'
+                      : targetCardModalForResource || targetCardModalForHero
+                      ? 'Chọn Đối Tượng Game Cho Thẻ Chi Tiết'
+                      : targetBlockIdForHero
+                      ? 'Kho Tướng & Vật Phẩm Đề Xuất'
+                      : 'Kho Tài Nguyên, Vật Phẩm & Tướng Game'}
+                  </span>
                 </h3>
                 <p className="text-xs text-slate-400 mt-0.5">
-                  Chọn từ kho toàn bộ icon tài nguyên game (vật phẩm, đá, vũ khí, pet, huy hiệu, ảnh tải lên...) hoặc danh sách đã cấu hình.
+                  Linh hoạt chọn từ kho asset game (2000+ icons), kho thẻ tướng hoặc danh mục vật phẩm đã cấu hình.
                 </p>
               </div>
               <button
                 onClick={() => {
                   setIsResourceModalOpen(false);
+                  setIsHeroModalOpen(false);
                   setTargetTableCellForResource(null);
+                  setTargetTableCellForHero(null);
+                  setTargetCardModalForResource(false);
+                  setTargetCardModalForHero(false);
                 }}
                 className="p-1.5 rounded-lg text-slate-400 hover:text-white"
               >
@@ -3117,31 +4135,38 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </button>
             </div>
 
-            {/* Tab Switcher: Kho Toàn Bộ Asset vs Vật Phẩm Đã Cấu Hình */}
-            <div className="flex items-center gap-2 pt-3 pb-2 border-b border-slate-800/80">
+            {/* Tab Switcher & Global Layer Options */}
+            <div className="flex flex-wrap items-center gap-2 pt-3 pb-2 border-b border-slate-800/80">
               <button
                 type="button"
                 onClick={() => {
                   setResourceModalTab('game-assets');
                   setResourceSearchTerm('');
                 }}
-                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 border ${
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 border ${
                   resourceModalTab === 'game-assets'
                     ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-lg shadow-emerald-500/20'
                     : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
                 }`}
               >
-                <Layers className="w-4 h-4" />
-                <span>Kho Toàn Bộ Icon & Asset Game</span>
-                <span
-                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                    resourceModalTab === 'game-assets'
-                      ? 'bg-slate-950/20 text-slate-950 font-black'
-                      : 'bg-slate-900 text-slate-400'
-                  }`}
-                >
-                  {assetPickerTotal}
-                </span>
+                <Layers className="w-3.5 h-3.5" />
+                <span>Kho Toàn Bộ Icon & Asset ({assetPickerTotal})</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setResourceModalTab('heroes');
+                  setHeroSearchTerm('');
+                }}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 border ${
+                  resourceModalTab === 'heroes'
+                    ? 'bg-amber-500 text-slate-950 border-amber-400 shadow-lg shadow-amber-500/20'
+                    : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
+                }`}
+              >
+                <Users className="w-3.5 h-3.5" />
+                <span>Kho Thẻ Tướng ({heroesList.length})</span>
               </button>
 
               <button
@@ -3150,24 +4175,28 @@ export const AdminGuideEditor: React.FC<Props> = ({
                   setResourceModalTab('configured-resources');
                   setResourceSearchTerm('');
                 }}
-                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-2 border ${
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 border ${
                   resourceModalTab === 'configured-resources'
-                    ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-lg shadow-emerald-500/20'
+                    ? 'bg-teal-500 text-slate-950 border-teal-400 shadow-lg shadow-teal-500/20'
                     : 'bg-slate-950 text-slate-400 border-slate-800 hover:text-white'
                 }`}
               >
-                <Check className="w-4 h-4" />
-                <span>Vật Phẩm Đã Cấu Hình (resources.json)</span>
-                <span
-                  className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                    resourceModalTab === 'configured-resources'
-                      ? 'bg-slate-950/20 text-slate-950 font-black'
-                      : 'bg-slate-900 text-slate-400'
-                  }`}
-                >
-                  {resourcesList.length}
-                </span>
+                <Check className="w-3.5 h-3.5" />
+                <span>Vật Phẩm Đã Cấu Hình ({resourcesList.length})</span>
               </button>
+
+              <label className="flex items-center gap-2 cursor-pointer select-none bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 hover:border-amber-500/50 transition-colors text-xs text-slate-300 ml-auto shrink-0">
+                <input
+                  type="checkbox"
+                  checked={autoAttachShardLayer}
+                  onChange={(e) => setAutoAttachShardLayer(e.target.checked)}
+                  className="rounded text-amber-500 focus:ring-0 w-3.5 h-3.5 bg-slate-900 border-slate-700"
+                />
+                <span className="font-semibold flex items-center gap-1.5">
+                  <span>🧩 Kèm Layer Mảnh</span>
+                  <span className="text-[10px] text-amber-400 font-mono">public_shade_2</span>
+                </span>
+              </label>
             </div>
 
             {/* TAB 1: KHO TOÀN BỘ ASSET GAME */}
@@ -3189,119 +4218,76 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     />
                   </div>
 
-                  <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
-                    <button
-                      type="button"
-                      onClick={() => fetchAssetIcons(resourceSearchTerm, assetPickerFolder, assetPickerPage, true)}
-                      disabled={isLoadingAssetIcons}
-                      className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 text-xs font-bold flex items-center gap-1.5 transition-all shadow"
-                      title="Quét và tải lại toàn bộ asset mới nhất từ ổ đĩa"
-                    >
-                      <RotateCw className={`w-3.5 h-3.5 ${isLoadingAssetIcons ? 'animate-spin' : ''}`} />
-                      <span>{isLoadingAssetIcons ? 'Đang Quét...' : 'Tải Lại Asset Mới'}</span>
-                    </button>
+                  {/* Lọc theo thư mục asset */}
+                  <select
+                    value={assetPickerFolder}
+                    onChange={(e) => {
+                      setAssetPickerFolder(e.target.value);
+                      setAssetPickerPage(1);
+                    }}
+                    className="px-3 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-emerald-500 font-bold shrink-0 max-w-[200px]"
+                  >
+                    <option value="all">Tất cả thư mục ({assetPickerTotal})</option>
+                    {assetCategoriesList.map((cat) => (
+                      <option key={cat.id} value={cat.id}>
+                        {cat.label} ({cat.count})
+                      </option>
+                    ))}
+                  </select>
 
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setMediaPickerMode('resource-upload');
-                        fileInputRef.current?.click();
-                      }}
-                      disabled={uploadingImage}
-                      className="px-3.5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs flex items-center gap-1.5 shadow"
-                    >
-                      <Upload className="w-4 h-4" />
-                      <span>{uploadingImage ? 'Đang Tải...' : 'Tải Ảnh Mới Lên'}</span>
-                    </button>
-                  </div>
-                </div>
+                  <button
+                    type="button"
+                    onClick={() => fetchAssetIcons(resourceSearchTerm, assetPickerFolder, assetPickerPage, true)}
+                    disabled={isLoadingAssetIcons}
+                    className="px-3.5 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                    title="Quét và làm mới lại toàn bộ kho ảnh/icon từ thư mục hệ thống"
+                  >
+                    <RotateCw className={`w-3.5 h-3.5 ${isLoadingAssetIcons ? 'animate-spin' : ''}`} />
+                    <span>{isLoadingAssetIcons ? 'Đang Tải...' : 'Quét Lại Asset Mới'}</span>
+                  </button>
 
-                {/* Folder Categories Chips */}
-                <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-thin scrollbar-thumb-slate-800 shrink-0">
                   <button
                     type="button"
                     onClick={() => {
-                      setAssetPickerFolder('all');
-                      setAssetPickerPage(1);
+                      setMediaPickerMode('resource-upload');
+                      if (fileInputRef.current) fileInputRef.current.click();
                     }}
-                    className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 ${
-                      assetPickerFolder === 'all'
-                        ? 'bg-emerald-500 text-slate-950 font-bold shadow'
-                        : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
-                    }`}
+                    className="px-3.5 py-2 rounded-xl bg-emerald-500 text-slate-950 text-xs font-black flex items-center gap-1.5 transition-all shrink-0 hover:bg-emerald-400"
+                    title="Tải ảnh icon mới từ máy lên"
                   >
-                    <span>Tất Cả Thư Mục</span>
-                    <span
-                      className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                        assetPickerFolder === 'all'
-                          ? 'bg-slate-950/20 text-slate-950 font-extrabold'
-                          : 'bg-slate-900 text-slate-400'
-                      }`}
-                    >
-                      {assetPickerTotal}
-                    </span>
+                    <Upload className="w-3.5 h-3.5" />
+                    <span>Tải Ảnh Lên</span>
                   </button>
-
-                  {assetCategoriesList.map((cat) => (
-                    <button
-                      key={cat.id}
-                      type="button"
-                      onClick={() => {
-                        setAssetPickerFolder(cat.id);
-                        setAssetPickerPage(1);
-                      }}
-                      className={`px-2.5 py-1 rounded-lg text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 ${
-                        assetPickerFolder === cat.id
-                          ? 'bg-emerald-500 text-slate-950 font-bold shadow'
-                          : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
-                      }`}
-                    >
-                      <span>{cat.label}</span>
-                      <span
-                        className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                          assetPickerFolder === cat.id
-                            ? 'bg-slate-950/20 text-slate-950 font-extrabold'
-                            : 'bg-slate-900 text-slate-400'
-                        }`}
-                      >
-                        {cat.count}
-                      </span>
-                    </button>
-                  ))}
                 </div>
 
-                {/* Grid of Icons */}
+                {/* Grid hiển thị icons */}
                 <div className="flex-1 overflow-y-auto min-h-[300px] max-h-[440px] p-2 bg-slate-950 rounded-2xl border border-slate-800">
                   {isLoadingAssetIcons ? (
-                    <div className="flex flex-col items-center justify-center h-56 text-slate-400 space-y-2">
+                    <div className="py-20 flex flex-col items-center justify-center gap-3 text-slate-400">
                       <RotateCw className="w-6 h-6 animate-spin text-emerald-400" />
-                      <span className="text-xs">Đang tải danh sách icon từ kho game...</span>
+                      <span className="text-xs">Đang tải kho asset icon game...</span>
                     </div>
                   ) : assetPickerIcons.length === 0 ? (
-                    <div className="flex flex-col items-center justify-center h-56 text-slate-500 space-y-1">
-                      <Sparkles className="w-8 h-8 opacity-40 text-slate-500" />
-                      <span className="text-xs font-semibold text-slate-400">Không tìm thấy icon nào phù hợp</span>
-                      <span className="text-[11px] text-slate-500">Thử tìm với từ khóa khác hoặc chọn thư mục khác.</span>
+                    <div className="py-20 text-center text-xs text-slate-500">
+                      Không tìm thấy icon nào trong thư mục này. Thử tìm từ khóa khác hoặc bấm &quot;Làm Mới&quot;.
                     </div>
                   ) : (
-                    <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2.5">
-                      {assetPickerIcons.map((ic) => (
+                    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-2">
+                      {assetPickerIcons.map((ic, iIdx) => (
                         <button
-                          key={ic.url}
+                          key={`${ic.url}-${iIdx}`}
                           type="button"
                           onClick={() => handleAddAssetIconToBlock(ic)}
-                          className="p-2 rounded-2xl bg-slate-900 border border-slate-800 hover:border-emerald-500 hover:bg-slate-800/90 flex flex-col items-center gap-1.5 transition-all group relative text-center"
-                          title={`Click để thêm ${ic.name} vào bài viết`}
+                          className="p-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800/80 hover:border-emerald-500/60 flex flex-col items-center gap-1.5 text-center transition-all group"
+                          title={`${ic.name} (${ic.folderLabel})`}
                         >
-                          <div className="w-12 h-12 flex items-center justify-center p-1 bg-slate-950/60 rounded-xl border border-slate-800/80">
-                            <img
+                          <div className="w-12 h-12 rounded-lg bg-slate-950 border border-slate-800/80 p-1 flex items-center justify-center group-hover:scale-105 transition-transform overflow-hidden">
+                            <LayeredIcon
                               src={ic.url}
                               alt={ic.name}
-                              className="w-full h-full object-contain group-hover:scale-110 transition-transform"
-                              loading="lazy"
-                              onError={(e) => {
-                                (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                              }}
+                              layers={autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined}
+                              className="w-full h-full object-contain"
+                              fallbackSrc="/images/heroes/icon_heroes/default.png"
                             />
                           </div>
                           <span className="text-[9px] font-mono text-slate-300 truncate w-full">
@@ -3345,7 +4331,117 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </div>
             )}
 
-            {/* TAB 2: VẬT PHẨM ĐÃ CẤU HÌNH (resources.json) */}
+            {/* TAB 2: KHO TƯỚNG GAME */}
+            {resourceModalTab === 'heroes' && (
+              <div className="flex-1 flex flex-col min-h-0 space-y-3 pt-3">
+                {/* Search & Actions Toolbar */}
+                <div className="flex flex-col sm:flex-row items-center gap-2">
+                  <div className="relative flex-1 w-full">
+                    <Search className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
+                    <input
+                      type="text"
+                      placeholder="Tìm kiếm theo tên tướng, slug, hệ nguyên tố, vai trò..."
+                      value={heroSearchTerm}
+                      onChange={(e) => setHeroSearchTerm(e.target.value)}
+                      className="w-full pl-9 pr-4 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
+                    />
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={handleReloadHeroes}
+                    disabled={loadingHeroes}
+                    className="px-3.5 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 border border-amber-500/30 text-xs font-bold flex items-center gap-1.5 transition-all shrink-0"
+                    title="Tải lại kho tướng mới nhất từ hệ thống"
+                  >
+                    <RotateCw className={`w-3.5 h-3.5 ${loadingHeroes ? 'animate-spin' : ''}`} />
+                    <span>{loadingHeroes ? 'Đang Tải...' : 'Tải Lại Kho Tướng'}</span>
+                  </button>
+                </div>
+
+                {/* Tabs lọc theo phân loại tướng */}
+                <div className="flex flex-wrap items-center gap-1.5 text-xs">
+                  {[
+                    { id: 'all', label: `Tất Cả (${heroesList.length})` },
+                    { id: 'tier-sp', label: `Tier S+ (${heroesList.filter((h) => h.tier === 'S+').length})` },
+                    { id: 'afterlife', label: `Chuyển Thế (${heroesList.filter((h) => h.isAfterlifeForm).length})` },
+                    { id: 'base', label: `Mặc Định (${heroesList.filter((h) => !h.isAfterlifeForm && !h.isSkinForm).length})` },
+                    { id: 'SSR', label: `SSR (${heroesList.filter((h) => h.rarity === 'SSR').length})` },
+                    { id: 'UR', label: `UR (${heroesList.filter((h) => h.rarity === 'UR').length})` },
+                  ].map((tab) => (
+                    <button
+                      key={tab.id}
+                      type="button"
+                      onClick={() => setHeroCategoryFilter(tab.id as any)}
+                      className={`px-2.5 py-1 rounded-lg font-bold text-[11px] transition-all ${
+                        heroCategoryFilter === tab.id
+                          ? 'bg-amber-500 text-slate-950 shadow-sm'
+                          : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                      }`}
+                    >
+                      {tab.label}
+                    </button>
+                  ))}
+                  <span className="text-[11px] text-slate-400 ml-auto">
+                    Hiển thị: <strong className="text-amber-400">{modalHeroes.length}</strong> / {heroesList.length} tướng
+                  </span>
+                </div>
+
+                {/* Grid hiển thị TOÀN BỘ tướng */}
+                <div className="flex-1 overflow-y-auto min-h-[300px] max-h-[440px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 p-1 bg-slate-950 rounded-2xl border border-slate-800">
+                  {modalHeroes.length === 0 ? (
+                    <div className="col-span-full py-12 text-center text-xs text-slate-500">
+                      Không tìm thấy tướng nào phù hợp với bộ lọc & từ khóa.
+                    </div>
+                  ) : (
+                    modalHeroes.map((hero) => {
+                      const isAdded = currentBlockAddedSlugs.has(hero.slug);
+                      return (
+                        <button
+                          key={hero.slug}
+                          type="button"
+                          onClick={() => handleAddHeroToBlock(hero)}
+                          className={`p-2.5 rounded-2xl border text-left transition-all flex items-center gap-2.5 group ${
+                            isAdded
+                              ? 'bg-amber-500/15 border-amber-500/80 shadow-md ring-1 ring-amber-500/50'
+                              : 'bg-slate-900 hover:bg-slate-800/80 border-slate-800/80 hover:border-slate-700'
+                          }`}
+                        >
+                          <div className="w-10 h-10 rounded-xl border border-slate-700 object-cover shrink-0 overflow-hidden relative">
+                            <LayeredIcon
+                              src={hero.avatar}
+                              alt={hero.name}
+                              layers={autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined}
+                              className="w-full h-full object-cover"
+                              fallbackSrc="/images/heroes/icon_heroes/default.png"
+                            />
+                          </div>
+                          <div className="min-w-0 flex-1">
+                            <div className="font-extrabold text-xs truncate text-white group-hover:text-amber-400">
+                              {hero.name}
+                            </div>
+                            <div className="flex items-center justify-between text-[10px] text-slate-400 mt-0.5">
+                              <span className="truncate">{hero.element}</span>
+                              {isAdded ? (
+                                <span className="px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-bold text-[9px] shrink-0">
+                                  ✓ Đã thêm
+                                </span>
+                              ) : (
+                                <span className="text-amber-500/70 text-[9px] font-mono shrink-0">
+                                  {hero.rarity}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </button>
+                      );
+                    })
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* TAB 3: VẬT PHẨM ĐÃ CẤU HÌNH (resources.json) */}
             {resourceModalTab === 'configured-resources' && (
               <div className="flex-1 flex flex-col min-h-0 space-y-3 pt-3">
                 <div className="flex items-center gap-2">
@@ -3368,7 +4464,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     title="Tải lại danh sách vật phẩm mới nhất từ resources.json"
                   >
                     <RotateCw className={`w-3.5 h-3.5 ${loadingResources ? 'animate-spin' : ''}`} />
-                    <span>{loadingResources ? 'Đang Tải...' : 'Tải Lại Asset Mới'}</span>
+                    <span>{loadingResources ? 'Đang Tải...' : 'Tải Lại DS Cấu Hình'}</span>
                   </button>
                 </div>
 
@@ -3379,11 +4475,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
                       onClick={() => handleAddResourceToBlock(res)}
                       className="p-2.5 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-800/80 hover:border-emerald-500/50 flex items-center gap-2.5 text-left transition-all group"
                     >
-                      <img
-                        src={res.icon}
-                        alt={res.name}
-                        className="w-10 h-10 rounded-xl bg-slate-950 border border-slate-800 p-1 object-contain shrink-0 group-hover:scale-105 transition-transform"
-                      />
+                      <div className="w-10 h-10 rounded-xl bg-slate-950 border border-slate-800 p-1 shrink-0 overflow-hidden">
+                        <LayeredIcon
+                          src={res.icon}
+                          alt={res.name}
+                          layers={autoAttachShardLayer ? ['game_items/public_shade_2.png'] : undefined}
+                          className="w-full h-full object-contain"
+                          fallbackSrc="/images/heroes/icon_heroes/default.png"
+                        />
+                      </div>
                       <div className="truncate">
                         <div className="font-bold text-xs text-white group-hover:text-emerald-400 truncate">
                           {res.name}
@@ -3400,7 +4500,11 @@ export const AdminGuideEditor: React.FC<Props> = ({
               <button
                 onClick={() => {
                   setIsResourceModalOpen(false);
+                  setIsHeroModalOpen(false);
                   setTargetTableCellForResource(null);
+                  setTargetTableCellForHero(null);
+                  setTargetCardModalForResource(false);
+                  setTargetCardModalForHero(false);
                 }}
                 className="px-4 py-2 rounded-xl bg-slate-800 text-white text-xs font-bold hover:bg-slate-700"
               >
@@ -3532,8 +4636,15 @@ export const AdminGuideEditor: React.FC<Props> = ({
       {/* MODAL 4: THÊM / CHỈNH SỬA HOẠT ĐỘNG (ACTIVITY MODAL) */}
       {isActivityModalOpen && (
         <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
-          <div className="w-full max-w-lg bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col space-y-4">
-            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+          <input
+            type="file"
+            ref={sourceIconFileInputRef}
+            onChange={handleUploadSourceIcon}
+            accept="image/png,image/jpeg,image/webp,image/svg+xml"
+            className="hidden"
+          />
+          <div className="w-full max-w-xl max-h-[92vh] bg-slate-900 border border-slate-800 rounded-3xl p-6 shadow-2xl flex flex-col overflow-hidden">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800 shrink-0">
               <h3 className="text-base font-black text-white flex items-center gap-2">
                 <Settings className="w-5 h-5 text-blue-400" />
                 <span>
@@ -3542,13 +4653,13 @@ export const AdminGuideEditor: React.FC<Props> = ({
               </h3>
               <button
                 onClick={() => setIsActivityModalOpen(false)}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-white"
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            <div className="space-y-3.5">
+            <div className="space-y-3.5 overflow-y-auto pr-1 flex-1 py-2 custom-scrollbar">
               <div className="space-y-1">
                 <label className="text-xs font-bold text-slate-400">Tên Hoạt Động *</label>
                 <input
@@ -3608,34 +4719,173 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 />
               </div>
 
-              {/* Chọn Icon */}
-              <div className="space-y-1.5">
-                <label className="text-xs font-bold text-slate-400">Biểu Tượng Icon</label>
-                <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
-                  {[
-                    { id: 'Swords', label: 'Swords', icon: <Swords className="w-4 h-4 text-red-400" /> },
-                    { id: 'Flame', label: 'Flame', icon: <Flame className="w-4 h-4 text-amber-400" /> },
-                    { id: 'Trophy', label: 'Trophy', icon: <Trophy className="w-4 h-4 text-blue-400" /> },
-                    { id: 'Sparkles', label: 'Sparkles', icon: <Sparkles className="w-4 h-4 text-purple-400" /> },
-                    { id: 'Shield', label: 'Shield', icon: <Shield className="w-4 h-4 text-emerald-400" /> },
-                    { id: 'Crown', label: 'Crown', icon: <Crown className="w-4 h-4 text-yellow-400" /> },
-                    { id: 'Target', label: 'Target', icon: <Target className="w-4 h-4 text-rose-400" /> },
-                  ].map((ic) => (
+              {/* Chọn Icon Hoạt Động (images/resources/sources + Vector) */}
+              <div className="space-y-2 pt-1 border-t border-slate-800/80">
+                <div className="flex items-center justify-between flex-wrap gap-2">
+                  <label className="text-xs font-bold text-slate-300 flex items-center gap-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                    Biểu Tượng Hoạt Động (Icon)
+                  </label>
+                  <div className="flex items-center bg-slate-950 p-0.5 rounded-lg border border-slate-800 text-[11px]">
                     <button
-                      key={ic.id}
                       type="button"
-                      onClick={() => setActivityForm({ ...activityForm, icon: ic.id })}
-                      className={`p-2.5 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all ${
-                        activityForm.icon === ic.id
-                          ? 'bg-blue-500/20 border-blue-500 shadow-md'
-                          : 'bg-slate-950 border-slate-800 text-slate-400 hover:text-white'
+                      onClick={() => setActivityIconTab('source-images')}
+                      className={`px-2.5 py-1 rounded-md font-bold transition-all ${
+                        activityIconTab === 'source-images'
+                          ? 'bg-blue-600 text-white shadow'
+                          : 'text-slate-400 hover:text-white'
                       }`}
                     >
-                      {ic.icon}
-                      <span className="text-[9px]">{ic.id}</span>
+                      Icon Game (sources/)
                     </button>
-                  ))}
+                    <button
+                      type="button"
+                      onClick={() => setActivityIconTab('vector')}
+                      className={`px-2.5 py-1 rounded-md font-bold transition-all ${
+                        activityIconTab === 'vector'
+                          ? 'bg-blue-600 text-white shadow'
+                          : 'text-slate-400 hover:text-white'
+                      }`}
+                    >
+                      Icon Vector
+                    </button>
+                  </div>
                 </div>
+
+                {/* Tab 1: Icon từ images/resources/sources */}
+                {activityIconTab === 'source-images' && (
+                  <div className="space-y-2 bg-slate-950/60 p-3 rounded-2xl border border-slate-800/80">
+                    <div className="flex items-center gap-2">
+                      <div className="relative flex-1">
+                        <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
+                        <input
+                          type="text"
+                          value={sourceIconSearch}
+                          onChange={(e) => setSourceIconSearch(e.target.value)}
+                          placeholder="Tìm icon (ví dụ: xuat-chinh, thap, bau...)"
+                          className="w-full pl-8 pr-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
+                        />
+                      </div>
+                      {/* Nút Tải Lại Icon tuân thủ asset-reload-rule */}
+                      <button
+                        type="button"
+                        onClick={() => handleReloadSourceImages(true)}
+                        disabled={loadingSourceImages}
+                        title="Tải lại danh sách icon nóng từ images/resources/sources"
+                        className="px-2.5 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-colors shrink-0 disabled:opacity-50"
+                      >
+                        <RotateCw className={`w-3.5 h-3.5 ${loadingSourceImages ? 'animate-spin text-blue-400' : ''}`} />
+                        <span>Tải Lại Icon</span>
+                      </button>
+                      {/* Nút Tải Lên ảnh mới */}
+                      <button
+                        type="button"
+                        onClick={() => sourceIconFileInputRef.current?.click()}
+                        disabled={uploadingSourceIcon}
+                        title="Tải ảnh mới trực tiếp vào images/resources/sources"
+                        className="px-2.5 py-1.5 bg-blue-600/20 hover:bg-blue-600/30 text-blue-400 hover:text-blue-300 border border-blue-500/30 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-colors shrink-0 disabled:opacity-50"
+                      >
+                        <Upload className="w-3.5 h-3.5" />
+                        <span>{uploadingSourceIcon ? 'Đang tải...' : 'Tải Lên'}</span>
+                      </button>
+                    </div>
+
+                    {/* Preview Icon đang chọn */}
+                    {activityForm.icon && (activityForm.icon.startsWith('/') || activityForm.icon.startsWith('http') || activityForm.icon.includes('.')) && (
+                      <div className="flex items-center justify-between px-3 py-1.5 bg-blue-950/30 border border-blue-800/40 rounded-xl text-xs text-blue-200">
+                        <div className="flex items-center gap-2 truncate">
+                          <span className="text-[11px] text-slate-400 shrink-0">Đang chọn:</span>
+                          <img
+                            src={activityForm.icon.startsWith('/') ? activityForm.icon : `/images/resources/sources/${activityForm.icon}`}
+                            alt=""
+                            className="w-5 h-5 object-contain shrink-0"
+                            onError={(e) => {
+                              (e.target as HTMLElement).style.display = 'none';
+                            }}
+                          />
+                          <span className="font-mono text-[11px] truncate">{activityForm.icon.split('/').pop()}</span>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => setActivityForm({ ...activityForm, icon: '' })}
+                          className="text-[10px] text-red-400 hover:text-red-300 hover:underline shrink-0 ml-2"
+                        >
+                          Bỏ chọn
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Grid danh sách ảnh */}
+                    <div className="max-h-44 overflow-y-auto pr-1 grid grid-cols-4 sm:grid-cols-6 gap-2 custom-scrollbar">
+                      {filteredSourceImages.map((img) => {
+                        const fullPath = `/images/resources/sources/${img}`;
+                        const isSelected = activityForm.icon === fullPath || activityForm.icon === img;
+                        const cleanLabel = img.replace(/\.[^/.]+$/, '');
+                        return (
+                          <button
+                            key={img}
+                            type="button"
+                            onClick={() => setActivityForm({ ...activityForm, icon: fullPath })}
+                            className={`p-2 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all group relative ${
+                              isSelected
+                                ? 'bg-blue-600/30 border-blue-500 ring-2 ring-blue-500/50 shadow-md'
+                                : 'bg-slate-900 border-slate-800/80 hover:border-slate-700 hover:bg-slate-850 text-slate-300'
+                            }`}
+                            title={img}
+                          >
+                            <div className="w-8 h-8 flex items-center justify-center">
+                              <img
+                                src={fullPath}
+                                alt={cleanLabel}
+                                className="w-8 h-8 object-contain transition-transform group-hover:scale-110"
+                                loading="lazy"
+                              />
+                            </div>
+                            <span className="text-[9px] text-slate-400 group-hover:text-slate-200 truncate w-full text-center font-mono">
+                              {cleanLabel}
+                            </span>
+                          </button>
+                        );
+                      })}
+                      {filteredSourceImages.length === 0 && (
+                        <div className="col-span-full py-6 text-center text-xs text-slate-500">
+                          {loadingSourceImages
+                            ? 'Đang tải danh sách icon...'
+                            : 'Không tìm thấy icon nào phù hợp. Bạn có thể nhấn "Tải Lên" để thêm ảnh mới!'}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
+
+                {/* Tab 2: Icon Vector (Lucide) */}
+                {activityIconTab === 'vector' && (
+                  <div className="grid grid-cols-4 sm:grid-cols-7 gap-2 bg-slate-950/60 p-3 rounded-2xl border border-slate-800/80">
+                    {[
+                      { id: 'Swords', label: 'Swords', icon: <Swords className="w-4 h-4 text-red-400" /> },
+                      { id: 'Flame', label: 'Flame', icon: <Flame className="w-4 h-4 text-amber-400" /> },
+                      { id: 'Trophy', label: 'Trophy', icon: <Trophy className="w-4 h-4 text-blue-400" /> },
+                      { id: 'Sparkles', label: 'Sparkles', icon: <Sparkles className="w-4 h-4 text-purple-400" /> },
+                      { id: 'Shield', label: 'Shield', icon: <Shield className="w-4 h-4 text-emerald-400" /> },
+                      { id: 'Crown', label: 'Crown', icon: <Crown className="w-4 h-4 text-yellow-400" /> },
+                      { id: 'Target', label: 'Target', icon: <Target className="w-4 h-4 text-rose-400" /> },
+                    ].map((ic) => (
+                      <button
+                        key={ic.id}
+                        type="button"
+                        onClick={() => setActivityForm({ ...activityForm, icon: ic.id })}
+                        className={`p-2.5 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all ${
+                          activityForm.icon === ic.id
+                            ? 'bg-blue-500/20 border-blue-500 shadow-md ring-2 ring-blue-500/30'
+                            : 'bg-slate-900 border-slate-800 text-slate-400 hover:text-white hover:border-slate-700'
+                        }`}
+                      >
+                        {ic.icon}
+                        <span className="text-[9px]">{ic.id}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
 
               {/* Chọn Màu Sắc */}
@@ -3846,15 +5096,14 @@ export const AdminGuideEditor: React.FC<Props> = ({
                 {/* Giao diện khi chọn Vật Phẩm */}
                 {editingCardModal.data.itemType !== 'hero' ? (
                   <div className="flex flex-col sm:flex-row items-center gap-3 pt-1">
-                    <div className="w-16 h-16 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shrink-0 p-1">
+                    <div className="w-16 h-16 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shrink-0 p-1 relative overflow-hidden">
                       {editingCardModal.data.icon ? (
-                        <img
+                        <LayeredIcon
                           src={editingCardModal.data.icon}
                           alt="Preview"
+                          layers={editingCardModal.data.layers}
                           className="w-full h-full object-contain"
-                          onError={(e) => {
-                            (e.target as HTMLElement).style.opacity = '0.3';
-                          }}
+                          fallbackSrc="/images/heroes/icon_heroes/default.png"
                         />
                       ) : (
                         <span className="text-[10px] text-slate-500">Chưa có icon</span>
@@ -3889,6 +5138,55 @@ export const AdminGuideEditor: React.FC<Props> = ({
                           <ImageIcon className="w-3.5 h-3.5" />
                           <span>Mở Kho Asset Phân Loại (2000+ Icons)</span>
                         </button>
+
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const hasShard = editingCardModal.data.layers?.includes('game_items/public_shade_2.png');
+                            const nextLayers = hasShard
+                              ? (editingCardModal.data.layers || []).filter((l) => l !== 'game_items/public_shade_2.png')
+                              : [...(editingCardModal.data.layers || []), 'game_items/public_shade_2.png'];
+                            setEditingCardModal({
+                              ...editingCardModal,
+                              data: {
+                                ...editingCardModal.data,
+                                layers: nextLayers.length > 0 ? nextLayers : undefined,
+                              },
+                            });
+                          }}
+                          className={`px-2.5 py-1.5 rounded-xl font-bold text-xs border transition-colors flex items-center gap-1.5 ${
+                            editingCardModal.data.layers?.includes('game_items/public_shade_2.png')
+                              ? 'bg-amber-500/20 text-amber-300 border-amber-500/50'
+                              : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white'
+                          }`}
+                        >
+                          <span>{editingCardModal.data.layers?.includes('game_items/public_shade_2.png') ? '★ Kèm Mảnh' : '+ Layer Mảnh'}</span>
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setLayerModal({
+                              isOpen: true,
+                              title: `Quản Lý Layer - ${editingCardModal.data.name || 'Thẻ chi tiết'}`,
+                              baseIcon: editingCardModal.data.icon,
+                              layers: editingCardModal.data.layers || [],
+                              onSave: (newLayers) => {
+                                setEditingCardModal({
+                                  ...editingCardModal,
+                                  data: {
+                                    ...editingCardModal.data,
+                                    layers: newLayers.length > 0 ? newLayers : undefined,
+                                  },
+                                });
+                              },
+                            });
+                          }}
+                          className="px-2.5 py-1.5 rounded-xl font-bold text-xs bg-slate-900 hover:bg-slate-800 text-slate-300 border border-slate-800 flex items-center gap-1.5 transition-colors"
+                        >
+                          <Layers className="w-3.5 h-3.5 text-amber-400" />
+                          <span>Quản Lý Layer ({editingCardModal.data.layers?.length || 0})</span>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -3898,19 +5196,18 @@ export const AdminGuideEditor: React.FC<Props> = ({
                     <div className="flex flex-col sm:flex-row items-center gap-3">
                       <div className="relative w-16 h-16 rounded-2xl bg-slate-900 border border-purple-500/50 flex items-center justify-center shrink-0 p-0.5 overflow-hidden">
                         {editingCardModal.data.icon ? (
-                          <img
+                          <LayeredIcon
                             src={editingCardModal.data.icon}
                             alt="Preview Hero"
+                            layers={editingCardModal.data.layers}
                             className="w-full h-full object-cover rounded-xl"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
-                            }}
+                            fallbackSrc="/images/heroes/icon_heroes/default.png"
                           />
                         ) : (
                           <span className="text-[10px] text-slate-500">Chưa chọn tướng</span>
                         )}
                         {editingCardModal.data.rarity && (
-                          <span className="absolute top-0.5 right-0.5 px-1 py-0.2 text-[8px] font-black rounded bg-amber-500 text-slate-950">
+                          <span className="absolute top-0.5 right-0.5 px-1 py-0.2 text-[8px] font-black rounded bg-amber-500 text-slate-950 z-20">
                             {editingCardModal.data.rarity}
                           </span>
                         )}
@@ -3938,6 +5235,7 @@ export const AdminGuideEditor: React.FC<Props> = ({
                                 setTargetCardModalForHero(true);
                                 setHeroSearchTerm('');
                                 setHeroCategoryFilter('all');
+                                setResourceModalTab('heroes');
                                 setIsHeroModalOpen(true);
                               }}
                               className="px-3 py-1.5 bg-amber-500 hover:bg-amber-400 text-slate-950 rounded-xl font-bold flex items-center gap-1.5 transition-all text-xs shadow-md"
@@ -4128,6 +5426,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
                         className="flex-1 px-3 py-1.5 bg-slate-900 border border-slate-800 rounded-xl text-white outline-none focus:border-amber-500 text-xs"
                         placeholder="VD: Dùng để nâng cấp trang bị, tăng vĩnh viễn 10% lực chiến..."
                       />
+                      <TagInsertButton
+                        onInsert={(tag) => {
+                          const newDescs = [...editingCardModal.data.description];
+                          newDescs[dIdx] = appendTag(newDescs[dIdx], tag);
+                          setEditingCardModal({
+                            ...editingCardModal,
+                            data: { ...editingCardModal.data, description: newDescs },
+                          });
+                        }}
+                        size="xs"
+                        showLabel={false}
+                        title="Chèn liên kết vào dòng công dụng"
+                      />
                       {editingCardModal.data.description.length > 1 && (
                         <button
                           type="button"
@@ -4248,6 +5559,19 @@ export const AdminGuideEditor: React.FC<Props> = ({
                               placeholder="Ghi chú: x50, Top 1-10, Mốc 5000đ..."
                               className="flex-1 px-2.5 py-1 bg-slate-950 border border-slate-800 rounded-lg text-[11px] text-amber-300 font-semibold focus:border-amber-500 outline-none"
                             />
+                            <TagInsertButton
+                              onInsert={(tag) => {
+                                const updated = [...editingCardModal.data.sources];
+                                updated[sIdx] = { ...updated[sIdx], note: appendTag(updated[sIdx].note, tag) };
+                                setEditingCardModal({
+                                  ...editingCardModal,
+                                  data: { ...editingCardModal.data, sources: updated },
+                                });
+                              }}
+                              size="xs"
+                              showLabel={false}
+                              title="Chèn liên kết vào nguồn nhận"
+                            />
                             <button
                               type="button"
                               onClick={() => {
@@ -4287,6 +5611,549 @@ export const AdminGuideEditor: React.FC<Props> = ({
               >
                 <Check className="w-4 h-4" />
                 <span>{editingCardModal.cardIndex !== null ? 'Cập Nhật Thẻ' : 'Thêm Thẻ Vào Khối'}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* UNIVERSAL TAG PICKER MODAL (CHÈN LIÊN KẾT CHO MỌI KHỐI) */}
+      {tagPickerModal?.isOpen && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl max-w-2xl w-full p-5 sm:p-6 space-y-4 shadow-2xl flex flex-col max-h-[88vh]">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                  <Link2 className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-extrabold text-white text-base">
+                    {tagPickerModal.title || 'Chèn Liên Kết Vào Nội Dung'}
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    Bấm vào mục muốn liên kết để tự động chèn thẻ điều hướng vào ô đang nhập
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setTagPickerModal(null)}
+                className="p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Tab điều hướng */}
+            <div className="flex items-center gap-2 border-b border-slate-800 pb-2">
+              <button
+                type="button"
+                onClick={() => setTagModalTab('activities')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                  tagModalTab === 'activities'
+                    ? 'bg-amber-500 text-slate-950 shadow-sm'
+                    : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                }`}
+              >
+                <Tag className="w-3.5 h-3.5" />
+                <span>Hoạt Động ({activities.length})</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setTagModalTab('heroes')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                  tagModalTab === 'heroes'
+                    ? 'bg-amber-500 text-slate-950 shadow-sm'
+                    : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                }`}
+              >
+                <Users className="w-3.5 h-3.5" />
+                <span>Tướng ({heroesList.length})</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setTagModalTab('resources')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
+                  tagModalTab === 'resources'
+                    ? 'bg-amber-500 text-slate-950 shadow-sm'
+                    : 'bg-slate-950 text-slate-400 hover:text-white border border-slate-800'
+                }`}
+              >
+                <span>💎 Kho Tài Nguyên</span>
+              </button>
+            </div>
+
+            {/* Ô tìm kiếm */}
+            {tagModalTab !== 'resources' && (
+              <div className="relative">
+                <Search className="absolute left-3 top-2.5 w-4 h-4 text-slate-500" />
+                <input
+                  type="text"
+                  value={tagModalSearch}
+                  onChange={(e) => setTagModalSearch(e.target.value)}
+                  placeholder={
+                    tagModalTab === 'activities'
+                      ? 'Tìm theo tên hoặc slug hoạt động...'
+                      : 'Tìm theo tên hoặc slug tướng...'
+                  }
+                  autoFocus
+                  className="w-full pl-9 pr-3 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white focus:outline-none focus:border-amber-500"
+                />
+              </div>
+            )}
+
+            {/* Nội dung danh sách theo Tab */}
+            <div className="flex-1 overflow-y-auto space-y-2 pr-1 min-h-[260px] max-h-[380px]">
+              {tagModalTab === 'activities' && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {activities
+                    .filter(
+                      (a) =>
+                        !tagModalSearch ||
+                        a.name.toLowerCase().includes(tagModalSearch.toLowerCase()) ||
+                        a.slug.toLowerCase().includes(tagModalSearch.toLowerCase())
+                    )
+                    .map((a) => (
+                      <button
+                        key={a.id}
+                        type="button"
+                        onClick={() => {
+                          tagPickerModal.onSelect(`[[${a.slug}|${a.name}]]`);
+                          setTagPickerModal(null);
+                          showToast(`Đã chèn link hoạt động: ${a.name}`, 'success');
+                        }}
+                        className="p-2.5 rounded-xl bg-slate-950 hover:bg-amber-500/10 border border-slate-800 hover:border-amber-500/40 text-left transition-all flex items-center gap-2.5 group"
+                      >
+                        {a.icon?.startsWith('/') ? (
+                          <img
+                            src={a.icon}
+                            alt=""
+                            className="w-7 h-7 rounded-lg object-cover border border-slate-800 shrink-0"
+                          />
+                        ) : (
+                          <div className="w-7 h-7 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 shrink-0">
+                            <Tag className="w-3.5 h-3.5" />
+                          </div>
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <div className="text-xs font-bold text-white group-hover:text-amber-300 truncate">
+                            {a.name}
+                          </div>
+                          <div className="text-[10px] text-slate-500 font-mono truncate">
+                            /{a.slug}
+                          </div>
+                        </div>
+                      </button>
+                    ))}
+                </div>
+              )}
+
+              {tagModalTab === 'heroes' && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {heroesList
+                    .filter(
+                      (h) =>
+                        !tagModalSearch ||
+                        h.name.toLowerCase().includes(tagModalSearch.toLowerCase()) ||
+                        h.slug.toLowerCase().includes(tagModalSearch.toLowerCase())
+                    )
+                    .slice(0, 50)
+                    .map((h) => (
+                      <button
+                        key={h.id}
+                        type="button"
+                        onClick={() => {
+                          tagPickerModal.onSelect(`[[hero:${h.slug}|${h.name}]]`);
+                          setTagPickerModal(null);
+                          showToast(`Đã chèn link tướng: ${h.name}`, 'success');
+                        }}
+                        className="p-2 rounded-xl bg-slate-950 hover:bg-amber-500/10 border border-slate-800 hover:border-amber-500/40 text-left transition-all flex items-center gap-2 group"
+                      >
+                        <img
+                          src={h.avatar}
+                          alt={h.name}
+                          className="w-8 h-8 rounded-lg object-cover border border-slate-800 shrink-0"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = '/images/heroes/icon_heroes/default.png';
+                          }}
+                        />
+                        <div className="min-w-0 flex-1">
+                          <div className="flex items-center gap-1.5">
+                            <span className="text-xs font-bold text-white group-hover:text-amber-300 truncate">
+                              {h.name}
+                            </span>
+                            {h.rarity && (
+                              <span className="text-[9px] font-mono font-bold text-amber-400 bg-black/40 px-1 rounded">
+                                {h.rarity}
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-[10px] text-slate-500 font-mono truncate">
+                            {h.slug}
+                          </div>
+                        </div>
+                      </button>
+                    ))}
+                </div>
+              )}
+
+              {tagModalTab === 'resources' && (
+                <div className="space-y-4 p-2">
+                  <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-3">
+                    <span className="text-xs font-bold text-slate-300 block">
+                      Kho Tài Nguyên Hệ Thống:
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        tagPickerModal.onSelect('[[resources|Kho Tài Nguyên]]');
+                        setTagPickerModal(null);
+                        showToast('Đã chèn liên kết Kho Tài Nguyên', 'success');
+                      }}
+                      className="w-full py-2.5 px-4 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 text-xs font-bold flex items-center justify-center gap-2 transition-all shadow-sm"
+                    >
+                      <span>💎 Chèn thẻ liên kết &quot;Kho Tài Nguyên&quot;</span>
+                    </button>
+                  </div>
+
+                  <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 space-y-2">
+                    <span className="text-xs font-bold text-slate-300 block">
+                      Cú pháp tag mẫu để gõ tay nhanh:
+                    </span>
+                    <ul className="text-xs text-slate-400 space-y-1.5 list-disc pl-4 font-mono">
+                      <li><code>[[slug-hoat-dong|Tên hiển thị]]</code>: Link tới hoạt động/hướng dẫn</li>
+                      <li><code>[[hero:slug-tuong|Tên tướng]]</code>: Link tới trang chi tiết tướng</li>
+                      <li><code>[[resources|Tên hiển thị]]</code>: Link tới kho tài nguyên</li>
+                      <li><code>[Tiêu đề](https://...)</code>: Link trang ngoài bất kỳ</li>
+                    </ul>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* MODAL: QUẢN LÝ LAYER CHỒNG HÌNH ẢNH (LAYER MANAGER) */}
+      {layerModal && layerModal.isOpen && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl max-w-lg w-full p-6 space-y-4 shadow-2xl">
+            {/* Header */}
+            <div className="flex items-center justify-between border-b border-slate-800 pb-3">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+                  <Layers className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="text-base font-black text-white">{layerModal.title}</h3>
+                  <p className="text-xs text-slate-400">Chồng nhiều layer ảnh lên icon / avatar</p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setLayerModal(null)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Preview Box */}
+            <div className="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center gap-4">
+              <div className="w-20 h-20 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center p-1 relative shrink-0">
+                <LayeredIcon
+                  src={layerModal.baseIcon}
+                  layers={layerModal.layers}
+                  className="w-full h-full object-contain"
+                  fallbackSrc="/images/heroes/icon_heroes/default.png"
+                />
+              </div>
+              <div className="flex-1 text-xs space-y-1">
+                <div className="font-bold text-white">Ảnh Xem Trước (Live Preview)</div>
+                <div className="text-slate-400">
+                  Số layer đang kích hoạt: <span className="font-mono text-amber-400 font-bold">{layerModal.layers.length}</span>
+                </div>
+                <div className="text-[11px] text-slate-500">
+                  Các layer sẽ được hiển thị đồng bộ ở cả trang quản trị và bài viết công khai.
+                </div>
+              </div>
+            </div>
+
+            {/* Presets Nhanh */}
+            <div className="space-y-1.5">
+              <span className="text-xs font-bold text-slate-300">Preset Layer Thông Dụng:</span>
+              <div className="flex flex-wrap gap-2">
+                {PRESET_LAYERS.map((preset) => {
+                  const isActive = layerModal.layers.includes(preset.path);
+                  return (
+                    <button
+                      key={preset.id}
+                      type="button"
+                      onClick={() => {
+                        const next = isActive
+                          ? layerModal.layers.filter((l) => l !== preset.path)
+                          : [...layerModal.layers, preset.path];
+                        setLayerModal({ ...layerModal, layers: next });
+                      }}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 ${
+                        isActive
+                          ? 'bg-amber-500 text-slate-950 border-amber-400 shadow'
+                          : 'bg-slate-950 text-slate-300 border-slate-800 hover:border-slate-700'
+                      }`}
+                    >
+                      <span>{preset.name}</span>
+                      <span className="text-[10px] opacity-70">({preset.path})</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Danh Sách Layer Hiện Tại */}
+            <div className="space-y-1.5">
+              <span className="text-xs font-bold text-slate-300">Danh Sách Layer Đang Chồng (Thứ tự từ dưới lên trên):</span>
+              <div className="max-h-40 overflow-y-auto space-y-1.5 bg-slate-950 p-2 rounded-xl border border-slate-800">
+                {layerModal.layers.length === 0 ? (
+                  <div className="text-center py-4 text-xs text-slate-500 italic">
+                    Chưa có layer nào được chồng. Chọn preset bên trên hoặc click Thêm Mảnh.
+                  </div>
+                ) : (
+                  layerModal.layers.map((layerPath, lIdx) => (
+                    <div
+                      key={lIdx}
+                      className="flex items-center justify-between gap-2 p-1.5 bg-slate-900 rounded-lg border border-slate-800 text-xs"
+                    >
+                      <div className="flex items-center gap-2 min-w-0">
+                        <img
+                          src={normalizeLayerPath(layerPath)}
+                          alt=""
+                          className="w-6 h-6 object-contain bg-slate-950 rounded p-0.5 border border-slate-700 shrink-0"
+                        />
+                        <span className="font-mono text-[11px] text-slate-300 truncate">{layerPath}</span>
+                      </div>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button
+                          type="button"
+                          disabled={lIdx === 0}
+                          onClick={() => {
+                            const next = [...layerModal.layers];
+                            const temp = next[lIdx];
+                            next[lIdx] = next[lIdx - 1];
+                            next[lIdx - 1] = temp;
+                            setLayerModal({ ...layerModal, layers: next });
+                          }}
+                          className="p-1 text-slate-400 hover:text-white disabled:opacity-30"
+                          title="Lên trên"
+                        >
+                          <ArrowUp className="w-3 h-3" />
+                        </button>
+                        <button
+                          type="button"
+                          disabled={lIdx === layerModal.layers.length - 1}
+                          onClick={() => {
+                            const next = [...layerModal.layers];
+                            const temp = next[lIdx];
+                            next[lIdx] = next[lIdx + 1];
+                            next[lIdx + 1] = temp;
+                            setLayerModal({ ...layerModal, layers: next });
+                          }}
+                          className="p-1 text-slate-400 hover:text-white disabled:opacity-30"
+                          title="Xuống dưới"
+                        >
+                          <ArrowDown className="w-3 h-3" />
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const next = layerModal.layers.filter((_, idx) => idx !== lIdx);
+                            setLayerModal({ ...layerModal, layers: next });
+                          }}
+                          className="p-1 text-red-400 hover:text-red-300"
+                          title="Xóa layer này"
+                        >
+                          <Trash2 className="w-3 h-3" />
+                        </button>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
+
+            {/* Footer Buttons */}
+            <div className="flex items-center justify-between pt-2 border-t border-slate-800">
+              <button
+                type="button"
+                onClick={() => setLayerModal({ ...layerModal, layers: [] })}
+                disabled={layerModal.layers.length === 0}
+                className="text-xs text-red-400 hover:text-red-300 disabled:opacity-40"
+              >
+                Xóa tất cả layer
+              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setLayerModal(null)}
+                  className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold"
+                >
+                  Hủy
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    layerModal.onSave(layerModal.layers);
+                    setLayerModal(null);
+                    showToast('Đã lưu cấu hình layer thành công!', 'success');
+                  }}
+                  className="px-5 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-black"
+                >
+                  Áp Dụng
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      {/* STEP FLOW PICKER MODAL: CHỌN ẢNH TỪ KHO SOURCE IMAGES */}
+      {isStepFlowPickerOpen && targetBlockIdForStepFlow && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-800 rounded-3xl max-w-3xl w-full p-5 sm:p-6 space-y-4 shadow-2xl flex flex-col max-h-[88vh]">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                  <Route className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="font-extrabold text-white text-base">
+                    Chọn Ảnh Thao Tác (Kho Source Images)
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    Kho ảnh thư mục: <code className="text-amber-400 font-mono">public/images/resources/sources</code>
+                  </p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setIsStepFlowPickerOpen(false);
+                  setTargetBlockIdForStepFlow(null);
+                }}
+                className="p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-slate-800"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Search & Reload Bar */}
+            <div className="flex items-center gap-2">
+              <div className="relative flex-1">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={stepFlowSearchTerm}
+                  onChange={(e) => setStepFlowSearchTerm(e.target.value)}
+                  placeholder="Tìm kiếm theo tên file ảnh source (ví dụ: ghep-da, anh-hung, van-menh)..."
+                  className="w-full pl-9 pr-3 py-2 rounded-xl bg-slate-950 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-500"
+                />
+              </div>
+
+              <button
+                type="button"
+                onClick={() => handleReloadSourceImages(true)}
+                disabled={loadingSourceImages}
+                className="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold flex items-center gap-1.5 shrink-0 transition-all disabled:opacity-50"
+                title="Làm mới lại kho ảnh từ thư mục"
+              >
+                <RotateCw className={`w-3.5 h-3.5 ${loadingSourceImages ? 'animate-spin' : ''}`} />
+                <span className="hidden sm:inline">Làm Mới</span>
+              </button>
+            </div>
+
+            {/* Grid of Source Images */}
+            <div className="flex-1 overflow-y-auto pr-1">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {sourceImagesList
+                  .filter((img) =>
+                    !stepFlowSearchTerm.trim() ||
+                    img.toLowerCase().includes(stepFlowSearchTerm.toLowerCase().trim())
+                  )
+                  .map((imgFile) => {
+                    const cleanName = imgFile
+                      .replace(/\.[^/.]+$/, '')
+                      .replace(/[_\-]/g, ' ')
+                      .replace(/\b\w/g, (l) => l.toUpperCase());
+                    const imgUrl = `/images/resources/sources/${imgFile}`;
+
+                    return (
+                      <button
+                        key={imgFile}
+                        type="button"
+                        onClick={() => {
+                          if (!activeGuide || !targetBlockIdForStepFlow) return;
+                          const block = activeGuide.blocks.find(
+                            (b) => b.id === targetBlockIdForStepFlow
+                          ) as GuideStepFlowBlock | undefined;
+
+                          if (block) {
+                            const newStep: GuideStepFlowItem = {
+                              id: `step-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+                              sourceId: imgFile.replace(/\.[^/.]+$/, ''),
+                              image: imgUrl,
+                              name: cleanName,
+                              description: '',
+                            };
+                            const updatedSteps = [...(block.steps || []), newStep];
+                            handleUpdateBlock(targetBlockIdForStepFlow, { steps: updatedSteps });
+                            showToast(`Đã thêm bước: ${cleanName}`, 'success');
+                          }
+                          setIsStepFlowPickerOpen(false);
+                          setTargetBlockIdForStepFlow(null);
+                        }}
+                        className="p-2.5 rounded-2xl bg-slate-950 border border-slate-800 hover:border-amber-500 hover:bg-slate-850 flex flex-col items-center gap-2 group transition-all text-center"
+                      >
+                        <div className="w-16 h-16 rounded-xl bg-slate-900 border border-slate-800 p-1 flex items-center justify-center overflow-hidden group-hover:scale-105 transition-transform">
+                          <img
+                            src={imgUrl}
+                            alt={cleanName}
+                            className="w-full h-full object-contain"
+                            onError={(e) => {
+                              (e.target as HTMLElement).style.opacity = '0.4';
+                            }}
+                          />
+                        </div>
+                        <div className="w-full">
+                          <div className="text-xs font-bold text-white group-hover:text-amber-400 transition-colors truncate">
+                            {cleanName}
+                          </div>
+                          <div className="text-[10px] text-slate-500 font-mono truncate">
+                            {imgFile}
+                          </div>
+                        </div>
+                      </button>
+                    );
+                  })}
+              </div>
+
+              {sourceImagesList.filter((img) =>
+                !stepFlowSearchTerm.trim() ||
+                img.toLowerCase().includes(stepFlowSearchTerm.toLowerCase().trim())
+              ).length === 0 && (
+                <div className="p-8 text-center text-xs text-slate-500">
+                  Không tìm thấy ảnh source nào khớp với từ khóa tìm kiếm.
+                </div>
+              )}
+            </div>
+
+            <div className="pt-2 border-t border-slate-800 flex justify-end">
+              <button
+                type="button"
+                onClick={() => {
+                  setIsStepFlowPickerOpen(false);
+                  setTargetBlockIdForStepFlow(null);
+                }}
+                className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold"
+              >
+                Đóng
               </button>
             </div>
           </div>

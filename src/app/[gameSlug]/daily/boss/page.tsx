@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getGameMeta, getGameGuides } from '@/lib/games';
+import { getGameMeta, getGameGuides, getGameActivities } from '@/lib/games';
 import { Header } from '@/components/layout/Header';
 import { MonetizationBanner } from '@/components/monetization/MonetizationBanner';
 import { GuideArticleRenderer } from '@/components/guide/GuideArticleRenderer';
@@ -17,6 +17,7 @@ export default async function DailyBossPage({ params }: Props) {
 
   // Lấy các bài viết thuộc danh mục 'boss'
   const allGuides = getGameGuides(gameSlug);
+  const activities = getGameActivities(gameSlug);
   const bossGuides = allGuides.filter((g) => g.category === 'boss');
 
   return (
@@ -63,6 +64,7 @@ export default async function DailyBossPage({ params }: Props) {
                 key={guide.slug}
                 article={guide}
                 gameSlug={gameSlug}
+                activities={activities}
               />
             ))}
           </div>

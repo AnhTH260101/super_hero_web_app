@@ -1,0 +1,344 @@
+{
+  "id": "guide-kho-bau-me-cung",
+  "slug": "kho-bau-me-cung",
+  "title": "Kho Báu Mê Cung - Cơ Chế Vòng Quay 14 Ô Không Trùng & Danh Mục Tướng",
+  "category": "kho-bau-me-cung",
+  "schedule": "Diễn ra định kỳ theo sự kiện tuần / tháng (Mỗi đợt 1 - 2 ngày)",
+  "description": "Cẩm nang tra cứu toàn diện về hoạt động Kho Báu Mê Cung (Bí Cảnh Thám Bảo / Tân Luân Bàn): Cơ chế rút loại trừ độc nhất 14 ô không bao giờ trùng lặp, bậc giá lũy tiến và danh mục tướng cùng phần thưởng 50.000 Xu từ hai bể Kim Cương & Ngọc Rồng.",
+  "thumbnail": "/images/resources/sources/kho-bau-me-cung.png",
+  "relatedActivities": [
+    "doat-bao",
+    "han-gio-xuat-chinh",
+    "thap-hoang-tinh-te"
+  ],
+  "tags": [
+    "Kho Báu Mê Cung",
+    "Vòng Quay 14 Ô",
+    "Bí Cảnh Thám Bảo",
+    "Kho Báu Kim Cương",
+    "Kho Báu Ngọc Rồng",
+    "Beerus",
+    "Emiya Shirou",
+    "Shalltear",
+    "Xu"
+  ],
+  "blocks": [
+    {
+      "id": "block-kbmc-real-intro",
+      "type": "text",
+      "title": "🔮 Tổng Quan Hoạt Động Kho Báu Mê Cung (Bí Cảnh Thám Bảo)",
+      "content": "Kho Báu Mê Cung (dữ liệu mã nguồn game: Bí Cảnh Thám Bảo / Tân Luân Bàn - ui_new_roulette.lua) là sự kiện vòng quay cao cấp đặc biệt nhất trong Siêu Anh Hùng với cơ chế 'RÚT LOẠI TRỪ KHÔNG TRÙNG LẶP'.\n\n• Vị trí tham gia: Biểu tượng Kho Báu Mê Cung trên màn hình sự kiện chính.\n• Hai Bể Quà Độc Lập:\n  1. Kho Báu Kim Cương (Bể Xu): Tiêu hao #xu để quay thưởng. Nơi người chơi săn phần thưởng độc đắc 50.000 Xu và các tướng siêu cấp (Beerus, Minato, Shirou, Tachibana...).\n  2. Kho Báu Ngọc Rồng (Bể Đạo Cụ): Tiêu hao vật phẩm Ngọc Rồng để quay thưởng. Chứa các đại giải thưởng tướng độc quyền (Shalltear, Tanjiro, Yachiru, Broli, Số 18...) và trang bị Chí Tôn hoàng kim.\n• Điểm ăn tiền nhất: Bạn có thể tự do bấm nút 'Làm mới' bất cứ lúc nào để đổi sang một dàn 14 giải thưởng mới nếu bể hiện tại chưa có vị tướng bạn mong muốn!",
+      "variant": "tip"
+    },
+    {
+      "id": "block-kbmc-exclusion-rule",
+      "type": "text",
+      "title": "⚡ Cơ Chế Rút Loại Trừ 14 Ô (Quay Là Trúng, Không Lo Lệch Tủ)",
+      "content": "Trích xuất quy tắc vận hành chính thức từ new_roulette_diamond.config và new_roulette_item.config:\n\n1. Cơ chế gạch bỏ không trùng lặp (Exclusion Mechanism):\n• Trong mỗi Bể Quà luôn có đúng 14 phần thưởng giá trị cao.\n• Mỗi khi bạn quay trúng một đạo cụ, đạo cụ đó sẽ bị GẠCH BỎ / XÓA KHỎI BỂ THƯỞNG! Các lượt quay tiếp theo đảm bảo 100% không bao giờ bị quay trùng lại món đã nhận.\n• Điều này có nghĩa là: Nếu bạn quay đủ 14 lượt, bạn CHẮC CHẮN 100% ĂN TRỌN TẤT CẢ 14 PHẦN THƯỞNG TRONG BỂ, bao gồm cả Đại Giải Thưởng Tướng Siêu Cấp và 50.000 Xu mà không phụ thuộc vào 'nhân phẩm'!\n\n2. Giá tiêu phí lũy tiến theo từng lượt:\n• Do số lượng phần thưởng trong bể giảm dần và cơ hội trúng giải độc đắc tăng vọt sau mỗi lượt, chi phí Xu hoặc Ngọc Rồng sẽ tăng dần theo từng lượt quay.\n• Khi đã quay sạch cả 14 ô, hệ thống sẽ TỰ ĐỘNG LÀM MỚI MIỄN PHÍ bể quà để bạn tiếp tục chu kỳ mới.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-kbmc-price-steps-table",
+      "type": "table",
+      "title": "💰 Bảng Bậc Giá Chi Tiết 14 Lượt Rút (Xu & Ngọc Rồng)",
+      "description": "Chi phí tiêu hao chính xác cho từng lượt quay từ 1 đến 14 (config: price):",
+      "columns": [
+        {
+          "id": "col-step",
+          "label": "Lượt Rút",
+          "type": "text"
+        },
+        {
+          "id": "col-diamond-cost",
+          "label": "Kho Báu Kim Cương (Xu)",
+          "type": "text"
+        },
+        {
+          "id": "col-item-cost",
+          "label": "Kho Báu Ngọc Rồng (Viên)",
+          "type": "text"
+        },
+        {
+          "id": "col-eval",
+          "label": "Đánh Giá Chiến Thuật",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-price-early",
+          "cells": {
+            "col-step": {
+              "text": "Lượt 1 – 5"
+            },
+            "col-diamond-cost": {
+              "text": "100 → 150 → 300 → 800 → 1.000 Xu\n(Tổng cụm: 2.350 Xu)"
+            },
+            "col-item-cost": {
+              "text": "1 → 1 → 1 → 1 → 1 Viên\n(Tổng cụm: 5 Viên)"
+            },
+            "col-eval": {
+              "text": "Chi phí siêu hời! Đặc biệt ở bể Ngọc Rồng, cả 5 lượt đầu đều chỉ tốn 1 viên/lượt. Người chơi cày chay nên quay 3-5 lượt đầu mỗi khi bể có giải thưởng mong muốn để thử vận may nổ hũ sớm."
+            }
+          }
+        },
+        {
+          "id": "row-price-mid",
+          "cells": {
+            "col-step": {
+              "text": "Lượt 6 – 8"
+            },
+            "col-diamond-cost": {
+              "text": "1.200 → 1.600 → 2.000 Xu\n(Tổng cụm: 4.800 Xu)"
+            },
+            "col-item-cost": {
+              "text": "2 → 4 → 8 Viên\n(Tổng cụm: 14 Viên)"
+            },
+            "col-eval": {
+              "text": "Giai đoạn tăng giá khởi đầu. Lúc này đã loại bỏ được 5-8 ô quà rác ban đầu, tỷ lệ xuất hiện trúng thẻ tướng và đại giải thưởng bắt đầu tăng rõ rệt."
+            }
+          }
+        },
+        {
+          "id": "row-price-late",
+          "cells": {
+            "col-step": {
+              "text": "Lượt 9 – 11"
+            },
+            "col-diamond-cost": {
+              "text": "3.000 → 4.000 → 5.000 Xu\n(Tổng cụm: 12.000 Xu)"
+            },
+            "col-item-cost": {
+              "text": "8 → 16 → 24 Viên\n(Tổng cụm: 48 Viên)"
+            },
+            "col-eval": {
+              "text": "Vào vùng cao điểm! Bể quà chỉ còn lại 3-5 món giá trị nhất. Xác suất nổ thẻ tướng hoặc 50.000 Xu đạt trên 60%."
+            }
+          }
+        },
+        {
+          "id": "row-price-final",
+          "cells": {
+            "col-step": {
+              "text": "Lượt 12 – 14\n(Chốt Bể)"
+            },
+            "col-diamond-cost": {
+              "text": "7.000 → 10.000 → 12.000 Xu\n(Tổng cụm: 29.000 Xu)"
+            },
+            "col-item-cost": {
+              "text": "32 → 32 → 40 Viên\n(Tổng cụm: 104 Viên)"
+            },
+            "col-eval": {
+              "text": "Trường hợp tướng nằm ở ô cuối cùng. Tổng chi phí ăn trọn toàn bộ 14 ô: 48.150 Xu (hoặc 171 Ngọc Rồng)."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-diamond-jackpot-table",
+      "type": "table",
+      "title": "💎 Phần Thưởng Độc Đắc 50.000 Xu (Bể Kim Cương)",
+      "description": "Phần thưởng tài nguyên giá trị cao nhất xuất hiện trong Bể Kim Cương (new_roulette_diamond.config):",
+      "columns": [
+        {
+          "id": "col-category",
+          "label": "Hạng Mục",
+          "type": "text"
+        },
+        {
+          "id": "col-reward-item",
+          "label": "Phần Thưởng",
+          "type": "resource"
+        },
+        {
+          "id": "col-desc",
+          "label": "Ghi Chú Chi Tiết",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-dia-jackpot",
+          "cells": {
+            "col-category": {
+              "text": "💰 Độc Đắc\n(Jackpot Xu)"
+            },
+            "col-reward-item": {
+              "resources": [
+                {
+                  "name": "50.000 Xu",
+                  "icon": "/images/resources/sources/xu.png",
+                  "quantity": "50.000 Xu"
+                }
+              ]
+            },
+            "col-desc": {
+              "text": "Phần thưởng jackpot 50.000 Xu nằm trong danh mục đại giải thưởng. Nếu quay trúng sẽ bù hoàn toàn chi phí dọn sạch cả bể 14 ô và sinh lời cực lớn."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-diamond-heroes-roster",
+      "type": "hero-roster",
+      "title": "💎 Danh Sách Tướng Xuất Hiện Trong Vòng Quay Kim Cương (Xu)",
+      "description": "Danh sách 12 vị tướng thực tế xuất hiện trong Bể Kim Cương (6 tướng đại giải thưởng ô cao nhất & 6 tướng bậc 2 luân phiên). Bấm vào thẻ tướng để xem chi tiết:",
+      "heroes": [
+        {
+          "heroSlug": "beerus",
+          "name": "Beerus",
+          "avatar": "/images/heroes/icon_heroes/beerus.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Thần Hủy Diệt sát thương toàn màn hình (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "emiya-shirou",
+          "name": "Emiya Shirou",
+          "avatar": "/images/heroes/icon_heroes/emiya-shirou.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Kiếm trận Vô Hạn Kiếm Giới trảm kích toàn đội (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "namikaze-minato",
+          "name": "Namikaze Minato",
+          "avatar": "/images/heroes/icon_heroes/namikaze-minato.png",
+          "element": "Vũ trụ nguyên tố",
+          "role": "Tanker",
+          "note": "Tia chớp vàng Làng Lá, tốc độ & né tránh cực cao (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "tachibana",
+          "name": "Tachibana",
+          "avatar": "/images/heroes/icon_heroes/tachibana.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Bộc phá lôi điện và kiếm thuật chớp nhoáng (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "shana",
+          "name": "Shana",
+          "avatar": "/images/heroes/icon_heroes/shana.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Thợ săn mắt đỏ hỏa diễm cuồng nộ thiêu rụi kẻ địch (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "shirakami-goku",
+          "name": "Shirakami Goku",
+          "avatar": "/images/heroes/icon_heroes/shirakami-goku.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Bản năng vô cực tóc trắng uy lực vô song (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "saitama",
+          "name": "Saitama",
+          "avatar": "/images/heroes/icon_heroes/saitama.png",
+          "element": "Vũ trụ sức mạnh",
+          "role": "Tanker",
+          "note": "Cú đấm hủy diệt và chống chịu bất khuất"
+        },
+        {
+          "heroSlug": "kaio",
+          "name": "Kaio",
+          "avatar": "/images/heroes/icon_heroes/kaio.png",
+          "element": "Zombie Bentu",
+          "role": "Tanker",
+          "note": "Khả năng trị liệu và hồi phục cấp tốc cho đồng đội"
+        },
+        {
+          "heroSlug": "boa-hancock",
+          "name": "Boa Hancock",
+          "avatar": "/images/heroes/icon_heroes/boa-hancock.png",
+          "element": "Vũ trụ nguyên tố",
+          "role": "Tanker",
+          "note": "Hóa đá và khống chế diện rộng đối thủ"
+        },
+        {
+          "heroSlug": "ma-nhan",
+          "name": "Ma Nhân",
+          "avatar": "/images/heroes/icon_heroes/ma-nhan.png",
+          "element": "Zombie Bentu",
+          "role": "Tanker",
+          "note": "Khả năng tái sinh và biến đối thủ thành kẹo"
+        },
+        {
+          "heroSlug": "natsu",
+          "name": "Natsu",
+          "avatar": "/images/heroes/icon_heroes/natsu.png",
+          "element": "Vũ trụ nguyên tố",
+          "role": "Tanker",
+          "note": "Hỏa Long Sát Thủ bộc phá ma công cực mạnh"
+        },
+        {
+          "heroSlug": "gray",
+          "name": "Gray",
+          "avatar": "/images/heroes/icon_heroes/gray.png",
+          "element": "Vũ trụ nguyên tố",
+          "role": "Tanker",
+          "note": "Băng Ma Đạo Sĩ đóng băng và phòng thủ vững chắc"
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-item-heroes-roster",
+      "type": "hero-roster",
+      "title": "🐉 Danh Sách Tướng Xuất Hiện Trong Vòng Quay Ngọc Rồng",
+      "description": "Danh mục 5 tướng đại giải thưởng cao cấp độc quyền xuất hiện tại ô thưởng cao nhất (reward_1) của Vòng Quay Ngọc Rồng:",
+      "heroes": [
+        {
+          "heroSlug": "shalltear",
+          "name": "Shalltear",
+          "avatar": "/images/heroes/icon_heroes/shalltear.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Ma cà rồng bất tử với khả năng hút máu vô tận (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "kamado-tanjiro",
+          "name": "Kamado Tanjiro",
+          "avatar": "/images/heroes/icon_heroes/kamado-tanjiro.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Hơi Thở Của Lửa chém nát hàng ngũ địch (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "kusajishi-yachiru",
+          "name": "Kusajishi Yachiru",
+          "avatar": "/images/heroes/icon_heroes/kusajishi-yachiru.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Tốc đánh chém lan thần sầu (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "broli",
+          "name": "Broli",
+          "avatar": "/images/heroes/icon_heroes/broli.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Siêu Xayda huyền thoại cuồng nộ càn quét (Đại giải thưởng)"
+        },
+        {
+          "heroSlug": "so-18",
+          "name": "Số 18",
+          "avatar": "/images/heroes/icon_heroes/so-18.png",
+          "element": "Vũ trụ linh tính",
+          "role": "Tanker",
+          "note": "Năng lượng vô hạn và liên kích liên hoàn (Đại giải thưởng)"
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-strategy-tips",
+      "type": "text",
+      "title": "💡 Chiến Thuật 'Ăn Trọn Bể Quà' Hiệu Quả Nhất",
+      "content": "• Chiến Thuật 1: 'Săn Đầu Bể' (Dành Cho Cày Chay / Nông Dân):\n  - Tận dụng mức giá cực kỳ rẻ của các lượt đầu tiên: Đặc biệt bể Ngọc Rồng có đến 5 lượt đầu chỉ tốn đúng 1 viên/lượt (tổng 5 lượt chỉ mất đúng 5 viên Ngọc Rồng); bể Xu 3 lượt đầu chỉ 550 Xu (hoặc 5 lượt đầu 2.350 Xu).\n  - Mỗi khi sự kiện mở ra hoặc khi làm mới, nếu thấy bể có tướng ngon hoặc 50.000 Xu, hãy quay ngay 3 đến 5 lượt đầu để thử vận may nổ hũ sớm. Nếu may mắn trúng giải lớn thì dừng lại ngay và chờ làm mới bể tiếp theo!\n\n• Chiến Thuật 2: 'Dọn Sạch Bể Chắc Chắn 100%' (Dành Cho Đua Top / Đại Gia):\n  - Không bao giờ bắt đầu quay sâu (quá 5 lượt) nếu trong túi bạn KHÔNG ĐỦ ~48.150 Xu (đối với bể Kim Cương) hoặc 171 Ngọc Rồng (đối với bể Ngọc Rồng).\n  - Nếu bạn dừng lại ở lượt 9 hay lượt 10 vì hết tài nguyên, bạn sẽ vừa mất lượng lớn tài nguyên vừa bỏ lỡ giải thưởng lớn nhất ở những ô cuối cùng.\n  - Hãy kiên nhẫn tích lũy đủ ngân sách, sau đó dùng nút 'Làm mới' liên tục cho tới khi Bể Quà xuất hiện đúng vị Tướng mà bạn đang xây dựng đội hình (Shalltear, Tanjiro, Beerus, Minato...), sau đó xả trọn 14 lượt để chắc chắn 100% rước tướng về đội mà không có bất kỳ rủi ro nào!",
+      "variant": "tip"
+    }
+  ],
+  "updatedAt": "2026-10-19T16:35:00.000Z"
+}

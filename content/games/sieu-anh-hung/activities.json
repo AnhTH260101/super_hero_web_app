@@ -43,5 +43,113 @@
     "banner": "",
     "order": 4,
     "enabled": true
+  },
+  {
+    "id": "act-1791809866726",
+    "slug": "vong-quay-lien-server",
+    "name": "Vòng quay liên server",
+    "shortDesc": "",
+    "icon": "/images/resources/sources/vong-quay-lien-server.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 5,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866139821",
+    "slug": "ban-co-lua",
+    "name": "Bàn cờ lửa",
+    "shortDesc": "Thu thập chữ đổi tài nguyên và làm nhiệm vụ tiêu xu",
+    "icon": "/images/resources/sources/ban-co-lua.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 6,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866201913",
+    "slug": "kho-bau-me-cung",
+    "name": "Kho báu mê cung",
+    "shortDesc": "Vòng quay 14 ô rút loại trừ độc nhất (quay trúng ô nào xóa ô đó), săn tướng SSR siêu cấp Beerus, Minato, Shalltear, Emiya Shirou & Trang bị Chí Tôn",
+    "icon": "/images/resources/sources/kho-bau-me-cung.png",
+    "badge": "Hot",
+    "color": "amber",
+    "banner": "",
+    "order": 7,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866244699",
+    "slug": "sieu-ba-ho",
+    "name": "Siêu bá hộ",
+    "shortDesc": "",
+    "icon": "/images/resources/sources/sieu-ba-ho.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 8,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866294203",
+    "slug": "minh-nguyet",
+    "name": "Minh nguyệt",
+    "shortDesc": "",
+    "icon": "/images/resources/sources/minh-nguyet.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 9,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866327250",
+    "slug": "doat-bao",
+    "name": "Đoạt bảo",
+    "shortDesc": "Đấu giá đoạt bảo bằng Xu, tích điểm quay Vòng Tích Điểm săn mảnh tướng SSR Kurosaki & Tachibana",
+    "icon": "/images/resources/sources/doat-bao.png",
+    "badge": "Hot",
+    "color": "amber",
+    "banner": "/games/sieu-anh-hung/tai-nguyen-anh/doat-bao_1791865220877.jpeg",
+    "order": 10,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866355548",
+    "slug": "thap-hoang-tinh-te",
+    "name": "Tháp hoang tinh tế",
+    "shortDesc": "Đua thuyền không gian (19:10 - 20:25), cược chip và đổi tướng SSR, huy hiệu",
+    "icon": "/images/resources/sources/thap-hoang-tinh-te.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 11,
+    "enabled": true
+  },
+  {
+    "id": "act-1791866516186",
+    "slug": "kiem-xu",
+    "name": "Kiếm xu",
+    "shortDesc": "",
+    "icon": "/images/resources/sources/xu.png",
+    "badge": "Mới",
+    "color": "red",
+    "banner": "",
+    "order": 12,
+    "enabled": true
+  },
+  {
+    "id": "act-1791999576252",
+    "slug": "ban-suc",
+    "name": "Ban sức",
+    "shortDesc": "",
+    "icon": "/images/resources/sources/giai-dau-ban-suc.png",
+    "badge": "Mới",
+    "color": "amber",
+    "banner": "",
+    "order": 13,
+    "enabled": true
   }
 ]

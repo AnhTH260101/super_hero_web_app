@@ -1,0 +1,652 @@
+{
+  "id": "guide-kho-bau-vua-hai-tac",
+  "slug": "kho-bau-vua-hai-tac",
+  "title": "Bản Đồ Kho Báu Hải Tặc & Shop Đổi Thưởng",
+  "category": "other",
+  "schedule": "Diễn ra thường xuyên theo chu kỳ (Mỗi ngày có 3 lượt miễn phí)",
+  "description": "Cẩm nang toàn diện về hoạt động Kho Báu Mê Cung (Bản đồ kho báu Vua Hải Tặc): Chi tiết cơ chế quay 60 Xu, tích lũy Chìa Khóa Hải Tặc vĩnh viễn và trích xuất toàn bộ danh mục vật phẩm vòng quay cùng Shop đổi mảnh tướng SSR Erza, Levi, Gintoki, Grimmjow, Chuyển Thế Đơn.",
+  "thumbnail": "/images/resources/sources/kho-bau-me-cung.png",
+  "relatedActivities": [
+    "doat-bao",
+    "han-gio-xuat-chinh",
+    "thap-hoang-tinh-te"
+  ],
+  "tags": [
+    "Kho Báu Mê Cung",
+    "Bản Đồ Hải Tặc",
+    "Chìa Khóa Hải Tặc",
+    "Erza",
+    "Levi",
+    "Gintoki",
+    "Chuyển Thế Đơn",
+    "Xu"
+  ],
+  "blocks": [
+    {
+      "id": "block-kbmc-intro",
+      "type": "text",
+      "title": "🏴‍☠️ Tổng Quan Về Kho Báu Mê Cung (Bản Đồ Vua Hải Tặc)",
+      "content": "Kho Báu Mê Cung (tên trong dữ liệu game gốc: Bản Đồ Kho Báu Vua Hải Tặc / One Piece Treasure Map) là một trong những sự kiện quay thưởng và tích lũy chìa khóa giá trị nhất trong Siêu Anh Hùng.\n\n• Vị trí tham gia: Biểu tượng Kho Báu Mê Cung (hoặc Kho Báu Hải Tặc) trên giao diện sự kiện chính.\n• Điểm đặc biệt nhất của hoạt động (BẢO LƯU VĨNH VIỄN):\n  - Mỗi lượt quay thám hiểm chắc chắn nhận được 1 #chia-khoa-hai-tac.\n  - Khác với nhiều hoạt động khác sẽ reset điểm khi hết đợt, Chìa Khóa Hải Tặc KHÔNG BỊ XÓA khi hết sự kiện, mà được BẢO LƯU VĨNH VIỄN trong túi đồ của người chơi!\n  - Nhờ vậy, người chơi nông dân cày chay hoàn toàn có thể gom chìa khóa qua nhiều chu kỳ khác nhau để đổi các thẻ tướng SSR đỉnh cao như Erza, Levi Ackerman, Gintoki hoặc Chuyển Thế Đơn mà không sợ bị lãng phí công sức tích lũy.",
+      "variant": "tip"
+    },
+    {
+      "id": "block-kbmc-gallery",
+      "type": "gallery",
+      "title": "📸 Hình Ảnh Thực Tế Bản Đồ Hải Tặc & Kho Tàng Đổi Thưởng",
+      "layout": "grid-3",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/kho-bau-quay-chia.jpeg",
+          "caption": "Bản đồ Kho Báu Vua Hải Tặc: Vòng quay thám hiểm 60 Xu, 3 lượt free mỗi ngày và các mốc rương 40-80-160 điểm"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/kho-bau-mua-chia-1.jpeg",
+          "caption": "Kho Tàng Hải Tặc: Đổi mảnh tướng SSR Shermie, Saga, Quạ Đen, Chuyển Thế Đơn và Kiếm Nguyên Phách"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/kho-bau-mua-chia-2.jpeg",
+          "caption": "Kho Tàng Hải Tặc: Đổi mảnh tướng Master Yi, Grimmjow, Ma Nhân và các đạo cụ cao cấp"
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-rules",
+      "type": "text",
+      "title": "📜 Quy Tắc Tham Gia & Chi Phí Thám Hiểm",
+      "content": "Trích xuất quy tắc vận hành chính thức từ one_piece.config:\n\n1. Chi phí và lượt tham gia:\n• Thám hiểm 1 lần: 60 #xu. Đặc biệt, mỗi ngày hệ thống TẶNG MIỄN PHÍ 3 LƯỢT quay đầu tiên cho toàn bộ người chơi!\n• Thám hiểm 10 lần (Tặng thêm 1 lần = 11 lần): 600 Xu. Luôn luôn nên chọn quay x10 để nhận thêm 1 lượt miễn phí (tương đương tiết kiệm 60 Xu và nhận thêm 1 Chìa Khóa Hải Tặc).\n\n2. Mốc thưởng tích lũy lượt thám hiểm (Bên trái bản đồ):\n• Mốc 40 điểm: Nhận Kiếm Nguyên Phách x2 (hoặc Mảnh Lý Huyền Bá x10).\n• Mốc 80 điểm: Nhận Kiếm Nguyên Phách x2 (hoặc Mảnh Lý Huyền Bá x10).\n• Mốc 160 điểm: Nhận Mảnh tướng hiếm x15 (hoặc Mảnh Lý Huyền Bá x20).\n\n3. Chìa Khóa Hải Tặc:\n• Mỗi lần tìm kho báu nhận chắc chắn 1 Chìa Khóa Hải Tặc.\n• Bấm nút 'Kho tàng hải tặc' ở góc trên bên phải bản đồ để mở giao diện tiệm đổi thưởng.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-kbmc-wheel-items-table",
+      "type": "table",
+      "title": "🎁 Danh Sách Toàn Bộ Vật Phẩm Xuất Hiện Trong Vòng Quay Mê Cung",
+      "description": "Chi tiết các phần thưởng nhận được trực tiếp khi quay thám hiểm bản đồ (one_piece_rate.config):",
+      "columns": [
+        {
+          "id": "col-slot",
+          "label": "Mục Thưởng",
+          "type": "text"
+        },
+        {
+          "id": "col-reward",
+          "label": "Vật Phẩm / Rương Quà",
+          "type": "resource"
+        },
+        {
+          "id": "col-rate",
+          "label": "Tỷ Lệ / Đặc Tính",
+          "type": "text"
+        },
+        {
+          "id": "col-detail",
+          "label": "Chi Tiết Nội Dung Rương",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-wheel-key",
+          "cells": {
+            "col-slot": {
+              "text": "Cố Định\n(100%)"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Chìa Khóa Hải Tặc",
+                  "quantity": "x1 (Chắc chắn nhận)",
+                  "note": "Tồn tại vĩnh viễn"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "100% mỗi lượt"
+            },
+            "col-detail": {
+              "text": "Mỗi lần quay chắc chắn nhận 1 chìa khóa. Quay 10 lần tặng 1 lần nhận 11 chìa khóa. Chìa khóa không bị reset qua các mùa."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-cross-equip",
+          "cells": {
+            "col-slot": {
+              "text": "Hiếm"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Rương Trang Bị Liên Server",
+                  "icon": "/images/resources/items/ruong-van-menh-4.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "Tích điểm / Tỷ lệ may mắn"
+            },
+            "col-detail": {
+              "text": "Mở nhận trang bị hoàng kim liên server cực phẩm gia tăng lượng lớn lực chiến."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-cosmic-equip",
+          "cells": {
+            "col-slot": {
+              "text": "Hiếm"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Rương Trang Bị Vũ Trụ",
+                  "icon": "/images/resources/items/ve-khong-gian.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "Tích điểm / Tỷ lệ may mắn"
+            },
+            "col-detail": {
+              "text": "Mở nhận các bộ trang bị vũ trụ và nguyên liệu chế tạo trang bị thần thoại."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-beast-box",
+          "cells": {
+            "col-slot": {
+              "text": "Thần Thú"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Rương Nguyên Liệu Thần Thú",
+                  "icon": "/images/resources/items/ruong-nguyen-lieu-dot-pha.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "Đặc biệt"
+            },
+            "col-detail": {
+              "text": "Chứa nguyên liệu đột phá và nâng cấp hệ thống trợ thủ / pet chiến đấu."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-pirate-upgrade",
+          "cells": {
+            "col-slot": {
+              "text": "Quà Nâng Cấp"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Da Ba Chu",
+                  "quantity": "x1",
+                  "note": "Tỷ lệ 20%",
+                  "icon": "/images/resources/items/da-ba-chu.png"
+                }
+              ],
+              "resource": {
+                "name": "Da Ba Chu",
+                "quantity": "x1",
+                "note": "Tỷ lệ 20%",
+                "icon": "/images/resources/items/da-ba-chu.png"
+              }
+            },
+            "col-rate": {
+              "text": "20.0%"
+            },
+            "col-detail": {
+              "text": "Đá mài, tinh thể và nguyên liệu cường hóa trang bị hải tặc chuyên dụng."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-pet-box",
+          "cells": {
+            "col-slot": {
+              "text": "Quà Pet"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Quà Thú Nuôi Hải Tặc",
+                  "quantity": "x1",
+                  "note": "Tỷ lệ 15%"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "15.0%"
+            },
+            "col-detail": {
+              "text": "Mảnh pet hải tặc và thức ăn nuôi dưỡng thú cưng trợ chiến."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-basic-box",
+          "cells": {
+            "col-slot": {
+              "text": "Quà Cơ Bản"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Quà Hải Tặc Cơ Bản",
+                  "quantity": "x1",
+                  "note": "Tỷ lệ 45%"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "45.0%"
+            },
+            "col-detail": {
+              "text": "Gồm thức ăn, sắt kim loại, thẻ thể lực và đá nguyên tố các loại."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-adv-box",
+          "cells": {
+            "col-slot": {
+              "text": "Quà Tiến Cấp"
+            },
+            "col-reward": {
+              "resources": [
+                {
+                  "name": "Quà Tiến Cấp Hải Tặc Sơ",
+                  "quantity": "x1",
+                  "note": "Tỷ lệ 20%"
+                }
+              ]
+            },
+            "col-rate": {
+              "text": "20.0%"
+            },
+            "col-detail": {
+              "text": "Vật liệu tiến cấp ban đầu giúp mở khóa các tầng thuộc tính trang bị."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-shop-table",
+      "type": "table",
+      "title": "🏪 Bảng Đổi Thưởng Kho Tàng Hải Tặc (One Piece Exchange Shop)",
+      "description": "Chi tiết toàn bộ các mảnh tướng SSR, chuyển thế đơn và phiếu trang bị đổi bằng Chìa Khóa Hải Tặc (one_piece_exchange.config):",
+      "columns": [
+        {
+          "id": "col-tab",
+          "label": "Tab Shop",
+          "type": "text"
+        },
+        {
+          "id": "col-item",
+          "label": "Vật Phẩm / Tướng Đổi",
+          "type": "resource"
+        },
+        {
+          "id": "col-keys",
+          "label": "Chìa Khóa Cần",
+          "type": "text"
+        },
+        {
+          "id": "col-limit",
+          "label": "Giới Hạn / Đánh Giá",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-shop-erza",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 1\n(Kho Báu Hải Tặc)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Mảnh Erza",
+                  "heroSlug": "erza",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "25 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 8 lần. Nữ hoàng chiến giáp SSR cực mạnh, ưu tiên đổi hàng đầu."
+            }
+          }
+        },
+        {
+          "id": "row-shop-levi-gintoki",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 1\n(Kho Báu Hải Tặc)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Mảnh Levi Ackerman",
+                  "heroSlug": "levi",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Gintoki",
+                  "heroSlug": "gintoki",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Shin",
+                  "heroSlug": "shin",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "15 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 8 lần mỗi tướng. Các tướng SSR thuộc tính mạnh mẽ cho đội hình chính."
+            }
+          }
+        },
+        {
+          "id": "row-shop-vn-heroes",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 1\n(Kho Báu Hải Tặc)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Mảnh Mị Nương",
+                  "heroSlug": "mi-nuong",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Sơn Tinh",
+                  "heroSlug": "son-tinh",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Âu Cơ",
+                  "heroSlug": "au-co",
+                  "rarity": "SSR",
+                  "quantity": "x5",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "15 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 8 lần mỗi tướng. Bộ ba tướng Thần Thoại Việt Nam buff toàn đội cực đỉnh."
+            }
+          }
+        },
+        {
+          "id": "row-shop-anime-ssr",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 1\n(Kho Báu Hải Tặc)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Mảnh Grimmjow",
+                  "heroSlug": "grimmjow",
+                  "rarity": "SSR",
+                  "quantity": "x10",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Shermie",
+                  "heroSlug": "shermie",
+                  "rarity": "SSR",
+                  "quantity": "x10",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Master Yi",
+                  "heroSlug": "master-yi",
+                  "rarity": "SSR",
+                  "quantity": "x10",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Saga",
+                  "heroSlug": "saga",
+                  "rarity": "SSR",
+                  "quantity": "x10",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "8 - 10 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Gói 10 mảnh / lần đổi. Giới hạn 1 - 2 lần mỗi chu kỳ."
+            }
+          }
+        },
+        {
+          "id": "row-shop-chuyen-the-don",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 2\n(Kho Báu U Linh)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Chuyển Thế Đơn",
+                  "icon": "/images/resources/items/chuyen-the-don.png",
+                  "quantity": "x10"
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "20 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 1 lần. Nguyên liệu cực phẩm bắt buộc để chuyển thế tướng lên UR."
+            }
+          }
+        },
+        {
+          "id": "row-shop-da-ba-chu",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 2\n(Kho Báu U Linh)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Đá Bá Chủ",
+                  "icon": "/images/resources/items/da-ba-chu.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "15 - 20 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 1 - 2 lần. Dùng nâng cấp trang bị bá chủ tối thượng."
+            }
+          }
+        },
+        {
+          "id": "row-shop-nguyen-phach",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 2\n(Kho Báu U Linh)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Kiếm / Giáp / Đá / Mũ Nguyên Phách",
+                  "quantity": "x5"
+                },
+                {
+                  "name": "Bộ Trang Bị Linh Phách",
+                  "quantity": "x5"
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "5 Chìa Khóa / gói"
+            },
+            "col-limit": {
+              "text": "Giới hạn: 10 - 20 lần mỗi loại trang bị."
+            }
+          }
+        },
+        {
+          "id": "row-shop-phieu-he-s",
+          "cells": {
+            "col-tab": {
+              "text": "Tab 3\n(Phiếu Tướng & Trang Bị)"
+            },
+            "col-item": {
+              "resources": [
+                {
+                  "name": "Phiếu Tướng Hệ S5",
+                  "quantity": "x1"
+                },
+                {
+                  "name": "Phiếu Tướng Hệ S4",
+                  "quantity": "x1"
+                },
+                {
+                  "name": "Phiếu Tướng Thượng Cổ / Dimension S3",
+                  "quantity": "x1"
+                },
+                {
+                  "name": "Phiếu Hero S2 / S1",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-keys": {
+              "text": "50 - 150 Chìa Khóa"
+            },
+            "col-limit": {
+              "text": "Chọn trực tiếp các tướng SSR theo thế hệ và hệ nguyên tố mong muốn."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-heroes",
+      "type": "hero-source",
+      "title": "⭐ Các Tướng SSR Siêu Mạnh Đổi Bằng Chìa Khóa Hải Tặc",
+      "description": "Các danh tướng nổi tiếng có thể đổi trực tiếp bằng Chìa Khóa Hải Tặc tích lũy:",
+      "heroes": [
+        {
+          "heroSlug": "erza",
+          "name": "Erza",
+          "avatar": "/images/heroes/icon_heroes/default.png",
+          "rarity": "SSR",
+          "element": "Quang",
+          "role": "Đấu Sĩ / Biến Hóa Giáp",
+          "sourceNote": "Đổi trong Kho Tàng Hải Tặc (25 Chìa / 5 mảnh). Sát thương diện rộng và miễn dịch khống chế cực đỉnh.",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "heroSlug": "levi",
+          "name": "Levi Ackerman",
+          "avatar": "/images/heroes/icon_heroes/default.png",
+          "rarity": "SSR",
+          "element": "Phong",
+          "role": "Sát Thủ / Tốc Độ Tối Thượng",
+          "sourceNote": "Đổi trong Kho Tàng Hải Tặc (15 Chìa / 5 mảnh). Tốc đánh siêu nhanh chém gục chủ lực đối phương.",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "heroSlug": "gintoki",
+          "name": "Gintoki",
+          "avatar": "/images/heroes/icon_heroes/default.png",
+          "rarity": "SSR",
+          "element": "Lôi",
+          "role": "Đấu Sĩ / Phản Kích",
+          "sourceNote": "Đổi trong Kho Tàng Hải Tặc (15 Chìa / 5 mảnh). Tướng khống chế và chống chịu bền bỉ.",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "heroSlug": "au-co",
+          "name": "Âu Cơ",
+          "avatar": "/images/heroes/icon_heroes/ct-au-co.png",
+          "rarity": "SSR",
+          "element": "Thủy",
+          "role": "Hỗ Trợ / Trị Liệu Thần Thánh",
+          "sourceNote": "Đổi trong Kho Tàng Hải Tặc (15 Chìa / 5 mảnh). Hồi phục sinh mệnh và giải trừ hiệu ứng xấu cho toàn đội.",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "block-kbmc-advice",
+      "type": "text",
+      "title": "💡 Chiến Thuật Farm Chìa Khóa & Đổi Quà Tối Ưu Cho Mọi Người Chơi",
+      "content": "• Tận dụng 3 lượt miễn phí mỗi ngày:\n  - Đừng bao giờ quên đăng nhập và nhận 3 lượt quay miễn phí mỗi ngày. Chỉ cần tích lũy đều đặn, mỗi đợt sự kiện bạn đã có thể kiếm được từ 9 đến 21 Chìa Khóa Hải Tặc hoàn toàn không tốn 1 xu!\n\n• Quy tắc quay bằng Xu:\n  - Luôn luôn tích đủ 600 #xu để quay gói 'Thám hiểm 10 lần (tặng 1)'. Bạn sẽ nhận được 11 lượt quay và 11 Chìa Khóa Hải Tặc.\n  - Canh đạt các mốc rương tích lũy 40 lượt, 80 lượt hoặc 160 lượt để hốt trọn Kiếm Nguyên Phách và mảnh tướng hiếm đi kèm.\n\n• Thứ tự ưu tiên đổi tại Kho Tàng Hải Tặc:\n  1. Ưu tiên số 1: #chuyen-the-don (20 Chìa) – Đây là nguyên liệu nghẽn cổ chai bậc nhất game để đưa tướng lên phẩm chất Chuyển Thế UR.\n  2. Ưu tiên số 2: Mảnh tướng chủ lực đội hình của bạn (Erza 25 chìa, Levi 15 chìa, Gintoki 15 chìa, Âu Cơ 15 chìa).\n  3. Ưu tiên số 3: Bộ trang bị Kiếm/Giáp Nguyên Phách và Thần Ân cao cấp nếu bạn đang trong giai đoạn nâng cấp trang bị cơ bản.",
+      "variant": "tip"
+    }
+  ],
+  "updatedAt": "2026-10-21T14:06:41.430Z"
+}

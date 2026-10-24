@@ -1,0 +1,91 @@
+{
+  "id": "guide-ban-co-lua",
+  "slug": "ban-co-lua",
+  "title": "Bàn Cờ Lửa - Quy Tắc Soi Tướng/Soái, Kỹ Thuật Lật 10 Ô & Cơ Chế Hoàn Xu 100 Vạn",
+  "category": "ban-co-lua",
+  "schedule": "Diễn ra theo kỳ sự kiện Lễ lớn và đợt khuyến mãi tiêu Xu",
+  "description": "Cẩm nang hướng dẫn chi tiết cách chơi Bàn Cờ Lửa: Quy trình xem trước tài nguyên bằng Tạo mới 20 Xu, kỹ thuật Tẩy xáo bài săn hai quân cờ cốt lõi Tướng (将) và Soái (帅), cùng công thức tối ưu tiêu mốc 100 vạn Xu chỉ với 70 vạn Xu gốc.",
+  "thumbnail": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_chay_40off.jpg",
+  "relatedActivities": [],
+  "tags": [
+    "Bàn Cờ Lửa",
+    "Tướng",
+    "Soái",
+    "Hoàn Xu",
+    "Tiêu Mốc",
+    "100 Vạn Xu",
+    "Tạo Mới",
+    "Tẩy"
+  ],
+  "blocks": [
+    {
+      "id": "block-bcl-intro",
+      "type": "text",
+      "title": "🔥 Giới Thiệu Sự Kiện Bàn Cờ Lửa (BCL)",
+      "content": "Bàn Cờ Lửa là sự kiện tiêu Xu cao cấp đặc biệt thường xuất hiện trong các dịp Lễ lớn. Khác với các vòng quay thông thường, Bàn Cờ Lửa kết hợp giữa cơ chế xem trước tài nguyên, mini-game cờ tướng và chính sách hoàn trả Xu ban đêm cực lớn.\n\n• Cấu trúc: Bàn cờ ma trận 60 ô (10 cột x 6 hàng).\n• Bản chất của sự kiện: Thu thập 2 chữ Cờ Tướng quý hiếm (Tướng & Soái) làm phôi đổi đại thưởng, đồng thời lợi dụng cơ chế hoàn trả Xu sau 22h00 để cán các mốc sự kiện tiêu Xu khổng lồ (mốc 100 vạn Xu) với chi phí thực tế tiết kiệm nhất.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-bcl-gallery-overview",
+      "type": "gallery",
+      "title": "📸 Hình Ảnh Thực Tế Giao Diện Bàn Cờ Lửa & Hai Trạng Thái Giá",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_chay_40off.jpg",
+          "caption": "Bàn cờ ở trạng thái CHÁY (40% OFF): Giá giảm xuống còn 60 Xu/lượt, viền lửa bốc cháy rực rỡ và thanh tiến độ chạm mốc 40.000 điểm"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_goc_100xu.jpg",
+          "caption": "Bàn cờ ở trạng thái bình thường (Giá gốc 100 Xu/lượt): Khi toàn server chưa tích đủ mốc cống hiến"
+        }
+      ]
+    },
+    {
+      "id": "block-bcl-core-flow",
+      "type": "text",
+      "title": "🎯 Quy Trình Chơi Chuẩn 4 Bước: Soi Chữ Tướng/Soái ➔ Tẩy ➔ Lật 10 Ô",
+      "content": "Rất nhiều người chơi mới mắc sai lầm là vào bàn cờ là bấm lật bừa bãi hoặc cố lật sạch cả 60 ô. Quy trình chơi chuẩn của dân cày và VIP gồm 4 bước vòng lặp tuần tự:\n\n1. Bước 1: Xem trước tài nguyên bằng nút 'Tạo mới' (20 Xu)\n• Mỗi khi bạn bấm nút 'Tạo mới' (tốn đúng 20 Xu), bàn cờ sẽ sinh ngẫu nhiên 60 ô tài nguyên và HIỂN THỊ CÔNG KHAI trước mắt bạn.\n• Bạn hoàn toàn nhìn thấy trước toàn bộ 60 ô này có xuất hiện chữ Tướng (将) hoặc Soái (帅) hay không mà chưa mất bất kỳ lượt lật nào.\n\n2. Bước 2: Kiểm tra mục tiêu (Lọc bàn cờ)\n• Nếu nhìn vào 60 ô mà KHÔNG CÓ chữ Tướng (将) hoặc Soái (帅): TIẾP TỤC BẤM 'TẠO MỚI' (20 Xu) để reroll sang bàn cờ khác. Tuyệt đối không bấm Tẩy hay lật mở ô ở các bàn cờ rác này!\n• Nếu thấy bàn cờ CÓ xuất hiện Tướng (将) hoặc Soái (帅): DỪNG LẠI và chuyển sang Bước 3.\n\n3. Bước 3: Bấm 'Tẩy' để úp bài\n• Sau khi đã xác nhận bàn cờ có Tướng hoặc Soái, bấm nút 'Tẩy'. Hệ thống sẽ tự động xáo trộn vị trí và úp kín toàn bộ 60 ô cờ lại.\n\n4. Bước 4: Mở nhanh 10 ô / lượt & Dừng ngay khi ăn Tướng/Soái\n• Chọn chế độ mở 1 lần 10 ô (tốn 600 Xu khi bàn cờ cháy) để quét nhanh.\n• Mở cho đến khi LẬT TRÚNG ô Tướng (将) hoặc Soái (帅) ➔ DỪNG LẠI NGAY LẬP TỨC!\n• Khi đã ăn được chữ quý, không bao giờ mở tiếp các ô còn lại (chỉ toàn tài nguyên phụ). Lập tức quay lại Bước 1 bấm 'Tạo mới' (20 Xu) để bắt đầu chu kỳ săn chữ tiếp theo.",
+      "variant": "tip"
+    },
+    {
+      "id": "block-bcl-gallery-mechanics",
+      "type": "gallery",
+      "title": "📸 Thao Tác Tạo Mới Bàn Cờ & Hàng Quân Cờ Tướng Thực Tế",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_popup_tao_moi.jpg",
+          "caption": "Popup xác nhận 'Tốn 20 Xu tạo mới': Chi phí cực rẻ để reroll và xem trước 60 ô tài nguyên mới tinh"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_quan_co_tuong.jpg",
+          "caption": "Hàng cờ tướng đỏ trên cùng: Xuất hiện các quân cờ để người chơi nhận diện trước khi quyết định bấm Tẩy"
+        }
+      ]
+    },
+    {
+      "id": "block-bcl-gallery-core-pieces",
+      "type": "gallery",
+      "title": "🎯 Cận Cảnh Hai Quân Cờ Core: Tướng (将) & Soái (帅)",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_quan_tuong.png",
+          "caption": "Quân TƯỚNG (将): Tỷ lệ xuất hiện cực hiếm (chỉ bằng 1/10 các quân thông thường), là phôi bắt buộc để đổi các phần thưởng lớn"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/bcl_quan_soai.png",
+          "caption": "Quân SOÁI (帅): Tỷ lệ xuất hiện cực hiếm (chỉ bằng 1/10 các quân thông thường), quân cờ cốt lõi thứ hai của Bàn Cờ Lửa"
+        }
+      ]
+    },
+    {
+      "id": "block-bcl-refund-mechanic",
+      "type": "text",
+      "title": "💰 Cơ Chế Hoàn Xu & Trick Cán Mốc 100 Vạn Xu Với 70 Vạn Xu Gốc",
+      "content": "Cơ chế hoàn Xu của Bàn Cờ Lửa hoạt động theo 2 tầng giảm giá và hoàn trả ban đêm:\n\n1. Tầng 1: Giảm giá trực tiếp 40% khi bàn cờ 'CHÁY'\n• Điểm gọi của toàn server vượt mốc 40.000 điểm, bàn cờ kích hoạt trạng thái bốc lửa (40% OFF).\n• Giá mở mỗi ô giảm từ 100 Xu xuống còn đúng 60 Xu (Mở 10 ô = 600 Xu). Bắt buộc phải đợi bàn cờ cháy mới bắt đầu xả Xu.\n\n2. Tầng 2: Hoàn trả sau 22h00\n• Hệ thống tổng kết lượng Xu tiêu thụ trong ngày tại BCL và trả hoàn lại khoảng 40% – 42% số Xu đã đốt qua hòm thư vào lúc 22h00.\n\n3. Ví dụ cách tính thực tế (70 vạn ➔ Ăn mốc 100 vạn):\n• Giai đoạn 1 (Ban ngày): Bạn cầm đúng 70 vạn Xu, đợi bàn cờ Cháy rồi áp dụng mẹo soi Tướng/Soái xả sạch 70 vạn Xu. Hệ thống sự kiện ghi nhận bạn đã tiêu: 70 vạn Xu.\n• Giai đoạn 2 (22h00 đêm): Hệ thống BCL kích hoạt trả hoàn ~41% qua hòm thư: 70 vạn x 41% ≈ 29 - 30 vạn Xu hoàn về túi.\n• Giai đoạn 3 (Sau 22h00): Lấy 30 vạn Xu vừa được hoàn xả tiếp vào các sự kiện diễn ra song song (Vòng quay Liên Server, xả Ngọc Rồng, v.v.). Hệ thống ghi nhận bạn tiêu thêm: 30 vạn Xu.\n• Kết quả tổng kết: 70 vạn + 30 vạn = 100 VẠN XU! Bạn ăn trọn vẹn danh hiệu và tài nguyên Lễ của mốc 100 vạn Xu mà thực tế ví chỉ cần đúng 70 vạn Xu khởi điểm.",
+      "variant": "warning"
+    }
+  ]
+}

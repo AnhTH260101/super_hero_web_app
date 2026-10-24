@@ -100,6 +100,35 @@ function scanAllIcons(gameSlug: string = 'sieu-anh-hung'): { icons: ResourceIcon
     }
   }
 
+  // Quét thêm thư mục items của game
+  const itemsPath = path.join(process.cwd(), 'public', 'games', gameSlug, 'items');
+  if (fs.existsSync(itemsPath)) {
+    let count = 0;
+    try {
+      const files = fs.readdirSync(itemsPath);
+      for (const file of files) {
+        if (file.startsWith('.') || !file.match(/\.(png|jpg|jpeg|webp)$/i)) continue;
+        allIcons.push({
+          name: file,
+          url: `/games/${gameSlug}/items/${file}`,
+          folder: 'game_items_icons',
+          folderLabel: 'Icon Vật Phẩm Game (items)',
+        });
+        count++;
+      }
+    } catch (err) {
+      console.error(`Error reading directory ${itemsPath}:`, err);
+    }
+
+    if (count > 0) {
+      categories.push({
+        id: 'game_items_icons',
+        label: 'Icon Vật Phẩm Game',
+        count,
+      });
+    }
+  }
+
   return { icons: allIcons, categories };
 }
 

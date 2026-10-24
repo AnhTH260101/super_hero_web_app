@@ -1,0 +1,1005 @@
+{
+  "id": "guide-1791872435812",
+  "slug": "bai-viet-5812",
+  "title": "Tháp hoang tinh tế",
+  "category": "thap-hoang-tinh-te",
+  "schedule": "19:10 - 20-25",
+  "description": "Mô tả tóm tắt nội dung bài viết...",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791872435812-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1791874340695",
+      "type": "gallery",
+      "title": "Shop đổi chip cược",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_13_52_13_1791874367825.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "block-1791874838077",
+      "type": "table",
+      "title": "Danh sách vật phẩm shop",
+      "description": "",
+      "columns": [
+        {
+          "id": "col-2",
+          "label": "Giá chip",
+          "type": "text"
+        },
+        {
+          "id": "col-1791874882430",
+          "label": "Vật phẩm",
+          "type": "resource"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1791874838077-1",
+          "cells": {
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png",
+                  "quantity": "x20"
+                },
+                {
+                  "name": "Kim Cương",
+                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/cuong_hoa_thach.png",
+                  "quantity": "x500"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-1791874389594",
+      "type": "gallery",
+      "title": "Nơi farm chip",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_13_53_33_1791874424358.png",
+          "caption": "Cửa hàng năng lượng: 15 chip mỗi ngày"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/Screenshot_2026-10-13_at_13_54_35_1791874508477.png",
+          "caption": "Đổi kim cương: 20 chip mỗi ngày (Thiếu quá mới đổi)"
+        }
+      ]
+    },
+    {
+      "id": "block-1791875494780",
+      "type": "table",
+      "title": "Bảng Phần Thưởng & Mốc Nạp",
+      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Chip cược",
+          "type": "text"
+        },
+        {
+          "id": "col-2",
+          "label": "Vật Phẩm Thưởng",
+          "type": "resource"
+        },
+        {
+          "id": "col-1791875868374",
+          "label": "Giới hạn đổi",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1791878175975",
+          "cells": {
+            "col-1": {
+              "text": "30"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Kurumi",
+                  "icon": "/images/heroes/icon_heroes/kurumi.png",
+                  "quantity": "x10",
+                  "heroSlug": "kurumi",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Kurumi",
+                "icon": "/images/heroes/icon_heroes/kurumi.png",
+                "quantity": "x10",
+                "heroSlug": "kurumi",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879297943",
+          "cells": {
+            "col-1": {
+              "text": "135"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Albedo",
+                  "icon": "/images/heroes/icon_heroes/albedo.png",
+                  "quantity": "x10",
+                  "heroSlug": "albedo",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Albedo",
+                "icon": "/images/heroes/icon_heroes/albedo.png",
+                "quantity": "x10",
+                "heroSlug": "albedo",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879341646",
+          "cells": {
+            "col-1": {
+              "text": "88"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Akame",
+                  "icon": "/images/heroes/icon_heroes/akame.png",
+                  "quantity": "",
+                  "heroSlug": "akame",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Akame",
+                "icon": "/images/heroes/icon_heroes/akame.png",
+                "quantity": "",
+                "heroSlug": "akame",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879371946",
+          "cells": {
+            "col-1": {
+              "text": "150"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Overlord",
+                  "icon": "/images/heroes/icon_heroes/overlord.png",
+                  "quantity": "x10",
+                  "heroSlug": "overlord",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Overlord",
+                "icon": "/images/heroes/icon_heroes/overlord.png",
+                "quantity": "x10",
+                "heroSlug": "overlord",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879405830",
+          "cells": {
+            "col-1": {
+              "text": "250"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Songoku",
+                  "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
+                  "quantity": "x10",
+                  "heroSlug": "songoku",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Songoku",
+                "icon": "/images/heroes/icon_heroes/icon_XWukong.png",
+                "quantity": "x10",
+                "heroSlug": "songoku",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879493149",
+          "cells": {
+            "col-1": {
+              "text": "168"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Luffy Gear 4",
+                  "icon": "/images/heroes/icon_heroes/luffy-gear-4.png",
+                  "quantity": "x10",
+                  "heroSlug": "luffy-gear-4",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Luffy Gear 4",
+                "icon": "/images/heroes/icon_heroes/luffy-gear-4.png",
+                "quantity": "x10",
+                "heroSlug": "luffy-gear-4",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791879446026",
+          "cells": {
+            "col-1": {
+              "text": "135"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Số 18",
+                  "icon": "/images/heroes/icon_heroes/so-18.png",
+                  "quantity": "x10",
+                  "heroSlug": "so-18",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Số 18",
+                "icon": "/images/heroes/icon_heroes/so-18.png",
+                "quantity": "x10",
+                "heroSlug": "so-18",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791881276890",
+          "cells": {
+            "col-1": {
+              "text": "215"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Rimuru",
+                  "icon": "/images/heroes/icon_heroes/icon_limulu.png",
+                  "quantity": "x10",
+                  "heroSlug": "rimuru",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Rimuru",
+                "icon": "/images/heroes/icon_heroes/icon_limulu.png",
+                "quantity": "x10",
+                "heroSlug": "rimuru",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791881304377",
+          "cells": {
+            "col-1": {
+              "text": "250"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Inori",
+                  "icon": "/images/heroes/icon_heroes/icon_dieqi.png",
+                  "quantity": "x10",
+                  "heroSlug": "inori",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Inori",
+                "icon": "/images/heroes/icon_heroes/icon_dieqi.png",
+                "quantity": "x10",
+                "heroSlug": "inori",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791881598209",
+          "cells": {
+            "col-1": {
+              "text": "168"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Songohan",
+                  "icon": "/images/heroes/icon_heroes/songohan.png",
+                  "quantity": "x10",
+                  "heroSlug": "songohan",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Songohan",
+                "icon": "/images/heroes/icon_heroes/songohan.png",
+                "quantity": "x10",
+                "heroSlug": "songohan",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791881231350",
+          "cells": {
+            "col-1": {
+              "text": "100"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Tornado",
+                  "icon": "/images/heroes/icon_heroes/tornado.png",
+                  "quantity": "x10",
+                  "heroSlug": "tornado",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "itemType": "hero",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Tornado",
+                "icon": "/images/heroes/icon_heroes/tornado.png",
+                "quantity": "x10",
+                "heroSlug": "tornado",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "itemType": "hero",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            }
+          }
+        },
+        {
+          "id": "row-1791882334026",
+          "cells": {
+            "col-1": {
+              "text": "60"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Manh Huy Hieu Inori",
+                  "icon": "/images/resources/items/manh-huy-hieu-inori.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Manh Huy Hieu Inori",
+                "icon": "/images/resources/items/manh-huy-hieu-inori.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791882478645",
+          "cells": {
+            "col-1": {
+              "text": "60"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Manh Huy Hieu Kakalot",
+                  "icon": "/images/resources/items/manh-huy-hieu-kakalot.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Manh Huy Hieu Kakalot",
+                "icon": "/images/resources/items/manh-huy-hieu-kakalot.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791881668973",
+          "cells": {
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Huy Hieu Dot Pha",
+                  "icon": "/images/resources/items/huy-hieu-dot-pha.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Huy Hieu Dot Pha",
+                "icon": "/images/resources/items/huy-hieu-dot-pha.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1": {
+              "text": "30"
+            },
+            "col-1791875868374": {
+              "text": "5"
+            }
+          }
+        },
+        {
+          "id": "row-1791875503733",
+          "cells": {
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ve Xuat Chinh",
+                  "icon": "/images/resources/items/ve-xuat-chinh.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Ve Xuat Chinh",
+                "icon": "/images/resources/items/ve-xuat-chinh.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "1"
+            },
+            "col-1": {
+              "text": "35"
+            }
+          }
+        },
+        {
+          "id": "row-1791880616407",
+          "cells": {
+            "col-1": {
+              "text": "75"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Phiếu set năm hợi",
+                  "icon": "/images/resources/items/phieu-set-nam-hoi.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Phiếu set năm hợi",
+                "icon": "/images/resources/items/phieu-set-nam-hoi.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880701006",
+          "cells": {
+            "col-1": {
+              "text": "145"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Phiếu set năm chuột",
+                  "icon": "/images/resources/items/phieu-set-nam-chuot.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Phiếu set năm chuột",
+                "icon": "/images/resources/items/phieu-set-nam-chuot.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880735797",
+          "cells": {
+            "col-1": {
+              "text": "175"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Phiếu set năm rồng",
+                  "icon": "/images/resources/items/phieu-set-nam-rong.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Phiếu set năm rồng",
+                "icon": "/images/resources/items/phieu-set-nam-rong.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880910856",
+          "cells": {
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Mảnh rồng trắng mắt xanh",
+                  "icon": "/images/icon_pet/icon_qingyanbailong.png",
+                  "quantity": "x10",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Mảnh rồng trắng mắt xanh",
+                "icon": "/images/icon_pet/icon_qingyanbailong.png",
+                "quantity": "x10",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1": {
+              "text": "50"
+            },
+            "col-1791875868374": {
+              "text": "3"
+            }
+          }
+        },
+        {
+          "id": "row-1791880757740",
+          "cells": {
+            "col-1": {
+              "text": "65"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Đá in S",
+                  "icon": "/images/resources/items/da-in-s.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Đá in S",
+                "icon": "/images/resources/items/da-in-s.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880832108",
+          "cells": {
+            "col-1": {
+              "text": "85"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Rương nguyên liệu đột phá",
+                  "icon": "/images/resources/items/ruong-nguyen-lieu-dot-pha.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Rương nguyên liệu đột phá",
+                "icon": "/images/resources/items/ruong-nguyen-lieu-dot-pha.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880962026",
+          "cells": {
+            "col-1": {
+              "text": "80"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Rương tự chọn C điểm hóa S",
+                  "icon": "/images/resources/items/ruong-diem-hoa-s.png",
+                  "quantity": "x1",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ],
+              "resource": {
+                "name": "Rương tự chọn C điểm hóa S",
+                "icon": "/images/resources/items/ruong-diem-hoa-s.png",
+                "quantity": "x1",
+                "layers": [
+                  "game_items/public_shade_2.png"
+                ]
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791881010565",
+          "cells": {
+            "col-1": {
+              "text": "30"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Rương vận mệnh LV 4",
+                  "icon": "/images/resources/items/ruong-van-menh-4.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Rương vận mệnh LV 4",
+                "icon": "/images/resources/items/ruong-van-menh-4.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791881011130",
+          "cells": {
+            "col-1": {
+              "text": "85"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Rương vận mệnh LV 3",
+                  "icon": "/images/resources/items/ruong-van-menh-4.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Rương vận mệnh LV 3",
+                "icon": "/images/resources/items/ruong-van-menh-4.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "4"
+            }
+          }
+        },
+        {
+          "id": "row-1791881197106",
+          "cells": {
+            "col-1": {
+              "text": "8"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngoc Rong",
+                  "icon": "/images/resources/items/ngoc-rong.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Ngoc Rong",
+                "icon": "/images/resources/items/ngoc-rong.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791881765028",
+          "cells": {
+            "col-1": {
+              "text": "10"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Mong Gap",
+                  "icon": "/images/resources/items/mong-gap.png",
+                  "quantity": "x5"
+                }
+              ],
+              "resource": {
+                "name": "Mong Gap",
+                "icon": "/images/resources/items/mong-gap.png",
+                "quantity": "x5"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791880130113",
+          "cells": {
+            "col-1": {
+              "text": "3"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Năng tinh cao cấp",
+                  "icon": "/images/resources/items/nang-tinh-cao-cap.png",
+                  "quantity": "x1000"
+                }
+              ],
+              "resource": {
+                "name": "Năng tinh cao cấp",
+                "icon": "/images/resources/items/nang-tinh-cao-cap.png",
+                "quantity": "x1000"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791879541711",
+          "cells": {
+            "col-1": {
+              "text": "6"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Năng tinh siêu cấp",
+                  "icon": "/images/resources/items/nang-tinh-sieu-cap.png",
+                  "quantity": "x1000"
+                }
+              ],
+              "resource": {
+                "name": "Năng tinh siêu cấp",
+                "icon": "/images/resources/items/nang-tinh-sieu-cap.png",
+                "quantity": "x1000"
+              }
+            },
+            "col-1791875868374": {
+              "text": "2"
+            }
+          }
+        },
+        {
+          "id": "row-1791881715184",
+          "cells": {
+            "col-1": {
+              "text": "2"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Tuyet Tran Tuyet Tinh",
+                  "icon": "/images/resources/items/tuyet-tran-tuyet-tinh.png",
+                  "quantity": "x1"
+                }
+              ],
+              "resource": {
+                "name": "Tuyet Tran Tuyet Tinh",
+                "icon": "/images/resources/items/tuyet-tran-tuyet-tinh.png",
+                "quantity": "x1"
+              }
+            },
+            "col-1791875868374": {
+              "text": "15"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-19T17:52:42.155Z",
+  "relatedActivities": [
+    "thap-hoang-tinh-te"
+  ]
+}

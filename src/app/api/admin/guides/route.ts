@@ -40,23 +40,49 @@ export async function GET(request: NextRequest) {
   }
 }
 
-// POST: Tạo hoặc cập nhật bài viết
+// POST: Tạo hoặc cập nhật bài viết (hỗ trợ Auto-Save liên tục)
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { gameSlug = 'sieu-anh-hung', article } = body as { gameSlug: string; article: GuideArticle };
+    const { gameSlug = 'sieu-anh-hung', article, previousSlug } = body as {
+      gameSlug: string;
+      article: GuideArticle;
+      previousSlug?: string;
+    };
 
-    if (!article || !article.slug || !article.title) {
-      return NextResponse.json({ success: false, error: 'Thiếu thông tin tiêu đề hoặc slug' }, { status: 400 });
+    if (!article) {
+      return NextResponse.json({ success: false, error: 'Thiếu thông tin bài viết' }, { status: 400 });
     }
 
+    const title = article.title?.trim() || 'Bài Viết Mới';
+    const rawSlug = article.slug?.trim() || article.id?.replace(/^guide-/, '') || `bai-viet-${Date.now()}`;
+    const safeSlug = rawSlug
+      .toLowerCase()
+      .replace(/[^a-z0-9\-]/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '') || `bai-viet-${Date.now()}`;
+
     const guidesDir = getGuidesDir(gameSlug);
-    const safeSlug = article.slug.trim().toLowerCase().replace(/[^a-z0-9\-]/g, '-');
+
+    // Nếu bài viết đã đổi slug, dọn dẹp file slug cũ
+    if (previousSlug && previousSlug !== safeSlug) {
+      const oldSafeSlug = previousSlug.toLowerCase().replace(/[^a-z0-9\-]/g, '-');
+      const oldPath = path.join(guidesDir, `${oldSafeSlug}.json`);
+      if (fs.existsSync(oldPath)) {
+        try {
+          fs.unlinkSync(oldPath);
+        } catch (e) {
+          console.warn('Không thể xóa file slug cũ:', e);
+        }
+      }
+    }
+
     const filePath = path.join(guidesDir, `${safeSlug}.json`);
 
     const dataToSave: GuideArticle = {
       ...article,
       id: article.id || `guide-${Date.now()}`,
+      title,
       slug: safeSlug,
       updatedAt: new Date().toISOString(),
     };

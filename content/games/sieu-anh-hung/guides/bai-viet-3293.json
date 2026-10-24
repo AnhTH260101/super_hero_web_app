@@ -1,0 +1,19 @@
+{
+  "id": "guide-1791809743293",
+  "slug": "bai-viet-3293",
+  "title": "Bài Viết Mới",
+  "category": "boss",
+  "schedule": "",
+  "description": "Mô tả tóm tắt nội dung bài viết...",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791809743293-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Nhập nội dung hướng dẫn chi tiết tại đây...",
+      "variant": "normal"
+    }
+  ],
+  "updatedAt": "2026-10-12T12:55:45.172Z"
+}

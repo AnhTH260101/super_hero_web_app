@@ -8,8 +8,12 @@ import {
   getGiftcodes,
   getGameGuides,
   getGameActivities,
+  getGameItems,
+  getItemCategories,
 } from '@/lib/games';
 import { AdminDashboard } from '@/components/admin/AdminDashboard';
+
+export const dynamic = 'force-dynamic';
 
 export default async function AdminPage() {
   const gameSlug = 'sieu-anh-hung';
@@ -23,6 +27,8 @@ export default async function AdminPage() {
   const giftcodes = getGiftcodes(gameSlug);
   const guides = getGameGuides(gameSlug);
   const activities = getGameActivities(gameSlug);
+  const items = getGameItems(gameSlug);
+  const categories = getItemCategories(gameSlug);
 
   return (
     <AdminDashboard
@@ -33,6 +39,8 @@ export default async function AdminPage() {
       initialGiftcodes={giftcodes}
       initialGuides={guides}
       initialActivities={activities}
+      initialItems={items}
+      initialCategories={categories}
       gameSlug={gameSlug}
     />
   );

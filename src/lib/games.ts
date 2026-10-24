@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { GameMeta, Hero, TierListData, Giftcode, GuideArticle, GameActivity } from '@/types/game';
+import { GameMeta, Hero, TierListData, Giftcode, GuideArticle, GameActivity, GameItem, ItemCategory } from '@/types/game';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/games');
 
@@ -224,5 +224,44 @@ export function getActivityBySlug(gameSlug: string, activitySlug: string): GameA
   const list = getGameActivities(gameSlug);
   return list.find(a => a.slug === activitySlug || a.id === activitySlug) || null;
 }
+
+export function getGameItems(gameSlug: string): Record<string, GameItem> {
+  const itemsPath = path.join(CONTENT_DIR, gameSlug, 'items.json');
+  if (!fs.existsSync(itemsPath)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
+  } catch (err) {
+    console.error(`Error reading items for ${gameSlug}:`, err);
+    return {};
+  }
+}
+
+export function getGameItemById(gameSlug: string, itemId: string): GameItem | null {
+  const items = getGameItems(gameSlug);
+  return items[itemId] || null;
+}
+
+export function getItemCategories(gameSlug: string): ItemCategory[] {
+  const catPath = path.join(CONTENT_DIR, gameSlug, 'item_categories.json');
+  if (!fs.existsSync(catPath)) {
+    return [
+      { id: 'ticket', name: 'Vé & Thẻ chiêu mộ', icon: '🎟️' },
+      { id: 'stamina', name: 'Thể lực & Sức sống', icon: '⚡' },
+      { id: 'chest_key', name: 'Rương & Chìa khóa', icon: '🎁' },
+      { id: 'upgrade_material', name: 'Đá & Tinh hoa nâng cấp', icon: '💎' },
+      { id: 'equip_material', name: 'Linh kiện & Bản vẽ trang bị', icon: '🛡️' },
+      { id: 'event', name: 'Đạo cụ sự kiện', icon: '🎉' },
+      { id: 'general', name: 'Vật phẩm tiêu hao khác', icon: '📜' },
+    ];
+  }
+  try {
+    return JSON.parse(fs.readFileSync(catPath, 'utf-8'));
+  } catch (err) {
+    console.error(`Error reading categories for ${gameSlug}:`, err);
+    return [];
+  }
+}
+
+
 
 
