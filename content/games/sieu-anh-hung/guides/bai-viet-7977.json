@@ -1,0 +1,1171 @@
+{
+  "id": "guide-1791794857976",
+  "slug": "bai-viet-7977",
+  "title": "Hạn Giờ Xuất Chinh - Sự Kiện Cày Xu Đỉnh Nhất",
+  "category": "xuat-chinh",
+  "schedule": "Cách 1 tuần mở 1 lần (Sự kiện hạn giờ)",
+  "description": "Bí kíp tối ưu sự kiện Hạn Giờ Xuất Chinh - hoạt động cày xu đỉnh nhất game. Hướng dẫn chọn nhiệm vụ, build tướng đủ điều kiện S/SS/SSS và mẹo farm thẻ xuất chinh mỗi ngày.",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-xuat-chinh-intro",
+      "type": "text",
+      "title": "⚡ Giới Thiệu & Lời Khuyên Vàng Chọn Nhiệm Vụ",
+      "content": "Sự kiện Hạn Giờ Xuất Chinh là hoạt động kiếm Xu Kim Cương ngon và dồi dào nhất game cho toàn thể anh em (cả dân cày lẫn nạp).\n\n• Chu kỳ diễn ra: Cách 1 tuần sự kiện sẽ mở lại 1 lần.\n• Lời khuyên vàng cốt lõi: Khi sự kiện mở ra, anh em LUÔN LUÔN CHỌN CỘT NHIỆM VỤ XU (Cột 'Đao Và Kiếm') để đi. Mấy cột cho rương (như Thần Và Thần, Kakalot) bỏ qua hết nha vì Xu là tài nguyên tối thượng trong game, tuyệt đối không lãng phí lượt vào các phần thưởng khác!",
+      "variant": "strategy"
+    },
+    {
+      "id": "block-xuat-chinh-rules",
+      "type": "text",
+      "title": "📜 Quy Tắc Tham Gia & Cơ Chế Hoạt Động",
+      "content": "• Số lượt mỗi ngày: Mỗi ngày anh em có tối đa 6 lượt chọn nhiệm vụ xuất chinh.\n• Cơ chế phái tướng: Mỗi nhiệm vụ sẽ yêu cầu một danh sách gồm 4 tướng. Anh em nâng tướng đạt đủ điều kiện yêu cầu (về Siêu Tiến Hóa & Chuyển Sinh) sẽ được phái tướng đi. Sau 2 tiếng xuất chinh sẽ hoàn thành và nhận xu về túi.\n• Thẻ Xuất Chinh: Nếu trong kho chưa có đủ tướng hoặc tướng chưa kịp nâng đủ mốc, anh em có thể bấm 'Hoàn thành ngay' bằng 1 Thẻ Xuất Chinh để nhận quà ngay lập tức mà không cần chờ 2 tiếng.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-xuat-chinh-req-table",
+      "type": "table",
+      "title": "📊 Điều Kiện Build Tướng & Thưởng Xu Theo Cấp Nhiệm Vụ",
+      "description": "Chi tiết mốc yêu cầu Siêu Tiến Hóa (STH) và Chuyển Sinh (CS) của từng cấp nhiệm vụ để nhận Xu tối đa",
+      "columns": [
+        {
+          "id": "col-tier",
+          "label": "Cấp Nhiệm Vụ",
+          "type": "text"
+        },
+        {
+          "id": "col-reward",
+          "label": "Phần Thưởng",
+          "type": "text"
+        },
+        {
+          "id": "col-sth",
+          "label": "Yêu Cầu Siêu Tiến Hóa",
+          "type": "text"
+        },
+        {
+          "id": "col-cs",
+          "label": "Yêu Cầu Chuyển Sinh",
+          "type": "text"
+        },
+        {
+          "id": "col-note",
+          "label": "Đánh Giá & Lời Khuyên",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-s",
+          "cells": {
+            "col-tier": {
+              "text": "Nhiệm vụ S"
+            },
+            "col-reward": {
+              "text": "1.000 Xu"
+            },
+            "col-sth": {
+              "text": "Đỏ / Đỏ +"
+            },
+            "col-cs": {
+              "text": "Chuyển Sinh 2 (CS2)"
+            },
+            "col-note": {
+              "text": "Mốc cơ bản dễ đạt nhất, tân thủ nên ưu tiên build dàn tướng này đầu tiên."
+            }
+          }
+        },
+        {
+          "id": "row-ss",
+          "cells": {
+            "col-tier": {
+              "text": "Nhiệm vụ SS"
+            },
+            "col-reward": {
+              "text": "2.000 Xu"
+            },
+            "col-sth": {
+              "text": "Đỏ ++"
+            },
+            "col-cs": {
+              "text": "Chuyển Sinh 4 (CS4)"
+            },
+            "col-note": {
+              "text": "Mốc trung cấp, mang lại nguồn xu dồi dào và ổn định."
+            }
+          }
+        },
+        {
+          "id": "row-sss",
+          "cells": {
+            "col-tier": {
+              "text": "Nhiệm vụ SSS"
+            },
+            "col-reward": {
+              "text": "5.000 Xu"
+            },
+            "col-sth": {
+              "text": "Vàng +"
+            },
+            "col-cs": {
+              "text": "Chuyển Sinh 6 (CS6)"
+            },
+            "col-note": {
+              "text": "Mốc cực phẩm kiếm 5k xu! Đòi hỏi dồn tài nguyên build chuẩn xác."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-xuat-chinh-roster-normal",
+      "type": "hero-roster",
+      "title": "🛡️ Danh Sách 15 Tướng Mặc Định (Thường - Không Cần Chuyển Thế)",
+      "description": "Nhóm tướng giữ nguyên bản thể mặc định để đi xuất chinh. Đặc biệt: Byakuya thường có thể nuôi 2 con đi làm nhiệm vụ, không cần tốn nguyên liệu chuyển thế!",
+      "heroes": [
+        {
+          "heroSlug": "aizen",
+          "name": "Aizen",
+          "avatar": "/images/heroes/icon_heroes/aizen.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "shana",
+          "name": "Shana",
+          "avatar": "/images/heroes/icon_heroes/shana.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "kusajishi-yachiru",
+          "name": "Kusajishi Yachiru",
+          "avatar": "/images/heroes/icon_heroes/kusajishi-yachiru.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "gilgamesh",
+          "name": "Gilgamesh",
+          "avatar": "/images/heroes/icon_heroes/gilgamesh.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "akame",
+          "name": "Akame",
+          "avatar": "/images/heroes/icon_heroes/akame.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "kurosaki",
+          "name": "Kurosaki",
+          "avatar": "/images/heroes/icon_heroes/kurosaki.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Bản thể gốc tóc cam"
+        },
+        {
+          "heroSlug": "esdese",
+          "name": "Esdese",
+          "avatar": "/images/heroes/icon_heroes/icon_aisidesi.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Bản thể thường"
+        },
+        {
+          "heroSlug": "tachibana",
+          "name": "Tachibana",
+          "avatar": "/images/heroes/icon_heroes/tachibana.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "saber",
+          "name": "Saber",
+          "avatar": "/images/heroes/icon_heroes/saber.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Bản thể thường giáp bạc"
+        },
+        {
+          "heroSlug": "kuchiki-byakuya",
+          "name": "Byakuya (Con 1)",
+          "avatar": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Con thứ 1 - Giữ nguyên thường!"
+        },
+        {
+          "heroSlug": "emiya-shirou",
+          "name": "Emiya",
+          "avatar": "/images/heroes/icon_heroes/emiya-shirou.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "qua-en",
+          "name": "Quạ Đen",
+          "avatar": "/images/heroes/icon_heroes/icon_Ulquiorra.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Ulquiorra bản thường"
+        },
+        {
+          "heroSlug": "kenpachi-zaraki",
+          "name": "Kenpachi",
+          "avatar": "/images/heroes/icon_heroes/kenpachi-zaraki.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Tướng xuất chinh thường"
+        },
+        {
+          "heroSlug": "grimmjow",
+          "name": "Grimmjow",
+          "avatar": "/images/heroes/icon_heroes/grimmjow.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Grimmjow bản thường"
+        },
+        {
+          "heroSlug": "kuchiki-byakuya",
+          "name": "Byakuya (Con 2)",
+          "avatar": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "Tanker",
+          "note": "Con thứ 2 - Giữ nguyên thường!"
+        }
+      ]
+    },
+    {
+      "id": "block-xuat-chinh-roster-afterlife",
+      "type": "hero-roster",
+      "title": "⚡ Danh Sách 7 Tướng Bắt Buộc Chuyển Thế (Tránh Chuyển Thế Nhầm)",
+      "description": "Các tướng sau BẮT BUỘC phải chuyển thế đúng dạng yêu cầu mới có thể phái đi xuất chinh. Đã phân loại chi tiết từng dạng để anh em không bị nhầm lẫn:",
+      "heroes": [
+        {
+          "heroSlug": "ct-qua-en",
+          "name": "CT-Quạ Đen",
+          "avatar": "/images/heroes/icon_heroes/icon_Ulquiorra.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Quạ Đen Chuyển Thế (Ulquiorra)"
+        },
+        {
+          "heroSlug": "ct-grimmjow",
+          "name": "CT-Grimmjow",
+          "avatar": "/images/heroes/icon_heroes/ct-grimmjow.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Grimmjow Chuyển Thế"
+        },
+        {
+          "heroSlug": "ct-saber",
+          "name": "CT-Saber",
+          "avatar": "/images/heroes/icon_heroes/ct-saber.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Saber Chuyển Thế"
+        },
+        {
+          "heroSlug": "ct-kurosaki-mugetsu",
+          "name": "CT-Kurosaki (Mugetsu)",
+          "avatar": "/images/heroes/icon_heroes/icon_Ichig1.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Dạng Vô Nguyệt tóc đen quấn băng"
+        },
+        {
+          "heroSlug": "ct-kurosaki",
+          "name": "CT-Kurosaki (Hư Hóa)",
+          "avatar": "/images/heroes/icon_heroes/icon_Ichig2.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "Dạng Hư Hóa mặt nạ sọc đỏ"
+        },
+        {
+          "heroSlug": "arutorianero",
+          "name": "Arutoria (Nero)",
+          "avatar": "/images/heroes/icon_heroes/arutorianero.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "CT-Saber dạng Nero váy đỏ"
+        },
+        {
+          "heroSlug": "arutoriaalter",
+          "name": "Arutoria (Alter)",
+          "avatar": "/images/heroes/icon_heroes/arutoriaalter.png",
+          "element": "Vũ trụ sức mạnh",
+          "rarity": "UR",
+          "role": "Tanker",
+          "note": "CT-Saber dạng Alter giáp đen che mắt"
+        }
+      ]
+    },
+    {
+      "id": "block-xuat-chinh-card-sources",
+      "type": "resource-card",
+      "title": "💎 Tra Cứu Nhanh Nguồn Nhận Từng Tướng Xuất Chinh",
+      "description": "Chi tiết các hoạt động, sự kiện tuần và shop đổi mảnh cho từng vị tướng theo dữ liệu cẩm nang",
+      "items": [
+        {
+          "id": "card-shana",
+          "itemType": "hero",
+          "name": "Shana",
+          "icon": "/images/heroes/icon_heroes/shana.png",
+          "heroSlug": "shana",
+          "rarity": "SSR",
+          "description": [
+            "Tướng xuất chinh hàng thường",
+            "Nên đổi trong Chùa hoặc 777"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-chua",
+              "name": "Chùa (Lửa Chùa)",
+              "icon": "/images/icon_activities/fire.png",
+              "note": "Tích đủ 325 bóng để đi full vòng đổi rương chọn"
+            },
+            {
+              "sourceId": "src-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/icon_activities/lucky.png",
+              "note": "Mở vào Thứ 2 và Thứ 6 hàng tuần"
+            },
+            {
+              "sourceId": "src-kho-bau-mc",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/icon_activities/maze.png",
+              "note": "Không khuyến khích tốn xu tại đây"
+            }
+          ]
+        },
+        {
+          "id": "card-byakuya",
+          "itemType": "hero",
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
+          "heroSlug": "kuchiki-byakuya",
+          "rarity": "SSR",
+          "description": [
+            "Có thể nuôi cùng lúc 2 con Byakuya thường",
+            "TUYỆT ĐỐI KHÔNG CHUYỂN THẾ để giữ slot thường"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/icon_activities/lucky.png",
+              "note": "Mở Thứ 2 và Thứ 6"
+            },
+            {
+              "sourceId": "src-ruong-byakuya",
+              "name": "Rương Byakuya",
+              "icon": "/images/icon_activities/chest.png",
+              "note": "Nhận qua hoạt động Kho Báu Mê Cung"
+            }
+          ]
+        },
+        {
+          "id": "card-esdese",
+          "itemType": "hero",
+          "name": "Esdese",
+          "icon": "/images/heroes/icon_heroes/icon_aisidesi.png",
+          "heroSlug": "esdese",
+          "rarity": "SSR",
+          "description": [
+            "Tướng xuất chinh hàng thường",
+            "Cần đạt Đỏ+ và CS2 trở lên"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-lien-server",
+              "name": "Liên Server Thường",
+              "icon": "/images/icon_activities/cross_server.png",
+              "note": "Điểm đấu trường liên server"
+            },
+            {
+              "sourceId": "src-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/icon_activities/lucky.png",
+              "note": "Thứ 2 & Thứ 6"
+            },
+            {
+              "sourceId": "src-than-dien",
+              "name": "Shop Thần Điện",
+              "icon": "/images/icon_activities/temple.png",
+              "note": "Shop khu vực Thần Vực"
+            }
+          ]
+        },
+        {
+          "id": "card-kurosaki",
+          "itemType": "hero",
+          "name": "Kurosaki (Gốc & Chuyển Thế)",
+          "icon": "/images/heroes/icon_heroes/kurosaki.png",
+          "heroSlug": "kurosaki",
+          "rarity": "SSR",
+          "description": [
+            "Dùng cả bản thường lẫn bản chuyển thế (Mugetsu, Hư Hóa)",
+            "Tướng quan trọng bậc nhất của chuỗi nhiệm vụ"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-doat-bao",
+              "name": "Đoạt Bảo (Thứ 3 - Thứ 5)",
+              "icon": "/images/icon_activities/treasure.png",
+              "note": "Mốc tiêu 3 vạn & 4 vạn kèm vòng quay đoạt bảo"
+            },
+            {
+              "sourceId": "src-lien-server-le",
+              "name": "Liên Server Lễ",
+              "icon": "/images/icon_activities/festival.png",
+              "note": "Sự kiện dịp lễ"
+            },
+            {
+              "sourceId": "src-shop-ct-ae",
+              "name": "Shop CT AE",
+              "icon": "/images/icon_activities/shop.png",
+              "note": "Đổi trực tiếp mảnh hoặc rương quà XC"
+            }
+          ]
+        },
+        {
+          "id": "card-qua-den",
+          "itemType": "hero",
+          "name": "Quạ Đen (Ulquiorra)",
+          "icon": "/images/heroes/icon_heroes/icon_Ulquiorra.png",
+          "heroSlug": "qua-en",
+          "rarity": "SSR",
+          "description": [
+            "Dùng cả bản thường và bản chuyển thế CT-Quạ Đen",
+            "Mảnh kiếm nhiều qua Kho Báu Hải Tặc"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-kho-bau-ht",
+              "name": "Kho Báu Hải Tặc",
+              "icon": "/images/icon_activities/pirate.png",
+              "note": "Thứ 2 & Thứ 6 (600 xu nhận 11 chìa, 8 chìa đổi 10 mảnh)"
+            },
+            {
+              "sourceId": "src-dap-trung",
+              "name": "Đập Trứng (Chủ Nhật)",
+              "icon": "/images/icon_activities/egg.png",
+              "note": "Tỉ lệ mở ra Quạ Đen và Saber"
+            },
+            {
+              "sourceId": "src-sieu-ba-ho",
+              "name": "Siêu Bá Hộ (Ông Trùm)",
+              "icon": "/images/icon_activities/rich.png",
+              "note": "Lắc xúc xắc nhận nhiều mảnh Quạ Đen"
+            }
+          ]
+        },
+        {
+          "id": "card-gilgamesh",
+          "itemType": "hero",
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/icon_heroes/gilgamesh.png",
+          "heroSlug": "gilgamesh",
+          "rarity": "SSR",
+          "description": [
+            "Tướng xuất chinh hàng thường",
+            "Thuộc mốc tiêu ngày Thứ 3 - Thứ 5"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-moc-tieu-4v",
+              "name": "Mốc Tiêu 4 Vạn Xu",
+              "icon": "/images/icon_activities/consume.png",
+              "note": "Thứ 3 và Thứ 5 ngày thường"
+            },
+            {
+              "sourceId": "src-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/icon_activities/lucky.png",
+              "note": "Thứ 2 & Thứ 6"
+            }
+          ]
+        },
+        {
+          "id": "card-akame",
+          "itemType": "hero",
+          "name": "Akame",
+          "icon": "/images/heroes/icon_heroes/akame.png",
+          "heroSlug": "akame",
+          "rarity": "SSR",
+          "description": [
+            "Tướng xuất chinh hàng thường",
+            "Kiếm qua Hero Siêu Đẳng dịp cuối tuần"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-hero-sieu-dang",
+              "name": "Hero Siêu Đẳng",
+              "icon": "/images/icon_activities/hero_super.png",
+              "note": "Thứ 6, Thứ 7, Chủ Nhật (9k xu = 20 mảnh)"
+            },
+            {
+              "sourceId": "src-chua",
+              "name": "Lửa Chùa",
+              "icon": "/images/icon_activities/fire.png",
+              "note": "Tích 325 bóng nhận rương chọn"
+            }
+          ]
+        },
+        {
+          "id": "card-saber",
+          "itemType": "hero",
+          "name": "Saber (Thường & 3 Dạng CT)",
+          "icon": "/images/heroes/icon_heroes/saber.png",
+          "heroSlug": "saber",
+          "rarity": "SSR",
+          "description": [
+            "Dùng bản thường, CT-Saber, Arutoria Nero và Arutoria Alter",
+            "Tướng chiếm nhiều slot nhất trong dàn chuyển thế"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-dap-trung",
+              "name": "Đập Trứng Chủ Nhật",
+              "icon": "/images/icon_activities/egg.png",
+              "note": "Có tỉ lệ rơi Saber"
+            },
+            {
+              "sourceId": "src-than-dien",
+              "name": "Shop Thần Điện",
+              "icon": "/images/icon_activities/temple.png",
+              "note": "Đổi trong Thần Vực"
+            },
+            {
+              "sourceId": "src-ong-trum",
+              "name": "Ông Trùm Giàu Có",
+              "icon": "/images/icon_activities/rich.png",
+              "note": "Nạp xúc xắc lắc đổi mảnh"
+            }
+          ]
+        },
+        {
+          "id": "card-emiya",
+          "itemType": "hero",
+          "name": "Emiya",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
+          "heroSlug": "emiya-shirou",
+          "rarity": "SSR",
+          "description": [
+            "Tướng xuất chinh hàng thường",
+            "Đổi qua sự kiện Bàn Cờ Lửa"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-ban-co-lua",
+              "name": "Bàn Cờ Lửa",
+              "icon": "/images/icon_activities/chess.png",
+              "note": "Dùng chữ đổi mỗi đợt 10 mảnh Emiya"
+            },
+            {
+              "sourceId": "src-chua",
+              "name": "Lửa Chùa",
+              "icon": "/images/icon_activities/fire.png",
+              "note": "Tích 325 bóng đổi rương"
+            },
+            {
+              "sourceId": "src-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/icon_activities/lucky.png",
+              "note": "588 xu / vòng"
+            }
+          ]
+        },
+        {
+          "id": "card-grimmjow",
+          "itemType": "hero",
+          "name": "Grimmjow",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
+          "heroSlug": "grimmjow",
+          "rarity": "SSR",
+          "description": [
+            "Dùng bản thường và bản chuyển thế CT-Grimmjow",
+            "Thuộc mốc tiêu ngày Thứ 3 - Thứ 5"
+          ],
+          "sources": [
+            {
+              "sourceId": "src-moc-tieu-3v",
+              "name": "Mốc Tiêu 3 Vạn Xu",
+              "icon": "/images/icon_activities/consume.png",
+              "note": "Thứ 3 & Thứ 5 hàng tuần"
+            },
+            {
+              "sourceId": "src-kho-bau-ht",
+              "name": "Kho Báu Hải Tặc",
+              "icon": "/images/icon_activities/pirate.png",
+              "note": "Thứ 2 & Thứ 6"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "card-1791807348300-rcdp",
+          "itemType": "hero",
+          "name": "Shana",
+          "icon": "/images/heroes/icon_heroes/shana.png",
+          "heroSlug": "shana",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "kho-bau-me-cung",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/resources/sources/kho-bau-me-cung.png",
+              "note": "Không khuyến khích"
+            },
+            {
+              "sourceId": "ngoi-chua",
+              "name": "Ngôi chùa",
+              "icon": "/images/resources/sources/ngoi-chua.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807415412-hc29",
+          "itemType": "hero",
+          "name": "Kuchiki Byakuya",
+          "icon": "/images/heroes/icon_heroes/kuchiki-byakuya.png",
+          "heroSlug": "kuchiki-byakuya",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/resources/sources/777.png",
+              "note": "Nguồn chính"
+            },
+            {
+              "sourceId": "kho-bau-me-cung",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/resources/sources/kho-bau-me-cung.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807459318-g4ca",
+          "itemType": "hero",
+          "name": "CT-Esdese",
+          "icon": "/images/heroes/icon_heroes/esdese.png",
+          "heroSlug": "ct-esdese",
+          "rarity": "UR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-lien-server",
+              "name": "Vòng quay liên server",
+              "icon": "/images/resources/sources/vong-quay-lien-server.png",
+              "note": "mảnh phụ"
+            },
+            {
+              "sourceId": "vong-quay-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/resources/sources/777.png",
+              "note": ""
+            },
+            {
+              "sourceId": "than-dien",
+              "name": "Thần điện",
+              "icon": "/images/resources/sources/than-dien.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807522883-jgeg",
+          "itemType": "hero",
+          "name": "Kurosaki",
+          "icon": "/images/heroes/icon_heroes/kurosaki.png",
+          "heroSlug": "kurosaki",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-lien-server",
+              "name": "Vòng quay liên server",
+              "icon": "/images/resources/sources/vong-quay-lien-server.png",
+              "note": "Mảnh phụ ngày lễ"
+            },
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png",
+              "note": "reset đến khi có 2 ô mảnh rồi quay"
+            },
+            {
+              "sourceId": "sieu-ba-ho",
+              "name": "Siêu Ba Hộ",
+              "icon": "/images/resources/sources/sieu-ba-ho.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807630815-trz5",
+          "itemType": "hero",
+          "name": "Quạ Đen",
+          "icon": "/images/heroes/icon_heroes/qua-en.png",
+          "heroSlug": "qua-en",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "dap-trung-vang",
+              "name": "Đập Trứng Vàng",
+              "icon": "/images/resources/sources/dap-trung-vang.png",
+              "note": ""
+            },
+            {
+              "sourceId": "kho-bau",
+              "name": "Kho báu",
+              "icon": "/images/resources/sources/kho-bau.png",
+              "note": ""
+            },
+            {
+              "sourceId": "sieu-ba-ho",
+              "name": "Siêu Ba Hộ",
+              "icon": "/images/resources/sources/sieu-ba-ho.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807716833-hcc3",
+          "itemType": "hero",
+          "name": "Gilgamesh",
+          "icon": "/images/heroes/icon_heroes/gilgamesh.png",
+          "heroSlug": "gilgamesh",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "hot",
+              "name": "Hot",
+              "icon": "/images/resources/sources/hot.png",
+              "note": "Mốc tiêu 4 vạn: thứ 3, 5"
+            }
+          ]
+        },
+        {
+          "id": "card-1791807752525-y51k",
+          "itemType": "hero",
+          "name": "Akame",
+          "icon": "/images/heroes/icon_heroes/akame.png",
+          "heroSlug": "akame",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "hero-sieu-dang",
+              "name": "Hero siêu đẳng",
+              "icon": "/images/resources/sources/hero-sieu-dang.png",
+              "note": ""
+            },
+            {
+              "sourceId": "ngoi-chua",
+              "name": "Ngôi chùa",
+              "icon": "/images/resources/sources/ngoi-chua.png",
+              "note": ""
+            },
+            {
+              "sourceId": "thap-hoang-tinh-te",
+              "name": "Tháp Hoang Tinh Tế",
+              "icon": "/images/resources/sources/thap-hoang-tinh-te.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791807814474-90f2",
+          "itemType": "hero",
+          "name": "Kenpachi Zaraki",
+          "icon": "/images/heroes/icon_heroes/kenpachi-zaraki.png",
+          "heroSlug": "kenpachi-zaraki",
+          "rarity": "SSR",
+          "description": [
+            "Bằng dũng sĩ"
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/resources/sources/777.png",
+              "note": "vòng 588 xu"
+            },
+            {
+              "sourceId": "hot",
+              "name": "Hot",
+              "icon": "/images/resources/sources/hot.png",
+              "note": "Sự kiện mùa đổi Bằng dũng sĩ"
+            },
+            {
+              "sourceId": "sieu-ba-ho",
+              "name": "Siêu Ba Hộ",
+              "icon": "/images/resources/sources/sieu-ba-ho.png",
+              "note": "Đổi bằng dũng sĩ"
+            }
+          ]
+        },
+        {
+          "id": "card-1791807895247-v8f6",
+          "itemType": "hero",
+          "name": "saber",
+          "icon": "/images/heroes/icon_heroes/saber.png",
+          "heroSlug": "saber",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-lien-server",
+              "name": "Vòng quay liên server",
+              "icon": "/images/resources/sources/vong-quay-lien-server.png",
+              "note": "Mảnh phụ ngày lễ"
+            },
+            {
+              "sourceId": "sieu-ba-ho",
+              "name": "Siêu Ba Hộ",
+              "icon": "/images/resources/sources/sieu-ba-ho.png",
+              "note": ""
+            },
+            {
+              "sourceId": "than-dien",
+              "name": "Thần điện",
+              "icon": "/images/resources/sources/than-dien.png",
+              "note": ""
+            },
+            {
+              "sourceId": "dap-trung-vang",
+              "name": "Đập Trứng Vàng",
+              "icon": "/images/resources/sources/dap-trung-vang.png",
+              "note": ""
+            },
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png",
+              "note": "Ngày lễ"
+            }
+          ]
+        },
+        {
+          "id": "card-1791808122509-4zkf",
+          "itemType": "hero",
+          "name": "Emiya Shirou",
+          "icon": "/images/heroes/icon_heroes/emiya-shirou.png",
+          "heroSlug": "emiya-shirou",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "ngoi-chua",
+              "name": "Ngôi chùa",
+              "icon": "/images/resources/sources/ngoi-chua.png",
+              "note": ""
+            },
+            {
+              "sourceId": "kho-bau-me-cung",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/resources/sources/kho-bau-me-cung.png",
+              "note": "Không khuyến khích (Nhưng nhanh)"
+            },
+            {
+              "sourceId": "vong-quay-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/resources/sources/777.png",
+              "note": "Vòng 588 xu"
+            },
+            {
+              "sourceId": "ban-co-lua",
+              "name": "Bàn Cờ Lửa",
+              "icon": "/images/resources/sources/ban-co-lua.png",
+              "note": "Đổi chữ"
+            }
+          ]
+        },
+        {
+          "id": "card-1791808217936-arb7",
+          "itemType": "hero",
+          "name": "Tachibana",
+          "icon": "/images/heroes/icon_heroes/tachibana.png",
+          "heroSlug": "tachibana",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png",
+              "note": ""
+            },
+            {
+              "sourceId": "than-dien",
+              "name": "Thần điện",
+              "icon": "/images/resources/sources/than-dien.png",
+              "note": ""
+            },
+            {
+              "sourceId": "kho-bau-me-cung",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/resources/sources/kho-bau-me-cung.png",
+              "note": "Không khuyến khích"
+            },
+            {
+              "sourceId": "vong-quay",
+              "name": "Vòng quay",
+              "icon": "/images/resources/sources/vong-quay.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791808275219-hvxb",
+          "itemType": "hero",
+          "name": "Grimmjow",
+          "icon": "/images/heroes/icon_heroes/grimmjow.png",
+          "heroSlug": "grimmjow",
+          "rarity": "SSR",
+          "description": [
+            "Chưa có mô tả công dụng"
+          ],
+          "sources": [
+            {
+              "sourceId": "hot",
+              "name": "Hot",
+              "icon": "/images/resources/sources/hot.png",
+              "note": "Mốc tiêu 3 vạn: Thứ 3, 5"
+            },
+            {
+              "sourceId": "kho-bau",
+              "name": "Kho báu",
+              "icon": "/images/resources/sources/kho-bau.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791808328566-j49t",
+          "itemType": "hero",
+          "name": "Aizen",
+          "icon": "/images/heroes/icon_heroes/aizen.png",
+          "heroSlug": "aizen",
+          "rarity": "SSR",
+          "description": [
+            "Bằng dũng sĩ"
+          ],
+          "sources": [
+            {
+              "sourceId": "vua-vu-tru",
+              "name": "Vua Vũ Trụ",
+              "icon": "/images/resources/sources/vua-vu-tru.png",
+              "note": ""
+            },
+            {
+              "sourceId": "vong-quay",
+              "name": "Vòng quay",
+              "icon": "/images/resources/sources/vong-quay.png",
+              "note": ""
+            },
+            {
+              "sourceId": "than-dien",
+              "name": "Thần điện",
+              "icon": "/images/resources/sources/than-dien.png",
+              "note": ""
+            },
+            {
+              "sourceId": "kho-bau-me-cung",
+              "name": "Kho Báu Mê Cung",
+              "icon": "/images/resources/sources/kho-bau-me-cung.png",
+              "note": ""
+            },
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png",
+              "note": "Ngày lễ"
+            },
+            {
+              "sourceId": "ban-co-lua",
+              "name": "Bàn Cờ Lửa",
+              "icon": "/images/resources/sources/ban-co-lua.png",
+              "note": ""
+            },
+            {
+              "sourceId": "ngoi-chua",
+              "name": "Ngôi chùa",
+              "icon": "/images/resources/sources/ngoi-chua.png",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "card-1791808413306-z7dx",
+          "itemType": "hero",
+          "name": "Kusajishi Yachiru",
+          "icon": "/images/heroes/icon_heroes/kusajishi-yachiru.png",
+          "heroSlug": "kusajishi-yachiru",
+          "rarity": "SSR",
+          "description": [
+            "Bằng dũng sĩ"
+          ],
+          "sources": [
+            {
+              "sourceId": "vua-vu-tru",
+              "name": "Vua Vũ Trụ",
+              "icon": "/images/resources/sources/vua-vu-tru.png",
+              "note": "Ngày lễ"
+            },
+            {
+              "sourceId": "vong-quay",
+              "name": "Vòng quay",
+              "icon": "/images/resources/sources/vong-quay.png",
+              "note": "Ngày lễ"
+            },
+            {
+              "sourceId": "thap-hoang-tinh-te",
+              "name": "Tháp Hoang Tinh Tế",
+              "icon": "/images/resources/sources/thap-hoang-tinh-te.png",
+              "note": "Mốc thưởng"
+            },
+            {
+              "sourceId": "vong-quay-777",
+              "name": "Vòng Quay 777",
+              "icon": "/images/resources/sources/777.png",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "block-1791864319315",
+      "type": "gallery",
+      "title": "Kho báu",
+      "layout": "grid-3",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1078401771752245_1791864354504.jpeg",
+          "caption": "Quay 2 lần x10 = 22 chìa"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1142014148489757_1791864400155.jpeg",
+          "caption": "Mảnh quạ đen và grimmjow tổng 18 chìa"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/kho-bau-mua-chia-2_1791865070006.jpeg",
+          "caption": "Mảnh quạ đen và grimmjow tổng 18 chìa"
+        }
+      ]
+    },
+    {
+      "id": "block-1791864487661",
+      "type": "gallery",
+      "title": "777",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1439575438270455_1791864546474.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1566362504593926_1791864568118.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_1292368526248429_1791864576705.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/777-yachiru_1791865099986.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/777-vong-1_1791865155267.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/777-vong-2_1791865161348.jpeg",
+          "caption": ""
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/777-vong-3_1791865166348.jpeg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "block-1791865196907",
+      "type": "gallery",
+      "title": "Đoạt bảo",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/doat-bao_1791865220877.jpeg",
+          "caption": "tachibana"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/doat-bao-vong-quay_1791865262550.jpeg",
+          "caption": "tạo mới đến khi có 2 hoặc 3 ô mảnh kurosaki rồi quay"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-13T04:34:25.956Z"
+}

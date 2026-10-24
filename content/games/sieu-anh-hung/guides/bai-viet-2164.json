@@ -1,0 +1,61 @@
+{
+  "id": "guide-1791999772164",
+  "slug": "bai-viet-2164",
+  "title": "Hướng dẫn ban sức",
+  "category": "ban-suc",
+  "schedule": "",
+  "description": "Cơ chế để đấm những thằng có lực chiến cao hơn bạn.",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791999772164-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Trước tiên giới thiệu về hiệu ứng của game",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1792000079292",
+      "type": "table",
+      "title": "Bảng hiệu ứng",
+      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Hiệu ứng",
+          "type": "text"
+        },
+        {
+          "id": "col-2",
+          "label": "Hiệu quả",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1792000079292-1",
+          "cells": {
+            "col-1": {
+              "text": "Thần Hộ"
+            },
+            "col-2": {
+              "resources": [
+                {
+                  "name": "Ngọc Lục Bảo",
+                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png",
+                  "quantity": "x20"
+                },
+                {
+                  "name": "Kim Cương",
+                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/cuong_hoa_thach.png",
+                  "quantity": "x500"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-21T14:05:17.694Z"
+}

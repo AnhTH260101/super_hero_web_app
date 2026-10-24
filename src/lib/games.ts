@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { GameMeta, Hero, TierListData, Giftcode } from '@/types/game';
+import { GameMeta, Hero, TierListData, Giftcode, GuideArticle, GameActivity, GameItem, ItemCategory } from '@/types/game';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content/games');
 
@@ -177,3 +177,91 @@ export function getGameResourceSources(gameSlug: string): import('@/types/game')
     return [];
   }
 }
+
+export function getGameGuides(gameSlug: string): GuideArticle[] {
+  const guidesDir = path.join(CONTENT_DIR, gameSlug, 'guides');
+  if (!fs.existsSync(guidesDir)) return [];
+  const files = fs.readdirSync(guidesDir).filter(f => f.endsWith('.json'));
+  const articles: GuideArticle[] = [];
+  for (const file of files) {
+    try {
+      const raw = fs.readFileSync(path.join(guidesDir, file), 'utf-8');
+      const article: GuideArticle = JSON.parse(raw);
+      articles.push(article);
+    } catch (err) {
+      console.error(`Error reading guide ${file}:`, err);
+    }
+  }
+  // Sắp xếp theo ngày cập nhật mới nhất
+  return articles.sort((a, b) => new Date(b.updatedAt || 0).getTime() - new Date(a.updatedAt || 0).getTime());
+}
+
+export function getGuideBySlug(gameSlug: string, guideSlug: string): GuideArticle | null {
+  const guidePath = path.join(CONTENT_DIR, gameSlug, 'guides', `${guideSlug}.json`);
+  if (fs.existsSync(guidePath)) {
+    try {
+      return JSON.parse(fs.readFileSync(guidePath, 'utf-8'));
+    } catch {
+      return null;
+    }
+  }
+  const allGuides = getGameGuides(gameSlug);
+  return allGuides.find(g => g.slug === guideSlug || g.id === guideSlug) || null;
+}
+
+export function getGameActivities(gameSlug: string): GameActivity[] {
+  const actPath = path.join(CONTENT_DIR, gameSlug, 'activities.json');
+  if (!fs.existsSync(actPath)) return [];
+  try {
+    const list: GameActivity[] = JSON.parse(fs.readFileSync(actPath, 'utf-8'));
+    return list.sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+  } catch {
+    return [];
+  }
+}
+
+export function getActivityBySlug(gameSlug: string, activitySlug: string): GameActivity | null {
+  const list = getGameActivities(gameSlug);
+  return list.find(a => a.slug === activitySlug || a.id === activitySlug) || null;
+}
+
+export function getGameItems(gameSlug: string): Record<string, GameItem> {
+  const itemsPath = path.join(CONTENT_DIR, gameSlug, 'items.json');
+  if (!fs.existsSync(itemsPath)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(itemsPath, 'utf-8'));
+  } catch (err) {
+    console.error(`Error reading items for ${gameSlug}:`, err);
+    return {};
+  }
+}
+
+export function getGameItemById(gameSlug: string, itemId: string): GameItem | null {
+  const items = getGameItems(gameSlug);
+  return items[itemId] || null;
+}
+
+export function getItemCategories(gameSlug: string): ItemCategory[] {
+  const catPath = path.join(CONTENT_DIR, gameSlug, 'item_categories.json');
+  if (!fs.existsSync(catPath)) {
+    return [
+      { id: 'ticket', name: 'Vé & Thẻ chiêu mộ', icon: '🎟️' },
+      { id: 'stamina', name: 'Thể lực & Sức sống', icon: '⚡' },
+      { id: 'chest_key', name: 'Rương & Chìa khóa', icon: '🎁' },
+      { id: 'upgrade_material', name: 'Đá & Tinh hoa nâng cấp', icon: '💎' },
+      { id: 'equip_material', name: 'Linh kiện & Bản vẽ trang bị', icon: '🛡️' },
+      { id: 'event', name: 'Đạo cụ sự kiện', icon: '🎉' },
+      { id: 'general', name: 'Vật phẩm tiêu hao khác', icon: '📜' },
+    ];
+  }
+  try {
+    return JSON.parse(fs.readFileSync(catPath, 'utf-8'));
+  } catch (err) {
+    console.error(`Error reading categories for ${gameSlug}:`, err);
+    return [];
+  }
+}
+
+
+
+

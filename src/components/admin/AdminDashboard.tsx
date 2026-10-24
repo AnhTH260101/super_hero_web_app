@@ -17,11 +17,14 @@ import {
   Trophy,
   Sparkles,
   Gift,
+  FileText,
+  Box,
 } from 'lucide-react';
-import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode } from '@/types/game';
+import { Hero, TierGroup, ResourceItem, ResourceSource, Giftcode, GuideArticle, GameActivity, GameItem, ItemCategory } from '@/types/game';
 import { AdminTierListEditor } from './AdminTierListEditor';
-import { AdminResourceEditor } from './AdminResourceEditor';
 import { AdminGiftcodeEditor } from './AdminGiftcodeEditor';
+import { AdminGuideEditor } from './AdminGuideEditor';
+import { AdminItemEditor } from './AdminItemEditor';
 
 interface AdminDashboardProps {
   initialHeroes: Hero[];
@@ -29,6 +32,10 @@ interface AdminDashboardProps {
   initialResources?: ResourceItem[];
   initialSources?: ResourceSource[];
   initialGiftcodes?: Giftcode[];
+  initialGuides?: GuideArticle[];
+  initialActivities?: GameActivity[];
+  initialItems?: Record<string, GameItem>;
+  initialCategories?: ItemCategory[];
   gameSlug: string;
 }
 
@@ -38,14 +45,20 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   initialResources = [],
   initialSources = [],
   initialGiftcodes = [],
+  initialGuides = [],
+  initialActivities = [],
+  initialItems = {},
+  initialCategories = [],
   gameSlug,
 }) => {
   const [adminToken, setAdminToken] = useState('admin123');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'resources' | 'giftcodes' | 'trash'>('active');
+  const [currentTab, setCurrentTab] = useState<'active' | 'tier-list' | 'items' | 'giftcodes' | 'guides' | 'trash'>('active');
 
   const [heroes, setHeroes] = useState<Hero[]>(initialHeroes);
   const [trashHeroes, setTrashHeroes] = useState<Hero[]>([]);
+  const [items, setItems] = useState<Record<string, GameItem>>(initialItems);
+  const [categories, setCategories] = useState<ItemCategory[]>(initialCategories);
 
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedSlugs, setSelectedSlugs] = useState<string[]>([]);
@@ -255,7 +268,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
               <span>Xem trang Người Dùng</span>
             </Link>
             <button
-              onClick={() => setIsAuthenticated(false)}
+              onClick={async () => {
+                await fetch('/api/admin/auth', { method: 'DELETE' });
+                window.location.href = '/admin/login';
+              }}
               className="px-4 py-2 rounded-xl bg-red-950/60 hover:bg-red-900 border border-red-800 text-xs font-semibold text-red-300"
             >
               Đăng xuất
@@ -297,17 +313,17 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
           <button
             onClick={() => {
-              setCurrentTab('resources');
+              setCurrentTab('items');
               setSelectedSlugs([]);
             }}
             className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
-              currentTab === 'resources'
+              currentTab === 'items'
                 ? 'bg-amber-500 text-slate-950 shadow-md'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
             }`}
           >
-            <Sparkles className="w-4 h-4" />
-            <span>Tài Nguyên Game ({initialResources.length})</span>
+            <Box className="w-4 h-4" />
+            <span>Vật Phẩm & Tài Nguyên ({Object.keys(items).length})</span>
           </button>
 
           <button
@@ -323,6 +339,21 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
           >
             <Gift className="w-4 h-4" />
             <span>Giftcode Discord ({initialGiftcodes.length})</span>
+          </button>
+
+          <button
+            onClick={() => {
+              setCurrentTab('guides');
+              setSelectedSlugs([]);
+            }}
+            className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition-all ${
+              currentTab === 'guides'
+                ? 'bg-purple-500 text-white shadow-md'
+                : 'text-slate-400 hover:text-white hover:bg-slate-900'
+            }`}
+          >
+            <FileText className="w-4 h-4" />
+            <span>Sự Kiện & Bài Viết ({initialGuides.length})</span>
           </button>
 
           <button
@@ -366,15 +397,28 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             gameSlug={gameSlug}
             adminToken={adminToken}
           />
-        ) : currentTab === 'resources' ? (
-          <AdminResourceEditor
-            initialResources={initialResources}
-            initialSources={initialSources}
+        ) : currentTab === 'items' ? (
+          <AdminItemEditor
+            initialItems={items}
+            initialCategories={categories}
+            onItemsUpdate={setItems}
+            onCategoriesUpdate={setCategories}
+            availableSources={initialSources}
             gameSlug={gameSlug}
+            adminToken={adminToken}
           />
         ) : currentTab === 'giftcodes' ? (
           <AdminGiftcodeEditor
             initialGiftcodes={initialGiftcodes}
+            gameSlug={gameSlug}
+          />
+        ) : currentTab === 'guides' ? (
+          <AdminGuideEditor
+            initialGuides={initialGuides}
+            initialActivities={initialActivities}
+            allHeroes={heroes}
+            allResources={initialResources}
+            initialSources={initialSources}
             gameSlug={gameSlug}
           />
         ) : (

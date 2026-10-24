@@ -18,22 +18,34 @@ export async function GET(req: NextRequest) {
 
   const { searchParams } = new URL(req.url);
   const targetGame = searchParams.get('gameSlug') || 'sieu-anh-hung';
+
+  // 1. Đọc danh sách tướng đang hoạt động
+  const heroesDir = path.join(process.cwd(), 'content/games', targetGame, 'heroes');
+  const heroes: any[] = [];
+  if (fs.existsSync(heroesDir)) {
+    const heroFiles = fs.readdirSync(heroesDir).filter(f => f.endsWith('.json'));
+    for (const f of heroFiles) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(heroesDir, f), 'utf-8'));
+        heroes.push(data);
+      } catch {}
+    }
+  }
+
+  // 2. Đọc danh sách tướng trong thùng rác
   const trashDir = path.join(process.cwd(), 'content/games', targetGame, 'trash');
-
-  if (!fs.existsSync(trashDir)) {
-    return NextResponse.json({ deletedHeroes: [] });
+  const deletedHeroes: any[] = [];
+  if (fs.existsSync(trashDir)) {
+    const files = fs.readdirSync(trashDir).filter(f => f.endsWith('.json'));
+    for (const f of files) {
+      try {
+        const data = JSON.parse(fs.readFileSync(path.join(trashDir, f), 'utf-8'));
+        deletedHeroes.push(data);
+      } catch {}
+    }
   }
 
-  const files = fs.readdirSync(trashDir).filter(f => f.endsWith('.json'));
-  const deletedHeroes = [];
-  for (const f of files) {
-    try {
-      const data = JSON.parse(fs.readFileSync(path.join(trashDir, f), 'utf-8'));
-      deletedHeroes.push(data);
-    } catch {}
-  }
-
-  return NextResponse.json({ deletedHeroes });
+  return NextResponse.json({ success: true, heroes, deletedHeroes });
 }
 
 export async function POST(req: NextRequest) {

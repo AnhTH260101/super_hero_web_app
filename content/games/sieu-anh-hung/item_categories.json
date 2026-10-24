@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ticket",
+    "name": "Vé & Thẻ chiêu mộ",
+    "icon": "🎟️"
+  },
+  {
+    "id": "stamina",
+    "name": "Thể lực & Sức sống",
+    "icon": "⚡"
+  },
+  {
+    "id": "chest_key",
+    "name": "Rương & Chìa khóa",
+    "icon": "🎁"
+  },
+  {
+    "id": "upgrade_material",
+    "name": "Đá & Tinh hoa nâng cấp",
+    "icon": "💎"
+  },
+  {
+    "id": "equip_material",
+    "name": "Linh kiện & Bản vẽ trang bị",
+    "icon": "🛡️"
+  },
+  {
+    "id": "event",
+    "name": "Đạo cụ sự kiện",
+    "icon": "🎉"
+  },
+  {
+    "id": "general",
+    "name": "Vật phẩm tiêu hao khác",
+    "icon": "📜"
+  },
+  {
+    "id": "ban_suc",
+    "name": "ban sức",
+    "icon": "📦"
+  },
+  {
+    "id": "sieu_tien_hoa",
+    "name": "siêu tiến hóa",
+    "icon": "📦"
+  },
+  {
+    "id": "vu_khi",
+    "name": "vũ khí",
+    "icon": "📦"
+  },
+  {
+    "id": "nang_cap_tuong",
+    "name": "nâng cấp tướng",
+    "icon": "📦"
+  },
+  {
+    "id": "pet",
+    "name": "pet",
+    "icon": "📦"
+  },
+  {
+    "id": "nang_cap_trang_bi",
+    "name": "nâng cấp trang bị",
+    "icon": "📦"
+  },
+  {
+    "id": "dot_pha",
+    "name": "đột phá",
+    "icon": "📦"
+  },
+  {
+    "id": "ruong_trang_bi",
+    "name": "rương trang bị",
+    "icon": "📦"
+  },
+  {
+    "id": "ruong_tuong",
+    "name": "rương tướng",
+    "icon": "📦"
+  },
+  {
+    "id": "chuyen_sinh",
+    "name": "chuyển sinh",
+    "icon": "📦"
+  },
+  {
+    "id": "mat_tang",
+    "name": "mật tàng",
+    "icon": "📦"
+  },
+  {
+    "id": "eather",
+    "name": "eather",
+    "icon": "📦"
+  },
+  {
+    "id": "huy_hieu",
+    "name": "huy hiệu",
+    "icon": "📦"
+  }
+]

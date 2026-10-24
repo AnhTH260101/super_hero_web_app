@@ -106,79 +106,79 @@
   "afterlifeMaterials": [
     {
       "name": "Ảo Ảnh",
-      "icon": "/images/heroes/ao-anh.png",
+      "icon": "/images/heroes/icon_heroes/ao-anh.png",
       "amount": 1,
       "type": "hero"
     },
     {
       "name": "Asamiya Athena",
-      "icon": "/images/heroes/asamiya-athena.png",
+      "icon": "/images/heroes/icon_heroes/asamiya-athena.png",
       "amount": 8,
       "type": "hero"
     },
     {
       "name": "Sói Trắng",
-      "icon": "/images/heroes/soi-trang.png",
+      "icon": "/images/heroes/icon_heroes/soi-trang.png",
       "amount": 1,
       "type": "hero"
     },
     {
       "name": "Đá Chuyển Sinh",
-      "icon": "/images/items/i_b_0_0.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
       "amount": 450,
       "type": "item"
     },
     {
       "name": "Đá Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_2.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
       "amount": 10,
       "type": "item"
     },
     {
       "name": "Giáp Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_1.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
       "amount": 10,
       "type": "item"
     },
     {
       "name": "Đá Thần Lực",
-      "icon": "/images/items/i_b_shenli_2.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
       "amount": 50,
       "type": "item"
     },
     {
       "name": "Kiếm Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_3.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_3.png",
       "amount": 20,
       "type": "item"
     },
     {
       "name": "Đá Chuyển Sinh Cao Cấp",
-      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
       "amount": 250,
       "type": "item"
     },
     {
       "name": "Đá Linh Phách",
-      "icon": "/images/items/i_c_lingpozhishi.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
       "amount": 30,
       "type": "item"
     },
     {
       "name": "Mũ Linh Phách",
-      "icon": "/images/items/i_c_lingpozhikui.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
       "amount": 30,
       "type": "item"
     },
     {
       "name": "Giáp Nguyên Phách",
-      "icon": "/images/items/i_c_yuanpozhijia.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijia.png",
       "amount": 40,
       "type": "item"
     },
     {
       "name": "Kiếm Nguyên Phách",
-      "icon": "/images/items/i_c_yuanpozhijian.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhijian.png",
       "amount": 40,
       "type": "item"
     }

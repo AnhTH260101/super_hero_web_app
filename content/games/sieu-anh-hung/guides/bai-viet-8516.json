@@ -1,0 +1,364 @@
+{
+  "id": "guide-1791809878516",
+  "slug": "bai-viet-8516",
+  "title": "Thông tin sự kiện vòng quay liên server",
+  "category": "vong-quay-lien-server",
+  "schedule": "Thứ 4, Thứ 7 mỗi tuần",
+  "description": "",
+  "thumbnail": "",
+  "blocks": [
+    {
+      "id": "block-1791809878516-1",
+      "type": "text",
+      "title": "Tổng Quan & Giới Thiệu",
+      "content": "Vòng quay với sự tham gia của cụm server (5 server tính là 1 cụm)\nHướng dẫn ae chơi sự kiện vòng quay liên server - Sự kiện kiếm tướng meta ổn nhất hiện tại.\n- Sự kiện này có vào thứ 4 và thứ 7 hàng tuần. Ngày lễ cũng có thể có và giải thưởng cũng sẽ khác ngày thường \n- Điều kiện để tham gia là nick vip 2 trở lên\n- Trong vòng quay này phần thưởng gồm:\n+ Loại 1: đá vận mệnh, mảnh tướng chính (10 mảnh), mảnh tướng phụ (10 mảnh)\n+ Loại 2: mảnh tướng nguyên liệu (15 mảnh).\n-  Tùy theo từng ngày mà sẽ có mảnh tướng chính khác nhau \n- Các phần thưởng đều có mốc chắc chắn ra, dưới đây là các cách để anh em có thể biết được mốc đó:\n+ Loại 1 gồm mảnh tướng chính, phụ, đá vận mệnh: quay 16 lần x10 rồi tạo mới khi nào thấy thì quay x10 là ra; hoặc là theo mốc ảnh bên dưới lần đầu là ở 1760 sau đó thì ae cứ + 1870 điểm hoặc lấy 3 số sau trừ 110 đi, cứ đến mốc đó tạo mới quay x10. (Chỉ quay x10 thôi nhá không quay x1 kể cả lượt free để mốc ra được chuẩn nhất)\n+ Loại 2 gồm mảnh tướng nguyên liệu:  cứ mỗi 1000 điểm là ra\n- Các phần thưởng sẽ được tạo mới vào 0h, 12h và 21h của hôm đó \n- Khi quay có điểm giỏ quà có tỉ lệ hoàn xu ( khi phát hết 1 tiếng sau mới reset)\n- Sự kiện này sẽ đi kèm với loạn thế kiêu hùng, ae đạt top tiêu ngày hôm đó sẽ nhận được mảnh tướng chính và nguyên liệu vào lúc 0h, 12h, 21h. Top sẽ tính xu ae tiêu cả ngày, ví dụ lúc 0h ae tiêu 50 vạn xu và top 1 tới cuối ngày thì sẽ nhận top cả 3 mốc trên)\n- Lưu ý: \n+ Chỉ quay x10, khi đạt mốc nếu ae tạo mới ra mảnh tướng chính và mảnh tướng phụ trong 1 vòng thì nên tạo mới tránh quay vào tướng phụ và mất mốc\n+ Khi ra hạn định loại nào thì nó sẽ đặt lại mốc điểm loại đó. Ví dụ ae tới mốc ra loại 1, ae quay đè mảnh tướng phụ hoặc đá vận mệnh thì nó sẽ đặt lại mốc quay, + thêm 1870 điểm nữa mới ra tiếp loại 1. Khi quay ra sớm hơn dự tính, VD 300 điểm đã ra mảnh loại 1 thì ae + tiếp 1870 là mốc tiếp theo ( không theo mốc cũ nữa) hoặc là mới quay được 3 lần x10 mà ra rồi thì ae phải đếm lại từ 1 đến 16 để tạo mới quay mảnh tiếp\n+ Mốc loại 1 và loại 2 không ảnh hưởng tới nhau. Ví dụ mốc loại 2 ở 1000 điểm khi tới đó ae quay ra loại 2 thì vẫn quay tiếp đến 1760 để quay loại 1 mà nó không bị reset",
+      "variant": "normal"
+    },
+    {
+      "id": "block-1791813060909",
+      "type": "gallery",
+      "title": "Các mốc điểm để quay mảnh chính",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/received_967629389702142_1791813384718.jpeg",
+          "caption": "8000 xu = 10 mảnh, 3v2 = 40 mảnh"
+        }
+      ]
+    },
+    {
+      "id": "block-1791810784852",
+      "type": "table",
+      "title": "Bảng lịch tướng mỗi tuần",
+      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "columns": [
+        {
+          "id": "col-1",
+          "label": "Ngày",
+          "type": "text"
+        },
+        {
+          "id": "col-1791810792284",
+          "label": "Tướng thường",
+          "type": "hero"
+        },
+        {
+          "id": "col-1791810879570",
+          "label": "Phần Thưởng 4",
+          "type": "resource"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-1791810784852-1",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 4"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "phu-thuy-elaina",
+                  "name": "Phù Thủy - Elaina",
+                  "avatar": "/images/heroes/icon_heroes/icon_yileina2.png",
+                  "rarity": "UR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "phu-thuy-elaina",
+                "name": "Phù Thủy - Elaina",
+                "avatar": "/images/heroes/icon_heroes/icon_yileina2.png",
+                "rarity": "UR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            },
+            "col-1791810879570": {
+              "resources": [
+                {
+                  "name": "Mảnh Phiếu Hủy Diệt",
+                  "icon": "/images/resources/items/manh-phieu-huy-diet.png",
+                  "quantity": "Chứa mảnh: Shalltel, kikyo, Picolo, Broly"
+                }
+              ],
+              "resource": {
+                "name": "Mảnh Phiếu Hủy Diệt",
+                "icon": "/images/resources/items/manh-phieu-huy-diet.png",
+                "quantity": "Chứa mảnh: Shalltel, kikyo, Picolo, Broly"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791812396957",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 7"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "tho-san-zoro",
+                  "name": "Thợ Săn - Zoro",
+                  "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "tho-san-zoro",
+                "name": "Thợ Săn - Zoro",
+                "avatar": "/images/heroes/icon_heroes/icon_xsjsuolong.png",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            },
+            "col-1791810879570": {
+              "resources": [
+                {
+                  "name": "Manh Ve Ma Vuong",
+                  "icon": "/images/resources/items/manh-ve-ma-vuong.png",
+                  "quantity": "Chứa mảnh: Tạnjiro, Gojo, Luffy Gear 4, Rimuru"
+                }
+              ],
+              "resource": {
+                "name": "Manh Ve Ma Vuong",
+                "icon": "/images/resources/items/manh-ve-ma-vuong.png",
+                "quantity": "Chứa mảnh: Tạnjiro, Gojo, Luffy Gear 4, Rimuru"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791812459981",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 4"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "vegeta",
+                  "name": "Vegeta",
+                  "avatar": "/images/heroes/icon_heroes/icon_beijita.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "vegeta",
+                "name": "Vegeta",
+                "avatar": "/images/heroes/icon_heroes/icon_beijita.png",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            },
+            "col-1791810879570": {
+              "resources": [
+                {
+                  "name": "Manh Phieu Huy Diet",
+                  "icon": "/images/resources/items/manh-phieu-huy-diet.png",
+                  "quantity": "Chứa mảnh: Shalltel, kikyo, Picolo, Broly"
+                }
+              ],
+              "resource": {
+                "name": "Manh Phieu Huy Diet",
+                "icon": "/images/resources/items/manh-phieu-huy-diet.png",
+                "quantity": "Chứa mảnh: Shalltel, kikyo, Picolo, Broly"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791812503416",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 7"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "kochou-shinobu",
+                  "name": "Kochou Shinobu",
+                  "avatar": "/images/heroes/icon_heroes/icon_hudieren.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "kochou-shinobu",
+                "name": "Kochou Shinobu",
+                "avatar": "/images/heroes/icon_heroes/icon_hudieren.png",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            },
+            "col-1791810879570": {
+              "resources": [
+                {
+                  "name": "Manh Ve Khong Gian",
+                  "icon": "/images/resources/items/manh-ve-khong-gian.png",
+                  "quantity": "Chứa mảnh: Tohka, Songohan, Râu Trắng, Trunk"
+                }
+              ],
+              "resource": {
+                "name": "Manh Ve Khong Gian",
+                "icon": "/images/resources/items/manh-ve-khong-gian.png",
+                "quantity": "Chứa mảnh: Tohka, Songohan, Râu Trắng, Trunk"
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791812648518",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 4"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "trunks",
+                  "name": "Trunks",
+                  "avatar": "/images/heroes/icon_heroes/icon_telankesi.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                },
+                {
+                  "heroSlug": "so-18",
+                  "name": "Số 18",
+                  "avatar": "/images/heroes/icon_heroes/so-18.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "trunks",
+                "name": "Trunks",
+                "avatar": "/images/heroes/icon_heroes/icon_telankesi.png",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            }
+          }
+        },
+        {
+          "id": "row-1791812675187",
+          "cells": {
+            "col-1": {
+              "text": "Thứ 7"
+            },
+            "col-1791810792284": {
+              "heroes": [
+                {
+                  "heroSlug": "frieren",
+                  "name": "Frieren",
+                  "avatar": "/images/heroes/icon_heroes/icon_fulilian.png",
+                  "rarity": "SSR",
+                  "element": "Vũ trụ linh tính",
+                  "note": ""
+                }
+              ],
+              "hero": {
+                "heroSlug": "frieren",
+                "name": "Frieren",
+                "avatar": "/images/heroes/icon_heroes/icon_fulilian.png",
+                "rarity": "SSR",
+                "element": "Vũ trụ linh tính",
+                "note": ""
+              }
+            },
+            "col-1791810879570": {
+              "resources": [
+                {
+                  "name": "Manh Ve Khong Gian",
+                  "icon": "/images/resources/items/manh-ve-khong-gian.png",
+                  "quantity": "Chứa mảnh: Tohka, Songohan, Râu Trắng, Trunk"
+                }
+              ],
+              "resource": {
+                "name": "Manh Ve Khong Gian",
+                "icon": "/images/resources/items/manh-ve-khong-gian.png",
+                "quantity": "Chứa mảnh: Tohka, Songohan, Râu Trắng, Trunk"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-1791812928751",
+      "type": "hero-roster",
+      "title": "Bảng tướng ngày lễ",
+      "description": "Các tướng khuyên dùng để đạt sát thương tối ưu",
+      "heroes": [
+        {
+          "heroSlug": "maple",
+          "name": "Maple",
+          "avatar": "/images/heroes/icon_heroes/maple.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        },
+        {
+          "heroSlug": "songoku",
+          "name": "Songoku",
+          "avatar": "/images/heroes/icon_heroes/icon_XWukong.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        },
+        {
+          "heroSlug": "inori",
+          "name": "Inori",
+          "avatar": "/images/heroes/icon_heroes/icon_dieqi.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        },
+        {
+          "heroSlug": "pain",
+          "name": "Pain",
+          "avatar": "/images/heroes/icon_heroes/pain.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        },
+        {
+          "heroSlug": "cid-kageno",
+          "name": "Cid Kageno",
+          "avatar": "/images/heroes/icon_heroes/icon_anying.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        },
+        {
+          "heroSlug": "chu-nguyen-sasuke",
+          "name": "Chú Nguyền Sasuke",
+          "avatar": "/images/heroes/icon_heroes/icon_xzuozhu.png",
+          "element": "Vũ trụ linh tính",
+          "rarity": "SSR",
+          "role": "",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-10-13T04:00:42.786Z"
+}

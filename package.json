@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
+    "share": "node scripts/share.mjs",
     "lint": "eslint"
   },
   "dependencies": {

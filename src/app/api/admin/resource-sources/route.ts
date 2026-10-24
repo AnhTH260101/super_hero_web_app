@@ -53,6 +53,47 @@ export async function GET(req: NextRequest) {
 
 export async function POST(req: NextRequest) {
   try {
+    const contentType = req.headers.get('content-type') || '';
+    if (contentType.includes('multipart/form-data')) {
+      const formData = await req.formData();
+      const file = formData.get('file') as File | null;
+      if (!file) {
+        return NextResponse.json({ success: false, error: 'Thiếu file tải lên' }, { status: 400 });
+      }
+
+      const sourcesDir = path.join(process.cwd(), 'public', 'images', 'resources', 'sources');
+      if (!fs.existsSync(sourcesDir)) {
+        fs.mkdirSync(sourcesDir, { recursive: true });
+      }
+
+      const ext = path.extname(file.name).toLowerCase();
+      if (!ext.match(/\.(png|jpg|jpeg|webp|gif|svg)$/i)) {
+        return NextResponse.json({ success: false, error: 'Định dạng file không hợp lệ (chỉ nhận ảnh)' }, { status: 400 });
+      }
+
+      const rawStem = path.basename(file.name, ext);
+      const safeStem = rawStem
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[đĐ]/g, 'd')
+        .replace(/[^a-z0-9_-]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      const finalName = `${safeStem || 'source-icon'}${ext}`;
+      const filePath = path.join(sourcesDir, finalName);
+
+      const bytes = await file.arrayBuffer();
+      const buffer = Buffer.from(bytes);
+      fs.writeFileSync(filePath, buffer);
+
+      return NextResponse.json({
+        success: true,
+        fileName: finalName,
+        url: `/images/resources/sources/${finalName}`,
+        message: `Đã tải ảnh ${finalName} vào images/resources/sources!`,
+      });
+    }
+
     const body = await req.json();
     const { action = 'save', gameSlug = 'sieu-anh-hung', sources } = body;
     const contentDir = path.join(process.cwd(), 'content', 'games', gameSlug);

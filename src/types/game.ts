@@ -214,6 +214,33 @@ export interface ResourceSource {
   note?: string;
 }
 
+export interface ItemCategory {
+  id: string;
+  name: string;
+  icon?: string;
+  color?: string;
+}
+
+export interface GameItem {
+  id: string;
+  all_ids?: string[];
+  name: string;
+  story: string;
+  quality?: number;
+  quality_name?: string;
+  quality_color?: string;
+  category: string;
+  icon: string;
+  icon_raw?: string;
+  overlay?: string;
+  shade_raw?: string;
+  is_use?: number;
+  is_show?: number;
+  is_featured?: number;
+  stack?: number;
+  sources?: string[];
+}
+
 export interface ResourceItemSourceRef {
   sourceId: string;
   note?: string;
@@ -228,3 +255,221 @@ export interface ResourceItem {
   description: string[];
   sources: ResourceItemSourceRef[];
 }
+
+export type GuideBlockType = 'text' | 'hero-roster' | 'gallery' | 'resources' | 'table' | 'hero-source' | 'resource-card' | 'step-flow';
+
+export interface GuideTextBlock {
+  id: string;
+  type: 'text';
+  title?: string;
+  content: string;
+  variant?: 'normal' | 'tip' | 'warning' | 'strategy';
+}
+
+export interface GuideHeroItem {
+  heroSlug: string;
+  name: string;
+  avatar: string;
+  element?: string;
+  rarity?: string;
+  role?: string;
+  note?: string;
+  layers?: string[];
+}
+
+export interface GuideHeroRosterBlock {
+  id: string;
+  type: 'hero-roster';
+  title?: string;
+  description?: string;
+  heroes: GuideHeroItem[];
+}
+
+export interface GuideHeroSourceItem {
+  heroSlug: string;
+  name: string;
+  avatar: string;
+  rarity?: string;
+  element?: string;
+  role?: string;
+  sourceNote?: string;
+  layers?: string[];
+}
+
+export interface GuideHeroSourceBlock {
+  id: string;
+  type: 'hero-source';
+  title?: string;
+  description?: string;
+  heroes: GuideHeroSourceItem[];
+}
+
+export interface GuideImageItem {
+  url: string;
+  caption?: string;
+}
+
+export interface GuideGalleryBlock {
+  id: string;
+  type: 'gallery';
+  title?: string;
+  layout: 'single' | 'grid-2' | 'grid-3';
+  images: GuideImageItem[];
+}
+
+export interface GuideResourceItem {
+  id: string;
+  name: string;
+  icon: string;
+  note?: string;
+  layers?: string[];
+}
+
+export interface GuideResourcesBlock {
+  id: string;
+  type: 'resources';
+  title?: string;
+  description?: string;
+  items: GuideResourceItem[];
+}
+
+export interface GuideTableColumn {
+  id: string;
+  label: string;
+  type: 'text' | 'resource' | 'hero';
+}
+
+export interface GuideTableCellResource {
+  name: string;
+  icon?: string;
+  quantity?: string;
+  layers?: string[];
+  heroSlug?: string;
+  rarity?: string;
+  element?: string;
+  itemType?: 'item' | 'hero';
+}
+
+export interface GuideTableCellHero {
+  heroSlug?: string;
+  name: string;
+  avatar?: string;
+  rarity?: string;
+  element?: string;
+  note?: string;
+  layers?: string[];
+}
+
+export interface GuideTableCell {
+  text?: string;
+  resource?: GuideTableCellResource;
+  resources?: GuideTableCellResource[];
+  hero?: GuideTableCellHero;
+  heroes?: GuideTableCellHero[];
+}
+
+export interface GuideTableRow {
+  id: string;
+  cells: Record<string, GuideTableCell>;
+}
+
+export interface GuideTableBlock {
+  id: string;
+  type: 'table';
+  title?: string;
+  description?: string;
+  columns: GuideTableColumn[];
+  rows: GuideTableRow[];
+}
+
+export interface GuideResourceCardSourceRef {
+  sourceId: string;
+  name?: string;
+  icon?: string;
+  note?: string;
+}
+
+export interface GuideResourceCardItem {
+  id: string;
+  itemType: 'item' | 'hero';
+  name: string;
+  icon: string;
+  heroSlug?: string;
+  rarity?: string;
+  description: string[];
+  sources: GuideResourceCardSourceRef[];
+  layers?: string[];
+}
+
+export interface GuideResourceCardBlock {
+  id: string;
+  type: 'resource-card';
+  title?: string;
+  description?: string;
+  cards: GuideResourceCardItem[];
+}
+
+export interface GuideStepFlowItem {
+  id: string;
+  sourceId?: string;
+  image: string;
+  name?: string;
+  description?: string;
+}
+
+export interface GuideStepFlowBlock {
+  id: string;
+  type: 'step-flow';
+  title?: string;
+  description?: string;
+  steps: GuideStepFlowItem[];
+}
+
+export interface GuideCalculatorBlock {
+  id: string;
+  type: 'calculator';
+  title?: string;
+  description?: string;
+  calculatorType?: 'cashflow-100v' | string;
+  defaultCapital?: number;
+}
+
+export type GuideBlock =
+  | GuideTextBlock
+  | GuideHeroRosterBlock
+  | GuideGalleryBlock
+  | GuideResourcesBlock
+  | GuideTableBlock
+  | GuideHeroSourceBlock
+  | GuideResourceCardBlock
+  | GuideStepFlowBlock
+  | GuideCalculatorBlock;
+
+export interface GuideArticle {
+  id: string;
+  slug: string;
+  title: string;
+  category: string; // Khớp với slug của GameActivity hoặc loại hoạt động
+  schedule?: string;
+  description: string;
+  thumbnail?: string;
+  relatedActivities?: string[];
+  tags?: string[];
+  blocks: GuideBlock[];
+  updatedAt: string;
+}
+
+export interface GameActivity {
+  id: string;
+  slug: string;
+  name: string;
+  shortDesc: string;
+  icon?: string;
+  badge?: string;
+  color?: string; // 'red' | 'amber' | 'blue' | 'purple' | 'emerald'
+  banner?: string; // Ảnh banner tùy chọn cho hoạt động
+  order?: number;
+  enabled?: boolean;
+}
+
+

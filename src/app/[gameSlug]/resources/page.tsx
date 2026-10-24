@@ -53,15 +53,6 @@ export default async function ResourcesPage({ params }: Props) {
               Tra cứu công dụng chi tiết và danh sách tất cả các hoạt động, sự kiện, cửa hàng có thể kiếm từng loại tài nguyên trong game Siêu Anh Hùng.
             </p>
           </div>
-
-          <div className="flex items-center gap-3">
-            <a
-              href={`/admin/${game.slug}/resources`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-400 border border-slate-700 hover:border-amber-500/40 text-xs font-bold transition-all shadow-lg shadow-black/40"
-            >
-              <span>⚙️ Chỉnh Sửa Dữ Liệu (Admin)</span>
-            </a>
-          </div>
         </div>
 
         {/* Client Interactive Table */}

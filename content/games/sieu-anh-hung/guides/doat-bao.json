@@ -1,0 +1,807 @@
+{
+  "id": "guide-doat-bao",
+  "slug": "doat-bao",
+  "title": "Sự Kiện Đoạt Bảo - Đấu Giá Mảnh Tướng & Bí Kíp Vòng Tích Điểm",
+  "category": "doat-bao",
+  "schedule": "Diễn ra thường xuyên theo chu kỳ (CD đặt lại mỗi ngày)",
+  "description": "Hướng dẫn toàn diện và tra cứu toàn bộ danh mục vật phẩm, thẻ tướng, pháp bảo có thể nhận được từ Sảnh Đoạt Bảo, Vòng Tích Điểm và Tiệm Đổi Thưởng Đoạt Bảo trong Siêu Anh Hùng.",
+  "thumbnail": "/images/resources/sources/doat-bao.png",
+  "relatedActivities": [
+    "han-gio-xuat-chinh",
+    "thap-hoang-tinh-te"
+  ],
+  "tags": [
+    "Đoạt Bảo",
+    "Vòng Tích Điểm",
+    "Kurosaki",
+    "Tachibana",
+    "Xu",
+    "Pháp Bảo",
+    "Shop Đoạt Bảo"
+  ],
+  "blocks": [
+    {
+      "id": "block-doat-bao-intro",
+      "type": "text",
+      "title": "💎 Tổng Quan & Vị Trí Sự Kiện Đoạt Bảo",
+      "content": "Sự Kiện Đoạt Bảo (dữ liệu game: Raiders of the Lost Ark / 一元夺宝) là một trong những hoạt động cạnh tranh tài nguyên và mảnh tướng SSR quan trọng bậc nhất trong thế giới Siêu Anh Hùng.\n\n• Vị trí tham gia: Biểu tượng Đoạt Bảo hiển thị tại giao diện màn hình chính của game (hoặc trong cụm sự kiện Hot).\n• Cơ chế 3 tầng hoạt động:\n  1. Sảnh Đoạt Bảo (Đấu Giá Xu): Dùng #xu góp vào 4 ô giải thưởng để giành trọn gói mảnh tướng SSR, pháp bảo hoặc nguyên liệu cam. Mỗi lần góp nhận Điểm Tích Lũy.\n  2. Vòng Tích Điểm (Vòng Quay 16 Ô): Dùng Điểm Tích Lũy quay thưởng nhận mảnh tướng Kurosaki, thẻ tướng hoàn chỉnh, rương đá quý và mở khóa các mốc rương tích lũy ở tâm vòng.\n  3. Tiệm Đổi Thưởng Đoạt Bảo (Raiders Shop): Dùng Điểm Tích Lũy đổi trực tiếp các thẻ tướng SSR hoàn chỉnh (Lý Tiểu Long, Mị Nương, Seiya...), thẻ vạn năng và các loại phiếu trang bị liên server đỉnh cao.",
+      "variant": "tip"
+    },
+    {
+      "id": "block-doat-bao-gallery",
+      "type": "gallery",
+      "title": "📸 Hình Ảnh Thực Tế Giao Diện Đoạt Bảo & Vòng Tích Điểm",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/doat-bao_1791865220877.jpeg",
+          "caption": "Sảnh Đoạt Bảo: 4 ô đấu giá mảnh tướng Tachibana x10, nút Đoạt 100 Xu, Đoạt ngay & thanh tiến độ"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/doat-bao-vong-quay_1791865262550.jpeg",
+          "caption": "Vòng Tích Điểm: Vòng quay 16 ô với mảnh tướng Kurosaki, rút X1/X10 và các mốc rương tích lũy"
+        }
+      ]
+    },
+    {
+      "id": "block-doat-bao-auction-details",
+      "type": "text",
+      "title": "⚔️ Chi Tiết Sảnh Đấu Giá Đoạt Bảo (Đoạt Với Xu)",
+      "content": "Tại sảnh chính Đoạt Bảo, hệ thống sẽ mở ra 4 vị trí vật phẩm cùng lúc để người chơi tham gia đoạt thưởng:\n\n1. Các thành phần trên mỗi ô đấu giá:\n• Phần thưởng ô: Mảnh tướng SSR x5 - x10 (Tachibana, Triệu Vân, Saber, Saga, Madara...), Pháp bảo cam (Bát Chỉ Kính, Quỷ Hỏa Lệnh), hoặc Rương đá vận mệnh.\n• Thanh tiến độ (VD: 8100/9000 hoặc 0/2500): Mỗi ô có một định mức giá trị tổng. Người chơi đóng góp #xu để làm đầy thanh này.\n• Số lần đoạt: Ghi nhận số lượt đóng góp cá nhân của bạn vào ô đó. Càng tham gia nhiều lượt, tỷ lệ chiến thắng khi đầy tiến trình càng cao.\n\n2. Các nút thao tác quan trọng:\n• Đoạt 100 Xu: Mỗi lượt bấm sẽ chi trả 100 Xu, tăng tiến trình ô thêm 100 điểm, đồng thời bạn nhận được Điểm Tích Lũy tương ứng.\n• Đoạt ngay: Cho phép người chơi mua đứt toàn bộ vật phẩm trong ô ngay lập tức bằng số Xu tương ứng với giá trị còn lại mà không cần chờ đấu giá.\n• Tạo mới: Nút ở góc trên giúp làm mới lại toàn bộ 4 ô thưởng nếu 4 món đồ hiện tại không đúng tướng hoặc trang bị bạn đang cần.\n• Nút Vòng Tích: Chuyển trực tiếp sang giao diện Vòng Tích Điểm để tiêu hao điểm số vừa tích lũy được.",
+      "variant": "normal"
+    },
+    {
+      "id": "block-auction-item-table",
+      "type": "table",
+      "title": "📋 Danh Mục Toàn Bộ Vật Phẩm Xuất Hiện Tại Sảnh Đoạt Bảo",
+      "description": "Dữ liệu trích xuất chính thức từ hệ thống (raiders_reward.config):",
+      "columns": [
+        {
+          "id": "col-item-id",
+          "label": "Mục",
+          "type": "text"
+        },
+        {
+          "id": "col-item-reward",
+          "label": "Phần Thưởng Đoạt",
+          "type": "resource"
+        },
+        {
+          "id": "col-item-cost",
+          "label": "Tiến Độ / Mức Góp",
+          "type": "text"
+        },
+        {
+          "id": "col-item-note",
+          "label": "Đặc Tính & Giá Trị",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-auc-tachibana",
+          "cells": {
+            "col-item-id": {
+              "text": "Hot"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Mảnh Tachibana",
+                  "icon": "/images/heroes/icon_heroes/tachibana.png",
+                  "quantity": "x10 mảnh",
+                  "heroSlug": "tachibana",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 9.000 Xu\n(Góp 100 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Tướng SSR Lôi hệ, sát thương bộc phá cực mạnh. Thường xuất hiện đồng loạt tại 4 ô sảnh đoạt bảo."
+            }
+          }
+        },
+        {
+          "id": "row-auc-talisman-1",
+          "cells": {
+            "col-item-id": {
+              "text": "Pháp Bảo"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Bát Chỉ Kính",
+                  "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+                  "quantity": "x1 (Cam)",
+                  "note": "Pháp bảo thủ"
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 3.000 Xu\n(Góp 10 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Pháp bảo phòng thủ cam: Tăng HP, Tốc độ và hiệu ứng giảm sát thương gánh chịu trước trận đấu."
+            }
+          }
+        },
+        {
+          "id": "row-auc-talisman-2",
+          "cells": {
+            "col-item-id": {
+              "text": "Pháp Bảo"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Quỷ Hỏa Lệnh",
+                  "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+                  "quantity": "x1 (Cam)",
+                  "note": "Pháp bảo công"
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 3.000 Xu\n(Góp 10 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Pháp bảo công phép cam: Tăng Ma công, Bạo kích và hiệu ứng thiêu đốt mục tiêu 2 hiệp liên tiếp."
+            }
+          }
+        },
+        {
+          "id": "row-auc-fate-lv3",
+          "cells": {
+            "col-item-id": {
+              "text": "Đá Vận Mệnh"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Rương Đá Vận Mệnh LV3",
+                  "icon": "/images/resources/items/ruong-van-menh-4.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 3.000 Xu\n(Góp 10 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Mở nhận ngẫu nhiên Đá Vận Mệnh cấp 3 dùng khảm trang bị tăng chỉ số vượt trội."
+            }
+          }
+        },
+        {
+          "id": "row-auc-phieu-hon-do",
+          "cells": {
+            "col-item-id": {
+              "text": "Phiếu Hồn"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Phiếu Hồn Đỏ",
+                  "icon": "/images/resources/items/phieu-bich-huyet-do.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 3.000 Xu\n(Góp 10 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Đạo cụ cao cấp dùng kích hoạt và đột phá thuộc tính linh hồn nhân vật."
+            }
+          }
+        },
+        {
+          "id": "row-auc-heroes-bundle",
+          "cells": {
+            "col-item-id": {
+              "text": "Tướng SSR"
+            },
+            "col-item-reward": {
+              "resources": [
+                {
+                  "name": "Mảnh Triệu Vân",
+                  "quantity": "x5",
+                  "heroSlug": "trieu-van",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Saber",
+                  "quantity": "x5",
+                  "heroSlug": "saber",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Yagami",
+                  "quantity": "x5",
+                  "heroSlug": "yagami",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Madara",
+                  "quantity": "x5",
+                  "heroSlug": "madara",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-item-cost": {
+              "text": "Tổng 2.500 - 3.000 Xu\n(Góp 10 Xu/lượt)"
+            },
+            "col-item-note": {
+              "text": "Xuất hiện theo từng đợt làm mới: Mảnh Triệu Vân, Saber, Yagami Iori, Saga, Madara, Kefla, Asamiya Athena x10."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-doat-bao-wheel-tips",
+      "type": "text",
+      "title": "🔥 Vòng Tích Điểm & Bí Kíp Rút X10 Tối Đa Hóa Mảnh Tướng",
+      "content": "Vòng Tích Điểm là nơi quyết định sự khác biệt giữa người chơi thông thường và cao thủ săn mảnh tướng SSR. Mỗi lần tham gia sảnh Đoạt Bảo bằng #xu, bạn sẽ tích lũy được điểm số (hiển thị tại góc trên bên phải, ví dụ: Tích điểm: 97).\n\n1. Quy tắc quay thưởng:\n• Rút X1: Tiêu tốn 50 Điểm tích cho 1 lượt quay ngẫu nhiên.\n• Rút X10: Tiêu tốn 500 Điểm tích cho 10 lượt quay liên tiếp.\n• Nút Tạo mới (1): Cho phép làm mới danh sách 16 ô phần thưởng trên vòng quay.\n• Các mốc rương thưởng giữa vòng (personal_limit: x40, x85, x150, x251, x340, x512...): Đạt đủ số lượt rút tích lũy sẽ mở khóa nhận thêm các rương báu chứa tài nguyên khổng lồ.\n\n2. Phân loại giải thưởng trên Vòng Tích Điểm:\n• Thưởng giới hạn (Vòng trong): Thẻ tướng SSR hoàn chỉnh (Triệu Vân x200 mảnh, Madara x300 mảnh), Rương Đá Vận Mệnh Lv4, Rương đá quý Lv11, Pháp bảo Quỷ Hỏa Lệnh, Túi 1000 Xu.\n• Thưởng thông thường (Vòng ngoài): Toàn bộ mảnh tướng SSR cực phẩm (#kurosaki x2-x3, #tachibana, Luffy, Zoro, Sasuke, Quan Vũ, Blade Master, Superman...), Thẻ đỏ vạn năng, Tinh hoa pháp bảo và Túi thể lực.\n\n3. 💡 BÍ KÍP VÀNG CỦA CAO THỦ (BẮT BUỘC NHỚ):\n• TUYỆT ĐỐI KHÔNG quay ngay khi vòng quay chỉ xuất hiện 1 ô mảnh tướng cần săn!\n• Hãy sử dụng nút 'Tạo mới' liên tục cho đến khi trên vòng quay xuất hiện đồng thời từ 2 đến 3 ô Mảnh #kurosaki (hoặc tướng mục tiêu của bạn).\n• Chỉ khi vòng quay đã xuất hiện nhiều ô mảnh tướng mong muốn, bạn mới bấm 'Rút X10 (500 điểm)'.\n• Cách làm này giúp tăng gấp đôi hoặc gấp ba xác suất viên ngọc may mắn dừng lại ở ô mảnh tướng mục tiêu trên cùng một lượng điểm tích lũy bỏ ra!",
+      "variant": "tip"
+    },
+    {
+      "id": "block-wheel-rewards-table",
+      "type": "table",
+      "title": "🎡 Danh Mục Phần Thưởng Chi Tiết Trên Vòng Tích Điểm",
+      "description": "Chi tiết các vật phẩm và mảnh tướng xuất hiện trên Vòng Quay 16 ô (raiders_roulette.config):",
+      "columns": [
+        {
+          "id": "col-wheel-zone",
+          "label": "Khu Vực Thưởng",
+          "type": "text"
+        },
+        {
+          "id": "col-wheel-items",
+          "label": "Vật Phẩm / Tướng",
+          "type": "resource"
+        },
+        {
+          "id": "col-wheel-qty",
+          "label": "Số Lượng Mỗi Ô",
+          "type": "text"
+        },
+        {
+          "id": "col-wheel-desc",
+          "label": "Ghi Chú Chi Tiết",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-wheel-inner-heroes",
+          "cells": {
+            "col-wheel-zone": {
+              "text": "⭐ Vòng Trong\n(Thưởng Giới Hạn)"
+            },
+            "col-wheel-items": {
+              "resources": [
+                {
+                  "name": "Triệu Vân",
+                  "quantity": "x200 mảnh",
+                  "heroSlug": "trieu-van",
+                  "rarity": "SSR"
+                },
+                {
+                  "name": "Madara",
+                  "quantity": "x300 mảnh",
+                  "heroSlug": "madara",
+                  "rarity": "SSR"
+                },
+                {
+                  "name": "R.Đá Vận Mệnh LV4",
+                  "icon": "/images/resources/items/ruong-van-menh-4.png",
+                  "quantity": "x100"
+                },
+                {
+                  "name": "Túi 1000 Xu",
+                  "icon": "/images/resources/sources/xu.png",
+                  "quantity": "x300"
+                }
+              ]
+            },
+            "col-wheel-qty": {
+              "text": "Số lượng có hạn\n(Giới hạn 1 - 3 lần/server)"
+            },
+            "col-wheel-desc": {
+              "text": "Giải độc đắc vòng trong. Bất kỳ người chơi nào quay trúng sẽ trừ số lượng còn lại. Khi về 0 sẽ không thể quay ra tiếp."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-outer-shards",
+          "cells": {
+            "col-wheel-zone": {
+              "text": "💥 Vòng Ngoài\n(Mảnh Tướng SSR)"
+            },
+            "col-wheel-items": {
+              "resources": [
+                {
+                  "name": "Mảnh Kurosaki",
+                  "icon": "/images/heroes/icon_heroes/kurosaki.png",
+                  "quantity": "x2, x3",
+                  "heroSlug": "kurosaki",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Superman",
+                  "quantity": "x2, x3, x4",
+                  "heroSlug": "superman",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Quan Vũ",
+                  "quantity": "x2, x3, x4",
+                  "heroSlug": "quan-vu",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Mảnh Zoro / Luffy / Vegetto",
+                  "quantity": "x1 - x3",
+                  "rarity": "SSR",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-wheel-qty": {
+              "text": "x1, x2, x3, x4 mảnh / ô"
+            },
+            "col-wheel-desc": {
+              "text": "Mảnh các tướng SSR hàng đầu. Hãy bấm 'Tạo mới' cho đến khi ra 2-3 ô Kurosaki/Superman rồi mới rút X10."
+            }
+          }
+        },
+        {
+          "id": "row-wheel-outer-mats",
+          "cells": {
+            "col-wheel-zone": {
+              "text": "🎒 Vòng Ngoài\n(Nguyên Liệu & Đạo Cụ)"
+            },
+            "col-wheel-items": {
+              "resources": [
+                {
+                  "name": "Túi thể lực 50",
+                  "icon": "/images/resources/items/tui-the-luc-50.png",
+                  "quantity": "x2"
+                },
+                {
+                  "name": "Tinh hoa - Pháp bảo",
+                  "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+                  "quantity": "x10"
+                },
+                {
+                  "name": "Tinh hoa - Đá lò",
+                  "icon": "/images/resources/items/tinh-hoa-da-lo.png",
+                  "quantity": "x50"
+                },
+                {
+                  "name": "Thẻ Đỏ Vạn Năng",
+                  "quantity": "x5 - x10 mảnh",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-wheel-qty": {
+              "text": "x2 - x50 tùy loại"
+            },
+            "col-wheel-desc": {
+              "text": "Nguồn bổ sung thể lực và tinh hoa nâng cấp pháp bảo cực kỳ ổn định trong quá trình quay."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-shop-table",
+      "type": "table",
+      "title": "🏪 Bảng Đổi Thưởng Tiệm Đoạt Bảo (Raiders Shop)",
+      "description": "Toàn bộ danh mục vật phẩm và tướng quy đổi bằng Điểm Tích Lũy (raiders_shop.config):",
+      "columns": [
+        {
+          "id": "col-shop-id",
+          "label": "Mục",
+          "type": "text"
+        },
+        {
+          "id": "col-shop-reward",
+          "label": "Vật Phẩm / Tướng Đổi",
+          "type": "resource"
+        },
+        {
+          "id": "col-shop-cost",
+          "label": "Giá Điểm Tích",
+          "type": "text"
+        },
+        {
+          "id": "col-shop-limit",
+          "label": "Giới Hạn Đổi",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-shop-bruce-lee",
+          "cells": {
+            "col-shop-id": {
+              "text": "1"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Lý Tiểu Long",
+                  "heroSlug": "ly-tieu-long",
+                  "rarity": "SSR",
+                  "quantity": "x1 Thẻ tướng hoàn chỉnh"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "30.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "4 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-mi-nuong",
+          "cells": {
+            "col-shop-id": {
+              "text": "2"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Mị Nương",
+                  "heroSlug": "mi-nuong",
+                  "rarity": "SSR",
+                  "quantity": "x1 Thẻ tướng hoàn chỉnh"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "20.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "4 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-seiya",
+          "cells": {
+            "col-shop-id": {
+              "text": "3"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Seiya",
+                  "heroSlug": "seiya",
+                  "rarity": "SSR",
+                  "quantity": "x1 Thẻ tướng hoàn chỉnh"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "5.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "10 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-red-soul-box",
+          "cells": {
+            "col-shop-id": {
+              "text": "4"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Rương Anh Hồn Đỏ",
+                  "icon": "/images/resources/items/ruong-nguyen-lieu-dot-pha.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "20.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "10 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-tri-hero",
+          "cells": {
+            "col-shop-id": {
+              "text": "5"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Phiếu Bộ Ba Hero",
+                  "icon": "/images/resources/items/phieu-set-nam-rong.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "15.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "10 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-chu-tuoc",
+          "cells": {
+            "col-shop-id": {
+              "text": "6"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Phiếu Chu Tước Cam",
+                  "icon": "/images/resources/items/phieu-set-nam-ti.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "2.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "20 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-bich-huyet",
+          "cells": {
+            "col-shop-id": {
+              "text": "7"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Phiếu Bích Huyết Cam",
+                  "icon": "/images/resources/items/phieu-bich-huyet-do.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "2.000 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "20 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-universe-equip",
+          "cells": {
+            "col-shop-id": {
+              "text": "8"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Phiếu Trang Bị Vũ Trụ",
+                  "icon": "/images/resources/items/ve-khong-gian.png",
+                  "quantity": "x1"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "1.500 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "50 lần"
+            }
+          }
+        },
+        {
+          "id": "row-shop-cards",
+          "cells": {
+            "col-shop-id": {
+              "text": "9"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Thẻ Đỏ Vạn Năng",
+                  "quantity": "x1",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                },
+                {
+                  "name": "Thẻ Vàng Vạn Năng",
+                  "quantity": "x1",
+                  "layers": [
+                    "game_items/public_shade_2.png"
+                  ]
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "200 Điểm (Đỏ)\n600 Điểm (Vàng)"
+            },
+            "col-shop-limit": {
+              "text": "100 lần (Đỏ)\n50 lần (Vàng)"
+            }
+          }
+        },
+        {
+          "id": "row-shop-mats",
+          "cells": {
+            "col-shop-id": {
+              "text": "10"
+            },
+            "col-shop-reward": {
+              "resources": [
+                {
+                  "name": "Thức ăn",
+                  "icon": "/images/resources/items/thit.png",
+                  "quantity": "40.000"
+                },
+                {
+                  "name": "Sắt / Kim loại",
+                  "icon": "/images/resources/items/da-in-s.png",
+                  "quantity": "20.000"
+                }
+              ]
+            },
+            "col-shop-cost": {
+              "text": "160 Điểm"
+            },
+            "col-shop-limit": {
+              "text": "100 lần"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-doat-bao-heroes",
+      "type": "hero-source",
+      "title": "⭐ Các Tướng SSR Trọng Tâm Thu Thập Từ Sự Kiện Đoạt Bảo",
+      "description": "Các vị tướng SSR chủ lực có tỷ lệ xuất hiện nhiều nhất và đáng giá nhất trong sảnh Đoạt Bảo và Vòng Tích Điểm:",
+      "heroes": [
+        {
+          "heroSlug": "tachibana",
+          "name": "Tachibana",
+          "avatar": "/images/heroes/icon_heroes/tachibana.png",
+          "rarity": "SSR",
+          "element": "Lôi",
+          "role": "Sát thương chủ lực / Đấu sĩ",
+          "sourceNote": "Xuất hiện chủ yếu trong 4 ô đấu giá tại Sảnh Đoạt Bảo (gói 10 mảnh / lần đoạt)",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "heroSlug": "kurosaki",
+          "name": "Kurosaki",
+          "avatar": "/images/heroes/icon_heroes/kurosaki.png",
+          "rarity": "SSR",
+          "element": "Ám",
+          "role": "Sát thương bộc phá cực mạnh",
+          "sourceNote": "Mục tiêu số 1 tại Vòng Tích Điểm (các ô 2 mảnh, 3 mảnh trên vòng quay)",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "heroSlug": "ct-kurosaki",
+          "name": "Chuyển Thế Kurosaki",
+          "avatar": "/images/heroes/icon_heroes/ct-kurosaki.png",
+          "rarity": "UR",
+          "element": "Ám",
+          "role": "Chuyển Thế Siêu Cấp",
+          "sourceNote": "Dạng chuyển thế nâng cấp từ Kurosaki cơ bản sau khi thu thập đủ mảnh và đá chuyển thế"
+        }
+      ]
+    },
+    {
+      "id": "block-doat-bao-resources",
+      "type": "resources",
+      "title": "🎒 Các Tài Nguyên Thu Được & Tiêu Hao Chính",
+      "description": "Toàn bộ tài nguyên liên quan mật thiết đến sự kiện Đoạt Bảo:",
+      "items": [
+        {
+          "id": "res-xu",
+          "name": "Xu",
+          "icon": "/images/resources/sources/xu.png",
+          "note": "Tiền tệ dùng để đấu giá ô đoạt bảo"
+        },
+        {
+          "id": "res-kurosaki-shard",
+          "name": "Mảnh Kurosaki",
+          "icon": "/images/heroes/icon_heroes/kurosaki.png",
+          "note": "Mảnh tướng SSR từ Vòng Tích Điểm",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "id": "res-tachibana-shard",
+          "name": "Mảnh Tachibana",
+          "icon": "/images/heroes/icon_heroes/tachibana.png",
+          "note": "Mảnh tướng SSR từ Sảnh Đoạt Bảo",
+          "layers": [
+            "game_items/public_shade_2.png"
+          ]
+        },
+        {
+          "id": "res-tinh-hoa-phap-bao",
+          "name": "Tinh hoa - Pháp bảo",
+          "icon": "/images/resources/items/tinh-hoa-phap-bao.png",
+          "note": "Nguyên liệu tăng cấp pháp bảo"
+        },
+        {
+          "id": "res-tinh-hoa-da-lo",
+          "name": "Tinh hoa - Đá lò",
+          "icon": "/images/resources/items/tinh-hoa-da-lo.png",
+          "note": "Nâng cấp pháp bảo trang bị"
+        },
+        {
+          "id": "res-the-luc",
+          "name": "Túi thể lực 50",
+          "icon": "/images/resources/items/tui-the-luc-50.png",
+          "note": "Hồi 50 thể lực từ vòng quay"
+        }
+      ]
+    },
+    {
+      "id": "block-doat-bao-advice",
+      "type": "text",
+      "title": "📌 Lời Khuyên Phân Bổ Ngân Sách Cho Nông Dân & Đại Gia",
+      "content": "• Dành cho người chơi Cày Chay / Nông dân:\n  - Hãy tích lũy #xu đều đặn mỗi ngày từ các sự kiện miễn phí như #han-gio-xuat-chinh và nhiệm vụ hàng ngày.\n  - Không nên ham 'Đoạt Ngay' vì chi phí rất cao. Thay vào đó, hãy tham gia góp 100-200 Xu vào các ô có người đang chạy để vừa có cơ hội trúng giải vừa tích lũy điểm thưởng.\n  - Gom đủ ít nhất 500 đến 1000 Điểm Tích Lũy trước khi bước vào Vòng Tích Điểm. Khi vào vòng, kiên nhẫn 'Tạo mới' đến khi ra 2-3 ô mảnh #kurosaki rồi mới xả điểm quay X10.\n\n• Dành cho người chơi Nạp / Đại gia:\n  - Có thể chọn 'Đoạt ngay' các gói Pháp bảo hoặc 10 Mảnh tướng SSR quý khi cần đẩy nhanh tiến độ nâng sao.\n  - Tận dụng mốc rương tích lũy ở tâm vòng quay (x40, x85, x150, x251, x340, x512...) để gom trọn gói nguyên liệu thần thánh và hoàn thiện đội hình SSR chuyển thế nhanh nhất cụm server.\n  - Đổi thẻ tướng hoàn chỉnh trong Tiệm Đoạt Bảo (Lý Tiểu Long 30.000 điểm, Mị Nương 20.000 điểm) để kích hoạt duyên phận đội hình.",
+      "variant": "normal"
+    }
+  ],
+  "updatedAt": "2026-10-19T16:00:00.000Z"
+}

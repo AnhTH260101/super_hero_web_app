@@ -1,10 +1,10 @@
 {
   "id": "65600",
   "slug": "ct-kurosaki",
-  "name": "CT-Kurosaki",
-  "title": "Vũ trụ sức mạnh • UR CT-Kurosaki",
+  "name": "CT-Kurosaki (Hư Hóa)",
+  "title": "Vũ trụ sức mạnh • UR CT-Kurosaki (Hư Hóa)",
   "gameSlug": "sieu-anh-hung",
-  "avatar": "/images/heroes/icon_heroes/ct-kurosaki.png",
+  "avatar": "/images/heroes/icon_heroes/icon_Ichig2.png",
   "fullArt": "/images/heroes/full/image_Ichig_2.png",
   "element": "Vũ trụ sức mạnh",
   "isAfterlifeForm": true,
@@ -12,7 +12,7 @@
   "rarity": "UR",
   "role": "Tanker",
   "tier": "S+",
-  "overview": "Thể kết hợp của 3 loại năng lượng: Hollow, Quincy, Bleach, có tiềm năng vô hạn, coi trọng tình bạn, có chí hướng!",
+  "overview": "Dạng Hư Hóa (Vasto Lorde) mặt nạ sọc đỏ uy mãnh của Kurosaki, giải phóng Lực Vương Hư, Hư Vô Trảm và Vương Hư.Sáng.",
   "skills": [
     {
       "name": "Hư Vô Trảm",
@@ -106,85 +106,85 @@
   "afterlifeMaterials": [
     {
       "name": "Kurosaki",
-      "icon": "/images/heroes/kurosaki.png",
+      "icon": "/images/heroes/icon_heroes/kurosaki.png",
       "amount": 7,
       "type": "hero"
     },
     {
       "name": "Boa Hancock",
-      "icon": "/images/heroes/boa-hancock.png",
+      "icon": "/images/heroes/icon_heroes/boa-hancock.png",
       "amount": 1,
       "type": "hero"
     },
     {
       "name": "Seya",
-      "icon": "/images/heroes/seya.png",
+      "icon": "/images/heroes/icon_heroes/seya.png",
       "amount": 1,
       "type": "hero"
     },
     {
       "name": "Đá Chuyển Sinh",
-      "icon": "/images/items/i_b_0_0.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_0_0.png",
       "amount": 450,
       "type": "item"
     },
     {
       "name": "Mũ Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_4.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_4.png",
       "amount": 10,
       "type": "item"
     },
     {
       "name": "Giáp Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_1.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_1.png",
       "amount": 10,
       "type": "item"
     },
     {
       "name": "Đá Thần Lực",
-      "icon": "/images/items/i_b_shenli_2.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_shenli_2.png",
       "amount": 30,
       "type": "item"
     },
     {
       "name": "Đá Nguyên Lực",
-      "icon": "/images/items/i_b_yuanli_2.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_yuanli_2.png",
       "amount": 20,
       "type": "item"
     },
     {
       "name": "Kiếm Thần Lực",
-      "icon": "/images/items/i_b_shenli_3.png",
+      "icon": "/images/icon_chuyen_sinh/i_b_shenli_3.png",
       "amount": 20,
       "type": "item"
     },
     {
       "name": "Đá Chuyển Sinh Cao Cấp",
-      "icon": "/images/items/i_c_gaojizhuansheng.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_gaojizhuansheng.png",
       "amount": 250,
       "type": "item"
     },
     {
       "name": "Đá Linh Phách",
-      "icon": "/images/items/i_c_lingpozhishi.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_lingpozhishi.png",
       "amount": 30,
       "type": "item"
     },
     {
       "name": "Mũ Linh Phách",
-      "icon": "/images/items/i_c_lingpozhikui.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_lingpozhikui.png",
       "amount": 30,
       "type": "item"
     },
     {
       "name": "Đá Nguyên Phách",
-      "icon": "/images/items/i_c_yuanpozhihsi.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhihsi.png",
       "amount": 40,
       "type": "item"
     },
     {
       "name": "Mũ Nguyên Phách",
-      "icon": "/images/items/i_c_yuanpozhikui.png",
+      "icon": "/images/icon_chuyen_sinh/i_c_yuanpozhikui.png",
       "amount": 40,
       "type": "item"
     }
@@ -294,7 +294,7 @@
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
+          "icon": "/images/heroes/icon_heroes/edward.png",
           "amount": 1,
           "type": "hero"
         }
@@ -420,18 +420,18 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/icon_heroes/sonkoku.png",
-          "slug": "sonkoku"
+          "icon": "/images/heroes/icon_heroes/kamui.png",
+          "slug": "kamui"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/icon_heroes/ichigo.png",
-          "slug": "ichigo"
+          "icon": "/images/heroes/icon_heroes/pikachu.png",
+          "slug": "pikachu"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/icon_heroes/mabara.png",
-          "slug": "mabara"
+          "icon": "/images/heroes/icon_heroes/chopper.png",
+          "slug": "chopper"
         },
         {
           "name": "Kurosaki",
@@ -451,18 +451,18 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/icon_heroes/ichigo.png",
-          "slug": "ichigo"
+          "icon": "/images/heroes/icon_heroes/pikachu.png",
+          "slug": "pikachu"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/icon_heroes/mabara.png",
-          "slug": "mabara"
+          "icon": "/images/heroes/icon_heroes/chopper.png",
+          "slug": "chopper"
         },
         {
           "name": "Kurosaki",
@@ -482,13 +482,13 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/icon_heroes/veheta.png",
-          "slug": "veheta"
+          "icon": "/images/heroes/icon_heroes/sailor-moon.png",
+          "slug": "sailor-moon"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Kurosaki",
@@ -513,8 +513,8 @@
       "materials": [
         {
           "name": "Sonkoku",
-          "icon": "/images/heroes/icon_heroes/sonkoku.png",
-          "slug": "sonkoku"
+          "icon": "/images/heroes/icon_heroes/kamui.png",
+          "slug": "kamui"
         },
         {
           "name": "Kurosaki",
@@ -523,13 +523,13 @@
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/icon_heroes/mabara.png",
-          "slug": "mabara"
+          "icon": "/images/heroes/icon_heroes/chopper.png",
+          "slug": "chopper"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         }
       ],
       "statBonus": "+540 Công, +534 Thủ, +237 HP, +486 Tốc",
@@ -544,18 +544,18 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
-          "slug": "phuong-hoang"
+          "icon": "/images/heroes/icon_heroes/yasuo.png",
+          "slug": "yasuo"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/icon_heroes/yasuke.png",
-          "slug": "yasuke"
+          "icon": "/images/heroes/icon_heroes/doraemon.png",
+          "slug": "doraemon"
         },
         {
           "name": "Kurosaki",
@@ -575,13 +575,13 @@
       "materials": [
         {
           "name": "Veheta",
-          "icon": "/images/heroes/icon_heroes/veheta.png",
-          "slug": "veheta"
+          "icon": "/images/heroes/icon_heroes/sailor-moon.png",
+          "slug": "sailor-moon"
         },
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Kurosaki",
@@ -606,18 +606,18 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Ichigo",
-          "icon": "/images/heroes/icon_heroes/ichigo.png",
-          "slug": "ichigo"
+          "icon": "/images/heroes/icon_heroes/pikachu.png",
+          "slug": "pikachu"
         },
         {
           "name": "Mabara",
-          "icon": "/images/heroes/icon_heroes/mabara.png",
-          "slug": "mabara"
+          "icon": "/images/heroes/icon_heroes/chopper.png",
+          "slug": "chopper"
         },
         {
           "name": "Kurosaki",
@@ -637,18 +637,18 @@
       "materials": [
         {
           "name": "Seya",
-          "icon": "/images/heroes/icon_heroes/seya.png",
-          "slug": "seya"
+          "icon": "/images/heroes/icon_heroes/edward.png",
+          "slug": "edward"
         },
         {
           "name": "Phượng Hoàng",
-          "icon": "/images/heroes/icon_heroes/phuong-hoang.png",
-          "slug": "phuong-hoang"
+          "icon": "/images/heroes/icon_heroes/yasuo.png",
+          "slug": "yasuo"
         },
         {
           "name": "Yasuke",
-          "icon": "/images/heroes/icon_heroes/yasuke.png",
-          "slug": "yasuke"
+          "icon": "/images/heroes/icon_heroes/doraemon.png",
+          "slug": "doraemon"
         },
         {
           "name": "Kurosaki",
@@ -664,19 +664,9 @@
       "nameplateColor": "bg-black border-amber-400"
     }
   ],
-  "effects": [
-    "Vô Địch",
-    "Hồi Sinh",
-    "Miễn Khống Chế",
-    "Hộ Thuẫn",
-    "Giảm Thương",
-    "Hóa Giải",
-    "Trọng Thương",
-    "Choáng",
-    "Hóa Đá",
-    "Đóng Băng",
-    "Hỗn Loạn",
-    "Đứng Im",
+  "combatTags": [
+    "Chống Chịu",
+    "Khống Chế",
     "Chế Giễu",
     "Tsukuyomi",
     "Phản Đòn",

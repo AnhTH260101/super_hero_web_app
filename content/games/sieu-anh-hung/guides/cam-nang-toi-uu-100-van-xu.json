@@ -1,0 +1,334 @@
+{
+  "id": "guide-cam-nang-toi-uu-100-van-xu",
+  "slug": "cam-nang-toi-uu-100-van-xu",
+  "title": "Cẩm Nang Chiến Thuật: Tối Ưu Hóa Dòng Tiền Cán Mốc 100 Vạn Xu",
+  "category": "ban-co-lua",
+  "schedule": "Diễn ra định kỳ vào các đợt sự kiện Lễ lớn / Tết có Bàn Cờ Lửa kết hợp Vòng Quay Loạn Thế",
+  "description": "Kế hoạch dòng tiền khép kín: Cán mốc 100 vạn Xu (1.000.000 Xu) với số vốn ban đầu thấp nhất chỉ ~72.5 vạn Xu, ôm trọn 200 mảnh Pain / Cid Kageno, hưởng trọn 40% hoàn Bàn Cờ Lửa và hốt trọn Jackpot 5 vạn Xu Kho Báu Mê Cung.",
+  "thumbnail": "/images/guides/toi-uu-100-van-xu/jackpot_me_cung.png",
+  "relatedActivities": [
+    "ban-co-lua",
+    "kho-bau-me-cung",
+    "vong-quay-lien-server"
+  ],
+  "tags": [
+    "100 Vạn Xu",
+    "Tối Ưu Vốn",
+    "Bàn Cờ Lửa",
+    "Kho Báu Mê Cung",
+    "Vòng Quay Loạn Thế",
+    "Pain",
+    "Cid Kageno",
+    "Ngọc Rồng",
+    "Jackpot",
+    "Dòng Tiền"
+  ],
+  "updatedAt": "2026-10-21T14:05:39.981Z",
+  "blocks": [
+    {
+      "id": "block-overview-goals",
+      "type": "text",
+      "title": "🎯 Mục Tiêu & Kế Hoạch Dòng Tiền Khép Kín",
+      "content": "• Mục tiêu cốt lõi: Cán mốc 100 vạn Xu (1.000.000 Xu) tích lũy tiêu cả ngày với số vốn Xu chuẩn bị ban đầu thấp nhất có thể (~72.5 vạn Xu, thay vì phải chuẩn bị đủ 100 vạn Xu).\n• Đồng thời: Lấy trọn 200 mảnh tướng UR/SSR siêu cấp Pain hoặc Cid Kageno tại #vong-quay-lien-server, tận dụng trọn vẹn 40% hoàn Xu từ #ban-co-lua sau 22:00, và hốt trọn Jackpot 5 vạn Xu (thực tế nổ hũ lên tới 58.888 Xu) trong #kho-bau-me-cung.\n• Lợi ích vượt trội: Tiết kiệm gần 27.5 vạn Xu tiền nạp/tích lũy mà vẫn nhận trọn vẹn toàn bộ mốc quà cao nhất của ngày!",
+      "variant": "tip"
+    },
+    {
+      "id": "block-cashflow-simulator",
+      "type": "calculator",
+      "title": "Công Cụ Tính Toán Dòng Tiền Tương Tác",
+      "description": "Thử nghiệm số vốn ban đầu để xem dòng tiền tuần hoàn và kết quả",
+      "calculatorType": "cashflow-100v",
+      "defaultCapital": 72.5
+    },
+    {
+      "id": "block-core-constraints",
+      "type": "text",
+      "title": "⚡ 4 Ràng Buộc Cốt Lõi Vận Hành Sự Kiện (Bắt Buộc Thuộc Lòng)",
+      "content": "Qua trích xuất và phân tích trực tiếp từ dữ liệu video thực chiến của VIP, các quy tắc vận hành dòng tiền bao gồm:\n\n1. Vòng quay liên server (Vòng quay Loạn Thế):\n• Mở cố định vào 2 khung giờ vàng: 12:00 và 21:00.\n• Chi phí: Tiêu tốn khoảng 16 vạn Xu (160.000 Xu) để gom đủ 200 mảnh tướng Pain hoặc Cid Kageno.\n• Lưu ý sống còn: Khoản 16 vạn này KHÔNG nằm trong #ban-co-lua, do đó KHÔNG ĐƯỢC HOÀN 40% (nhưng vẫn tính đầy đủ vào tích lũy tiêu cả ngày).\n\n2. Sự kiện Bàn Cờ Lửa (BCL):\n• Kết thúc lúc 22:00: Sau 22h00 sự kiện sẽ đóng cửa hoàn toàn, không thể tiêu thêm bất kỳ lượng Xu nào vào BCL.\n• Tỷ lệ hoàn Xu chốt cố định: 40% (r = 0.40). Hệ thống sẽ gửi trả toàn bộ Xu hoàn về hòm thư sau 22:00.\n\n3. Cửa sổ tiêu sau 22:00 (22:00 – 24:00):\n• Sau khi nhận Xu hoàn BCL lúc 22:00, người chơi có đúng 2 tiếng để tiêu tiếp vào các hoạt động khác (shop, tính năng ngày, các vòng quay còn mở) để hoàn thành mục tiêu 100 vạn Xu trước khi hệ thống reset sang ngày mới.\n\n4. Cơ chế Ngọc Rồng & Jackpot Kho Báu Mê Cung:\n• Để đảm bảo chắc chắn trúng giải thưởng lớn (Jackpot ~5 vạn Xu, thực tế nổ hũ 58.888 Xu), người chơi cần tích đủ 171 Ngọc Rồng để reset và quay sạch bể kho báu.",
+      "variant": "warning"
+    },
+    {
+      "id": "block-gallery-vong-quay-ls",
+      "type": "gallery",
+      "title": "📸 Minh Chứng 1: Vòng Quay Loạn Thế Liên Server (Săn Pain & Cid Kageno)",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/vong_quay_loan_the.png",
+          "caption": "Giao diện Vòng quay Loạn Thế liên server mở vào 12h và 21h — Cần 16 vạn Xu để lấy đủ 200 mảnh tướng (khoản này không được hoàn BCL)"
+        }
+      ]
+    },
+    {
+      "id": "block-gallery-sieu-phan-nap",
+      "type": "gallery",
+      "title": "📸 Minh Chứng 2: Hoạt Động Siêu Phản Nạp Tết (Tặng Thêm Ngọc Rồng Theo Mốc Tiêu)",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/sieu_phan_nap_tet.png",
+          "caption": "Giao diện Siêu Phản Nạp Tết — Nhận thêm Ngọc Rồng theo từng bậc tiêu Xu"
+        },
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/moc_sieu_phan_nap.png",
+          "caption": "Chi tiết các mốc chi tiêu: 30k (3 viên), 75k (6 viên), 100k (9 viên), 200k và 500k giúp tích lũy thêm ~68 Ngọc Rồng"
+        }
+      ]
+    },
+    {
+      "id": "block-gallery-tich-tieu-jackpot",
+      "type": "gallery",
+      "title": "📸 Minh Chứng 3: Mốc Tích Tiêu Thường (60v, 80v, 100v) & Nổ Hũ Jackpot 58.888 Xu",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/moc_600k_800k_1000k.png",
+          "caption": "Mốc quà tích tiêu thường: 60 vạn (tặng 88 Ngọc Rồng), 80 vạn (tặng 168 Ngọc Rồng), 100 vạn (tặng 388 Ngọc Rồng)"
+        },
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/jackpot_me_cung.png",
+          "caption": "Thông báo nổ hũ Jackpot Kho Báu Mê Cung thực tế đạt 58.888 Xu (vượt mức 50.000 Xu lý thuyết)"
+        }
+      ]
+    },
+    {
+      "id": "block-gallery-nhan-thuong",
+      "type": "gallery",
+      "title": "📸 Minh Chứng 4: Màn Hình Nhận Thưởng Thực Tế Của VIP",
+      "layout": "single",
+      "images": [
+        {
+          "url": "/images/guides/toi-uu-100-van-xu/nhan_qua_pain_cid_ngoc_rong.png",
+          "caption": "Nhận thưởng thực tế: 200 mảnh Pain, Cid Kageno cùng hàng trăm Ngọc Rồng từ các mốc 60 vạn (x88) và 80 vạn (x168)"
+        }
+      ]
+    },
+    {
+      "id": "block-math-model",
+      "type": "text",
+      "title": "📐 Mô Hình Toán Học Cân Bằng Dòng Tiền & Công Thức Tối Ưu Vốn",
+      "content": "Gọi X₀ là số Xu vốn ban đầu cần chuẩn bị (đơn vị: Vạn Xu):\n\n1. Phân bổ ngân sách chi tiêu trước 22:00:\n• Tiêu Vòng quay Loạn Thế liên server (trước 22h): S_LS = 16 vạn Xu (không hoàn).\n• Tiêu vào Bàn Cờ Lửa (trước 22h): S_BCL = X₀ - 16 vạn Xu.\n• Xu hoàn 40% từ BCL trả về sau 22h: H_22h = 0.40 × (X₀ - 16).\n• Số tiền tiêu sau 22h (S_sau22h) gồm: Xu hoàn H_22h + Jackpot Mê Cung (5 vạn Xu).\n\n2. Thiết lập phương trình cân bằng cán đích 100 vạn Xu:\nTổng tiêu cả ngày = S_LS + S_BCL + S_sau22h = 100\n⇔ 16 + (X₀ - 16) + [0.40 × (X₀ - 16) + 5] = 100\n⇔ X₀ + 0.40 X₀ - 6.4 + 5 = 100\n⇔ 1.40 X₀ - 1.4 = 100\n⇔ 1.40 X₀ = 101.4\n⇔ X₀ = 101.4 / 1.40 ≈ 72.43 vạn Xu.\n\n➔ KẾT LUẬN VỐN TỐI ƯU: Chỉ cần chuẩn bị đúng 72.5 vạn Xu (725.000 Xu). Nếu muốn có số dư đệm an toàn tuyệt đối, chuẩn bị tròn 73 vạn Xu.",
+      "variant": "strategy"
+    },
+    {
+      "id": "block-timeline-table",
+      "type": "table",
+      "title": "📅 Bảng Lộ Trình Hành Động Chuẩn Theo Từng Khung Giờ (Timeline)",
+      "description": "Kịch bản triển khai từng bước chi tiết với số vốn chuẩn bị 72.5 vạn Xu (725.000 Xu):",
+      "columns": [
+        {
+          "id": "col-time",
+          "label": "Mốc Giờ",
+          "type": "text"
+        },
+        {
+          "id": "col-action",
+          "label": "Hành Động Chi Tiết",
+          "type": "text"
+        },
+        {
+          "id": "col-wallet",
+          "label": "Biến Động Số Dư Ví",
+          "type": "text"
+        },
+        {
+          "id": "col-accum",
+          "label": "Tích Lũy Tiêu Ngày",
+          "type": "text"
+        },
+        {
+          "id": "col-dragon",
+          "label": "Lượng Ngọc Rồng",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        {
+          "id": "row-start",
+          "cells": {
+            "col-time": {
+              "text": "Đầu ngày"
+            },
+            "col-action": {
+              "text": "Chuẩn bị vốn ban đầu trong tài khoản (Nạp hoặc tích lũy sẵn)."
+            },
+            "col-wallet": {
+              "text": "72.5 vạn Xu"
+            },
+            "col-accum": {
+              "text": "0 Xu"
+            },
+            "col-dragon": {
+              "text": "0 viên"
+            }
+          }
+        },
+        {
+          "id": "row-ls",
+          "cells": {
+            "col-time": {
+              "text": "12:00 & 21:00"
+            },
+            "col-action": {
+              "text": "Vào Vòng quay Loạn Thế liên server, tiêu 16 vạn Xu để gom đủ 200 mảnh Pain / Cid."
+            },
+            "col-wallet": {
+              "text": "Còn: 72.5 - 16 = 56.5 vạn Xu"
+            },
+            "col-accum": {
+              "text": "16 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "~12 viên (Phản nạp tết mốc 10 vạn)"
+            }
+          }
+        },
+        {
+          "id": "row-bcl",
+          "cells": {
+            "col-time": {
+              "text": "Trước 22:00"
+            },
+            "col-action": {
+              "text": "Đổ toàn bộ 56.5 vạn Xu còn lại vào Bàn Cờ Lửa (soi Tướng/Soái, lật 10 ô)."
+            },
+            "col-wallet": {
+              "text": "Còn: 0 Xu"
+            },
+            "col-accum": {
+              "text": "16 + 56.5 = 72.5 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "Nhận mốc 60 vạn ➔ Đạt ~156 viên"
+            }
+          }
+        },
+        {
+          "id": "row-refund",
+          "cells": {
+            "col-time": {
+              "text": "22:00 Đúng"
+            },
+            "col-action": {
+              "text": "BCL kết thúc. Hệ thống hoàn trả 40% của 56.5 vạn Xu vào hòm thư."
+            },
+            "col-wallet": {
+              "text": "Nhận về: 22.6 vạn Xu"
+            },
+            "col-accum": {
+              "text": "72.5 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "156 viên"
+            }
+          }
+        },
+        {
+          "id": "row-step80",
+          "cells": {
+            "col-time": {
+              "text": "22:05 – 22:30"
+            },
+            "col-action": {
+              "text": "Trích 7.5 vạn Xu (từ số hoàn 22.6 vạn) tiêu vào các hoạt động khác để chạm mốc 80 vạn."
+            },
+            "col-wallet": {
+              "text": "Còn: 22.6 - 7.5 = 15.1 vạn Xu"
+            },
+            "col-accum": {
+              "text": "72.5 + 7.5 = 80 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "Cán mốc 80 vạn ➔ Nhận thêm 168 viên (Tổng: 324 viên)"
+            }
+          }
+        },
+        {
+          "id": "row-maze",
+          "cells": {
+            "col-time": {
+              "text": "22:30 – 23:00"
+            },
+            "col-action": {
+              "text": "Vào Kho Báu Mê Cung, dùng 171 viên để reset và quay nổ hũ Jackpot 5 vạn Xu."
+            },
+            "col-wallet": {
+              "text": "Cộng 5 vạn ➔ Có: 20.1 vạn Xu"
+            },
+            "col-accum": {
+              "text": "80 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "Đã ăn trọn Jackpot 5 vạn Xu"
+            }
+          }
+        },
+        {
+          "id": "row-finish",
+          "cells": {
+            "col-time": {
+              "text": "23:00 – 23:59"
+            },
+            "col-action": {
+              "text": "Tiêu hết toàn bộ 20.1 vạn Xu còn lại vào các shop/vòng quay ngày để về đích."
+            },
+            "col-wallet": {
+              "text": "Còn: 0 Xu"
+            },
+            "col-accum": {
+              "text": "80 + 20.1 = 100.1 vạn Xu"
+            },
+            "col-dragon": {
+              "text": "🎉 Hoàn thành mốc 100 vạn Xu!"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "block-stepflow-cashflow",
+      "type": "step-flow",
+      "title": "🔄 Sơ Đồ 5 Bước Tuần Hoàn Dòng Tiền",
+      "description": "Chu trình luân chuyển dòng tiền tối ưu không có điểm nghẽn:",
+      "steps": [
+        {
+          "id": "step-1",
+          "name": "Bước 1: Chuẩn bị 72.5 vạn Xu",
+          "description": "Số vốn chuẩn bị ban đầu trong tài khoản (chỉ bằng 72.5% so với mục tiêu 100 vạn).",
+          "image": "/images/guides/toi-uu-100-van-xu/moc_10k_20k_30k.png"
+        },
+        {
+          "id": "step-2",
+          "name": "Bước 2: Quay Liên Server (16 vạn Xu)",
+          "description": "Tiêu 16 vạn tại 12h/21h gom đủ 200 mảnh Pain hoặc Cid Kageno.",
+          "image": "/images/guides/toi-uu-100-van-xu/vong_quay_loan_the.png"
+        },
+        {
+          "id": "step-3",
+          "name": "Bước 3: Ném 56.5 vạn vào BCL trước 22h",
+          "description": "Tiêu vào Bàn Cờ Lửa, tích lũy ngày chạm 72.5 vạn, đạt mốc 60v có ~156 Ngọc Rồng.",
+          "image": "/images/guides/toi-uu-100-van-xu/moc_600k_800k_1000k.png"
+        },
+        {
+          "id": "step-4",
+          "name": "Bước 4: Nhận Hoàn 22.6v & Cán Mốc 80v",
+          "description": "22h nhận hoàn 40% (22.6 vạn). Tiêu 7.5 vạn chạm mốc 80 vạn, nhận thêm 168 Ngọc Rồng (tổng >324 viên).",
+          "image": "/images/guides/toi-uu-100-van-xu/nhan_qua_pain_cid_ngoc_rong.png"
+        },
+        {
+          "id": "step-5",
+          "name": "Bước 5: Nổ Hũ 5v Mê Cung & Về Đích 100.1v",
+          "description": "Dùng 171 viên quay nổ Jackpot 5 vạn. Tiêu nốt 20.1 vạn Xu còn lại, hoàn thành trọn vẹn 100.1 vạn Xu!",
+          "image": "/images/guides/toi-uu-100-van-xu/jackpot_me_cung.png"
+        }
+      ]
+    },
+    {
+      "id": "block-rules-notes",
+      "type": "text",
+      "title": "⚠️ 3 Nguyên Tắc Kỷ Luật Sống Còn Khi Triển Khai",
+      "content": "1. Canh đúng khung giờ quay liên server:\nĐúng 12:00 và 21:00 phải vào quay 16 vạn Xu để chốt đủ 200 mảnh tướng Pain / Cid. Sau 22:00 vòng quay liên server đóng, không còn cơ hội gom mảnh!\n\n2. Tuyệt đối không để quá hạn 22:00:\nToàn bộ 56.5 vạn Xu ném vào Bàn Cờ Lửa PHẢI HOÀN TẤT TRƯỚC 22:00. Nếu để lỡ sau 22h, sự kiện đóng cửa và bạn mất trắng 40% Xu hoàn trả (gần 22.6 vạn Xu), dẫn đến sụp đổ toàn bộ chuỗi tính toán dòng tiền!\n\n3. Tuyệt đối tuân thủ đúng trình tự sau 22:00:\nSau 22h khi nhận 22.6 vạn Xu hoàn về ví, BẮT BUỘC phải trích 7.5 vạn Xu tiêu vào hoạt động khác để tích lũy ngày cán mốc 80 vạn Xu TRƯỚC. Khi đó bạn mới nhận được thêm 168 Ngọc Rồng (tổng có >324 viên). Lúc này mới đủ 171 viên để vào #kho-bau-me-cung nổ hũ Jackpot 5 vạn Xu an toàn 100%!",
+      "variant": "warning"
+    }
+  ]
+}

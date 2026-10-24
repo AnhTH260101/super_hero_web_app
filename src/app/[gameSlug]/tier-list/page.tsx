@@ -57,16 +57,6 @@ export default async function TierListPage({ params }: Props) {
               Phân cấp sức mạnh nhân vật theo các bậc T0, T1, T2, T3... Đánh giá thực chiến và tối ưu hóa tài nguyên leo top.
             </p>
           </div>
-
-          <div className="shrink-0">
-            <Link
-              href={`/admin/${gameSlug}`}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-amber-400 border border-slate-800 text-xs font-bold transition-all"
-            >
-              <Settings className="w-4 h-4" />
-              <span>Quản Lý Tier List</span>
-            </Link>
-          </div>
         </div>
 
         <MonetizationBanner

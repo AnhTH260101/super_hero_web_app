@@ -213,5 +213,10 @@
     "id": "ho-den",
     "name": "Ho Den",
     "icon": "/images/resources/sources/ho-den.png"
+  },
+  {
+    "id": "dau-truong",
+    "name": "Đấu trường",
+    "icon": "/images/resources/sources/anh-hung.png"
   }
 ]
