@@ -1,61 +1,677 @@
 {
   "id": "guide-1791999772164",
   "slug": "bai-viet-2164",
-  "title": "Hướng dẫn ban sức",
+  "title": "Hướng Dẫn Ban Sức Vận Mệnh - Cơ Chế Điểm Hóa Đá A & 10 Bộ Hiệu Ứng",
   "category": "ban-suc",
-  "schedule": "",
-  "description": "Cơ chế để đấm những thằng có lực chiến cao hơn bạn.",
-  "thumbnail": "",
+  "schedule": "Tính năng bồi dưỡng trang bị mở thường trực (kèm sự kiện Giải Đấu Ban Sức định kỳ)",
+  "description": "Cơ chế để đấm những thằng có lực chiến cao hơn bạn: Chi tiết quy tắc Ban Sức - Điểm Hóa - Thác Ấn, quy trình 6 bước ép set Đá Vận Mệnh phẩm chất A và bảng tra cứu 10 bộ hiệu ứng Ban Sức.",
+  "thumbnail": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-6.png",
+  "relatedActivities": [
+    "vong-quay-lien-server",
+    "ban-co-lua",
+    "doat-bao",
+    "thap-hoang-tinh-te"
+  ],
+  "tags": [
+    "Ban Sức",
+    "Ban Sức Vận Mệnh",
+    "Đá Điểm Hóa",
+    "Đá In",
+    "Thủy Tinh Empower",
+    "Aether",
+    "Titan",
+    "Con Lắc",
+    "Vương Tọa",
+    "Lãnh Chúa",
+    "Thần Thư"
+  ],
   "blocks": [
     {
-      "id": "block-1791999772164-1",
+      "id": "block-ban-suc-overview",
       "type": "text",
-      "title": "Tổng Quan & Giới Thiệu",
-      "content": "Trước tiên giới thiệu về hiệu ứng của game",
-      "variant": "normal"
+      "title": "⚡ Tổng Quan & 9 Quy Tắc Cốt Lõi Của Ban Sức Vận Mệnh",
+      "content": "Ban Sức Vận Mệnh là cơ chế gắn hiệu ứng đặc biệt (Thần Hộ, Loại Trừ Vô Địch, Thần Ngự, Thần Cấm, Ngược Thời Gian...) lên các viên Đá Quý Vận Mệnh. Khi 1 món trang bị (Item) khảm đủ 4 viên Đá Vận Mệnh có cùng loại Ban Sức, trang bị đó sẽ kích hoạt kỹ năng bộ Ban Sức tương ứng.\n\n• 1. Điều kiện cấp đá: Chỉ Đá Quý Vận Mệnh từ cấp 4 (LV4) trở lên mới có thể tiến hành Ban Sức và Điểm Hóa.\n• 2. Trần phẩm chất theo cấp đá:\n  - Đá Vận Mệnh LV4: Kích hoạt tối đa phẩm chất C (D ➔ C).\n  - Đá Vận Mệnh LV5: Kích hoạt tối đa phẩm chất B (D ➔ C ➔ B).\n  - Đá Vận Mệnh LV6: Kích hoạt tối đa phẩm chất A (D ➔ C ➔ B ➔ A).\n• 3. Quy tắc tính phẩm chất bộ 4 viên: Phẩm chất của bộ 4 viên trên cùng 1 món trang bị sẽ tính theo viên có phẩm chất thấp nhất (VD: 3 viên A + 1 viên C ➔ cả trang bị chỉ kích hoạt hiệu ứng bậc C).\n• 4. Quy tắc cộng dồn: Các bộ Ban Sức chiến đấu không thể cộng dồn (chồng) hiệu ứng trùng nhau trên cùng 1 tướng. Riêng bộ Thần Thư (tăng % thuộc tính đá quý ngoài chiến đấu) có thể đeo chồng nhiều bộ trên cùng 1 tướng.\n• 5. Lưu ý tháo đá: Đá Vận Mệnh đang khảm trên trang bị của tướng sẽ không hiển thị trong giao diện Ban Sức — bắt buộc phải tháo đá ra khỏi trang bị mới thấy đá để thao tác.\n• 6. Phân biệt 3 tính năng Ban Sức - Thác Ấn - Điểm Hóa:\n  - Ban Sức: Dùng Đá Thủy Tinh Empower + 688 Kim Cương (Xu) trên Đá Vận Mệnh LV4+ để mở ngẫu nhiên 1 dòng hiệu ứng Ban Sức.\n  - Thác Ấn: Dùng Đá In (D / S / SSS) hấp thụ dòng chữ Ban Sức có sẵn trên Đá Vận Mệnh để rút thành viên Đá Điểm Hóa chỉ định (phẩm chất Đá In càng cao thì chất lượng và tỉ lệ Điểm Hóa của Đá Điểm Hóa tạo ra càng cao).\n  - Điểm Hóa: Dùng Đá Điểm Hóa ép thẳng dòng chữ mong muốn sang viên Đá Vận Mệnh mục tiêu.\n• 7. Bí quyết nâng thẳng lên Đá A (Quan trọng nhất): Phẩm chất sau khi Điểm Hóa không yêu cầu cấp Đá In mà phụ thuộc vào cấp của viên Đá Vận Mệnh (Huyết Thạch) mục tiêu! Bạn hoàn toàn có thể lấy Đá Điểm Hóa bậc C (hoặc mở từ Rương Tự Chọn C Điểm Hóa S) đem Điểm Hóa vào Đá Vận Mệnh LV6 để nổ thẳng ra phẩm chất A (VD: C - Aether cấp thấp vẫn Điểm Hóa ra được A - Aether trên Đá LV6).\n• 8. Cơ chế bảo hiểm Điểm Hóa: Đá Vận Mệnh cấp càng cao thì mốc số lần Điểm Hóa bảo hiểm yêu cầu càng nhiều; ngay khi Điểm Hóa thành công thì bộ đếm số lần này sẽ đặt lại về 0.",
+      "variant": "strategy"
     },
     {
-      "id": "block-1792000079292",
+      "id": "block-ban-suc-resources",
+      "type": "resource-card",
+      "title": "💎 Các Nguyên Liệu Ban Sức Quan Trọng & Nguồn Kiếm",
+      "description": "4 loại tài nguyên cốt lõi cần tích lũy để chế tác và nâng cấp các bộ Đá Ban Sức Vận Mệnh:",
+      "cards": [
+        {
+          "id": "card-ruong-da-vm-4",
+          "itemType": "item",
+          "name": "Rương đá vận mệnh level 4",
+          "icon": "/images/resources/items/ruong-van-menh-4.png",
+          "description": [
+            "Đá Vận Mệnh tăng lượng chỉ số cực lớn và là phôi bắt buộc từ LV4 trở lên để mở tính năng Ban Sức.",
+            "Ghép 3 viên cùng cấp để nâng lên LV5 (trần phẩm B) và LV6 (trần phẩm A)."
+          ],
+          "sources": [
+            {
+              "sourceId": "vong-quay-lien-server",
+              "name": "Vòng quay liên server",
+              "icon": "/images/resources/sources/vong-quay-lien-server.png"
+            },
+            {
+              "sourceId": "ban-co-lua",
+              "name": "Bàn Cờ Lửa",
+              "icon": "/images/resources/sources/ban-co-lua.png"
+            },
+            {
+              "sourceId": "xuat-chinh",
+              "name": "Hạn Giờ Xuất Chinh",
+              "icon": "/images/resources/sources/han-gio-xuat-chinh.png"
+            },
+            {
+              "sourceId": "sieu-ba-ho",
+              "name": "Siêu Bá Hộ",
+              "icon": "/images/resources/sources/sieu-ba-ho.png"
+            }
+          ]
+        },
+        {
+          "id": "card-thuy-tinh-empower",
+          "itemType": "item",
+          "name": "Đá thủy tinh Empower",
+          "icon": "/images/resources/items/da-thuy-tinh-empower.png",
+          "description": [
+            "Nguyên liệu dùng trong tab Ban Sức để mở ngẫu nhiên 1 loại hiệu ứng lên Đá Vận Mệnh LV4+.",
+            "Mỗi lần Ban Sức tiêu hao 1 Thủy Tinh Empower + 688 Kim Cương (Xu)."
+          ],
+          "sources": [
+            {
+              "sourceId": "thap-hoang-tinh-te",
+              "name": "Tháp Hoang Tinh Tế",
+              "icon": "/images/resources/sources/thap-hoang-tinh-te.png"
+            },
+            {
+              "sourceId": "hot",
+              "name": "Sự Kiện Hot",
+              "icon": "/images/resources/sources/hot.png"
+            },
+            {
+              "sourceId": "danh-hieu",
+              "name": "Danh Hiệu",
+              "icon": "/images/resources/sources/danh-hieu.png"
+            }
+          ]
+        },
+        {
+          "id": "card-da-in-s",
+          "itemType": "item",
+          "name": "Đá in S / SSS",
+          "icon": "/images/resources/items/da-in-s.png",
+          "description": [
+            "Dùng trong tab Thác Ấn để hút hiệu ứng và phẩm chất từ Đá Vận Mệnh sang thành viên Đá Điểm Hóa tương ứng.",
+            "Đá In phẩm chất càng cao (S / SS / SSS) sẽ tạo ra Đá Điểm Hóa có tỉ lệ Điểm Hóa thành công và mốc bảo hiểm tốt hơn."
+          ],
+          "sources": [
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png"
+            },
+            {
+              "sourceId": "ban-suc",
+              "name": "Giải Đấu Ban Sức",
+              "icon": "/images/resources/sources/giai-dau-ban-suc.png"
+            },
+            {
+              "sourceId": "hot",
+              "name": "Sự Kiện Hot",
+              "icon": "/images/resources/sources/hot.png"
+            }
+          ]
+        },
+        {
+          "id": "card-ruong-diem-hoa-s",
+          "itemType": "item",
+          "name": "Rương tự chọn C điểm hóa S",
+          "icon": "/images/resources/items/ruong-diem-hoa-s.png",
+          "description": [
+            "Mở ra được tùy chọn trực tiếp 1 viên Đá Điểm Hóa C cấp S theo đúng bộ mình cần (Aether, Titan, Lãnh Chúa, Vương Tọa, Con Lắc...).",
+            "Giúp tiết kiệm hàng ngàn Xu vì không cần quay random bằng Đá Thủy Tinh Empower."
+          ],
+          "sources": [
+            {
+              "sourceId": "ban-co-lua",
+              "name": "Bàn Cờ Lửa",
+              "icon": "/images/resources/sources/ban-co-lua.png"
+            },
+            {
+              "sourceId": "doat-bao",
+              "name": "Đoạt Bảo",
+              "icon": "/images/resources/sources/doat-bao.png"
+            },
+            {
+              "sourceId": "thap-hoang-tinh-te",
+              "name": "Tháp Hoang Tinh Tế",
+              "icon": "/images/resources/sources/thap-hoang-tinh-te.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "block-ban-suc-stepflow",
+      "type": "step-flow",
+      "title": "🔄 Quy Trình 6 Bước Ép Bộ Đá Ban Sức Phẩm Chất A",
+      "description": "Sơ đồ từng bước từ lúc ghép phôi Đá Vận Mệnh LV6 đến khi Điểm Hóa kích hoạt đủ bộ 4 viên phẩm chất A:",
+      "steps": [
+        {
+          "id": "step-ban-suc-1",
+          "name": "Bước 1: Ghép Đá LV6",
+          "description": "Ghép Đá Vận Mệnh lên LV6 (mở trần phẩm A) và tháo khỏi trang bị.",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-1.png"
+        },
+        {
+          "id": "step-ban-suc-2",
+          "name": "Bước 2: Vào Ban Sức",
+          "description": "Mở mục Trang bị ➔ chọn tính năng Ban Sức Vận Mệnh.",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-2.png"
+        },
+        {
+          "id": "step-ban-suc-3",
+          "name": "Bước 3: Mở Dòng Ban Sức",
+          "description": "Dùng Thủy Tinh Empower + 688 Xu mở dòng trên đá phôi LV4 (hoặc dùng Rương Điểm Hóa).",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-3.png"
+        },
+        {
+          "id": "step-ban-suc-4",
+          "name": "Bước 4: Thác Ấn Đá In",
+          "description": "Qua tab Thác Ấn, dùng Đá In hút dòng chữ vừa mở ra thành Đá Điểm Hóa.",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-5.png"
+        },
+        {
+          "id": "step-ban-suc-5",
+          "name": "Bước 5: Điểm Hóa Đá LV6",
+          "description": "Qua tab Điểm Hóa, ép Đá Điểm Hóa vào viên Đá Vận Mệnh LV6 để lên phẩm A.",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-4.png"
+        },
+        {
+          "id": "step-ban-suc-6",
+          "name": "Bước 6: Khảm Đủ 4 Viên A",
+          "description": "Khảm đủ 4 viên Đá LV6 phẩm A cùng tên vào 1 món trang bị để kích hoạt!",
+          "image": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-6.png"
+        }
+      ]
+    },
+    {
+      "id": "block-ban-suc-gallery",
+      "type": "gallery",
+      "title": "🖼️ Hình Ảnh Chi Tiết Từng Bước Thao Tác Trong Game",
+      "layout": "grid-2",
+      "images": [
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-1.png",
+          "caption": "Bước 1: Ghép Đá Quý Vận Mệnh lên LV6 (chỉ Đá LV6 mới kích hoạt được phẩm chất A)"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-2.png",
+          "caption": "Bước 2: Vào thanh menu Trang bị ➔ chọn biểu tượng Ban Sức Vận Mệnh"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-3.png",
+          "caption": "Bước 3: Ban Sức Đá Quý bằng Thủy Tinh Empower x1 + 688 Kim Cương để lấy dòng"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-5.png",
+          "caption": "Bước 4: Thác Ấn Vận Mệnh — thêm Đá In để rút dòng chữ (VD: C·Aether) ra thành Đá Điểm Hóa"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-4.png",
+          "caption": "Bước 5: Điểm Hóa Vận Mệnh — gắn Đá Điểm Hóa vào Đá Vận Mệnh LV6 để nâng lên phẩm chất A"
+        },
+        {
+          "url": "/games/sieu-anh-hung/tai-nguyen-anh/da-a-buoc-6.png",
+          "caption": "Bước 6: Hoàn tất khảm 4 viên A·Aether lên cùng 1 trang bị — kích hoạt 50% tỉ lệ Thần Hộ (Mệt Mỏi) né Diệt Ngay"
+        }
+      ]
+    },
+    {
+      "id": "block-ban-suc-table",
       "type": "table",
-      "title": "Bảng hiệu ứng",
-      "description": "Chi tiết các mốc tham gia và phần thưởng tương ứng",
+      "title": "📊 Bảng Tra Cứu Chi Tiết 10 Bộ Hiệu Ứng Ban Sức Vận Mệnh",
+      "description": "Chi tiết cơ chế kỹ năng và thông số khi khảm đủ 4 viên cùng loại theo từng bậc phẩm chất D (Lam) / C (Tím) / B (Vàng) / A (Đỏ):",
       "columns": [
         {
-          "id": "col-1",
-          "label": "Hiệu ứng",
+          "id": "col-set",
+          "label": "Bộ Ban Sức",
+          "type": "resource"
+        },
+        {
+          "id": "col-mechanic",
+          "label": "Cơ Chế Hoạt Động",
           "type": "text"
         },
         {
-          "id": "col-2",
-          "label": "Hiệu quả",
-          "type": "text"
+          "id": "col-tiers",
+          "label": "Thông Số Bộ 4 Viên (D / C / B / A)",
+          "type": "resource"
         }
       ],
       "rows": [
         {
-          "id": "row-1792000079292-1",
+          "id": "row-fate-aether",
           "cells": {
-            "col-1": {
-              "text": "Thần Hộ"
-            },
-            "col-2": {
+            "col-set": {
               "resources": [
                 {
-                  "name": "Ngọc Lục Bảo",
-                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/soft_glow_gem.png",
-                  "quantity": "x20"
+                  "name": "1. Aether",
+                  "icon": "/images/icon_fate/dianhaushi01_3_4.png",
+                  "quantity": "Thần Hộ (Mệt Mỏi)"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Thần Hộ (Mệt Mỏi): Có xác suất Né Tránh ngay đòn Tấn Công Diệt Ngay (Instant Kill).\n• Sau khi Thần Hộ có hiệu lực sẽ làm giảm số lần chắn của Thần Ngự."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi01_3_1.png",
+                  "quantity": "5% Né Diệt Ngay"
                 },
                 {
-                  "name": "Kim Cương",
-                  "icon": "/games/sieu-anh-hung/tai-nguyen-anh/cuong_hoa_thach.png",
-                  "quantity": "x500"
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi01_3_2.png",
+                  "quantity": "12% Né Diệt Ngay"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi01_3_3.png",
+                  "quantity": "26% Né Diệt Ngay"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi01_3_4.png",
+                  "quantity": "50% Né Diệt Ngay"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-titan",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "2. Titan",
+                  "icon": "/images/icon_fate/dianhaushi02_3_4.png",
+                  "quantity": "Loại Trừ Vô Địch"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Loại Trừ: Khi tấn công kẻ địch đang trong trạng thái Vô Địch, xóa bỏ Vô Địch của mục tiêu.\n• Ngay sau khi Loại Trừ kích hoạt, lập tức gây sát thương bằng % HP tối đa của bản thân."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi02_3_1.png",
+                  "quantity": "Xóa Vô Địch + 10% HP"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi02_3_2.png",
+                  "quantity": "Xóa Vô Địch + 20% HP"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi02_3_3.png",
+                  "quantity": "Xóa Vô Địch + 32% HP"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi02_3_4.png",
+                  "quantity": "Xóa Vô Địch + 46% HP"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-huy-diet",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "3. Hủy Diệt",
+                  "icon": "/images/icon_fate/dianhaushi03_3_4.png",
+                  "quantity": "Thiêu Cháy Đến Chết"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Khi tướng đeo set này ra sân, áp dụng lên kẻ địch hồi sinh: Sau khi địch hồi sinh, mỗi lượt tự động bị Thiêu Cháy mất % HP tối đa.\n• Kẻ địch bị Thiêu Cháy Đến Chết không thể phát động Kỹ năng tử vong (Ngược Thời Gian ra sân không bị ảnh hưởng)."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi03_3_1.png",
+                  "quantity": "Đốt 5% HP/lượt"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi03_3_2.png",
+                  "quantity": "Đốt 10% HP/lượt"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi03_3_3.png",
+                  "quantity": "Đốt 18% HP/lượt"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi03_3_4.png",
+                  "quantity": "Đốt 35% HP/lượt"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-lanh-chua",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "4. Lãnh Chúa",
+                  "icon": "/images/icon_fate/dianhaushi04_3_4.png",
+                  "quantity": "Thần Ngự Kháng Cự"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Khi đồng đội phe ta chết hoàn toàn sẽ kích hoạt hiệu ứng giúp bản thân nhận tầng Thần Ngự.\n• Thần Ngự Kháng Cự chặn hoàn toàn đòn Diệt Ngay, mỗi lần phát huy hiệu quả giảm 1 tầng."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi04_3_1.png",
+                  "quantity": "20% nhận 1 tầng"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi04_3_2.png",
+                  "quantity": "35% nhận 1 tầng"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi04_3_3.png",
+                  "quantity": "60% nhận 2 tầng"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi04_3_4.png",
+                  "quantity": "80% nhận 2 tầng"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-tinh-than",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "5. Tinh Thần",
+                  "icon": "/images/icon_fate/dianhaushi05_3_4.png",
+                  "quantity": "Thần Cấm"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Chủ động tấn công có xác suất khắc ấn Thần Cấm lên các mục tiêu địch.\n• Đơn vị bị Thần Cấm có thể bị bộ Khởi Nguyên tiêu diệt hoàn toàn; khi chết dù có Con Lắc (Ngược Thời Gian) cũng không thể ra sân lại."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi05_3_1.png",
+                  "quantity": "15% (2 địch, 1 lượt)"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi05_3_2.png",
+                  "quantity": "25% (2 địch, 1 lượt)"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi05_3_3.png",
+                  "quantity": "42% (3 địch, 2 lượt)"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi05_3_4.png",
+                  "quantity": "63% (3 địch, 2 lượt)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-than-thu",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "6. Thần Thư",
+                  "icon": "/images/icon_fate/dianhaushi06_3_4.png",
+                  "quantity": "Thần Ân (+Chỉ Số)"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Thần Ân: Trực tiếp tăng % thuộc tính cho mỗi viên Đá Quý Vận Mệnh trên trang bị.\n• Có hiệu lực ngay trước khi vào chiến đấu, không bị Loại Trừ và là bộ duy nhất có thể đeo chồng nhiều trang bị trên cùng 1 tướng."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi06_3_1.png",
+                  "quantity": "+3% thuộc tính đá"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi06_3_2.png",
+                  "quantity": "+6% thuộc tính đá"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi06_3_3.png",
+                  "quantity": "+11% thuộc tính đá"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi06_3_4.png",
+                  "quantity": "+22% thuộc tính đá"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-quang-nien",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "7. Quang Niên",
+                  "icon": "/images/icon_fate/dianhaushi07_3_4.png",
+                  "quantity": "Thần Ngự Tăng ST"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Thần Ngự Tăng ST: Tăng mạnh toàn bộ sát thương gây ra (bao gồm cả ST tấn công thường và ST thực/chuẩn) đối với kẻ địch đang mang trạng thái Thần Ngự."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi07_3_1.png",
+                  "quantity": "+20% ST lên Thần Ngự"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi07_3_2.png",
+                  "quantity": "+40% ST lên Thần Ngự"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi07_3_3.png",
+                  "quantity": "+70% ST lên Thần Ngự"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi07_3_4.png",
+                  "quantity": "+120% ST lên Thần Ngự"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-vuong-toa",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "8. Vương Tọa",
+                  "icon": "/images/icon_fate/dianhaushi08_3_4.png",
+                  "quantity": "Thần Ngự Tập Thể"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Khi tướng đeo bộ này chết hoàn toàn sẽ kích hoạt Thần Ngự cho toàn bộ phe ta theo số lượt.\n• Thần Ngự tập thể chặn hoàn toàn Diệt Ngay và không giới hạn số lần chặn trong suốt lượt có hiệu lực."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi08_3_1.png",
+                  "quantity": "5% toàn đội 1 lượt"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi08_3_2.png",
+                  "quantity": "10% toàn đội 1 lượt"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi08_3_3.png",
+                  "quantity": "18% toàn đội 1 lượt"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi08_3_4.png",
+                  "quantity": "35% toàn đội 2 lượt"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-khoi-nguyen",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "9. Khởi Nguyên",
+                  "icon": "/images/icon_fate/dianhaushi09_3_4.png",
+                  "quantity": "Diệt Sạch"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Diệt Sạch: Có xác suất tiêu diệt hoàn toàn kẻ địch đang mang trạng thái Thần Cấm có lượng HP thấp hơn ngưỡng quy định.\n• Mục tiêu bị Diệt Sạch không thể kích hoạt Ngược Thời Gian ra sân."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi09_3_1.png",
+                  "quantity": "15% diệt (HP < 10%)"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi09_3_2.png",
+                  "quantity": "22% diệt (HP < 18%)"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi09_3_3.png",
+                  "quantity": "32% diệt (HP < 30%)"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi09_3_4.png",
+                  "quantity": "55% diệt (HP < 45%)"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "row-fate-con-lac",
+          "cells": {
+            "col-set": {
+              "resources": [
+                {
+                  "name": "10. Con Lắc",
+                  "icon": "/images/icon_fate/dianhaushi10_3_4.png",
+                  "quantity": "Ngược Thời Gian"
+                }
+              ]
+            },
+            "col-mechanic": {
+              "text": "• Kích hoạt Ngược Thời Gian Ra Sân: Sau khi hoàn toàn tử vong có xác suất được ra sân chiến đấu lần nữa.\n• Khi ra sân lại không kích hoạt Kỹ năng tiền chiến; không thể bị Loại Trừ trừ khi trúng hiệu ứng Diệt Sạch."
+            },
+            "col-tiers": {
+              "resources": [
+                {
+                  "name": "4 Viên D",
+                  "icon": "/images/icon_fate/dianhaushi10_3_1.png",
+                  "quantity": "5% ra sân (Max 1 lần)"
+                },
+                {
+                  "name": "4 Viên C",
+                  "icon": "/images/icon_fate/dianhaushi10_3_2.png",
+                  "quantity": "12% ra sân (Max 1 lần)"
+                },
+                {
+                  "name": "4 Viên B",
+                  "icon": "/images/icon_fate/dianhaushi10_3_3.png",
+                  "quantity": "20% ra sân (Max 2 lần)"
+                },
+                {
+                  "name": "4 Viên A",
+                  "icon": "/images/icon_fate/dianhaushi10_3_4.png",
+                  "quantity": "32% ra sân (Max 2 lần)"
                 }
               ]
             }
           }
         }
       ]
+    },
+    {
+      "id": "block-ban-suc-tips",
+      "type": "text",
+      "title": "💡 Kinh Nghiệm Phối Bộ Ban Sức & Đồng Bộ Tinh Luyện Vận Mệnh Huy Hiệu",
+      "content": "• Tướng chủ lực (Carry / DPS chính): Ưu tiên ghép các bộ sinh tồn và xuyên phá như Aether (50% né Diệt Ngay), Con Lắc (32% quay lại sân sau khi tử vong hoàn toàn), Titan (xóa Vô Địch + nổ 46% HP tối đa) hoặc bộ đôi Tinh Thần + Khởi Nguyên để khắc chế cứng đội hình hồi sinh/Con Lắc của đối phương.\n• Tướng phụ / Chim mồi / Hỗ trợ hiến tế: Rất hợp đeo Vương Tọa (tử trận có 35% nổ 2 lượt Thần Ngự bất tử tập thể bảo kê cả đội) hoặc Lãnh Chúa.\n• Tối ưu lực chiến & chỉ số cơ bản: Vì các bộ Ban Sức chiến đấu không cộng dồn trùng tên trên cùng 1 tướng, các món trang bị còn dư có thể khảm chồng nhiều bộ Thần Thư để cộng dồn +22% thuộc tính Đá Quý Vận Mệnh.\n• Kết hợp Tinh Luyện Vận Mệnh (Huy Hiệu): Khi tướng đã mở Huy Hiệu, hãy vào mục Tinh Luyện Vận Mệnh của Huy Hiệu và tẩy đúng Giai Ban Sức + Loại Ban Sức trùng khớp với bộ Ban Sức đang đeo trên vị trí trang bị tương ứng (Tướng thường mở Vũ khí & Trang sức; Tướng lễ mở thêm Giáp; Tướng giới hạn mở đủ 4 món) để khuếch đại thêm hiệu quả của bộ Ban Sức đó.",
+      "variant": "tip"
     }
   ],
-  "updatedAt": "2026-10-21T14:05:17.694Z"
+  "updatedAt": "2026-11-10T00:45:00.000Z"
 }
